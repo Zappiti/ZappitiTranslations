@@ -1,44 +1,31 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Dictionary EnglishName="Netherlands" CultureName="nl-NL" Author="The Wizard">
-  <Value Id="SettingsTabValidation" Header="validatie">
-  </Value>
-  <Value Id="Globalization_XML" homeconfig="configuratie" homeinfo="informatie" configlm="Start Media" configipd="IP-adres" searchmovies="bioscoop" searchactors="acteurs" searchdirectors="directeur" abctitle="Al mijn bestanden" moviestitle="bioscoop" showstitle="serie" recentstitle="recent" categtitle="categorieën" detailtitle="Details" remoteplay="Spelen op je Dune ..." remotestop="Geen stroom afspelen op uw Dune ..." remoteback="Terugspoelen ..." remotefwd="Snel vooruit ...">
-  </Value>
-  <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune">
-  </Value>
-  <Value Id="SettingsDefault" Header="Defaut">
-  </Value>
-  <Value Id="SettingsAdvancedOptions" Header="Geavanceerde opties">
-  </Value>
-  <Value Id="SettingsTypeExport" ExportDune="Dune exportbestand:" ExportITunes="ITunes exportbestand:" Body="Definieer uw exportbestand." DoYouHaveADune="Ik heb een Dune" DoYouHaveAniPhone="Ik heb een iPhone / iPad / iPod" DeviceType="Device :" Primary="Prioriteit" Secondary="Secundair" Audio="Audio :" Subtitle="Ondertitel :" Encode="Codering parameter :" SubtitleRule="Breng de ondertitels :">
-  </Value>
-  <Value Id="SettingsIsNFS" Content="NFS-formaat">
-  </Value>
-  <Value Id="SettingsUserName" Text="Login :">
-  </Value>
-  <Value Id="SettingsUserPassword" Text="Wachtwoord :">
-  </Value>
-  <Value Id="MainScrapPicturesTvShow" Content="Achtergrondafbeelding">
-  </Value>
-  <Value Id="Export_XML" CreateGlobalizationCustomCommand="File generatie internationalisering" iPhoneItemExportCustomCommand="File generatie iTunes" ConfigXmlGeneratorCommand="Configuratie exporteren" MoviesXmlFileGeneratorCommand="Export films" AbcXmlFileGeneratorCommand="Export Base" TvShowsXmlFileGeneratorCommand="Export Series" CategoriesXmlFileGeneratorCommand="Export categorieën" RecentsXmlFileGeneratorCommand="Export recente">
-  </Value>
-  <Value Id="SettingsIsXmlExport" Text="Xml standaard">
-  </Value>
-  <Value Id="SettingsTabExport" Header="Export">
-  </Value>
-  <Value Id="SettingsFolders" Text="Uw folders :" />
+<?xml version="1.0" encoding="utf-8"?>
+<Dictionary EnglishName="Netherlands" CultureName="nl-NL" Author="The Wizard;Frisootje">
+  <Value Id="SettingsTabValidation" Header="validatie"></Value>
+  <Value Id="Globalization_XML" homeconfig="configuratie" homeinfo="informatie" configlm="start media" configipd="IP adres" searchmovies="films" searchactors="cast" searchdirectors="regisseur" abctitle="alle bestanden" moviestitle="films" showstitle="televisieseries" recentstitle="nieuw" categtitle="categorieën" detailtitle="details" remoteplay="Afspelen op Dune ..." remotestop="Stop afspelen op Dune ..." remoteback="Terugspoelen ..." remotefwd="Vooruitspoelen ..."></Value>
+  <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune"></Value>
+  <Value Id="SettingsDefault" Header="Standaard"></Value>
+  <Value Id="SettingsAdvancedOptions" Header="Geavanceerde opties"></Value>
+  <Value Id="SettingsTypeExport" ExportDune="Dune exportbestand:" ExportITunes="iTunes exportbestand:" Body="Selecteer exportbestand." DoYouHaveADune=" Exporteren voor Dune" DoYouHaveAniPhone=" Exporteren voor Apple iOS apparaat (via iTunes)" DeviceType="Apparaat:" Primary="Eerste keus" Secondary="Tweede keus" Audio="Audio:" Subtitle="Ondertitels:" Encode="Codering parameter" SubtitleRule="Gebruik ondertiteling:"></Value>
+  <Value Id="SettingsIsNFS" Content="NFS share"></Value>
+  <Value Id="SettingsUserName" Text="Gebruikersnaam:"></Value>
+  <Value Id="SettingsUserPassword" Text="Wachtwoord:"></Value>
+  <Value Id="MainScrapPicturesTvShow" Content="Achtergrondafbeelding"></Value>
+  <Value Id="Export_XML" CreateGlobalizationCustomCommand="Bestand maken internationalisering" iPhoneItemExportCustomCommand="Bestand maken iTunes" ConfigXmlGeneratorCommand="Configuratie exporteren" MoviesXmlFileGeneratorCommand="Export Films" AbcXmlFileGeneratorCommand="Export Base" TvShowsXmlFileGeneratorCommand="Export Series" CategoriesXmlFileGeneratorCommand="Export categorieën" RecentsXmlFileGeneratorCommand="Export Nieuw"></Value>
+  <Value Id="SettingsIsXmlExport" Text="XML standaard"></Value>
+  <Value Id="SettingsTabExport" Header="Export"></Value>
+  <Value Id="SettingsFolders" Text="Mappen:" />
   <Value Id="SettingsOK" Content="OK" />
   <Value Id="SettingsCancel" Content="Annuleren" />
-  <Value Id="SettingsAddFolder" Content="Nieuwe folder" />
+  <Value Id="SettingsAddFolder" Content="Nieuwe map" />
   <Value Id="SettingsDeleteFolder" Content="Wissen" />
   <Value Id="SettingsModifyFolder" Content="Bewerken" />
   <Value Id="SettingsBrowse" Content="Bladeren" />
-  <Value Id="SettingsFolderPath" Text="Folder path :" />
-  <Value Id="SettingsZappitiDataPath" Text="Configuratie folder :" />
-  <Value Id="SettingsRewriteAbsolutePath" Text="Absoluut path herschrijven bij exporteren:" />
-  <Value Id="UnscrapedScrap" Content="Verzamel" />
-  <Value Id="UnscrapedScrapAll" Content="Verzamel alles" />
-  <Value Id="UnscrapedDefault" Content="Bij verstek" />
+  <Value Id="SettingsFolderPath" Text="Pad:" />
+  <Value Id="SettingsZappitiDataPath" Text="Configuratiemap:" />
+  <Value Id="SettingsRewriteAbsolutePath" Text="Absoluut pad vertalen bij exporteren:" />
+  <Value Id="UnscrapedScrap" Content="Deze scrapen" />
+  <Value Id="UnscrapedScrapAll" Content="Alles scrapen" />
+  <Value Id="UnscrapedDefault" Content="Standaard" />
   <Value Id="UnscrapedClose" Content="Sluiten" />
   <Value Id="SelectMediaInResultsOK" Content="OK" />
   <Value Id="SelectMediaInResultsCancel" Content="Annuleren" />
@@ -71,171 +58,164 @@
   <Value Id="Y" Text="Y" />
   <Value Id="Z" Text="Z" />
   <Value Id="EditTitle" Text="Titel" />
-  <Value Id="EditRuntime" Text="Speeltijd" />
+  <Value Id="EditRuntime" Text="Speelduur" />
   <Value Id="EditYear" Text="Release" />
   <Value Id="EditSynopsis" Text="Beschrijving" />
-  <Value Id="EditDirectors" Text="Regiseur" />
-  <Value Id="EditActors" Text="Acteurs" />
+  <Value Id="EditDirectors" Text="Regisseur" />
+  <Value Id="EditActors" Text="Cast" />
   <Value Id="EditAspectRatio" Text="Aspect Ratio" />
-  <Value Id="EditExtension" Text="Bak" />
-  <Value Id="EditCodecVideo" Text="Video Codec" />
-  <Value Id="EditFramerate" Text="Frequency" />
+  <Value Id="EditExtension" Text="Type" />
+  <Value Id="EditCodecVideo" Text="Video codec" />
+  <Value Id="EditFramerate" Text="Framerate" />
   <Value Id="EditDefinition" Text="Definition" />
-  <Value Id="EditCodecAudio" Text="Audio Codec" />
-  <Value Id="EditCategories" Text="Categorieen" />
+  <Value Id="EditCodecAudio" Text="Audio codec" />
+  <Value Id="EditCategories" Text="Categorieën" />
   <Value Id="EditSubTitles" Text="Ondertitels" />
   <Value Id="EditLanguages" Text="Talen" />
   <Value Id="EditViewNotView" Text="Gezien" />
   <Value Id="EditOK" Content="OK" />
   <Value Id="EditCancel" Content="Annuleren" />
-  <Value Id="MainHome" Content="Home">
-  </Value>
-  <Value Id="MainSearchMedias" Content="Zoek">
-  </Value>
+  <Value Id="MainHome" Content="Home"></Value>
+  <Value Id="MainSearchMedias" Content="Zoek"></Value>
   <Value Id="MainConfiguration" Content="Configuratie" />
   <Value Id="MainScan" Content="Zoek" />
   <Value Id="MainExport" ExportDune="Export Dune" ExportITunes="Export iTunes" Title="Export huidige ..." />
   <Value Id="MainEdit" Content="Bewerken" />
-  <Value Id="MainScrapDetails" Content="Verzamelen details" />
+  <Value Id="MainScrapDetails" Content="Verzamelen metadata" />
   <Value Id="MainScrapPictures" Content="Verzamelen plaatjes" />
-  <Value Id="MainInfo" Text="{0} Films, {1} TV Series, {2} Afleveringen" />
-  <Value Id="MainToScrap" Text="{0} op te zoeken" />
-  <Value Id="MainToCleanUp" Text="{0} op te ruimen" />
-  <Value Id="MainIsScanning" Text="Zoeken : {0}" />
-  <Value Id="MainIsScraping" Text="Verzamelen : {0}" />
-  <Value Id="MainIsAnalysing" Text="Analyseren : {0}" />
-  <Value Id="MainIsDownloadingPicture" Text="Downloaden plaatjes : {0}" />
-  <Value Id="MainDonate" Content="Doneer !" />
+  <Value Id="MainInfo" Text="{0} films, {1} series, {2} afleveringen" />
+  <Value Id="MainToScrap" Text="{0} nog opzoeken" />
+  <Value Id="MainToCleanUp" Text="{0} nog opruimen" />
+  <Value Id="MainIsScanning" Text="Zoeken: {0}" />
+  <Value Id="MainIsScraping" Text="Verzamelen: {0}" />
+  <Value Id="MainIsAnalysing" Text="Analyseren: {0}" />
+  <Value Id="MainIsDownloadingPicture" Text="Downloaden plaatjes: {0}" />
+  <Value Id="MainDonate" Content="Doneer" />
   <Value Id="MainAbout" Content="Over" />
   <Value Id="SelectPictureChoose" Content="Kies" />
-  <Value Id="SelectPictureBrowse" Content="Kies van Harddisk" />
+  <Value Id="SelectPictureBrowse" Content="Kies van harddisk" />
   <Value Id="SelectPictureClose" Content="Sluiten" />
-  <Value Id="CleanUpMessage" Text="De volgende media is onberijkbaar.Wilt U deze uit de database verwijderen?" />
+  <Value Id="CleanUpMessage" Text="Onderstaande media is onbereikbaar. Uit de database verwijderen?" />
   <Value Id="CleanUpOK" Content="Opschonen" />
   <Value Id="CleanUpClose" Content="Sluiten" />
   <Value Id="Splash" Content="Sluiten" />
-  <Value Id="DatabaseBadVersion" Text="De huidige versie van Zappiti kan de geselecterde database biet openen. Probeer een hogere versie van Zappiti." />
-  <Value Id="MessageBox" ConfigureSharePath="Configureer uw share pad om verder te gaan." NewReleaseAvailable="Een nieuwe versie is beschikbaar ! Wilt U die nu downloaden {0} {1} ?" DoYouWantToDeleteThisGroup="Wilt U dit item echt verwijderen?" DoYouWantToDeleteTheseGroup="Wil je echt deze items wilt verwijderen?" DeleteCategory="Wilt u deze categorie wilt verwijderen?" ResetCategories="Wilt u alle categorieën reset?" ResetMainMenu="Wilt u alle menu&amp;#39;s opnieuw in te stellen?" ResetABCMenu="Wilt u om alle knoppen te resetten?" ResetFilterMenu="Wilt u om alle knoppen te filters?" VersionExpired="Deze versie van Zappiti verlopen, maar een nieuwe versie beschikbaar is! Wilt u downloaden?" AddFolder="Je hoeft niet naar het bestand {0} toe te voegen aan uw configuratie. Wil je toevoegen?" CanStartDuneServer="Kan niet worden gestart met de server. " DoYouWanToInstallMpcHd="Zou het installeren van Media Player Classic - HC ?" />
-  <Value Id="MessageBoxCaption" NewReleaseAvailable="Update available" DoYouWantToDeleteThisGroup="Item Verwijderd" DoYouWantToDeleteTheseGroup="Remove Items" DeleteCategory="Verwijder een categorie" ResetCategories="Reset Categorieën" ResetMainMenu="Reset menu&amp;#39;s" ResetABCMenu="Reset knoppen" VersionExpired="Update beschikbaar" AddFolder="Voeg de locatie?" CanStartDuneServer="Fout" DoYouWanToInstallMpcHd="Vereiste software" />
+  <Value Id="DatabaseBadVersion" Text="De huidige versie van Zappiti kan deze database niet openen. Probeer een nieuwere versie van Zappiti." />
+  <Value Id="MessageBox" ConfigureSharePath="Configureer uw share pad om verder te gaan." NewReleaseAvailable="Een nieuwe versie is beschikbaar! Nu downloaden {0} {1} ?" DoYouWantToDeleteThisGroup="Item echt verwijderen?" DoYouWantToDeleteTheseGroup="Items echt verwijderen?" DeleteCategory="Deze categorie echt verwijderen?" ResetCategories="Alle categorieën resetten?" ResetMainMenu="Alle menu&amp;#39;s opnieuw instellen?" ResetABCMenu="Alle knoppen resetten?" ResetFilterMenu="Alle filters resetten?" VersionExpired="Deze versie van Zappiti is verlopen, maar er is een nieuwe versie beschikbaar! Wilt u die downloaden?" AddFolder="De geselecteerde map {0} is nog niet toegevoegd. Nu toevoegen?" CanStartDuneServer="Kan niet worden gestart met de server." DoYouWanToInstallMpcHd="Wil u Media Player Classic - Home Cinema installeren?" />
+  <Value Id="MessageBoxCaption" NewReleaseAvailable="Update beschikbaar" DoYouWantToDeleteThisGroup="Item verwijderd" DoYouWantToDeleteTheseGroup="Items verwijderd" DeleteCategory="Verwijder categorie" ResetCategories="Reset categorieën" ResetMainMenu="Reset menu&amp;#39;s" ResetABCMenu="Reset knoppen" VersionExpired="Update beschikbaar" AddFolder="Deze map toevoegen?" CanStartDuneServer="Fout" DoYouWanToInstallMpcHd="Vereiste software" />
   <Value Id="EditChannels" Text="Kanalen" />
   <Value Id="TVShowSeasonList" SeasonUp="SEASON {0}" />
-  <Value Id="AddToGroupNewGroup" Content="Nieuwe Groep" />
+  <Value Id="AddToGroupNewGroup" Content="Nieuwe groep" />
   <Value Id="EditGroupCancel" Content="Annuleren" />
   <Value Id="EditGroupOK" Content="Opslaan" />
-  <Value Id="FrequentWords" Words="de;en;het;van;ik;te;dat;die;in;een;hij;niet;zijn" />
+  <Value Id="FrequentWords" Words="de;een;het;van;ik;te;dat;die;in;en;hij;niet;zijn" />
   <Value Id="EditBrowseFilename" Content="Bladeren" />
-  <Value Id="EditFilename" Text="Path Media" />
+  <Value Id="EditFilename" Text="Pad naar media" />
   <Value Id="EditSubTitle" Text="Ondertitels" />
-  <Value Id="EditGroupTitle" Text="Groep naam" />
-  <Value Id="EditGroupChilds" Text="Leden van de groep" />
+  <Value Id="EditGroupTitle" Text="Groepsnaam" />
+  <Value Id="EditGroupChilds" Text="Subgroepen" />
   <Value Id="EditGroupSortByData" Content="Sorteer op datum" />
   <Value Id="EditGroupMoveUp" Content="Omhoog" />
   <Value Id="EditGroupMoveDown" Content="Omlaag" />
   <Value Id="EditGroupMoveRemove" Content="Annuleren" />
   <Value Id="EditGroup" Group="Groep" />
-  <Value Id="SelectPictureMedias" Text="Seleteer een media :" />
-  <Value Id="SelectPictureQuotaIsOver" Text="Uw quotum wordt overschreden download dit schraper. Bedankt Probeer het later opnieuw." />
-  <Value Id="EditMenuIcons" ToolTip="Verander het pictogram" Text="Pictogrammen :" />
+  <Value Id="SelectPictureMedias" Text="Selecteer media:" />
+  <Value Id="SelectPictureQuotaIsOver" Text="Door het ophalen van deze metadata overschrijdt u het quotum. Probeer later opnieuw." />
+  <Value Id="EditMenuIcons" ToolTip="Verander het pictogram" Text="Pictogrammen:" />
   <Value Id="EditMenuBack" ToolTip="Verander de achtergrond" />
-  <Value Id="EditMenuBackRollOver" ToolTip="Verander de achtergrond zweven" />
+  <Value Id="EditMenuBackRollOver" ToolTip="Verander de achtergrond" />
   <Value Id="CategoryContextEdit" Header="Edit..." />
   <Value Id="CategoryContextDelete" Header="Verwijderen" />
-  <Value Id="EditCategoriesLabel" Text="Categorie :" />
-  <Value Id="EditCategoriesKeywords" Text="Tags :" />
+  <Value Id="EditCategoriesLabel" Text="Categorie:" />
+  <Value Id="EditCategoriesKeywords" Text="Trefwoorden:" />
   <Value Id="EditMenuOK" Content="Bevestigen" />
   <Value Id="EditMenuCancel" Content="Annuleren" />
   <Value Id="EditMenuBrowse" Content="Bladeren ..." />
-  <Value Id="EditCategoriesAdd" ToolTip="Toevoegen Categorie" />
+  <Value Id="EditCategoriesAdd" ToolTip="Categorie toevoegen" />
   <Value Id="MainAddCategory" Content="Nieuwe categorie" />
-  <Value Id="MoreMediaInfosRightClick" Text="Gelieve Klik met de rechtermuisknop bestelling van meer orders..." />
-  <Value Id="CategoryContextReset" Header="Reset Categorieën" />
+  <Value Id="MoreMediaInfosRightClick" Text="Klik met rechtermuisknop voor meer opties" />
+  <Value Id="CategoryContextReset" Header="Reset categorieën" />
   <Value Id="MainMenuContextReset" Header="Reset" />
   <Value Id="MainMenuContextEdit" Header="Edit ..." />
   <Value Id="ABCMenuContextEdit" Header="Edit ..." />
   <Value Id="ABCMenuContextReset" Header="Reset" />
-  <Value Id="DatabaseUpdating" Text="Update de database ..." />
+  <Value Id="DatabaseUpdating" Text="Werk database bij ..." />
   <Value Id="EditGroupSortByName" Content="Sorteren op titel" />
-  <Value Id="SelectPictureTabHeader" Folder="Jas" Background="Achtergrond" />
-  <Value Id="SettingsTabFolders" Header="Archief" />
-  <Value Id="SettingsTabOthers" Header="Ander" SendErrorReport="Automatisch een bericht in de ontwikkelaars wanneer een fout optreedt." />
-  <Value Id="SettingsTabScrapers" Header="Scrape" MovieScraper="Films:" MoviePictureScraper="Beelden van films:" TVShowScraper="Serie:" TVShowPictureScraper="Beelden van serie:" ScrapOnStarWindows="Start het scannen van bestanden de applicatie niet starten">
-  </Value>
-  <Value Id="GroupContextState" Seen="Bekeken" Ongoing="Lopende" Unseen="Ongezien" Stateless="Staatloze" />
-  <Value Id="EditSize" Text="Maat" />
-  <Value Id="Loading" Text="Laden ...">
-  </Value>
-  <Value Id="NoTitleFoundToScrap" Text="Geen overeenkomstige film">
-  </Value>
+  <Value Id="SelectPictureTabHeader" Folder="Hoesje" Background="Achtergrond" />
+  <Value Id="SettingsTabFolders" Header="Collectie" />
+  <Value Id="SettingsTabOthers" Header="Overig" SendErrorReport=" Stuur een bericht naar de ontwikkelaars als er een fout optreedt." />
+  <Value Id="SettingsTabScrapers" Header="Scrapen" MovieScraper="Films:" MoviePictureScraper="Beelden van films:" TVShowScraper="Series:" TVShowPictureScraper="Beelden van series:" ScrapOnStarWindows="Scan bestanden bij starten van de applicatie"></Value>
+  <Value Id="GroupContextState" Seen="Gezien" Ongoing="Huidig" Unseen="Nieuw" Stateless="Onbekend" />
+  <Value Id="EditSize" Text="Afmeting" />
+  <Value Id="Loading" Text="Laden ..."></Value>
+  <Value Id="NoTitleFoundToScrap" Text="Geen films gevonden"></Value>
   <Value Id="FiltersMenuAll" Text="ALLE" />
-  <Value Id="FiltersMenuSeen" Text="BEKEKEN" />
-  <Value Id="FiltersMenuUnseen" Text="ONGEZIEN" />
-  <Value Id="FiltersMenuOngoing" Text="LOPENDE" />
-  <Value Id="Prepare_Application" Content="Toepassing Configuratie" SettingsLoading="Het laden van de configuratie" ScanningAllFiles="Start de scan bestanden" DataBaseLoading="Het laden van de database" DataBaseCleanUp="Het schoonmaken van de Database" EnablingFeatureBrowserEmulation="Het inschakelen van emulatie functionaliteit van de browser.">
-  </Value>
-  <Value Id="WizardWelcome" Body="Harte welkom.[br][br]Deze wizard helpt u configureren Zappiti.[br][br]Klik op de &quot;Zeggen waar zijn mijn video's&quot; om ons te vertellen waar uw films." AddMovies="Zeggen waar zijn uw video's &gt;&gt;" Close="Sluiten" Header="Setup Wizard" />
-  <Value Id="WizardAddLocalLocation" Name="Voeg een lokale map" Description="- Interne harde schijf van deze computer [br] - Externe harde schijf aangesloten op de USB / eSATA deze computer [br] - harde schijf in een docking station aangesloten op deze computer via USB / eSATA [br] - Dune Drive verbonden USB Slave op deze computer" Header="Lokale mappen" Tips="Tips: Je kunt ervoor kiezen om deze bestanden te delen op je lokale netwerk, of direct toegankelijk met Dune in het geval van USB-apparaat." Folders="Lokale schijven / USB-apparaten" />
-  <Value Id="WizardAddNetworkLocation" Name="Voeg een gedeelde netwerkmap" Description="- Interne harde schijf van de netwerk-Dune [br] - Externe Harde of Dune netwerk [br] - NAS-server [br] - Andere externe computer in het netwerk [br] - gedeelde netwerkmap [br] - netwerk harde schijven" Header="Gedeelde netwerkmappen, NAS ..." Tips="Tips: U kunt USB, NAS, etc. te kopen op de site van HD LAND." Folders="Netwerklocaties" />
-  <Value Id="WizardWhereAreYourMovies" Header="Waar zijn je films?" Body="Selecteer hieronder een van de opties aan te geven waar uw films of tv." Back="&lt;&lt;Vorige" Close="Sluiten" />
-  <Value Id="WizardAddLocation" Body="Sleep de bestanden die u wilt toevoegen aan de lijst aan de rechterkant." YourFolders="Uw videobestanden" Next="Volgende&gt;&gt;" Back="&lt;&lt;Vorige" Close="Sluiten" />
-  <Value Id="WizardAddAnotherLocation" Header="Voeg een andere locatie?" Next="Volgende&gt;&gt;" YourFolders="Samenvatting van uw video-bestanden" Close="Sluiten" />
-  <Value Id="FolderDataTemplate" Edit="Verandering" Delete="Verwijderen" />
-  <Value Id="WizardRewriteLocationUrl" Header="Oprichting van het pad" Body="Kies de locatie van deze map en deze betreden via het station Dune HD: [br](aangeven waar deze map zal worden geplaatst op het einde)" Back="&lt;&lt; Vorig" Next="Volgende &gt;&gt;" ExternLabel="Op een externe harde schijf aangesloten op de Dune HD" NetworkLabel="Op een NAS-server, netwerkmap, een harde schijf binnen / buiten van de PC" UnknowLabel="Gewoonte" Close="Sluiten" InternLabel="Op een interne harde schijf Dune HD" />
-  <Value Id="LocalRewriteUrlEngineView" Body="Deze map moet worden gedeeld op uw netwerk om je Dune er toegang toe." IAccept="Ik ga akkoord met deze map te delen." />
-  <Value Id="SettingsHost" Text="Host name / IP :" />
-  <Value Id="SettingsPath" Text="Plaats :" />
-  <Value Id="WizardConfigureType" Header="Type video" Body="Wat is dit?" Movie="Bevat Films" TVShow="Bevat Series" Back="&lt;&lt;Vorige" Close="Dicht" Music="Bevat Muziek" />
-  <Value Id="Folder" Movie="Bioscoop" TVShow="Serie" Music="Muziek" />
+  <Value Id="FiltersMenuSeen" Text="GEZIEN" />
+  <Value Id="FiltersMenuUnseen" Text="NET NIEUW" />
+  <Value Id="FiltersMenuOngoing" Text="HUIDIG" />
+  <Value Id="Prepare_Application" Content="Configuratie toepassen" SettingsLoading="Configuratie laden" ScanningAllFiles="Start scan van bestanden" DataBaseLoading="Database laden" DataBaseCleanUp="Database bijwerken en opschonen" EnablingFeatureBrowserEmulation="Browseremulatie starten"></Value>
+  <Value Id="WizardWelcome" Body="Hartelijk welkom![br][br]Deze wizard helpt u bij het configureren van Zappiti Media Center.[br][br]Klik hieronder op de knop &quot;Bestanden kiezen&quot; om aan te geven waar uw mediabestanden staan." AddMovies="Bestanden kiezen &gt;&gt;" Close="Sluiten" Header="Setup Wizard" />
+  <Value Id="WizardAddLocalLocation" Name="Lokale map toevoegen" Description="- Interne harde schijf van deze computer [br]- Externe harde schijf (USB/eSATA) van deze computer[br]- Externe harde schijf in een docking station[br]- Dune schijf, via USB (tijdelijk) rechtstreeks verbonden[br]" Header="Lokale mappen" Tips="Tips: Om lokaal opgeslagen mediabestanden met uw Dune af te kunnen spelen, moet u ze delen in het netwerk of een externe USB/eSATA disk rechtstreeks aan de Dune aansluiten!" Folders="Lokale mappen / USB-apparaten" />
+  <Value Id="WizardAddNetworkLocation" Name="Netwerkmap toevoegen" Description="- Dune schijf, via het netwerk verbonden[br] - Externe Harde of Dune netwerk[br]- Netwerkschijf of NAS server[br]- Andere computer in het netwerk[br]- gedeelde netwerkmap[br]- netwerk harde schijven" Header="Netwerkmappen, NAS ..." Tips="Tips: U kunt USB, NAS, etc. te kopen op de site van HD LAND" Folders="Netwerkmappen" />
+  <Value Id="WizardWhereAreYourMovies" Header="Waar staan uw mediabestanden?" Body="Geef hieronder aan waar uw films en televisieprogramma's te vinden zijn." Back="&lt;&lt; Vorige" Close="Sluiten" />
+  <Value Id="WizardAddLocation" Body="Sleep de mappen die u wilt toevoegen naar de lijst aan de rechterkant." YourFolders="Mediabestanden" Next="Volgende &gt;&gt;" Back="&lt;&lt; Vorige" Close="Sluiten" />
+  <Value Id="WizardAddAnotherLocation" Header="Nog een map toevoegen?" Next="Volgende &gt;&gt;" YourFolders="Geselecteerde mappen" Close="Sluiten" />
+  <Value Id="FolderDataTemplate" Edit="Wijzigen" Delete="Verwijderen" />
+  <Value Id="WizardRewriteLocationUrl" Header="Correct pad aanmaken" Body="Geef aan waar deze map bij het afspelen door de Dune gevonden kan worden:" Back="&lt;&lt; Vorige" Next="Volgende &gt;&gt;" ExternLabel="Op een externe harde schijf, rechtstreeks aangesloten op de Dune" NetworkLabel="Op een NAS server, netwerkmap of ergens anders op het netwerk" UnknowLabel="Geen idee, weet ik nu nog niet" Close="Sluiten" InternLabel="Op een interne harde schijf van de Dune" />
+  <Value Id="LocalRewriteUrlEngineView" Body="Deze map moet worden gedeeld op het netwerk om de Dune toegang te geven." IAccept="Ja, deel deze map in het netwerk." />
+  <Value Id="SettingsHost" Text="Hostnaam/IP adres:" />
+  <Value Id="SettingsPath" Text="Pad:" />
+  <Value Id="WizardConfigureType" Header="Bestandstype kiezen" Body="Wat voor mediabestanden staan er in deze map?" Movie="In deze map staan films" TVShow="In deze map staan televisieseries" Back="&lt;&lt; Vorige" Close="Sluiten" Music="Bevat Muziek" />
+  <Value Id="Folder" Movie="Films" TVShow="Series" Music="Muziek" />
   <Value Id="Settings" PlayerHeader="Speler" Header="Configuratie" />
-  <Value Id="PlayerConfigView" IsServerRunning="Ondersteuning inschakelen voor de afstandsbediening." Port="Port :" />
-  <Value Id="WizardDownloadMpcPlayer" Header="Download MPC - Home Cinema" Next="Volgend &gt;&gt;" Close="Sluiten" Body="Het downloaden, dank u voor uw geduld ...." />
-  <Value Id="WizardInstallMpcPlayer" Header="Het installeren van MPC - Home Cinema" Body="Bestaande installatie. " Close="Sluiten" Completed="Gefeliciteerd, de installatie van MPC - Home Cinema vond plaats met succes." Failed="De installatie is mislukt om wat voor reden." />
-  <Value Id="MpcPlayerConfigView" Download="Download en installeer MPC - Home Cinema" PlayerPath="Pad:" Browse="Reizen..." />
-  <Value Id="SettingsTabInterface" Header="Interface" Language="Taal :" Background="Persoonlijke achtergrond" GlassShow="Bekijk het effect ijs" ShowHeader="Toon header jassen" SeenUnseen="Toon iconen Bekeken / Staatloze" DynamicZoom="Pictogrammen met dynamische zoom" SelectionBox="Dynamische contour" Theme="Thema :" />
+  <Value Id="PlayerConfigView" IsServerRunning="Ondersteuning inschakelen voor de afstandsbediening" Port="Poort:" />
+  <Value Id="WizardDownloadMpcPlayer" Header="Download MPC - Home Cinema" Next="Volgende &gt;&gt;" Close="Sluiten" Body="Downloaden, even geduld ..." />
+  <Value Id="WizardInstallMpcPlayer" Header="Installeren van MPC - Home Cinema" Body="Bestaande installatie." Close="Sluiten" Completed="De installatie van MPC - Home Cinema is gelukt." Failed="De installatie is mislukt!" />
+  <Value Id="MpcPlayerConfigView" Download="Download en installeer MPC - Home Cinema" PlayerPath="Pad:" Browse="Bladeren..." />
+  <Value Id="SettingsTabInterface" Header="Interface" Language="Taal:" Background="Aangepaste achtergrond" GlassShow="Toon plaatjes met glas-effect" ShowHeader="Toon Blu-ray/DVD doosjes" SeenUnseen="Toon indicator voor nieuw/gezien" DynamicZoom="Gebruik zoom-effect voor plaatjes" SelectionBox="Gebruik oranje selectiekader" Theme="Thema :" />
   <Value Id="TaskManagerView" Header="Spots zijn" Close="Sluiten" />
-  <Value Id="PlayTask" Header="Het openen van een video" />
+  <Value Id="PlayTask" Header="Bestand openen" />
   <Value Id="DownloadVcdTask" Header="Download VirtualCloneDrive" />
-  <Value Id="InstallVcdTask" Header="Het installeren van VirtualCloneDrive" />
-  <Value Id="DeleteVcdSetupTask" Header="Verwijder de installateur VirtualCloneDrive" />
-  <Value Id="MountTask" Header="Montage van de disk image" />
-  <Value Id="MountCheckTask" Header="Wachten op de virtuele schijf" />
-  <Value Id="UnscrapedView" Filename="Bestandsnaam" Directory="Repertoire" State="Staat" Title="Bestanden tot schroot" />
-  <Value Id="FirstInitFromMovieNfoTask" Header="Initialisatie informatie van een film" />
-  <Value Id="UpdateMainViewModelTask" Header="Vernieuwen van video's geplaatst" />
-  <Value Id="MediaToDeleteTask" Header="Zoeken naar bestanden die niet meer bestaat" />
-  <Value Id="FirstInitTask" Header="Initialisatie" />
-  <Value Id="ScanTask" Header="In het scannen van" />
-  <Value Id="ScanForTVShowEpisodeTask" Header="Initialisatie informatie van een episode" />
-  <Value Id="FirstInitFromTVShowNfoTask" Header="Initialisatie informatie in een reeks" />
-  <Value Id="FirstInitFromTVEpisodeNfoTask" Header="Initialisatie informatie van een episode" />
-  <Value Id="ScanMoviesFolders" Header="Scan bestanden films" />
-  <Value Id="ScanTVShowFolders" Header="Scan bestanden serie" />
-  <Value Id="ExportTypeView" Header="Aard van de export" RegisterZappitiPlayerLabel="Heeft u een Zappiti Player?" RegisterZappitiPlayerButton="Activeer nu!" RegisterZappitiPlayerSmallLabel="Door het activeren van uw Zappiti Player, kunt u ook exporteren bibliothèquee muziek." ExportMusic="Export muziek" Close="Sluiten" />
-  <Value Id="FullExportType" Name="Compleet" Description="Uw gehele collectie is volledig geëxporteerd." />
-  <Value Id="IncrementalExportType" Name="Incrementeel" Description="Alleen de laatste wijzigingen sinds de laatste export worden geëxporteerd." />
+  <Value Id="InstallVcdTask" Header="Installeer VirtualCloneDrive" />
+  <Value Id="DeleteVcdSetupTask" Header="Verwijder VirtualCloneDrive setup" />
+  <Value Id="MountTask" Header="ISO bestand laden als virtuele schijf" />
+  <Value Id="MountCheckTask" Header="Wachten tot virtuele schijf beschikbaar is" />
+  <Value Id="UnscrapedView" Filename="Bestandsnaam" Directory="Repertoire" State="Status" Title="Bestanden om te scrapen" />
+  <Value Id="FirstInitFromMovieNfoTask" Header="Mediainformatie zoeken" />
+  <Value Id="UpdateMainViewModelTask" Header="Bestaande bestanden bijwerken" />
+  <Value Id="MediaToDeleteTask" Header="Zoeken naar verwijderde bestanden" />
+  <Value Id="FirstInitTask" Header="Opstarten" />
+  <Value Id="ScanTask" Header="Bezig met scannen van" />
+  <Value Id="ScanForTVShowEpisodeTask" Header="Zoeken naar info over aflevering" />
+  <Value Id="FirstInitFromTVShowNfoTask" Header="Informatie over televisieserie zoeken" />
+  <Value Id="FirstInitFromTVEpisodeNfoTask" Header="Informatie over aflevering zoeken" />
+  <Value Id="ScanMoviesFolders" Header="Bestanden scannen (films)" />
+  <Value Id="ScanTVShowFolders" Header="Bestanden scannen (televisieseries)" />
+  <Value Id="ExportTypeView" Header="Type export" RegisterZappitiPlayerLabel="Heeft u een Zappiti Player?" RegisterZappitiPlayerButton="Activeer nu!" RegisterZappitiPlayerSmallLabel="Door het activeren van uw Zappiti Player, kunt u ook exporteren bibliothèquee muziek." ExportMusic="Export muziek" Close="Sluiten" />
+  <Value Id="FullExportType" Name="Volledig" Description="De volledige collectie exporteren." />
+  <Value Id="IncrementalExportType" Name="Incrementeel" Description="Alleen wijzigingen sinds de laatste export exporteren." />
   <Value Id="RescrapSelect" Content="Kiezen" />
-  <Value Id="WizardFinish" Header="Configuratie Compleet" Body="Configuratie Zappiti Media Center is voltooid." Close="Sluiten" Back="&lt;&lt;Vorige" />
-  <Value Id="WizardConfigureExportDevice" Header="Heeft u apparaten?" Body="Selecteer de apparaten die u bezit :" Back="&lt;&lt;Vorige" Next="Volgend &gt;&gt;" Close="Sluiten" />
-  <Value Id="WizardConfigureDuneExport" Header="Configuratie van Dune" Body="Indien uw gegevens exporteren?" Back="&lt;&lt;Vorige" Next="Volgend &gt;&gt;" Close="Sluiten" />
-  <Value Id="WizardConfigureITunesExport" Header="Configuratie voor iTunes" Body="Indien uw gegevens exporteren?" Back="&lt;&lt;Vorige" Next="Volgend &gt;&gt;" Close="Sluiten" />
+  <Value Id="WizardFinish" Header="Klaar!" Body="De configuratie van Zappiti Media Center is voltooid.[br][br]Laat Zappiti nu uw mediabestanden doorzoeken (klik op het vizier linksboven) zodat informatie over uw collectie volautomatisch van het internet kan worden gehaald.[br][br]Veel plezier met Zappiti!" Close="Sluiten" Back="&lt;&lt; Vorige" />
+  <Value Id="WizardConfigureExportDevice" Header="Heeft u apparaten?" Body="Selecteer de apparaten die u bezit :" Back="&lt;&lt; Vorige" Next="Volgende &gt;&gt;" Close="Sluiten" />
+  <Value Id="WizardConfigureDuneExport" Header="Configuratie voor Dune" Body="Indien uw gegevens exporteren?" Back="&lt;&lt; Vorige" Next="Volgend &gt;&gt;" Close="Sluiten" />
+  <Value Id="WizardConfigureITunesExport" Header="Configuratie voor iTunes" Body="Indien uw gegevens exporteren?" Back="&lt;&lt; Vorige" Next="Volgende &gt;&gt;" Close="Sluiten" />
   <Value Id="GroupContext" GroupTo="Groep..." ChangePicture="Verander..." Delete="Verwijderen" Edit="Edit ..." Play="Start ..." Encode="Coderen" DeleteEncode="Verwijder het gecodeerde bestand" />
   <Value Id="EncodeTask" Header="Codering" />
   <Value Id="EncodingTask" Header="De huidige codering" />
-  <Value Id="DownloadHandbrakeTask" Header="Download Handbrake" />
-  <Value Id="InstallHandbrakeTask" Header="Het installeren van Handbrake" />
-  <Value Id="SubtitleRules" Never="Nooit" AlwaysIfPossible="Altijd zo mogelijk" IfPrimaryAudioNotFound="Alleen als de gewenste gesproken niet gevonden" />
-  <Value Id="CategoriesMenu" Action="Actie" Sci-Fi="Fictie" Adventure="Avonturen" War="Oorlog" Western="Westelijk" History="Geschiedenis" Drama="Drama" Documentary="Documentaire" Music="Muziek" Romance="Romaans" Classic="Klassieker" Animation="Animatie" Crime="Polair" Thriller="Thriller" Horror="Verschrikking" Comedy="Komedie" Other="Anders" Fantasy="Fantastisch" />
+  <Value Id="DownloadHandbrakeTask" Header="Handbrake downloaden" />
+  <Value Id="InstallHandbrakeTask" Header="Handbrake installeren" />
+  <Value Id="SubtitleRules" Never="Nooit" AlwaysIfPossible="Altijd, indien beschikbaar" IfPrimaryAudioNotFound="Alleen als gewenste audiotaal niet beschikbaar is" />
+  <Value Id="CategoriesMenu" Action="Action" Sci-Fi="Sci-Fi" Adventure="Avontuur" War="Oorlog" Western="Western" History="Historisch" Drama="Drama" Documentary="Documentaire" Music="Muziek" Romance="Romantiek" Classic="Klassieker" Animation="Animatie" Crime="Misdaad" Thriller="Thriller" Horror="Horror" Comedy="Komedie" Other="Overig" Fantasy="Fantasy" />
   <Value Id="MediaMenu" Video="VIDEO" Music="MUZIEK" Photo="FOTO" />
-  <Value Id="FilterMenu" All="ALLE" Ongoing="LOPENDE" Seen="BEKEKEN" Unseen="ONGEZIEN" />
-  <Value Id="SetSeenStateTask" Header="Werk de status display." />
-  <Value Id="HashTask" Header="Updaten Hash-bestanden." />
-  <Value Id="MovieControl" Runtime="SPEELTIJD" Actors="ACTEURS" Directors="REGISEUR" ReleaseDate="RELEASE" />
-  <Value Id="TVEpisodeControl" Actors="ACTEURS" Directors="REGISEUR" ReleaseDate="RELEASE" Runtime="SPEELTIJD" />
+  <Value Id="FilterMenu" All="ALLE" Ongoing="HUIDIG" Seen="GEZIEN" Unseen="NIEUW" />
+  <Value Id="SetSeenStateTask" Header="Status bijwerken." />
+  <Value Id="HashTask" Header="Hash-bestanden bijwerken." />
+  <Value Id="MovieControl" Runtime="SPEELDUUR" Actors="CAST" Directors="REGISSEUR" ReleaseDate="RELEASE" />
+  <Value Id="TVEpisodeControl" Actors="CAST" Directors="REGISSEUR" ReleaseDate="RELEASE" Runtime="SPEELDUUR" />
   <Value Id="MarketView" Close="Sluiten" />
   <Value Id="Shared" Browse="Bladeren" />
-  <Value Id="MarketPopup" DoNotShow="Niet weergeven bij het opstarten." />
-  <Value Id="VideoMenu" ABC="ALLE" Movies="FILMS" TVShows="TV SERIES" Recents="RECENTELIJK TOEGEVOEGD" Categories="CATEGORIEEN" />
-  <Value Id="MusicMenu" Titles="TITELS" Albums="ALBUMS" Artists="ARTIESTEN" Recents="RECENTE" Genres="SOORTEN" Playlists="PLAYLISTS" />
+  <Value Id="MarketPopup" DoNotShow="Niet weergeven bij het opstarten" />
+  <Value Id="VideoMenu" ABC="ALLES" Movies="FILMS" TVShows="TV SERIES" Recents="NET NIEUW" Categories="CATEGORIEEN" />
+  <Value Id="MusicMenu" Titles="TITELS" Albums="ALBUMS" Artists="ARTIESTEN" Recents="NET NIEUW" Genres="SOORTEN" Playlists="PLAYLISTS" />
   <Value Id="AlbumView" Genre="Genre :" Count="Tracks :" ReleaseDate="Release Date :" Runtime="Duur :" />
   <Value Id="ScanMusicsFolderTask" Header="Scan muziekbestanden" />
-  <Value Id="FirstInitFromMusicNfoTask" Header="Initialisatie informatie van een muziek-" />
-</Dictionary>
+  <Value Id="FirstInitFromMusicNfoTask" Header="Initialisatie informatie van een muziek-" /></Dictionary>
