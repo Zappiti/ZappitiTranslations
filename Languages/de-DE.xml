@@ -1,31 +1,18 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Dictionary EnglishName="German" CultureName="de-DE" Author="Crypro|Starwarp">
-  <Value Id="SettingsTabValidation" Header="Bestätigen">
-  </Value>
-  <Value Id="Globalization_XML" homeconfig="Einstellungen" homeinfo="Informationen" configlm="Datei abspielen" configipd="IP-Adresse" searchmovies="Titel" searchactors="Darsteller" searchdirectors="Regisseur" abctitle="Alle Dateien" moviestitle="Filme" showstitle="Serien" recentstitle="Zuletzt hinzugefügt" categtitle="Kategorien" detailtitle="Details" remoteplay="Auf Ihrem Dune abspielen" remotestop="Keine Wiedergabe auf Ihrem Dune" remoteback="Schnellrücklauf" remotefwd="Schnellvorlauf">
-  </Value>
-  <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune">
-  </Value>
-  <Value Id="SettingsDefault" Header="Standard">
-  </Value>
-  <Value Id="SettingsAdvancedOptions" Header="Fortgeschrittene Einstellungen">
-  </Value>
-  <Value Id="SettingsTypeExport" ExportDune="Dune-Export-Datei:" ExportITunes="iTunes-Export-Datei:" Body="Definieren Sie Ihre Export-Datei." DoYouHaveADune="Ich habe einen Dune" DoYouHaveAniPhone="Ich habe ein iPhone / iPad / iPod" DeviceType="Gerät:" Primary="Primär" Secondary="Sekundär" Audio="Audio:" Subtitle="Untertitel:" Encode="Enkodier-Parameter?" SubtitleRule="Untertitel übernehmen:">
-  </Value>
-  <Value Id="SettingsIsNFS" Content="NFS-Format">
-  </Value>
-  <Value Id="SettingsUserName" Text="Login :">
-  </Value>
-  <Value Id="SettingsUserPassword" Text="Kennwort :">
-  </Value>
-  <Value Id="MainScrapPicturesTvShow" Content="Hintergrundbild">
-  </Value>
-  <Value Id="Export_XML" CreateGlobalizationCustomCommand="Initialisiere Export" iPhoneItemExportCustomCommand="Erzeuge iTunes-Datei" ConfigXmlGeneratorCommand="Exportiere Konfiguration" MoviesXmlFileGeneratorCommand="Exportiere Filme" AbcXmlFileGeneratorCommand="Exportiere Basis" TvShowsXmlFileGeneratorCommand="Exportiere Serien" CategoriesXmlFileGeneratorCommand="Exportiere Kategorien" RecentsXmlFileGeneratorCommand="Exportiere zuletzt hinzugefügt">
-  </Value>
-  <Value Id="SettingsIsXmlExport" Text="XML-Standard">
-  </Value>
-  <Value Id="SettingsTabExport" Header="Export">
-  </Value>
+  <Value Id="SettingsTabValidation" Header="Bestätigen"></Value>
+  <Value Id="Globalization_XML" homeconfig="Einstellungen" homeinfo="Informationen" configlm="Datei abspielen" configipd="IP-Adresse" searchmovies="Titel" searchactors="Darsteller" searchdirectors="Regisseur" abctitle="Alle Dateien" moviestitle="Filme" showstitle="Serien" recentstitle="Zuletzt hinzugefügt" categtitle="Kategorien" detailtitle="Details" remoteplay="Auf Ihrem Dune abspielen" remotestop="Keine Wiedergabe auf Ihrem Dune" remoteback="Schnellrücklauf" remotefwd="Schnellvorlauf"></Value>
+  <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune"></Value>
+  <Value Id="SettingsDefault" Header="Standard"></Value>
+  <Value Id="SettingsAdvancedOptions" Header="Fortgeschrittene Einstellungen"></Value>
+  <Value Id="SettingsTypeExport" ExportDune="Dune-Export-Datei:" ExportITunes="iTunes-Export-Datei:" Body="Definieren Sie Ihre Export-Datei." DoYouHaveADune="Ich habe einen Dune" DoYouHaveAniPhone="Ich habe ein iPhone / iPad / iPod" DeviceType="Gerät:" Primary="Primär" Secondary="Sekundär" Audio="Audio:" Subtitle="Untertitel:" Encode="Enkodier-Parameter?" SubtitleRule="Untertitel übernehmen:"></Value>
+  <Value Id="SettingsIsNFS" Content="NFS Protokoll"></Value>
+  <Value Id="SettingsUserName" Text="Login :"></Value>
+  <Value Id="SettingsUserPassword" Text="Kennwort :"></Value>
+  <Value Id="MainScrapPicturesTvShow" Content="Hintergrundbild"></Value>
+  <Value Id="Export_XML" CreateGlobalizationCustomCommand="Initialisiere Export" iPhoneItemExportCustomCommand="Erzeuge iTunes-Datei" ConfigXmlGeneratorCommand="Exportiere Konfiguration" MoviesXmlFileGeneratorCommand="Exportiere Filme" AbcXmlFileGeneratorCommand="Exportiere Basis" TvShowsXmlFileGeneratorCommand="Exportiere Serien" CategoriesXmlFileGeneratorCommand="Exportiere Kategorien" RecentsXmlFileGeneratorCommand="Exportiere zuletzt hinzugefügt"></Value>
+  <Value Id="SettingsIsXmlExport" Text="XML-Standard"></Value>
+  <Value Id="SettingsTabExport" Header="Export"></Value>
   <Value Id="SettingsFolders" Text="Ordner :" />
   <Value Id="SettingsOK" Content="OK" />
   <Value Id="SettingsCancel" Content="Abbrechen" />
@@ -60,8 +47,7 @@
   <Value Id="EditViewNotView" Text="Gesehen" />
   <Value Id="EditOK" Content="OK" />
   <Value Id="EditCancel" Content="Abbrechen" />
-  <Value Id="MainSearchMedias" Content="Suchen">
-  </Value>
+  <Value Id="MainSearchMedias" Content="Suchen"></Value>
   <Value Id="MainConfiguration" Content="Einstellungen" />
   <Value Id="MainScan" Content="Scannen" />
   <Value Id="MainExport" ExportDune="Export Dune" ExportITunes="Export iTunes" Title="Export" />
@@ -77,8 +63,7 @@
   <Value Id="MainIsDownloadingPicture" Text="Bilder herunterladen: {0}" />
   <Value Id="MainDonate" Content="Spenden!" />
   <Value Id="MainAbout" Content="Über das Programm" />
-  <Value Id="MainHome" Content="Startseite">
-  </Value>
+  <Value Id="MainHome" Content="Startseite"></Value>
   <Value Id="SelectPictureChoose" Content="Auswählen" />
   <Value Id="SelectPictureBrowse" Content="Durchsuchen" />
   <Value Id="SelectPictureClose" Content="Schließen" />
@@ -87,7 +72,7 @@
   <Value Id="CleanUpClose" Content="Schließen" />
   <Value Id="Splash" Content="Schließen" />
   <Value Id="DatabaseBadVersion" Text="Die aktuelle Version von Zappiti kann die ausgewählte Datenbank nicht öffnen. Versuchen Sie eine neuere Version von Zappiti." />
-  <Value Id="MessageBox" ConfigureSharePath="Bitte konfigurieren Sie den Dateipfad." NewReleaseAvailable="Eine neue Version ist verfügbar! Möchten Sie diese herunteladen {0} {1}?" DoYouWantToDeleteThisGroup="Wollen Sie diesen Gruppe wirklich löschen?" DoYouWantToDeleteTheseGroup="Wollen Sie diese Elemente wirklich löschen?" DeleteCategory="Wollen Sie diese Kategorie löschen?" ResetCategories="Wollen Sie alle Kategorien zurücksetzen?" ResetMainMenu="Wollen Sie alle Menüs zurücksetzen?" ResetABCMenu="Wollen Sie alle Tasten zurückgesetzen?" ResetFilterMenu="Wollen Sie alle Filter zurücksetzen?" VersionExpired="Diese Version von Zappiti ist abgelaufen, eine neue Version ist verfügbar! Möchten Sie diese herunterladen?" AddFolder="Pfad {0} nicht vorhanden. Möchten Sie diesen hinzufügen?" CanStartDuneServer="Server-Neustart fehlgeschlagen. " DoYouWanToInstallMpcHd="Möchten Sie den MPC-Home Cinema installieren?" />
+  <Value Id="MessageBox" ConfigureSharePath="Bitte konfigurieren Sie den Dateipfad." NewReleaseAvailable="Eine neue Version ist verfügbar! Möchten Sie diese herunteladen {0} {1}?" DoYouWantToDeleteThisGroup="Wollen Sie diesen Gruppe wirklich löschen?" DoYouWantToDeleteTheseGroup="Wollen Sie diese Elemente wirklich löschen?" DeleteCategory="Wollen Sie diese Kategorie löschen?" ResetCategories="Wollen Sie alle Kategorien zurücksetzen?" ResetMainMenu="Wollen Sie alle Menüs zurücksetzen?" ResetABCMenu="Wollen Sie alle Tasten zurücksetzen?" ResetFilterMenu="Wollen Sie alle Filter zurücksetzen?" VersionExpired="Diese Version von Zappiti ist abgelaufen, eine neue Version ist verfügbar! Möchten Sie diese herunterladen?" AddFolder="Pfad {0} würde noch nicht hinzugefügt. Möchten Sie das jetzt machen?" CanStartDuneServer="Server-Neustart fehlgeschlagen. " DoYouWanToInstallMpcHd="Möchten Sie den Player MPC-Home Cinema installieren?" />
   <Value Id="MessageBoxCaption" NewReleaseAvailable="Neue Version verfügbar" DoYouWantToDeleteThisGroup="Element entfernen" DoYouWantToDeleteTheseGroup="Gruppe entfernen" DeleteCategory="Löschen einer Kategorie" ResetCategories="Kategorien zurücksetzen" ResetMainMenu="Menüs zurücksetzen" ResetABCMenu="Tasten zurücksetzen" VersionExpired="Update verfügbar" AddFolder="Pfad hinzufügen?" CanStartDuneServer="Fehler" DoYouWanToInstallMpcHd="Benötigte Software" />
   <Value Id="EditChannels" Text="Kanäle" />
   <Value Id="TVShowSeasonList" SeasonUp="STAFFEL {0}" />
@@ -130,39 +115,34 @@
   <Value Id="SelectPictureTabHeader" Folder="Cover" Background="Hintergrund" />
   <Value Id="SettingsTabFolders" Header="Dateien" />
   <Value Id="SettingsTabOthers" Header="Sonstiges" SendErrorReport="Automatisch einen Bericht an die Entwickler senden, wenn ein Fehler auftritt." />
-  <Value Id="SettingsTabScrapers" Header="Scrape" MovieScraper="Filme:" MoviePictureScraper="Filmbilder:" TVShowScraper="Serie:" TVShowPictureScraper="Serienbilder:" ScrapOnStarWindows="Bei Programmstart scannen">
-  </Value>
+  <Value Id="SettingsTabScrapers" Header="Scrapers" MovieScraper="Filme:" MoviePictureScraper="Filmbilder:" TVShowScraper="Serien:" TVShowPictureScraper="Serienbilder:" ScrapOnStarWindows="Bei Programmstart gleich scannen"></Value>
   <Value Id="GroupContextState" Seen="Gesehen" Ongoing="Laufend" Unseen="Ungesehen" Stateless="Ohne" />
-  <Value Id="EditSize" Text="Größe">
-  </Value>
-  <Value Id="Loading" Text="Laden">
-  </Value>
-  <Value Id="NoTitleFoundToScrap" Text="Filmtitel nicht gefunden">
-  </Value>
+  <Value Id="EditSize" Text="Größe"></Value>
+  <Value Id="Loading" Text="Laden"></Value>
+  <Value Id="NoTitleFoundToScrap" Text="Filmtitel nicht gefunden"></Value>
   <Value Id="FiltersMenuAll" Text="ALLE" />
   <Value Id="FiltersMenuSeen" Text="GESEHEN" />
   <Value Id="FiltersMenuUnseen" Text="LAUFEND" />
   <Value Id="FiltersMenuOngoing" Text="OHNE" />
-  <Value Id="Prepare_Application" Content="Lade Einstellungen" SettingsLoading="Lade Einstellungen" ScanningAllFiles="Scanne neue Dateien" DataBaseLoading="Lade Datenbank" DataBaseCleanUp="Bereinige Datenbank" EnablingFeatureBrowserEmulation="Aktivierung der Emulation Funktionalität des Browsers.">
-  </Value>
-  <Value Id="WizardWelcome" Body="Willkommen.[br][br]Dieser Assistent wird Ihnen helfen, Zappiti zu konfigurieren.[br][br]Klicken Sie auf &quot;Wo sind Ihre Filme&quot;." AddMovies="Wo sind Ihre Filme &gt;&gt;" Close="Schließen" Header="Setup-Assistent" />
+  <Value Id="Prepare_Application" Content="Lade Einstellungen" SettingsLoading="Lade Einstellungen" ScanningAllFiles="Scanne neue Dateien" DataBaseLoading="Lade Datenbank" DataBaseCleanUp="Bereinige Datenbank" EnablingFeatureBrowserEmulation="Aktivierung der Emulation Funktionalität des Browsers."></Value>
+  <Value Id="WizardWelcome" Body="Willkommen.[br][br]Dieser Assistent wird Ihnen helfen, Zappiti zu konfigurieren.[br][br]Klicken Sie auf &quot;Wo sind Ihre Dateien&quot;." AddMovies="Wo sind Ihre Dateien &gt;&gt;" Close="Schließen" Header="Setup-Assistent" />
   <Value Id="WizardAddLocalLocation" Name="Fügen Sie einen lokalen Ordner hinzu" Description="- Interne Festplatte des Computers[br]- Externe Festplatte an USB / eSATA[br]- Festplatte in einer Docking-Station verbunden über USB / eSATA[br]- Dune-Player angeschlossen als USB-Slave auf diesem Computer" Header="Lokale Ordner" Tips="Tipps: Sie können diese Dateien auf Ihrem lokalen Netzwerk freigeben oder von einem USB-Gerät direkt über Ihren Dune-Player zugreifen." Folders="Lokale Laufwerke / USB-Geräte" />
   <Value Id="WizardAddNetworkLocation" Name="Fügen Sie einen freigegebenen Netzwerkordner hinzu" Description="- Interne Festplatte des vernetzten Dune-Players[br]- Externe Festplatte vom Dune-Player vernetzen[br]- NAS-Server[br]- Andere Remote-Computer im Netzwerk[br]- Im Netzwerk freigegebene Ordner[br]- Netzwerk-Festplatten" Header="Freigegebene Netzwerkordner, NAS " Tips="Tipp: Sie können USB, NAS, etc. im HD-LAND Shop erwerben." Folders="Netzwerk-Standorten" />
-  <Value Id="WizardWhereAreYourMovies" Header="Wo sind Ihre Filme?" Body="Wählen Sie eine der folgenden Optionen, um anzugeben, wo sich Ihre Filme oder Serien befinden." Back="&lt;&lt; Zurück" Close="Schließen" />
-  <Value Id="WizardAddLocation" Body="Drag &amp; Drop um die gewünschten Dateien zur Liste auf der rechten Seite hinzufügen." YourFolders="Ihre Video-Dateien" Next="Weiter &gt;&gt;" Back="&lt;&lt; Zurück" Close="Schließen" />
-  <Value Id="WizardAddAnotherLocation" Header="Einen anderen Pfad hinzufügen?" Next="Weiter&gt;&gt;" YourFolders="Ihre Video-Ordner" Close="Schließen" />
+  <Value Id="WizardWhereAreYourMovies" Header="Wo sind Ihre Dateien?" Body="Wählen Sie eine der folgenden Optionen, um anzugeben, wo Ihre Dateien sind." Back="&lt;&lt; Zurück" Close="Schließen" />
+  <Value Id="WizardAddLocation" Body="Drag &amp; Drop um die gewünschten Ordner zur Liste auf der rechten Seite hinzuzufügen." YourFolders="Ihre Video-Dateien" Next="Weiter &gt;&gt;" Back="&lt;&lt; Zurück" Close="Schließen" />
+  <Value Id="WizardAddAnotherLocation" Header="Einen weiteren Pfad hinzufügen?" Next="Weiter &gt;&gt;" YourFolders="Ihre Video-Ordner" Close="Schließen" />
   <Value Id="FolderDataTemplate" Edit="Ändern" Delete="Entfernen" />
-  <Value Id="WizardRewriteLocationUrl" Header="Speicherort wählen" Body="Wählen Sie den Speicherort dieses Ordners und greifen Sie von Ihrer Dune-Festplatte darauf zu: [br]( Biite angeben, wo dieser Ordner am Ende platziert wird)" Back="Zurück" Next="Weiter" ExternLabel="Auf eine externe Festplatte verbunden mit Ihrem Dune-Player" NetworkLabel="Auf einem NAS-Server-, Netzwerk-Ordner, einer internen/externen Festplatte verbunden mit Ihrem PC" UnknowLabel="Individuell" Close="Schließen" InternLabel="Auf einer internen Festplatte des Dune-Players" />
+  <Value Id="WizardRewriteLocationUrl" Header="Speicherort wählen" Body="Wählen Sie den Speicherort dieses Ordners und wie Ihrer Dune darauf zugriefen wird: [br](Also bitte angeben, wo dieser Ordner letztendlich platziert wird.)" Back="&lt;&lt; Zurück" Next="Weiter &gt;&gt;" ExternLabel="Auf eine externe Festplatte, verbunden mit Ihrem Dune-Player" NetworkLabel="Auf einem NAS-Server-, Netzwerk-Ordner oder einer internen/externen Festplatte verbunden mit diesem PC" UnknowLabel="Individuell" Close="Schließen" InternLabel="Auf einer internen Festplatte des Dune-Players" />
   <Value Id="LocalRewriteUrlEngineView" Body="Dieser Ordner in Ihrem Netzwerk muss für Ihrern Dune-Player freigegeben werden um darauf zugreifen zu können." IAccept="Ich bin damit einverstanden, diesen Ordner freizugeben." />
   <Value Id="SettingsHost" Text="Hostname / IP :" />
   <Value Id="SettingsPath" Text="Pfad:" />
-  <Value Id="WizardConfigureType" Header="Videoart" Body="Was ist es?" Movie="Enthält Filme" TVShow="Enthält Serien" Back="&lt;&lt; Zurück" Close="Schließen" Music="Enthält Musik" />
+  <Value Id="WizardConfigureType" Header="Dateitypen" Body="Was ist in diese Ordner?" Movie="Enthält Filme" TVShow="Enthält TV Serien" Back="&lt;&lt; Zurück" Close="Schließen" Music="Enthält Musik" />
   <Value Id="Folder" Movie="Film" TVShow="Serie" Music="Musik" />
   <Value Id="Settings" PlayerHeader="Player" Header="Einstellungen" />
   <Value Id="PlayerConfigView" IsServerRunning="Unterstützung für Fernbedienung aktivieren" Port="Port:" />
-  <Value Id="WizardDownloadMpcPlayer" Header="Herunterladen MPC - Home Cinema" Next="Folgende" Close="Schließen" Body="Download läuft, danke für Ihre Geduld." />
-  <Value Id="WizardInstallMpcPlayer" Header="Installation von MPC - Home Cinema" Body="Aktuelle Installation." Close="Schließen" Completed="Herzlichen Glückwunsch, die Installation von MPC - Home Cinema Platz war erfolgreich." Failed="Die Installation ist fehlgeschlagen aus irgendeinem Grund." />
-  <Value Id="MpcPlayerConfigView" Download="MPC - Home Cinema herunderladen und installieren " PlayerPath="Pfad:" Browse="Durchsuchen" />
+  <Value Id="WizardDownloadMpcPlayer" Header="Herunterladen MPC - Home Cinema" Next="Weiter &gt;&gt;" Close="Schließen" Body="Download läuft, Moment bitte ..." />
+  <Value Id="WizardInstallMpcPlayer" Header="Installation von MPC - Home Cinema" Body="Installation läuft, Moment bitte..." Close="Schließen" Completed="Die Installation von MPC - Home Cinema war erfolgreich." Failed="Die Installation ist fehlgeschlagen." />
+  <Value Id="MpcPlayerConfigView" Download="MPC - Home Cinema herunterladen und installieren " PlayerPath="Pfad:" Browse="Durchsuchen" />
   <Value Id="SettingsTabInterface" Header="Oberfläche" Language="Sprache :" Background="Hintergrund" GlassShow="Glaseffekt" ShowHeader="Medientyp auf Cover anzeigen" SeenUnseen="Gesehen Markierung" DynamicZoom="Icons mit dynamischem Zoom" SelectionBox="Dynamische Kontur" Theme="Thema :" />
   <Value Id="TaskManagerView" Header="Spots als" Close="Schließen" />
   <Value Id="PlayTask" Header="Ein Video öffnen" />
@@ -172,18 +152,18 @@
   <Value Id="MountTask" Header="Einbinden des Disk-Images" />
   <Value Id="MountCheckTask" Header="Warte auf die virtuelles Laufwerk" />
   <Value Id="UnscrapedView" Filename="Dateiname" Directory="Repertoire" State="Status" Title="Dateien scrapen" />
-  <Value Id="FirstInitFromMovieNfoTask" Header="Ininitialisiere Informationen eines Film" />
+  <Value Id="FirstInitFromMovieNfoTask" Header="Ininitialisiere Informationen eines Filmes" />
   <Value Id="UpdateMainViewModelTask" Header="Aktualisierung von angelegten Videos" />
-  <Value Id="MediaToDeleteTask" Header="Suche nachDateien, die nicht mehr existieren" />
+  <Value Id="MediaToDeleteTask" Header="Kontrollieren auf gelöschte Dateien" />
   <Value Id="FirstInitTask" Header="Initialisierung" />
   <Value Id="ScanTask" Header="Scan-Vorgang läuft" />
-  <Value Id="ScanForTVShowEpisodeTask" Header="Initialisiere Informationen einer Episode" />
+  <Value Id="ScanForTVShowEpisodeTask" Header="Informationen einer Episode suchen" />
   <Value Id="FirstInitFromTVShowNfoTask" Header="Initialisiere Informationen einer Serie" />
   <Value Id="FirstInitFromTVEpisodeNfoTask" Header="Initialisiere Informationen einer Episode" />
-  <Value Id="ScanMoviesFolders" Header="Scannt Film-Dateien" />
-  <Value Id="ScanTVShowFolders" Header="Scannt Serien-Dateien" />
-  <Value Id="ExportTypeView" Header="Exportansicht" RegisterZappitiPlayerLabel="Haben Sie eine Zappiti Player?" RegisterZappitiPlayerButton="Aktivieren Sie jetzt!" RegisterZappitiPlayerSmallLabel="Mit der Aktivierung der Zappiti Player, können Sie auch exportieren Sie Ihre bibliothèquee Musik." ExportMusic="Exportieren Sie Musik" Close="Schließen" />
-  <Value Id="FullExportType" Name="Abschließen" Description="Ihre gesamte Sammlung ist exportiert." />
+  <Value Id="ScanMoviesFolders" Header="Film-Dateien durchsuchen" />
+  <Value Id="ScanTVShowFolders" Header="Serien-Dateien durchsuchen" />
+  <Value Id="ExportTypeView" Header="Exportansicht" RegisterZappitiPlayerLabel="Haben Sie eine Zappiti Player?" RegisterZappitiPlayerButton="Aktivieren Sie jetzt!" RegisterZappitiPlayerSmallLabel="Mit der Aktivierung der Zappiti Player, können Sie auch Ihre Musiksammlung exportieren." ExportMusic="Exportieren Sie Musik" Close="Schließen" />
+  <Value Id="FullExportType" Name="Abschließen" Description="Ihre Sammlung ist völlig exportiert." />
   <Value Id="IncrementalExportType" Name="Inkremental" Description="Nur die letzten Änderungen seit dem letzten Export werden exportiert." />
   <Value Id="All" Text="Alle" />
   <Value Id="123" Text="123" />
@@ -214,29 +194,28 @@
   <Value Id="Y" Text="Y" />
   <Value Id="Z" Text="Z" />
   <Value Id="RescrapSelect" Content="Wählen" />
-  <Value Id="WizardFinish" Header="Konfiguration abgeschlossen" Body="Konfiguration von Zappiti-Media-Center ist abgeschlossen." Close="Schließen" Back="&lt;&lt; Zurück" />
-  <Value Id="WizardConfigureExportDevice" Header="Welche Geräte haben Sie?" Body="Wählen Sie die Geräte in Ihrem Besitz:" Back="&lt;&lt; Zurück" Next="Folgende &gt;&gt;" Close="Schließen" />
-  <Value Id="WizardConfigureDuneExport" Header="Konfiguration von Dune" Body="Exportieren nach?" Back="&lt;&lt; Zurück" Next="Folgende &gt;&gt;" Close="Schließen" />
-  <Value Id="WizardConfigureITunesExport" Header="Konfiguration für iTunes" Body="Exportieren nach?" Back="&lt;&lt; Zurück" Next="Folgende &gt;&gt;" Close="Schließen" />
+  <Value Id="WizardFinish" Header="Konfiguration fertig" Body="Die Konfiguration von Zappiti Media Center ist abgeschlossen." Close="Schließen" Back="&lt;&lt; Zurück" />
+  <Value Id="WizardConfigureExportDevice" Header="Welche Geräte haben Sie?" Body="Wählen Sie die Geräte in Ihrem Besitz:" Back="&lt;&lt; Zurück" Next="Weiter &gt;&gt;" Close="Schließen" />
+  <Value Id="WizardConfigureDuneExport" Header="Dune Konfiguration" Body="Exportieren nach?" Back="&lt;&lt; Zurück" Next="Weiter &gt;&gt;" Close="Schließen" />
+  <Value Id="WizardConfigureITunesExport" Header="Konfiguration für iTunes" Body="Exportieren nach?" Back="&lt;&lt; Zurück" Next="Weiter &gt;&gt;" Close="Schließen" />
   <Value Id="GroupContext" GroupTo="Gruppe..." ChangePicture="Bilder..." Delete="Löschen" Edit="Bearbeiten..." Play="Wiedergeben" Encode="Kodieren" DeleteEncode="Löschen der enkodierten Datei" />
   <Value Id="EncodeTask" Header="Enkodieren" />
   <Value Id="EncodingTask" Header="Aktuelle Kodierung" />
   <Value Id="DownloadHandbrakeTask" Header="Handbrake herunterladen" />
   <Value Id="InstallHandbrakeTask" Header="Handbrake installieren" />
-  <Value Id="SubtitleRules" Never="Nie" AlwaysIfPossible="Immer wenn möglich" IfPrimaryAudioNotFound="Nur wenn die bevorzugte Audio nicht gefunden wird" />
+  <Value Id="SubtitleRules" Never="Nie" AlwaysIfPossible="Immer wenn möglich" IfPrimaryAudioNotFound="Nur wenn die bevorzugte Audiospur nicht vorhanden ist" />
   <Value Id="CategoriesMenu" Action="Aktion" Sci-Fi="Sci-Fi" Adventure="Abenteuer" War="Krieg" Western="Western" History="Historien" Drama="Drama" Documentary="Dokumentar" Music="Musik" Romance="Romantik" Classic="Klassik" Animation="Animation" Crime="Krimi" Thriller="Thriller" Horror="Horror" Comedy="Komödie" Other="Andere" Fantasy="Fantastisch" />
-  <Value Id="MediaMenu" Video="VIDEO" Music="MUSIC" Photo="PHOTO" />
+  <Value Id="MediaMenu" Video="VIDEO" Music="MUSIK" Photo="PHOTO" />
   <Value Id="FilterMenu" All="ALLE" Ongoing="STAATENLOS" Seen="GESEHEN" Unseen="LAUFENDEN" />
-  <Value Id="SetSeenStateTask" Header="Aktualisieren des Filmstatus" />
+  <Value Id="SetSeenStateTask" Header="Filmstatus aktualisieren." />
   <Value Id="HashTask" Header="Aktualisiere Hash-Dateien" />
-  <Value Id="MovieControl" Runtime="LAUFZEIT" Actors="DARSTELLER" Directors="REGISSEUR" ReleaseDate="JAHR" />
-  <Value Id="TVEpisodeControl" Actors="DARSTELLER" Directors="REGISSEUR" ReleaseDate="JAHR" Runtime="LAUFZEIT" />
+  <Value Id="MovieControl" Runtime="LAUFZEIT" Actors="DARSTELLER" Directors="REGISSEURS" ReleaseDate="JAHR" />
+  <Value Id="TVEpisodeControl" Actors="DARSTELLER" Directors="REGISSEURS" ReleaseDate="JAHR" Runtime="LAUFZEIT" />
   <Value Id="MarketView" Close="Schließen" />
   <Value Id="Shared" Browse="Wählen" />
   <Value Id="MarketPopup" DoNotShow="Nicht beim Start zeigen." />
   <Value Id="VideoMenu" ABC="ALL" Movies="FILME" TVShows="SERIEN" Recents="ZULETZT HINZUGEFÜGT" Categories="KATEGORIEN" />
-  <Value Id="MusicMenu" Titles="TITLES" Albums="ALBEN" Artists="KÜNSTLER" Recents="RECENT" Genres="TYPES" Playlists="PLAYLISTS" />
+  <Value Id="MusicMenu" Titles="TITLES" Albums="ALBEN" Artists="KÜNSTLER" Recents="RECENT" Genres="TYPES" Playlists="WIEDERGABELISTEN" />
   <Value Id="AlbumView" Genre="Genre :" Count="Tracks :" ReleaseDate="Erscheinungsdatum :" Runtime="Dauer :" />
-  <Value Id="ScanMusicsFolderTask" Header="Scannen Musikdateien" />
-  <Value Id="FirstInitFromMusicNfoTask" Header="Initialisierung auf einer Musik" />
-</Dictionary>
+  <Value Id="ScanMusicsFolderTask" Header="Musikdateien durchsuchen" />
+  <Value Id="FirstInitFromMusicNfoTask" Header="Initialisierung auf einer Musik" /></Dictionary>
