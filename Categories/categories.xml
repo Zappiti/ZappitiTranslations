@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Catgories>
+  <Category Name="CategoryAction" Icon="Lightning">
+    <Keyword lang="fr">Action</Keyword>
+    <Keyword lang="fr">Arts Martiaux</Keyword>
+    <Keyword lang="en">Action</Keyword>
+    <Keyword lang="de">Aktion</Keyword>
+    <Keyword lang="it">Azione</Keyword>
+    <Keyword lang="nl">Actie</Keyword>
+    <Keyword lang="ru">Боевик</Keyword>
+    <Keyword lang="pl">AKCJA</Keyword>
+  </Category>
+  <Category Name="CategorySci-Fi" Icon="SpaceShip">
+    <Keyword lang="en">Sci-Fi</Keyword>
+    <Keyword lang="en">Science-Fiction</Keyword>
+    <Keyword lang="en">Fiction</Keyword>
+    <Keyword lang="de">Sci-Fi</Keyword>
+    <Keyword lang="fr">Science-Fiction</Keyword>
+    <Keyword lang="fr">Fiction</Keyword>
+    <Keyword lang="it">Finzione</Keyword>
+    <Keyword lang="nl">Sci-Fi</Keyword>
+    <Keyword lang="nl">Science Fiction</Keyword>
+    <Keyword lang="nl">SF</Keyword>
+    <Keyword lang="ru">Фантастика</Keyword>
+    <Keyword lang="ru">научная фантастика</Keyword>
+    <Keyword lang="pl">SCI-FI</Keyword>
+  </Category>
+  <Category Name="CategoryFantastique" Icon="Unicorn">
+    <Keyword lang="en">Fantasy</Keyword>
+    <Keyword lang="de">Fantastisch</Keyword>
+    <Keyword lang="fr">Fantastique</Keyword>
+    <Keyword lang="it">Fantascienza</Keyword>
+    <Keyword lang="nl">Fantasy</Keyword>
+    <Keyword lang="ru">Фэнтэзи</Keyword>
+    <Keyword lang="pl">Fantastyczny</Keyword>
+  </Category>
+  <Category Name="CategoryAdventure" Icon="Indiana">
+    <Keyword lang="de">Abenteuer</Keyword>
+    <Keyword lang="en">Adventure</Keyword>
+    <Keyword lang="fr">Aventure</Keyword>
+    <Keyword lang="it">Avventura</Keyword>
+    <Keyword lang="nl">Avontuur</Keyword>
+    <Keyword lang="nl">Avonturen</Keyword>
+    <Keyword lang="ru">Приключения</Keyword>
+    <Keyword lang="pl">PRZYGODOWY</Keyword>
+  </Category>
+  <Category Name="CategoryWar" Icon="Tank">
+    <Keyword lang="de">Krieg</Keyword>
+    <Keyword lang="en">War</Keyword>
+    <Keyword lang="fr">Guerre</Keyword>
+    <Keyword lang="it">Guerra</Keyword>
+    <Keyword lang="nl">Oorlog</Keyword>
+    <Keyword lang="ru">Военный</Keyword>
+    <Keyword lang="pl">WOJENNY</Keyword>
+  </Category>
+  <Category Name="CategoryWestern" Icon="Sherif">
+    <Keyword lang="fr">Western</Keyword>
+    <Keyword lang="en">Western</Keyword>
+    <Keyword lang="de">Western</Keyword>
+    <Keyword lang="it">Western</Keyword>
+    <Keyword lang="nl">Western</Keyword>
+    <Keyword lang="ru">Вестерн</Keyword>
+    <Keyword lang="pl">WESTERN</Keyword>
+  </Category>
+  <Category Name="CategoryHistory" Icon="Tower">
+    <Keyword lang="de">Historien</Keyword>
+    <Keyword lang="en">History</Keyword>
+    <Keyword lang="fr">Historique</Keyword>
+    <Keyword lang="fr">Biopic</Keyword>
+    <Keyword lang="it">Storia</Keyword>
+    <Keyword lang="nl">Historisch</Keyword>
+    <Keyword lang="nl">Geschiedenis</Keyword>
+    <Keyword lang="ru">Исторический</Keyword>
+    <Keyword lang="pl">HISTORYCZNY</Keyword>
+  </Category>
+  <Category Name="CategoryDrama" Icon="Masks">
+    <Keyword lang="de">Drame</Keyword>
+    <Keyword lang="en">Drame</Keyword>
+    <Keyword lang="nl">Drama</Keyword>
+    <Keyword lang="fr">Drame</Keyword>
+    <Keyword lang="fr">Comédie dramatique</Keyword>
+    <Keyword lang="it">Drammatico</Keyword>
+    <Keyword lang="ru">Драма</Keyword>
+    <Keyword lang="pl">DRAMAT</Keyword>
+  </Category>
+  <Category Name="CategoryDocumentary" Icon="Coconut">
+    <Keyword lang="de">Dokumentar</Keyword>
+    <Keyword lang="en">Documentary</Keyword>
+    <Keyword lang="fr">Documentaire</Keyword>
+    <Keyword lang="nl">Documentaire</Keyword>
+    <Keyword lang="it">Documentari</Keyword>
+    <Keyword lang="ru">Неигровой</Keyword>
+    <Keyword lang="pl">DOKUMENT</Keyword>
+  </Category>
+  <Category Name="CategoryMusic" Icon="Music">
+    <Keyword lang="de">Musik</Keyword>
+    <Keyword lang="en">Music</Keyword>
+    <Keyword lang="fr">Musical</Keyword>
+    <Keyword lang="it">Musica</Keyword>
+    <Keyword lang="nl">Muziek</Keyword>
+    <Keyword lang="ru">Музыка</Keyword>
+    <Keyword lang="pl">MUZYCZNY</Keyword>
+  </Category>
+  <Category Name="CategoryRomance" Icon="BrokenHeart">
+    <Keyword lang="de">Romantik</Keyword>
+    <Keyword lang="en">Romance</Keyword>
+    <Keyword lang="fr">Romance</Keyword>
+    <Keyword lang="it">Romantico</Keyword>
+    <Keyword lang="nl">Romantiek</Keyword>
+    <Keyword lang="ru">Мелодрама</Keyword>
+    <Keyword lang="pl">ROMANS</Keyword>
+  </Category>
+  <Category Name="CategoryClassic" Icon="Chaplin">
+    <Keyword lang="de">Klassik</Keyword>
+    <Keyword lang="en">Classic</Keyword>
+    <Keyword lang="fr">Classique</Keyword>
+    <Keyword lang="it">Classici</Keyword>
+    <Keyword lang="nl">Klassieker</Keyword>
+    <Keyword lang="ru">Классика</Keyword>
+    <Keyword lang="pl">KLASYKA</Keyword>
+  </Category>
+  <Category Name="CategoryAnimation" Icon="MickeyMouse">
+    <Keyword lang="de">Animation</Keyword>
+    <Keyword lang="en">Animation</Keyword>
+    <Keyword lang="fr">Animation</Keyword>
+    <Keyword lang="it">Animazione</Keyword>
+    <Keyword lang="nl">Animatie</Keyword>
+    <Keyword lang="ru">Мультфильм</Keyword>
+    <Keyword lang="pl">ANIMACJA</Keyword>
+  </Category>
+  <Category Name="CategoryCrime" Icon="Gun">
+    <Keyword lang="de">Krimi</Keyword>
+    <Keyword lang="en">Crime</Keyword>
+    <Keyword lang="fr">Polar</Keyword>
+    <Keyword lang="fr">Policier</Keyword>
+    <Keyword lang="fr">Espionnage</Keyword>
+    <Keyword lang="it">Giallo</Keyword>
+    <Keyword lang="nl">Misdaad</Keyword>
+    <Keyword lang="ru">Криминал</Keyword>
+    <Keyword lang="pl">KRYMINAŁ</Keyword>
+  </Category>
+  <Category Name="CategoryThriller" Icon="Scream">
+    <Keyword lang="de">Thriller</Keyword>
+    <Keyword lang="en">Thriller</Keyword>
+    <Keyword lang="fr">Thriller</Keyword>
+    <Keyword lang="it">Thriller</Keyword>
+    <Keyword lang="nl">Thriller</Keyword>
+    <Keyword lang="ru">Триллер</Keyword>
+    <Keyword lang="pl">Thriller</Keyword>
+  </Category>
+  <Category Name="CategoryHorror" Icon="Murderer">
+    <Keyword lang="de">Horror</Keyword>
+    <Keyword lang="en">Horror</Keyword>
+    <Keyword lang="fr">Horreur</Keyword>
+    <Keyword lang="fr">Epouvante-horreur</Keyword>
+    <Keyword lang="it">Horror</Keyword>
+    <Keyword lang="it">Orrore</Keyword>
+    <Keyword lang="nl">Horror</Keyword>
+    <Keyword lang="nl">Griezel</Keyword>
+    <Keyword lang="ru">Ужасы</Keyword>
+    <Keyword lang="pl">HORROR</Keyword>
+  </Category>
+  <Category Name="CategoryComedy" Icon="Smiley">
+    <Keyword lang="de">Komödie</Keyword>
+    <Keyword lang="en">Comedy</Keyword>
+    <Keyword lang="fr">Comédie</Keyword>
+    <Keyword lang="fr">Comédie dramatique</Keyword>
+    <Keyword lang="it">Commedia</Keyword>
+    <Keyword lang="nl">Komedie</Keyword>
+    <Keyword lang="ru">Комедия</Keyword>
+    <Keyword lang="pl">KOMEDIA</Keyword>
+  </Category>
+  <Category Name="CategoryOther" Icon="Others">
+    <Keyword lang="de">Andere</Keyword>
+    <Keyword lang="en">Other</Keyword>
+    <Keyword lang="fr">Divers</Keyword>
+    <Keyword lang="it">Altro</Keyword>
+    <Keyword lang="nl">Overig</Keyword>
+    <Keyword lang="ru">Другое</Keyword>
+    <Keyword lang="pl">OTHER</Keyword>
+    <Keyword lang="--">[Others]</Keyword>
+  </Category>
+</Categories>
