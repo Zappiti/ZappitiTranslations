@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Dictionary EnglishName="Czech" CultureName="cs-CZ">
-  <Value Id="SettingsIsXmlExport" Text="Výchozí xml"></Value>
-  <Value Id="SettingsTabExport" Header="Export"></Value>
+  <Value Id="SettingsIsXmlExport" Text="Výchozí xml" />
+  <Value Id="SettingsTabExport" Header="Export" />
   <Value Id="SettingsFolders" Text="Vaše mediální soubory:" />
   <Value Id="SettingsOK" Content="OK" />
   <Value Id="SettingsCancel" Content="Zrušit" />
@@ -67,8 +67,8 @@
   <Value Id="EditViewNotView" Text="Viditelný" />
   <Value Id="EditOK" Content="OK" />
   <Value Id="EditCancel" Content="Zrušit" />
-  <Value Id="MainHome" Content="Domů"></Value>
-  <Value Id="MainSearchMedias" Content="Hledat"></Value>
+  <Value Id="MainHome" Content="Domů" />
+  <Value Id="MainSearchMedias" Content="Hledat" />
   <Value Id="MainConfiguration" Content="Nastavení" />
   <Value Id="MainScan" Content="Skener" />
   <Value Id="MainExport" Content="Přenos do Dune" ExportDune="Export Dune" ExportITunes="Export iTunes" Title="Export probíhá ..." />
@@ -139,20 +139,20 @@
   <Value Id="SelectPictureTabHeader" Folder="Jacket" Background="Background" />
   <Value Id="SettingsTabFolders" Header="Soubor" />
   <Value Id="SettingsTabOthers" Header="Ostatní" SendErrorReport="Automaticky odeslat zprávu v vývojáři při chybě." />
-  <Value Id="SettingsTabScrapers" Header="Po startu" MovieScraper="Filmy:" MoviePictureScraper="Film obrázky:" TVShowScraper="Série:" TVShowPictureScraper="Obrázky série:" ScrapOnStarWindows="Spusťte skenování soubor pro spuštění aplikace"></Value>
+  <Value Id="SettingsTabScrapers" Header="Po startu" MovieScraper="Filmy:" MoviePictureScraper="Film obrázky:" TVShowScraper="Série:" TVShowPictureScraper="Obrázky série:" ScrapOnStarWindows="Spusťte skenování soubor pro spuštění aplikace" />
   <Value Id="GroupContextSeen" Content="Seen" Text="Viditelný" Header="Viditelný" />
   <Value Id="GroupContextUpdate" Content="Ongoing" Text="Ongoing" Header="Ongoing" />
   <Value Id="GroupContextNotSeen" Content="Unseen" Text="Neviditelný" Header="Neviditelný" />
   <Value Id="GroupContextSinState" Content="Stateless" Text="Stateless" Header="Stateless" />
-  <Value Id="EditSize" Text="Velikost"></Value>
-  <Value Id="Loading" Text="Nahrávám ..."></Value>
-  <Value Id="NoTitleFoundToScrap" Text="No corresponding film"></Value>
+  <Value Id="EditSize" Text="Velikost" />
+  <Value Id="Loading" Text="Nahrávám ..." />
+  <Value Id="NoTitleFoundToScrap" Text="No corresponding film" />
   <Value Id="FiltersMenuAll" Text="Vše" />
   <Value Id="FiltersMenuSeen" Text="Viditelný" />
   <Value Id="FiltersMenuUnseen" Text="Neviditelný" />
   <Value Id="FiltersMenuOngoing" Text="PRŮBĚŽNÉ" />
-  <Value Id="Prepare_Application" Content="Nastavení aplikace" SettingsLoading="Nahrávání nastavení" ScanningAllFiles="Prohledávání souborů" DataBaseLoading="Nahrávání databáze" DataBaseCleanUp="Čištění databáze" EnablingFeatureBrowserEmulation="Povolení emulace funkčnost prohlížeče."></Value>
-  <Value Id="SettingsScanOnStarWindows" Text="Prohledat databázi po startu"></Value>
+  <Value Id="Prepare_Application" Content="Nastavení aplikace" SettingsLoading="Nahrávání nastavení" ScanningAllFiles="Prohledávání souborů" DataBaseLoading="Nahrávání databáze" DataBaseCleanUp="Čištění databáze" EnablingFeatureBrowserEmulation="Povolení emulace funkčnost prohlížeče." />
+  <Value Id="SettingsScanOnStarWindows" Text="Prohledat databázi po startu" />
   <Value Id="SettingsTabValidation" Header="Validation" />
   <Value Id="Globalization_XML" homeconfig="Konfigurace" homeinfo="Informace" configlm="Spusťte Media" configipd="IP adresa" searchmovies="Film" searchactors="Herec" searchdirectors="Ředitel" abctitle="Všechny mé soubory" moviestitle="Filmy" showstitle="Série" recentstitle="Nedávný" categtitle="Kategorie" detailtitle="Podrobnosti" remoteplay="Doba na Duně ..." remotestop="No běží na čtení Duny ..." remoteback="Rewind ..." remotefwd="Rychlý posun vpřed ..." />
   <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune" />
@@ -231,4 +231,5 @@
   <Value Id="MusicMenu" Titles="TITULY" Albums="ALBA" Artists="UMĚLCI" Recents="AKTUÁLNÍ" Genres="TYPY" Playlists="PLAYLISTS" />
   <Value Id="AlbumView" Genre="Žánr :" Count="Skladby :" ReleaseDate="Datum vydání :" Runtime="Doba trvání :" />
   <Value Id="ScanMusicsFolderTask" Header="Skenování hudebních souborů" />
-  <Value Id="FirstInitFromMusicNfoTask" Header="Inicializace informace z hudby" /></Dictionary>
+  <Value Id="FirstInitFromMusicNfoTask" Header="Inicializace informace z hudby" />
+</Dictionary>

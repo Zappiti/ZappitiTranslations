@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Dictionary EnglishName="Poland" CultureName="pl-PL">
-  <Value Id="SettingsTabValidation" Header="walidacji"></Value>
-  <Value Id="Globalization_XML" homeconfig="konfiguracja" homeinfo="Informacja" configlm="Uruchom multimedia" configipd="Adres IP" searchmovies="Filmy" searchactors="aktorzy" searchdirectors="dyrektor" abctitle="Wszystkie moje pliki" moviestitle="Filmy" showstitle="seria" recentstitle="Ostatnie" categtitle="kategorie" detailtitle="Szczegóły" remoteplay="Grając na Dune ..." remotestop="Brak prądu odtwarzania na Dune ..." remoteback="Rewind ..." remotefwd="Przewijanie do przodu ..."></Value>
-  <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune"></Value>
-  <Value Id="SettingsDefault" Header="Defaut"></Value>
-  <Value Id="SettingsAdvancedOptions" Header="Opcje zaawansowane"></Value>
-  <Value Id="SettingsTypeExport" ExportDune="Pliku eksportu Dune:" ExportITunes="iTunes eksport pliku:" Body="Definiowanie pliku eksportu." DoYouHaveADune="Mam Dune" DoYouHaveAniPhone="Mam iPhone / iPad / iPod" DeviceType="Urządzenia :" Primary="Priorytet" Secondary="Wtórny" Audio="Audio :" Subtitle="Podtytuł :" Encode="Kodowanie parametr :" SubtitleRule="Zastosuj napisy :"></Value>
-  <Value Id="SettingsIsNFS" Content="Format NFS"></Value>
-  <Value Id="SettingsUserName" Text="Login :"></Value>
-  <Value Id="SettingsUserPassword" Text="Hasło :"></Value>
-  <Value Id="MainScrapPicturesTvShow" Content="Obrazu tła"></Value>
-  <Value Id="Export_XML" CreateGlobalizationCustomCommand="Internacjonalizacji generowania pliku" iPhoneItemExportCustomCommand="iTunes generowania pliku" ConfigXmlGeneratorCommand="Eksportuj konfigurację" MoviesXmlFileGeneratorCommand="Eksportuj filmy" AbcXmlFileGeneratorCommand="Eksport bazy" TvShowsXmlFileGeneratorCommand="Export Series" CategoriesXmlFileGeneratorCommand="Eksportuj kategorie" RecentsXmlFileGeneratorCommand="Eksport ostatnich"></Value>
-  <Value Id="SettingsIsXmlExport" Text="Domyślnie Xml"></Value>
-  <Value Id="SettingsTabExport" Header="Export"></Value>
+  <Value Id="SettingsTabValidation" Header="walidacji" />
+  <Value Id="Globalization_XML" homeconfig="konfiguracja" homeinfo="Informacja" configlm="Uruchom multimedia" configipd="Adres IP" searchmovies="Filmy" searchactors="aktorzy" searchdirectors="dyrektor" abctitle="Wszystkie moje pliki" moviestitle="Filmy" showstitle="seria" recentstitle="Ostatnie" categtitle="kategorie" detailtitle="Szczegóły" remoteplay="Grając na Dune ..." remotestop="Brak prądu odtwarzania na Dune ..." remoteback="Rewind ..." remotefwd="Przewijanie do przodu ..." />
+  <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune" />
+  <Value Id="SettingsDefault" Header="Defaut" />
+  <Value Id="SettingsAdvancedOptions" Header="Opcje zaawansowane" />
+  <Value Id="SettingsTypeExport" ExportDune="Pliku eksportu Dune:" ExportITunes="iTunes eksport pliku:" Body="Definiowanie pliku eksportu." DoYouHaveADune="Mam Dune" DoYouHaveAniPhone="Mam iPhone / iPad / iPod" DeviceType="Urządzenia :" Primary="Priorytet" Secondary="Wtórny" Audio="Audio :" Subtitle="Podtytuł :" Encode="Kodowanie parametr :" SubtitleRule="Zastosuj napisy :" />
+  <Value Id="SettingsIsNFS" Content="Format NFS" />
+  <Value Id="SettingsUserName" Text="Login :" />
+  <Value Id="SettingsUserPassword" Text="Hasło :" />
+  <Value Id="MainScrapPicturesTvShow" Content="Obrazu tła" />
+  <Value Id="Export_XML" CreateGlobalizationCustomCommand="Internacjonalizacji generowania pliku" iPhoneItemExportCustomCommand="iTunes generowania pliku" ConfigXmlGeneratorCommand="Eksportuj konfigurację" MoviesXmlFileGeneratorCommand="Eksportuj filmy" AbcXmlFileGeneratorCommand="Eksport bazy" TvShowsXmlFileGeneratorCommand="Export Series" CategoriesXmlFileGeneratorCommand="Eksportuj kategorie" RecentsXmlFileGeneratorCommand="Eksport ostatnich" />
+  <Value Id="SettingsIsXmlExport" Text="Domyślnie Xml" />
+  <Value Id="SettingsTabExport" Header="Export" />
   <Value Id="SettingsFolders" Text="Katalogi z filmami i serialami:" />
   <Value Id="SettingsOK" Content="OK" />
   <Value Id="SettingsCancel" Content="Anuluj" />
@@ -75,9 +75,9 @@
   <Value Id="EditViewNotView" Text="WIDZIANY" />
   <Value Id="EditOK" Content="OK" />
   <Value Id="EditCancel" Content="ANULUJ" />
-  <Value Id="MainHome" Content="Strona główna"></Value>
+  <Value Id="MainHome" Content="Strona główna" />
   <Value Id="MainConfiguration" Content="USTAWIENIA" />
-  <Value Id="MainSearchMedias" Content="Szukaj"></Value>
+  <Value Id="MainSearchMedias" Content="Szukaj" />
   <Value Id="MainScan" Content="SKANUJ" />
   <Value Id="MainExport" ExportDune="Dune Export" ExportITunes="ITunes Export" Title="Eksportuj ..." />
   <Value Id="MainEdit" Content="EDYTUJ" />
@@ -143,16 +143,16 @@
   <Value Id="SelectPictureTabHeader" Folder="Kurtka" Background="Tło" />
   <Value Id="SettingsTabFolders" Header="Akta" />
   <Value Id="SettingsTabOthers" Header="Inny" SendErrorReport="Automatycznie wysyła raport w deweloperów, gdy wystąpi błąd." />
-  <Value Id="SettingsTabScrapers" Header="POBIERZ" MovieScraper="Filmy:" MoviePictureScraper="Obrazy z filmów:" TVShowScraper="Seria:" TVShowPictureScraper="Obrazy z serii:" ScrapOnStarWindows="Rozpocznij skanowanie plików do uruchamiania aplikacji"></Value>
+  <Value Id="SettingsTabScrapers" Header="POBIERZ" MovieScraper="Filmy:" MoviePictureScraper="Obrazy z filmów:" TVShowScraper="Seria:" TVShowPictureScraper="Obrazy z serii:" ScrapOnStarWindows="Rozpocznij skanowanie plików do uruchamiania aplikacji" />
   <Value Id="GroupContextState" Seen="Oglądane" Ongoing="W toku" Unseen="Niewidzialny" Stateless="Bez stan" />
-  <Value Id="EditSize" Text="Rozmiar"></Value>
-  <Value Id="Loading" Text="Ładowanie ..."></Value>
-  <Value Id="NoTitleFoundToScrap" Text="Brak odpowiadającego film"></Value>
+  <Value Id="EditSize" Text="Rozmiar" />
+  <Value Id="Loading" Text="Ładowanie ..." />
+  <Value Id="NoTitleFoundToScrap" Text="Brak odpowiadającego film" />
   <Value Id="FiltersMenuAll" Text="WSZYSTKICH" />
   <Value Id="FiltersMenuSeen" Text="WIDZIANY" />
   <Value Id="FiltersMenuUnseen" Text="NIEWIDZIALNY" />
   <Value Id="FiltersMenuOngoing" Text="W TOKU" />
-  <Value Id="Prepare_Application" Content="Konfiguracja aplikacji" SettingsLoading="Ładowanie konfiguracji" ScanningAllFiles="Uruchom skanowanie plików" DataBaseLoading="Ładowanie bazy danych" DataBaseCleanUp="Czyszczenie bazy danych" EnablingFeatureBrowserEmulation="Włączenie funkcji emulacji przeglądarki."></Value>
+  <Value Id="Prepare_Application" Content="Konfiguracja aplikacji" SettingsLoading="Ładowanie konfiguracji" ScanningAllFiles="Uruchom skanowanie plików" DataBaseLoading="Ładowanie bazy danych" DataBaseCleanUp="Czyszczenie bazy danych" EnablingFeatureBrowserEmulation="Włączenie funkcji emulacji przeglądarki." />
   <Value Id="WizardWelcome" Body="Witamy.[br][br]Ten kreator pomoże Ci skonfigurować Zappiti.[br][br]Kliknij przycisk &quot;Powiedzieć, gdzie są moje filmy&quot; nam powiedzieć, gdzie twoje filmy." AddMovies="Powiedzieć, gdzie są Twoje filmy &gt;&gt;" Close="Zamknij" Header="Setup Wizard" />
   <Value Id="WizardAddLocalLocation" Name="Dodaj folder lokalny" Description="- Wewnętrzny dysk twardy tego komputera [br] - Zewnętrzny dysk twardy podłączony do USB / eSATA ten komputer [br] - Dysk twardy w stacji dokującej podłączone do tego komputera przez port USB / eSATA [br] - Drive Dune podłączony slave USB do tego komputera" Header="Foldery lokalne" Tips="Porady: Możesz podzielić się tymi plikami w sieci lokalnej lub dostępne bezpośrednio z Dune w przypadku urządzenia USB." Folders="Dyski lokalne / urządzeń USB" />
   <Value Id="WizardAddNetworkLocation" Name="Dodaj udostępnionego folderu sieciowego" Description="- Wewnętrzny dysk twardy z sieci Dune [br] - Zewnętrzny dysk z Diuny sieciowej [br] - serwer NAS [br] - Inne zdalnym komputerze w sieci [br] - udostępnionego folderu sieciowego [br] - Twardy dysk" Header="Udostępnionych folderów sieciowych, NAS ..." Tips="Porady: Możesz kupić USB, NAS, itp. na terenie HD LAND." Folders="Miejscach sieci" />
@@ -218,4 +218,5 @@
   <Value Id="MusicMenu" Titles="TYTUŁY" Albums="ALBUMS" Artists="ARTYŚCI" Recents="OSTATNIE" Genres="RODZAJE" Playlists="PLAYLISTS" />
   <Value Id="AlbumView" Genre="Gatunek :" Count="Utwory :" ReleaseDate="Data wydania :" Runtime="Czas trwania :" />
   <Value Id="ScanMusicsFolderTask" Header="Skanowanie plików muzycznych" />
-  <Value Id="FirstInitFromMusicNfoTask" Header="Informacje Inicjalizacja z muzyką" /></Dictionary>
+  <Value Id="FirstInitFromMusicNfoTask" Header="Informacje Inicjalizacja z muzyką" />
+</Dictionary>

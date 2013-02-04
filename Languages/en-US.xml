@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Dictionary EnglishName="English" CultureName="en-US">
-  <Value Id="SettingsTabValidation" Header="Validation"></Value>
-  <Value Id="Globalization_XML" homeconfig="Configuration" homeinfo="Information" configlm="Launch Media" configipd="IP address" searchmovies="Movie" searchactors="Cast" searchdirectors="Director" abctitle="All my files" moviestitle="Movies" showstitle="Tv show" recentstitle="Recents" categtitle="Categories" detailtitle="Details" remoteplay="Playing on your Dune ..." remotestop="No current playback on your Dune ..." remoteback="Rewind ..." remotefwd="Fast forward ..."></Value>
-  <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune"></Value>
-  <Value Id="SettingsDefault" Header="Default"></Value>
-  <Value Id="SettingsAdvancedOptions" Header="Advanced Options"></Value>
-  <Value Id="SettingsTypeExport" ExportDune="Dune export file:" ExportITunes="iTunes export file:" Body="Define your export file." DoYouHaveADune="I have a Dune" DoYouHaveAniPhone="I have an iPhone / iPad / iPod" DeviceType="Device :" Primary="Priority" Secondary="Secondary" Audio="Audio :" Subtitle="Subtitle :" Encode="Encoding parameter :" SubtitleRule="Show subtitles :"></Value>
-  <Value Id="SettingsIsNFS" Content="NFS protocol"></Value>
-  <Value Id="SettingsUserName" Text="Login :"></Value>
-  <Value Id="SettingsUserPassword" Text="Password :"></Value>
-  <Value Id="MainScrapPicturesTvShow" Content="Background picture"></Value>
-  <Value Id="Export_XML" CreateGlobalizationCustomCommand="File generation internationalization" iPhoneItemExportCustomCommand="File generation iTunes" ConfigXmlGeneratorCommand="Export Configuration" MoviesXmlFileGeneratorCommand="Export movies" AbcXmlFileGeneratorCommand="Export Base" TvShowsXmlFileGeneratorCommand="Export Series" CategoriesXmlFileGeneratorCommand="Export categories" RecentsXmlFileGeneratorCommand="Export recent"></Value>
-  <Value Id="SettingsIsXmlExport" Text="Xml default"></Value>
-  <Value Id="SettingsTabExport" Header="Export"></Value>
+  <Value Id="SettingsTabValidation" Header="Validation" />
+  <Value Id="Globalization_XML" homeconfig="Configuration" homeinfo="Information" configlm="Launch Media" configipd="IP address" searchmovies="Movie" searchactors="Cast" searchdirectors="Director" abctitle="All my files" moviestitle="Movies" showstitle="Tv show" recentstitle="Recents" categtitle="Categories" detailtitle="Details" remoteplay="Playing on your Dune ..." remotestop="No current playback on your Dune ..." remoteback="Rewind ..." remotefwd="Fast forward ..." />
+  <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune" />
+  <Value Id="SettingsDefault" Header="Default" />
+  <Value Id="SettingsAdvancedOptions" Header="Advanced Options" />
+  <Value Id="SettingsTypeExport" ExportDune="Dune export file:" ExportITunes="iTunes export file:" Body="Define your export file." DoYouHaveADune="I have a Dune" DoYouHaveAniPhone="I have an iPhone / iPad / iPod" DeviceType="Device :" Primary="Priority" Secondary="Secondary" Audio="Audio :" Subtitle="Subtitle :" Encode="Encoding parameter :" SubtitleRule="Show subtitles :" />
+  <Value Id="SettingsIsNFS" Content="NFS protocol" />
+  <Value Id="SettingsUserName" Text="Login :" />
+  <Value Id="SettingsUserPassword" Text="Password :" />
+  <Value Id="MainScrapPicturesTvShow" Content="Background picture" />
+  <Value Id="Export_XML" CreateGlobalizationCustomCommand="File generation internationalization" iPhoneItemExportCustomCommand="File generation iTunes" ConfigXmlGeneratorCommand="Export Configuration" MoviesXmlFileGeneratorCommand="Export movies" AbcXmlFileGeneratorCommand="Export Base" TvShowsXmlFileGeneratorCommand="Export Series" CategoriesXmlFileGeneratorCommand="Export categories" RecentsXmlFileGeneratorCommand="Export recent" />
+  <Value Id="SettingsIsXmlExport" Text="Xml default" />
+  <Value Id="SettingsTabExport" Header="Export" />
   <Value Id="SettingsFolders" Text="Your folders :" />
   <Value Id="SettingsOK" Content="OK" />
   <Value Id="SettingsCancel" Content="Cancel" />
@@ -75,8 +75,8 @@
   <Value Id="EditViewNotView" Text="Seen" />
   <Value Id="EditOK" Content="OK" />
   <Value Id="EditCancel" Content="Cancel" />
-  <Value Id="MainHome" Content="Home"></Value>
-  <Value Id="MainSearchMedias" Content="Search"></Value>
+  <Value Id="MainHome" Content="Home" />
+  <Value Id="MainSearchMedias" Content="Search" />
   <Value Id="MainConfiguration" Content="Configure" />
   <Value Id="MainScan" Content="Scan" />
   <Value Id="MainExport" ExportDune="Export Dune" ExportITunes="Export iTunes" Title="Exporting ..." />
@@ -143,16 +143,16 @@
   <Value Id="SelectPictureTabHeader" Folder="Cover front" Background="Background" />
   <Value Id="SettingsTabFolders" Header="Files" />
   <Value Id="SettingsTabOthers" Header="Other" SendErrorReport="Automatically send a report in the developers when an error occurs." />
-  <Value Id="SettingsTabScrapers" Header="Scrapers" MovieScraper="Movies:" MoviePictureScraper="Images of films:" TVShowScraper="Series:" TVShowPictureScraper="Images of series:" ScrapOnStarWindows="Start scanning files at application launch"></Value>
+  <Value Id="SettingsTabScrapers" Header="Scrapers" MovieScraper="Movies:" MoviePictureScraper="Images of films:" TVShowScraper="Series:" TVShowPictureScraper="Images of series:" ScrapOnStarWindows="Start scanning files at application launch" />
   <Value Id="GroupContextState" Seen="Seen" Ongoing="Ongoing" Unseen="Unseen" Stateless="Stateless" />
-  <Value Id="EditSize" Text="Size"></Value>
-  <Value Id="Loading" Text="Loading ..."></Value>
-  <Value Id="NoTitleFoundToScrap" Text="No corresponding film"></Value>
+  <Value Id="EditSize" Text="Size" />
+  <Value Id="Loading" Text="Loading ..." />
+  <Value Id="NoTitleFoundToScrap" Text="No corresponding film" />
   <Value Id="FiltersMenuAll" Text="ALL" />
   <Value Id="FiltersMenuSeen" Text="SEEN" />
   <Value Id="FiltersMenuUnseen" Text="UNSEEN" />
   <Value Id="FiltersMenuOngoing" Text="ONGOING" />
-  <Value Id="Prepare_Application" Content="Application Configuration" SettingsLoading="Loading the configuration" ScanningAllFiles="Scanning files" DataBaseLoading="Database loading" DataBaseCleanUp="Database cleanup" EnablingFeatureBrowserEmulation="Enabling browser emulation feature."></Value>
+  <Value Id="Prepare_Application" Content="Application Configuration" SettingsLoading="Loading the configuration" ScanningAllFiles="Scanning files" DataBaseLoading="Database loading" DataBaseCleanUp="Database cleanup" EnablingFeatureBrowserEmulation="Enabling browser emulation feature." />
   <Value Id="WizardWelcome" Body="Welcome.[br][br]This wizard will help you configure Zappiti.[br][br]Click the &quot;Where are your files&quot; button to tell Zappiti where your files are." AddMovies="Where are your files &gt;&gt;" Close="Close" Header="Setup Wizard" />
   <Value Id="WizardAddLocalLocation" Name="Add a local folder" Description="- Internal hard drive of this computer [br] - External hard drive connected to USB / eSata this computer [br] - Hard drive in a docking station connected to this computer via USB / eSata [br] - Dune Drive connected USB Slave to this computer" Header="Local Folders" Tips="Tips: You can choose to share these files on your local network, or accessed directly with Dune in the case of USB device." Folders="Local drives / USB Devices" />
   <Value Id="WizardAddNetworkLocation" Name="Add a shared network folder" Description="- Internal hard drive of the networked Dune [br] - External Hard of Dune networked [br] - NAS server [br] - Other remote computer on the network [br] - Network Shared Folder [br] - network hard drives" Header="Shared network folders, NAS ..." Tips="Tips: You can buy USB, NAS, etc. on the site of HD LAND." Folders="Network locations" />
@@ -218,4 +218,5 @@
   <Value Id="MusicMenu" Titles="TITLES" Albums="ALBUMS" Artists="ARTISTS" Recents="RECENT" Genres="TYPES" Playlists="PLAYLISTS" />
   <Value Id="AlbumView" Genre="Genre :" Count="Tracks :" ReleaseDate="Release Date :" Runtime="Duration :" />
   <Value Id="ScanMusicsFolderTask" Header="Scan music files" />
-  <Value Id="FirstInitFromMusicNfoTask" Header="Initialization information from a music" /></Dictionary>
+  <Value Id="FirstInitFromMusicNfoTask" Header="Initialization information from a music" />
+</Dictionary>

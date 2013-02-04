@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Dictionary EnglishName="Italian" CultureName="it-IT" Author="SteThx">
-  <Value Id="SettingsTabValidation" Header="convalida"></Value>
-  <Value Id="Globalization_XML" homeconfig="configurazione" homeinfo="informazioni" configlm="Lancio multimediale" configipd="Indirizzo IP" searchmovies="film" searchactors="attori" searchdirectors="direttore" abctitle="Tutti i miei file" moviestitle="film" showstitle="serie" recentstitle="recente" categtitle="categorie" detailtitle="Dettagli" remoteplay="Giocando sul tuo Dune ..." remotestop="Nessun riproduzione in corso sulla vostra Dune ..." remoteback="Rewind ..." remotefwd="Avanti veloce ..."></Value>
-  <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune"></Value>
-  <Value Id="SettingsDefault" Header="Defaut"></Value>
-  <Value Id="SettingsAdvancedOptions" Header="Opzioni avanzate"></Value>
-  <Value Id="SettingsTypeExport" ExportDune="Dune esportazione del file:" ExportITunes="iTunes esportazione del file:" Body="Definisci il tuo file di esportazione." DoYouHaveADune="Ho un Dune" DoYouHaveAniPhone="Ho un iPhone / iPad / iPod" DeviceType="Device :" Primary="Priorità" Secondary="Secondario" Audio="Audio :" Subtitle="Sottotitolo :" Encode="Codifica dei parametri :" SubtitleRule="Applicare i sottotitoli :"></Value>
-  <Value Id="SettingsIsNFS" Content="NFS formato"></Value>
-  <Value Id="SettingsUserName" Text="Accesso :"></Value>
-  <Value Id="SettingsUserPassword" Text="Password :"></Value>
-  <Value Id="MainScrapPicturesTvShow" Content="Immagine di sfondo"></Value>
-  <Value Id="Export_XML" CreateGlobalizationCustomCommand="Generazione di file di internazionalizzazione" iPhoneItemExportCustomCommand="File di generazione di iTunes" ConfigXmlGeneratorCommand="Esporta configurazione" MoviesXmlFileGeneratorCommand="Esportare filmati" AbcXmlFileGeneratorCommand="Export Base" TvShowsXmlFileGeneratorCommand="Export Series" CategoriesXmlFileGeneratorCommand="Esporta le categorie" RecentsXmlFileGeneratorCommand="Export recenti"></Value>
-  <Value Id="SettingsIsXmlExport" Text="XML predefinito"></Value>
-  <Value Id="SettingsTabExport" Header="Export"></Value>
+  <Value Id="SettingsTabValidation" Header="convalida" />
+  <Value Id="Globalization_XML" homeconfig="configurazione" homeinfo="informazioni" configlm="Lancio multimediale" configipd="Indirizzo IP" searchmovies="film" searchactors="attori" searchdirectors="direttore" abctitle="Tutti i miei file" moviestitle="film" showstitle="serie" recentstitle="recente" categtitle="categorie" detailtitle="Dettagli" remoteplay="Giocando sul tuo Dune ..." remotestop="Nessun riproduzione in corso sulla vostra Dune ..." remoteback="Rewind ..." remotefwd="Avanti veloce ..." />
+  <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune" />
+  <Value Id="SettingsDefault" Header="Defaut" />
+  <Value Id="SettingsAdvancedOptions" Header="Opzioni avanzate" />
+  <Value Id="SettingsTypeExport" ExportDune="Dune esportazione del file:" ExportITunes="iTunes esportazione del file:" Body="Definisci il tuo file di esportazione." DoYouHaveADune="Ho un Dune" DoYouHaveAniPhone="Ho un iPhone / iPad / iPod" DeviceType="Device :" Primary="Priorità" Secondary="Secondario" Audio="Audio :" Subtitle="Sottotitolo :" Encode="Codifica dei parametri :" SubtitleRule="Applicare i sottotitoli :" />
+  <Value Id="SettingsIsNFS" Content="NFS formato" />
+  <Value Id="SettingsUserName" Text="Accesso :" />
+  <Value Id="SettingsUserPassword" Text="Password :" />
+  <Value Id="MainScrapPicturesTvShow" Content="Immagine di sfondo" />
+  <Value Id="Export_XML" CreateGlobalizationCustomCommand="Generazione di file di internazionalizzazione" iPhoneItemExportCustomCommand="File di generazione di iTunes" ConfigXmlGeneratorCommand="Esporta configurazione" MoviesXmlFileGeneratorCommand="Esportare filmati" AbcXmlFileGeneratorCommand="Export Base" TvShowsXmlFileGeneratorCommand="Export Series" CategoriesXmlFileGeneratorCommand="Esporta le categorie" RecentsXmlFileGeneratorCommand="Export recenti" />
+  <Value Id="SettingsIsXmlExport" Text="XML predefinito" />
+  <Value Id="SettingsTabExport" Header="Export" />
   <Value Id="SettingsFolders" Text="Cartelle :" />
   <Value Id="SettingsOK" Content="OK" />
   <Value Id="SettingsCancel" Content="Annulla" />
@@ -76,9 +76,9 @@
   <Value Id="EditOK" Content="OK" />
   <Value Id="EditCancel" Content="Annulla" />
   <Value Id="MainConfiguration" Content="Configura" />
-  <Value Id="MainSearchMedias" Content="Cerca"></Value>
+  <Value Id="MainSearchMedias" Content="Cerca" />
   <Value Id="MainScan" Content="Scan" />
-  <Value Id="MainHome" Content="Prima"></Value>
+  <Value Id="MainHome" Content="Prima" />
   <Value Id="MainExport" ExportDune="Esportazione Dune" ExportITunes="Esportazione iTunes" Title="Di esportazione in corso ..." />
   <Value Id="MainEdit" Content="Edita" />
   <Value Id="MainScrapDetails" Content="Scrape details" />
@@ -143,16 +143,16 @@
   <Value Id="SelectPictureTabHeader" Folder="Giacca" Background="Sfondo" />
   <Value Id="SettingsTabFolders" Header="File" />
   <Value Id="SettingsTabOthers" Header="Altro" SendErrorReport="Invio automatico di un rapporto in cui gli sviluppatori si verifica un errore." />
-  <Value Id="SettingsTabScrapers" Header="Scrape" MovieScraper="Film:" MoviePictureScraper="Immagini di film:" TVShowScraper="Serie:" TVShowPictureScraper="Immagini di serie:" ScrapOnStarWindows="Avviare la scansione dei file per avviare l'applicazione"></Value>
+  <Value Id="SettingsTabScrapers" Header="Scrape" MovieScraper="Film:" MoviePictureScraper="Immagini di film:" TVShowScraper="Serie:" TVShowPictureScraper="Immagini di serie:" ScrapOnStarWindows="Avviare la scansione dei file per avviare l'applicazione" />
   <Value Id="GroupContextState" Seen="Visto" Ongoing="In corso" Unseen="No visto" Stateless="Apolide" />
-  <Value Id="EditSize" Text="Dimensioni"></Value>
-  <Value Id="Loading" Text="Caricamento ..."></Value>
-  <Value Id="NoTitleFoundToScrap" Text="Nessun film corrispondente"></Value>
+  <Value Id="EditSize" Text="Dimensioni" />
+  <Value Id="Loading" Text="Caricamento ..." />
+  <Value Id="NoTitleFoundToScrap" Text="Nessun film corrispondente" />
   <Value Id="FiltersMenuAll" Text="TUTTI" />
   <Value Id="FiltersMenuSeen" Text="VISTO" />
   <Value Id="FiltersMenuUnseen" Text="NO VISTO" />
   <Value Id="FiltersMenuOngoing" Text="IN CORSO" />
-  <Value Id="Prepare_Application" Content="Applicazione di configurazione" SettingsLoading="Caricamento della configurazione" ScanningAllFiles="Lanciare la scansione dei file" DataBaseLoading="Caricare il database" DataBaseCleanUp="Pulizia del Database" EnablingFeatureBrowserEmulation="Abilitazione funzionalità di emulazione del browser."></Value>
+  <Value Id="Prepare_Application" Content="Applicazione di configurazione" SettingsLoading="Caricamento della configurazione" ScanningAllFiles="Lanciare la scansione dei file" DataBaseLoading="Caricare il database" DataBaseCleanUp="Pulizia del Database" EnablingFeatureBrowserEmulation="Abilitazione funzionalità di emulazione del browser." />
   <Value Id="WizardWelcome" Body="Benvenuti.[br][br]Questa procedura guidata consente di configurare Zappiti.[br][br]Fare clic su &quot;Dire dove sono i miei video&quot; per dirci dove i tuoi film." AddMovies="Dire dove sono i tuoi video &gt;&gt;" Close="Chiudi" Header="Setup Wizard" />
   <Value Id="WizardAddLocalLocation" Name="Aggiungere una cartella locale" Description="- Disco rigido interno del computer [br] - Disco rigido esterno collegato alla porta USB / eSata questo computer [br] - Hard disk in una docking station collegata al computer via USB / eSata [br] - Drive Dune collegato Slave USB al computer" Header="Cartelle locali" Tips="Suggerimenti: Le cartelle locali che si sceglie saranno condivisi sulla rete locale." Folders="Le unità locali / Dispositivi USB" />
   <Value Id="WizardAddNetworkLocation" Name="Aggiungere una cartella di rete condivisa" Description="- Hard disk interno del Dune di rete [br] - Hard esterno di Dune in rete [br] - NAS server [br] - Altre computer remoto sulla rete [br] - cartella di rete condivisa [br] - network Hard Drive" Header="Cartelle di rete condivise, NAS ..." Tips="Suggerimenti: È possibile acquistare USB, NAS, ecc sul sito di HD LAND." Folders="Rete di sedi" />
@@ -218,4 +218,5 @@
   <Value Id="MusicMenu" Titles="TITOLI" Albums="ALBUM" Artists="ARTISTI" Recents="RECENTI" Genres="TIPI" Playlists="PLAYLISTS" />
   <Value Id="AlbumView" Genre="Genere :" Count="Tracks :" ReleaseDate="Data di rilascio :" Runtime="Durata :" />
   <Value Id="ScanMusicsFolderTask" Header="Scansione dei file musicali" />
-  <Value Id="FirstInitFromMusicNfoTask" Header="Informazioni di inizializzazione da una musica" /></Dictionary>
+  <Value Id="FirstInitFromMusicNfoTask" Header="Informazioni di inizializzazione da una musica" />
+</Dictionary>

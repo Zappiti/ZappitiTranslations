@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Dictionary EnglishName="Netherlands" CultureName="nl-NL" Author="The Wizard;Frisootje;Gossie">
-  <Value Id="SettingsTabValidation" Header="Bevestigen"></Value>
-  <Value Id="Globalization_XML" homeconfig="configuratie" homeinfo="informatie" configlm="Afspelen" configipd="IP adres" searchmovies="Film" searchactors="Cast" searchdirectors="Regisseur" abctitle="Alle bestanden" moviestitle="films" showstitle="series" recentstitle="recente toevoegingen" categtitle="categorieën" detailtitle="Details" remoteplay="Afspelen op de Dune ..." remotestop="Weergave op uw Dune stoppen ..." remoteback="Terugspoelen ..." remotefwd="Vooruitspoelen ..."></Value>
-  <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune"></Value>
-  <Value Id="SettingsDefault" Header="Standaard"></Value>
-  <Value Id="SettingsAdvancedOptions" Header="Geavanceerde opties"></Value>
-  <Value Id="SettingsTypeExport" ExportDune="Dune exportbestand:" ExportITunes="iTunes exportbestand:" Body="Selecteer exportbestand." DoYouHaveADune="Exporteren voor Dune" DoYouHaveAniPhone="Exporteren voor Apple iOS apparaat (via iTunes)" DeviceType="Apparaat:" Primary="Eerste keus" Secondary="Tweede keus" Audio="Audio:" Subtitle="Ondertitels:" Encode="Codering parameter" SubtitleRule="Toon ondertitels :"></Value>
-  <Value Id="SettingsIsNFS" Content="NFS protocol"></Value>
-  <Value Id="SettingsUserName" Text="Gebruikersnaam:"></Value>
-  <Value Id="SettingsUserPassword" Text="Wachtwoord:"></Value>
-  <Value Id="MainScrapPicturesTvShow" Content="Achtergrondafbeelding"></Value>
-  <Value Id="Export_XML" CreateGlobalizationCustomCommand="Bestand voor internationalisering maken" iPhoneItemExportCustomCommand="Bestand voor iTunes maken" ConfigXmlGeneratorCommand="Configuratie exporteren" MoviesXmlFileGeneratorCommand="Films exporteren" AbcXmlFileGeneratorCommand="Basis exporteren" TvShowsXmlFileGeneratorCommand="Series exporteren" CategoriesXmlFileGeneratorCommand="Categorieën exporteren" RecentsXmlFileGeneratorCommand="Recente toevoegingen exporteren"></Value>
-  <Value Id="SettingsIsXmlExport" Text="XML standaard"></Value>
-  <Value Id="SettingsTabExport" Header="Export"></Value>
+  <Value Id="SettingsTabValidation" Header="Bevestigen" />
+  <Value Id="Globalization_XML" homeconfig="configuratie" homeinfo="informatie" configlm="Afspelen" configipd="IP adres" searchmovies="Film" searchactors="Cast" searchdirectors="Regisseur" abctitle="Alle bestanden" moviestitle="films" showstitle="series" recentstitle="recente toevoegingen" categtitle="categorieën" detailtitle="Details" remoteplay="Afspelen op de Dune ..." remotestop="Weergave op uw Dune stoppen ..." remoteback="Terugspoelen ..." remotefwd="Vooruitspoelen ..." />
+  <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune" />
+  <Value Id="SettingsDefault" Header="Standaard" />
+  <Value Id="SettingsAdvancedOptions" Header="Geavanceerde opties" />
+  <Value Id="SettingsTypeExport" ExportDune="Dune exportbestand:" ExportITunes="iTunes exportbestand:" Body="Selecteer exportbestand." DoYouHaveADune="Exporteren voor Dune" DoYouHaveAniPhone="Exporteren voor Apple iOS apparaat (via iTunes)" DeviceType="Apparaat:" Primary="Eerste keus" Secondary="Tweede keus" Audio="Audio:" Subtitle="Ondertitels:" Encode="Codering parameter" SubtitleRule="Toon ondertitels :" />
+  <Value Id="SettingsIsNFS" Content="NFS protocol" />
+  <Value Id="SettingsUserName" Text="Gebruikersnaam:" />
+  <Value Id="SettingsUserPassword" Text="Wachtwoord:" />
+  <Value Id="MainScrapPicturesTvShow" Content="Achtergrondafbeelding" />
+  <Value Id="Export_XML" CreateGlobalizationCustomCommand="Bestand voor internationalisering maken" iPhoneItemExportCustomCommand="Bestand voor iTunes maken" ConfigXmlGeneratorCommand="Configuratie exporteren" MoviesXmlFileGeneratorCommand="Films exporteren" AbcXmlFileGeneratorCommand="Basis exporteren" TvShowsXmlFileGeneratorCommand="Series exporteren" CategoriesXmlFileGeneratorCommand="Categorieën exporteren" RecentsXmlFileGeneratorCommand="Recente toevoegingen exporteren" />
+  <Value Id="SettingsIsXmlExport" Text="XML standaard" />
+  <Value Id="SettingsTabExport" Header="Export" />
   <Value Id="SettingsFolders" Text="Uw mappen :" />
   <Value Id="SettingsOK" Content="OK" />
   <Value Id="SettingsCancel" Content="Annuleren" />
@@ -75,8 +75,8 @@
   <Value Id="EditViewNotView" Text="Gezien" />
   <Value Id="EditOK" Content="OK" />
   <Value Id="EditCancel" Content="Annuleren" />
-  <Value Id="MainHome" Content="Home"></Value>
-  <Value Id="MainSearchMedias" Content="Zoek"></Value>
+  <Value Id="MainHome" Content="Home" />
+  <Value Id="MainSearchMedias" Content="Zoek" />
   <Value Id="MainConfiguration" Content="Configuratie" />
   <Value Id="MainScan" Content="Zoek" />
   <Value Id="MainExport" ExportDune="Export Dune" ExportITunes="Export iTunes" Title="Export huidige ..." />
@@ -143,16 +143,16 @@
   <Value Id="SelectPictureTabHeader" Folder="Cover" Background="Achtergrond" />
   <Value Id="SettingsTabFolders" Header="Bestanden" />
   <Value Id="SettingsTabOthers" Header="Overig" SendErrorReport=" Stuur een bericht naar de ontwikkelaars als er een fout optreedt." />
-  <Value Id="SettingsTabScrapers" Header="Scrapers" MovieScraper="Films:" MoviePictureScraper="Beelden van films:" TVShowScraper="Series:" TVShowPictureScraper="Beelden van series:" ScrapOnStarWindows="Start scannen van bestanden bij start applicatie"></Value>
+  <Value Id="SettingsTabScrapers" Header="Scrapers" MovieScraper="Films:" MoviePictureScraper="Beelden van films:" TVShowScraper="Series:" TVShowPictureScraper="Beelden van series:" ScrapOnStarWindows="Start scannen van bestanden bij start applicatie" />
   <Value Id="GroupContextState" Seen="Gezien" Ongoing="Huidige" Unseen="Nog niet gezien" Stateless="Onbekend" />
   <Value Id="EditSize" Text="Grootte" />
-  <Value Id="Loading" Text="Laden ..."></Value>
-  <Value Id="NoTitleFoundToScrap" Text="Film niet gevonden"></Value>
+  <Value Id="Loading" Text="Laden ..." />
+  <Value Id="NoTitleFoundToScrap" Text="Film niet gevonden" />
   <Value Id="FiltersMenuAll" Text="ALLE" />
   <Value Id="FiltersMenuSeen" Text="GEZIEN" />
   <Value Id="FiltersMenuUnseen" Text="NOG NIET GEZIEN" />
   <Value Id="FiltersMenuOngoing" Text="HUIDIGE" />
-  <Value Id="Prepare_Application" Content="Configuratie laden" SettingsLoading="Configuratie laden" ScanningAllFiles="Scannen van bestanden" DataBaseLoading="Database laden" DataBaseCleanUp="Database opschonen" EnablingFeatureBrowserEmulation="Emulatiefunctie van browser inschakelen."></Value>
+  <Value Id="Prepare_Application" Content="Configuratie laden" SettingsLoading="Configuratie laden" ScanningAllFiles="Scannen van bestanden" DataBaseLoading="Database laden" DataBaseCleanUp="Database opschonen" EnablingFeatureBrowserEmulation="Emulatiefunctie van browser inschakelen." />
   <Value Id="WizardWelcome" Body="Hartelijk welkom.[br][br]Deze wizard helpt u bij het configureren van Zappiti.[br][br]Klik op de knop &quot;Waar zijn uw bestanden&quot; om ons te vertellen waar uw bestanden zijn." AddMovies="Waar zijn uw bestanden &gt;&gt;" Close="Sluiten" Header="Setup Wizard" />
   <Value Id="WizardAddLocalLocation" Name="Lokale map toevoegen" Description="[br]- Interne harde schijf van deze computer [br]- Externe harde schijf (USB/eSATA) van deze computer [br]- Externe harde schijf in een docking station[br]- Dune schijf, via USB (tijdelijk) rechtstreeks verbonden[br] " Header="Lokale mappen" Tips="Om lokaal opgeslagen mediabestanden met uw Dune af te kunnen spelen, moet u ze delen in het netwerk of een externe USB/eSATA disk rechtstreeks aan de Dune aansluiten!" Folders="Lokale schijven / USB apparaten" />
   <Value Id="WizardAddNetworkLocation" Name="Netwerkmap toevoegen" Description="[br]- Dune schijf, via het netwerk verbonden[br]- Netwerkschijf of NAS server[br]- Andere computer in het netwerk[br] " Header="Netwerkmappen, NAS ..." Tips="Tips: U kunt USB, NAS, etc. te kopen op de site van HD LAND" Folders="Netwerkmappen" />
@@ -218,4 +218,5 @@
   <Value Id="MusicMenu" Titles="TITELS" Albums="ALBUMS" Artists="ARTIESTEN" Recents="RECENT" Genres="GENRES" Playlists="AFSPEELLIJSTEN" />
   <Value Id="AlbumView" Genre="Genre :" Count="Tracks :" ReleaseDate="Uitgebracht :" Runtime="Speelduur :" />
   <Value Id="ScanMusicsFolderTask" Header="Scan muziekbestanden" />
-  <Value Id="FirstInitFromMusicNfoTask" Header="Initialisatie muziekinformatie" /></Dictionary>
+  <Value Id="FirstInitFromMusicNfoTask" Header="Initialisatie muziekinformatie" />
+</Dictionary>

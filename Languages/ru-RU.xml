@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Dictionary EnglishName="Russian" CultureName="ru-RU">
   <Value Id="SettingsTabValidation" Header="Проверка" />
   <Value Id="Globalization_XML" homeconfig="конфигурация" homeinfo="информация" configlm="Запуск фильма" configipd="IP-адрес" searchmovies="Фильмы" searchactors="Актёры" searchdirectors="Режисёры" abctitle="Все мои файлы" moviestitle="Фильмы" showstitle="Серия" recentstitle="Недавние" categtitle="Категории" detailtitle="Подробно" remoteplay="Воспроизвести на Dune ..." remotestop="Dune сейчас ничего не воспроизводит ..." remoteback="Перемотка ..." remotefwd="Быстрая перемотка вперед ..." />
@@ -219,4 +219,5 @@
   <Value Id="MusicMenu" Titles="ЦЕННЫЕ БУМАГИ" Albums="АЛЬБОМЫ" Artists="ХУДОЖНИКИ" Recents="В ПОСЛЕДНЕЕ ВРЕМЯ" Genres="ВИДЫ" Playlists="PLAYLISTS" />
   <Value Id="AlbumView" Genre="Жанр :" Count="Треки :" ReleaseDate="Дата выпуска :" Runtime="Продолжительность :" />
   <Value Id="ScanMusicsFolderTask" Header="Сканирование музыкальных файлов" />
-  <Value Id="FirstInitFromMusicNfoTask" Header="Инициализация информации от музыки" /></Dictionary>
+  <Value Id="FirstInitFromMusicNfoTask" Header="Инициализация информации от музыки" />
+</Dictionary>
