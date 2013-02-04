@@ -5,16 +5,12 @@
   <Value Id="SettingsFolders" Text="Vaše mediální soubory:" />
   <Value Id="SettingsOK" Content="OK" />
   <Value Id="SettingsCancel" Content="Zrušit" />
-  <Value Id="SettingsAddMovieFolder" Content="Nová složka s filmy" />
-  <Value Id="SettingsAddTVShowFolder" Content="Nová složka s TVshow" />
   <Value Id="SettingsDeleteFolder" Content="Vymazat" />
   <Value Id="SettingsModifyFolder" Content="Upravit stávající" />
-  <Value Id="SettingsSharePath" Text="Ukládat knihovnu do :" />
   <Value Id="SettingsBrowse" Content="Hledat" />
   <Value Id="SettingsFolderPath" Text="Cesta k souborům:" />
   <Value Id="SettingsZappitiDataPath" Text="Složka pro uložení nastavení :" />
   <Value Id="SettingsRewriteAbsolutePath" Text="Absolutní(zpáteční) cesta k souborům:" />
-  <Value Id="Scraper" Movie="IMDB" TVShow="TheTVDB" TVShowPicture="TheTVDB" MoviePicture="TMDB" />
   <Value Id="UnscrapedScrap" Content="Upravit" />
   <Value Id="UnscrapedScrapAll" Content="Upravit vše" />
   <Value Id="UnscrapedDefault" Content="Vymazat" />
@@ -87,7 +83,6 @@
   <Value Id="SelectPictureChoose" Content="Vybrat" />
   <Value Id="SelectPictureBrowse" Content="Vybrat z pevného disku" />
   <Value Id="SelectPictureClose" Content="Zavřít" />
-  <Value Id="GroupContextChangePicture" Header="Změnit..." />
   <Value Id="CleanUpMessage" Text="Následující média jsou nedostupná. " />
   <Value Id="CleanUpOK" Content="Vyčistit" />
   <Value Id="CleanUpClose" Content="Zavřít" />
@@ -97,7 +92,6 @@
   <Value Id="MessageBoxCaption" NewReleaseAvailable="K dispozici je aktualizace" DoYouWantToDeleteThisGroup="Odstranění položky" DeleteCategory="Odstranění kategorii" ResetCategories="Obnovit kategorií" ResetMainMenu="Reset nabídek" ResetABCMenu="Obnovit tlačítka" DoYouWantToDeleteTheseGroup="Odstranění položky" VersionExpired="K dispozici je aktualizace" AddFolder="Přidejte umístění?" CanStartDuneServer="Chyba" DoYouWanToInstallMpcHd="Požadavky na software" />
   <Value Id="EditChannels" Text="Kanály" />
   <Value Id="TVShowSeasonList" SeasonUp="SEASON {0}" />
-  <Value Id="GroupContextAddTo" Header="Skupina..." />
   <Value Id="AddToGroupNewGroup" Content="Nová skupina" />
   <Value Id="EditGroupCancel" Content="Zrušit" />
   <Value Id="EditGroupOK" Content="Uložit" />
@@ -113,7 +107,6 @@
   <Value Id="EditGroupMoveRemove" Content="Withdraw" />
   <Value Id="EditGroup" Group="Skupina" />
   <Value Id="SelectPictureMedias" Text="Select a media :" />
-  <Value Id="GroupContextDelete" Header="Vymazat" />
   <Value Id="SelectPictureQuotaIsOver" Text="Your download quota is over for this scraper. Thank you to try again later." />
   <Value Id="EditMenuIcons" ToolTip="Změnit ikonu" Text="Ikony:" />
   <Value Id="EditMenuBack" ToolTip="Změnit pozadí" />
@@ -127,7 +120,6 @@
   <Value Id="EditMenuBrowse" Content="Hledat ..." />
   <Value Id="EditCategoriesAdd" ToolTip="Přidat kategorii" />
   <Value Id="MainAddCategory" Content="Nová kategorie" />
-  <Value Id="GroupContextEdit" Header="Upravit ..." />
   <Value Id="MoreMediaInfosRightClick" Text="Prosím klikněte pravým pro další možnosti..." />
   <Value Id="CategoryContextReset" Header="Zrušení kategorií" />
   <Value Id="MainMenuContextReset" Header="Zrušit" />
@@ -140,10 +132,6 @@
   <Value Id="SettingsTabFolders" Header="Soubor" />
   <Value Id="SettingsTabOthers" Header="Ostatní" SendErrorReport="Automaticky odeslat zprávu v vývojáři při chybě." />
   <Value Id="SettingsTabScrapers" Header="Po startu" MovieScraper="Filmy:" MoviePictureScraper="Film obrázky:" TVShowScraper="Série:" TVShowPictureScraper="Obrázky série:" ScrapOnStarWindows="Spusťte skenování soubor pro spuštění aplikace" />
-  <Value Id="GroupContextSeen" Content="Seen" Text="Viditelný" Header="Viditelný" />
-  <Value Id="GroupContextUpdate" Content="Ongoing" Text="Ongoing" Header="Ongoing" />
-  <Value Id="GroupContextNotSeen" Content="Unseen" Text="Neviditelný" Header="Neviditelný" />
-  <Value Id="GroupContextSinState" Content="Stateless" Text="Stateless" Header="Stateless" />
   <Value Id="EditSize" Text="Velikost" />
   <Value Id="Loading" Text="Nahrávám ..." />
   <Value Id="NoTitleFoundToScrap" Text="No corresponding film" />
@@ -152,7 +140,6 @@
   <Value Id="FiltersMenuUnseen" Text="Neviditelný" />
   <Value Id="FiltersMenuOngoing" Text="PRŮBĚŽNÉ" />
   <Value Id="Prepare_Application" Content="Nastavení aplikace" SettingsLoading="Nahrávání nastavení" ScanningAllFiles="Prohledávání souborů" DataBaseLoading="Nahrávání databáze" DataBaseCleanUp="Čištění databáze" EnablingFeatureBrowserEmulation="Povolení emulace funkčnost prohlížeče." />
-  <Value Id="SettingsScanOnStarWindows" Text="Prohledat databázi po startu" />
   <Value Id="SettingsTabValidation" Header="Validation" />
   <Value Id="Globalization_XML" homeconfig="Konfigurace" homeinfo="Informace" configlm="Spusťte Media" configipd="IP adresa" searchmovies="Film" searchactors="Herec" searchdirectors="Ředitel" abctitle="Všechny mé soubory" moviestitle="Filmy" showstitle="Série" recentstitle="Nedávný" categtitle="Kategorie" detailtitle="Podrobnosti" remoteplay="Doba na Duně ..." remotestop="No běží na čtení Duny ..." remoteback="Rewind ..." remotefwd="Rychlý posun vpřed ..." />
   <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune" />
