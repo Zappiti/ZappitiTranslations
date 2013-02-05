@@ -67,7 +67,7 @@
   <Value Id="MainSearchMedias" Content="Hledat" />
   <Value Id="MainConfiguration" Content="Nastavení" />
   <Value Id="MainScan" Content="Skener" />
-  <Value Id="MainExport" Content="Přenos do Dune" ExportDune="Export Dune" ExportITunes="Export iTunes" Title="Export probíhá ..." />
+  <Value Id="MainExport" ExportDune="Export Dune" ExportITunes="Export iTunes" Title="Export probíhá ..." />
   <Value Id="MainEdit" Content="Upravit" />
   <Value Id="MainScrapDetails" Content="Upravit popis" />
   <Value Id="MainScrapPictures" Content="Upravit obrázek" />
@@ -88,7 +88,7 @@
   <Value Id="CleanUpClose" Content="Zavřít" />
   <Value Id="Splash" Content="Zavřít" />
   <Value Id="DatabaseBadVersion" Text="Aktuální verze Zappiti nelze otevřít vybranou databázi. " />
-  <Value Id="MessageBox" ConfigureSharePath="Děkujeme, že jste pro konfiguraci souboru exportu před pokračováním." ConfigureSubFolder="The folder {0} must be a sub-folder of your share path." NewReleaseAvailable="Nová verze je k dispozici!  Chcete stahovat {0} {1}?" DoYouWantToDeleteThisGroup="Opravdu chcete tuto položku smazat?" DeleteCategory="Opravdu chcete smazat tuto kategorii?" ResetCategories="Opravdu chcete obnovit všechny kategorie?" ResetMainMenu="Opravdu chcete obnovit všechny nabídky?" ResetABCMenu="Opravdu chcete obnovit všechna tlačítka?" ResetFilterMenu="Opravdu chcete obnovit všechny filtry?" DoYouWantToDeleteTheseGroup="Opravdu chcete odstranit tyto položky?" VersionExpired="Tato verze Zappiti na uplynula, ale nová verze je k dispozici! " AddFolder="Nemusíte přidat {0} konfiguraci. " CanStartDuneServer="Nelze spustit server. " DoYouWanToInstallMpcHd="Chcete nainstalovat Media Player Classic - HC?" />
+  <Value Id="MessageBox" ConfigureSharePath="Děkujeme, že jste pro konfiguraci souboru exportu před pokračováním." NewReleaseAvailable="Nová verze je k dispozici!  Chcete stahovat {0} {1}?" DoYouWantToDeleteThisGroup="Opravdu chcete tuto položku smazat?" DeleteCategory="Opravdu chcete smazat tuto kategorii?" ResetCategories="Opravdu chcete obnovit všechny kategorie?" ResetMainMenu="Opravdu chcete obnovit všechny nabídky?" ResetABCMenu="Opravdu chcete obnovit všechna tlačítka?" ResetFilterMenu="Opravdu chcete obnovit všechny filtry?" DoYouWantToDeleteTheseGroup="Opravdu chcete odstranit tyto položky?" VersionExpired="Tato verze Zappiti na uplynula, ale nová verze je k dispozici! " AddFolder="Nemusíte přidat {0} konfiguraci. " CanStartDuneServer="Nelze spustit server. " DoYouWanToInstallMpcHd="Chcete nainstalovat Media Player Classic - HC?" />
   <Value Id="MessageBoxCaption" NewReleaseAvailable="K dispozici je aktualizace" DoYouWantToDeleteThisGroup="Odstranění položky" DeleteCategory="Odstranění kategorii" ResetCategories="Obnovit kategorií" ResetMainMenu="Reset nabídek" ResetABCMenu="Obnovit tlačítka" DoYouWantToDeleteTheseGroup="Odstranění položky" VersionExpired="K dispozici je aktualizace" AddFolder="Přidejte umístění?" CanStartDuneServer="Chyba" DoYouWanToInstallMpcHd="Požadavky na software" />
   <Value Id="EditChannels" Text="Kanály" />
   <Value Id="TVShowSeasonList" SeasonUp="SEASON {0}" />
