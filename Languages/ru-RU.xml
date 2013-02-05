@@ -147,10 +147,6 @@
   <Value Id="RescrapSelect" Content="Выбрать" />
   <Value Id="Loading" Text="Загрузка ..." />
   <Value Id="NoTitleFoundToScrap" Text="Нет соответствующего фильма" />
-  <Value Id="FiltersMenuAll" Text="Все" />
-  <Value Id="FiltersMenuSeen" Text="Просмотрен" />
-  <Value Id="FiltersMenuUnseen" Text="Не просмотрен" />
-  <Value Id="FiltersMenuOngoing" Text="В процессе" />
   <Value Id="Prepare_Application" Content="Настройка приложения" SettingsLoading="Загрузка конфигурации" ScanningAllFiles="Запуск сканирования файлов" DataBaseLoading="Загрузка базы данных" DataBaseCleanUp="Очистка базы данных" EnablingFeatureBrowserEmulation="Включение эмуляции функциональности браузера." />
   <Value Id="MainHome" Content="Главная" />
   <Value Id="MainSearchMedias" Content="Поиск" />

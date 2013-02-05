@@ -148,10 +148,6 @@
   <Value Id="EditSize" Text="Dimensioni" />
   <Value Id="Loading" Text="Caricamento ..." />
   <Value Id="NoTitleFoundToScrap" Text="Nessun film corrispondente" />
-  <Value Id="FiltersMenuAll" Text="TUTTI" />
-  <Value Id="FiltersMenuSeen" Text="VISTO" />
-  <Value Id="FiltersMenuUnseen" Text="NO VISTO" />
-  <Value Id="FiltersMenuOngoing" Text="IN CORSO" />
   <Value Id="Prepare_Application" Content="Applicazione di configurazione" SettingsLoading="Caricamento della configurazione" ScanningAllFiles="Lanciare la scansione dei file" DataBaseLoading="Caricare il database" DataBaseCleanUp="Pulizia del Database" EnablingFeatureBrowserEmulation="Abilitazione funzionalità di emulazione del browser." />
   <Value Id="WizardWelcome" Body="Benvenuti.[br][br]Questa procedura guidata consente di configurare Zappiti.[br][br]Fare clic su &quot;Dire dove sono i miei video&quot; per dirci dove i tuoi film." AddMovies="Dire dove sono i tuoi video &gt;&gt;" Close="Chiudi" Header="Setup Wizard" />
   <Value Id="WizardAddLocalLocation" Name="Aggiungere una cartella locale" Description="- Disco rigido interno del computer [br] - Disco rigido esterno collegato alla porta USB / eSata questo computer [br] - Hard disk in una docking station collegata al computer via USB / eSata [br] - Drive Dune collegato Slave USB al computer" Header="Cartelle locali" Tips="Suggerimenti: Le cartelle locali che si sceglie saranno condivisi sulla rete locale." Folders="Le unità locali / Dispositivi USB" />

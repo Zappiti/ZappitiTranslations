@@ -135,10 +135,6 @@
   <Value Id="EditSize" Text="Velikost" />
   <Value Id="Loading" Text="Nahrávám ..." />
   <Value Id="NoTitleFoundToScrap" Text="No corresponding film" />
-  <Value Id="FiltersMenuAll" Text="Vše" />
-  <Value Id="FiltersMenuSeen" Text="Viditelný" />
-  <Value Id="FiltersMenuUnseen" Text="Neviditelný" />
-  <Value Id="FiltersMenuOngoing" Text="PRŮBĚŽNÉ" />
   <Value Id="Prepare_Application" Content="Nastavení aplikace" SettingsLoading="Nahrávání nastavení" ScanningAllFiles="Prohledávání souborů" DataBaseLoading="Nahrávání databáze" DataBaseCleanUp="Čištění databáze" EnablingFeatureBrowserEmulation="Povolení emulace funkčnost prohlížeče." />
   <Value Id="SettingsTabValidation" Header="Validation" />
   <Value Id="Globalization_XML" homeconfig="Konfigurace" homeinfo="Informace" configlm="Spusťte Media" configipd="IP adresa" searchmovies="Film" searchactors="Herec" searchdirectors="Ředitel" abctitle="Všechny mé soubory" moviestitle="Filmy" showstitle="Série" recentstitle="Nedávný" categtitle="Kategorie" detailtitle="Podrobnosti" remoteplay="Doba na Duně ..." remotestop="No běží na čtení Duny ..." remoteback="Rewind ..." remotefwd="Rychlý posun vpřed ..." />
@@ -152,7 +148,7 @@
   <Value Id="MainScrapPicturesTvShow" Content="Obrázek na pozadí" />
   <Value Id="Export_XML" CreateGlobalizationCustomCommand="Generování souboru internacionalizace" iPhoneItemExportCustomCommand="ITunes souborů generace" ConfigXmlGeneratorCommand="Export konfigurace" MoviesXmlFileGeneratorCommand="Export filmů" AbcXmlFileGeneratorCommand="Export základnu" TvShowsXmlFileGeneratorCommand="Export série" CategoriesXmlFileGeneratorCommand="Export kategorie" RecentsXmlFileGeneratorCommand="Export Poslední" />
   <Value Id="SettingsAddFolder" Content="Nová složka" />
-  <Value Id="GroupContextState" Seen="Seen" Ongoing="Pokračující" Unseen="Není vidět" Stateless="Stateless" />
+  <Value Id="GroupContextState" Seen="Viditelný" Ongoing="Pokračující" Unseen="Není vidět" Stateless="Stateless" />
   <Value Id="RescrapSelect" Content="Vybrat" />
   <Value Id="WizardWelcome" Body="Vítejte. [br] [br] Tento průvodce vám pomůže nastavit Zappiti. [br] [br] Klikněte na &quot;Řekni, kde vaše videa&quot;, aby nám řekl, kde se vaše filmy." AddMovies="Řekni, kde videa &gt;&gt;" Close="Zavřít" Header="Setup Wizard" />
   <Value Id="WizardAddLocalLocation" Name="Přidat lokální složky" Description="- Vnitřní pevný disk tohoto počítače [br] - Externí pevný disk připojený přes USB / eSATA tento počítač [br] - Pevný disk v dokovací stanici připojen k počítači přes USB / eSATA [br] - Dune přehrávač připojen " Header="Místní složky, USB" Tips="Tipy: Můžete si vybrat ke sdílení těchto složek ve vaší místní síti, nebo k nim přistupovat přímo Dune, pokud je zařízení USB." Folders="Místní disky / USB Devices" />
@@ -208,7 +204,7 @@
   <Value Id="HashTask" Header="Aktualizace hash souborů." />
   <Value Id="CategoriesMenu" Action="Akce" Sci-Fi="Sci-fi" Adventure="Dobrodružství" War="Válka" Western="Západní" History="Historický" Drama="Drama" Documentary="Dokumentární" Music="Hudební" Romance="Romance" Classic="Klasický" Animation="Animace" Crime="Polární" Thriller="Detektivka" Horror="Hrůza" Comedy="Komedie" Other="Různý" Fantasy="Fantastický" />
   <Value Id="MediaMenu" Video="VIDEO" Music="MUSIC" Photo="FOTO" />
-  <Value Id="FilterMenu" All="" Ongoing="" Seen="" Unseen="" />
+  <Value Id="FilterMenu" All="Vše" Ongoing="PRŮBĚŽNÉ" Seen="Viditelný" Unseen="Neviditelný" />
   <Value Id="MovieControl" Runtime="DÉLKA" Actors="HRAJÍ" Directors="REŽISÉR" ReleaseDate="ROK" />
   <Value Id="TVEpisodeControl" Actors="HRAJÍ" Directors="REŽISÉR" ReleaseDate="ROK" Runtime="DÉLKA" />
   <Value Id="MarketView" Close="Zavřít" />
