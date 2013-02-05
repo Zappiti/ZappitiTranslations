@@ -164,8 +164,8 @@
   <Value Id="LocalRewriteUrlEngineView" Body="Ta mapa mora biti v skupni rabi omrežja za dostop do vašega predvajalnika Dune." IAccept="Strinjam se z delitvijo te mape." />
   <Value Id="SettingsHost" Text="Ime gostitelja / IP :" />
   <Value Id="SettingsPath" Text="Lokacija :" />
-  <Value Id="WizardConfigureType" Header="Vrsta videa" Body="Kaj je to?" Movie="Vsebuje Filme" TVShow="Vsebuje Oddaje" Back="&lt;&lt;Prejšnja" Close="Zapri" />
-  <Value Id="Folder" Movie="Filmi" TVShow="TV Oddaje" />
+  <Value Id="WizardConfigureType" Header="Vrsta videa" Body="Kaj je to?" Movie="Vsebuje Filme" TVShow="Vsebuje Oddaje" Back="&lt;&lt;Prejšnja" Close="Zapri" Music="" />
+  <Value Id="Folder" Movie="Filmi" TVShow="TV Oddaje" Music="" />
   <Value Id="Settings" PlayerHeader="Predvajalnik" Header="Nastavitve" />
   <Value Id="PlayerConfigView" IsServerRunning="Omogoči podporo za daljinsko upravljanje" Port="Vrata :" />
   <Value Id="WizardDownloadMpcPlayer" Header="Prenesi MPC - Home Cinema" Next="Sledi &gt;&gt;" Close="Zapri" Body="Prenaša, zahvaljujem se za vašo potrpežljivost ...." />
@@ -190,7 +190,7 @@
   <Value Id="FirstInitFromTVEpisodeNfoTask" Header="Inicializacija podatkov epizode" />
   <Value Id="ScanMoviesFolders" Header="Skeniranje datotek filmov" />
   <Value Id="ScanTVShowFolders" Header="Skeniranje datotek serij" />
-  <Value Id="ExportTypeView" Header="vrsta izvoza" />
+  <Value Id="ExportTypeView" Header="vrsta izvoza" RegisterZappitiPlayerLabel="" RegisterZappitiPlayerButton="" RegisterZappitiPlayerSmallLabel="" ExportMusic="" Close="" />
   <Value Id="FullExportType" Name="Zaključeno" Description="Vaša celotna zbirka je v celoti izvožena." />
   <Value Id="IncrementalExportType" Name="Povečanje" Description="Samo zadnje spremembe od zadnjega izvoza so izvožene." />
   <Value Id="RescrapSelect" Content="Izberi" />
@@ -204,7 +204,7 @@
   <Value Id="DownloadHandbrakeTask" Header="Prenesi Handbrake" />
   <Value Id="InstallHandbrakeTask" Header="Namestitev Handbrake" />
   <Value Id="SubtitleRules" Never="Nikoli" AlwaysIfPossible="Vedno, če je mogoče" IfPrimaryAudioNotFound="Samo, če želenih avdio ni bilo mogoče najti" />
-  <Value Id="CategoriesMenu" Action="Akcijski" Sci-Fi="Sci-Fi" Fantastique="Fantazijski" Adventure="Avanturni" War="Vojni" Western="Western" History="Zgodovinski" Drama="Drama" Documentary="Dokumentarni" Music="Glasbeni" Romance="Romantični" Classic="Klasični" Animation="Animacijski" Crime="Kriminalke" Thriller="Thriller" Horror="Horror" Comedy="Komedija" Other="Ostali" />
+  <Value Id="CategoriesMenu" Action="Akcijski" Sci-Fi="Sci-Fi" Adventure="Avanturni" War="Vojni" Western="Western" History="Zgodovinski" Drama="Drama" Documentary="Dokumentarni" Music="Glasbeni" Romance="Romantični" Classic="Klasični" Animation="Animacijski" Crime="Kriminalke" Thriller="Thriller" Horror="Horror" Comedy="Komedija" Other="Ostali" Fantasy="Fantazijski" />
   <Value Id="FilterMenu" All="VSE" Ongoing="V TEKU" Seen="POGLEDANO" Unseen="NE POGLEDANO" />
   <Value Id="SetSeenStateTask" Header="Posodobitev stanja ogleda." />
   <Value Id="HashTask" Header="Posodabljanje Hash datotek." />
