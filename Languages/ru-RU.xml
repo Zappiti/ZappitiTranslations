@@ -1,16 +1,16 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Dictionary EnglishName="Russian" CultureName="ru-RU">
   <Value Id="SettingsTabValidation" Header="Проверка" />
-  <Value Id="Globalization_XML" homeconfig="конфигурация" homeinfo="информация" configlm="Запуск фильма" configipd="IP-адрес" searchmovies="Фильмы" searchactors="Актёры" searchdirectors="Режисёры" abctitle="Все мои файлы" moviestitle="Фильмы" showstitle="Серия" recentstitle="Недавние" categtitle="Категории" detailtitle="Подробно" remoteplay="Воспроизвести на Dune ..." remotestop="Dune сейчас ничего не воспроизводит ..." remoteback="Перемотка ..." remotefwd="Быстрая перемотка вперед ..." />
+  <Value Id="Globalization_XML" homeconfig="конфигурация" homeinfo="информация" configlm="Запуск фильма" configipd="IP-адрес" searchmovies="Фильмы" searchactors="Актёры" searchdirectors="Режисёры" abctitle="Все мои файлы" moviestitle="Фильмы" showstitle="Сериалы" recentstitle="Недавние" categtitle="Категории" detailtitle="Подробно" remoteplay="Воспроизвести на Dune ..." remotestop="Dune сейчас ничего не воспроизводит ..." remoteback="Перемотка назад..." remotefwd="Быстрая перемотка вперед ..." />
   <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune" />
   <Value Id="SettingsDefault" Header="Основные настройки" />
   <Value Id="SettingsAdvancedOptions" Header="Дополнительные настройки" />
-  <Value Id="SettingsTypeExport" Text="Тип экспорта" ExportDune="Экспорт в Dune" ExportITunes="Экспорт в iTunes" Body="Определите параметры экспорта." DoYouHaveADune="У меня есть Dune" DoYouHaveAniPhone="У меня есть iPhone / iPad / iPod" DeviceType="Устройство :" Primary="Приоритет" Secondary="Вторичные" Audio="Аудио :" Subtitle="Подзаголовок :" Encode="Кодирование параметров :" SubtitleRule="Примените субтитры :" />
+  <Value Id="SettingsTypeExport" Text="Тип экспорта" ExportDune="Экспорт в Dune" ExportITunes="Экспорт в iTunes" Body="Определите параметры экспорта." DoYouHaveADune="У меня есть Dune" DoYouHaveAniPhone="У меня есть iPhone / iPad / iPod" DeviceType="Устройство :" Primary="Приоритет" Secondary="Вторичные" Audio="Аудио :" Subtitle="Субтитры :" Encode="Параметры кодирования :" SubtitleRule="Показ субтитров :" />
   <Value Id="SettingsIsNFS" Content="В NFS формате" />
   <Value Id="SettingsUserName" Text="Пользователь" />
   <Value Id="SettingsUserPassword" Text="Пароль" />
   <Value Id="MainScrapPicturesTvShow" Content="Фоновое изображение" />
-  <Value Id="Export_XML" CreateGlobalizationCustomCommand="Создание файла интернационализации" iPhoneItemExportCustomCommand="Создание файла iTunes" ConfigXmlGeneratorCommand="Экспорт конфигурации" MoviesXmlFileGeneratorCommand="Экспорт фильмов" AbcXmlFileGeneratorCommand="Экспорт базы" TvShowsXmlFileGeneratorCommand="Экспорт серии" CategoriesXmlFileGeneratorCommand="Экспорт категории" RecentsXmlFileGeneratorCommand="Экспорт последние" />
+  <Value Id="Export_XML" CreateGlobalizationCustomCommand="Создание файла интернационализации" iPhoneItemExportCustomCommand="Создание файла iTunes" ConfigXmlGeneratorCommand="Экспорт конфигурации" MoviesXmlFileGeneratorCommand="Экспорт фильмов" AbcXmlFileGeneratorCommand="Экспорт базы" TvShowsXmlFileGeneratorCommand="Экспорт сериалов" CategoriesXmlFileGeneratorCommand="Экспорт категорий" RecentsXmlFileGeneratorCommand="Экспорт последних обновлений" />
   <Value Id="SettingsIsXmlExport" Text="Xml по умолчанию" />
   <Value Id="SettingsTabExport" Header="Экспорт" />
   <Value Id="SettingsFolders" Text="Каталоги с фильмами и сериалами:" />
@@ -19,7 +19,7 @@
   <Value Id="SettingsAddFolder" Content="Добавить папку" />
   <Value Id="SettingsDeleteFolder" Content="Удалить ссылку" />
   <Value Id="SettingsModifyFolder" Content="Изменить путь" />
-  <Value Id="SettingsBrowse" Content="Открыть" />
+  <Value Id="SettingsBrowse" Content="Обзор" />
   <Value Id="SettingsFolderPath" Text="Локальный путь :" />
   <Value Id="SettingsZappitiDataPath" Text="Папка конфигурации :" />
   <Value Id="SettingsRewriteAbsolutePath" Text="Полный путь (как он виден с Dune):" />
@@ -64,7 +64,7 @@
   <Value Id="EditDirectors" Text="Режиссёр" />
   <Value Id="EditActors" Text="В ролях" />
   <Value Id="EditAspectRatio" Text="Соотношение сторон" />
-  <Value Id="EditExtension" Text="РЕЗЕРВУАР" />
+  <Value Id="EditExtension" Text="Контейнер" />
   <Value Id="EditCodecVideo" Text="Видеокодек" />
   <Value Id="EditFramerate" Text="Развёртка" />
   <Value Id="EditDefinition" Text="Разрешение" />
@@ -72,7 +72,7 @@
   <Value Id="EditCategories" Text="Жанр" />
   <Value Id="EditSubTitles" Text="Субтитры" />
   <Value Id="EditLanguages" Text="Языки" />
-  <Value Id="EditViewNotView" Text="видел" />
+  <Value Id="EditViewNotView" Text="Просмотрен" />
   <Value Id="EditOK" Content="OK" />
   <Value Id="EditCancel" Content="Отмена" />
   <Value Id="MainConfiguration" Content="Настройки" />
@@ -94,27 +94,27 @@
   <Value Id="SelectPictureBrowse" Content="Добавить с жёсткого диска" />
   <Value Id="SelectPictureClose" Content="Закрыть" />
   <Value Id="CleanUpMessage" Text="Данные медиаданные недоступны. Хотите удалить их из базы данных?" />
-  <Value Id="CleanUpOK" Content="Удалить" />
+  <Value Id="CleanUpOK" Content="Очистить" />
   <Value Id="CleanUpClose" Content="Закрыть" />
   <Value Id="Splash" Content="Закрыть" />
-  <Value Id="DatabaseBadVersion" Text="Данная версия Zappiti не может открыть существующую базу данных. Попробуйте установить новую версию Zappiti." />
+  <Value Id="DatabaseBadVersion" Text="Данная версия Zappiti не может открыть выбранную базу данных. Попробуйте установить новую версию Zappiti." />
   <Value Id="MessageBox" ConfigureSharePath="Вы не указали путь к диску или папке фильмотеки !" NewReleaseAvailable="Новая версия Zappiti доступна для скачивания ! Хотите установить новую версию {0} {1} ?" DoYouWantToDeleteThisGroup="Удалить данный раздел?" DoYouWantToDeleteTheseGroup="Вы действительно хотите удалить эти элементы?" DeleteCategory="Вы хотите удалить эту категорию?" ResetCategories="Вы хотите сбросить все категории?" ResetMainMenu="Вы хотите сбросить все меню?" ResetABCMenu="Вы хотите сбросить все кнопки?" ResetFilterMenu="Вы хотите сбросить все фильтры?" VersionExpired="Срок этой версия Zappiti истек, но есть новая версия! Хотите скачать?" AddFolder="Добавить директорию {0} в конфигурацию?" CanStartDuneServer="Не удалось запустить сервер. " DoYouWanToInstallMpcHd="Хотите установить Media Player Classic - HC ?" />
-  <Value Id="MessageBoxCaption" NewReleaseAvailable="Новая версия доступна для скачивания" DoYouWantToDeleteThisGroup="Удалить раздел" DoYouWantToDeleteTheseGroup="Удалить элементы" DeleteCategory="Удалить категории" ResetCategories="Сброс Категории" ResetMainMenu="Сброс меню" ResetABCMenu="Кнопки сброса" VersionExpired="Доступно обновление" AddFolder="Добавить местоположение?" CanStartDuneServer="ОШИБКА" DoYouWanToInstallMpcHd="Необходимое программное обеспечение" />
+  <Value Id="MessageBoxCaption" NewReleaseAvailable="Новая версия доступна для скачивания" DoYouWantToDeleteThisGroup="Удалить раздел" DoYouWantToDeleteTheseGroup="Удалить элементы" DeleteCategory="Удалить категории" ResetCategories="Сброс Категории" ResetMainMenu="Сброс меню" ResetABCMenu="Сброс кнопок" VersionExpired="Доступно обновление" AddFolder="Добавить местоположение?" CanStartDuneServer="ОШИБКА" DoYouWanToInstallMpcHd="Необходимое программное обеспечение" />
   <Value Id="EditChannels" Text="Каналы" />
   <Value Id="TVShowSeasonList" SeasonUp="СЕЗОН {0}" />
   <Value Id="AddToGroupNewGroup" Content="Добавить новую группу" />
   <Value Id="EditGroupCancel" Content="Отменить" />
   <Value Id="EditGroupOK" Content="Сохранить" />
   <Value Id="FrequentWords" Words="и;в;не;он;на;я;что;тот;быть;с" />
-  <Value Id="EditBrowseFilename" Content="Открыть" />
+  <Value Id="EditBrowseFilename" Content="Обзор" />
   <Value Id="EditFilename" Text="Путь к медиаданным" />
   <Value Id="EditSubTitle" Text="Субтитры" />
   <Value Id="EditGroupTitle" Text="Название группы фильмов/серий" />
-  <Value Id="EditGroupChilds" Text="Наполнение данной группы" />
+  <Value Id="EditGroupChilds" Text="Члены данной группы" />
   <Value Id="EditGroupSortByData" Content="Отсортировать по дате" />
   <Value Id="EditGroupMoveUp" Content="Поднять" />
   <Value Id="EditGroupMoveDown" Content="Опустить" />
-  <Value Id="EditGroupMoveRemove" Content="Удалить" />
+  <Value Id="EditGroupMoveRemove" Content="Исключить" />
   <Value Id="EditGroup" Group="(Группа фильмов)" />
   <Value Id="SelectPictureMedias" Text="Выбрать обложку для группы :" />
   <Value Id="SelectPictureQuotaIsOver" Text="Квота на скачивание с данного ресурса превышена. попробуйте повторить попытку позже." />
@@ -128,7 +128,7 @@
   <Value Id="EditMenuOK" Content="Подтвердить" />
   <Value Id="EditMenuCancel" Content="Отмена" />
   <Value Id="EditMenuBrowse" Content="Обзор" />
-  <Value Id="EditCategoriesAdd" ToolTip="Добавить категорию" />
+  <Value Id="EditCategoriesAdd" ToolTip="Добавить категорию/жанр" />
   <Value Id="MainAddCategory" Content="Новая категория" />
   <Value Id="MoreMediaInfosRightClick" Text="Нажмите правую кнопку мыши для редактирования" />
   <Value Id="CategoryContextReset" Header="Установки по умолчанию" />
@@ -137,7 +137,7 @@
   <Value Id="ABCMenuContextEdit" Header="Изменить ..." />
   <Value Id="ABCMenuContextReset" Header="Сброс" />
   <Value Id="DatabaseUpdating" Text="Обновление базы данных ..." />
-  <Value Id="EditGroupSortByName" Content="Сортировать: Название" />
+  <Value Id="EditGroupSortByName" Content="Отсортировать по названию" />
   <Value Id="SelectPictureTabHeader" Folder="Обложка" Background="Фон" />
   <Value Id="SettingsTabFolders" Header="Папки и Файлы" />
   <Value Id="SettingsTabOthers" Header="Другие Настройки" SendErrorReport="Автоматически отправлять отчет в разработчиками при возникновении ошибки." />
@@ -156,24 +156,24 @@
   <Value Id="MainSearchMedias" Content="Поиск" />
   <Value Id="FolderDataTemplate" Edit="Изменить" Delete="Удалить" />
   <Value Id="WizardWelcome" Body="Добро пожаловать.[br][br]Этот мастер поможет вам настроить Zappiti.[br][br]Нажмите кнопку &quot;Скажите где мои видео&quot;, чтобы сказать нам, где ваши фильмы." AddMovies="Скажите, где находятся ваши видео &gt;&gt;" Close="Закрыть" Header="Мастер установки" />
-  <Value Id="WizardAddLocalLocation" Name="Добавить локальную папку" Description="Жесткий диск на этом компьютере" Header="Локальные папки" Tips="Советы: локальные папки, которые вы выбираете будут использованы в вашей локальной сети." Folders="Локальные дисков" />
+  <Value Id="WizardAddLocalLocation" Name="Добавить локальную папку" Description="Жесткий диск на этом компьютере" Header="Локальные папки" Tips="Советы: локальные папки, которые вы выбираете будут использованы в вашей локальной сети." Folders="Локальные диски" />
   <Value Id="WizardAddNetworkLocation" Name="Добавить сетевое расположение" Description="Удаленные устройства, NAS ..." Header="Общие сетевые папки, NAS ..." Tips="Советы: Вы можете приобрести USB, NAS, и т.д. на сайте HD LAND." Folders="Сетевые диски" />
-  <Value Id="WizardWhereAreYourMovies" Header="Где ваши фильмы?" Body="Добавить все места, которые вы хотите." Back="&lt;&lt; Назад" Close="Закрыть" />
-  <Value Id="WizardAddLocation" Body="Перетащите файлы, которые вы хотите добавить в список справа." YourFolders="Ваши видео файлы" Next="Вперёд &gt;&gt;" Back="&lt;&lt; Назад" Close="Закрыть" />
+  <Value Id="WizardWhereAreYourMovies" Header="Где ваши фильмы?" Body="Добавьте все места, которые вы хотите." Back="&lt;&lt; Назад" Close="Закрыть" />
+  <Value Id="WizardAddLocation" Body="Перетащите папки, которые вы хотите добавить в список справа." YourFolders="Ваши видео файлы" Next="Вперёд &gt;&gt;" Back="&lt;&lt; Назад" Close="Закрыть" />
   <Value Id="WizardAddAnotherLocation" Header="Добавить другое место?" Next="Вперёд &gt;&gt;" YourFolders="Выбранные папки" Close="Закрыть" />
   <Value Id="FolderDataTemplate" Edit="Редактировать" Delete="Удалить" />
   <Value Id="WizardRewriteLocationUrl" Header="Изменение URL" Body="Расскажите, как получить доступ к этой папке с вашего Dune:" Back="&lt;&lt; Назад" Next="Вперёд &gt;&gt;" SelectRewriteEngine="Выберите способ доступа к этому сайту:" ExternLabel="Внешнее устройство" NetworkLabel="Сетевой диск" UnknowLabel="Персонализированный" Close="Закрыть" InternLabel="Внутренний жесткий диск Dune" />
   <Value Id="LocalRewriteUrlEngineView" Body="Эта папка должна быть доступна в сети, чтобы к ней могла получить доступ Dune." IAccept="Я согласен с тем, чтобы открыть доступ к этой папке." />
   <Value Id="SettingsHost" Text="Имя хоста / IP :" />
   <Value Id="SettingsPath" Text="Путь :" />
-  <Value Id="WizardConfigureType" Header="Тип видео" Body="Что это?" Movie="Фильмы" TVShow="Сериалы" Back="&lt;&lt; Назад" Close="Применить" Music="Содержит музыки" />
+  <Value Id="WizardConfigureType" Header="Тип видео" Body="Что в этой папке?" Movie="Фильмы" TVShow="Сериалы" Back="&lt;&lt; Назад" Close="Применить" Music="Музыка" />
   <Value Id="Folder" Movie="Фильмы" TVShow="Сериалы" Music="Музыка" />
   <Value Id="Settings" PlayerHeader="Плеер" Header="Настройки" />
   <Value Id="PlayerConfigView" IsServerRunning="Включение поддержки пульта дистанционного управления." Port="Порт :" />
   <Value Id="WizardDownloadMpcPlayer" Header="Скачать MPC - Home Cinema" Next="Продолжить &gt;&gt;" Close="Закрыть" Body="Загрузка, благодарим вас за ваше терпение ...." />
-  <Value Id="WizardInstallMpcPlayer" Header="Установка MPC - Home Cinema" Body="Текущая установка. " Close="Закрыть" Completed="Поздравляем, установка MPC - Home Cinema прошла успешно." Failed="Не удалось выполнить установку по некоторым причинам." />
+  <Value Id="WizardInstallMpcPlayer" Header="Установка MPC - Home Cinema" Body="Установка. " Close="Закрыть" Completed="Поздравляем, установка MPC - Home Cinema прошла успешно." Failed="Не удалось выполнить установку по некоторым причинам." />
   <Value Id="MpcPlayerConfigView" Download="Скачать и установить MPC - Home Cinema" PlayerPath="Путь:" Browse="Выбрать..." />
-  <Value Id="SettingsTabInterface" Header="Интерфейс" Language="Язык:" Background="Фон" GlassShow="Показать эффект льда" ShowHeader="Показать тип носителя на обложке" SeenUnseen="Показать иконки Просмотрен / Без метки" DynamicZoom="Иконки с динамическим масштаба" SelectionBox="Динамический контур" Theme="Тема :" />
+  <Value Id="SettingsTabInterface" Header="Интерфейс" Language="Язык:" Background="Фон" GlassShow="Показать эффект льда" ShowHeader="Показать тип носителя на обложке" SeenUnseen="Показать иконки Просмотрен / Без метки" DynamicZoom="Иконки с динамическим масштабом" SelectionBox="Динамический контур" Theme="Тема :" />
   <Value Id="TaskManagerView" Header="Обработка..." Close="Закрыть" />
   <Value Id="PlayTask" Header="Открытие видео" />
   <Value Id="DownloadVcdTask" Header="Скачать VirtualCloneDrive" />
@@ -192,32 +192,32 @@
   <Value Id="FirstInitFromTVEpisodeNfoTask" Header="Поиск информации о эпизоде" />
   <Value Id="ScanMoviesFolders" Header="Сканирование папки с фильмами" />
   <Value Id="ScanTVShowFolders" Header="Сканирование папки с сериалами" />
-  <Value Id="ExportTypeView" Header="Тип экспорта" RegisterZappitiPlayerLabel="Есть ли у игрока Zappiti?" RegisterZappitiPlayerButton="Активировать сейчас!" RegisterZappitiPlayerSmallLabel="При активации вашего Zappiti игрока, вы также можете экспортировать bibliothèquee музыки." ExportMusic="Экспорт музыки" Close="Закрыть" />
+  <Value Id="ExportTypeView" Header="Тип экспорта" RegisterZappitiPlayerLabel="Есть ли у вас проигрыватель Zappiti?" RegisterZappitiPlayerButton="Активируйте сейчас!" RegisterZappitiPlayerSmallLabel="При активации вашего проигрывателя Zappiti , вы также можете экспортировать музыкальную коллекцию." ExportMusic="Экспорт музыкальной коллекции." Close="Закрыть" />
   <Value Id="FullExportType" Name="Полный" Description="Вся ваша коллекция полностью экспортируется." />
-  <Value Id="IncrementalExportType" Name="Изменения" Description="Только последние изменения с момента последнего экспорта идет на экспорт." />
-  <Value Id="WizardFinish" Header="Настройка завершена" Body="Конфигурация Zappiti Media Center является полным." Close="Закрыть" Back="&lt;&lt; Назад" />
-  <Value Id="WizardConfigureExportDevice" Header="Есть ли у вас устройств?" Body="Выберите устройства, у вас есть :" Back="&lt;&lt; Назад" Next="Продолжить &gt;&gt;" Close="Закрыть" />
-  <Value Id="WizardConfigureDuneExport" Header="Конфигурация Дюны" Body="Резервное копирования данных?" Back="&lt;&lt; Назад" Next="Продолжить &gt;&gt;" Close="Закрыть" />
-  <Value Id="WizardConfigureITunesExport" Header="Конфигурация для ITunes" Body="Резервное копирования данных?" Back="&lt;&lt; Назад" Next="Продолжить &gt;&gt;" Close="Закрыть" />
-  <Value Id="GroupContext" GroupTo="Группировка..." ChangePicture="Обложка..." Delete="Удалить" Edit="Данные" Play="Запуск ..." Encode="Кодировать" DeleteEncode="Удалить файл в кодировке" />
+  <Value Id="IncrementalExportType" Name="Изменения" Description="Только изменения с момента последнего экспорта будут экспортированы." />
+  <Value Id="WizardFinish" Header="Настройка завершена" Body="Конфигурация Zappiti Media Center закончена." Close="Закрыть" Back="&lt;&lt; Назад" />
+  <Value Id="WizardConfigureExportDevice" Header="Есть ли у вас устройства?" Body="Выберите устройства, которые у вас есть :" Back="&lt;&lt; Назад" Next="Продолжить &gt;&gt;" Close="Закрыть" />
+  <Value Id="WizardConfigureDuneExport" Header="Конфигурация Дюны" Body="Куда делать экспорт вашей библиотеки?" Back="&lt;&lt; Назад" Next="Продолжить &gt;&gt;" Close="Закрыть" />
+  <Value Id="WizardConfigureITunesExport" Header="Конфигурация для ITunes" Body="Куда делать экспорт вашей библиотеки?" Back="&lt;&lt; Назад" Next="Продолжить &gt;&gt;" Close="Закрыть" />
+  <Value Id="GroupContext" GroupTo="Группировка..." ChangePicture="Обложка..." Delete="Удалить" Edit="Данные" Play="Запуск ..." Encode="Кодировать" DeleteEncode="Удалить подготовленный файл" />
   <Value Id="EncodeTask" Header="Кодирование" />
   <Value Id="EncodingTask" Header="Текущая кодировка" />
   <Value Id="DownloadHandbrakeTask" Header="Скачать Handbrake" />
   <Value Id="InstallHandbrakeTask" Header="Установка Handbrake" />
-  <Value Id="SubtitleRules" Never="НИКОГДА" AlwaysIfPossible="Всегда ли возможно" IfPrimaryAudioNotFound="Только если предпочтительный звук не найден" />
-  <Value Id="CategoriesMenu" Action="Боевик" Sci-Fi="научная фантастика" Adventure="Приключения" War="Военный" Western="Вестерн" History="Исторический" Drama="Драма" Documentary="Неигровой" Music="Музыка" Romance="Мелодрама" Classic="Классика" Animation="Мультфильм" Crime="Криминал" Thriller="Триллер" Horror="Ужасы" Comedy="Комедия" Other="Другое" Fantasy="Фэнтэзи" />
-  <Value Id="MediaMenu" Video="ВИДЕО" Music="МУЗЫКА" Photo="ФОТОСНИМОК" />
+  <Value Id="SubtitleRules" Never="Никогда" AlwaysIfPossible="Всегда если возможно" IfPrimaryAudioNotFound="Только если предпочтительный звук не найден" />
+  <Value Id="CategoriesMenu" Action="Боевик" Sci-Fi="Научная фантастика" Adventure="Приключения" War="Военный" Western="Вестерн" History="Исторический" Drama="Драма" Documentary="Документальный" Music="Музыка" Romance="Мелодрама" Classic="Классика" Animation="Мультфильм" Crime="Криминал" Thriller="Триллер" Horror="Ужасы" Comedy="Комедия" Other="Другое" Fantasy="Фэнтэзи" />
+  <Value Id="MediaMenu" Video="ВИДЕО" Music="МУЗЫКА" Photo="ФОТО" />
   <Value Id="FilterMenu" All="Все" Ongoing="В процессе" Seen="Просмотрен" Unseen="Не просмотрен" />
-  <Value Id="SetSeenStateTask" Header="Обновление статуса дисплея." />
-  <Value Id="HashTask" Header="Обновление Hash файлов." />
+  <Value Id="SetSeenStateTask" Header="Обновление статуса просмотра." />
+  <Value Id="HashTask" Header="Обновление Hash-информации о файлах." />
   <Value Id="MovieControl" Runtime="ВРЕМЯ" Actors="В РОЛЯХ" Directors="РЕЖИССЁР" ReleaseDate="ГОД" />
   <Value Id="TVEpisodeControl" Actors="В РОЛЯХ" Directors="РЕЖИССЁР" ReleaseDate="ГОД" Runtime="ВРЕМЯ" />
   <Value Id="MarketView" Close="Закрыть" />
-  <Value Id="Shared" Browse="Открыть" />
+  <Value Id="Shared" Browse="Обзор" />
   <Value Id="MarketPopup" DoNotShow="Не показывать при запуске." />
   <Value Id="VideoMenu" ABC="ВСЕ" Movies="КИНОФИЛЬМЫ" TVShows="ТВ/СЕРИАЛЫ" Recents="ПОСЛЕДНЕЕ" Categories="ЖАНРЫ" />
-  <Value Id="MusicMenu" Titles="ЦЕННЫЕ БУМАГИ" Albums="АЛЬБОМЫ" Artists="ХУДОЖНИКИ" Recents="В ПОСЛЕДНЕЕ ВРЕМЯ" Genres="ВИДЫ" Playlists="PLAYLISTS" />
+  <Value Id="MusicMenu" Titles="Названия" Albums="Альбомы" Artists="Исполнители" Recents="Свежие поступления" Genres="Жанры" Playlists="Плейлисты" />
   <Value Id="AlbumView" Genre="Жанр :" Count="Треки :" ReleaseDate="Дата выпуска :" Runtime="Продолжительность :" />
   <Value Id="ScanMusicsFolderTask" Header="Сканирование музыкальных файлов" />
-  <Value Id="FirstInitFromMusicNfoTask" Header="Инициализация информации от музыки" />
+  <Value Id="FirstInitFromMusicNfoTask" Header="Поиск информации о музыке" />
 </Dictionary>
