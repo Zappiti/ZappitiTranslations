@@ -126,7 +126,7 @@
   <Value Id="AddToGroupNewGroup" Content="Novo grupo" />
   <Value Id="EditGroupCancel" Content="Cancelar" />
   <Value Id="EditGroupOK" Content="Salvar" />
-  <Value Id="FrequentWords" Words="you;i;to;the;a;and;that;it;of;me" />
+  <Value Id="FrequentWords" Words="you;i;to;the;a;and;that;it;of;me;o;os;as;um;uma;uns" />
   <Value Id="EditBrowseFilename" Content="Navegar" />
   <Value Id="EditFilename" Text="Endereço da Mídia" />
   <Value Id="EditSubTitle" Text="Legendas" />
@@ -230,17 +230,17 @@
   <Value Id="SubtitleRules" Never="Nunca" AlwaysIfPossible="Sempre que possível" IfPrimaryAudioNotFound="Apenas se o áudio preferencial não estiver presente" />
   <Value Id="SetSeenStateTask" Header="Atualizar visto/não visto." />
   <Value Id="HashTask" Header="Atualizando Arquivos de Controle." />
-  <Value Id="CategoriesMenu" Action="Ação" Sci-Fi="Ficção Científica" Adventure="Aventura" War="Guerra" Western="Faroeste" History="História" Drama="Drama" Documentary="Documentário" Music="Música" Romance="Romance" Classic="Classic" Animation="Animação" Crime="Crime" Thriller="Thriller" Horror="Terror" Comedy="Comédia" Other="Outros" Fantasy="Fantasia" />
-  <Value Id="MediaMenu" Video="" Music="" Photo="" />
-  <Value Id="FilterMenu" All="" Ongoing="" Seen="" Unseen="" />
+  <Value Id="CategoriesMenu" Action="Ação" Sci-Fi="Ficção Científica" Adventure="Aventura" War="Guerra" Western="Faroeste" History="História" Drama="Drama" Documentary="Documentário" Music="Música" Romance="Romance" Classic="Clássicos" Animation="Animação" Crime="Policial" Thriller="Suspense" Horror="Terror" Comedy="Comédia" Other="Outros" Fantasy="Fantasia" />
+  <Value Id="MediaMenu" Video="Vídeos" Music="Músicas" Photo="Fotos" />
+  <Value Id="FilterMenu" All="Todos" Ongoing="Assistindo" Seen="Vistos" Unseen="Não Vistos" />
   <Value Id="MovieControl" Runtime="DURAÇÃO" Actors="ELENCO" Directors="DIRECÃO" ReleaseDate="ANO" />
   <Value Id="TVEpisodeControl" Actors="ELENCO" Directors="DIREÇÃO" ReleaseDate="EXIBIÇÃO" Runtime="DURAÇÃO" />
   <Value Id="MarketView" Close="Fechar" />
-  <Value Id="Shared" Browse="" />
-  <Value Id="MarketPopup" DoNotShow="" />
+  <Value Id="Shared" Browse="Navegar" />
+  <Value Id="MarketPopup" DoNotShow="Não Mostrar" />
   <Value Id="VideoMenu" ABC="MEU ACERVO" Movies="FILMES" TVShows="SÉRIES" Recents="NOVIDADES" Categories="CATEGORIAS" />
-  <Value Id="MusicMenu" Titles="" Albums="" Artists="" Recents="NOVIDADES" Genres="" Playlists="" />
-  <Value Id="AlbumView" Genre="" Count="" ReleaseDate="" Runtime="" />
-  <Value Id="ScanMusicsFolderTask" Header="" />
-  <Value Id="FirstInitFromMusicNfoTask" Header="" />
+  <Value Id="MusicMenu" Titles="Títulos" Albums="Álbuns" Artists="Artistas" Recents="NOVIDADES" Genres="Categorias" Playlists="Listas" />
+  <Value Id="AlbumView" Genre="Categoria" Count="Contador" ReleaseDate="Lançamento" Runtime="Duração" />
+  <Value Id="ScanMusicsFolderTask" Header="Procurar Músicas no Diretório" />
+  <Value Id="FirstInitFromMusicNfoTask" Header="Informação sobre a Música" />
 </Dictionary>
