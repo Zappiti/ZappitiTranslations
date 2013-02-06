@@ -120,10 +120,6 @@
   <Value Id="EditSize" Text="Größe" />
   <Value Id="Loading" Text="Laden" />
   <Value Id="NoTitleFoundToScrap" Text="Filmtitel nicht gefunden" />
-  <Value Id="FiltersMenuAll" Text="ALLE" />
-  <Value Id="FiltersMenuSeen" Text="GESEHEN" />
-  <Value Id="FiltersMenuUnseen" Text="LAUFEND" />
-  <Value Id="FiltersMenuOngoing" Text="OHNE" />
   <Value Id="Prepare_Application" Content="Lade Einstellungen" SettingsLoading="Lade Einstellungen" ScanningAllFiles="Scanne neue Dateien" DataBaseLoading="Lade Datenbank" DataBaseCleanUp="Bereinige Datenbank" EnablingFeatureBrowserEmulation="Aktivierung der Emulation Funktionalität des Browsers." />
   <Value Id="WizardWelcome" Body="Willkommen.[br][br]Dieser Assistent wird Ihnen helfen, Zappiti zu konfigurieren.[br][br]Klicken Sie auf &quot;Wo sind Ihre Dateien&quot;." AddMovies="Wo sind Ihre Dateien &gt;&gt;" Close="Schließen" Header="Setup-Assistent" />
   <Value Id="WizardAddLocalLocation" Name="Fügen Sie einen lokalen Ordner hinzu" Description="- Interne Festplatte des Computers[br]- Externe Festplatte an USB / eSATA[br]- Festplatte in einer Docking-Station verbunden über USB / eSATA[br]- Dune-Player angeschlossen als USB-Slave auf diesem Computer" Header="Lokale Ordner" Tips="Tipps: Sie können diese Dateien auf Ihrem lokalen Netzwerk freigeben oder von einem USB-Gerät direkt über Ihren Dune-Player zugreifen." Folders="Lokale Laufwerke / USB-Geräte" />
@@ -206,7 +202,7 @@
   <Value Id="SubtitleRules" Never="Nie" AlwaysIfPossible="Immer wenn möglich" IfPrimaryAudioNotFound="Nur wenn die bevorzugte Audiospur nicht vorhanden ist" />
   <Value Id="CategoriesMenu" Action="Aktion" Sci-Fi="Sci-Fi" Adventure="Abenteuer" War="Krieg" Western="Western" History="Historien" Drama="Drama" Documentary="Dokumentar" Music="Musik" Romance="Romantik" Classic="Klassik" Animation="Animation" Crime="Krimi" Thriller="Thriller" Horror="Horror" Comedy="Komödie" Other="Andere" Fantasy="Fantastisch" />
   <Value Id="MediaMenu" Video="VIDEO" Music="MUSIK" Photo="PHOTO" />
-  <Value Id="FilterMenu" All="ALLE" Ongoing="STAATENLOS" Seen="GESEHEN" Unseen="LAUFENDEN" />
+  <Value Id="FilterMenu" All="ALLE" Ongoing="LAUFEND" Seen="GESEHEN" Unseen="UNGESEHEN" />
   <Value Id="SetSeenStateTask" Header="Filmstatus aktualisieren." />
   <Value Id="HashTask" Header="Aktualisiere Hash-Dateien" />
   <Value Id="MovieControl" Runtime="LAUFZEIT" Actors="DARSTELLER" Directors="REGISSEURS" ReleaseDate="JAHR" />

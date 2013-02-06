@@ -148,10 +148,6 @@
   <Value Id="EditSize" Text="Size" />
   <Value Id="Loading" Text="Loading ..." />
   <Value Id="NoTitleFoundToScrap" Text="No corresponding film" />
-  <Value Id="FiltersMenuAll" Text="ALL" />
-  <Value Id="FiltersMenuSeen" Text="SEEN" />
-  <Value Id="FiltersMenuUnseen" Text="UNSEEN" />
-  <Value Id="FiltersMenuOngoing" Text="ONGOING" />
   <Value Id="Prepare_Application" Content="Application Configuration" SettingsLoading="Loading the configuration" ScanningAllFiles="Scanning files" DataBaseLoading="Database loading" DataBaseCleanUp="Database cleanup" EnablingFeatureBrowserEmulation="Enabling browser emulation feature." />
   <Value Id="WizardWelcome" Body="Welcome.[br][br]This wizard will help you configure Zappiti.[br][br]Click the &quot;Where are your files&quot; button to tell Zappiti where your files are." AddMovies="Where are your files &gt;&gt;" Close="Close" Header="Setup Wizard" />
   <Value Id="WizardAddLocalLocation" Name="Add a local folder" Description="- Internal hard drive of this computer [br] - External hard drive connected to USB / eSata this computer [br] - Hard drive in a docking station connected to this computer via USB / eSata [br] - Dune Drive connected USB Slave to this computer" Header="Local Folders" Tips="Tips: You can choose to share these files on your local network, or accessed directly with Dune in the case of USB device." Folders="Local drives / USB Devices" />

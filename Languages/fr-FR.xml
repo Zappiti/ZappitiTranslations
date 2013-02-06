@@ -149,10 +149,6 @@
   <Value Id="RescrapSelect" Content="Sélectionner" />
   <Value Id="Loading" Text="Chargement ..." />
   <Value Id="NoTitleFoundToScrap" Text="Aucun film correspondant" />
-  <Value Id="FiltersMenuAll" Text="TOUS" />
-  <Value Id="FiltersMenuSeen" Text="VU" />
-  <Value Id="FiltersMenuUnseen" Text="NON VU" />
-  <Value Id="FiltersMenuOngoing" Text="EN COURS" />
   <Value Id="Prepare_Application" Content="Configuration de l'application" SettingsLoading="Chargement de la configuration" ScanningAllFiles="Lancement du scan des fichiers" DataBaseLoading="Chargement de la base de données" DataBaseCleanUp="Nettoyage de la base de données" EnablingFeatureBrowserEmulation="Activation des fonctionnalités d'émulation du navigateur." />
   <Value Id="WizardWelcome" Body="Bienvenue.[br][br]Cet assistant va vous aider à configurer Zappiti.[br][br]Cliquez sur &quot;Dire où sont vos vidéos&quot; pour nous dire où sont vos films." AddMovies="Dire où sont vos vidéos &gt;&gt;" Close="Fermer" Header="Assistant de configuration" />
   <Value Id="WizardAddLocalLocation" Name="Ajouter un dossier local" Description="- Disque dur interne de cet ordinateur[br]- Disque dur externe connecté en USB / eSata à cet ordinateur[br]- Disque dur dans une station d'accueil connectée à cet ordinateur en USB / eSata[br]- Lecteur Dune connecté en USB Slave à cet ordinateur" Header="Dossiers locaux, périphériques USB" Tips="Tips : Vous pourrez choisir de partager ces dossiers sur votre réseau local, ou d'y accéder directement avec Dune s'il s'agit de périphérique USB." Folders="Disques locaux / Périphériques USB" />
