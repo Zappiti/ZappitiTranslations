@@ -4,32 +4,19 @@
 	 You are free to complement work.
 -->
 <Dictionary EnglishName="Português" CultureName="pt-br">
-  <Value Id="SettingsTabValidation" Header="Validação">
-  </Value>
-  <Value Id="Globalization_XML" homeconfig="Configuração" homeinfo="Informação" configlm="Executar mídia" configipd="IP do Dune" searchmovies="Filme" searchactors="Ator" searchdirectors="Diretor" abctitle="Todos os arquivos" moviestitle="Filmes" showstitle="Séries" recentstitle="Novidades" categtitle="Categorias" detailtitle="Detalhes" remoteplay="Executando no Dune ..." remotestop="Não está passando nada no Dune ..." remoteback="Retroceder ..." remotefwd="Avançar ...">
-  </Value>
-  <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune">
-  </Value>
-  <Value Id="SettingsDefault" Header="Padrão">
-  </Value>
-  <Value Id="SettingsAdvancedOptions" Header="Opções Avançadas">
-  </Value>
-  <Value Id="SettingsTypeExport" ExportDune="Exportar para o Dune:" ExportITunes="Exportar para o ITunes:" Body="Especifique o arquivo." DoYouHaveADune="Eu tenho um Dune" DoYouHaveAniPhone="Eu tenho um iPhone / iPad / iPod" DeviceType="Dispositivo :" Primary="Prioridade" Secondary="Secundário" Audio="Áudio :" Subtitle="Legenda :" Encode="Parâmetros de conversão :" SubtitleRule="Colocar as legendas :">
-  </Value>
-  <Value Id="SettingsIsNFS" Content="Formato NFS">
-  </Value>
-  <Value Id="SettingsUserName" Text="Usuário :">
-  </Value>
-  <Value Id="SettingsUserPassword" Text="Senha :">
-  </Value>
-  <Value Id="MainScrapPicturesTvShow" Content="Imagem de fundo">
-  </Value>
-  <Value Id="Export_XML" CreateGlobalizationCustomCommand="Gerando arquivo global" iPhoneItemExportCustomCommand="Gerando arquivo para iTunes" ConfigXmlGeneratorCommand="Configuração de Exportação" MoviesXmlFileGeneratorCommand="Exportando Filmes" AbcXmlFileGeneratorCommand="Exportando Base de Dados" TvShowsXmlFileGeneratorCommand="Exportando Séries" CategoriesXmlFileGeneratorCommand="Exportando categorias" RecentsXmlFileGeneratorCommand="Exportando novidades">
-  </Value>
-  <Value Id="SettingsIsXmlExport" Text="Padrão Xml">
-  </Value>
-  <Value Id="SettingsTabExport" Header="Exportar">
-  </Value>
+  <Value Id="SettingsTabValidation" Header="Validação" />
+  <Value Id="Globalization_XML" homeconfig="Configuração" homeinfo="Informação" configlm="Executar mídia" configipd="IP do Dune" searchmovies="Filme" searchactors="Ator" searchdirectors="Diretor" abctitle="Todos os arquivos" moviestitle="Filmes" showstitle="Séries" recentstitle="Novidades" categtitle="Categorias" detailtitle="Detalhes" remoteplay="Executando no Dune ..." remotestop="Não está passando nada no Dune ..." remoteback="Retroceder ..." remotefwd="Avançar ..." />
+  <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune" />
+  <Value Id="SettingsDefault" Header="Padrão" />
+  <Value Id="SettingsAdvancedOptions" Header="Opções Avançadas" />
+  <Value Id="SettingsTypeExport" ExportDune="Exportar para o Dune:" ExportITunes="Exportar para o ITunes:" Body="Especifique o arquivo." DoYouHaveADune="Eu tenho um Dune" DoYouHaveAniPhone="Eu tenho um iPhone / iPad / iPod" DeviceType="Dispositivo :" Primary="Prioridade" Secondary="Secundário" Audio="Áudio :" Subtitle="Legenda :" Encode="Parâmetros de conversão :" SubtitleRule="Colocar as legendas :" />
+  <Value Id="SettingsIsNFS" Content="Formato NFS" />
+  <Value Id="SettingsUserName" Text="Usuário :" />
+  <Value Id="SettingsUserPassword" Text="Senha :" />
+  <Value Id="MainScrapPicturesTvShow" Content="Imagem de fundo" />
+  <Value Id="Export_XML" CreateGlobalizationCustomCommand="Gerando arquivo global" iPhoneItemExportCustomCommand="Gerando arquivo para iTunes" ConfigXmlGeneratorCommand="Configuração de Exportação" MoviesXmlFileGeneratorCommand="Exportando Filmes" AbcXmlFileGeneratorCommand="Exportando Base de Dados" TvShowsXmlFileGeneratorCommand="Exportando Séries" CategoriesXmlFileGeneratorCommand="Exportando categorias" RecentsXmlFileGeneratorCommand="Exportando novidades" />
+  <Value Id="SettingsIsXmlExport" Text="Padrão Xml" />
+  <Value Id="SettingsTabExport" Header="Exportar" />
   <Value Id="SettingsFolders" Text="Seus Diretórios :" />
   <Value Id="SettingsOK" Content="OK" />
   <Value Id="SettingsCancel" Content="Cancelar" />
@@ -92,10 +79,8 @@
   <Value Id="EditViewNotView" Text="Visto" />
   <Value Id="EditOK" Content="OK" />
   <Value Id="EditCancel" Content="Cancelar" />
-  <Value Id="MainHome" Content="Início">
-  </Value>
-  <Value Id="MainSearchMedias" Content="Pesquisar">
-  </Value>
+  <Value Id="MainHome" Content="Início" />
+  <Value Id="MainSearchMedias" Content="Pesquisar" />
   <Value Id="MainConfiguration" Content="Configurar" />
   <Value Id="MainScan" Content="Procurar por novos arquivos" />
   <Value Id="MainExport" ExportDune="Exportar para o Dune" ExportITunes="Exportar para iTunes" Title="Exportando ..." />
@@ -162,21 +147,12 @@
   <Value Id="SelectPictureTabHeader" Folder="Capa" Background="Fanart" />
   <Value Id="SettingsTabFolders" Header="Arquivos" />
   <Value Id="SettingsTabOthers" Header="Outros" SendErrorReport="Enviar relatório automaticamente ao desenvolvedor quando ocorrer erro." />
-  <Value Id="SettingsTabScrapers" Header="Fontes de Informação" MovieScraper="Filmes:" MoviePictureScraper="Imagens de filmes:" TVShowScraper="Séries:" TVShowPictureScraper="Imagens de séries:" ScrapOnStarWindows="Inicie pesquisa por informação ao iniciar o programa">
-  </Value>
+  <Value Id="SettingsTabScrapers" Header="Fontes de Informação" MovieScraper="Filmes:" MoviePictureScraper="Imagens de filmes:" TVShowScraper="Séries:" TVShowPictureScraper="Imagens de séries:" ScrapOnStarWindows="Inicie pesquisa por informação ao iniciar o programa" />
   <Value Id="GroupContextState" Seen="Visto" Ongoing="Assistindo" Unseen="Não visto" Stateless="Aguardando" />
-  <Value Id="EditSize" Text="Tamanho">
-  </Value>
-  <Value Id="Loading" Text="Carregando ...">
-  </Value>
-  <Value Id="NoTitleFoundToScrap" Text="Nenhum título encontrado">
-  </Value>
-  <Value Id="FiltersMenuAll" Text="TODOS" />
-  <Value Id="FiltersMenuSeen" Text="VISTO" />
-  <Value Id="FiltersMenuUnseen" Text="NÃO VISTO" />
-  <Value Id="FiltersMenuOngoing" Text="ASSISTINDO" />
-  <Value Id="Prepare_Application" Content="Configuração" SettingsLoading="Carregando a configuração" ScanningAllFiles="Procurando arquivos" DataBaseLoading="Carregando banco de dados" DataBaseCleanUp="Limpando banco de dados" EnablingFeatureBrowserEmulation="">
-  </Value>
+  <Value Id="EditSize" Text="Tamanho" />
+  <Value Id="Loading" Text="Carregando ..." />
+  <Value Id="NoTitleFoundToScrap" Text="Nenhum título encontrado" />
+  <Value Id="Prepare_Application" Content="Configuração" SettingsLoading="Carregando a configuração" ScanningAllFiles="Procurando arquivos" DataBaseLoading="Carregando banco de dados" DataBaseCleanUp="Limpando banco de dados" EnablingFeatureBrowserEmulation="" />
   <Value Id="WizardWelcome" Body="Bem-vindo(a).[br][br]Este assistente irá lhe ajudar a configurar o Zappiti.[br][br]Clique em  &quot;Onde estão seus vídeos&quot; para informar a localização de seus arquivos." AddMovies="Onde estão seus vídeos &gt;&gt;" Close="Fechar" Header="Assistente de Configuração" />
   <Value Id="WizardAddLocalLocation" Name="Adicione um diretório local" Description="- HD interno deste computador [br] - HD externo via USB / eSata conectado a este computador [br] - HD de docking station conectado a este computador via USB / eSata [br] - HD do Dune conectado via adaptador USB a este computador" Header="Diretórios locais" Tips="Dica: Você pode escolher compartilhar estes arquivos em sua rede local ou acessá-los diretamente com o Dune no caso de dispositivo USB." Folders="Discos Locais / Dispositivos Externos" />
   <Value Id="WizardAddNetworkLocation" Name="Adicione um compartilhamento de rede" Description="- HD interno do Dune via rede local[br] - HD externo do Dune via rede local [br] - Servidor NAS [br] - Outro computador na rede local [br] - Diretório compartilhado na rede local [br] - HD na rede local" Header="Diretório compartilhado na rede local, NAS ..." Tips="Dica: Você pode adquirir vários dispositivos USB/e-sata/rede no site da empresa HD LAND." Folders="Locais de Rede" />
