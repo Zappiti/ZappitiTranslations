@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Dictionary EnglishName="Russian" CultureName="ru-RU">
   <Value Id="SettingsTabValidation" Header="Проверка" />
   <Value Id="Globalization_XML" homeconfig="конфигурация" homeinfo="информация" configlm="Запуск фильма" configipd="IP-адрес" searchmovies="Фильмы" searchactors="Актёры" searchdirectors="Режисёры" abctitle="Все мои файлы" moviestitle="Фильмы" showstitle="Сериалы" recentstitle="Недавние" categtitle="Категории" detailtitle="Подробно" remoteplay="Воспроизвести на Dune ..." remotestop="Dune сейчас ничего не воспроизводит ..." remoteback="Перемотка назад..." remotefwd="Быстрая перемотка вперед ..." />
   <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune" />
   <Value Id="SettingsDefault" Header="Основные настройки" />
   <Value Id="SettingsAdvancedOptions" Header="Дополнительные настройки" />
-  <Value Id="SettingsTypeExport" Text="Тип экспорта" ExportDune="Экспорт в Dune" ExportITunes="Экспорт в iTunes" Body="Определите параметры экспорта." DoYouHaveADune="У меня есть Dune" DoYouHaveAniPhone="У меня есть iPhone / iPad / iPod" DeviceType="Устройство :" Primary="Приоритет" Secondary="Вторичные" Audio="Аудио :" Subtitle="Субтитры :" Encode="Параметры кодирования :" SubtitleRule="Показ субтитров :" />
+  <Value Id="SettingsTypeExport" ExportDune="Экспорт в Dune" ExportITunes="Экспорт в iTunes" Body="Определите параметры экспорта." DoYouHaveADune="У меня есть Dune" DoYouHaveAniPhone="У меня есть iPhone / iPad / iPod" DeviceType="Устройство :" Primary="Приоритет" Secondary="Вторичные" Audio="Аудио :" Subtitle="Субтитры :" Encode="Параметры кодирования :" SubtitleRule="Показ субтитров :" />
   <Value Id="SettingsIsNFS" Content="В NFS формате" />
   <Value Id="SettingsUserName" Text="Пользователь" />
   <Value Id="SettingsUserPassword" Text="Пароль" />
@@ -147,10 +147,6 @@
   <Value Id="RescrapSelect" Content="Выбрать" />
   <Value Id="Loading" Text="Загрузка ..." />
   <Value Id="NoTitleFoundToScrap" Text="Нет соответствующего фильма" />
-  <Value Id="FiltersMenuAll" Text="Все" />
-  <Value Id="FiltersMenuSeen" Text="Просмотрен" />
-  <Value Id="FiltersMenuUnseen" Text="Не просмотрен" />
-  <Value Id="FiltersMenuOngoing" Text="В процессе" />
   <Value Id="Prepare_Application" Content="Настройка приложения" SettingsLoading="Загрузка конфигурации" ScanningAllFiles="Запуск сканирования файлов" DataBaseLoading="Загрузка базы данных" DataBaseCleanUp="Очистка базы данных" EnablingFeatureBrowserEmulation="Включение эмуляции функциональности браузера." />
   <Value Id="MainHome" Content="Главная" />
   <Value Id="MainSearchMedias" Content="Поиск" />
@@ -162,7 +158,7 @@
   <Value Id="WizardAddLocation" Body="Перетащите папки, которые вы хотите добавить в список справа." YourFolders="Ваши видео файлы" Next="Вперёд &gt;&gt;" Back="&lt;&lt; Назад" Close="Закрыть" />
   <Value Id="WizardAddAnotherLocation" Header="Добавить другое место?" Next="Вперёд &gt;&gt;" YourFolders="Выбранные папки" Close="Закрыть" />
   <Value Id="FolderDataTemplate" Edit="Редактировать" Delete="Удалить" />
-  <Value Id="WizardRewriteLocationUrl" Header="Изменение URL" Body="Расскажите, как получить доступ к этой папке с вашего Dune:" Back="&lt;&lt; Назад" Next="Вперёд &gt;&gt;" SelectRewriteEngine="Выберите способ доступа к этому сайту:" ExternLabel="Внешнее устройство" NetworkLabel="Сетевой диск" UnknowLabel="Персонализированный" Close="Закрыть" InternLabel="Внутренний жесткий диск Dune" />
+  <Value Id="WizardRewriteLocationUrl" Header="Изменение URL" Body="Расскажите, как получить доступ к этой папке с вашего Dune:" Back="&lt;&lt; Назад" Next="Вперёд &gt;&gt;" ExternLabel="Внешнее устройство" NetworkLabel="Сетевой диск" UnknowLabel="Персонализированный" Close="Закрыть" InternLabel="Внутренний жесткий диск Dune" />
   <Value Id="LocalRewriteUrlEngineView" Body="Эта папка должна быть доступна в сети, чтобы к ней могла получить доступ Dune." IAccept="Я согласен с тем, чтобы открыть доступ к этой папке." />
   <Value Id="SettingsHost" Text="Имя хоста / IP :" />
   <Value Id="SettingsPath" Text="Путь :" />

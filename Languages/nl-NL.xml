@@ -148,10 +148,6 @@
   <Value Id="EditSize" Text="Grootte" />
   <Value Id="Loading" Text="Laden ..." />
   <Value Id="NoTitleFoundToScrap" Text="Film niet gevonden" />
-  <Value Id="FiltersMenuAll" Text="ALLE" />
-  <Value Id="FiltersMenuSeen" Text="GEZIEN" />
-  <Value Id="FiltersMenuUnseen" Text="NOG NIET GEZIEN" />
-  <Value Id="FiltersMenuOngoing" Text="HUIDIGE" />
   <Value Id="Prepare_Application" Content="Configuratie laden" SettingsLoading="Configuratie laden" ScanningAllFiles="Scannen van bestanden" DataBaseLoading="Database laden" DataBaseCleanUp="Database opschonen" EnablingFeatureBrowserEmulation="Emulatiefunctie van browser inschakelen." />
   <Value Id="WizardWelcome" Body="Hartelijk welkom.[br][br]Deze wizard helpt u bij het configureren van Zappiti.[br][br]Klik op de knop &quot;Waar zijn uw bestanden&quot; om ons te vertellen waar uw bestanden zijn." AddMovies="Waar zijn uw bestanden &gt;&gt;" Close="Sluiten" Header="Setup Wizard" />
   <Value Id="WizardAddLocalLocation" Name="Lokale map toevoegen" Description="[br]- Interne harde schijf van deze computer [br]- Externe harde schijf (USB/eSATA) van deze computer [br]- Externe harde schijf in een docking station[br]- Dune schijf, via USB (tijdelijk) rechtstreeks verbonden[br] " Header="Lokale mappen" Tips="Om lokaal opgeslagen mediabestanden met uw Dune af te kunnen spelen, moet u ze delen in het netwerk of een externe USB/eSATA disk rechtstreeks aan de Dune aansluiten!" Folders="Lokale schijven / USB apparaten" />
@@ -206,7 +202,7 @@
   <Value Id="SubtitleRules" Never="Nooit" AlwaysIfPossible="Altijd, indien mogelijk" IfPrimaryAudioNotFound="Alleen als de gewenste audiotrack niet beschikbaar is" />
   <Value Id="CategoriesMenu" Action="Action" Sci-Fi="Sci-Fi" Adventure="Avontuur" War="Oorlog" Western="Western" History="Historisch" Drama="Drama" Documentary="Documentaire" Music="Muziek" Romance="Romantiek" Classic="Klassieker" Animation="Animatie" Crime="Misdaad" Thriller="Thriller" Horror="Horror" Comedy="Komedie" Other="Overig" Fantasy="Fantasy" />
   <Value Id="MediaMenu" Video="VIDEO" Music="MUZIEK" Photo="FOTO" />
-  <Value Id="FilterMenu" All="ALLE" Ongoing="HUIDIG" Seen="GEZIEN" Unseen="NIEUW" />
+  <Value Id="FilterMenu" All="ALLE" Ongoing="HUIDIGE" Seen="GEZIEN" Unseen="NOG NIET GEZIEN" />
   <Value Id="SetSeenStateTask" Header="Werk status 'gezien' bij." />
   <Value Id="HashTask" Header="Hash-bestanden bijwerken." />
   <Value Id="MovieControl" Runtime="SPEELDUUR" Actors="CAST" Directors="REGISSEURS" ReleaseDate="UITGEBRACHT" />

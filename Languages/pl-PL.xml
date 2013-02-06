@@ -148,10 +148,6 @@
   <Value Id="EditSize" Text="Rozmiar" />
   <Value Id="Loading" Text="Ładowanie ..." />
   <Value Id="NoTitleFoundToScrap" Text="Brak odpowiadającego film" />
-  <Value Id="FiltersMenuAll" Text="WSZYSTKICH" />
-  <Value Id="FiltersMenuSeen" Text="WIDZIANY" />
-  <Value Id="FiltersMenuUnseen" Text="NIEWIDZIALNY" />
-  <Value Id="FiltersMenuOngoing" Text="W TOKU" />
   <Value Id="Prepare_Application" Content="Konfiguracja aplikacji" SettingsLoading="Ładowanie konfiguracji" ScanningAllFiles="Uruchom skanowanie plików" DataBaseLoading="Ładowanie bazy danych" DataBaseCleanUp="Czyszczenie bazy danych" EnablingFeatureBrowserEmulation="Włączenie funkcji emulacji przeglądarki." />
   <Value Id="WizardWelcome" Body="Witamy.[br][br]Ten kreator pomoże Ci skonfigurować Zappiti.[br][br]Kliknij przycisk &quot;Powiedzieć, gdzie są moje filmy&quot; nam powiedzieć, gdzie twoje filmy." AddMovies="Powiedzieć, gdzie są Twoje filmy &gt;&gt;" Close="Zamknij" Header="Setup Wizard" />
   <Value Id="WizardAddLocalLocation" Name="Dodaj folder lokalny" Description="- Wewnętrzny dysk twardy tego komputera [br] - Zewnętrzny dysk twardy podłączony do USB / eSATA ten komputer [br] - Dysk twardy w stacji dokującej podłączone do tego komputera przez port USB / eSATA [br] - Drive Dune podłączony slave USB do tego komputera" Header="Foldery lokalne" Tips="Porady: Możesz podzielić się tymi plikami w sieci lokalnej lub dostępne bezpośrednio z Dune w przypadku urządzenia USB." Folders="Dyski lokalne / urządzeń USB" />
