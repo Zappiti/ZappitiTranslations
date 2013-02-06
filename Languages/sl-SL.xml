@@ -148,10 +148,6 @@
   <Value Id="EditSize" Text="Velikost" />
   <Value Id="Loading" Text="Nalaga ..." />
   <Value Id="NoTitleFoundToScrap" Text="film ne ustreza" />
-  <Value Id="FiltersMenuAll" Text="VSE" />
-  <Value Id="FiltersMenuSeen" Text="POGLEDANO" />
-  <Value Id="FiltersMenuUnseen" Text="NE POGLEDANO" />
-  <Value Id="FiltersMenuOngoing" Text="V TEKU" />
   <Value Id="Prepare_Application" Content="Konfiguracija Aplikacije" SettingsLoading="Nalaganje konfiguracije" ScanningAllFiles="Začetek skeniranja datotek" DataBaseLoading="Naloži Bazo podatkov" DataBaseCleanUp="Počisti Bazo podatkov" EnablingFeatureBrowserEmulation="Omogoča funkcijo emulacije brskalnika." />
   <Value Id="WizardWelcome" Body="Dobrodošli.[br][br]Čarovnik vam bo pomagal nastaviti Zappiti.[br][br]Kliknite na &quot;Sporočite kje so vaši filmi&quot; da nam povedo kje so vaši filmi." AddMovies="Pokažite kje so vaši filmi &gt;&gt;" Close="Zapri" Header="Čarovnik za namestitev" />
   <Value Id="WizardAddLocalLocation" Name="Dodaj lokalno mapo" Description="- Notranji trdi disk na tem računalniku [br] - Zunanji trdi disk priključen na USB / eSata na tem računalniku [br] - Trdi disk v priklopni postaji priključen na tem računalniku preko USB / eSATA [br] - Dune Drive priključen na USB Slave na tem računalniku" Header="Lokalne mape" Tips="Nasvet: Lahko se odločite in delite te datoteke v vašem lokalnem omrežju ali dostopate neposredno do podatkov z Dune do USB naprave." Folders="Lokalni pogoni / USB naprave" />
