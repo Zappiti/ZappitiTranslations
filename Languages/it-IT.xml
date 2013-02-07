@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Dictionary EnglishName="Italian" CultureName="it-IT" Author="SteThx">
   <Value Id="SettingsTabValidation" Header="convalida" />
-  <Value Id="Globalization_XML" homeconfig="configurazione" homeinfo="informazioni" configlm="Lancio multimediale" configipd="Indirizzo IP" searchmovies="film" searchactors="attori" searchdirectors="regista" abctitle="Tutti i miei file" moviestitle="film" showstitle="serie" recentstitle="recente" categtitle="categorie" detailtitle="Dettagli" remoteplay="In esecuzione sul tuo Dune ..." remotestop="Nessuna riproduzione in corso sul tuo Dune ..." remoteback="Rewind ..." remotefwd="Avanti veloce ..." />
+  <Value Id="Globalization_XML" homeconfig="Configurazione" homeinfo="Informazioni" configlm="Lancio multimediale" configipd="Indirizzo IP" searchmovies="Film" searchactors="attori" searchdirectors="Regista" abctitle="Tutti i miei file" moviestitle="Film" showstitle="Serie" recentstitle="Recente" categtitle="Categorie" detailtitle="Dettagli" remoteplay="In esecuzione sul tuo Dune ..." remotestop="Nessuna riproduzione in corso sul tuo Dune ..." remoteback="Rewind ..." remotefwd="Avanti veloce ..." />
   <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune" />
   <Value Id="SettingsDefault" Header="Default" />
   <Value Id="SettingsAdvancedOptions" Header="Opzioni avanzate" />
@@ -10,7 +10,7 @@
   <Value Id="SettingsUserName" Text="Nome utente :" />
   <Value Id="SettingsUserPassword" Text="Password :" />
   <Value Id="MainScrapPicturesTvShow" Content="Immagine di sfondo" />
-  <Value Id="Export_XML" CreateGlobalizationCustomCommand="Generazione dei files interni" iPhoneItemExportCustomCommand="Generazione dei files iTunes" ConfigXmlGeneratorCommand="Esporta configurazione" MoviesXmlFileGeneratorCommand="Esporta i filmati" AbcXmlFileGeneratorCommand="Export Base" TvShowsXmlFileGeneratorCommand="Esporta Serie TV" CategoriesXmlFileGeneratorCommand="Esporta le categorie" RecentsXmlFileGeneratorCommand="Esporta file recenti" />
+  <Value Id="Export_XML" CreateGlobalizationCustomCommand="Generazione dei files interni" iPhoneItemExportCustomCommand="Generazione dei files iTunes" ConfigXmlGeneratorCommand="Esporta configurazione" MoviesXmlFileGeneratorCommand="Esporta i filmati" AbcXmlFileGeneratorCommand="Export base" TvShowsXmlFileGeneratorCommand="Esporta serie TV" CategoriesXmlFileGeneratorCommand="Esporta le categorie" RecentsXmlFileGeneratorCommand="Esporta file recenti" />
   <Value Id="SettingsIsXmlExport" Text="XML predefinito" />
   <Value Id="SettingsTabExport" Header="Esporta" />
   <Value Id="SettingsFolders" Text="Cartelle :" />

@@ -146,7 +146,7 @@
   <Value Id="SettingsUserName" Text="Login :" />
   <Value Id="SettingsUserPassword" Text="Heslo:" />
   <Value Id="MainScrapPicturesTvShow" Content="Obrázek na pozadí" />
-  <Value Id="Export_XML" CreateGlobalizationCustomCommand="Generování souboru internacionalizace" iPhoneItemExportCustomCommand="ITunes souborů generace" ConfigXmlGeneratorCommand="Export konfigurace" MoviesXmlFileGeneratorCommand="Export filmů" AbcXmlFileGeneratorCommand="Export základnu" TvShowsXmlFileGeneratorCommand="Export série" CategoriesXmlFileGeneratorCommand="Export kategorie" RecentsXmlFileGeneratorCommand="Export Poslední" />
+  <Value Id="Export_XML" CreateGlobalizationCustomCommand="Generování souboru internacionalizace" iPhoneItemExportCustomCommand="ITunes souborů generace" ConfigXmlGeneratorCommand="Export konfigurace" MoviesXmlFileGeneratorCommand="Export filmů" AbcXmlFileGeneratorCommand="Export základnu" TvShowsXmlFileGeneratorCommand="Export série" CategoriesXmlFileGeneratorCommand="Export kategorie" RecentsXmlFileGeneratorCommand="Export poslední" />
   <Value Id="SettingsAddFolder" Content="Nová složka" />
   <Value Id="GroupContextState" Seen="Viditelný" Ongoing="Pokračující" Unseen="Není vidět" Stateless="Stateless" />
   <Value Id="RescrapSelect" Content="Vybrat" />
@@ -187,7 +187,7 @@
   <Value Id="FirstInitFromTVEpisodeNfoTask" Header="Inicializace informace z epizody" />
   <Value Id="ScanMoviesFolders" Header="Skenování souborů filmy" />
   <Value Id="ScanTVShowFolders" Header="Scan soubory series" />
-  <Value Id="ExportTypeView" Header="Export typ" RegisterZappitiPlayerLabel="Máte Player Zappiti?" RegisterZappitiPlayerButton="Aktivovat nyní!" RegisterZappitiPlayerSmallLabel="Aktivací své Zappiti Player, můžete také exportovat bibliothèquee hudbu." ExportMusic="Export hudby" Close="Zavřít" />
+  <Value Id="ExportTypeView" Header="Export typ" RegisterZappitiPlayerLabel="Máte Zappiti Player?" RegisterZappitiPlayerButton="Aktivovat nyní!" RegisterZappitiPlayerSmallLabel="Aktivací své Zappiti Player, můžete také exportovat bibliothèquee hudbu." ExportMusic="Export hudby" Close="Zavřít" />
   <Value Id="FullExportType" Name="Kompletní" Description="Vaše celá sbírka je zcela vyváží." />
   <Value Id="IncrementalExportType" Name="Inkrementální" Description="Pouze poslední změny provedené od poslední vývozu jsou vyváženy." />
   <Value Id="WizardFinish" Header="Konfigurace je dokončena" Body="Konfigurace Zappiti Media Center je dokončena." Close="Zavřít" Back="&lt;&lt; Předchozí" />
@@ -202,9 +202,9 @@
   <Value Id="SubtitleRules" Never="Nikdy" AlwaysIfPossible="Také pokud je to možné" IfPrimaryAudioNotFound="Pouze v případě, preferovaný audio nebyl nalezen" />
   <Value Id="SetSeenStateTask" Header="Aktualizace stavu zobrazení." />
   <Value Id="HashTask" Header="Aktualizace hash souborů." />
-  <Value Id="CategoriesMenu" Action="Akce" Sci-Fi="Sci-fi" Adventure="Dobrodružství" War="Válka" Western="Západní" History="Historický" Drama="Drama" Documentary="Dokumentární" Music="Hudební" Romance="Romance" Classic="Klasický" Animation="Animace" Crime="Polární" Thriller="Detektivka" Horror="Hrůza" Comedy="Komedie" Other="Různý" Fantasy="Fantastický" />
+  <Value Id="CategoriesMenu" Action="Akce" Sci-Fi="Sci-Fi" Adventure="Dobrodružství" War="Válka" Western="Západní" History="Historický" Drama="Drama" Documentary="Dokumentární" Music="Hudební" Romance="Romance" Classic="Klasický" Animation="Animace" Crime="Polární" Thriller="Detektivka" Horror="Hrůza" Comedy="Komedie" Other="Různý" Fantasy="Fantastický" />
   <Value Id="MediaMenu" Video="VIDEO" Music="MUSIC" Photo="FOTO" />
-  <Value Id="FilterMenu" All="Vše" Ongoing="PRŮBĚŽNÉ" Seen="Viditelný" Unseen="Neviditelný" />
+  <Value Id="FilterMenu" All="VŠE" Ongoing="PRŮBĚŽNÉ" Seen="VIDITELNÝ" Unseen="NEVIDITELNÝ" />
   <Value Id="MovieControl" Runtime="DÉLKA" Actors="HRAJÍ" Directors="REŽISÉR" ReleaseDate="ROK" />
   <Value Id="TVEpisodeControl" Actors="HRAJÍ" Directors="REŽISÉR" ReleaseDate="ROK" Runtime="DÉLKA" />
   <Value Id="MarketView" Close="Zavřít" />

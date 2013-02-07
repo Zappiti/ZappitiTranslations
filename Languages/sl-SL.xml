@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Dictionary EnglishName="Slovenian" CultureName="sl-SL" Author="EZ">
   <Value Id="SettingsTabValidation" Header="Potrditev" />
-  <Value Id="Globalization_XML" homeconfig="Konfiguracija" homeinfo="Informacija" configlm="Pričetek Multimedie" configipd="IP naslov" searchmovies="Film" searchactors="Igralci" searchdirectors="Režiser" abctitle="Vse moje datoteke" moviestitle="Filmi" showstitle="Tv oddaje" recentstitle="Zadnje" categtitle="Kategorije" detailtitle="Detajli" remoteplay="Predvaja na tvoji Dune/Zappiti..." remotestop="Ničesar ne predvaja na tvoji Dune/Zappiti..." remoteback="Nazaj ..." remotefwd="Hitro naprej ..." />
+  <Value Id="Globalization_XML" homeconfig="Konfiguracija" homeinfo="Informacija" configlm="Pričetek multimedie" configipd="IP naslov" searchmovies="Film" searchactors="Igralci" searchdirectors="Režiser" abctitle="Vse moje datoteke" moviestitle="Filmi" showstitle="Tv oddaje" recentstitle="Zadnje" categtitle="Kategorije" detailtitle="Detajli" remoteplay="Predvaja na tvoji Dune/Zappiti..." remotestop="Ničesar ne predvaja na tvoji Dune/Zappiti..." remoteback="Nazaj ..." remotefwd="Hitro naprej ..." />
   <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune" />
   <Value Id="SettingsDefault" Header="Privzeto" />
   <Value Id="SettingsAdvancedOptions" Header="Napredne Možnosti" />
@@ -10,7 +10,7 @@
   <Value Id="SettingsUserName" Text="Prijava :" />
   <Value Id="SettingsUserPassword" Text="Geslo :" />
   <Value Id="MainScrapPicturesTvShow" Content="Slika ozadja" />
-  <Value Id="Export_XML" CreateGlobalizationCustomCommand="Generiranje datoteke za internacionalizacijo" iPhoneItemExportCustomCommand="Generiraj datoteko iTunes" ConfigXmlGeneratorCommand="Izvozi Konfiguracije" MoviesXmlFileGeneratorCommand="Izvozi filme" AbcXmlFileGeneratorCommand="Izvozi bazo" TvShowsXmlFileGeneratorCommand="Izvozi Serijo" CategoriesXmlFileGeneratorCommand="Izvozi Kategorije" RecentsXmlFileGeneratorCommand="Izvozi zadnje" />
+  <Value Id="Export_XML" CreateGlobalizationCustomCommand="Generiranje datoteke za internacionalizacijo" iPhoneItemExportCustomCommand="Generiraj datoteko iTunes" ConfigXmlGeneratorCommand="Izvozi Konfiguracije" MoviesXmlFileGeneratorCommand="Izvozi filme" AbcXmlFileGeneratorCommand="Izvozi bazo" TvShowsXmlFileGeneratorCommand="Izvozi Serijo" CategoriesXmlFileGeneratorCommand="Izvozi kategorije" RecentsXmlFileGeneratorCommand="Izvozi zadnje" />
   <Value Id="SettingsIsXmlExport" Text="Xml privzeto" />
   <Value Id="SettingsTabExport" Header="Izvozi" />
   <Value Id="SettingsFolders" Text="Vaše mape :" />
@@ -139,7 +139,7 @@
   <Value Id="ABCMenuContextEdit" Header="Uredi ..." />
   <Value Id="ABCMenuContextReset" Header="Ponastavi" />
   <Value Id="DatabaseUpdating" Text="Posodobi zbirko podatkov ..." />
-  <Value Id="EditGroupSortByName" Content="Razvrsti po Naslovu" />
+  <Value Id="EditGroupSortByName" Content="Razvrsti po naslovu" />
   <Value Id="SelectPictureTabHeader" Folder="Sprednja Naslovnica" Background="Ozadje" />
   <Value Id="SettingsTabFolders" Header="Datoteke" />
   <Value Id="SettingsTabOthers" Header="Ostalo" SendErrorReport="Samodejno pošlje poročilo razvijalci, ko pride do napake." />
@@ -186,7 +186,7 @@
   <Value Id="FirstInitFromTVEpisodeNfoTask" Header="Inicializacija podatkov epizode" />
   <Value Id="ScanMoviesFolders" Header="Skeniranje datotek filmov" />
   <Value Id="ScanTVShowFolders" Header="Skeniranje datotek serij" />
-  <Value Id="ExportTypeView" Header="vrsta izvoza" RegisterZappitiPlayerLabel="Uporabljate predvajalnik Zappiti?" RegisterZappitiPlayerButton="Aktivirajte sedaj!" RegisterZappitiPlayerSmallLabel="Z aktivacijo vašega Zappiti predvajalnika, lahko izvozite tudi svojo glasbeno knjižnico." ExportMusic="Izvoz glasbe" Close="Zapri" />
+  <Value Id="ExportTypeView" Header="Vrsta izvoza" RegisterZappitiPlayerLabel="Uporabljate predvajalnik Zappiti Player?" RegisterZappitiPlayerButton="Aktivirajte sedaj!" RegisterZappitiPlayerSmallLabel="Z aktivacijo vašega Zappiti Player predvajalnika, lahko izvozite tudi svojo glasbeno knjižnico." ExportMusic="Izvoz glasbe" Close="Zapri" />
   <Value Id="FullExportType" Name="Zaključeno" Description="Vaša celotna zbirka je v celoti izvožena." />
   <Value Id="IncrementalExportType" Name="Povečanje" Description="Samo zadnje spremembe od zadnjega izvoza so izvožene." />
   <Value Id="RescrapSelect" Content="Izberi" />

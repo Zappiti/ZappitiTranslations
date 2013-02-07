@@ -5,7 +5,7 @@
 -->
 <Dictionary EnglishName="Português" CultureName="pt-br">
   <Value Id="SettingsTabValidation" Header="Validação" />
-  <Value Id="Globalization_XML" homeconfig="Configuração" homeinfo="Informação" configlm="Executar mídia" configipd="IP do Dune" searchmovies="Filme" searchactors="Ator" searchdirectors="Diretor" abctitle="Todos os arquivos" moviestitle="Filmes" showstitle="Séries" recentstitle="Novidades" categtitle="Categorias" detailtitle="Detalhes" remoteplay="Executando no Dune ..." remotestop="Não está passando nada no Dune ..." remoteback="Retroceder ..." remotefwd="Avançar ..." />
+  <Value Id="Globalization_XML" homeconfig="Configuração" homeinfo="Informação" configlm="Executar mídia" configipd="IP" searchmovies="Filme" searchactors="Ator" searchdirectors="Diretor" abctitle="Todos os arquivos" moviestitle="Filmes" showstitle="Séries" recentstitle="Novidades" categtitle="Categorias" detailtitle="Detalhes" remoteplay="Executando no Dune ..." remotestop="Não está passando nada no Dune ..." remoteback="Retroceder ..." remotefwd="Avançar ..." />
   <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune" />
   <Value Id="SettingsDefault" Header="Padrão" />
   <Value Id="SettingsAdvancedOptions" Header="Opções Avançadas" />
@@ -14,7 +14,7 @@
   <Value Id="SettingsUserName" Text="Usuário :" />
   <Value Id="SettingsUserPassword" Text="Senha :" />
   <Value Id="MainScrapPicturesTvShow" Content="Imagem de fundo" />
-  <Value Id="Export_XML" CreateGlobalizationCustomCommand="Gerando arquivo global" iPhoneItemExportCustomCommand="Gerando arquivo para iTunes" ConfigXmlGeneratorCommand="Configuração de Exportação" MoviesXmlFileGeneratorCommand="Exportando Filmes" AbcXmlFileGeneratorCommand="Exportando Base de Dados" TvShowsXmlFileGeneratorCommand="Exportando Séries" CategoriesXmlFileGeneratorCommand="Exportando categorias" RecentsXmlFileGeneratorCommand="Exportando novidades" />
+  <Value Id="Export_XML" CreateGlobalizationCustomCommand="Gerando arquivo global" iPhoneItemExportCustomCommand="Gerando arquivo para iTunes" ConfigXmlGeneratorCommand="Configuração de Exportação" MoviesXmlFileGeneratorCommand="Exportando filmes" AbcXmlFileGeneratorCommand="Exportando base de dados" TvShowsXmlFileGeneratorCommand="Exportando séries" CategoriesXmlFileGeneratorCommand="Exportando categorias" RecentsXmlFileGeneratorCommand="Exportando novidades" />
   <Value Id="SettingsIsXmlExport" Text="Padrão Xml" />
   <Value Id="SettingsTabExport" Header="Exportar" />
   <Value Id="SettingsFolders" Text="Seus Diretórios :" />
@@ -115,7 +115,7 @@
   <Value Id="EditBrowseFilename" Content="Navegar" />
   <Value Id="EditFilename" Text="Endereço da Mídia" />
   <Value Id="EditSubTitle" Text="Legendas" />
-  <Value Id="EditGroupTitle" Text="Nome do Grupo" />
+  <Value Id="EditGroupTitle" Text="Nome do grupo" />
   <Value Id="EditGroupChilds" Text="Membros do Grupo" />
   <Value Id="EditGroupSortByData" Content="Classificar por data" />
   <Value Id="EditGroupMoveUp" Content="Mover para Cima" />
@@ -143,7 +143,7 @@
   <Value Id="ABCMenuContextEdit" Header="Editar ..." />
   <Value Id="ABCMenuContextReset" Header="Reiniciar" />
   <Value Id="DatabaseUpdating" Text="Atualizar o banco de dados ..." />
-  <Value Id="EditGroupSortByName" Content="Classificar pelo Título" />
+  <Value Id="EditGroupSortByName" Content="Classificar pelo título" />
   <Value Id="SelectPictureTabHeader" Folder="Capa" Background="Fanart" />
   <Value Id="SettingsTabFolders" Header="Arquivos" />
   <Value Id="SettingsTabOthers" Header="Outros" SendErrorReport="Enviar relatório automaticamente ao desenvolvedor quando ocorrer erro." />
@@ -208,7 +208,7 @@
   <Value Id="HashTask" Header="Atualizando Arquivos de Controle." />
   <Value Id="CategoriesMenu" Action="Ação" Sci-Fi="Ficção Científica" Adventure="Aventura" War="Guerra" Western="Faroeste" History="História" Drama="Drama" Documentary="Documentário" Music="Música" Romance="Romance" Classic="Clássicos" Animation="Animação" Crime="Policial" Thriller="Suspense" Horror="Terror" Comedy="Comédia" Other="Outros" Fantasy="Fantasia" />
   <Value Id="MediaMenu" Video="Vídeos" Music="Músicas" Photo="Fotos" />
-  <Value Id="FilterMenu" All="Todos" Ongoing="Assistindo" Seen="Vistos" Unseen="Não Vistos" />
+  <Value Id="FilterMenu" All="TODOS" Ongoing="ASSISTINDO" Seen="VISTOS" Unseen="NÃO VISTOS" />
   <Value Id="MovieControl" Runtime="DURAÇÃO" Actors="ELENCO" Directors="DIRECÃO" ReleaseDate="ANO" />
   <Value Id="TVEpisodeControl" Actors="ELENCO" Directors="DIREÇÃO" ReleaseDate="EXIBIÇÃO" Runtime="DURAÇÃO" />
   <Value Id="MarketView" Close="Fechar" />

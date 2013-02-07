@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Dictionary EnglishName="Spanish" CultureName="es-ES">
   <Value Id="SettingsTabValidation" Header="Validation" />
-  <Value Id="Globalization_XML" homeconfig="Configuración" homeinfo="Información" configlm="Ejecución de medios" configipd="Dirección IP de Dune" searchmovies="Película" searchactors="Actor" searchdirectors="Director" abctitle="Todos mis ficheros" moviestitle="Películas" showstitle="Series TV" recentstitle="Recientes" categtitle="Categorias" detailtitle="Detalles" remoteplay="Reproduciendo en el Dune ..." remotestop="No se reproduce nada en el Dune ..." remoteback="Retroceder ..." remotefwd="Avanzar ..." />
+  <Value Id="Globalization_XML" homeconfig="Configuración" homeinfo="Información" configlm="Ejecución de medios" configipd="Dirección IP" searchmovies="Película" searchactors="Actor" searchdirectors="Director" abctitle="Todos mis ficheros" moviestitle="Películas" showstitle="Series TV" recentstitle="Recientes" categtitle="Categorias" detailtitle="Detalles" remoteplay="Reproduciendo en el Dune ..." remotestop="No se reproduce nada en el Dune ..." remoteback="Retroceder ..." remotefwd="Avanzar ..." />
   <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune" />
   <Value Id="SettingsDefault" Header="Por defecto" />
   <Value Id="SettingsAdvancedOptions" Header="Opciones avanzadas" />
@@ -186,7 +186,7 @@
   <Value Id="FirstInitFromTVEpisodeNfoTask" Header="Inicialización de la información de un episodio" />
   <Value Id="ScanMoviesFolders" Header="Escanear ficheros de películas" />
   <Value Id="ScanTVShowFolders" Header="Escanear ficheros de series" />
-  <Value Id="ExportTypeView" Header="Tipo de exportación" RegisterZappitiPlayerLabel="¿Tiene un reproductor de Zappiti?" RegisterZappitiPlayerButton="Activar ahora!" RegisterZappitiPlayerSmallLabel="Mediante la activación de tu jugador Zappiti, también puede exportar su música bibliothèquee." ExportMusic="Exportación de música" Close="Cerrar" />
+  <Value Id="ExportTypeView" Header="Tipo de exportación" RegisterZappitiPlayerLabel="¿Tiene un Zappiti Player?" RegisterZappitiPlayerButton="Activar ahora!" RegisterZappitiPlayerSmallLabel="Mediante la activación de tu jugador Zappiti Player, también puede exportar su música bibliothèquee." ExportMusic="Exportación de música" Close="Cerrar" />
   <Value Id="FullExportType" Name="Completa" Description="Tu collección completa se exportará de nuevo." />
   <Value Id="IncrementalExportType" Name="Incremental" Description="Solo los últimos cambios desde la última exportación serán exportados." />
   <Value Id="RescrapSelect" Content="Seleccionar" />

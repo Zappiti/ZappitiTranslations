@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Dictionary EnglishName="German" CultureName="de-DE" Author="Crypro|Starwarp">
   <Value Id="SettingsTabValidation" Header="Bestätigen" />
-  <Value Id="Globalization_XML" homeconfig="Einstellungen" homeinfo="Informationen" configlm="Datei abspielen" configipd="IP-Adresse" searchmovies="Titel" searchactors="Darsteller" searchdirectors="Regisseur" abctitle="Alle Dateien" moviestitle="Filme" showstitle="Serien" recentstitle="Zuletzt hinzugefügt" categtitle="Kategorien" detailtitle="Details" remoteplay="Auf Ihrem Dune abspielen" remotestop="Keine Wiedergabe auf Ihrem Dune" remoteback="Schnellrücklauf" remotefwd="Schnellvorlauf" />
+  <Value Id="Globalization_XML" homeconfig="Einstellungen" homeinfo="Informationen" configlm="Datei abspielen" configipd="IP-Adresse" searchmovies="Titel" searchactors="Darsteller" searchdirectors="Regisseur" abctitle="Alle dateien" moviestitle="Filme" showstitle="Serien" recentstitle="Zuletzt hinzugefügt" categtitle="Kategorien" detailtitle="Details" remoteplay="Auf Ihrem Dune abspielen" remotestop="Keine Wiedergabe auf Ihrem Dune" remoteback="Schnellrücklauf" remotefwd="Schnellvorlauf" />
   <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune" />
   <Value Id="SettingsDefault" Header="Standard" />
   <Value Id="SettingsAdvancedOptions" Header="Fortgeschrittene Einstellungen" />
@@ -10,7 +10,7 @@
   <Value Id="SettingsUserName" Text="Login :" />
   <Value Id="SettingsUserPassword" Text="Kennwort :" />
   <Value Id="MainScrapPicturesTvShow" Content="Hintergrundbild" />
-  <Value Id="Export_XML" CreateGlobalizationCustomCommand="Initialisiere Export" iPhoneItemExportCustomCommand="Erzeuge iTunes-Datei" ConfigXmlGeneratorCommand="Exportiere Konfiguration" MoviesXmlFileGeneratorCommand="Exportiere Filme" AbcXmlFileGeneratorCommand="Exportiere Basis" TvShowsXmlFileGeneratorCommand="Exportiere Serien" CategoriesXmlFileGeneratorCommand="Exportiere Kategorien" RecentsXmlFileGeneratorCommand="Exportiere zuletzt hinzugefügt" />
+  <Value Id="Export_XML" CreateGlobalizationCustomCommand="Initialisiere Export" iPhoneItemExportCustomCommand="Erzeuge iTunes-Datei" ConfigXmlGeneratorCommand="Exportiere konfiguration" MoviesXmlFileGeneratorCommand="Exportiere filme" AbcXmlFileGeneratorCommand="Exportiere basis" TvShowsXmlFileGeneratorCommand="Exportiere serien" CategoriesXmlFileGeneratorCommand="Exportiere kategorien" RecentsXmlFileGeneratorCommand="Exportiere zuletzt hinzugefügt" />
   <Value Id="SettingsIsXmlExport" Text="XML-Standard" />
   <Value Id="SettingsTabExport" Header="Export" />
   <Value Id="SettingsFolders" Text="Ordner :" />
@@ -83,9 +83,9 @@
   <Value Id="EditBrowseFilename" Content="Durchsuchen" />
   <Value Id="EditFilename" Text="Dateiname" />
   <Value Id="EditSubTitle" Text="Untertitel" />
-  <Value Id="EditGroupTitle" Text="Name der Gruppe" />
+  <Value Id="EditGroupTitle" Text="Name der gruppe" />
   <Value Id="EditGroupChilds" Text="Gruppeninhalte" />
-  <Value Id="EditGroupSortByData" Content="Sortieren nach Datum" />
+  <Value Id="EditGroupSortByData" Content="Sortieren nach datum" />
   <Value Id="EditGroupMoveUp" Content="Nach oben" />
   <Value Id="EditGroupMoveDown" Content="Nach unten" />
   <Value Id="EditGroupMoveRemove" Content="Entfernen" />
@@ -111,7 +111,7 @@
   <Value Id="ABCMenuContextEdit" Header="Bearbeiten ..." />
   <Value Id="ABCMenuContextReset" Header="Zurücksetzen" />
   <Value Id="DatabaseUpdating" Text="Update der Datenbank ..." />
-  <Value Id="EditGroupSortByName" Content="Sortieren nach Titel" />
+  <Value Id="EditGroupSortByName" Content="Sortieren nach titel" />
   <Value Id="SelectPictureTabHeader" Folder="Cover" Background="Hintergrund" />
   <Value Id="SettingsTabFolders" Header="Dateien" />
   <Value Id="SettingsTabOthers" Header="Sonstiges" SendErrorReport="Automatisch einen Bericht an die Entwickler senden, wenn ein Fehler auftritt." />
@@ -158,7 +158,7 @@
   <Value Id="FirstInitFromTVEpisodeNfoTask" Header="Initialisiere Informationen einer Episode" />
   <Value Id="ScanMoviesFolders" Header="Film-Dateien durchsuchen" />
   <Value Id="ScanTVShowFolders" Header="Serien-Dateien durchsuchen" />
-  <Value Id="ExportTypeView" Header="Exportansicht" RegisterZappitiPlayerLabel="Haben Sie eine Zappiti Player?" RegisterZappitiPlayerButton="Aktivieren Sie jetzt!" RegisterZappitiPlayerSmallLabel="Mit der Aktivierung der Zappiti Player, können Sie auch Ihre Musiksammlung exportieren." ExportMusic="Exportieren Sie Musik" Close="Schließen" />
+  <Value Id="ExportTypeView" Header="Exportansicht" RegisterZappitiPlayerLabel="Haben Sie eine Zappiti Player?" RegisterZappitiPlayerButton="Aktivieren sie jetzt!" RegisterZappitiPlayerSmallLabel="Mit der Aktivierung der Zappiti Player, können Sie auch Ihre Musiksammlung exportieren." ExportMusic="Exportieren sie musik" Close="Schließen" />
   <Value Id="FullExportType" Name="Abschließen" Description="Ihre Sammlung ist völlig exportiert." />
   <Value Id="IncrementalExportType" Name="Inkremental" Description="Nur die letzten Änderungen seit dem letzten Export werden exportiert." />
   <Value Id="All" Text="Alle" />
@@ -214,5 +214,5 @@
   <Value Id="MusicMenu" Titles="TITLES" Albums="ALBEN" Artists="KÜNSTLER" Recents="RECENT" Genres="TYPES" Playlists="WIEDERGABELISTEN" />
   <Value Id="AlbumView" Genre="Genre :" Count="Tracks :" ReleaseDate="Erscheinungsdatum :" Runtime="Dauer :" />
   <Value Id="ScanMusicsFolderTask" Header="Musikdateien durchsuchen" />
-  <Value Id="FirstInitFromMusicNfoTask" Header="Initialisierung auf einer Musik" />
+  <Value Id="FirstInitFromMusicNfoTask" Header="Initialisierung auf einer musik" />
 </Dictionary>

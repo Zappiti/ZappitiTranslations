@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Dictionary EnglishName="Russian" CultureName="ru-RU">
   <Value Id="SettingsTabValidation" Header="Проверка" />
-  <Value Id="Globalization_XML" homeconfig="конфигурация" homeinfo="информация" configlm="Запуск фильма" configipd="IP-адрес" searchmovies="Фильмы" searchactors="Актёры" searchdirectors="Режисёры" abctitle="Все мои файлы" moviestitle="Фильмы" showstitle="Сериалы" recentstitle="Недавние" categtitle="Категории" detailtitle="Подробно" remoteplay="Воспроизвести на Dune ..." remotestop="Dune сейчас ничего не воспроизводит ..." remoteback="Перемотка назад..." remotefwd="Быстрая перемотка вперед ..." />
+  <Value Id="Globalization_XML" homeconfig="Конфигурация" homeinfo="Информация" configlm="Запуск фильма" configipd="IP-адрес" searchmovies="Фильмы" searchactors="Актёры" searchdirectors="Режисёры" abctitle="Все мои файлы" moviestitle="Фильмы" showstitle="Сериалы" recentstitle="Недавние" categtitle="Категории" detailtitle="Подробно" remoteplay="Воспроизвести на Dune ..." remotestop="Dune сейчас ничего не воспроизводит ..." remoteback="Перемотка назад..." remotefwd="Быстрая перемотка вперед ..." />
   <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune" />
   <Value Id="SettingsDefault" Header="Основные настройки" />
   <Value Id="SettingsAdvancedOptions" Header="Дополнительные настройки" />
@@ -188,7 +188,7 @@
   <Value Id="FirstInitFromTVEpisodeNfoTask" Header="Поиск информации о эпизоде" />
   <Value Id="ScanMoviesFolders" Header="Сканирование папки с фильмами" />
   <Value Id="ScanTVShowFolders" Header="Сканирование папки с сериалами" />
-  <Value Id="ExportTypeView" Header="Тип экспорта" RegisterZappitiPlayerLabel="Есть ли у вас проигрыватель Zappiti?" RegisterZappitiPlayerButton="Активируйте сейчас!" RegisterZappitiPlayerSmallLabel="При активации вашего проигрывателя Zappiti , вы также можете экспортировать музыкальную коллекцию." ExportMusic="Экспорт музыкальной коллекции." Close="Закрыть" />
+  <Value Id="ExportTypeView" Header="Тип экспорта" RegisterZappitiPlayerLabel="Есть ли у вас проигрыватель Zappiti Player?" RegisterZappitiPlayerButton="Активируйте сейчас!" RegisterZappitiPlayerSmallLabel="При активации вашего проигрывателя Zappiti Player , вы также можете экспортировать музыкальную коллекцию." ExportMusic="Экспорт музыкальной коллекции." Close="Закрыть" />
   <Value Id="FullExportType" Name="Полный" Description="Вся ваша коллекция полностью экспортируется." />
   <Value Id="IncrementalExportType" Name="Изменения" Description="Только изменения с момента последнего экспорта будут экспортированы." />
   <Value Id="WizardFinish" Header="Настройка завершена" Body="Конфигурация Zappiti Media Center закончена." Close="Закрыть" Back="&lt;&lt; Назад" />
@@ -203,7 +203,7 @@
   <Value Id="SubtitleRules" Never="Никогда" AlwaysIfPossible="Всегда если возможно" IfPrimaryAudioNotFound="Только если предпочтительный звук не найден" />
   <Value Id="CategoriesMenu" Action="Боевик" Sci-Fi="Научная фантастика" Adventure="Приключения" War="Военный" Western="Вестерн" History="Исторический" Drama="Драма" Documentary="Документальный" Music="Музыка" Romance="Мелодрама" Classic="Классика" Animation="Мультфильм" Crime="Криминал" Thriller="Триллер" Horror="Ужасы" Comedy="Комедия" Other="Другое" Fantasy="Фэнтэзи" />
   <Value Id="MediaMenu" Video="ВИДЕО" Music="МУЗЫКА" Photo="ФОТО" />
-  <Value Id="FilterMenu" All="Все" Ongoing="В процессе" Seen="Просмотрен" Unseen="Не просмотрен" />
+  <Value Id="FilterMenu" All="BCE" Ongoing="В ПРОЦЕССЕ" Seen="ПРОСМОТРЕН" Unseen="НЕ ПРОСМОТРЕН" />
   <Value Id="SetSeenStateTask" Header="Обновление статуса просмотра." />
   <Value Id="HashTask" Header="Обновление Hash-информации о файлах." />
   <Value Id="MovieControl" Runtime="ВРЕМЯ" Actors="В РОЛЯХ" Directors="РЕЖИССЁР" ReleaseDate="ГОД" />

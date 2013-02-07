@@ -10,7 +10,7 @@
   <Value Id="SettingsUserName" Text="Login :" />
   <Value Id="SettingsUserPassword" Text="Password :" />
   <Value Id="MainScrapPicturesTvShow" Content="Background picture" />
-  <Value Id="Export_XML" CreateGlobalizationCustomCommand="File generation internationalization" iPhoneItemExportCustomCommand="File generation iTunes" ConfigXmlGeneratorCommand="Export Configuration" MoviesXmlFileGeneratorCommand="Export movies" AbcXmlFileGeneratorCommand="Export Base" TvShowsXmlFileGeneratorCommand="Export Series" CategoriesXmlFileGeneratorCommand="Export categories" RecentsXmlFileGeneratorCommand="Export recent" />
+  <Value Id="Export_XML" CreateGlobalizationCustomCommand="File generation internationalization" iPhoneItemExportCustomCommand="File generation iTunes" ConfigXmlGeneratorCommand="Export configuration" MoviesXmlFileGeneratorCommand="Export movies" AbcXmlFileGeneratorCommand="Export base" TvShowsXmlFileGeneratorCommand="Export series" CategoriesXmlFileGeneratorCommand="Export categories" RecentsXmlFileGeneratorCommand="Export recent" />
   <Value Id="SettingsIsXmlExport" Text="Xml default" />
   <Value Id="SettingsTabExport" Header="Export" />
   <Value Id="SettingsFolders" Text="Your folders :" />
@@ -111,7 +111,7 @@
   <Value Id="EditBrowseFilename" Content="Browse" />
   <Value Id="EditFilename" Text="Path Media" />
   <Value Id="EditSubTitle" Text="Subtitles" />
-  <Value Id="EditGroupTitle" Text="Group Name" />
+  <Value Id="EditGroupTitle" Text="Group name" />
   <Value Id="EditGroupChilds" Text="Members" />
   <Value Id="EditGroupSortByData" Content="Sort by date" />
   <Value Id="EditGroupMoveUp" Content="Move Up" />
@@ -139,7 +139,7 @@
   <Value Id="ABCMenuContextEdit" Header="Edit ..." />
   <Value Id="ABCMenuContextReset" Header="Reset" />
   <Value Id="DatabaseUpdating" Text="Update the database ..." />
-  <Value Id="EditGroupSortByName" Content="Sort by Title" />
+  <Value Id="EditGroupSortByName" Content="Sort by title" />
   <Value Id="SelectPictureTabHeader" Folder="Cover front" Background="Background" />
   <Value Id="SettingsTabFolders" Header="Files" />
   <Value Id="SettingsTabOthers" Header="Other" SendErrorReport="Automatically send a report in the developers when an error occurs." />

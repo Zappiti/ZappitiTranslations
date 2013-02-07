@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Dictionary EnglishName="Netherlands" CultureName="nl-NL" Author="The Wizard;Frisootje;Gossie">
   <Value Id="SettingsTabValidation" Header="Bevestigen" />
-  <Value Id="Globalization_XML" homeconfig="configuratie" homeinfo="informatie" configlm="Afspelen" configipd="IP adres" searchmovies="Film" searchactors="Cast" searchdirectors="Regisseur" abctitle="Alle bestanden" moviestitle="films" showstitle="series" recentstitle="recente toevoegingen" categtitle="categorieën" detailtitle="Details" remoteplay="Afspelen op de Dune ..." remotestop="Weergave op uw Dune stoppen ..." remoteback="Terugspoelen ..." remotefwd="Vooruitspoelen ..." />
+  <Value Id="Globalization_XML" homeconfig="Configuratie" homeinfo="Informatie" configlm="Afspelen" configipd="IP adres" searchmovies="Film" searchactors="Cast" searchdirectors="Regisseur" abctitle="Alle bestanden" moviestitle="films" showstitle="Series" recentstitle="Recente toevoegingen" categtitle="Categorieën" detailtitle="Details" remoteplay="Afspelen op de Dune ..." remotestop="Weergave op uw Dune stoppen ..." remoteback="Terugspoelen ..." remotefwd="Vooruitspoelen ..." />
   <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune" />
   <Value Id="SettingsDefault" Header="Standaard" />
   <Value Id="SettingsAdvancedOptions" Header="Geavanceerde opties" />
@@ -65,10 +65,10 @@
   <Value Id="EditActors" Text="Cast" />
   <Value Id="EditAspectRatio" Text="Beeldverhouding" />
   <Value Id="EditExtension" Text="Formaat" />
-  <Value Id="EditCodecVideo" Text="Video codec" />
+  <Value Id="EditCodecVideo" Text="Video Codec" />
   <Value Id="EditFramerate" Text="FPS" />
   <Value Id="EditDefinition" Text="Resolutie" />
-  <Value Id="EditCodecAudio" Text="Audio codec" />
+  <Value Id="EditCodecAudio" Text="Audio Codec" />
   <Value Id="EditCategories" Text="Categorieën" />
   <Value Id="EditSubTitles" Text="Ondertitels" />
   <Value Id="EditLanguages" Text="Talen" />
