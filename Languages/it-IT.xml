@@ -1,31 +1,31 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Dictionary EnglishName="Italian" CultureName="it-IT" Author="SteThx">
   <Value Id="SettingsTabValidation" Header="convalida" />
-  <Value Id="Globalization_XML" homeconfig="configurazione" homeinfo="informazioni" configlm="Lancio multimediale" configipd="Indirizzo IP" searchmovies="film" searchactors="attori" searchdirectors="direttore" abctitle="Tutti i miei file" moviestitle="film" showstitle="serie" recentstitle="recente" categtitle="categorie" detailtitle="Dettagli" remoteplay="Giocando sul tuo Dune ..." remotestop="Nessun riproduzione in corso sulla vostra Dune ..." remoteback="Rewind ..." remotefwd="Avanti veloce ..." />
+  <Value Id="Globalization_XML" homeconfig="configurazione" homeinfo="informazioni" configlm="Lancio multimediale" configipd="Indirizzo IP" searchmovies="film" searchactors="attori" searchdirectors="regista" abctitle="Tutti i miei file" moviestitle="film" showstitle="serie" recentstitle="recente" categtitle="categorie" detailtitle="Dettagli" remoteplay="In esecuzione sul tuo Dune ..." remotestop="Nessuna riproduzione in corso sul tuo Dune ..." remoteback="Rewind ..." remotefwd="Avanti veloce ..." />
   <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune" />
-  <Value Id="SettingsDefault" Header="Defaut" />
+  <Value Id="SettingsDefault" Header="Default" />
   <Value Id="SettingsAdvancedOptions" Header="Opzioni avanzate" />
-  <Value Id="SettingsTypeExport" ExportDune="Dune esportazione del file:" ExportITunes="iTunes esportazione del file:" Body="Definisci il tuo file di esportazione." DoYouHaveADune="Ho un Dune" DoYouHaveAniPhone="Ho un iPhone / iPad / iPod" DeviceType="Device :" Primary="Priorità" Secondary="Secondario" Audio="Audio :" Subtitle="Sottotitolo :" Encode="Codifica dei parametri :" SubtitleRule="Applicare i sottotitoli :" />
-  <Value Id="SettingsIsNFS" Content="NFS formato" />
-  <Value Id="SettingsUserName" Text="Accesso :" />
+  <Value Id="SettingsTypeExport" ExportDune="Esportazione dei files Dune:" ExportITunes="Esportazione dei files iTunes:" Body="Definisci il tuo file di esportazione." DoYouHaveADune="Ho un Dune" DoYouHaveAniPhone="Ho un iPhone / iPad / iPod" DeviceType="Dispositivo :" Primary="Primaria" Secondary="Secondaria" Audio="Audio :" Subtitle="Sottotitolo :" Encode="Codifica dei parametri :" SubtitleRule="Applica i sottotitoli :" />
+  <Value Id="SettingsIsNFS" Content="Formato NFS" />
+  <Value Id="SettingsUserName" Text="Nome utente :" />
   <Value Id="SettingsUserPassword" Text="Password :" />
   <Value Id="MainScrapPicturesTvShow" Content="Immagine di sfondo" />
-  <Value Id="Export_XML" CreateGlobalizationCustomCommand="Generazione di file di internazionalizzazione" iPhoneItemExportCustomCommand="File di generazione di iTunes" ConfigXmlGeneratorCommand="Esporta configurazione" MoviesXmlFileGeneratorCommand="Esportare filmati" AbcXmlFileGeneratorCommand="Export Base" TvShowsXmlFileGeneratorCommand="Export Series" CategoriesXmlFileGeneratorCommand="Esporta le categorie" RecentsXmlFileGeneratorCommand="Export recenti" />
+  <Value Id="Export_XML" CreateGlobalizationCustomCommand="Generazione dei files interni" iPhoneItemExportCustomCommand="Generazione dei files iTunes" ConfigXmlGeneratorCommand="Esporta configurazione" MoviesXmlFileGeneratorCommand="Esporta i filmati" AbcXmlFileGeneratorCommand="Export Base" TvShowsXmlFileGeneratorCommand="Esporta Serie TV" CategoriesXmlFileGeneratorCommand="Esporta le categorie" RecentsXmlFileGeneratorCommand="Esporta file recenti" />
   <Value Id="SettingsIsXmlExport" Text="XML predefinito" />
-  <Value Id="SettingsTabExport" Header="Export" />
+  <Value Id="SettingsTabExport" Header="Esporta" />
   <Value Id="SettingsFolders" Text="Cartelle :" />
   <Value Id="SettingsOK" Content="OK" />
   <Value Id="SettingsCancel" Content="Annulla" />
   <Value Id="SettingsAddFolder" Content="Nuova Cartella" />
   <Value Id="SettingsDeleteFolder" Content="Elimina" />
   <Value Id="SettingsModifyFolder" Content="Modifica" />
-  <Value Id="SettingsBrowse" Content="Viaggio" />
+  <Value Id="SettingsBrowse" Content="Cerca" />
   <Value Id="SettingsFolderPath" Text="Percorso :" />
   <Value Id="SettingsZappitiDataPath" Text="Configurazione cartella :" />
-  <Value Id="SettingsRewriteAbsolutePath" Text="Riscrivere il percorso per l'esportazione :" />
-  <Value Id="UnscrapedScrap" Content="Scrap" />
-  <Value Id="UnscrapedScrapAll" Content="Scrap all" />
-  <Value Id="UnscrapedDefault" Content="A tavolino" />
+  <Value Id="SettingsRewriteAbsolutePath" Text="Reinserire il percorso per l'esportazione :" />
+  <Value Id="UnscrapedScrap" Content="Scansiona" />
+  <Value Id="UnscrapedScrapAll" Content="Scansiona tutto" />
+  <Value Id="UnscrapedDefault" Content="Default" />
   <Value Id="UnscrapedClose" Content="Chiudi" />
   <Value Id="SelectMediaInResultsOK" Content="OK" />
   <Value Id="SelectMediaInResultsCancel" Content="Annulla" />
@@ -64,10 +64,10 @@
   <Value Id="EditDirectors" Text="Regista" />
   <Value Id="EditActors" Text="Attori" />
   <Value Id="EditAspectRatio" Text="Aspect Ratio" />
-  <Value Id="EditExtension" Text="Contenitore" />
+  <Value Id="EditExtension" Text="Estensione" />
   <Value Id="EditCodecVideo" Text="Video Codec" />
-  <Value Id="EditFramerate" Text="Frequency" />
-  <Value Id="EditDefinition" Text="Definition" />
+  <Value Id="EditFramerate" Text="Frequenza" />
+  <Value Id="EditDefinition" Text="Risoluzione" />
   <Value Id="EditCodecAudio" Text="Audio Codec" />
   <Value Id="EditCategories" Text="Categorie" />
   <Value Id="EditSubTitles" Text="Sottotitoli" />
@@ -77,38 +77,38 @@
   <Value Id="EditCancel" Content="Annulla" />
   <Value Id="MainConfiguration" Content="Configura" />
   <Value Id="MainSearchMedias" Content="Cerca" />
-  <Value Id="MainScan" Content="Scan" />
-  <Value Id="MainHome" Content="Prima" />
-  <Value Id="MainExport" ExportDune="Esportazione Dune" ExportITunes="Esportazione iTunes" Title="Di esportazione in corso ..." />
-  <Value Id="MainEdit" Content="Edita" />
-  <Value Id="MainScrapDetails" Content="Scrape details" />
-  <Value Id="MainScrapPictures" Content="Scrape Immagini" />
+  <Value Id="MainScan" Content="Scansiona" />
+  <Value Id="MainHome" Content="Main" />
+  <Value Id="MainExport" ExportDune="Esportazione Dune" ExportITunes="Esportazione iTunes" Title="Esportazione in corso ..." />
+  <Value Id="MainEdit" Content="Modifica" />
+  <Value Id="MainScrapDetails" Content="Dettagli scansione" />
+  <Value Id="MainScrapPictures" Content="Scansiona Immagini" />
   <Value Id="MainInfo" Text="{0} Film, {1} Serie TV, {2} Episodi" />
-  <Value Id="MainToScrap" Text="{0} to scrape" />
-  <Value Id="MainToCleanUp" Text="{0} per eliminare" />
-  <Value Id="MainIsScanning" Text="Scanning : {0}" />
-  <Value Id="MainIsScraping" Text="Scraping : {0}" />
-  <Value Id="MainIsAnalysing" Text="Analysing : {0}" />
-  <Value Id="MainIsDownloadingPicture" Text="Scaricamento Immagini : {0}" />
-  <Value Id="MainDonate" Content="Donate !" />
+  <Value Id="MainToScrap" Text="{0} da scansionare" />
+  <Value Id="MainToCleanUp" Text="{0} da eliminare" />
+  <Value Id="MainIsScanning" Text="Sto controllando : {0}" />
+  <Value Id="MainIsScraping" Text="Sto scansionando: {0}" />
+  <Value Id="MainIsAnalysing" Text="Sto analizzando : {0}" />
+  <Value Id="MainIsDownloadingPicture" Text="Sto scaricando le immagini : {0}" />
+  <Value Id="MainDonate" Content="Donazione !" />
   <Value Id="MainAbout" Content="Informazioni" />
   <Value Id="SelectPictureChoose" Content="Scegli" />
-  <Value Id="SelectPictureBrowse" Content="Scegli da hard-disc" />
+  <Value Id="SelectPictureBrowse" Content="Scegli da hard-disk" />
   <Value Id="SelectPictureClose" Content="Chiudi" />
-  <Value Id="CleanUpMessage" Text="I media che seguono sono inaccessibili. Vuoi rimuoverli dal database ?" />
+  <Value Id="CleanUpMessage" Text="I seguenti media sono inaccessibili. Vuoi rimuoverli dal database ?" />
   <Value Id="CleanUpOK" Content="Rimuovere" />
   <Value Id="CleanUpClose" Content="Chiudi" />
   <Value Id="Splash" Content="Chiudi" />
-  <Value Id="DatabaseBadVersion" Text="La versione corrente di Zappiti non può aprire il database selezionato. Prova una nuova versione di Zappiti." />
-  <Value Id="MessageBox" ConfigureSharePath="Configurare il Percorso di Condivisione" NewReleaseAvailable="Una nuova versione è disponibile! Vuoi scaricare {0} {1} ?" DoYouWantToDeleteThisGroup="Sei sicuro di voler cancellare questo?" DoYouWantToDeleteTheseGroup="Sei sicuro di voler cancellare questi elementi?" DeleteCategory="Vuoi cancellare questa categoria?" ResetCategories="Vuoi ripristinare tutte le categorie?" ResetMainMenu="Vuoi azzerare tutti i menu?" ResetABCMenu="Vuoi azzerare tutti i pulsanti?" ResetFilterMenu="Vuoi azzerare tutti i filtri?" VersionExpired="Questa versione di Zappiti scaduto, ma una nuova versione è disponibile! Ti piacerebbe scaricare?" AddFolder="Nie musisz dodać plik {0} do pliku konfiguracyjnego. Czy chcesz dodać?" CanStartDuneServer="Impossibile avviare il server. " DoYouWanToInstallMpcHd="Vuoi installare Media Player Classic - HC ?" />
-  <Value Id="MessageBoxCaption" NewReleaseAvailable="Aggiornamento disponibile" DoYouWantToDeleteThisGroup="Rimuovi elemento" DoYouWantToDeleteTheseGroup="Rimuovi elementi" DeleteCategory="Eliminazione di una categoria" ResetCategories="Reset Categorie" ResetMainMenu="Reset menu" ResetABCMenu="Ripristina" VersionExpired="Aggiornamento disponibile" AddFolder="Aggiungere la posizione?" CanStartDuneServer="Errore" DoYouWanToInstallMpcHd="Software richiesto" />
+  <Value Id="DatabaseBadVersion" Text="La versione corrente di Zappiti non puo' aprire il database selezionato. Prova con una nuova versione di Zappiti." />
+  <Value Id="MessageBox" ConfigureSharePath="Configurare il Percorso di Condivisione" NewReleaseAvailable="Una nuova versione è disponibile! Vuoi scaricarla {0} {1} ?" DoYouWantToDeleteThisGroup="Sei sicuro di voler cancellare questo gruppo?" DoYouWantToDeleteTheseGroup="Sei sicuro di voler cancellare questi elementi?" DeleteCategory="Vuoi cancellare questa categoria?" ResetCategories="Vuoi ripristinare tutte le categorie?" ResetMainMenu="Vuoi azzerare tutti i menu?" ResetABCMenu="Vuoi azzerare tutti i pulsanti?" ResetFilterMenu="Vuoi azzerare tutti i filtri?" VersionExpired="Questa versione di Zappiti è scaduta, ma una nuova versione è disponibile! Ti piacerebbe scaricarla?" AddFolder="Non hai ancora creato una cartella {0} per la configurazione. Vuoi crearla adesso?" CanStartDuneServer="Impossibile contattare il server Dune. " DoYouWanToInstallMpcHd="Vuoi installare Media Player Classic - HC ?" />
+  <Value Id="MessageBoxCaption" NewReleaseAvailable="Nuovo aggiornamento disponibile" DoYouWantToDeleteThisGroup="Rimuovi elemento" DoYouWantToDeleteTheseGroup="Rimuovi elementi" DeleteCategory="Elimina categoria" ResetCategories="Reset Categorie" ResetMainMenu="Reset menu" ResetABCMenu="Ripristina" VersionExpired="Versione scaduta" AddFolder="Aggiungere la posizione?" CanStartDuneServer="Errore" DoYouWanToInstallMpcHd="Software richiesto" />
   <Value Id="EditChannels" Text="Canali" />
   <Value Id="TVShowSeasonList" SeasonUp="STAGIONE {0}" />
   <Value Id="AddToGroupNewGroup" Content="Nuovo gruppo" />
-  <Value Id="EditGroupCancel" Content="Annullare" />
-  <Value Id="EditGroupOK" Content="Salvare" />
+  <Value Id="EditGroupCancel" Content="Annulla" />
+  <Value Id="EditGroupOK" Content="Salva" />
   <Value Id="FrequentWords" Words="non;di;che;è;e;la;il;un;a;per" />
-  <Value Id="EditBrowseFilename" Content="Viaggio" />
+  <Value Id="EditBrowseFilename" Content="Percorso del file" />
   <Value Id="EditFilename" Text="Percorso Media" />
   <Value Id="EditSubTitle" Text="Sottotitoli" />
   <Value Id="EditGroupTitle" Text="Nome del gruppo" />
@@ -116,103 +116,103 @@
   <Value Id="EditGroupSortByData" Content="Ordina per data" />
   <Value Id="EditGroupMoveUp" Content="Sposta in alto" />
   <Value Id="EditGroupMoveDown" Content="Sposta in basso" />
-  <Value Id="EditGroupMoveRemove" Content="Ritirare" />
+  <Value Id="EditGroupMoveRemove" Content="Rimuovi" />
   <Value Id="EditGroup" Group="Gruppo" />
   <Value Id="SelectPictureMedias" Text="Seleziona media :" />
-  <Value Id="SelectPictureQuotaIsOver" Text="La tua quota viene superata scaricare il raschietto. Grazie riprovare più tardi." />
+  <Value Id="SelectPictureQuotaIsOver" Text="La tua quota di download è stata superata per questa scansione. Riprova più tardi, grazie." />
   <Value Id="EditMenuIcons" ToolTip="Cambia icona" Text="Icone :" />
   <Value Id="EditMenuBack" ToolTip="Cambia lo sfondo" />
   <Value Id="EditMenuBackRollOver" ToolTip="Cambia lo sfondo al passaggio del mouse" />
   <Value Id="CategoryContextEdit" Header="Modifica..." />
-  <Value Id="CategoryContextDelete" Header="Rimuovere" />
+  <Value Id="CategoryContextDelete" Header="Rimuovi" />
   <Value Id="EditCategoriesLabel" Text="Categoria :" />
   <Value Id="EditCategoriesKeywords" Text="Tags :" />
-  <Value Id="EditMenuOK" Content="Convalidare" />
-  <Value Id="EditMenuCancel" Content="Annullare" />
+  <Value Id="EditMenuOK" Content="Convalida" />
+  <Value Id="EditMenuCancel" Content="Annulla" />
   <Value Id="EditMenuBrowse" Content="Sfoglia ..." />
   <Value Id="EditCategoriesAdd" ToolTip="Aggiungi Categoria" />
   <Value Id="MainAddCategory" Content="Nuova categoria" />
-  <Value Id="MoreMediaInfosRightClick" Text="Si prega di Right-Click ordine più ordini..." />
+  <Value Id="MoreMediaInfosRightClick" Text="Clicca col tasto destro del mouse per avere piu' info..." />
   <Value Id="CategoryContextReset" Header="Reset Categorie" />
   <Value Id="MainMenuContextReset" Header="Reset" />
   <Value Id="MainMenuContextEdit" Header="Modifica ..." />
   <Value Id="ABCMenuContextEdit" Header="Modifica ..." />
   <Value Id="ABCMenuContextReset" Header="Reset" />
-  <Value Id="DatabaseUpdating" Text="Aggiornare il database ..." />
+  <Value Id="DatabaseUpdating" Text="Aggiorna il database ..." />
   <Value Id="EditGroupSortByName" Content="Ordina per titolo" />
-  <Value Id="SelectPictureTabHeader" Folder="Giacca" Background="Sfondo" />
+  <Value Id="SelectPictureTabHeader" Folder="Copertina" Background="Sfondo" />
   <Value Id="SettingsTabFolders" Header="File" />
-  <Value Id="SettingsTabOthers" Header="Altro" SendErrorReport="Invio automatico di un rapporto in cui gli sviluppatori si verifica un errore." />
-  <Value Id="SettingsTabScrapers" Header="Scrape" MovieScraper="Film:" MoviePictureScraper="Immagini di film:" TVShowScraper="Serie:" TVShowPictureScraper="Immagini di serie:" ScrapOnStarWindows="Avviare la scansione dei file per avviare l'applicazione" />
-  <Value Id="GroupContextState" Seen="Visto" Ongoing="In corso" Unseen="No visto" Stateless="Apolide" />
+  <Value Id="SettingsTabOthers" Header="Altro" SendErrorReport="Invia automaticamente un rapporto agli sviluppatori in caso si verifichi un errore." />
+  <Value Id="SettingsTabScrapers" Header="Scansiona" MovieScraper="Film:" MoviePictureScraper="Immagini dei film:" TVShowScraper="Serie:" TVShowPictureScraper="Immagini delle serie:" ScrapOnStarWindows="Avviare la scansione dei file all'avvio dell'applicazione" />
+  <Value Id="GroupContextState" Seen="Visto" Ongoing="In corso" Unseen="Non visto" Stateless="Nessuno stato" />
   <Value Id="EditSize" Text="Dimensioni" />
   <Value Id="Loading" Text="Caricamento ..." />
   <Value Id="NoTitleFoundToScrap" Text="Nessun film corrispondente" />
-  <Value Id="Prepare_Application" Content="Applicazione di configurazione" SettingsLoading="Caricamento della configurazione" ScanningAllFiles="Lanciare la scansione dei file" DataBaseLoading="Caricare il database" DataBaseCleanUp="Pulizia del Database" EnablingFeatureBrowserEmulation="Abilitazione funzionalità di emulazione del browser." />
-  <Value Id="WizardWelcome" Body="Benvenuti.[br][br]Questa procedura guidata consente di configurare Zappiti.[br][br]Fare clic su &quot;Dire dove sono i miei video&quot; per dirci dove i tuoi film." AddMovies="Dire dove sono i tuoi video &gt;&gt;" Close="Chiudi" Header="Setup Wizard" />
-  <Value Id="WizardAddLocalLocation" Name="Aggiungere una cartella locale" Description="- Disco rigido interno del computer [br] - Disco rigido esterno collegato alla porta USB / eSata questo computer [br] - Hard disk in una docking station collegata al computer via USB / eSata [br] - Drive Dune collegato Slave USB al computer" Header="Cartelle locali" Tips="Suggerimenti: Le cartelle locali che si sceglie saranno condivisi sulla rete locale." Folders="Le unità locali / Dispositivi USB" />
-  <Value Id="WizardAddNetworkLocation" Name="Aggiungere una cartella di rete condivisa" Description="- Hard disk interno del Dune di rete [br] - Hard esterno di Dune in rete [br] - NAS server [br] - Altre computer remoto sulla rete [br] - cartella di rete condivisa [br] - network Hard Drive" Header="Cartelle di rete condivise, NAS ..." Tips="Suggerimenti: È possibile acquistare USB, NAS, ecc sul sito di HD LAND." Folders="Rete di sedi" />
-  <Value Id="WizardWhereAreYourMovies" Header="Dove sono i tuoi film?" Body="Selezionare una delle opzioni qui sotto per indicare dove i tuoi film o la TV." Back="&lt;&lt; Precedente" Close="Chiudi" />
-  <Value Id="WizardAddLocation" Body="Trascinare e rilasciare i file che si desidera aggiungere all'elenco sulla destra." YourFolders="Il vostro file video" Next="Avanti &gt;&gt;" Back="&lt;&lt; Precedente" Close="Chiudi" />
-  <Value Id="WizardAddAnotherLocation" Header="Aggiungi un altro luogo?" Next="Avanti &gt;&gt;" YourFolders="Riassunto dei file video" Close="Chiudi" />
-  <Value Id="FolderDataTemplate" Edit="Cambiare" Delete="Rimuovere" />
-  <Value Id="WizardRewriteLocationUrl" Header="Creazione del percorso" Body="Scegliere il percorso di questa cartella e accedervi dal vostro disco Dune HD: [br](specificare dove questa cartella verrà posizionato alla fine)" Back="&lt;&lt; Precedente" Next="Seguito &gt;&gt;" ExternLabel="Su un disco rigido esterno collegato al Dune HD" NetworkLabel="Su un server NAS, cartella di rete, un disco rigido interno / esterno del PC" UnknowLabel="Costume" Close="Chiudi" InternLabel="Su un disco rigido interno Dune HD unità" />
-  <Value Id="LocalRewriteUrlEngineView" Body="Questa cartella deve essere condivisa in rete al Dune può accedere." IAccept="Sono d'accordo a condividere questa cartella." />
+  <Value Id="Prepare_Application" Content="Configura l'applicazione" SettingsLoading="Configurazioni in caricamento" ScanningAllFiles="Lancia la scansione dei file" DataBaseLoading="Caricamento dei dati dal database" DataBaseCleanUp="Pulizia del database" EnablingFeatureBrowserEmulation="Abilitazione l'emulazione del browser." />
+  <Value Id="WizardWelcome" Body="Benvenuti.[br][br]Questa procedura guidata consente di configurare Zappiti.[br][br]Fare clic su &quot;indica il percorso della tua cartella&quot; per dirci dove sono i tuoi film." AddMovies="Indica dove sono i tuoi video &gt;&gt;" Close="Chiudi" Header="Setup Wizard" />
+  <Value Id="WizardAddLocalLocation" Name="Aggiungere una cartella locale" Description="- Disco rigido interno del computer [br] - Disco rigido esterno collegato alla porta USB / eSata con questo computer [br] - Hard disk in una docking station collegata al computer via USB / eSata [br] - Drive Dune collegato tramite Slave USB al computer" Header="Cartelle locali" Tips="Suggerimenti: Le cartelle locali che si sceglierano saranno condivise sulla rete locale." Folders="Unità locali / Dispositivi USB" />
+  <Value Id="WizardAddNetworkLocation" Name="Aggiungere una cartella di rete condivisa" Description="- Hard disk interno del dispositivo Dune in rete [br] - Hard esterno del dispositivo Dune in rete [br] - NAS server [br] - Altri computer remoti sulla rete [br] - cartella di rete condivisa [br] - network Hard Drive" Header="Cartelle di rete condivise, NAS ..." Tips="Suggerimenti: è possibile acquistare USB, NAS e altro sul sito di HD LAND." Folders="Cartelle di rete" />
+  <Value Id="WizardWhereAreYourMovies" Header="Dove sono i tuoi film?" Body="Selezionare una delle opzioni qui sotto per indicare il percorso dei tuoi film o serie TV." Back="&lt;&lt; Precedente" Close="Chiudi" />
+  <Value Id="WizardAddLocation" Body="Trascinare e rilasciare i files che si desiderano aggiungere all'elenco sulla destra." YourFolders="Il vostro file video" Next="Avanti &gt;&gt;" Back="&lt;&lt; Precedente" Close="Chiudi" />
+  <Value Id="WizardAddAnotherLocation" Header="Aggiungi un altro percorso?" Next="Avanti &gt;&gt;" YourFolders="Riassunto dei file video" Close="Chiudi" />
+  <Value Id="FolderDataTemplate" Edit="Modificare" Delete="Rimuovere" />
+  <Value Id="WizardRewriteLocationUrl" Header="Creazione del percorso" Body="Scegliere il percorso della cartella per accedervi tramite il vostro Dune HD: [br](specificare dove verrà posizionata questa cartella)" Back="&lt;&lt; Precedente" Next="Seguito &gt;&gt;" ExternLabel="Su un disco rigido esterno collegato al Dune HD" NetworkLabel="Su un server NAS, cartella di rete, un disco rigido interno / esterno del PC" UnknowLabel="Sconosciuto" Close="Chiudi" InternLabel="Su un disco rigido interno all'unità Dune HD" />
+  <Value Id="LocalRewriteUrlEngineView" Body="Questa cartella deve essere condivisa in rete per accedervi tramite dispositivo Dune." IAccept="Sono d'accordo a condividere questa cartella." />
   <Value Id="SettingsHost" Text="Host name / IP :" />
   <Value Id="SettingsPath" Text="Posizione :" />
-  <Value Id="WizardConfigureType" Header="Tipo di video" Body="Che cos'è questo?" Movie="Contiene Films" TVShow="Contiene serie" Back="&lt;&lt; Precedente" Close="Chiudere" Music="Contiene Musica" />
-  <Value Id="Folder" Movie="Film" TVShow="Serie" Music="Musica" />
-  <Value Id="Settings" PlayerHeader="Giocatore" Header="Configurazione" />
+  <Value Id="WizardConfigureType" Header="Tipo di video" Body="Che cos'è questo?" Movie="Contiene Films" TVShow="Contiene serie TV" Back="&lt;&lt; Precedente" Close="Chiudere" Music="Contiene Musica" />
+  <Value Id="Folder" Movie="Film" TVShow="Serie TV" Music="Musica" />
+  <Value Id="Settings" PlayerHeader="Nome utente" Header="Configurazione" />
   <Value Id="PlayerConfigView" IsServerRunning="Abilitare il supporto per il controllo remoto." Port="Porta :" />
-  <Value Id="WizardDownloadMpcPlayer" Header="Scarica MPC - Home Cinema" Next="Seguito &gt;&gt;" Close="Chiudere" Body="Il download, la ringrazio per la vostra pazienza ..." />
-  <Value Id="WizardInstallMpcPlayer" Header="Installazione di MPC - Home Cinema" Body="Installazione corrente. " Close="Chiudere" Completed="Congratulazioni, l'installazione di MPC - Home Cinema ha avuto luogo con successo." Failed="L'installazione non riuscita per qualche motivo." />
-  <Value Id="MpcPlayerConfigView" Download="Scaricare e installare MPC - Home Cinema" PlayerPath="Percorso:" Browse="Viaggiare..." />
-  <Value Id="SettingsTabInterface" Header="Interfaccia" Language="Lingua :" Background="Carta da parati" GlassShow="Visualizzare l'effetto ghiaccio" ShowHeader="Mostra intestazione giacche" SeenUnseen="Mostra le icone Visto / Apolide" DynamicZoom="Icone con zoom dinamico" SelectionBox="Dinamica del profilo" Theme="Tema :" />
-  <Value Id="TaskManagerView" Header="Spots essendo" Close="Chiudere" />
-  <Value Id="PlayTask" Header="Apertura di un video" />
+  <Value Id="WizardDownloadMpcPlayer" Header="Scarica MPC - Home Cinema" Next="Seguito &gt;&gt;" Close="Chiudere" Body="In download, la ringraziamo per la vostra pazienza ..." />
+  <Value Id="WizardInstallMpcPlayer" Header="Installazione di MPC - Home Cinema" Body="Installazione corrente. " Close="Chiudere" Completed="Congratulazioni, MPC - Home Cinema è stato installato con successo." Failed="Installazione non riuscita per motivi sconosciuti." />
+  <Value Id="MpcPlayerConfigView" Download="Scaricare e installare MPC - Home Cinema" PlayerPath="Percorso:" Browse="Cerca..." />
+  <Value Id="SettingsTabInterface" Header="Interfaccia" Language="Lingua :" Background="Sfondo" GlassShow="Visualizza con effetto ghiaccio" ShowHeader="Mostra intestazione copertina" SeenUnseen="Mostra le icone Visto / Sconosciuto" DynamicZoom="Icone con zoom dinamico" SelectionBox="Dinamica del profilo" Theme="Tema :" />
+  <Value Id="TaskManagerView" Header="Funzione in corso" Close="Chiudere" />
+  <Value Id="PlayTask" Header="Avvia un video" />
   <Value Id="DownloadVcdTask" Header="Scarica VirtualCloneDrive" />
   <Value Id="InstallVcdTask" Header="Installazione VirtualCloneDrive" />
   <Value Id="DeleteVcdSetupTask" Header="Rimuovere il programma di installazione VirtualCloneDrive" />
   <Value Id="MountTask" Header="Montare l'immagine del disco" />
   <Value Id="MountCheckTask" Header="In attesa del disco virtuale" />
-  <Value Id="UnscrapedView" Filename="Nome del file" Directory="Repertorio" State="Stato" Title="File da rottamare" />
-  <Value Id="FirstInitFromMovieNfoTask" Header="Informazioni di inizializzazione di una pellicola" />
-  <Value Id="UpdateMainViewModelTask" Header="Refresh di video pubblicati" />
-  <Value Id="MediaToDeleteTask" Header="Trovare i file che non esiste più" />
+  <Value Id="UnscrapedView" Filename="Nome del file" Directory="Repertorio" State="Stato" Title="File da scannerizzare" />
+  <Value Id="FirstInitFromMovieNfoTask" Header="Informazioni di inizializzazione di un film" />
+  <Value Id="UpdateMainViewModelTask" Header="Refresh dei video pubblicati" />
+  <Value Id="MediaToDeleteTask" Header="Trova una cartella che non esiste più" />
   <Value Id="FirstInitTask" Header="Inizializzazione" />
-  <Value Id="ScanTask" Header="Nel processo di scansione" />
+  <Value Id="ScanTask" Header="Attualmente in scansione" />
   <Value Id="ScanForTVShowEpisodeTask" Header="Informazioni di inizializzazione di un episodio" />
-  <Value Id="FirstInitFromTVShowNfoTask" Header="Informazioni di inizializzazione in una serie" />
+  <Value Id="FirstInitFromTVShowNfoTask" Header="Informazioni di inizializzazione in una serie TV" />
   <Value Id="FirstInitFromTVEpisodeNfoTask" Header="Informazioni di inizializzazione di un episodio" />
-  <Value Id="ScanMoviesFolders" Header="Scansione dei file film" />
-  <Value Id="ScanTVShowFolders" Header="Scansione files serie" />
-  <Value Id="ExportTypeView" Header="Tipo di esportazione" RegisterZappitiPlayerLabel="Avete un giocatore Zappiti?" RegisterZappitiPlayerButton="Attiva ora!" RegisterZappitiPlayerSmallLabel="Attivando il Lettore Zappiti, è anche possibile esportare la vostra musica bibliothèquee." ExportMusic="Esportare musica" Close="Chiudere" />
-  <Value Id="FullExportType" Name="Completare" Description="Tutta la tua collezione è interamente esportato." />
-  <Value Id="IncrementalExportType" Name="Incrementale" Description="Solo le ultime modifiche dopo l'ultima esportazione vengono esportati." />
+  <Value Id="ScanMoviesFolders" Header="Scansione dei film" />
+  <Value Id="ScanTVShowFolders" Header="Scansione delle serie TV" />
+  <Value Id="ExportTypeView" Header="Tipo di esportazione" RegisterZappitiPlayerLabel="Avete un Zappiti Player?" RegisterZappitiPlayerButton="Attiva ora!" RegisterZappitiPlayerSmallLabel="Sto attivando il Zappiti Player, è anche possibile esportare la vostra musica." ExportMusic="Esportare musica" Close="Chiudere" />
+  <Value Id="FullExportType" Name="Completare" Description="Tutta la tua collezione è stata esportata." />
+  <Value Id="IncrementalExportType" Name="Incrementale" Description="Solo le modifiche dopo l'ultima esportazione verranno esportate." />
   <Value Id="RescrapSelect" Content="Selezionare" />
-  <Value Id="WizardFinish" Header="Configurazione completa" Body="Configurazione Zappiti Media Center è completo." Close="Chiudere" Back="&lt;&lt; Precedente" />
-  <Value Id="WizardConfigureExportDevice" Header="Avete tutti i dispositivi?" Body="Selezionare i dispositivi che possiedi :" Back="&lt;&lt; Precedente" Next="Seguito &gt;&gt;" Close="Chiudi" />
-  <Value Id="WizardConfigureDuneExport" Header="Configurazione di Dune" Body="Nei casi in cui esportare i dati?" Back="&lt;&lt; Precedente" Next="Seguito &gt;&gt;" Close="Chiudi" />
-  <Value Id="WizardConfigureITunesExport" Header="Configurazione per iTunes" Body="Nei casi in cui esportare i dati?" Back="&lt;&lt; Precedente" Next="Seguito &gt;&gt;" Close="Chiudi" />
-  <Value Id="GroupContext" GroupTo="Gruppo..." ChangePicture="Cambia..." Delete="Eliminarlo" Edit="Modifica ..." Play="Avviare ..." Encode="Codificare" DeleteEncode="Eliminare il file codificato" />
+  <Value Id="WizardFinish" Header="Configurazione completata" Body="Configurazione Zappiti Media Center completata." Close="Chiudere" Back="&lt;&lt; Precedente" />
+  <Value Id="WizardConfigureExportDevice" Header="Avete tutti i dispositivi?" Body="Selezionare i dispositivi posseduti :" Back="&lt;&lt; Precedente" Next="Seguito &gt;&gt;" Close="Chiudi" />
+  <Value Id="WizardConfigureDuneExport" Header="Configurazione dispositivo Dune" Body="Dove posso esportare i vostri dati?" Back="&lt;&lt; Precedente" Next="Seguito &gt;&gt;" Close="Chiudi" />
+  <Value Id="WizardConfigureITunesExport" Header="Configurazione per iTunes" Body="Dove posso esportare i vostri dati?" Back="&lt;&lt; Precedente" Next="Seguito &gt;&gt;" Close="Chiudi" />
+  <Value Id="GroupContext" GroupTo="Gruppo..." ChangePicture="Cambia..." Delete="Elimina" Edit="Modifica ..." Play="Avvia ..." Encode="Codifica" DeleteEncode="Eliminare il file codificato" />
   <Value Id="EncodeTask" Header="Codifica" />
   <Value Id="EncodingTask" Header="Codifica corrente" />
   <Value Id="DownloadHandbrakeTask" Header="Scarica Handbrake" />
   <Value Id="InstallHandbrakeTask" Header="Installazione Handbrake" />
   <Value Id="SubtitleRules" Never="Mai" AlwaysIfPossible="Sempre se possibile" IfPrimaryAudioNotFound="Solo se non trovate l'audio preferito" />
-  <Value Id="CategoriesMenu" Action="Azione" Sci-Fi="Finzione" Adventure="Avventura" War="Guerra" Western="Western" History="Storia" Drama="Drammatico" Documentary="Documentari" Music="Musica" Romance="Romantico" Classic="Classici" Animation="Animazione" Crime="Giallo" Thriller="Thriller" Horror="Horror" Comedy="Commedia" Other="Altro" Fantasy="Fantascienza" />
-  <Value Id="MediaMenu" Video="Video" Music="MUSICA" Photo="FOTO" />
-  <Value Id="FilterMenu" All="TUTTI" Ongoing="IN CORSO" Seen="VISTO" Unseen="NO VISTO" />
+  <Value Id="CategoriesMenu" Action="Azione" Sci-Fi="Fantascientifico" Adventure="Avventura" War="Guerra" Western="Western" History="Storia" Drama="Drammatico" Documentary="Documentari" Music="Musica" Romance="Romantico" Classic="Classici" Animation="Animazione" Crime="Giallo" Thriller="Thriller" Horror="Horror" Comedy="Commedia" Other="Altro" Fantasy="Fantascienza" />
+  <Value Id="MediaMenu" Video="VIDEO" Music="MUSICA" Photo="FOTO" />
+  <Value Id="FilterMenu" All="TUTTI" Ongoing="IN CORSO" Seen="VISTO" Unseen="NON VISTO" />
   <Value Id="SetSeenStateTask" Header="Aggiornamento dello stato di visualizzazione." />
   <Value Id="HashTask" Header="Aggiornamento dei file di Hash." />
   <Value Id="MovieControl" Runtime="DURATA" Actors="ATTORI" Directors="REGISTA" ReleaseDate="USCITA" />
   <Value Id="TVEpisodeControl" Actors="ATTORI" Directors="REGISTI" ReleaseDate="USCITA" Runtime="DURATA" />
   <Value Id="MarketView" Close="Chiudere" />
-  <Value Id="Shared" Browse="Viaggio" />
+  <Value Id="Shared" Browse="Cerca" />
   <Value Id="MarketPopup" DoNotShow="Non mostrare all'avvio." />
   <Value Id="VideoMenu" ABC="TUTTI" Movies="FILM" TVShows="SERIE TV" Recents="RECENTI" Categories="CATEGORIE" />
-  <Value Id="MusicMenu" Titles="TITOLI" Albums="ALBUM" Artists="ARTISTI" Recents="RECENTI" Genres="TIPI" Playlists="PLAYLISTS" />
-  <Value Id="AlbumView" Genre="Genere :" Count="Tracks :" ReleaseDate="Data di rilascio :" Runtime="Durata :" />
+  <Value Id="MusicMenu" Titles="TITOLI" Albums="ALBUM" Artists="ARTISTI" Recents="RECENTI" Genres="GENERI" Playlists="PLAYLISTS" />
+  <Value Id="AlbumView" Genre="Genere :" Count="Traccia :" ReleaseDate="Data di rilascio :" Runtime="Durata :" />
   <Value Id="ScanMusicsFolderTask" Header="Scansione dei file musicali" />
-  <Value Id="FirstInitFromMusicNfoTask" Header="Informazioni di inizializzazione da una musica" />
+  <Value Id="FirstInitFromMusicNfoTask" Header="Inizializzazione delle informazioni del file musicale" />
 </Dictionary>
