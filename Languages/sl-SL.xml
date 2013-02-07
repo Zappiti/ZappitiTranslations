@@ -186,7 +186,7 @@
   <Value Id="FirstInitFromTVEpisodeNfoTask" Header="Inicializacija podatkov epizode" />
   <Value Id="ScanMoviesFolders" Header="Skeniranje datotek filmov" />
   <Value Id="ScanTVShowFolders" Header="Skeniranje datotek serij" />
-  <Value Id="ExportTypeView" Header="vrsta izvoza" RegisterZappitiPlayerLabel="" RegisterZappitiPlayerButton="" RegisterZappitiPlayerSmallLabel="" ExportMusic="" Close="" />
+  <Value Id="ExportTypeView" Header="vrsta izvoza" RegisterZappitiPlayerLabel="Uporabljate predvajalnik Zappiti?" RegisterZappitiPlayerButton="Aktivirajte sedaj!" RegisterZappitiPlayerSmallLabel="Z aktivacijo vašega Zappiti predvajalnika, lahko izvozite tudi svojo glasbeno knjižnico." ExportMusic="Izvoz glasbe" Close="Zapri" />
   <Value Id="FullExportType" Name="Zaključeno" Description="Vaša celotna zbirka je v celoti izvožena." />
   <Value Id="IncrementalExportType" Name="Povečanje" Description="Samo zadnje spremembe od zadnjega izvoza so izvožene." />
   <Value Id="RescrapSelect" Content="Izberi" />
@@ -209,10 +209,10 @@
   <Value Id="MarketView" Close="Zapri" />
   <Value Id="Shared" Browse="Brskanje" />
   <Value Id="MarketPopup" DoNotShow="Ne prikaži ob zagonu." />
-  <Value Id="MediaMenu" Video="VIDEO" Music="MUSIC" Photo="PHOTO" />
+  <Value Id="MediaMenu" Video="VIDEO" Music="GLASBA" Photo="FOTOGRAFIJE" />
   <Value Id="VideoMenu" ABC="VSE" Movies="FILMI" TVShows="TV ODDAJE" Recents="NEDAVNO" Categories="KATEGORIJE" />
-  <Value Id="MusicMenu" Titles="TITLES" Albums="ALBUMS" Artists="ARTISTS" Recents="RECENT" Genres="TYPES" Playlists="PLAYLISTS" />
-  <Value Id="AlbumView" Genre="Genre :" Count="Tracks :" ReleaseDate="Release Date :" Runtime="Duration :" />
-  <Value Id="ScanMusicsFolderTask" Header="Scan music files" />
-  <Value Id="FirstInitFromMusicNfoTask" Header="Initialization information from a music" />
+  <Value Id="MusicMenu" Titles="NASLOVI" Albums="ALBUMI" Artists="IZVAJALCI" Recents="NEDAVNO" Genres="VRSTE" Playlists="SEZNAM PREDVAJANJA" />
+  <Value Id="AlbumView" Genre="Žanr :" Count="Sled :" ReleaseDate="Datum izzdaje :" Runtime="Trajanje :" />
+  <Value Id="ScanMusicsFolderTask" Header="Skeniranje glasbenih datotek" />
+  <Value Id="FirstInitFromMusicNfoTask" Header="Inicializacija podatkov iz glasbe" />
 </Dictionary>
