@@ -160,8 +160,8 @@
   <Value Id="LocalRewriteUrlEngineView" Body="Ta mapa mora biti v skupni rabi omrežja za dostop do vašega predvajalnika Dune." IAccept="Strinjam se z delitvijo te mape." />
   <Value Id="SettingsHost" Text="Ime gostitelja / IP :" />
   <Value Id="SettingsPath" Text="Lokacija :" />
-  <Value Id="WizardConfigureType" Header="Vrsta videa" Body="Kaj je to?" Movie="Vsebuje Filme" TVShow="Vsebuje Oddaje" Back="&lt;&lt;Prejšnja" Close="Zapri" Music="" />
-  <Value Id="Folder" Movie="Filmi" TVShow="TV Oddaje" Music="" />
+  <Value Id="WizardConfigureType" Header="Vrsta videa" Body="Kaj je to?" Movie="Vsebuje Filme" TVShow="Vsebuje Oddaje" Back="&lt;&lt;Prejšnja" Close="Zapri" Music="Vsebuje glasba" />
+  <Value Id="Folder" Movie="Filmi" TVShow="TV Oddaje" Music="Glasba" />
   <Value Id="Settings" PlayerHeader="Predvajalnik" Header="Nastavitve" />
   <Value Id="PlayerConfigView" IsServerRunning="Omogoči podporo za daljinsko upravljanje" Port="Vrata :" />
   <Value Id="WizardDownloadMpcPlayer" Header="Prenesi MPC - Home Cinema" Next="Sledi &gt;&gt;" Close="Zapri" Body="Prenaša, zahvaljujem se za vašo potrpežljivost ...." />
