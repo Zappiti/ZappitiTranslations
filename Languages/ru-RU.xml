@@ -151,7 +151,7 @@
   <Value Id="MainHome" Content="Главная" />
   <Value Id="MainSearchMedias" Content="Поиск" />
   <Value Id="FolderDataTemplate" Edit="Изменить" Delete="Удалить" />
-  <Value Id="WizardWelcome" Body="Добро пожаловать.[br][br]Этот мастер поможет вам настроить Zappiti.[br][br]Нажмите кнопку &quot;Скажите где мои файлы&quot;, чтобы сказать нам, где ваши фильмы." Close="Закрыть" Header="Мастер установки" AddFiles="Onde estão seus arquivos &gt;&gt;" />
+  <Value Id="WizardWelcome" Body="Добро пожаловать.[br][br]Этот мастер поможет вам настроить Zappiti.[br][br]Нажмите кнопку &quot;Скажите где мои файлы&quot;, чтобы сказать нам, где ваши файлы." Close="Закрыть" Header="Мастер установки" AddFiles="Onde estão seus arquivos &gt;&gt;" />
   <Value Id="WizardAddLocalLocation" Name="Добавить локальную папку" Description="Жесткий диск на этом компьютере" Header="Локальные папки" Tips="Советы: локальные папки, которые вы выбираете будут использованы в вашей локальной сети." Folders="Локальные диски" />
   <Value Id="WizardAddNetworkLocation" Name="Добавить сетевое расположение" Description="Удаленные устройства, NAS ..." Header="Общие сетевые папки, NAS ..." Tips="Советы: Вы можете приобрести USB, NAS, и т.д. на сайте HD LAND." Folders="Сетевые диски" />
   <Value Id="WizardWhereAreYourFiles" Header="Где ваши файлы?" Body="Добавьте все места, которые вы хотите." Back="&lt;&lt; Назад" Close="Закрыть" />
