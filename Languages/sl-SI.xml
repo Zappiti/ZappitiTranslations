@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Dictionary EnglishName="Slovenian" CultureName="sl-SL" Author="EZ">
+<Dictionary EnglishName="Slovenian" CultureName="sl-SI" Author="EZ">
   <Value Id="SettingsTabValidation" Header="Potrditev" />
   <Value Id="Globalization_XML" homeconfig="Konfiguracija" homeinfo="Informacija" configlm="Pričetek multimedie" configipd="IP naslov" searchmovies="Film" searchactors="Igralci" searchdirectors="Režiser" abctitle="Vse moje datoteke" moviestitle="Filmi" showstitle="Tv oddaje" recentstitle="Zadnje" categtitle="Kategorije" detailtitle="Detajli" remoteplay="Predvaja na tvoji Dune/Zappiti..." remotestop="Ničesar ne predvaja na tvoji Dune/Zappiti..." remoteback="Nazaj ..." remotefwd="Hitro naprej ..." />
   <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune" />
@@ -149,12 +149,12 @@
   <Value Id="Loading" Text="Nalaga ..." />
   <Value Id="NoTitleFoundToScrap" Text="film ne ustreza" />
   <Value Id="Prepare_Application" Content="Konfiguracija Aplikacije" SettingsLoading="Nalaganje konfiguracije" ScanningAllFiles="Začetek skeniranja datotek" DataBaseLoading="Naloži Bazo podatkov" DataBaseCleanUp="Počisti Bazo podatkov" EnablingFeatureBrowserEmulation="Omogoča funkcijo emulacije brskalnika." />
-  <Value Id="WizardWelcome" Body="Dobrodošli.[br][br]Čarovnik vam bo pomagal nastaviti Zappiti.[br][br]Kliknite na &quot;Sporočite kje so vaši filmi&quot; da nam povedo kje so vaši filmi." AddMovies="Pokažite kje so vaši filmi &gt;&gt;" Close="Zapri" Header="Čarovnik za namestitev" />
+  <Value Id="WizardWelcome" Body="Dobrodošli.[br][br]Čarovnik vam bo pomagal nastaviti Zappiti.[br][br]Kliknite na &quot;Sporočite kje so vaši datoteke&quot; da nam povedo kje so vaši filmi." Close="Zapri" Header="Čarovnik za namestitev" AddFiles="Sporočite kje so vaši datoteke &gt;&gt;" />
   <Value Id="WizardAddLocalLocation" Name="Dodaj lokalno mapo" Description="- Notranji trdi disk na tem računalniku [br] - Zunanji trdi disk priključen na USB / eSata na tem računalniku [br] - Trdi disk v priklopni postaji priključen na tem računalniku preko USB / eSATA [br] - Dune Drive priključen na USB Slave na tem računalniku" Header="Lokalne mape" Tips="Nasvet: Lahko se odločite in delite te datoteke v vašem lokalnem omrežju ali dostopate neposredno do podatkov z Dune do USB naprave." Folders="Lokalni pogoni / USB naprave" />
   <Value Id="WizardAddNetworkLocation" Name="Dodaj skupno mapo v omrežju" Description="- Notranji trdi disk v omrežju Dune/Zappiti [br] - Zunanji trdi disk v omrežju Dune/Zappiti [br] - NAS strežnik [br] - Ostali oddaljeni računalnik v omrežju [br] - Omrežna mapa v skupni rabi [br] - mrežni trdi disk" Header="Omrežne mape v skupni rabi, NAS ..." Tips="Nasvet: Lahko kupite USB, NAS, itd. na spletu HD LAND in ARCHUS.SI." Folders="Omrežna mesta" />
-  <Value Id="WizardWhereAreYourMovies" Header="Kje se nahajajo vaši filmi?" Body="Izberite eno od spodnjih možnosti in označite kje se nahajajo vaši filmi ali TV." Back="&lt;&lt;Prejšnja" Close="Zapri" />
-  <Value Id="WizardAddLocation" Body="Povlecite in spustite datoteke, ki jih želite dodati na seznam na desni." YourFolders="Vaše video datoteke" Next="Naslednja&gt;&gt;" Back="&lt;&lt;Prejšnja" Close="Zapri" />
-  <Value Id="WizardAddAnotherLocation" Header="Dodaj drugo lokacijo?" Next="Naslednja&gt;&gt;" YourFolders="Povzetek vaše video datoteke" Close="Zapri" />
+  <Value Id="WizardWhereAreYourFiles" Header="Kje se nahajajo vaši datoteke?" Body="Izberite eno od spodnjih možnosti in označite kje se nahajajo vaši filmi ali TV." Back="&lt;&lt;Prejšnja" Close="Zapri" />
+  <Value Id="WizardAddLocation" Body="Povlecite in spustite datoteke, ki jih želite dodati na seznam na desni." YourFolders="Vaše datoteke" Next="Naslednja&gt;&gt;" Back="&lt;&lt;Prejšnja" Close="Zapri" />
+  <Value Id="WizardAddAnotherLocation" Header="Dodaj drugo lokacijo?" Next="Naslednja&gt;&gt;" YourFolders="Povzetek vaše datoteke" Close="Zapri" />
   <Value Id="FolderDataTemplate" Edit="Spremeni" Delete="Odstrani" />
   <Value Id="WizardRewriteLocationUrl" Header="Kreiraj pot" Body="Izberite lokacijo za to mapo in dostop do vašega pogona Dune HD: [br](določite kje se bo ta mapa nahajala ob zaključku)" Back="&lt;&lt; Prejšnja" Next="Sledi &gt;&gt;" ExternLabel="Na zunanji trdi disk priključen na Dune HD/Zappiti" NetworkLabel="Na NAS strežnik, omrežno mapo, notranji trdi disk / izven računalnika" UnknowLabel="Po meri" Close="Zapri" InternLabel="Na notranji trdi disk priključen na Dune HD/Zappiti" />
   <Value Id="LocalRewriteUrlEngineView" Body="Ta mapa mora biti v skupni rabi omrežja za dostop do vašega predvajalnika Dune." IAccept="Strinjam se z delitvijo te mape." />
