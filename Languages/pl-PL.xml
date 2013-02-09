@@ -168,7 +168,7 @@
   <Value Id="WizardInstallMpcPlayer" Header="Instalacja MPC - Home Cinema" Body="Bieżącej instalacji. " Close="STULIĆ" Completed="Gratulacje, instalacja RPP - Kino odbyła się pomyślnie." Failed="Instalacja nie powiodła się z jakiegoś powodu." />
   <Value Id="MpcPlayerConfigView" Download="Pobierz i zainstaluj MPC - Home Cinema" PlayerPath="Ścieżka:" Browse="UJECHAĆ..." />
   <Value Id="SettingsTabInterface" Header="INTERFEJS" Language="Język:" Background="Tapety" GlassShow="zobaczyć efekt lodu" ShowHeader="Pokaż kurtki header" SeenUnseen="Pokaż ikony Oglądane / Bez stan" DynamicZoom="Ikony z zoom dynamiczny" SelectionBox="Dynamiczny kontur" Theme="Motyw :" />
-  <Value Id="TaskManagerView" Header="Miejsca będące" Close="STULIĆ" />
+  <Value Id="TaskManagerView" Header="Prace w toku" Close="STULIĆ" />
   <Value Id="PlayTask" Header="Otwieranie wideo" />
   <Value Id="DownloadVcdTask" Header="Pobierz VirtualCloneDrive" />
   <Value Id="InstallVcdTask" Header="Instalacja VirtualCloneDrive" />

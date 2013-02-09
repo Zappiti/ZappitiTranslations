@@ -168,7 +168,7 @@
   <Value Id="WizardInstallMpcPlayer" Header="Namesti MPC - Home Cinema" Body="Trenutna namestitev. " Close="Zapri" Completed="Čestitamo, namestitev MPC - Home Cinema je uspešno izvedeno." Failed="Namestitev ni uspela zaradi določenega razloga." />
   <Value Id="MpcPlayerConfigView" Download="Prenesi in namesti MPC - Home Cinema" PlayerPath="Pot:" Browse="Razišči..." />
   <Value Id="SettingsTabInterface" Header="Vmesnik" Language="Jezik :" Background="Ozadje po meri" GlassShow="Prikaži učinek stekla" ShowHeader="Prikaži glavo platnico" SeenUnseen="Prikaži pogledano / ne pogledano stanje" DynamicZoom="Ikone z dinamično povečavo" SelectionBox="Dinamična kontura" Theme="Tema :" />
-  <Value Id="TaskManagerView" Header="Spots being" Close="Zapri" />
+  <Value Id="TaskManagerView" Header="Nedokončana" Close="Zapri" />
   <Value Id="PlayTask" Header="Odpri video" />
   <Value Id="DownloadVcdTask" Header="Prenesi VirtualCloneDrive" />
   <Value Id="InstallVcdTask" Header="Namesti VirtualCloneDrive" />

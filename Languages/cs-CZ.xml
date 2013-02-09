@@ -169,7 +169,7 @@
   <Value Id="WizardInstallMpcPlayer" Header="Instalace MPC - Home Cinema" Body="Aktuální instalace. " Close="Zavřít" Completed="Gratulujeme, instalace MPC - je Home Cinema úspěšně dokončena." Failed="Instalace se nezdařila z neznámého důvodu." />
   <Value Id="MpcPlayerConfigView" Download="Stáhněte a nainstalujte MPC - Home Cinema" PlayerPath="Cesta:" Browse="Procházet ..." />
   <Value Id="SettingsTabInterface" Header="Rozhraní" Language="Jazyk :" Background="Pozadí" GlassShow="Použít glass effect" ShowHeader="Zobrazit u obrázku popisku druh videa" SeenUnseen="Display seen / unseen state" DynamicZoom="Ikony s dynamickým zoomem" SelectionBox="Dynamic obrysu" Theme="Téma :" />
-  <Value Id="TaskManagerView" Header="Spots během" Close="Zavřít" />
+  <Value Id="TaskManagerView" Header="Aktuální práce" Close="Zavřít" />
   <Value Id="PlayTask" Header="Otevření videa" />
   <Value Id="DownloadVcdTask" Header="Automaticky VirtualCloneDrive" />
   <Value Id="InstallVcdTask" Header="Instalace VirtualCloneDrive" />

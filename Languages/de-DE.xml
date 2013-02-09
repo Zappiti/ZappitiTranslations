@@ -140,7 +140,7 @@
   <Value Id="WizardInstallMpcPlayer" Header="Installation von MPC - Home Cinema" Body="Installation läuft, Moment bitte..." Close="Schließen" Completed="Die Installation von MPC - Home Cinema war erfolgreich." Failed="Die Installation ist fehlgeschlagen." />
   <Value Id="MpcPlayerConfigView" Download="MPC - Home Cinema herunterladen und installieren " PlayerPath="Pfad:" Browse="Durchsuchen" />
   <Value Id="SettingsTabInterface" Header="Oberfläche" Language="Sprache :" Background="Hintergrund" GlassShow="Glaseffekt" ShowHeader="Medientyp auf Cover anzeigen" SeenUnseen="Gesehen Markierung" DynamicZoom="Icons mit dynamischem Zoom" SelectionBox="Dynamische Kontur" Theme="Thema :" />
-  <Value Id="TaskManagerView" Header="Spots als" Close="Schließen" />
+  <Value Id="TaskManagerView" Header="Aktuelle jobs" Close="Schließen" />
   <Value Id="PlayTask" Header="Ein Video öffnen" />
   <Value Id="DownloadVcdTask" Header="Herunterladen von Virtual-Clone-Drive" />
   <Value Id="InstallVcdTask" Header="Installieren von Virtual-Clone-Drive" />

@@ -168,7 +168,7 @@
   <Value Id="WizardInstallMpcPlayer" Header="Installatie MPC - Home Cinema" Body="Installeren, even geduld..." Close="Sluiten" Completed="Gefeliciteerd, de installatie van MPC - Home Cinema is gelukt." Failed="De installatie is helaas mislukt." />
   <Value Id="MpcPlayerConfigView" Download="Download en installeer MPC - Home Cinema" PlayerPath="Pad:" Browse="Bladeren..." />
   <Value Id="SettingsTabInterface" Header="Interface" Language="Taal:" Background="Aangepaste achtergrond" GlassShow="Toon met glas-effect" ShowHeader="Toon mediatype als cover" SeenUnseen="Toon markering gezien/niet-gezien" DynamicZoom="Toon inzoomende covers" SelectionBox="Toon oranje selectiekader" Theme="Thema :" />
-  <Value Id="TaskManagerView" Header="Spots zijn" Close="Sluiten" />
+  <Value Id="TaskManagerView" Header="Onderhanden werk" Close="Sluiten" />
   <Value Id="PlayTask" Header="Video openen" />
   <Value Id="DownloadVcdTask" Header="Download VirtualCloneDrive" />
   <Value Id="InstallVcdTask" Header="VirtualCloneDrive installeren" />
