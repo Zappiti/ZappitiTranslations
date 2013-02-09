@@ -192,8 +192,8 @@
   <Value Id="RescrapSelect" Content="Izberi" />
   <Value Id="WizardFinish" Header="Konfiguracija zaključena" Body="Konfiguracija Zappiti Media Center je zaključena." Close="Zapri" Back="&lt;&lt;Prejšnja" />
   <Value Id="WizardConfigureExportDevice" Header="Imate kakšne naprave?" Body="Izberite željene naprave :" Back="&lt;&lt;Prejšnja" Next="Sledi &gt;&gt;" Close="Zapri" />
-  <Value Id="WizardConfigureDuneExport" Header="Konfiguracija Dune/Zappiti" Body="Kam naj izvozi vaše podatke?" Back="&lt;&lt;Prejšnja" Next="Sledi &gt;&gt;" Close="Zapri" />
-  <Value Id="WizardConfigureITunesExport" Header="Konfiguracija iTunes" Body="Kam naj izvozi vaše podatke?" Back="&lt;&lt;Prejšnja" Next="Sledi &gt;&gt;" Close="Zapri" />
+  <Value Id="WizardConfigureDuneExport" Header="Konfiguracija Dune HD / Zappiti Player" Body="Kam naj izvozi vaše podatke?" Back="&lt;&lt;Prejšnja" Next="Sledi &gt;&gt;" Close="Zapri" />
+  <Value Id="WizardConfigureITunesExport" Header="Konfiguracija iTunes (iPhone / iPad)" Body="Kam naj izvozi vaše podatke?" Back="&lt;&lt;Prejšnja" Next="Sledi &gt;&gt;" Close="Zapri" />
   <Value Id="GroupContext" GroupTo="Skupina..." ChangePicture="Spremeni..." Delete="Pobriši" Edit="Uredi ..." Play="Predvajaj ..." Encode="Kodiraj" DeleteEncode="Briši kodirano datoteko" />
   <Value Id="EncodeTask" Header="Kodiranje" />
   <Value Id="EncodingTask" Header="Trenutno kodiranje" />

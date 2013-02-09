@@ -1,9 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- Translating / Adapting  English to Portuguese by  sergiomramos@gmail.com
-     99,9% verified
-	 You are free to complement work.
--->
-<Dictionary EnglishName="Português" CultureName="pt-br">
+<Dictionary EnglishName="Português" CultureName="pt-BR" Author="sergiomramos">
   <Value Id="SettingsTabValidation" Header="Validação" />
   <Value Id="Globalization_XML" homeconfig="Configuração" homeinfo="Informação" configlm="Executar mídia" configipd="IP" searchmovies="Filme" searchactors="Ator" searchdirectors="Diretor" abctitle="Todos os arquivos" moviestitle="Filmes" showstitle="Séries" recentstitle="Novidades" categtitle="Categorias" detailtitle="Detalhes" remoteplay="Executando no Dune ..." remotestop="Não está passando nada no Dune ..." remoteback="Retroceder ..." remotefwd="Avançar ..." />
   <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune" />
@@ -164,7 +160,7 @@
   <Value Id="LocalRewriteUrlEngineView" Body="Este diretório deve ser compartilhado na rede local para que seu Dune possa acessá-lo." IAccept="Eu concordo em compartilhar este diretório." />
   <Value Id="SettingsHost" Text="Host name / IP :" />
   <Value Id="SettingsPath" Text="Local :" />
-  <Value Id="WizardConfigureType" Header="Tipo de vídeo" Body="Qual o tipo de vídeo existente neste diretório?" Movie="Filmes" TVShow="Séries" Back="&lt;&lt;Anterior" Close="Fechar" Music="" />
+  <Value Id="WizardConfigureType" Header="Tipo de vídeo" Body="Qual o tipo de vídeo existente neste diretório?" Movie="Filmes" TVShow="Séries" Back="&lt;&lt;Anterior" Close="Fechar" Music="Música" />
   <Value Id="Folder" Movie="Filmes" TVShow="Séries" Music="" />
   <Value Id="Settings" PlayerHeader="Player" Header="Configurações" />
   <Value Id="PlayerConfigView" IsServerRunning="Ativar suporte para controle remoto." Port="Porta :" />
@@ -196,8 +192,8 @@
   <Value Id="RescrapSelect" Content="Selecionar" />
   <Value Id="WizardFinish" Header="Configuração Completa" Body="Configuração do Zappiti Media Center efetuada." Close="Fechar" Back="&lt;&lt;Anterior" />
   <Value Id="WizardConfigureExportDevice" Header="Você tem outros dispositivos?" Body="Selecione os dispositivos que você possui :" Back="&lt;&lt;Anterior" Next="Próximo &gt;&gt;" Close="Fechar" />
-  <Value Id="WizardConfigureDuneExport" Header="Configuração necessária para Dune HD" Body="A partir de onde você deseja carregar os arquivos do Zappiti quando estiver utilizando seu Dune HD?" Back="&lt;&lt;Anterior" Next="Próximo &gt;&gt;" Close="Fechar" />
-  <Value Id="WizardConfigureITunesExport" Header="Configuração necessária para iTunes" Body="Qual o destino da exportação?" Back="&lt;&lt;Anterior" Next="Próximo &gt;&gt;" Close="Fechar" />
+  <Value Id="WizardConfigureDuneExport" Header="Configuração necessária para Dune HD / Zappiti Player" Body="A partir de onde você deseja carregar os arquivos do Zappiti quando estiver utilizando seu Dune HD / Zappiti Player?" Back="&lt;&lt;Anterior" Next="Próximo &gt;&gt;" Close="Fechar" />
+  <Value Id="WizardConfigureITunesExport" Header="Configuração necessária para iTunes (iPhone / iPad)" Body="Qual o destino da exportação?" Back="&lt;&lt;Anterior" Next="Próximo &gt;&gt;" Close="Fechar" />
   <Value Id="GroupContext" GroupTo="Grupo..." ChangePicture="Mudar..." Delete="Apagar" Edit="Editar ..." Play="Executar ..." Encode="Encode" DeleteEncode="Delete the encoded file" />
   <Value Id="EncodeTask" Header="Convertendo" />
   <Value Id="EncodingTask" Header="Andamento" />

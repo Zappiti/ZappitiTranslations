@@ -193,8 +193,8 @@
   <Value Id="IncrementalExportType" Name="Изменения" Description="Только изменения с момента последнего экспорта будут экспортированы." />
   <Value Id="WizardFinish" Header="Настройка завершена" Body="Конфигурация Zappiti Media Center закончена." Close="Закрыть" Back="&lt;&lt; Назад" />
   <Value Id="WizardConfigureExportDevice" Header="Есть ли у вас устройства?" Body="Выберите устройства, которые у вас есть :" Back="&lt;&lt; Назад" Next="Продолжить &gt;&gt;" Close="Закрыть" />
-  <Value Id="WizardConfigureDuneExport" Header="Конфигурация Дюны" Body="Куда делать экспорт вашей библиотеки?" Back="&lt;&lt; Назад" Next="Продолжить &gt;&gt;" Close="Закрыть" />
-  <Value Id="WizardConfigureITunesExport" Header="Конфигурация для ITunes" Body="Куда делать экспорт вашей библиотеки?" Back="&lt;&lt; Назад" Next="Продолжить &gt;&gt;" Close="Закрыть" />
+  <Value Id="WizardConfigureDuneExport" Header="Конфигурация Dune HD / Zappiti Player" Body="Куда делать экспорт вашей библиотеки?" Back="&lt;&lt; Назад" Next="Продолжить &gt;&gt;" Close="Закрыть" />
+  <Value Id="WizardConfigureITunesExport" Header="Конфигурация для ITunes (iPhone / iPad)" Body="Куда делать экспорт вашей библиотеки?" Back="&lt;&lt; Назад" Next="Продолжить &gt;&gt;" Close="Закрыть" />
   <Value Id="GroupContext" GroupTo="Группировка..." ChangePicture="Обложка..." Delete="Удалить" Edit="Данные" Play="Запуск ..." Encode="Кодировать" DeleteEncode="Удалить подготовленный файл" />
   <Value Id="EncodeTask" Header="Кодирование" />
   <Value Id="EncodingTask" Header="Текущая кодировка" />

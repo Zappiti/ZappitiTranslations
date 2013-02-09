@@ -149,7 +149,7 @@
   <Value Id="Loading" Text="Loading ..." />
   <Value Id="NoTitleFoundToScrap" Text="No corresponding film" />
   <Value Id="Prepare_Application" Content="Application Configuration" SettingsLoading="Loading the configuration" ScanningAllFiles="Scanning files" DataBaseLoading="Database loading" DataBaseCleanUp="Database cleanup" EnablingFeatureBrowserEmulation="Enabling browser emulation feature." />
-  <Value Id="WizardWelcome" Body="Welcome.[br][br]This wizard will help you configure Zappiti.[br][br]Click the &quot;Where are your files&quot; button to tell Zappiti where your files are." Close="Close" Header="Setup Wizard" AddFiles="Where are your files &gt;&gt;" />
+  <Value Id="WizardWelcome" Body="Welcome.[br][br]This wizard will help you configure Zappiti.[br][br]Click the &quot;Where are your files&quot; button to tell Zappiti where your media files are (Movies, TV Shows, Musics)." Close="Close" Header="Setup Wizard" AddFiles="Where are your files &gt;&gt;" />
   <Value Id="WizardAddLocalLocation" Name="Add a local folder" Description="- Internal hard drive of this computer [br] - External hard drive connected to USB / eSata this computer [br] - Hard drive in a docking station connected to this computer via USB / eSata [br] - Dune Drive connected USB Slave to this computer" Header="Local Folders" Tips="Tips: You can choose to share these files on your local network, or accessed directly with Dune in the case of USB device." Folders="Local drives / USB Devices" />
   <Value Id="WizardAddNetworkLocation" Name="Add a shared network folder" Description="- Internal hard drive of the networked Dune [br] - External Hard of Dune networked [br] - NAS server [br] - Other remote computer on the network [br] - Network Shared Folder [br] - network hard drives" Header="Shared network folders, NAS ..." Tips="Tips: You can buy USB, NAS, etc. on the site of HD LAND." Folders="Network locations" />
   <Value Id="WizardWhereAreYourFiles" Header="Where are your files?" Body="Select one of the options below to indicate where your media files are." Back="&lt;&lt; Previous" Close="Close" />
@@ -192,8 +192,8 @@
   <Value Id="RescrapSelect" Content="Select" />
   <Value Id="WizardFinish" Header="Configuration complete" Body="Configuration of Zappiti Media Center is complete." Close="Close" Back="&lt;&lt; Previous" />
   <Value Id="WizardConfigureExportDevice" Header="Do you have any devices?" Body="Select the devices you own :" Back="&lt;&lt; Previous" Next="Next &gt;&gt;" Close="Close" />
-  <Value Id="WizardConfigureDuneExport" Header="Dune configuration" Body="Where to export your data?" Back="&lt;&lt; Previous" Next="Next &gt;&gt;" Close="Close" />
-  <Value Id="WizardConfigureITunesExport" Header="Configuration for iTunes" Body="Where to export your data?" Back="&lt;&lt; Previous" Next="Next &gt;&gt;" Close="Close" />
+  <Value Id="WizardConfigureDuneExport" Header="Media Player export configuration" Body="Where to export your data and generate Zappiti access for your Dune HD / Zappiti Player? Zappiti will create a &quot;_Zappiti&quot; folder to access Zappiti from your Media Player (Dune HD or Zappiti Player)." Back="&lt;&lt; Previous" Next="Next &gt;&gt;" Close="Close" />
+  <Value Id="WizardConfigureITunesExport" Header="Configuration for iTunes (iPhone / iPad)" Body="Where to export your data?" Back="&lt;&lt; Previous" Next="Next &gt;&gt;" Close="Close" />
   <Value Id="GroupContext" GroupTo="Group..." ChangePicture="Change..." Delete="Delete it" Edit="Edit ..." Play="Play ..." Encode="Encode" DeleteEncode="Delete the encoded file" />
   <Value Id="EncodeTask" Header="Encoding" />
   <Value Id="EncodingTask" Header="Current encoding" />

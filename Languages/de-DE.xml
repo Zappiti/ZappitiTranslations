@@ -192,8 +192,8 @@
   <Value Id="RescrapSelect" Content="Wählen" />
   <Value Id="WizardFinish" Header="Konfiguration fertig" Body="Die Konfiguration von Zappiti Media Center ist abgeschlossen." Close="Schließen" Back="&lt;&lt; Zurück" />
   <Value Id="WizardConfigureExportDevice" Header="Welche Geräte haben Sie?" Body="Wählen Sie die Geräte in Ihrem Besitz:" Back="&lt;&lt; Zurück" Next="Weiter &gt;&gt;" Close="Schließen" />
-  <Value Id="WizardConfigureDuneExport" Header="Dune Konfiguration" Body="Exportieren nach?" Back="&lt;&lt; Zurück" Next="Weiter &gt;&gt;" Close="Schließen" />
-  <Value Id="WizardConfigureITunesExport" Header="Konfiguration für iTunes" Body="Exportieren nach?" Back="&lt;&lt; Zurück" Next="Weiter &gt;&gt;" Close="Schließen" />
+  <Value Id="WizardConfigureDuneExport" Header="Dune HD / Zappiti Player konfiguration" Body="Exportieren nach?" Back="&lt;&lt; Zurück" Next="Weiter &gt;&gt;" Close="Schließen" />
+  <Value Id="WizardConfigureITunesExport" Header="Konfiguration für iTunes (iPhone / iPad)" Body="Exportieren nach?" Back="&lt;&lt; Zurück" Next="Weiter &gt;&gt;" Close="Schließen" />
   <Value Id="GroupContext" GroupTo="Gruppe..." ChangePicture="Bilder..." Delete="Löschen" Edit="Bearbeiten..." Play="Wiedergeben" Encode="Kodieren" DeleteEncode="Löschen der enkodierten Datei" />
   <Value Id="EncodeTask" Header="Enkodieren" />
   <Value Id="EncodingTask" Header="Aktuelle Kodierung" />

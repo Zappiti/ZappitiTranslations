@@ -192,8 +192,8 @@
   <Value Id="RescrapSelect" Content="Kiezen" />
   <Value Id="WizardFinish" Header="Configuratie voltooid" Body="De configuratie van Zappiti Media Center is voltooid.[br][br]Laat Zappiti nu uw mediabestanden doorzoeken (klik op het vizier linksboven) zodat informatie over uw collectie volautomatisch van het internet kan worden gehaald.[br][br]Veel plezier met Zappiti!" Close="Sluiten" Back="&lt;&lt; Vorige" />
   <Value Id="WizardConfigureExportDevice" Header="Welke apparaten hebt u?" Body="Selecteer de apparaten die u bezit :" Back="&lt;&lt; Vorige" Next="Volgende &gt;&gt;" Close="Sluiten" />
-  <Value Id="WizardConfigureDuneExport" Header="Dune configuratie" Body="Gegevens exporteren naar?" Back="&lt;&lt; Vorige" Next="Volgende &gt;&gt;" Close="Sluiten" />
-  <Value Id="WizardConfigureITunesExport" Header="Configuratie voor iTunes" Body="Gegevens exporteren naar?" Back="&lt;&lt; Vorige" Next="Volgende &gt;&gt;" Close="Sluiten" />
+  <Value Id="WizardConfigureDuneExport" Header="Dune HD / Zappiti Player configuratie" Body="Gegevens exporteren naar?" Back="&lt;&lt; Vorige" Next="Volgende &gt;&gt;" Close="Sluiten" />
+  <Value Id="WizardConfigureITunesExport" Header="Configuratie voor iTunes (iPhone / iPad)" Body="Gegevens exporteren naar?" Back="&lt;&lt; Vorige" Next="Volgende &gt;&gt;" Close="Sluiten" />
   <Value Id="GroupContext" GroupTo="Groep..." ChangePicture="Verander..." Delete="Verwijderen" Edit="Bewerken ..." Play="Afspelen ..." Encode="Encoderen" DeleteEncode="Verwijder het gecodeerde bestand" />
   <Value Id="EncodeTask" Header="Codering" />
   <Value Id="EncodingTask" Header="Huidige codering" />

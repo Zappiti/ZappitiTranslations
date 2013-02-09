@@ -192,8 +192,8 @@
   <Value Id="RescrapSelect" Content="Selezionare" />
   <Value Id="WizardFinish" Header="Configurazione completata" Body="Configurazione Zappiti Media Center completata." Close="Chiudere" Back="&lt;&lt; Precedente" />
   <Value Id="WizardConfigureExportDevice" Header="Avete tutti i dispositivi?" Body="Selezionare i dispositivi posseduti :" Back="&lt;&lt; Precedente" Next="Seguito &gt;&gt;" Close="Chiudi" />
-  <Value Id="WizardConfigureDuneExport" Header="Configurazione dispositivo Dune" Body="Dove posso esportare i vostri dati?" Back="&lt;&lt; Precedente" Next="Seguito &gt;&gt;" Close="Chiudi" />
-  <Value Id="WizardConfigureITunesExport" Header="Configurazione per iTunes" Body="Dove posso esportare i vostri dati?" Back="&lt;&lt; Precedente" Next="Seguito &gt;&gt;" Close="Chiudi" />
+  <Value Id="WizardConfigureDuneExport" Header="Configurazione dispositivo Dune HD / Zappiti Player" Body="Dove posso esportare i vostri dati?" Back="&lt;&lt; Precedente" Next="Seguito &gt;&gt;" Close="Chiudi" />
+  <Value Id="WizardConfigureITunesExport" Header="Configurazione per iTunes (iPhone / iPad)" Body="Dove posso esportare i vostri dati?" Back="&lt;&lt; Precedente" Next="Seguito &gt;&gt;" Close="Chiudi" />
   <Value Id="GroupContext" GroupTo="Gruppo..." ChangePicture="Cambia..." Delete="Elimina" Edit="Modifica ..." Play="Avvia ..." Encode="Codifica" DeleteEncode="Eliminare il file codificato" />
   <Value Id="EncodeTask" Header="Codifica" />
   <Value Id="EncodingTask" Header="Codifica corrente" />

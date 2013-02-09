@@ -192,8 +192,8 @@
   <Value Id="IncrementalExportType" Name="Inkrementální" Description="Pouze poslední změny provedené od poslední vývozu jsou vyváženy." />
   <Value Id="WizardFinish" Header="Konfigurace je dokončena" Body="Konfigurace Zappiti Media Center je dokončena." Close="Zavřít" Back="&lt;&lt; Předchozí" />
   <Value Id="WizardConfigureExportDevice" Header="Máte nějaké zařízení?" Body="Vyberte zařízení, které vlastníte:" Back="&lt;&lt; Předchozí" Next="Další &gt;&gt;" Close="Zavřít" />
-  <Value Id="WizardConfigureDuneExport" Header="Konfigurace Dune" Body="Pokud data exportovat?" Back="&lt;&lt; Předchozí" Next="Další &gt;&gt;" Close="Zavřít" />
-  <Value Id="WizardConfigureITunesExport" Header="Konfigurace iTunes" Body="Pokud data exportovat?" Back="&lt;&lt; Předchozí" Next="Další &gt;&gt;" Close="Zavřít" />
+  <Value Id="WizardConfigureDuneExport" Header="Konfigurace Dune HD / Zappiti Player" Body="Pokud data exportovat?" Back="&lt;&lt; Předchozí" Next="Další &gt;&gt;" Close="Zavřít" />
+  <Value Id="WizardConfigureITunesExport" Header="Konfigurace iTunes (iPhone / iPad)" Body="Pokud data exportovat?" Back="&lt;&lt; Předchozí" Next="Další &gt;&gt;" Close="Zavřít" />
   <Value Id="GroupContext" GroupTo="Grouper ..." ChangePicture="Změna ..." Delete="Odstranit" Edit="Upravit ..." Play="Lancer ..." Encode="Zakódovat" DeleteEncode="Odstranit zakódovaný soubor" />
   <Value Id="EncodeTask" Header="Kódování" />
   <Value Id="EncodingTask" Header="Aktuální kódování" />
