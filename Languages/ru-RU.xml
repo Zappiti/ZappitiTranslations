@@ -140,7 +140,7 @@
   <Value Id="EditGroupSortByName" Content="Отсортировать по названию" />
   <Value Id="SelectPictureTabHeader" Folder="Обложка" Background="Фон" />
   <Value Id="SettingsTabFolders" Header="Папки и Файлы" />
-  <Value Id="SettingsTabOthers" Header="Другие Настройки" SendErrorReport="Автоматически отправлять отчет в разработчиками при возникновении ошибки." />
+  <Value Id="SettingsTabOthers" Header="Другие Настройки" SendErrorReport="Автоматически отправлять отчет в разработчиками при возникновении ошибки." Recents="Число дней с учетом последних:" />
   <Value Id="SettingsTabScrapers" Header="Поиск файлов" MovieScraper="Фильмы:" MoviePictureScraper="Изображения фильмов:" TVShowScraper="Сериалы:" TVShowPictureScraper="Изображения сериалов:" ScrapOnStarWindows="Начало сканирования файлов при запуске приложения" />
   <Value Id="GroupContextState" Seen="Просмотрен" Ongoing="В процессе" Unseen="Не просмотрен" Stateless="Без метки" />
   <Value Id="EditSize" Text="Размер" />

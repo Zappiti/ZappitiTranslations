@@ -130,7 +130,7 @@
   <Value Id="EditGroupSortByName" Content="Třídit podle názvu" />
   <Value Id="SelectPictureTabHeader" Folder="Jacket" Background="Background" />
   <Value Id="SettingsTabFolders" Header="Soubor" />
-  <Value Id="SettingsTabOthers" Header="Ostatní" SendErrorReport="Automaticky odeslat zprávu v vývojáři při chybě." />
+  <Value Id="SettingsTabOthers" Header="Ostatní" SendErrorReport="Automaticky odeslat zprávu v vývojáři při chybě." Recents="Počet dnů vzít v úvahu nedávné:" />
   <Value Id="SettingsTabScrapers" Header="Po startu" MovieScraper="Filmy:" MoviePictureScraper="Film obrázky:" TVShowScraper="Série:" TVShowPictureScraper="Obrázky série:" ScrapOnStarWindows="Spusťte skenování soubor pro spuštění aplikace" />
   <Value Id="EditSize" Text="Velikost" />
   <Value Id="Loading" Text="Nahrávám ..." />

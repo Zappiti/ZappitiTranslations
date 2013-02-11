@@ -142,7 +142,7 @@
   <Value Id="EditGroupSortByName" Content="Razvrsti po naslovu" />
   <Value Id="SelectPictureTabHeader" Folder="Sprednja Naslovnica" Background="Ozadje" />
   <Value Id="SettingsTabFolders" Header="Datoteke" />
-  <Value Id="SettingsTabOthers" Header="Ostalo" SendErrorReport="Samodejno pošlje poročilo razvijalci, ko pride do napake." />
+  <Value Id="SettingsTabOthers" Header="Ostalo" SendErrorReport="Samodejno pošlje poročilo razvijalci, ko pride do napake." Recents="Število dni, da se upošteva nedavni:" />
   <Value Id="SettingsTabScrapers" Header="Scrapers" MovieScraper="Filmi:" MoviePictureScraper="Slike Filmov:" TVShowScraper="Serije:" TVShowPictureScraper="Slike Serij:" ScrapOnStarWindows="Začni skeniranje datotek za zagon aplikacij" />
   <Value Id="GroupContextState" Seen="Pogledano" Ongoing="V teku" Unseen="Ne pogledano" Stateless="Stateless" />
   <Value Id="EditSize" Text="Velikost" />

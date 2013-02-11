@@ -142,13 +142,13 @@
   <Value Id="EditGroupSortByName" Content="Classificar pelo título" />
   <Value Id="SelectPictureTabHeader" Folder="Capa" Background="Fanart" />
   <Value Id="SettingsTabFolders" Header="Arquivos" />
-  <Value Id="SettingsTabOthers" Header="Outros" SendErrorReport="Enviar relatório automaticamente ao desenvolvedor quando ocorrer erro." />
+  <Value Id="SettingsTabOthers" Header="Outros" SendErrorReport="Enviar relatório automaticamente ao desenvolvedor quando ocorrer erro." Recents="Número de dias para ter em conta recente:" />
   <Value Id="SettingsTabScrapers" Header="Fontes de Informação" MovieScraper="Filmes:" MoviePictureScraper="Imagens de filmes:" TVShowScraper="Séries:" TVShowPictureScraper="Imagens de séries:" ScrapOnStarWindows="Inicie pesquisa por informação ao iniciar o programa" />
   <Value Id="GroupContextState" Seen="Visto" Ongoing="Assistindo" Unseen="Não visto" Stateless="Aguardando" />
   <Value Id="EditSize" Text="Tamanho" />
   <Value Id="Loading" Text="Carregando ..." />
   <Value Id="NoTitleFoundToScrap" Text="Nenhum título encontrado" />
-  <Value Id="Prepare_Application" Content="Configuração" SettingsLoading="Carregando a configuração" ScanningAllFiles="Procurando arquivos" DataBaseLoading="Carregando banco de dados" DataBaseCleanUp="Limpando banco de dados" EnablingFeatureBrowserEmulation="" />
+  <Value Id="Prepare_Application" Content="Configuração" SettingsLoading="Carregando a configuração" ScanningAllFiles="Procurando arquivos" DataBaseLoading="Carregando banco de dados" DataBaseCleanUp="Limpando banco de dados" EnablingFeatureBrowserEmulation="Ativando funcionalidade de emulação do navegador." />
   <Value Id="WizardWelcome" Body="Bem-vindo(a).[br][br]Este assistente irá lhe ajudar a configurar o Zappiti.[br][br]Clique em  &quot;Onde estão seus arquivos&quot; para informar a localização de seus arquivos." Close="Fechar" Header="Assistente de Configuração" AddFiles="Onde estão seus arquivos &gt;&gt;" />
   <Value Id="WizardAddLocalLocation" Name="Adicione um diretório local" Description="- HD interno deste computador [br] - HD externo via USB / eSata conectado a este computador [br] - HD de docking station conectado a este computador via USB / eSata [br] - HD do Dune conectado via adaptador USB a este computador" Header="Diretórios locais" Tips="Dica: Você pode escolher compartilhar estes arquivos em sua rede local ou acessá-los diretamente com o Dune no caso de dispositivo USB." Folders="Discos Locais / Dispositivos Externos" />
   <Value Id="WizardAddNetworkLocation" Name="Adicione um compartilhamento de rede" Description="- HD interno do Dune via rede local[br] - HD externo do Dune via rede local [br] - Servidor NAS [br] - Outro computador na rede local [br] - Diretório compartilhado na rede local [br] - HD na rede local" Header="Diretório compartilhado na rede local, NAS ..." Tips="Dica: Você pode adquirir vários dispositivos USB/e-sata/rede no site da empresa HD LAND." Folders="Locais de Rede" />
@@ -161,13 +161,13 @@
   <Value Id="SettingsHost" Text="Host name / IP :" />
   <Value Id="SettingsPath" Text="Local :" />
   <Value Id="WizardConfigureType" Header="Tipo de vídeo" Body="Qual o tipo de vídeo existente neste diretório?" Movie="Filmes" TVShow="Séries" Back="&lt;&lt;Anterior" Close="Fechar" Music="Música" />
-  <Value Id="Folder" Movie="Filmes" TVShow="Séries" Music="" />
+  <Value Id="Folder" Movie="Filmes" TVShow="Séries" Music="Música" />
   <Value Id="Settings" PlayerHeader="Player" Header="Configurações" />
   <Value Id="PlayerConfigView" IsServerRunning="Ativar suporte para controle remoto." Port="Porta :" />
   <Value Id="WizardDownloadMpcPlayer" Header="Baixar MPC - Home Cinema" Next="Continuar &gt;&gt;" Close="Fechar" Body="Baixando, obrigado pela paciência ...." />
   <Value Id="WizardInstallMpcPlayer" Header="Instalando MPC - Home Cinema" Body="Progresso da instalação. " Close="Fechar" Completed="Parabéns, a instalação do MPC - Home Cinema foi completada com sucesso." Failed="Houve uma falha na instalação." />
   <Value Id="MpcPlayerConfigView" Download="Baixando e instalando MPC - Home Cinema" PlayerPath="Local:" Browse="Procurar..." />
-  <Value Id="SettingsTabInterface" Header="Interface" Language="Idioma :" Background="Fundo" GlassShow="Aplicar efeito visual" ShowHeader="Mostrar a capa" SeenUnseen="Exibir visto / não visto" DynamicZoom="" SelectionBox="" Theme="" />
+  <Value Id="SettingsTabInterface" Header="Interface" Language="Idioma :" Background="Fundo" GlassShow="Aplicar efeito visual" ShowHeader="Mostrar a capa" SeenUnseen="Exibir visto / não visto" DynamicZoom="Ícones com zoom dinâmico" SelectionBox="Contorno dinâmico" Theme="Tema:" />
   <Value Id="TaskManagerView" Header="Trabalhos atuais" Close="Fechar" />
   <Value Id="PlayTask" Header="Abrindo o vídeo" />
   <Value Id="DownloadVcdTask" Header="Baixando VirtualCloneDrive" />
@@ -186,7 +186,7 @@
   <Value Id="FirstInitFromTVEpisodeNfoTask" Header="Inicializando informação de um episódio" />
   <Value Id="ScanMoviesFolders" Header="Procurar arquivos de Filmes" />
   <Value Id="ScanTVShowFolders" Header="Procurar arquivos de Séries" />
-  <Value Id="ExportTypeView" Header="Tipo de exportação" RegisterZappitiPlayerLabel="" RegisterZappitiPlayerButton="" RegisterZappitiPlayerSmallLabel="" ExportMusic="" Close="" />
+  <Value Id="ExportTypeView" Header="Tipo de exportação" RegisterZappitiPlayerLabel="Você tem um jogador Zappiti Player?" RegisterZappitiPlayerButton="Ativar agora!" RegisterZappitiPlayerSmallLabel="Ativando seu Zappiti Player, você também pode exportar sua música bibliothèquee." ExportMusic="Exportar música" Close="Fechar" />
   <Value Id="FullExportType" Name="Completo" Description="Sua coleção será inteiramente exportada." />
   <Value Id="IncrementalExportType" Name="Incremental" Description="Apenas as últimas mudanças desde a última exportação." />
   <Value Id="RescrapSelect" Content="Selecionar" />

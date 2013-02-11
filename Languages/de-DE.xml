@@ -114,7 +114,7 @@
   <Value Id="EditGroupSortByName" Content="Sortieren nach titel" />
   <Value Id="SelectPictureTabHeader" Folder="Cover" Background="Hintergrund" />
   <Value Id="SettingsTabFolders" Header="Dateien" />
-  <Value Id="SettingsTabOthers" Header="Sonstiges" SendErrorReport="Automatisch einen Bericht an die Entwickler senden, wenn ein Fehler auftritt." />
+  <Value Id="SettingsTabOthers" Header="Sonstiges" SendErrorReport="Automatisch einen Bericht an die Entwickler senden, wenn ein Fehler auftritt." Recents="Anzahl der Tage, Berücksichtigung der jüngsten nehmen:" />
   <Value Id="SettingsTabScrapers" Header="Scrapers" MovieScraper="Filme:" MoviePictureScraper="Filmbilder:" TVShowScraper="Serien:" TVShowPictureScraper="Serienbilder:" ScrapOnStarWindows="Bei Programmstart gleich scannen" />
   <Value Id="GroupContextState" Seen="Gesehen" Ongoing="Laufend" Unseen="Ungesehen" Stateless="Ohne" />
   <Value Id="EditSize" Text="Größe" />
