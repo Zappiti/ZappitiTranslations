@@ -5,7 +5,7 @@
   <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune" />
   <Value Id="SettingsDefault" Header="Privzeto" />
   <Value Id="SettingsAdvancedOptions" Header="Napredne Možnosti" />
-  <Value Id="SettingsTypeExport" ExportDune="Dune izvozna datoteka:" ExportITunes="ITunes izvozna datoteka:" Body="Definiraj tvojo datoteko za izvoz." DoYouHaveADune="Uporabljam Dune predvajalnik" DoYouHaveAniPhone="Uporabljam iPhone / iPad / iPod" DeviceType="Device :" Primary="Prednostno" Secondary="Sekundarno" Audio="Avdio :" Subtitle="Podnapisi :" Encode="Kodiraj parametre :" SubtitleRule="Uporabi podnapise :" />
+  <Value Id="SettingsTypeExport" ExportDune="Dune izvozna datoteka:" ExportITunes="ITunes izvozna datoteka:" Body="Definiraj tvojo datoteko za izvoz." DoYouHaveADune="Uporabljam Zappiti Player  / Dune predvajalnik" DoYouHaveAniPhone="Uporabljam iPhone / iPad / iPod" DeviceType="Device :" Primary="Prednostno" Secondary="Sekundarno" Audio="Avdio :" Subtitle="Podnapisi :" Encode="Kodiraj parametre :" SubtitleRule="Uporabi podnapise :" />
   <Value Id="SettingsIsNFS" Content="NFS Format" />
   <Value Id="SettingsUserName" Text="Prijava :" />
   <Value Id="SettingsUserPassword" Text="Geslo :" />

@@ -5,7 +5,7 @@
   <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune" />
   <Value Id="SettingsDefault" Header="Padrão" />
   <Value Id="SettingsAdvancedOptions" Header="Opções Avançadas" />
-  <Value Id="SettingsTypeExport" ExportDune="Exportar para o Dune:" ExportITunes="Exportar para o ITunes:" Body="Especifique o arquivo." DoYouHaveADune="Eu tenho um Dune" DoYouHaveAniPhone="Eu tenho um iPhone / iPad / iPod" DeviceType="Dispositivo :" Primary="Prioridade" Secondary="Secundário" Audio="Áudio :" Subtitle="Legenda :" Encode="Parâmetros de conversão :" SubtitleRule="Colocar as legendas :" />
+  <Value Id="SettingsTypeExport" ExportDune="Exportar para o Dune:" ExportITunes="Exportar para o ITunes:" Body="Especifique o arquivo." DoYouHaveADune="Eu tenho um Zappiti Player / um Dune" DoYouHaveAniPhone="Eu tenho um iPhone / iPad / iPod" DeviceType="Dispositivo :" Primary="Prioridade" Secondary="Secundário" Audio="Áudio :" Subtitle="Legenda :" Encode="Parâmetros de conversão :" SubtitleRule="Colocar as legendas :" />
   <Value Id="SettingsIsNFS" Content="Formato NFS" />
   <Value Id="SettingsUserName" Text="Usuário :" />
   <Value Id="SettingsUserPassword" Text="Senha :" />

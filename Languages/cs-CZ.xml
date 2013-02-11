@@ -141,7 +141,7 @@
   <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune" />
   <Value Id="SettingsDefault" Header="Vada" />
   <Value Id="SettingsAdvancedOptions" Header="Pokročilé možnosti" />
-  <Value Id="SettingsTypeExport" ExportDune="Dune export souboru:" ExportITunes="ITunes export souboru:" Body="Definujte svůj soubor s exportem." DoYouHaveADune="Mám Dune" DoYouHaveAniPhone="Mám iPhone / iPad / iPod" DeviceType="Device:" Primary="Priorita" Secondary="Sekundární" Audio="Audio:" Subtitle="Titulky:" Encode="Kódování parametru:" SubtitleRule="Použít titulky:" />
+  <Value Id="SettingsTypeExport" ExportDune="Dune export souboru:" ExportITunes="ITunes export souboru:" Body="Definujte svůj soubor s exportem." DoYouHaveADune="Mám ZappitiPlayer / Dune" DoYouHaveAniPhone="Mám iPhone / iPad / iPod" DeviceType="Device:" Primary="Priorita" Secondary="Sekundární" Audio="Audio:" Subtitle="Titulky:" Encode="Kódování parametru:" SubtitleRule="Použít titulky:" />
   <Value Id="SettingsIsNFS" Content="Formát NFS" />
   <Value Id="SettingsUserName" Text="Login :" />
   <Value Id="SettingsUserPassword" Text="Heslo:" />
