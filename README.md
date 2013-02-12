@@ -10,3 +10,7 @@ I also join a tool (Translator.exe) that should be use to update the translation
 Feel free to contribute if you want to add a new language or correct existing translations.
 
 This would be greatly appreciated.
+
+<h1>
+<a href="https://github.com/Zappiti/ZappitiTranslations/wiki">Click here to start !</a>
+</h1>
