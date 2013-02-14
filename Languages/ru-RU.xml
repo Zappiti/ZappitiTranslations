@@ -209,4 +209,5 @@
   <Value Id="AlbumView" Genre="Жанр :" Count="Треки :" ReleaseDate="Дата выпуска :" Runtime="Продолжительность :" />
   <Value Id="ScanMusicsFolderTask" Header="Сканирование музыкальных файлов" />
   <Value Id="FirstInitFromMusicNfoTask" Header="Поиск информации о музыке" />
+  <Value Id="ResetCategoriesTask" Header="Сброс категории" />
 </Dictionary>

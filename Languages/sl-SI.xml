@@ -208,4 +208,5 @@
   <Value Id="AlbumView" Genre="Žanr :" Count="Sled :" ReleaseDate="Datum izzdaje :" Runtime="Trajanje :" />
   <Value Id="ScanMusicsFolderTask" Header="Skeniranje glasbenih datotek" />
   <Value Id="FirstInitFromMusicNfoTask" Header="Inicializacija podatkov iz glasbe" />
+  <Value Id="ResetCategoriesTask" Header="Reset kategorije" />
 </Dictionary>

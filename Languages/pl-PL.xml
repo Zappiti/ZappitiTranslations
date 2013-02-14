@@ -208,4 +208,5 @@
   <Value Id="AlbumView" Genre="Gatunek :" Count="Utwory :" ReleaseDate="Data wydania :" Runtime="Czas trwania :" />
   <Value Id="ScanMusicsFolderTask" Header="Skanowanie plików muzycznych" />
   <Value Id="FirstInitFromMusicNfoTask" Header="Informacje Inicjalizacja z muzyką" />
+  <Value Id="ResetCategoriesTask" Header="Wyczyść Kategorie" />
 </Dictionary>

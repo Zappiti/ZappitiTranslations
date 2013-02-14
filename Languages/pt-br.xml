@@ -208,4 +208,5 @@
   <Value Id="AlbumView" Genre="Categoria" Count="Contador" ReleaseDate="Lançamento" Runtime="Duração" />
   <Value Id="ScanMusicsFolderTask" Header="Procurar Músicas no Diretório" />
   <Value Id="FirstInitFromMusicNfoTask" Header="Informação sobre a Música" />
+  <Value Id="ResetCategoriesTask" Header="Redefinir categorias" />
 </Dictionary>

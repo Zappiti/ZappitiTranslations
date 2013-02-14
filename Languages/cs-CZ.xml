@@ -208,4 +208,5 @@
   <Value Id="AlbumView" Genre="Žánr :" Count="Skladby :" ReleaseDate="Datum vydání :" Runtime="Doba trvání :" />
   <Value Id="ScanMusicsFolderTask" Header="Skenování hudebních souborů" />
   <Value Id="FirstInitFromMusicNfoTask" Header="Inicializace informace z hudby" />
+  <Value Id="ResetCategoriesTask" Header="Obnovit kategorií" />
 </Dictionary>
