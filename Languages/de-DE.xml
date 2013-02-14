@@ -95,8 +95,6 @@
   <Value Id="EditMenuIcons" ToolTip="Symbol andern" Text="Icons:" />
   <Value Id="EditMenuBack" ToolTip="Hintergrund ändern" />
   <Value Id="EditMenuBackRollOver" ToolTip="Hintergrund hervorheben" />
-  <Value Id="CategoryContextEdit" Header="Bearbeiten" />
-  <Value Id="CategoryContextDelete" Header="Entfernen" />
   <Value Id="EditCategoriesLabel" Text="Kategorie :" />
   <Value Id="EditCategoriesKeywords" Text="Tags :" />
   <Value Id="EditMenuOK" Content="Bestätigen" />
@@ -105,11 +103,6 @@
   <Value Id="EditCategoriesAdd" ToolTip="Kategorie hinzufügen" />
   <Value Id="MainAddCategory" Content="Neue Kategorie" />
   <Value Id="MoreMediaInfosRightClick" Text="Rechtsklick für weitere Optionen ..." />
-  <Value Id="CategoryContextReset" Header="Kategorien zurücksetzen" />
-  <Value Id="MainMenuContextReset" Header="Zurücksetzen" />
-  <Value Id="MainMenuContextEdit" Header="Bearbeiten ..." />
-  <Value Id="ABCMenuContextEdit" Header="Bearbeiten ..." />
-  <Value Id="ABCMenuContextReset" Header="Zurücksetzen" />
   <Value Id="DatabaseUpdating" Text="Update der Datenbank ..." />
   <Value Id="EditGroupSortByName" Content="Sortieren nach titel" />
   <Value Id="SelectPictureTabHeader" Folder="Cover" Background="Hintergrund" />
@@ -194,7 +187,7 @@
   <Value Id="WizardConfigureExportDevice" Header="Welche Geräte haben Sie?" Body="Wählen Sie die Geräte in Ihrem Besitz:" Back="&lt;&lt; Zurück" Next="Weiter &gt;&gt;" Close="Schließen" />
   <Value Id="WizardConfigureDuneExport" Header="Dune HD / Zappiti Player konfiguration" Body="Exportieren nach?" Back="&lt;&lt; Zurück" Next="Weiter &gt;&gt;" Close="Schließen" />
   <Value Id="WizardConfigureITunesExport" Header="Konfiguration für iTunes (iPhone / iPad)" Body="Exportieren nach?" Back="&lt;&lt; Zurück" Next="Weiter &gt;&gt;" Close="Schließen" />
-  <Value Id="GroupContext" GroupTo="Gruppe..." ChangePicture="Bilder..." Delete="Löschen" Edit="Bearbeiten..." Play="Wiedergeben" Encode="Kodieren" DeleteEncode="Löschen der enkodierten Datei" />
+  <Value Id="ContextMenu" GroupTo="Gruppe..." ChangePicture="Bilder..." Delete="Löschen" Edit="Bearbeiten..." Play="Wiedergeben" Encode="Kodieren" DeleteEncode="Löschen der enkodierten Datei" Reset="Zurücksetzen" ResetAllCategories="Kategorien zurücksetzen" />
   <Value Id="EncodeTask" Header="Enkodieren" />
   <Value Id="EncodingTask" Header="Aktuelle Kodierung" />
   <Value Id="DownloadHandbrakeTask" Header="Handbrake herunterladen" />

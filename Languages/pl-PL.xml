@@ -123,8 +123,6 @@
   <Value Id="EditMenuIcons" ToolTip="Zmień ikonę" Text="Ikony :" />
   <Value Id="EditMenuBack" ToolTip="Zmiana tła" />
   <Value Id="EditMenuBackRollOver" ToolTip="Zmiana tła hover" />
-  <Value Id="CategoryContextEdit" Header="Edytuj..." />
-  <Value Id="CategoryContextDelete" Header="Kasować" />
   <Value Id="EditCategoriesLabel" Text="Kategoria :" />
   <Value Id="EditCategoriesKeywords" Text="Tagi :" />
   <Value Id="EditMenuOK" Content="Uprawomocnić" />
@@ -133,11 +131,6 @@
   <Value Id="EditCategoriesAdd" ToolTip="Dodaj Kategoria" />
   <Value Id="MainAddCategory" Content="Nowa kategoria" />
   <Value Id="MoreMediaInfosRightClick" Text="Kliknij prawym przyciskiem myszy zamawiania więcej zleceń..." />
-  <Value Id="CategoryContextReset" Header="Kategorie reset" />
-  <Value Id="MainMenuContextReset" Header="Resetuj" />
-  <Value Id="MainMenuContextEdit" Header="Edycja ..." />
-  <Value Id="ABCMenuContextEdit" Header="Edycja ..." />
-  <Value Id="ABCMenuContextReset" Header="Reset" />
   <Value Id="DatabaseUpdating" Text="Aktualizacja bazy danych ..." />
   <Value Id="EditGroupSortByName" Content="Sortowanie wg tytułu" />
   <Value Id="SelectPictureTabHeader" Folder="Kurtka" Background="Tło" />
@@ -194,7 +187,7 @@
   <Value Id="WizardConfigureExportDevice" Header="Czy masz jakieś urządzenia?" Body="Wybierz urządzenia, które posiadasz :" Back="&lt;&lt; Poprzedni" Next="NASTĘPUJĄCY &gt;&gt;" Close="Zamknij" />
   <Value Id="WizardConfigureDuneExport" Header="Konfiguracja Dune HD / Zappiti Player" Body="Gdzie wyeksportować dane?" Back="&lt;&lt; Poprzedni" Next="NASTĘPUJĄCY &gt;&gt;" Close="Zamknij" />
   <Value Id="WizardConfigureITunesExport" Header="Konfiguracja iTunes (iPhone / iPad)" Body="Gdzie wyeksportować dane?" Back="&lt;&lt; Poprzedni" Next="NASTĘPUJĄCY &gt;&gt;" Close="Zamknij" />
-  <Value Id="GroupContext" GroupTo="Grupy filmów..." ChangePicture="Zmień Okładkę..." Delete="Usuń to" Edit="Edycja ..." Play="Uruchom ..." Encode="Zakodować" DeleteEncode="Usuń zakodowany plik" />
+  <Value Id="ContextMenu" GroupTo="Grupy filmów..." ChangePicture="Zmień Okładkę..." Delete="Usuń to" Edit="Edycja ..." Play="Uruchom ..." Encode="Zakodować" DeleteEncode="Usuń zakodowany plik" Reset="Reset" ResetAllCategories="Kategorie reset" />
   <Value Id="EncodeTask" Header="Kodowanie" />
   <Value Id="EncodingTask" Header="Aktualny kodowanie" />
   <Value Id="DownloadHandbrakeTask" Header="Pobierz Handbrake" />

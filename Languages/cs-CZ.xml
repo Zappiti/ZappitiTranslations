@@ -111,8 +111,6 @@
   <Value Id="EditMenuIcons" ToolTip="Změnit ikonu" Text="Ikony:" />
   <Value Id="EditMenuBack" ToolTip="Změnit pozadí" />
   <Value Id="EditMenuBackRollOver" ToolTip="Změna pozadí na přehled" />
-  <Value Id="CategoryContextEdit" Header="Upravit..." />
-  <Value Id="CategoryContextDelete" Header="Odstranit" />
   <Value Id="EditCategoriesLabel" Text="Kategorie :" />
   <Value Id="EditCategoriesKeywords" Text="Popis :" />
   <Value Id="EditMenuOK" Content="Přijmout" />
@@ -121,11 +119,6 @@
   <Value Id="EditCategoriesAdd" ToolTip="Přidat kategorii" />
   <Value Id="MainAddCategory" Content="Nová kategorie" />
   <Value Id="MoreMediaInfosRightClick" Text="Prosím klikněte pravým pro další možnosti..." />
-  <Value Id="CategoryContextReset" Header="Zrušení kategorií" />
-  <Value Id="MainMenuContextReset" Header="Zrušit" />
-  <Value Id="MainMenuContextEdit" Header="Upravit ..." />
-  <Value Id="ABCMenuContextEdit" Header="Upravit ..." />
-  <Value Id="ABCMenuContextReset" Header="Zrušit" />
   <Value Id="DatabaseUpdating" Text="Aktualizace databáze ..." />
   <Value Id="EditGroupSortByName" Content="Třídit podle názvu" />
   <Value Id="SelectPictureTabHeader" Folder="Jacket" Background="Background" />
@@ -194,7 +187,7 @@
   <Value Id="WizardConfigureExportDevice" Header="Máte nějaké zařízení?" Body="Vyberte zařízení, které vlastníte:" Back="&lt;&lt; Předchozí" Next="Další &gt;&gt;" Close="Zavřít" />
   <Value Id="WizardConfigureDuneExport" Header="Konfigurace Dune HD / Zappiti Player" Body="Pokud data exportovat?" Back="&lt;&lt; Předchozí" Next="Další &gt;&gt;" Close="Zavřít" />
   <Value Id="WizardConfigureITunesExport" Header="Konfigurace iTunes (iPhone / iPad)" Body="Pokud data exportovat?" Back="&lt;&lt; Předchozí" Next="Další &gt;&gt;" Close="Zavřít" />
-  <Value Id="GroupContext" GroupTo="Grouper ..." ChangePicture="Změna ..." Delete="Odstranit" Edit="Upravit ..." Play="Lancer ..." Encode="Zakódovat" DeleteEncode="Odstranit zakódovaný soubor" />
+  <Value Id="ContextMenu" GroupTo="Grouper ..." ChangePicture="Změna ..." Delete="Odstranit" Edit="Upravit ..." Play="Lancer ..." Encode="Zakódovat" DeleteEncode="Odstranit zakódovaný soubor" Reset="Zrušit" ResetAllCategories="Zrušení kategorií" />
   <Value Id="EncodeTask" Header="Kódování" />
   <Value Id="EncodingTask" Header="Aktuální kódování" />
   <Value Id="DownloadHandbrakeTask" Header="Stáhnout ruční brzdy" />

@@ -122,8 +122,6 @@
   <Value Id="EditMenuIcons" ToolTip="Changer l'icone" Text="Icones :" />
   <Value Id="EditMenuBack" ToolTip="Changer le fond" />
   <Value Id="EditMenuBackRollOver" ToolTip="Changer le fond au survol" />
-  <Value Id="CategoryContextEdit" Header="Editer..." />
-  <Value Id="CategoryContextDelete" Header="Supprimer" />
   <Value Id="EditCategoriesLabel" Text="Catégorie :" />
   <Value Id="EditCategoriesKeywords" Text="Mots-clefs :" />
   <Value Id="EditMenuOK" Content="Valider" />
@@ -132,11 +130,6 @@
   <Value Id="EditCategoriesAdd" ToolTip="Ajouter une catégorie" />
   <Value Id="MainAddCategory" Content="Nouvelle catégorie" />
   <Value Id="MoreMediaInfosRightClick" Text="Faites Clic-Droit pour plus d'actions..." />
-  <Value Id="CategoryContextReset" Header="Réinitialiser les catégories" />
-  <Value Id="MainMenuContextReset" Header="Réinitialiser" />
-  <Value Id="MainMenuContextEdit" Header="Editer..." />
-  <Value Id="ABCMenuContextEdit" Header="Editer..." />
-  <Value Id="ABCMenuContextReset" Header="Réinitialiser" />
   <Value Id="DatabaseUpdating" Text="Mise à jour de la base de données..." />
   <Value Id="EditGroupSortByName" Content="Trier par titre" />
   <Value Id="SelectPictureTabHeader" Folder="Jaquette" Background="Arrière plan" />
@@ -194,7 +187,7 @@
   <Value Id="WizardConfigureExportDevice" Header="Avez vous des périphériques ?" Body="Sélectionnez les périphériques que vous possedez :" Back="&lt;&lt; Précédent" Next="Suivant &gt;&gt;" Close="Fermer" />
   <Value Id="WizardConfigureDuneExport" Header="Configuration de l'export vers un lecteur multimédia" Body="Où exporter vos données et créer le point d'accès à Zappiti ? Zappiti génèrera un dossier &quot;_Zappiti&quot; à cet emplacement qui permettra l'accès à Zappiti depuis votre lecteur multimédia Dune HD ou Zappiti Player. " Back="&lt;&lt; Précédent" Next="Suivant &gt;&gt;" Close="Fermer" />
   <Value Id="WizardConfigureITunesExport" Header="Configuration pour iTunes (iPhone / iPad)" Body="Où exporter vos données ?" Back="&lt;&lt; Précédent" Next="Suivant &gt;&gt;" Close="Fermer" />
-  <Value Id="GroupContext" GroupTo="Grouper..." ChangePicture="Changer..." Delete="Supprimer" Edit="Editer..." Play="Lancer..." Encode="Encoder" DeleteEncode="Supprimer le fichier encodé" />
+  <Value Id="ContextMenu" GroupTo="Grouper..." ChangePicture="Changer..." Delete="Supprimer" Edit="Editer..." Play="Lancer..." Encode="Encoder" DeleteEncode="Supprimer le fichier encodé" Reset="Réinitialiser" ResetAllCategories="Réinitialiser les catégories" />
   <Value Id="EncodeTask" Header="Encodage" />
   <Value Id="EncodingTask" Header="Encodage en cours" />
   <Value Id="DownloadHandbrakeTask" Header="Téléchargement de Handbrake" />

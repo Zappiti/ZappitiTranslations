@@ -123,8 +123,6 @@
   <Value Id="EditMenuIcons" ToolTip="Cambia icona" Text="Icone :" />
   <Value Id="EditMenuBack" ToolTip="Cambia lo sfondo" />
   <Value Id="EditMenuBackRollOver" ToolTip="Cambia lo sfondo al passaggio del mouse" />
-  <Value Id="CategoryContextEdit" Header="Modifica..." />
-  <Value Id="CategoryContextDelete" Header="Rimuovi" />
   <Value Id="EditCategoriesLabel" Text="Categoria :" />
   <Value Id="EditCategoriesKeywords" Text="Tags :" />
   <Value Id="EditMenuOK" Content="Convalida" />
@@ -133,11 +131,6 @@
   <Value Id="EditCategoriesAdd" ToolTip="Aggiungi Categoria" />
   <Value Id="MainAddCategory" Content="Nuova categoria" />
   <Value Id="MoreMediaInfosRightClick" Text="Clicca col tasto destro del mouse per avere piu' info..." />
-  <Value Id="CategoryContextReset" Header="Reset Categorie" />
-  <Value Id="MainMenuContextReset" Header="Reset" />
-  <Value Id="MainMenuContextEdit" Header="Modifica ..." />
-  <Value Id="ABCMenuContextEdit" Header="Modifica ..." />
-  <Value Id="ABCMenuContextReset" Header="Reset" />
   <Value Id="DatabaseUpdating" Text="Aggiorna il database ..." />
   <Value Id="EditGroupSortByName" Content="Ordina per titolo" />
   <Value Id="SelectPictureTabHeader" Folder="Copertina" Background="Sfondo" />
@@ -194,7 +187,7 @@
   <Value Id="WizardConfigureExportDevice" Header="Avete tutti i dispositivi?" Body="Selezionare i dispositivi posseduti :" Back="&lt;&lt; Precedente" Next="Seguito &gt;&gt;" Close="Chiudi" />
   <Value Id="WizardConfigureDuneExport" Header="Configurazione dispositivo Dune HD / Zappiti Player" Body="Dove posso esportare i vostri dati?" Back="&lt;&lt; Precedente" Next="Seguito &gt;&gt;" Close="Chiudi" />
   <Value Id="WizardConfigureITunesExport" Header="Configurazione per iTunes (iPhone / iPad)" Body="Dove posso esportare i vostri dati?" Back="&lt;&lt; Precedente" Next="Seguito &gt;&gt;" Close="Chiudi" />
-  <Value Id="GroupContext" GroupTo="Gruppo..." ChangePicture="Cambia..." Delete="Elimina" Edit="Modifica ..." Play="Avvia ..." Encode="Codifica" DeleteEncode="Eliminare il file codificato" />
+  <Value Id="ContextMenu" GroupTo="Gruppo..." ChangePicture="Cambia..." Delete="Elimina" Edit="Modifica ..." Play="Avvia ..." Encode="Codifica" DeleteEncode="Eliminare il file codificato" Reset="Reset" ResetAllCategories="Reset Categorie" />
   <Value Id="EncodeTask" Header="Codifica" />
   <Value Id="EncodingTask" Header="Codifica corrente" />
   <Value Id="DownloadHandbrakeTask" Header="Scarica Handbrake" />

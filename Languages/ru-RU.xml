@@ -121,8 +121,6 @@
   <Value Id="EditMenuIcons" ToolTip="Изображение в иконке" Text="Иконки :" />
   <Value Id="EditMenuBack" ToolTip="Фон иконки" />
   <Value Id="EditMenuBackRollOver" ToolTip="Фон иконки при наведении" />
-  <Value Id="CategoryContextEdit" Header="Редактировать" />
-  <Value Id="CategoryContextDelete" Header="Удалить" />
   <Value Id="EditCategoriesLabel" Text="Категория :" />
   <Value Id="EditCategoriesKeywords" Text="Тэги :" />
   <Value Id="EditMenuOK" Content="Подтвердить" />
@@ -131,11 +129,6 @@
   <Value Id="EditCategoriesAdd" ToolTip="Добавить категорию/жанр" />
   <Value Id="MainAddCategory" Content="Новая категория" />
   <Value Id="MoreMediaInfosRightClick" Text="Нажмите правую кнопку мыши для редактирования" />
-  <Value Id="CategoryContextReset" Header="Установки по умолчанию" />
-  <Value Id="MainMenuContextReset" Header="Сброс" />
-  <Value Id="MainMenuContextEdit" Header="Изменить ..." />
-  <Value Id="ABCMenuContextEdit" Header="Изменить ..." />
-  <Value Id="ABCMenuContextReset" Header="Сброс" />
   <Value Id="DatabaseUpdating" Text="Обновление базы данных ..." />
   <Value Id="EditGroupSortByName" Content="Отсортировать по названию" />
   <Value Id="SelectPictureTabHeader" Folder="Обложка" Background="Фон" />
@@ -195,7 +188,7 @@
   <Value Id="WizardConfigureExportDevice" Header="Есть ли у вас устройства?" Body="Выберите устройства, которые у вас есть :" Back="&lt;&lt; Назад" Next="Продолжить &gt;&gt;" Close="Закрыть" />
   <Value Id="WizardConfigureDuneExport" Header="Конфигурация Dune HD / Zappiti Player" Body="Куда делать экспорт вашей библиотеки?" Back="&lt;&lt; Назад" Next="Продолжить &gt;&gt;" Close="Закрыть" />
   <Value Id="WizardConfigureITunesExport" Header="Конфигурация для ITunes (iPhone / iPad)" Body="Куда делать экспорт вашей библиотеки?" Back="&lt;&lt; Назад" Next="Продолжить &gt;&gt;" Close="Закрыть" />
-  <Value Id="GroupContext" GroupTo="Группировка..." ChangePicture="Обложка..." Delete="Удалить" Edit="Данные" Play="Запуск ..." Encode="Кодировать" DeleteEncode="Удалить подготовленный файл" />
+  <Value Id="ContextMenu" GroupTo="Группировка..." ChangePicture="Обложка..." Delete="Удалить" Edit="Данные" Play="Запуск ..." Encode="Кодировать" DeleteEncode="Удалить подготовленный файл" Reset="Сброс" ResetAllCategories="Установки по умолчанию" />
   <Value Id="EncodeTask" Header="Кодирование" />
   <Value Id="EncodingTask" Header="Текущая кодировка" />
   <Value Id="DownloadHandbrakeTask" Header="Скачать Handbrake" />

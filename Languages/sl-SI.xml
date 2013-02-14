@@ -123,8 +123,6 @@
   <Value Id="EditMenuIcons" ToolTip="Spremenite ikono" Text="Ikone :" />
   <Value Id="EditMenuBack" ToolTip="Spremenite ozadje" />
   <Value Id="EditMenuBackRollOver" ToolTip="Spremenite prosojno ozadje" />
-  <Value Id="CategoryContextEdit" Header="Uredi..." />
-  <Value Id="CategoryContextDelete" Header="Odstrani" />
   <Value Id="EditCategoriesLabel" Text="Kategorije :" />
   <Value Id="EditCategoriesKeywords" Text="Oznake :" />
   <Value Id="EditMenuOK" Content="Potrditev" />
@@ -133,11 +131,6 @@
   <Value Id="EditCategoriesAdd" ToolTip="Dodaj Kategorijo" />
   <Value Id="MainAddCategory" Content="Nova kategorija" />
   <Value Id="MoreMediaInfosRightClick" Text="Prosimo, kliknite na desni gumb za več ukazov..." />
-  <Value Id="CategoryContextReset" Header="Ponastavi Kategorije" />
-  <Value Id="MainMenuContextReset" Header="Ponastavi" />
-  <Value Id="MainMenuContextEdit" Header="Uredi ..." />
-  <Value Id="ABCMenuContextEdit" Header="Uredi ..." />
-  <Value Id="ABCMenuContextReset" Header="Ponastavi" />
   <Value Id="DatabaseUpdating" Text="Posodobi zbirko podatkov ..." />
   <Value Id="EditGroupSortByName" Content="Razvrsti po naslovu" />
   <Value Id="SelectPictureTabHeader" Folder="Sprednja Naslovnica" Background="Ozadje" />
@@ -194,7 +187,7 @@
   <Value Id="WizardConfigureExportDevice" Header="Imate kakšne naprave?" Body="Izberite željene naprave :" Back="&lt;&lt;Prejšnja" Next="Sledi &gt;&gt;" Close="Zapri" />
   <Value Id="WizardConfigureDuneExport" Header="Konfiguracija Dune HD / Zappiti Player" Body="Kam naj izvozi vaše podatke?" Back="&lt;&lt;Prejšnja" Next="Sledi &gt;&gt;" Close="Zapri" />
   <Value Id="WizardConfigureITunesExport" Header="Konfiguracija iTunes (iPhone / iPad)" Body="Kam naj izvozi vaše podatke?" Back="&lt;&lt;Prejšnja" Next="Sledi &gt;&gt;" Close="Zapri" />
-  <Value Id="GroupContext" GroupTo="Skupina..." ChangePicture="Spremeni..." Delete="Pobriši" Edit="Uredi ..." Play="Predvajaj ..." Encode="Kodiraj" DeleteEncode="Briši kodirano datoteko" />
+  <Value Id="ContextMenu" GroupTo="Skupina..." ChangePicture="Spremeni..." Delete="Pobriši" Edit="Uredi ..." Play="Predvajaj ..." Encode="Kodiraj" DeleteEncode="Briši kodirano datoteko" Reset="Ponastavi" ResetAllCategories="Ponastavi Kategorije" />
   <Value Id="EncodeTask" Header="Kodiranje" />
   <Value Id="EncodingTask" Header="Trenutno kodiranje" />
   <Value Id="DownloadHandbrakeTask" Header="Prenesi Handbrake" />

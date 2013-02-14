@@ -123,8 +123,6 @@
   <Value Id="EditMenuIcons" ToolTip="Cambiar icono" Text="Iconos :" />
   <Value Id="EditMenuBack" ToolTip="Cambiar el fondo" />
   <Value Id="EditMenuBackRollOver" ToolTip="Cambiar el fondo superpuesto" />
-  <Value Id="CategoryContextEdit" Header="Editar..." />
-  <Value Id="CategoryContextDelete" Header="Eliminar" />
   <Value Id="EditCategoriesLabel" Text="Categoría :" />
   <Value Id="EditCategoriesKeywords" Text="Etiquetas :" />
   <Value Id="EditMenuOK" Content="Validar" />
@@ -133,11 +131,6 @@
   <Value Id="EditCategoriesAdd" ToolTip="Añadir Categoria" />
   <Value Id="MainAddCategory" Content="Nueva categoría" />
   <Value Id="MoreMediaInfosRightClick" Text="Botón derecho para más opciones..." />
-  <Value Id="CategoryContextReset" Header="Resetear Categorias" />
-  <Value Id="MainMenuContextReset" Header="Resetear" />
-  <Value Id="MainMenuContextEdit" Header="Editar ..." />
-  <Value Id="ABCMenuContextEdit" Header="Editar ..." />
-  <Value Id="ABCMenuContextReset" Header="Resetear" />
   <Value Id="DatabaseUpdating" Text="Actualizar la base de datos ..." />
   <Value Id="EditGroupSortByName" Content="Ordenar por titulo" />
   <Value Id="SelectPictureTabHeader" Folder="Portada" Background="Fondo" />
@@ -194,7 +187,7 @@
   <Value Id="WizardConfigureExportDevice" Header="¿Tienes algún dispositivo?" Body="Selecciona los dispositivos que tienes :" Back="&lt;&lt; Anterior" Next="Siguiente &gt;&gt;" Close="Cerrar" />
   <Value Id="WizardConfigureDuneExport" Header="Configuración de Dune" Body="¿Donde exportar tus datos?" Back="&lt;&lt; Anterior" Next="Siguiente &gt;&gt;" Close="Cerrar" />
   <Value Id="WizardConfigureITunesExport" Header="Configuración de iTunes" Body="¿Dónde exportar tus datos?" Back="&lt;&lt; Anterior" Next="Siguiente &gt;&gt;" Close="Cerrar" />
-  <Value Id="GroupContext" GroupTo="Agrupar..." ChangePicture="Cambiar..." Delete="Eliminar" Edit="Editar ..." Play="Reproducir ..." Encode="Codificar" DeleteEncode="Eliminar el fichero codificado" />
+  <Value Id="ContextMenu" GroupTo="Agrupar..." ChangePicture="Cambiar..." Delete="Eliminar" Edit="Editar ..." Play="Reproducir ..." Encode="Codificar" DeleteEncode="Eliminar el fichero codificado" Reset="Resetear" ResetAllCategories="Resetear Categorias" />
   <Value Id="EncodeTask" Header="Codificando" />
   <Value Id="EncodingTask" Header="Codificación actual" />
   <Value Id="DownloadHandbrakeTask" Header="Descargar Handbrake" />
