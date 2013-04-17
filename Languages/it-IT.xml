@@ -155,7 +155,7 @@
   <Value Id="SettingsPath" Text="Posizione :" />
   <Value Id="WizardConfigureType" Header="Tipo di video" Body="Che cos'è questo?" Movie="Contiene Films" TVShow="Contiene serie TV" Back="&lt;&lt; Precedente" Close="Chiudere" Music="Contiene Musica" />
   <Value Id="Folder" Movie="Film" TVShow="Serie TV" Music="Musica" />
-  <Value Id="Settings" PlayerHeader="Nome utente" Header="Configurazione" />
+  <Value Id="Settings" PlayerHeader="Nome utente" Header="Configurazione" AccountHeader="Conto" />
   <Value Id="PlayerConfigView" IsServerRunning="Abilitare il supporto per il controllo remoto." Port="Porta :" />
   <Value Id="WizardDownloadMpcPlayer" Header="Scarica MPC - Home Cinema" Next="Seguito &gt;&gt;" Close="Chiudere" Body="In download, la ringraziamo per la vostra pazienza ..." />
   <Value Id="WizardInstallMpcPlayer" Header="Installazione di MPC - Home Cinema" Body="Installazione corrente. " Close="Chiudere" Completed="Congratulazioni, MPC - Home Cinema è stato installato con successo." Failed="Installazione non riuscita per motivi sconosciuti." />
@@ -209,4 +209,5 @@
   <Value Id="ScanMusicsFolderTask" Header="Scansione dei file musicali" />
   <Value Id="FirstInitFromMusicNfoTask" Header="Inizializzazione delle informazioni del file musicale" />
   <Value Id="ResetCategoriesTask" Header="Ripristina le categorie" />
+  <Value Id="AccountConfigView" Email="Il tuo account:" Connect="Collegarsi" Disconnect="Sconnettere" Clear="Elimina backup" SendToCloud="Attivare il backup automatico nella nuvola." />
 </Dictionary>

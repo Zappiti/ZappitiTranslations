@@ -155,7 +155,7 @@
   <Value Id="SettingsPath" Text="ROZMIESZCZENIE :" />
   <Value Id="WizardConfigureType" Header="Rodzaj wideo" Body="Co to jest?" Movie="Zawiera Films" TVShow="Zawiera Series" Back="&lt;&lt; Poprzedni" Close="FERMA" Music="Zawiera muzykę" />
   <Value Id="Folder" Movie="Filmy" TVShow="Seria" Music="Muzyka" />
-  <Value Id="Settings" PlayerHeader="Gracz" Header="KONFIGURACJA" />
+  <Value Id="Settings" PlayerHeader="Gracz" Header="KONFIGURACJA" AccountHeader="Konto" />
   <Value Id="PlayerConfigView" IsServerRunning="Włącz obsługę pilota." Port="Port :" />
   <Value Id="WizardDownloadMpcPlayer" Header="Pobierz MPC - Home Cinema" Next="NASTĘPUJĄCY &gt;&gt;" Close="STULIĆ" Body="Pobieranie, dziękuję za cierpliwość ...." />
   <Value Id="WizardInstallMpcPlayer" Header="Instalacja MPC - Home Cinema" Body="Bieżącej instalacji. " Close="STULIĆ" Completed="Gratulacje, instalacja RPP - Kino odbyła się pomyślnie." Failed="Instalacja nie powiodła się z jakiegoś powodu." />
@@ -209,4 +209,5 @@
   <Value Id="ScanMusicsFolderTask" Header="Skanowanie plików muzycznych" />
   <Value Id="FirstInitFromMusicNfoTask" Header="Informacje Inicjalizacja z muzyką" />
   <Value Id="ResetCategoriesTask" Header="Wyczyść Kategorie" />
+  <Value Id="AccountConfigView" Email="Twoje konto:" Connect="Zaloguj się" Disconnect="Odłączyć" Clear="Usuwanie kopii zapasowej" SendToCloud="Włącz automatyczne tworzenie kopii zapasowych w chmurze." />
 </Dictionary>

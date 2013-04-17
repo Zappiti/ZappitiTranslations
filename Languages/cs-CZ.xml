@@ -156,7 +156,7 @@
   <Value Id="SettingsPath" Text="Umístění" />
   <Value Id="WizardConfigureType" Header="Typ videa" Body="To složky?" Movie="Obsahuje filmy" TVShow="Obsahuje série" Back="&lt;&lt; Předchozí" Close="Zavřít" Music="Obsahuje hudbu" />
   <Value Id="Folder" Movie="Filmy" TVShow="Série" Music="Hudba" />
-  <Value Id="Settings" PlayerHeader="Hráč" Header="Konfigurace" />
+  <Value Id="Settings" PlayerHeader="Hráč" Header="Konfigurace" AccountHeader="Účet" />
   <Value Id="PlayerConfigView" IsServerRunning="Povolení vzdáleného převzetí." Port="Port:" />
   <Value Id="WizardDownloadMpcPlayer" Header="Download MPC - Home Cinema" Next="Další &gt;&gt;" Close="Zavřít" Body="Stažení, děkuji vám za vaši trpělivost ..." />
   <Value Id="WizardInstallMpcPlayer" Header="Instalace MPC - Home Cinema" Body="Aktuální instalace. " Close="Zavřít" Completed="Gratulujeme, instalace MPC - je Home Cinema úspěšně dokončena." Failed="Instalace se nezdařila z neznámého důvodu." />
@@ -209,4 +209,5 @@
   <Value Id="ScanMusicsFolderTask" Header="Skenování hudebních souborů" />
   <Value Id="FirstInitFromMusicNfoTask" Header="Inicializace informace z hudby" />
   <Value Id="ResetCategoriesTask" Header="Obnovit kategorií" />
+  <Value Id="AccountConfigView" Email="Váš účet:" Connect="Přihlaste se" Disconnect="Odpojit" Clear="Odstranit zálohy" SendToCloud="Povolení automatického zálohování v cloudu." />
 </Dictionary>

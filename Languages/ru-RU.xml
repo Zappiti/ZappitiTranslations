@@ -157,7 +157,7 @@
   <Value Id="SettingsPath" Text="Путь :" />
   <Value Id="WizardConfigureType" Header="Тип видео" Body="Что в этой папке?" Movie="Фильмы" TVShow="Сериалы" Back="&lt;&lt; Назад" Close="Применить" Music="Музыка" />
   <Value Id="Folder" Movie="Фильмы" TVShow="Сериалы" Music="Музыка" />
-  <Value Id="Settings" PlayerHeader="Плеер" Header="Настройки" />
+  <Value Id="Settings" PlayerHeader="Плеер" Header="Настройки" AccountHeader="Счет" />
   <Value Id="PlayerConfigView" IsServerRunning="Включение поддержки пульта дистанционного управления." Port="Порт :" />
   <Value Id="WizardDownloadMpcPlayer" Header="Скачать MPC - Home Cinema" Next="Продолжить &gt;&gt;" Close="Закрыть" Body="Загрузка, благодарим вас за ваше терпение ...." />
   <Value Id="WizardInstallMpcPlayer" Header="Установка MPC - Home Cinema" Body="Установка. " Close="Закрыть" Completed="Поздравляем, установка MPC - Home Cinema прошла успешно." Failed="Не удалось выполнить установку по некоторым причинам." />
@@ -210,4 +210,5 @@
   <Value Id="ScanMusicsFolderTask" Header="Сканирование музыкальных файлов" />
   <Value Id="FirstInitFromMusicNfoTask" Header="Поиск информации о музыке" />
   <Value Id="ResetCategoriesTask" Header="Сброс категории" />
+  <Value Id="AccountConfigView" Email="Ваш Учет:" Connect="Войдите на" Disconnect="Отключать" Clear="Удалить резервное копирование" SendToCloud="Включить автоматическое резервное копирование в облаке." />
 </Dictionary>
