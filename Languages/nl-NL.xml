@@ -82,7 +82,7 @@
   <Value Id="MainExport" ExportDune="Export Dune" ExportITunes="Export iTunes" Title="Export huidige ..." />
   <Value Id="MainEdit" Content="Bewerken" />
   <Value Id="MainScrapDetails" Content="Info verzamelen" />
-  <Value Id="MainScrapPictures" Content="Plaatjes verzamelen" />
+  <Value Id="MainScrapPictures" Content="Afbeeldingen verzamelen" />
   <Value Id="MainInfo" Text="{0} Films, {1} Series, {2} Afleveringen" />
   <Value Id="MainToScrap" Text="{0} nog opzoeken" />
   <Value Id="MainToCleanUp" Text="{0} nog opruimen" />
@@ -100,8 +100,8 @@
   <Value Id="CleanUpClose" Content="Sluiten" />
   <Value Id="Splash" Content="Sluiten" />
   <Value Id="DatabaseBadVersion" Text="Deze versie van Zappiti kan de geselecteerde database niet openen. Probeer een nieuwere versie van Zappiti." />
-  <Value Id="MessageBox" ConfigureSharePath="Configureer het share pad om verder te gaan." NewReleaseAvailable="Een nieuwe versie is beschikbaar! Nu downloaden {0} {1}?" DoYouWantToDeleteThisGroup="Dit onderdeel echt verwijderen?" DoYouWantToDeleteTheseGroup="Deze onderdelen echt verwijderen?" DeleteCategory="Wilt u deze categorie verwijderen?" ResetCategories="Wilt u alle categorieën resetten?" ResetMainMenu="Wilt u alle menu&amp;#39;s opnieuw instellen?" ResetABCMenu="Wilt u alle knoppen resetten?" ResetFilterMenu="Wilt u alle filters resetten?" VersionExpired="Deze versie van Zappiti is verlopen, maar een nieuwe versie is beschikbaar! Wilt u downloaden?" AddFolder="De map {0} is nog niet toegevoegd aan uw configuratie. Nu toevoegen?" CanStartDuneServer="Server kan niet worden gestart." DoYouWanToInstallMpcHd="Wilt u Media Player Classic - Home Cinema installeren?" />
-  <Value Id="MessageBoxCaption" NewReleaseAvailable="Nieuwe versie beschikbaar" DoYouWantToDeleteThisGroup="Item verwijderen" DoYouWantToDeleteTheseGroup="Items verwijderen" DeleteCategory="Verwijder categorie" ResetCategories="Reset categorieën" ResetMainMenu="Reset menu&amp;#39;s" ResetABCMenu="Reset knoppen" VersionExpired="Update beschikbaar" AddFolder="Map toevoegen?" CanStartDuneServer="Fout" DoYouWanToInstallMpcHd="Vereiste software" />
+  <Value Id="MessageBox" ConfigureSharePath="Configureer het share pad om verder te gaan." NewReleaseAvailable="Een nieuwe versie is beschikbaar! Nu downloaden {0} {1}?" DoYouWantToDeleteThisGroup="Dit onderdeel echt verwijderen?" DoYouWantToDeleteTheseGroup="Deze onderdelen echt verwijderen?" DeleteCategory="Wilt u deze categorie verwijderen?" ResetCategories="Wilt u alle categorieën resetten?" ResetMainMenu="Wilt u alle menu's opnieuw instellen?" ResetABCMenu="Wilt u alle knoppen resetten?" ResetFilterMenu="Wilt u alle filters resetten?" VersionExpired="Deze versie van Zappiti is verlopen, maar een nieuwe versie is beschikbaar! Wilt u deze downloaden?" AddFolder="De map {0} is nog niet toegevoegd aan uw configuratie. Nu toevoegen?" CanStartDuneServer="Server kan niet worden gestart." DoYouWanToInstallMpcHd="Wilt u Media Player Classic - Home Cinema installeren?" />
+  <Value Id="MessageBoxCaption" NewReleaseAvailable="Nieuwe versie beschikbaar" DoYouWantToDeleteThisGroup="Item verwijderen" DoYouWantToDeleteTheseGroup="Items verwijderen" DeleteCategory="Verwijder categorie" ResetCategories="Reset categorieën" ResetMainMenu="Reset menu's" ResetABCMenu="Reset knoppen" VersionExpired="Update beschikbaar" AddFolder="Map toevoegen?" CanStartDuneServer="Fout" DoYouWanToInstallMpcHd="Vereiste software" />
   <Value Id="EditChannels" Text="Kanalen" />
   <Value Id="TVShowSeasonList" SeasonUp="SEIZOEN {0}" />
   <Value Id="AddToGroupNewGroup" Content="Nieuwe groep" />
@@ -120,7 +120,7 @@
   <Value Id="EditGroup" Group="Groep" />
   <Value Id="SelectPictureMedias" Text="Selecteer een afbeelding :" />
   <Value Id="SelectPictureQuotaIsOver" Text="Voor deze informatiedienst is uw quotum bereikt. Probeert u het later opnieuw." />
-  <Value Id="EditMenuIcons" ToolTip="Ikoon aanpassen" Text="Pictogrammen:" />
+  <Value Id="EditMenuIcons" ToolTip="Icoon aanpassen" Text="Pictogrammen:" />
   <Value Id="EditMenuBack" ToolTip="Achtergrond aanpassen" />
   <Value Id="EditMenuBackRollOver" ToolTip="Verander 'rollover' achtergrond" />
   <Value Id="EditCategoriesLabel" Text="Categorie:" />
@@ -144,13 +144,13 @@
   <Value Id="Prepare_Application" Content="Configuratie laden" SettingsLoading="Configuratie laden" ScanningAllFiles="Scannen van bestanden" DataBaseLoading="Database laden" DataBaseCleanUp="Database opschonen" EnablingFeatureBrowserEmulation="Emulatiefunctie van browser inschakelen." />
   <Value Id="WizardWelcome" Body="Hartelijk welkom.[br][br]Deze wizard helpt u bij het configureren van Zappiti.[br][br]Klik op de knop &quot;Waar zijn uw bestanden&quot; om ons te vertellen waar uw bestanden." Close="Sluiten" Header="Setup Wizard" AddFiles="Waar zijn uw bestanden &gt;&gt;" />
   <Value Id="WizardAddLocalLocation" Name="Lokale map toevoegen" Description="[br]- Interne harde schijf van deze computer [br]- Externe harde schijf (USB/eSATA) van deze computer [br]- Externe harde schijf in een docking station[br]- Dune schijf, via USB (tijdelijk) rechtstreeks verbonden[br] " Header="Lokale mappen" Tips="Om lokaal opgeslagen mediabestanden met uw Dune af te kunnen spelen, moet u ze delen in het netwerk of een externe USB/eSATA disk rechtstreeks aan de Dune aansluiten!" Folders="Lokale schijven / USB apparaten" />
-  <Value Id="WizardAddNetworkLocation" Name="Netwerkmap toevoegen" Description="[br]- Dune schijf, via het netwerk verbonden[br]- Netwerkschijf of NAS server[br]- Andere computer in het netwerk[br] " Header="Netwerkmappen, NAS ..." Tips="Tips: U kunt USB, NAS, etc. te kopen op de site van HD LAND" Folders="Netwerkmappen" />
+  <Value Id="WizardAddNetworkLocation" Name="Netwerkmap toevoegen" Description="[br]- Dune schijf, via het netwerk verbonden[br]- Netwerkschijf of NAS server[br]- Andere computer in het netwerk[br] " Header="Netwerkmappen, NAS ..." Tips="Tips: U kunt USB, NAS, etc. aanschaffen via de site van Divxplayer.nl" Folders="Netwerkmappen" />
   <Value Id="WizardWhereAreYourFiles" Header="Waar zijn uw bestanden?" Body="Selecteer hieronder een van de opties aan te geven waar uw bestanden zijn." Back="&lt;&lt; Vorige" Close="Sluiten" />
   <Value Id="WizardAddLocation" Body="Sleep de bestanden die u wilt toevoegen naar de lijst aan de rechterkant." YourFolders="Mediabestanden" Next="Volgende &gt;&gt;" Back="&lt;&lt; Vorige" Close="Sluiten" />
   <Value Id="WizardAddAnotherLocation" Header="Nog een map toevoegen?" Next="Volgende &gt;&gt;" YourFolders="Overzicht van uw mappen" Close="Sluiten" />
   <Value Id="FolderDataTemplate" Edit="Wijzigen" Delete="Verwijderen" />
-  <Value Id="WizardRewriteLocationUrl" Header="Pad aanpassen" Body="Kies de locatie van deze map zoals die door uw Dune zal worden gebruikt: [br](Aangeven waar deze map uiteindelijk zal worden geplaatst.)" Back="&lt;&lt; Vorige" Next="Volgende &gt;&gt;" ExternLabel="Op een externe harde schijf, rechtstreeks aangesloten op de Dune" NetworkLabel="Op een NAS-server, netwerkmap of een gedeelde harde schijf van deze PC" UnknowLabel="Aangepast" Close="Sluiten" InternLabel="Op een interne harde schijf van de Dune HD" />
-  <Value Id="LocalRewriteUrlEngineView" Body="Deze map moet in het netwerk worden gedeeld zodat de Dune toegang heeft." IAccept="Okee, deze map delen in het netwerk." />
+  <Value Id="WizardRewriteLocationUrl" Header="Pad aanpassen" Body="Kies de locatie van deze map zoals die door uw Zappiti zal worden gebruikt: [br](Aangeven waar deze map uiteindelijk zal worden geplaatst.)" Back="&lt;&lt; Vorige" Next="Volgende &gt;&gt;" ExternLabel="Op een externe harde schijf, rechtstreeks aangesloten op de Zappiti" NetworkLabel="Op een NAS-server, netwerkmap of een gedeelde harde schijf van deze PC" UnknowLabel="Aangepast" Close="Sluiten" InternLabel="Op een interne harde schijf van de Zappiti" />
+  <Value Id="LocalRewriteUrlEngineView" Body="Deze map moet in het netwerk worden gedeeld zodat de Zappiti toegang heeft." IAccept="Ok, deze map delen in het netwerk." />
   <Value Id="SettingsHost" Text="Hostnaam / IP adres:" />
   <Value Id="SettingsPath" Text="Pad:" />
   <Value Id="WizardConfigureType" Header="Bestandstypen" Body="Wat zit er in deze map?" Movie="Dit zijn films" TVShow="Bevat televisieseries" Back="&lt;&lt; Vorige" Close="Sluiten" Music="Bevat muziek" />
@@ -193,7 +193,7 @@
   <Value Id="DownloadHandbrakeTask" Header="Handbrake downloaden" />
   <Value Id="InstallHandbrakeTask" Header="Handbrake installeren" />
   <Value Id="SubtitleRules" Never="Nooit" AlwaysIfPossible="Altijd, indien mogelijk" IfPrimaryAudioNotFound="Alleen als de gewenste audiotrack niet beschikbaar is" />
-  <Value Id="CategoriesMenu" Action="Action" Sci-Fi="Sci-Fi" Adventure="Avontuur" War="Oorlog" Western="Western" History="Historisch" Drama="Drama" Documentary="Documentaire" Music="Muziek" Romance="Romantiek" Classic="Klassieker" Animation="Animatie" Crime="Misdaad" Thriller="Thriller" Horror="Horror" Comedy="Komedie" Other="Overig" Fantasy="Fantasy" />
+  <Value Id="CategoriesMenu" Action="Aktie" Sci-Fi="Sci-Fi" Adventure="Avontuur" War="Oorlog" Western="Western" History="Historisch" Drama="Drama" Documentary="Documentaire" Music="Muziek" Romance="Romantiek" Classic="Klassieker" Animation="Animatie" Crime="Misdaad" Thriller="Thriller" Horror="Horror" Comedy="Komedie" Other="Overig" Fantasy="Fantasy" />
   <Value Id="MediaMenu" Video="VIDEO" Music="MUZIEK" Photo="FOTO" />
   <Value Id="FilterMenu" All="ALLE" Ongoing="HUIDIGE" Seen="GEZIEN" Unseen="NOG NIET GEZIEN" />
   <Value Id="SetSeenStateTask" Header="Werk status 'gezien' bij." />
