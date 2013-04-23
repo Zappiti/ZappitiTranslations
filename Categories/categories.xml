@@ -4,7 +4,7 @@
     <Keyword lang="fr">Action</Keyword>
     <Keyword lang="fr">Arts Martiaux</Keyword>
     <Keyword lang="en">Action</Keyword>
-    <Keyword lang="de">Aktion</Keyword>
+    <Keyword lang="de">Action</Keyword>
     <Keyword lang="it">Azione</Keyword>
     <Keyword lang="nl">Actie</Keyword>
     <Keyword lang="ru">Боевик</Keyword>
@@ -33,7 +33,7 @@
   </Category>
   <Category Name="CategoryFantastique" Icon="Unicorn">
     <Keyword lang="en">Fantasy</Keyword>
-    <Keyword lang="de">Fantastisch</Keyword>
+    <Keyword lang="de">Fantasy</Keyword>
     <Keyword lang="fr">Fantastique</Keyword>
     <Keyword lang="it">Fantascienza</Keyword>
     <Keyword lang="nl">Fantasy</Keyword>
@@ -57,7 +57,7 @@
     <Keyword lang="pt">Aventura</Keyword>
   </Category>
   <Category Name="CategoryWar" Icon="Tank">
-    <Keyword lang="de">Krieg</Keyword>
+    <Keyword lang="de">Kriegsfilm</Keyword>
     <Keyword lang="en">War</Keyword>
     <Keyword lang="fr">Guerre</Keyword>
     <Keyword lang="it">Guerra</Keyword>
@@ -81,7 +81,7 @@
     <Keyword lang="pt">Faroeste</Keyword>
   </Category>
   <Category Name="CategoryHistory" Icon="Tower">
-    <Keyword lang="de">Historien</Keyword>
+    <Keyword lang="de">Geschichte</Keyword>
     <Keyword lang="en">History</Keyword>
     <Keyword lang="fr">Historique</Keyword>
     <Keyword lang="fr">Biopic</Keyword>
@@ -95,7 +95,7 @@
     <Keyword lang="pt">História</Keyword>
   </Category>
   <Category Name="CategoryDrama" Icon="Masks">
-    <Keyword lang="de">Drame</Keyword>
+    <Keyword lang="de">Drama</Keyword>
     <Keyword lang="en">Drama</Keyword>
     <Keyword lang="nl">Drama</Keyword>
     <Keyword lang="fr">Drame</Keyword>
@@ -144,7 +144,7 @@
     <Keyword lang="pt">Romance</Keyword>
   </Category>
   <Category Name="CategoryClassic" Icon="Chaplin">
-    <Keyword lang="de">Klassik</Keyword>
+    <Keyword lang="de">Klassiker</Keyword>
     <Keyword lang="en">Classic</Keyword>
     <Keyword lang="fr">Classique</Keyword>
     <Keyword lang="it">Classici</Keyword>
