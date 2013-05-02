@@ -209,5 +209,5 @@
   <Value Id="ScanMusicsFolderTask" Header="Scan music files" />
   <Value Id="FirstInitFromMusicNfoTask" Header="Initialization information from a music" />
   <Value Id="ResetCategoriesTask" Header="Reset categories" />
-  <Value Id="AccountConfigView" Email="Your Account:" Connect="Log on" Disconnect="Disconnect" Clear="Delete backup" SendToCloud="Enable automatic backup in the cloud." />
+  <Value Id="AccountConfigView" Email="Your Account:" Connect="Log on" Disconnect="Disconnect" SendToCloud="Enable automatic backup to the cloud for Android." />
 </Dictionary>

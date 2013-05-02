@@ -209,5 +209,5 @@
   <Value Id="ScanMusicsFolderTask" Header="Scan muziekbestanden" />
   <Value Id="FirstInitFromMusicNfoTask" Header="Initialisatie muziekinformatie" />
   <Value Id="ResetCategoriesTask" Header="Reset categorieën" />
-  <Value Id="AccountConfigView" Email="Uw account:" Connect="Inloggen" Disconnect="Loskoppelen" Clear="Back-up verwijderen" SendToCloud="Schakel automatisch back-up in de cloud." />  
+  <Value Id="AccountConfigView" Email="Uw account:" Connect="Inloggen" Disconnect="Loskoppelen" SendToCloud="Automatische back-up staat te stellen de cloud voor Android." />
 </Dictionary>

@@ -210,5 +210,5 @@
   <Value Id="ScanMusicsFolderTask" Header="Сканирование музыкальных файлов" />
   <Value Id="FirstInitFromMusicNfoTask" Header="Поиск информации о музыке" />
   <Value Id="ResetCategoriesTask" Header="Сброс категории" />
-  <Value Id="AccountConfigView" Email="Ваш Учет:" Connect="Войдите на" Disconnect="Отключать" Clear="Удалить резервное копирование" SendToCloud="Включить автоматическое резервное копирование в облаке." />
+  <Value Id="AccountConfigView" Email="Ваш Учет:" Connect="Войдите на" Disconnect="Отключать" SendToCloud="Включить автоматическое резервное копирование в облако для Android." />
 </Dictionary>
