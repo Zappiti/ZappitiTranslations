@@ -58,7 +58,7 @@
   <Value Id="Y" Text="Y" />
   <Value Id="Z" Text="Z" />
   <Value Id="EditTitle" Text="Titolo" />
-  <Value Id="EditRuntime" Text="Durata" />
+  <Value Id="EditRuntime" Text="Durata (hh:mm)" />
   <Value Id="EditYear" Text="Anno" />
   <Value Id="EditSynopsis" Text="Descrizione" />
   <Value Id="EditDirectors" Text="Regista" />

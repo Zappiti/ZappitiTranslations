@@ -58,7 +58,7 @@
   <Value Id="Y" Text="Y" />
   <Value Id="Z" Text="Z" />
   <Value Id="EditTitle" Text="Naslov" />
-  <Value Id="EditRuntime" Text="Trajanje" />
+  <Value Id="EditRuntime" Text="Trajanje (hh:mm)" />
   <Value Id="EditYear" Text="Predvajano" />
   <Value Id="EditSynopsis" Text="Povzetek" />
   <Value Id="EditDirectors" Text="Režiser" />

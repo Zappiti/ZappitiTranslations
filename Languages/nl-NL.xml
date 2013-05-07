@@ -58,7 +58,7 @@
   <Value Id="Y" Text="Y" />
   <Value Id="Z" Text="Z" />
   <Value Id="EditTitle" Text="Titel" />
-  <Value Id="EditRuntime" Text="Speelduur" />
+  <Value Id="EditRuntime" Text="Speelduur (hh:mm)" />
   <Value Id="EditYear" Text="Uitgebracht" />
   <Value Id="EditSynopsis" Text="Beschrijving" />
   <Value Id="EditDirectors" Text="Regisseur" />

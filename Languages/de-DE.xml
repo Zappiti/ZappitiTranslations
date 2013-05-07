@@ -30,7 +30,7 @@
   <Value Id="SelectMediaInResultsOK" Content="OK" />
   <Value Id="SelectMediaInResultsCancel" Content="Abbrechen" />
   <Value Id="EditTitle" Text="Titel" />
-  <Value Id="EditRuntime" Text="Laufzeit" />
+  <Value Id="EditRuntime" Text="Laufzeit (hh:mm)" />
   <Value Id="EditYear" Text="Prod.-Jahr" />
   <Value Id="EditSynopsis" Text="Beschreibung" />
   <Value Id="EditDirectors" Text="Regisseur" />

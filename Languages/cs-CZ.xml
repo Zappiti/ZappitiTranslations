@@ -46,7 +46,7 @@
   <Value Id="Y" Text="Y" />
   <Value Id="Z" Text="Z" />
   <Value Id="EditTitle" Text="Titul" />
-  <Value Id="EditRuntime" Text="Délka" />
+  <Value Id="EditRuntime" Text="Délka (hh:mm)" />
   <Value Id="EditYear" Text="Rok" />
   <Value Id="EditSynopsis" Text="Popis děje" />
   <Value Id="EditDirectors" Text="Režisér" />
