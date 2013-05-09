@@ -124,7 +124,7 @@
   <Value Id="SelectPictureTabHeader" Folder="Jacket" Background="Background" />
   <Value Id="SettingsTabFolders" Header="Soubor" />
   <Value Id="SettingsTabOthers" Header="Ostatní" SendErrorReport="Automaticky odeslat zprávu v vývojáři při chybě." Recents="Počet dnů vzít v úvahu nedávné:" />
-  <Value Id="SettingsTabScrapers" Header="Po startu" MovieScraper="Filmy:" MoviePictureScraper="Film obrázky:" TVShowScraper="Série:" TVShowPictureScraper="Obrázky série:" ScrapOnStarWindows="Spusťte skenování soubor pro spuštění aplikace" />
+  <Value Id="SettingsTabScrapers" Header="Po startu" MovieScraper="Filmy:" MoviePictureScraper="Film obrázky:" TVShowScraper="Série:" TVShowPictureScraper="Obrázky série:" ScrapOnStarWindows="Spusťte skenování soubor pro spuštění aplikace" SuppressAllAfterFirstExcludedWordFromTitle="Odstranit všechny znaky, po prvním vyloučit termín nalezeno" WordToExludeFromMovies="Slova k vyloučení cenných papírů:" />
   <Value Id="EditSize" Text="Velikost" />
   <Value Id="Loading" Text="Nahrávám ..." />
   <Value Id="NoTitleFoundToScrap" Text="No corresponding film" />

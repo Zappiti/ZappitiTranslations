@@ -136,7 +136,7 @@
   <Value Id="SelectPictureTabHeader" Folder="Cover" Background="Achtergrond" />
   <Value Id="SettingsTabFolders" Header="Bestanden" />
   <Value Id="SettingsTabOthers" Header="Overig" SendErrorReport=" Stuur een bericht naar de ontwikkelaars als er een fout optreedt." Recents="Aantal dagen om rekening te houden met de recente:" />
-  <Value Id="SettingsTabScrapers" Header="Scrapers" MovieScraper="Films:" MoviePictureScraper="Beelden van films:" TVShowScraper="Series:" TVShowPictureScraper="Beelden van series:" ScrapOnStarWindows="Start scannen van bestanden bij start applicatie" />
+  <Value Id="SettingsTabScrapers" Header="Scrapers" MovieScraper="Films:" MoviePictureScraper="Beelden van films:" TVShowScraper="Series:" TVShowPictureScraper="Beelden van series:" ScrapOnStarWindows="Start scannen van bestanden bij start applicatie" SuppressAllAfterFirstExcludedWordFromTitle="Verwijder alle tekens na de eerste termijn uitgesloten gevonden" WordToExludeFromMovies="Woorden om effecten te sluiten:" />
   <Value Id="GroupContextState" Seen="Gezien" Ongoing="Huidige" Unseen="Nog niet gezien" Stateless="Onbekend" />
   <Value Id="EditSize" Text="Grootte" />
   <Value Id="Loading" Text="Laden ..." />

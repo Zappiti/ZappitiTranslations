@@ -108,7 +108,7 @@
   <Value Id="SelectPictureTabHeader" Folder="Cover" Background="Hintergrund" />
   <Value Id="SettingsTabFolders" Header="Dateien" />
   <Value Id="SettingsTabOthers" Header="Sonstiges" SendErrorReport="Automatisch einen Bericht an die Entwickler senden, wenn ein Fehler auftritt." Recents="Anzahl der Tage, unter Berücksichtigung des Aktuellsten nehmen:" />
-  <Value Id="SettingsTabScrapers" Header="Scrapers" MovieScraper="Filme:" MoviePictureScraper="Filmbilder:" TVShowScraper="Serien:" TVShowPictureScraper="Serienbilder:" ScrapOnStarWindows="Bei Programmstart automatisch scannen" />
+  <Value Id="SettingsTabScrapers" Header="Scrapers" MovieScraper="Filme:" MoviePictureScraper="Filmbilder:" TVShowScraper="Serien:" TVShowPictureScraper="Serienbilder:" ScrapOnStarWindows="Bei Programmstart automatisch scannen" SuppressAllAfterFirstExcludedWordFromTitle="Löschen Sie alle Zeichen nach dem ersten Amtszeit ausgeschlossen gefunden" WordToExludeFromMovies="Wörter auf Wertpapiere auszuschließen:" />
   <Value Id="GroupContextState" Seen="Gesehen" Ongoing="Läuft" Unseen="Ungesehen" Stateless="Ohne" />
   <Value Id="EditSize" Text="Größe" />
   <Value Id="Loading" Text="Laden" />
