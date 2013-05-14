@@ -67,7 +67,7 @@
   <Value Id="MainSearchMedias" Content="Hledat" />
   <Value Id="MainConfiguration" Content="Nastavení" />
   <Value Id="MainScan" Content="Skener" />
-  <Value Id="MainExport" ExportDune="Export Dune" ExportITunes="Export iTunes" Title="Export probíhá ..." />
+  <Value Id="MainExport" ExportDune="Export Dune" ExportITunes="Export iTunes" Title="Export probíhá ..." ExportZappitiPlayer="Export Zappiti Player" />
   <Value Id="MainEdit" Content="Upravit" />
   <Value Id="MainScrapDetails" Content="Upravit popis" />
   <Value Id="MainScrapPictures" Content="Upravit obrázek" />

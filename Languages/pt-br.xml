@@ -79,7 +79,7 @@
   <Value Id="MainSearchMedias" Content="Pesquisar" />
   <Value Id="MainConfiguration" Content="Configurar" />
   <Value Id="MainScan" Content="Procurar por novos arquivos" />
-  <Value Id="MainExport" ExportDune="Exportar para o Dune" ExportITunes="Exportar para iTunes" Title="Exportando ..." />
+  <Value Id="MainExport" ExportDune="Exportar para o Dune" ExportITunes="Exportar para iTunes" Title="Exportando ..." ExportZappitiPlayer="Exportar para o Zappiti Player" />
   <Value Id="MainEdit" Content="Editar" />
   <Value Id="MainScrapDetails" Content="Detalhes" />
   <Value Id="MainScrapPictures" Content="Imagens" />

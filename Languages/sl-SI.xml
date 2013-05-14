@@ -79,7 +79,7 @@
   <Value Id="MainSearchMedias" Content="Išči" />
   <Value Id="MainConfiguration" Content="Nastavite" />
   <Value Id="MainScan" Content="Skeniranje" />
-  <Value Id="MainExport" ExportDune="Izvozi na Dune" ExportITunes="Izvozi na iTunes" Title="Izvažanje ..." />
+  <Value Id="MainExport" ExportDune="Izvozi na Dune" ExportITunes="Izvozi na iTunes" Title="Izvažanje ..." ExportZappitiPlayer="Izvozi na Zappiti Player" />
   <Value Id="MainEdit" Content="Uredi" />
   <Value Id="MainScrapDetails" Content="Scrape podatki" />
   <Value Id="MainScrapPictures" Content="Scrape slike" />

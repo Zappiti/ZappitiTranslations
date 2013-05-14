@@ -77,7 +77,7 @@
   <Value Id="EditCancel" Content="Отмена" />
   <Value Id="MainConfiguration" Content="Настройки" />
   <Value Id="MainScan" Content="Поиск фильмов" />
-  <Value Id="MainExport" ExportDune="Dune" ExportITunes="iTunes" Title="Экспорт ..." />
+  <Value Id="MainExport" ExportDune="Dune" ExportITunes="iTunes" Title="Экспорт ..." ExportZappitiPlayer="Zappiti Player" />
   <Value Id="MainEdit" Content="Описание" />
   <Value Id="MainScrapDetails" Content="Привязка данных" />
   <Value Id="MainScrapPictures" Content="Картинки" />

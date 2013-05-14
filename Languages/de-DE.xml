@@ -50,7 +50,7 @@
   <Value Id="MainSearchMedias" Content="Suchen" />
   <Value Id="MainConfiguration" Content="Einstellungen" />
   <Value Id="MainScan" Content="Scannen" />
-  <Value Id="MainExport" ExportDune="Dune Export" ExportITunes="iOS Export" Title="Export" />
+  <Value Id="MainExport" ExportDune="Dune Export" ExportITunes="iOS Export" Title="Export" ExportZappitiPlayer="Zappiti Player Export" />
   <Value Id="MainEdit" Content="Bearbeiten" />
   <Value Id="MainScrapDetails" Content="Details zuordnen" />
   <Value Id="MainScrapPictures" Content="Bilder zuordnen" />
