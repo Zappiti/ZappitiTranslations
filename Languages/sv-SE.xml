@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dictionary EnglishName="Swedish" CultureName="sv-SE">
+  <Value Id="SettingsTabValidation" Header="Bekräfta" />
+  <Value Id="Globalization_XML" homeconfig="Konfiguration" homeinfo="Information" configlm="Starta Media" configipd="IP-adress" searchmovies="Film" searchactors="Skådespelare" searchdirectors="Regissör" abctitle="Alla mina filer" moviestitle="Filmer" showstitle="Tv-serier" recentstitle="Nyligen" categtitle="Kategorier" detailtitle="Detaljer" remoteplay="Spelar på din Dune ..." remotestop="Ingen aktuell uppspelning på din Dune ..." remoteback="Bakåtspolning ..." remotefwd="Snabbspolning framåt ..." />
+  <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune" />
+  <Value Id="SettingsDefault" Header="Standard" />
+  <Value Id="SettingsAdvancedOptions" Header="Avancerade Inställningar" />
+  <Value Id="SettingsTypeExport" ExportDune="Exportera fil-Dune:" ExportITunes="Exportera fil-iTunes:" Body="Definiera din exporterade fil." DoYouHaveADune="Jag har en Zappiti Player / en Dune HD" DoYouHaveAniPhone="Jag har en iPhone / iPad / iPod" DeviceType="Enhet :" Primary="Primär" Secondary="Sekundär" Audio="Audio :" Subtitle="Undertext :" Encode="Avkodnings parameter :" SubtitleRule="Visa undertexter :" />
+  <Value Id="SettingsIsNFS" Content="NFS protokoll" />
+  <Value Id="SettingsUserName" Text="Login :" />
+  <Value Id="SettingsUserPassword" Text="Lösenord :" />
+  <Value Id="MainScrapPicturesTvShow" Content="Bakgrundsbild" />
+  <Value Id="Export_XML" CreateGlobalizationCustomCommand="Fil generering" iPhoneItemExportCustomCommand="Fil generering iTunes" ConfigXmlGeneratorCommand="Exportera konfiguration" MoviesXmlFileGeneratorCommand="Exportera filmer" AbcXmlFileGeneratorCommand="Exportera basen" TvShowsXmlFileGeneratorCommand="Exportera serier" CategoriesXmlFileGeneratorCommand="Exportera kategorier" RecentsXmlFileGeneratorCommand="Exportera senaste" />
+  <Value Id="SettingsIsXmlExport" Text="Xml standard" />
+  <Value Id="SettingsTabExport" Header="Export" />
+  <Value Id="SettingsFolders" Text="Din mapp :" />
+  <Value Id="SettingsOK" Content="OK" />
+  <Value Id="SettingsCancel" Content="Avbryt" />
+  <Value Id="SettingsAddFolder" Content="Ny mapp" />
+  <Value Id="SettingsDeleteFolder" Content="Radera" />
+  <Value Id="SettingsModifyFolder" Content="Ändra" />
+  <Value Id="SettingsBrowse" Content="Bläddra" />
+  <Value Id="SettingsFolderPath" Text="Sökväg :" />
+  <Value Id="SettingsZappitiDataPath" Text="Konfigurationsmapp :" />
+  <Value Id="SettingsRewriteAbsolutePath" Text="Skriv över sökvägen vid export:" />
+  <Value Id="UnscrapedScrap" Content="Spårning" />
+  <Value Id="UnscrapedScrapAll" Content="Spåra allt" />
+  <Value Id="UnscrapedDefault" Content="Standard" />
+  <Value Id="UnscrapedClose" Content="Stäng" />
+  <Value Id="SelectMediaInResultsOK" Content="OK" />
+  <Value Id="SelectMediaInResultsCancel" Content="Avbryt" />
+  <Value Id="All" Text="Alla" />
+  <Value Id="123" Text="123" />
+  <Value Id="A" Text="A" />
+  <Value Id="B" Text="B" />
+  <Value Id="C" Text="C" />
+  <Value Id="D" Text="D" />
+  <Value Id="E" Text="E" />
+  <Value Id="F" Text="F" />
+  <Value Id="G" Text="G" />
+  <Value Id="H" Text="H" />
+  <Value Id="I" Text="I" />
+  <Value Id="J" Text="J" />
+  <Value Id="K" Text="K" />
+  <Value Id="L" Text="L" />
+  <Value Id="M" Text="M" />
+  <Value Id="N" Text="N" />
+  <Value Id="O" Text="O" />
+  <Value Id="P" Text="P" />
+  <Value Id="Q" Text="Q" />
+  <Value Id="R" Text="R" />
+  <Value Id="S" Text="S" />
+  <Value Id="T" Text="T" />
+  <Value Id="U" Text="U" />
+  <Value Id="V" Text="V" />
+  <Value Id="W" Text="W" />
+  <Value Id="X" Text="X" />
+  <Value Id="Y" Text="Y" />
+  <Value Id="Z" Text="Z" />
+  <Value Id="EditTitle" Text="Titel" />
+  <Value Id="EditRuntime" Text="Speltid (hh:mm)" />
+  <Value Id="EditYear" Text="Sändes" />
+  <Value Id="EditSynopsis" Text="Synopsis" />
+  <Value Id="EditDirectors" Text="Regissörer" />
+  <Value Id="EditActors" Text="Skådespelare" />
+  <Value Id="EditAspectRatio" Text="Bildförhållande" />
+  <Value Id="EditExtension" Text="Container" />
+  <Value Id="EditCodecVideo" Text="Video Codec" />
+  <Value Id="EditFramerate" Text="FPS" />
+  <Value Id="EditDefinition" Text="Definition" />
+  <Value Id="EditCodecAudio" Text="Audio Codec" />
+  <Value Id="EditCategories" Text="Kategorier" />
+  <Value Id="EditSubTitles" Text="Undertexter" />
+  <Value Id="EditLanguages" Text="Språk" />
+  <Value Id="EditViewNotView" Text="Sedd" />
+  <Value Id="EditOK" Content="OK" />
+  <Value Id="EditCancel" Content="Avbryt" />
+  <Value Id="MainHome" Content="Hem" />
+  <Value Id="MainSearchMedias" Content="Sök" />
+  <Value Id="MainConfiguration" Content="Anpassa" />
+  <Value Id="MainScan" Content="Skannar" />
+  <Value Id="MainExport" ExportDune="Exportera Dune" ExportITunes="Exportera iTunes" Title="Exporterar ..." />
+  <Value Id="MainEdit" Content="Editera" />
+  <Value Id="MainScrapDetails" Content="Spårning av detaljer" />
+  <Value Id="MainScrapPictures" Content="Spårning av bilder" />
+  <Value Id="MainInfo" Text="{0} Film, {1} TV-Serier, {2} Episoder" />
+  <Value Id="MainToScrap" Text="{0} spårar" />
+  <Value Id="MainToCleanUp" Text="{0} rensar upp" />
+  <Value Id="MainIsScanning" Text="Skannar : {0}" />
+  <Value Id="MainIsScraping" Text="Spårning : {0}" />
+  <Value Id="MainIsAnalysing" Text="Analyserar : {0}" />
+  <Value Id="MainIsDownloadingPicture" Text="Hämtar bilder : {0}" />
+  <Value Id="MainDonate" Content="Donera !" />
+  <Value Id="MainAbout" Content="Om" />
+  <Value Id="SelectPictureChoose" Content="Välj" />
+  <Value Id="SelectPictureBrowse" Content="Välj fil" />
+  <Value Id="SelectPictureClose" Content="Stäng" />
+  <Value Id="CleanUpMessage" Text="Följande media kan ej nås. Vill du ta bort dem från databasen?" />
+  <Value Id="CleanUpOK" Content="Rensa upp" />
+  <Value Id="CleanUpClose" Content="Stäng" />
+  <Value Id="Splash" Content="Stäng" />
+  <Value Id="DatabaseBadVersion" Text="Den nuvarande versionen av Zappiti kan inte öppna den valda databasen. Prova en nyare version av Zappiti." />
+  <Value Id="MessageBox" ConfigureSharePath="Konfigurera sökvägen, för att fortsätta." NewReleaseAvailable="En ny version finns tillgänglig! Vill du ladda ner {0} {1} ?" DoYouWantToDeleteThisGroup="Vill du verkligen radera denna?" DoYouWantToDeleteTheseGroup="Vill du verkligen radera dessa?" DeleteCategory="Vill du verkligen radera denna kategori?" ResetCategories="Vill du återställa alla kategorier?" ResetMainMenu="Vill du återställa alla menyer?" ResetABCMenu="Vill du återställa alla knappar?" ResetFilterMenu="Vill du återställa alla filter ?" VersionExpired="Denna version av Zappiti är för gammal, men en ny version finns tillgänglig! Vill du ladda ner?" AddFolder="Lägg till mapp {0} till konfigurationen?" CanStartDuneServer="Kan inte starta servern. Vänligen försök med en annan port." DoYouWanToInstallMpcHd="Vill du installera Media Player Classic - Home Cinema?" />
+  <Value Id="MessageBoxCaption" NewReleaseAvailable="Uppdatering tillgänglig" DoYouWantToDeleteThisGroup="Ta bort objekt" DoYouWantToDeleteTheseGroup="Ta bort objekten" DeleteCategory="Ta bort en kategori" ResetCategories="Återställ Kategorier" ResetMainMenu="Återställ menyer" ResetABCMenu="Återställ knappar" VersionExpired="Uppdatering tillgänglig" AddFolder="Lägga till mappen?" CanStartDuneServer="Fel" DoYouWanToInstallMpcHd="Programvarukrav" />
+  <Value Id="EditChannels" Text="Kanaler" />
+  <Value Id="TVShowSeasonList" SeasonUp="SÄSONG {0}" />
+  <Value Id="AddToGroupNewGroup" Content="Ny grupp" />
+  <Value Id="EditGroupCancel" Content="Avbryt" />
+  <Value Id="EditGroupOK" Content="Spara" />
+  <Value Id="FrequentWords" Words="du;jag;till;den;en;och;att;det;av;mig" />
+  <Value Id="EditBrowseFilename" Content="Bläddra" />
+  <Value Id="EditFilename" Text="Sökväg Media" />
+  <Value Id="EditSubTitle" Text="Undertexter" />
+  <Value Id="EditGroupTitle" Text="Gruppnamn" />
+  <Value Id="EditGroupChilds" Text="Medlemmar" />
+  <Value Id="EditGroupSortByData" Content="Sortera efter datum" />
+  <Value Id="EditGroupMoveUp" Content="Flytta upp" />
+  <Value Id="EditGroupMoveDown" Content="Flytta ner" />
+  <Value Id="EditGroupMoveRemove" Content="Dra tillbaka" />
+  <Value Id="EditGroup" Group="Grupp" />
+  <Value Id="SelectPictureMedias" Text="Välj bild :" />
+  <Value Id="SelectPictureQuotaIsOver" Text="Du har nått din nedladdningskvot för denna spårning. Försök igen senare." />
+  <Value Id="EditMenuIcons" ToolTip="Ändra ikon" Text="Ikoner :" />
+  <Value Id="EditMenuBack" ToolTip="Ändra bakgrund" />
+  <Value Id="EditMenuBackRollOver" ToolTip="Ändra bakgrunden svävande" />
+  <Value Id="EditCategoriesLabel" Text="Kategori :" />
+  <Value Id="EditCategoriesKeywords" Text="Taggar :" />
+  <Value Id="EditMenuOK" Content="Verifiera" />
+  <Value Id="EditMenuCancel" Content="Avbryt" />
+  <Value Id="EditMenuBrowse" Content="Bläddra ..." />
+  <Value Id="EditCategoriesAdd" ToolTip="Lägg till kategori" />
+  <Value Id="MainAddCategory" Content="Ny kategori" />
+  <Value Id="MoreMediaInfosRightClick" Text="Högerklicka för fler kommandon ..." />
+  <Value Id="DatabaseUpdating" Text="Uppdaterar databasen ..." />
+  <Value Id="EditGroupSortByName" Content="Sortera efter titel" />
+  <Value Id="SelectPictureTabHeader" Folder="Omslag framsida" Background="Omslag baksida" />
+  <Value Id="SettingsTabFolders" Header="Filer" />
+  <Value Id="SettingsTabOthers" Header="Övrigt" SendErrorReport="Skickar automatiskt en rapport till utvecklarna, när ett fel uppstår." Recents="Antal dagar för att ta hänsyn till den senaste:" />
+  <Value Id="SettingsTabScrapers" Header="Spårningar" MovieScraper="Filmer:" MoviePictureScraper="Filmbilder:" TVShowScraper="Serier:" TVShowPictureScraper="Seriebilder:" ScrapOnStarWindows="Börja skanna filer vid programstart" SuppressAllAfterFirstExcludedWordFromTitle="Radera alla karaktärer efter att den första benämningen hittats" WordToExludeFromMovies="Ord som ska undantas från titlarna:" />
+  <Value Id="GroupContextState" Seen="Sedd" Ongoing="Pågående" Unseen="Osedd" Stateless="Utan" />
+  <Value Id="EditSize" Text="Storlek" />
+  <Value Id="Loading" Text="Laddar ..." />
+  <Value Id="NoTitleFoundToScrap" Text="Hittar inte filmtitel" />
+  <Value Id="Prepare_Application" Content="Hämta inställningar" SettingsLoading="Laddar konfigurationen" ScanningAllFiles="Scannar filerna" DataBaseLoading="Laddar databasen" DataBaseCleanUp="Rensar databasen" EnablingFeatureBrowserEmulation="Aktivera funktionen webbläsare emulering." />
+  <Value Id="WizardWelcome" Body="Välkommen.[br][br] Den här guiden hjälper dig att konfigurera Zappiti.[br][br]Klicka på &quot;Var är mina filer&quot; för att visa Zappiti var dina mediafiler är (Filmer, TV-serier, Musik)." Close="Stäng" Header="&quot;Setup&quot; guiden" AddFiles="Var är mina filer &gt;&gt;" />
+  <Value Id="WizardAddLocalLocation" Name="Lägg till en lokal mapp" Description="- Intern hårddisk på den här datorn [br] - Extern hårddisk ansluten till USB / eSATA på den här datorn [br] - Hårddisk i en dockningsstation ansluten till den här datorn via USB / eSATA [br] - Dune Drive ansluten via USB Slave till denna dator" Header="Lokala Mappar" Tips="Tips: Du kan välja att dela dessa filer i ditt lokala nätverk, eller så kan de nås direkt med en USB-enhet via Dune." Folders="Lokala enheter / USB-enheter" />
+  <Value Id="WizardAddNetworkLocation" Name="Lägga till en delad nätverksmapp" Description="- Intern hårddisk i nätverksanslutna Dune [br] - Extern hårddisk på nätverksanslutna Dune [br] - NAS server [br] - Andra fjärrdatorer på nätverket [br] - delad mapp i nätverket [br] - nätverkshårddisk" Header="Delade mappar på nätverket, NAS ..." Tips="Tips: Du kan köpa USB, NAS, etc. på HD LAND´s hemsida." Folders="Nätverksplatser" />
+  <Value Id="WizardWhereAreYourFiles" Header="Var är mina filer?" Body="Välj ett av alternativen nedan om du vill ange var dina mediafiler är." Back="&lt;&lt; Föregående" Close="Stäng" />
+  <Value Id="WizardAddLocation" Body="Dra och släpp de mappar du vill lägga till i listan till höger." YourFolders="Dina filer" Next="Nästa &gt;&gt;" Back="&lt;&lt; Föregående" Close="Stäng" />
+  <Value Id="WizardAddAnotherLocation" Header="Lägg till en ny plats?" Next="Nästa &gt;&gt;" YourFolders="Dina mappar" Close="Stäng" />
+  <Value Id="FolderDataTemplate" Edit="Ändra" Delete="Tabort" />
+  <Value Id="WizardRewriteLocationUrl" Header="Val av sökväg" Body="Välj en plats för denna mapp, som Dune har tillgång till: [br](Specificera var mappen ska placeras.)" Back="&lt;&lt; Föregående" Next="Nästa &gt;&gt;" ExternLabel="På en extern hårddisk ansluten till Dune HD" NetworkLabel="På en NAS-server, nätverksmapp eller en delad hårddisk på denna dator" UnknowLabel="Anpassad" Close="Stäng" InternLabel="På en intern hårddisk i Dune HD" />
+  <Value Id="LocalRewriteUrlEngineView" Body="Denna mapp måste delas på nätverket för att tillåta åtkomst till din Dune." IAccept="Jag samtycker till att dela ut mappen." />
+  <Value Id="SettingsHost" Text="Värdnamn / IP :" />
+  <Value Id="SettingsPath" Text="Plats :" />
+  <Value Id="WizardConfigureType" Header="Filtyper" Body="Vad finns i denna mapp?" Movie="Innehåller filmer" TVShow="Innehåller TV-serier" Back="&lt;&lt; Föregående" Close="Stäng" Music="Innehåller musik" />
+  <Value Id="Folder" Movie="Filmer" TVShow="TV-Serier" Music="Musik" />
+  <Value Id="Settings" PlayerHeader="Spelare" Header="Inställningar" AccountHeader="Räkning" />
+  <Value Id="PlayerConfigView" IsServerRunning="Aktivera stöd för fjärrstyrning." Port="Port :" />
+  <Value Id="WizardDownloadMpcPlayer" Header="Ladda ner MPC - Home Cinema" Next="Nästa &gt;&gt;" Close="Stäng" Body="Laddar ner, var god vänta ..." />
+  <Value Id="WizardInstallMpcPlayer" Header="Installerar MPC - Home Cinema" Body="Installerar, vänta..." Close="Stäng" Completed="Gratulerar, MPC - Hemmabio installerades utan problem." Failed="Installationen misslyckades, beklagar." />
+  <Value Id="MpcPlayerConfigView" Download="Ladda ner och installera MPC - Home Cinema" PlayerPath="Sökväg:" Browse="Bläddra ..." />
+  <Value Id="SettingsTabInterface" Header="Gränssnitt" Language="Språk :" Background="Anpassad bakgrund" GlassShow="Visa glaseffekt" ShowHeader="Visa omslaget upptill fram" SeenUnseen="Visa sedda" DynamicZoom="Ikoner med dynamisk zoom" SelectionBox="Dynamisk kontur" Theme="Tema :" />
+  <Value Id="TaskManagerView" Header="Aktuella jobb" Close="Stäng" />
+  <Value Id="PlayTask" Header="Öppnar en Film" />
+  <Value Id="DownloadVcdTask" Header="Ladda ner VirtualCloneDrive" />
+  <Value Id="InstallVcdTask" Header="Installerar VirtualCloneDrive" />
+  <Value Id="DeleteVcdSetupTask" Header="Ta bort installationsprogrammet VirtualCloneDrive" />
+  <Value Id="MountTask" Header="Montera skivavbilden" />
+  <Value Id="MountCheckTask" Header="Väntar på den virtuella disken" />
+  <Value Id="UnscrapedView" Filename="Filnamn" Directory="Register" State="Status" Title="Filer att spåra" />
+  <Value Id="FirstInitFromMovieNfoTask" Header="Initierar filminformationen" />
+  <Value Id="UpdateMainViewModelTask" Header="Uppdatering av upplagda filmer" />
+  <Value Id="MediaToDeleteTask" Header="Kontrollerar efter borttagna filer" />
+  <Value Id="FirstInitTask" Header="Initierar" />
+  <Value Id="ScanTask" Header="Skanning pågår" />
+  <Value Id="ScanForTVShowEpisodeTask" Header="Söker episoder" />
+  <Value Id="FirstInitFromTVShowNfoTask" Header="Initierar information från en serie" />
+  <Value Id="FirstInitFromTVEpisodeNfoTask" Header="Initierar information från en episod" />
+  <Value Id="ScanMoviesFolders" Header="Skannar filmer" />
+  <Value Id="ScanTVShowFolders" Header="Skannar serier" />
+  <Value Id="ExportTypeView" Header="Typ av export" RegisterZappitiPlayerLabel="Har du en Zappiti Player?" RegisterZappitiPlayerButton="Aktivera nu!" RegisterZappitiPlayerSmallLabel="Genom att aktivera din Zappiti Player, kan du också exportera ditt musikbibliotek." ExportMusic="Exportera musik" Close="Stäng" />
+  <Value Id="FullExportType" Name="Komplett" Description="Hela samlingen har exporterats." />
+  <Value Id="IncrementalExportType" Name="Stegvis" Description="Bara de senaste ändringarna sedan senaste export, exporteras." />
+  <Value Id="RescrapSelect" Content="Välj" />
+  <Value Id="WizardFinish" Header="Konfigurering komplett" Body="Konfigurationen av Zappiti Media Center är klar." Close="Stäng" Back="&lt;&lt; Föregående" />
+  <Value Id="WizardConfigureExportDevice" Header="Har du några enheter?" Body="Välj vilka enheter du äger:" Back="&lt;&lt; Föregående" Next="Nästa &gt;&gt;" Close="Stäng" />
+  <Value Id="WizardConfigureDuneExport" Header="Media Player export konfiguration" Body="Var hamnar din exporterade data som genererar Zappiti åtkomst för din Dune HD / Zappiti Player? Zappiti kommer att skapa en &quot;_Zappiti&quot; mapp för tillträde till Zappiti från din Media spelare (Dune HD eller Zappiti Player)." Back="&lt;&lt; Föregående" Next="Nästa &gt;&gt;" Close="Stäng" />
+  <Value Id="WizardConfigureITunesExport" Header="Konfiguration för iTunes (iPhone / iPad)" Body="Var du ska exportera data?" Back="&lt;&lt; Föregående" Next="Nästa &gt;&gt;" Close="Stäng" />
+  <Value Id="ContextMenu" GroupTo="Grupp..." ChangePicture="Ändra..." Delete="Ta bort" Edit="Ändra ..." Play="Spela ..." Encode="Koda" DeleteEncode="Radera den kodade filen" Reset="Återställ" ResetAllCategories="Återställ Kategorier" />
+  <Value Id="EncodeTask" Header="Konvertera" />
+  <Value Id="EncodingTask" Header="Aktuell kodning" />
+  <Value Id="DownloadHandbrakeTask" Header="Ladda ner Handbrake" />
+  <Value Id="InstallHandbrakeTask" Header="Installerar Handbrake" />
+  <Value Id="SubtitleRules" Never="Aldrig" AlwaysIfPossible="Alltid, om möjligt" IfPrimaryAudioNotFound="Endast om det önskade ljudspåret inte hittas" />
+  <Value Id="CategoriesMenu" Action="Action" Sci-Fi="Sci-Fi" Adventure="Äventyr" War="Krig" Western="Western" History="Historia" Drama="Drama" Documentary="Dokumentär" Music="Musik" Romance="Romantik" Classic="Klassiker" Animation="Tecknat" Crime="Kriminalare" Thriller="Thriller" Horror="Skräck" Comedy="Komedi" Other="Övrigt" Fantasy="Fantasi" />
+  <Value Id="MediaMenu" Video="FILM" Music="MUSIK" Photo="BILDER" />
+  <Value Id="FilterMenu" All="ALLT" Ongoing="LÖPANDE" Seen="SETT" Unseen="OSEDD" />
+  <Value Id="SetSeenStateTask" Header="Uppdatering sedda filmer." />
+  <Value Id="HashTask" Header="Uppdaterar Hash-filer." />
+  <Value Id="MovieControl" Runtime="DRIFSTID" Actors="SKÅDESPELARE" Directors="REGISSÖRER" ReleaseDate="RELEASEDATUM" />
+  <Value Id="TVEpisodeControl" Actors="SKÅDESPELARE" Directors="REGISSÖRER" ReleaseDate="RELEASEDATUM" Runtime="TID" />
+  <Value Id="MarketView" Close="Stäng" />
+  <Value Id="Shared" Browse="Sök" />
+  <Value Id="MarketPopup" DoNotShow="Visa inte vid start." />
+  <Value Id="VideoMenu" ABC="ALLA" Movies="FILMER" TVShows="TV-SERIER" Recents="SENASTE" Categories="KATEGORIER" />
+  <Value Id="MusicMenu" Titles="TITEL" Albums="ALBUM" Artists="ARTIST" Recents="SENASTE" Genres="GENRE" Playlists="SPELLISTOR" />
+  <Value Id="AlbumView" Genre="Genre :" Count="Spår :" ReleaseDate="Releasedatum :" Runtime="Speltid :" />
+  <Value Id="ScanMusicsFolderTask" Header="Skannar musikfiler" />
+  <Value Id="FirstInitFromMusicNfoTask" Header="Initierar information från musiken" />
+  <Value Id="ResetCategoriesTask" Header="Återställ kategorier" />
+  <Value Id="AccountConfigView" Email="Ditt Konto:" Connect="Logga in" Disconnect="Koppla bort" SendToCloud="Aktivera automatisk säkerhetskopiering till molnet för Android." />
+  <Value Id="SignIn" HeaderSignIn="Inloggning" HeaderRegister="Skapa konto" Email="E-post" Password="Lösenord" RepeatPassword="Upprepa lösenord" Firstname="Förnamn" Lastname="Efternamn" AlreadyRegistered="Registrera mig nu" NewUser="Skapa ett konto nu" SignIn="Inloggning" Register="Registrera" BadCredential="E-post eller lösenord är ogiltig" DuplicateEmail="Det finns redan ett konto kopplat till denna e-postadress." RegistrationError="Kan inte skapa kontot för tillfället." NewUserText="Du har inget Zappiti konto?" AlreadyRegisteredText="Har du ett Zappiti konto?" UnableToConnect="Ditt konto är inte tillgängligt?" Reset="Ja, jag vill skapa ett nytt lösenord" ResetInfo="Ange din e-postadress i följande fält ovan." HeaderResetPassword="Återställ ditt lösenord" ResetEmailSent="Kontrollerar din e-post och klicka på länken som vi skickar dig, för att ändra ditt lösenord." ResetEmailNotSent="Kan inte återställa lösenordet, kontrollera att e-postmeddelandet är korrekt." />
+</Dictionary>
