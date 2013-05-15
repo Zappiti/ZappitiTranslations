@@ -79,7 +79,7 @@
   <Value Id="MainSearchMedias" Content="Sök" />
   <Value Id="MainConfiguration" Content="Anpassa" />
   <Value Id="MainScan" Content="Skannar" />
-  <Value Id="MainExport" ExportDune="Exportera Dune" ExportITunes="Exportera iTunes" Title="Exporterar ..." />
+  <Value Id="MainExport" ExportDune="Exportera Dune" ExportITunes="Exportera iTunes" Title="Exporterar ..." ExportZappitiPlayer="Exportera Zappiti Player" />
   <Value Id="MainEdit" Content="Editera" />
   <Value Id="MainScrapDetails" Content="Spårning av detaljer" />
   <Value Id="MainScrapPictures" Content="Spårning av bilder" />
