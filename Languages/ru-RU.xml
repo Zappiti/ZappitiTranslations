@@ -94,7 +94,7 @@
   <Value Id="SelectPictureBrowse" Content="Добавить с жёсткого диска" />
   <Value Id="SelectPictureClose" Content="Закрыть" />
   <Value Id="CleanUpMessage" Text="Данные медиаданные недоступны. Хотите удалить их из базы данных?" />
-  <Value Id="CleanUpOK" Content="Очистить" />
+  <Value Id="CleanUpOK" Content="Удалить" />
   <Value Id="CleanUpClose" Content="Закрыть" />
   <Value Id="Splash" Content="Закрыть" />
   <Value Id="DatabaseBadVersion" Text="Данная версия Zappiti не может открыть выбранную базу данных. Попробуйте установить новую версию Zappiti." />
@@ -133,8 +133,8 @@
   <Value Id="EditGroupSortByName" Content="Отсортировать по названию" />
   <Value Id="SelectPictureTabHeader" Folder="Обложка" Background="Фон" />
   <Value Id="SettingsTabFolders" Header="Папки и Файлы" />
-  <Value Id="SettingsTabOthers" Header="Другие Настройки" SendErrorReport="Автоматически отправлять отчет в разработчиками при возникновении ошибки." Recents="Число дней с учетом последних:" />
-  <Value Id="SettingsTabScrapers" Header="Поиск файлов" MovieScraper="Фильмы:" MoviePictureScraper="Изображения фильмов:" TVShowScraper="Сериалы:" TVShowPictureScraper="Изображения сериалов:" ScrapOnStarWindows="Начало сканирования файлов при запуске приложения" SuppressAllAfterFirstExcludedWordFromTitle="Удалите все символы после первого срока исключены найден" WordToExludeFromMovies="Слова для исключения ценных бумаг:" />
+  <Value Id="SettingsTabOthers" Header="Другие Настройки" SendErrorReport="Автоматически отправлять отчет разработчикам при возникновении ошибки." Recents="Число дней показа в Последнее:" />
+  <Value Id="SettingsTabScrapers" Header="Поиск файлов" MovieScraper="Фильмы:" MoviePictureScraper="Изображения фильмов:" TVShowScraper="Сериалы:" TVShowPictureScraper="Изображения сериалов:" ScrapOnStarWindows="Начало сканирования файлов при запуске приложения" SuppressAllAfterFirstExcludedWordFromTitle="Не учитывать остальные символы после обнаружения слов-исключений" WordToExludeFromMovies="Слова-исключения при поиске названия:" />
   <Value Id="GroupContextState" Seen="Просмотрен" Ongoing="В процессе" Unseen="Не просмотрен" Stateless="Без метки" />
   <Value Id="EditSize" Text="Размер" />
   <Value Id="RescrapSelect" Content="Выбрать" />
@@ -210,7 +210,7 @@
   <Value Id="ScanMusicsFolderTask" Header="Сканирование музыкальных файлов" />
   <Value Id="FirstInitFromMusicNfoTask" Header="Поиск информации о музыке" />
   <Value Id="ResetCategoriesTask" Header="Сброс категории" />
-  <Value Id="AccountConfigView" Email="Ваш Учет:" Connect="Войдите на" Disconnect="Отключать" SendToCloud="Включить автоматическое резервное копирование в облако для Android." />
-  <Value Id="SignIn" HeaderSignIn="Войти" HeaderRegister="Регистрация" Email="E-mail" Password="Пароль" RepeatPassword="Введите пароль еще раз" Firstname="Имя" Lastname="Название" AlreadyRegistered="Подпишите меня сейчас" NewUser="Создайте аккаунт прямо сейчас" SignIn="Войти" Register="Реестр" BadCredential="E-mail или пароль неверны" DuplicateEmail="Существует уже счет, связанный на это письмо." RegistrationError="Невозможно создать учетную запись на данный момент." NewUserText="Вы не должны Zappiti запись?" AlreadyRegisteredText="Уже зарегистрированы Zappiti?" UnableToConnect="Ваш аккаунт не доступен?" Reset="Да, я хочу создать новый пароль" ResetInfo="Введите адрес электронной почты в следующих областях выше. " HeaderResetPassword="Сбросить пароль" ResetEmailSent="Проверьте вашу электронную почту и нажмите на ссылку мы посылаем вам, чтобы изменить пароль." ResetEmailNotSent="Нельзя сбросить пароль, спасибо проверить, что правильность адреса электронной почты." BadLicence="Не удалось получить данные своей учетной записи." CheckYourConnection="Не удается подключиться к Интернету." />
+  <Value Id="AccountConfigView" Email="Ваш e-mail:" Connect="Войти" Disconnect="Отключить" SendToCloud="Включить автоматическое резервное копирование в облаке для Android." />
+  <Value Id="SignIn" HeaderSignIn="Войти" HeaderRegister="Регистрация" Email="E-mail" Password="Пароль" RepeatPassword="Введите пароль ещё раз" Firstname="Имя" Lastname="Фамилия" AlreadyRegistered="Подпишите меня сейчас" NewUser="Создайте аккаунт прямо сейчас" SignIn="Войти" Register="Зарегистрироваться" BadCredential="E-mail или пароль неверны" DuplicateEmail="Уже существует учётная запись, связанная с данным e-mail." RegistrationError="Невозможно создать учетную запись на данный момент." NewUserText="У Вас нет учётной записи Zappiti?" AlreadyRegisteredText="Вы уже зарегистрированы в Zappiti?" UnableToConnect="Ваш аккаунт не доступен?" Reset="Да, я хочу создать новый пароль" ResetInfo="Введите адрес электронной почты в следующих областях выше." HeaderResetPassword="Сбросить пароль" ResetEmailSent="Проверьте вашу электронную почту и нажмите на ссылку посланую вам, чтобы изменить пароль." ResetEmailNotSent="Нельзя сбросить пароль, проверьте, что правильность адреса электронной почты." BadLicence="Не удалось получить данные своей учетной записи." CheckYourConnection="Не удается подключиться к Интернету." />
   <Value Id="ResetDeviceList" Header="Забудьте авторизованным устройствам" Body="Ваше имя пользователя Zappiti может быть связан с 3 компьютерами.[BR][BR]В прошлом этот предел, вы можете «забыть ваши компьютеры» связать новый компьютер на ваш счет.[BR][BR]Вы можете «забыть ваши компьютеры» до 2 раза на 6 месяцев." ForgetYourComputers="Забудьте ваши компьютеры" TooMuchReset="Вы достигли предела количества скидки до нуля за этот период." YouHaveToWait="Вы должны подождать {0} перед использованием этой функции." Days="дней" />
 </Dictionary>
