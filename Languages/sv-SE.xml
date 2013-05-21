@@ -59,12 +59,12 @@
   <Value Id="Z" Text="Z" />
   <Value Id="EditTitle" Text="Titel" />
   <Value Id="EditRuntime" Text="Speltid (hh:mm)" />
-  <Value Id="EditYear" Text="Sändes" />
-  <Value Id="EditSynopsis" Text="Synopsis" />
-  <Value Id="EditDirectors" Text="Regissörer" />
+  <Value Id="EditYear" Text="År" />
+  <Value Id="EditSynopsis" Text="Handling" />
+  <Value Id="EditDirectors" Text="Regissör/er" />
   <Value Id="EditActors" Text="Skådespelare" />
   <Value Id="EditAspectRatio" Text="Bildförhållande" />
-  <Value Id="EditExtension" Text="Container" />
+  <Value Id="EditExtension" Text="Format" />
   <Value Id="EditCodecVideo" Text="Video Codec" />
   <Value Id="EditFramerate" Text="FPS" />
   <Value Id="EditDefinition" Text="Definition" />
@@ -84,10 +84,10 @@
   <Value Id="MainScrapDetails" Content="Spårning av detaljer" />
   <Value Id="MainScrapPictures" Content="Spårning av bilder" />
   <Value Id="MainInfo" Text="{0} Film, {1} TV-Serier, {2} Episoder" />
-  <Value Id="MainToScrap" Text="{0} spårar" />
-  <Value Id="MainToCleanUp" Text="{0} rensar upp" />
+  <Value Id="MainToScrap" Text="{0} söker" />
+  <Value Id="MainToCleanUp" Text="{0} att rensa upp" />
   <Value Id="MainIsScanning" Text="Skannar : {0}" />
-  <Value Id="MainIsScraping" Text="Spårning : {0}" />
+  <Value Id="MainIsScraping" Text="Sökning : {0}" />
   <Value Id="MainIsAnalysing" Text="Analyserar : {0}" />
   <Value Id="MainIsDownloadingPicture" Text="Hämtar bilder : {0}" />
   <Value Id="MainDonate" Content="Donera !" />
@@ -109,7 +109,7 @@
   <Value Id="EditGroupOK" Content="Spara" />
   <Value Id="FrequentWords" Words="du;jag;till;den;en;och;att;det;av;mig" />
   <Value Id="EditBrowseFilename" Content="Bläddra" />
-  <Value Id="EditFilename" Text="Sökväg Media" />
+  <Value Id="EditFilename" Text="Sökväg" />
   <Value Id="EditSubTitle" Text="Undertexter" />
   <Value Id="EditGroupTitle" Text="Gruppnamn" />
   <Value Id="EditGroupChilds" Text="Medlemmar" />
@@ -180,8 +180,8 @@
   <Value Id="ScanMoviesFolders" Header="Skannar filmer" />
   <Value Id="ScanTVShowFolders" Header="Skannar serier" />
   <Value Id="ExportTypeView" Header="Typ av export" RegisterZappitiPlayerLabel="Har du en Zappiti Player?" RegisterZappitiPlayerButton="Aktivera nu!" RegisterZappitiPlayerSmallLabel="Genom att aktivera din Zappiti Player, kan du också exportera ditt musikbibliotek." ExportMusic="Exportera musik" Close="Stäng" />
-  <Value Id="FullExportType" Name="Komplett" Description="Hela samlingen har exporterats." />
-  <Value Id="IncrementalExportType" Name="Stegvis" Description="Bara de senaste ändringarna sedan senaste export, exporteras." />
+  <Value Id="FullExportType" Name="Komplett" Description="Exporterar hela samlingen." />
+  <Value Id="IncrementalExportType" Name="Senaste" Description="Bara de senaste ändringarna sedan senaste export, exporteras." />
   <Value Id="RescrapSelect" Content="Välj" />
   <Value Id="WizardFinish" Header="Konfigurering komplett" Body="Konfigurationen av Zappiti Media Center är klar." Close="Stäng" Back="&lt;&lt; Föregående" />
   <Value Id="WizardConfigureExportDevice" Header="Har du några enheter?" Body="Välj vilka enheter du äger:" Back="&lt;&lt; Föregående" Next="Nästa &gt;&gt;" Close="Stäng" />
@@ -195,7 +195,7 @@
   <Value Id="SubtitleRules" Never="Aldrig" AlwaysIfPossible="Alltid, om möjligt" IfPrimaryAudioNotFound="Endast om det önskade ljudspåret inte hittas" />
   <Value Id="CategoriesMenu" Action="Action" Sci-Fi="Sci-Fi" Adventure="Äventyr" War="Krig" Western="Western" History="Historia" Drama="Drama" Documentary="Dokumentär" Music="Musik" Romance="Romantik" Classic="Klassiker" Animation="Tecknat" Crime="Kriminalare" Thriller="Thriller" Horror="Skräck" Comedy="Komedi" Other="Övrigt" Fantasy="Fantasi" />
   <Value Id="MediaMenu" Video="FILM" Music="MUSIK" Photo="BILDER" />
-  <Value Id="FilterMenu" All="ALLT" Ongoing="LÖPANDE" Seen="SETT" Unseen="OSEDD" />
+  <Value Id="FilterMenu" All="ALLT" Ongoing="PÅGÅENDE" Seen="SETT" Unseen="OSEDD" />
   <Value Id="SetSeenStateTask" Header="Uppdatering sedda filmer." />
   <Value Id="HashTask" Header="Uppdaterar Hash-filer." />
   <Value Id="MovieControl" Runtime="DRIFSTID" Actors="SKÅDESPELARE" Directors="REGISSÖRER" ReleaseDate="RELEASEDATUM" />
