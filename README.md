@@ -1,4 +1,4 @@
-Translations for Zappiti coming version (v2.8.5)
+Translations for Zappiti coming version (v2.8.6)
 ===================
 
 Hi everyone,
@@ -11,3 +11,5 @@ This would be greatly appreciated.
 <h1>
 <a href="https://github.com/Zappiti/ZappitiTranslations/wiki">Click here to start !</a>
 </h1>
+
+I also add translation for Android app, in the Andoid folder.
