@@ -10,7 +10,7 @@
   <Value Id="SettingsUserName" Text="Login:" />
   <Value Id="SettingsUserPassword" Text="Password:" />
   <Value Id="MainScrapPicturesTvShow" Content="Immagine di sfondo" />
-  <Value Id="Export_XML" CreateGlobalizationCustomCommand="Generazione dei files" iPhoneItemExportCustomCommand="Generazione dei files iTunes" ConfigXmlGeneratorCommand="Esporta configurazione" MoviesXmlFileGeneratorCommand="Esporta i film" AbcXmlFileGeneratorCommand="Esporta base" TvShowsXmlFileGeneratorCommand="Esporta serie TV" CategoriesXmlFileGeneratorCommand="Esporta le categorie" RecentsXmlFileGeneratorCommand="Esporta file recenti" />
+  <Value Id="Export_XML" CreateGlobalizationCustomCommand="Generazione di un file di internazionalizzazione" iPhoneItemExportCustomCommand="Generazione dei files iTunes" ConfigXmlGeneratorCommand="Esporta configurazione" MoviesXmlFileGeneratorCommand="Esporta i film" AbcXmlFileGeneratorCommand="Esporta base" TvShowsXmlFileGeneratorCommand="Esporta serie TV" CategoriesXmlFileGeneratorCommand="Esporta le categorie" RecentsXmlFileGeneratorCommand="Esporta file recenti" />
   <Value Id="SettingsIsXmlExport" Text="XML predefinito" />
   <Value Id="SettingsTabExport" Header="Esportazione" />
   <Value Id="SettingsFolders" Text="Cartelle:" />
