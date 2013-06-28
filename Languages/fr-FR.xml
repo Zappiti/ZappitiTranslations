@@ -134,7 +134,7 @@
   <Value Id="EditGroupSortByName" Content="Trier par titre" />
   <Value Id="SelectPictureTabHeader" Folder="Jaquette" Background="Arrière plan" />
   <Value Id="SettingsTabFolders" Header="Dossiers" />
-  <Value Id="SettingsTabOthers" Header="Autres" SendErrorReport="Envoyer automatiquement un raport aux developpeurs lorsqu'une erreur se produit." Recents="Nombre de jour a prendre en compte dans les récents :" />
+  <Value Id="SettingsTabOthers" Header="Autres" SendErrorReport="Envoyer automatiquement un rapport aux developpeurs lorsqu'une erreur se produit." Recents="Nombre de jours à prendre en compte dans les récents :" />
   <Value Id="SettingsTabScrapers" Header="Scrapeurs" MovieScraper="Films :" MoviePictureScraper="Images de films :" TVShowScraper="Séries :" TVShowPictureScraper="Images de séries :" ScrapOnStarWindows="Lancer le scan des fichiers au lancement de l'application" SuppressAllAfterFirstExcludedWordFromTitle="Supprimer tous les caractères après le premier terme exclu trouvé" WordToExludeFromMovies="Termes à exclure des titres :" />
   <Value Id="SettingsTabExport" Header="Exportation" />
   <Value Id="GroupContextState" Seen="Vu" Ongoing="En cours" Unseen="Non vu" Stateless="Sans état" />
