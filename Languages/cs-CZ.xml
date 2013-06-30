@@ -63,10 +63,6 @@
   <Value Id="EditViewNotView" Text="Viditelný" />
   <Value Id="EditOK" Content="OK" />
   <Value Id="EditCancel" Content="Zrušit" />
-  <Value Id="MainHome" Content="Domů" />
-  <Value Id="MainSearchMedias" Content="Hledat" />
-  <Value Id="MainConfiguration" Content="Nastavení" />
-  <Value Id="MainScan" Content="Skener" />
   <Value Id="MainExport" ExportDune="Export Dune" ExportITunes="Export iTunes" Title="Export probíhá ..." ExportZappitiPlayer="Export Zappiti Player" />
   <Value Id="MainEdit" Content="Upravit" />
   <Value Id="MainScrapDetails" Content="Upravit popis" />
@@ -78,8 +74,6 @@
   <Value Id="MainIsScraping" Text="Upravování : {0}" />
   <Value Id="MainIsAnalysing" Text="Zjišťování : {0}" />
   <Value Id="MainIsDownloadingPicture" Text="Stahuji obrázek : {0}" />
-  <Value Id="MainDonate" Content="Přispějte!" />
-  <Value Id="MainAbout" Content="O programu" />
   <Value Id="SelectPictureChoose" Content="Vybrat" />
   <Value Id="SelectPictureBrowse" Content="Vybrat z pevného disku" />
   <Value Id="SelectPictureClose" Content="Zavřít" />
@@ -87,7 +81,6 @@
   <Value Id="CleanUpOK" Content="Vyčistit" />
   <Value Id="CleanUpClose" Content="Zavřít" />
   <Value Id="Splash" Content="Zavřít" />
-  <Value Id="DatabaseBadVersion" Text="Aktuální verze Zappiti nelze otevřít vybranou databázi. " />
   <Value Id="MessageBox" ConfigureSharePath="Děkujeme, že jste pro konfiguraci souboru exportu před pokračováním." NewReleaseAvailable="Nová verze je k dispozici!  Chcete stahovat {0} {1}?" DoYouWantToDeleteThisGroup="Opravdu chcete tuto položku smazat?" DeleteCategory="Opravdu chcete smazat tuto kategorii?" ResetCategories="Opravdu chcete obnovit všechny kategorie?" ResetMainMenu="Opravdu chcete obnovit všechny nabídky?" ResetABCMenu="Opravdu chcete obnovit všechna tlačítka?" ResetFilterMenu="Opravdu chcete obnovit všechny filtry?" DoYouWantToDeleteTheseGroup="Opravdu chcete odstranit tyto položky?" VersionExpired="Tato verze Zappiti na uplynula, ale nová verze je k dispozici! " AddFolder="Nemusíte přidat {0} konfiguraci. " CanStartDuneServer="Nelze spustit server. " DoYouWanToInstallMpcHd="Chcete nainstalovat Media Player Classic - HC?" DoYouWantToQuit="Procedury jsou stále ve vývoji.[br]Jste si jisti, že chcete ukončit vlastně je?" />
   <Value Id="MessageBoxCaption" NewReleaseAvailable="K dispozici je aktualizace" DoYouWantToDeleteThisGroup="Odstranění položky" DeleteCategory="Odstranění kategorii" ResetCategories="Obnovit kategorií" ResetMainMenu="Reset nabídek" ResetABCMenu="Obnovit tlačítka" DoYouWantToDeleteTheseGroup="Odstranění položky" VersionExpired="K dispozici je aktualizace" AddFolder="Přidejte umístění?" CanStartDuneServer="Chyba" DoYouWanToInstallMpcHd="Požadavky na software" DoYouWantToQuit="Současná léčba." />
   <Value Id="EditChannels" Text="Kanály" />
@@ -119,7 +112,6 @@
   <Value Id="EditCategoriesAdd" ToolTip="Přidat kategorii" />
   <Value Id="MainAddCategory" Content="Nová kategorie" />
   <Value Id="MoreMediaInfosRightClick" Text="Prosím klikněte pravým pro další možnosti..." />
-  <Value Id="DatabaseUpdating" Text="Aktualizace databáze ..." />
   <Value Id="EditGroupSortByName" Content="Třídit podle názvu" />
   <Value Id="SelectPictureTabHeader" Folder="Jacket" Background="Background" Picture="Nosil" />
   <Value Id="SettingsTabFolders" Header="Soubor" />
@@ -128,7 +120,7 @@
   <Value Id="EditSize" Text="Velikost" />
   <Value Id="Loading" Text="Nahrávám ..." />
   <Value Id="NoTitleFoundToScrap" Text="No corresponding film" />
-  <Value Id="Prepare_Application" Content="Nastavení aplikace" SettingsLoading="Nahrávání nastavení" ScanningAllFiles="Prohledávání souborů" DataBaseLoading="Nahrávání databáze" DataBaseCleanUp="Čištění databáze" EnablingFeatureBrowserEmulation="Povolení emulace funkčnost prohlížeče." />
+  <Value Id="Prepare_Application" Content="Nastavení aplikace" SettingsLoading="Nahrávání nastavení" ScanningAllFiles="Prohledávání souborů" DataBaseLoading="Nahrávání databáze" DataBaseCleanUp="Čištění databáze" EnablingFeatureBrowserEmulation="Povolení emulace funkčnost prohlížeče." Header="---" />
   <Value Id="SettingsTabValidation" Header="Validation" />
   <Value Id="Globalization_XML" homeconfig="Konfigurace" homeinfo="Informace" configlm="Spusťte Media" configipd="IP adresa" searchmovies="Film" searchactors="Herec" searchdirectors="Ředitel" abctitle="Všechny mé soubory" moviestitle="Filmy" showstitle="Série" recentstitle="Nedávný" categtitle="Kategorie" detailtitle="Podrobnosti" remoteplay="Doba na Duně ..." remotestop="No běží na čtení Duny ..." remoteback="Rewind ..." remotefwd="Rychlý posun vpřed ..." />
   <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune" />
@@ -214,4 +206,5 @@
   <Value Id="ResetDeviceList" Header="Zapomeňte na autorizovaný přístroj" Body="Vaše uživatelské jméno Zappiti může být spojena s 3 počítače.[BR][BR]Za toto omezení, můžete &quot;zapomenout počítače&quot; přidružit nový počítač na váš účet.[BR][BR]Můžete &quot;zapomenout počítače&quot; až 2 krát na 6 měsíců." ForgetYourComputers="Zapomeňte na počítače" TooMuchReset="Dosáhli jste limit počtu slevu na nulu pro toto období." YouHaveToWait="Musíte počkat {0} Před použitím této funkce." Days="dny" />
   <Value Id="SyncTask" Header="Probíhá synchronizace" DeleteCategoryTask="Odstranění kategorie" DeleteItemTask="Odstranění položky" DeletePersonTask="Odebrání osoby" UpdatePersonTask="Aktualizace osobu" UpdateMenuTask="Aktualizace nabídky" UpdateItemTask="Aktualizace položky" UpdateCategoriesTask="Aktualizace kategorií" ResetTask="Spuštění synchronizace" PutPictureTask="Odeslání obrázek" SaveSettingsTask="Uložení konfigurace" />
   <Value Id="EditAlbum" Header="Upravit album" DetailsAlbumGroupBox="Podrobnosti o albu" TitleAlbum="Název alba:" DetailsTrackGroupBox="Podrobnosti o trati" Style="Žánr (y):" Duration="Délka:" DetailsArtisteGroupBox="Umělec (s) na této trati" AddNewArtist="Vytvořit nový umělec" TitleTrack="Název:" AddOrRemove="Přidat / odstranit" RemoveTrack="Odstranit" RemoveArtist="Odstranit" />
+  <Value Id="MainWindow" Donate="Přispějte!" DatabaseUpdating="Aktualizace databáze ..." Home="Domů" Configuration="Nastavení" Scan="Skener" DatabaseBadVersion="Aktuální verze Zappiti nelze otevřít vybranou databázi. " SearchMedias="Hledat" Loading="Načítání" About="O programu" />
 </Dictionary>

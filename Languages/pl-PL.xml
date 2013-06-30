@@ -75,10 +75,6 @@
   <Value Id="EditViewNotView" Text="Widziany" />
   <Value Id="EditOK" Content="OK" />
   <Value Id="EditCancel" Content="Anuluj" />
-  <Value Id="MainHome" Content="Strona główna" />
-  <Value Id="MainConfiguration" Content="Ustawienia" />
-  <Value Id="MainSearchMedias" Content="Szukaj" />
-  <Value Id="MainScan" Content="Skanuj" />
   <Value Id="MainExport" ExportDune="Dune Export" ExportITunes="ITunes Export" Title="Eksportuj ..." ExportZappitiPlayer="Zappiti Player Export" />
   <Value Id="MainEdit" Content="Edytuj" />
   <Value Id="MainScrapDetails" Content="Pobierz Szczegóły" />
@@ -90,8 +86,6 @@
   <Value Id="MainIsScraping" Text="Pobieranie: {0}" />
   <Value Id="MainIsAnalysing" Text="Analizowanie: {0}" />
   <Value Id="MainIsDownloadingPicture" Text="Pobieranie zdjęć: {0}" />
-  <Value Id="MainDonate" Content="Darowizna !" />
-  <Value Id="MainAbout" Content="O Programie" />
   <Value Id="SelectPictureChoose" Content="Wybierz" />
   <Value Id="SelectPictureBrowse" Content="Dodaj plik" />
   <Value Id="SelectPictureClose" Content="Zamknij" />
@@ -99,7 +93,6 @@
   <Value Id="CleanUpOK" Content="Usunąć" />
   <Value Id="CleanUpClose" Content="Zamknąć" />
   <Value Id="Splash" Content="Zamknij" />
-  <Value Id="DatabaseBadVersion" Text="Ta wersja Zappiti nie może otworzyć istniejącą bazę danych. Spróbuj zainstalować nową wersję Zappiti." />
   <Value Id="MessageBox" ConfigureSharePath="Nie określono ścieżki do dysku lub folderu biblioteki filmu!" NewReleaseAvailable="Nowa wersja Zappiti jest dostępna do pobrania! Chcesz ją zainstalować {0} {1} ?" DoYouWantToDeleteThisGroup="Chcesz usunąć tą grupę?" DoYouWantToDeleteTheseGroup="Czy naprawdę chcesz usunąć te elementy?" DeleteCategory="Czy chcesz usunąć tę kategorię?" ResetCategories="Czy chcesz przywrócić wszystkie kategorie?" ResetMainMenu="Czy chcesz przywrócić wszystkie menu?" ResetABCMenu="Czy chcesz przywrócić wszystkie przyciski?" ResetFilterMenu="Czy chcesz przywrócić wszystkie filtry?" VersionExpired="Ta wersja Zappiti wygasła, ale nowa wersja jest dostępna! Chcesz pobrać?" AddFolder="Dodać folder {0} do kofiguracji?" CanStartDuneServer="Nie można uruchomić serwera. " DoYouWanToInstallMpcHd="Czy zainstalować Media Player Classic - HC ?" DoYouWantToQuit="Zabiegi są jeszcze w toku.[br]Czy na pewno chcesz zamknąć tak?" />
   <Value Id="MessageBoxCaption" NewReleaseAvailable="Nowa wersja dostępna do pobrania" DoYouWantToDeleteThisGroup="Chcesz usunąć tą grupę?" DoYouWantToDeleteTheseGroup="Chcesz usunąć te grupy?" DeleteCategory="Usuń kategorię" ResetCategories="Zresetuj kategorie" ResetMainMenu="Zresetuj menu" ResetABCMenu="Zresetuj przyciski" VersionExpired="Aktualizacja jest dostępna" AddFolder="Dodaj miejsce?" CanStartDuneServer="Błąd" DoYouWanToInstallMpcHd="Wymagane oprogramowanie" DoYouWantToQuit="Obecne sposoby leczenia." />
   <Value Id="EditChannels" Text="Ilość kanałów" />
@@ -131,7 +124,6 @@
   <Value Id="EditCategoriesAdd" ToolTip="Dodaj Kategorie" />
   <Value Id="MainAddCategory" Content="Nowa kategoria" />
   <Value Id="MoreMediaInfosRightClick" Text="Kliknij prawym przyciskiem myszy po więcej komend..." />
-  <Value Id="DatabaseUpdating" Text="Aktualizacja bazy danych ..." />
   <Value Id="EditGroupSortByName" Content="Sortuj według tytułu" />
   <Value Id="SelectPictureTabHeader" Folder="Okładka" Background="Tło" Picture="Nosił" />
   <Value Id="SettingsTabFolders" Header="Pliki" />
@@ -141,7 +133,7 @@
   <Value Id="EditSize" Text="Rozmiar" />
   <Value Id="Loading" Text="Ładowanie ..." />
   <Value Id="NoTitleFoundToScrap" Text="Brak odpowiadającego filmu" />
-  <Value Id="Prepare_Application" Content="Konfiguracja aplikacji" SettingsLoading="Ładowanie konfiguracji" ScanningAllFiles="Uruchom skanowanie plików" DataBaseLoading="Ładowanie bazy danych" DataBaseCleanUp="Czyszczenie bazy danych" EnablingFeatureBrowserEmulation="Włączenie funkcji emulacji przeglądarki." />
+  <Value Id="Prepare_Application" Content="Konfiguracja aplikacji" SettingsLoading="Ładowanie konfiguracji" ScanningAllFiles="Uruchom skanowanie plików" DataBaseLoading="Ładowanie bazy danych" DataBaseCleanUp="Czyszczenie bazy danych" EnablingFeatureBrowserEmulation="Włączenie funkcji emulacji przeglądarki." Header="---" />
   <Value Id="WizardWelcome" Body="Witamy.[br][br]Ten kreator pomoże Ci skonfigurować Zappiti.[br][br]Kliknij przycisk &quot;Powiedz, gdzie są moje pliki&quot; aby wskazać Zappiti miejsce twojich plików(Filmy, Seriale, Muzyka)." Close="Zamknij" Header="Kreator konfiguracji" AddFiles="Powiedz, gdzie są twoje pliki &gt;&gt;" />
   <Value Id="WizardAddLocalLocation" Name="Dodaj folder lokalny" Description="- Wewnętrzny dysk twardy tego komputera [br] - Zewnętrzny dysk twardy podłączony do USB / eSATA tego komputera [br] - Dysk twardy w stacji dokującej podłączony do tego komputera przez port USB / eSATA [br] - Drive Dune podłączony slave USB do tego komputera" Header="Foldery lokalne" Tips="Porady: Możesz podzielić się tymi plikami w sieci lokalnej lub mogą być dostępne bezpośrednio z Dune w przypadku podłaczenie urządzenia USB." Folders="Dyski lokalne / urządzeń USB" />
   <Value Id="WizardAddNetworkLocation" Name="Dodaj udostępniony folder sieciowy" Description="- Wewnętrzny dysk twardy sieci Dune [br] - Zewnętrzny dysk z Diuny sieciowej [br] - serwer NAS [br] - Inne zdalny komputer w sieci [br] - udostępniony folder sieciowy [br] - Twardy dysk" Header="Udostępnione foldery sieciowe, NAS ..." Tips="Porady: Możesz kupić USB, NAS, itp. na stronie HD LAND." Folders="Miejsca w sieci" />
@@ -214,4 +206,5 @@
   <Value Id="ResetDeviceList" Header="Zapomnij autoryzowane urządzenia" Body="Twoja nazwa użytkownika Zappiti może być przypisana maksymalnie do 3 komputerów.[BR][BR]Jeżeli twoja lista jest pełna a chcesz przypisać nowy komputer do twojej nazwy użytkownika, najpierw musisz &quot;zapomnieć&quot; któryś z wcześniej przypisanych komputerów.[BR][BR]Można &quot;zapomnieć komputer&quot; 2 razy na 6 miesięcy." ForgetYourComputers="Zapomnij komputery" TooMuchReset="Doszła do liczby granicznej zapomnień dla tego okresu." YouHaveToWait="Musisz czekać {0} przed użyciem tej funkcji." Days="dni" />
   <Value Id="SyncTask" Header="Synchronizacja w toku" DeleteCategoryTask="Usuwanie Kategoria" DeleteItemTask="Usuwanie elementu" DeletePersonTask="Usuwanie osoby" UpdatePersonTask="Aktualizacja osobę" UpdateMenuTask="Aktualizacja Menu" UpdateItemTask="Aktualizacja pozycji" UpdateCategoriesTask="Aktualizacja kategorii" ResetTask="Początek synchronizacji" PutPictureTask="Wysyłanie obrazu" SaveSettingsTask="Zapisywanie konfiguracji" />
   <Value Id="EditAlbum" Header="Edytuj album" DetailsAlbumGroupBox="Szczegóły dotyczące albumu" TitleAlbum="Tytuł albumu:" DetailsTrackGroupBox="Szczegó³y utworu" Style="Gatunku (s):" Duration="Długość:" DetailsArtisteGroupBox="Artysta (s) na ten utwór" AddNewArtist="Utwórz nowy artysta" TitleTrack="Tytuł:" AddOrRemove="Dodaj / Usuń" RemoveTrack="Usuń" RemoveArtist="Usuń" />
+  <Value Id="MainWindow" Donate="Darowizna !" DatabaseUpdating="Aktualizacja bazy danych ..." Home="Strona główna" Configuration="Ustawienia" Scan="Skanuj" DatabaseBadVersion="Ta wersja Zappiti nie może otworzyć istniejącą bazę danych. Spróbuj zainstalować nową wersję Zappiti." SearchMedias="Szukaj" Loading="Ładowanie" About="O Programie" />
 </Dictionary>

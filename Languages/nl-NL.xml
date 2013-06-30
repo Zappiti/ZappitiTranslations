@@ -75,10 +75,6 @@
   <Value Id="EditViewNotView" Text="Gezien" />
   <Value Id="EditOK" Content="OK" />
   <Value Id="EditCancel" Content="Annuleren" />
-  <Value Id="MainHome" Content="Home" />
-  <Value Id="MainSearchMedias" Content="Zoek" />
-  <Value Id="MainConfiguration" Content="Configuratie" />
-  <Value Id="MainScan" Content="Zoek" />
   <Value Id="MainExport" ExportDune="Export Dune" ExportITunes="Export iTunes" Title="Export huidige ..." ExportZappitiPlayer="Export Zappiti Player" />
   <Value Id="MainEdit" Content="Bewerken" />
   <Value Id="MainScrapDetails" Content="Info verzamelen" />
@@ -90,8 +86,6 @@
   <Value Id="MainIsScraping" Text="Verzamelen: {0}" />
   <Value Id="MainIsAnalysing" Text="Analyseren: {0}" />
   <Value Id="MainIsDownloadingPicture" Text="Downloaden plaatjes: {0}" />
-  <Value Id="MainDonate" Content="Doneer!" />
-  <Value Id="MainAbout" Content="Over" />
   <Value Id="SelectPictureChoose" Content="Kies" />
   <Value Id="SelectPictureBrowse" Content="Kies bestand" />
   <Value Id="SelectPictureClose" Content="Sluiten" />
@@ -99,7 +93,6 @@
   <Value Id="CleanUpOK" Content="Opschonen" />
   <Value Id="CleanUpClose" Content="Sluiten" />
   <Value Id="Splash" Content="Sluiten" />
-  <Value Id="DatabaseBadVersion" Text="Deze versie van Zappiti kan de geselecteerde database niet openen. Probeer een nieuwere versie van Zappiti." />
   <Value Id="MessageBox" ConfigureSharePath="Configureer het share pad om verder te gaan." NewReleaseAvailable="Een nieuwe versie is beschikbaar! Nu downloaden {0} {1}?" DoYouWantToDeleteThisGroup="Dit onderdeel echt verwijderen?" DoYouWantToDeleteTheseGroup="Deze onderdelen echt verwijderen?" DeleteCategory="Wilt u deze categorie verwijderen?" ResetCategories="Wilt u alle categorieën resetten?" ResetMainMenu="Wilt u alle menu's opnieuw instellen?" ResetABCMenu="Wilt u alle knoppen resetten?" ResetFilterMenu="Wilt u alle filters resetten?" VersionExpired="Deze versie van Zappiti is verlopen, maar een nieuwe versie is beschikbaar! Wilt u deze downloaden?" AddFolder="De map {0} is nog niet toegevoegd aan uw configuratie. Nu toevoegen?" CanStartDuneServer="Server kan niet worden gestart." DoYouWanToInstallMpcHd="Wilt u Media Player Classic - Home Cinema installeren?" DoYouWantToQuit="Behandelingen zijn nog in volle gang.[br]Weet u zeker dat u wilt toch afsluiten?" />
   <Value Id="MessageBoxCaption" NewReleaseAvailable="Nieuwe versie beschikbaar" DoYouWantToDeleteThisGroup="Item verwijderen" DoYouWantToDeleteTheseGroup="Items verwijderen" DeleteCategory="Verwijder categorie" ResetCategories="Reset categorieën" ResetMainMenu="Reset menu's" ResetABCMenu="Reset knoppen" VersionExpired="Update beschikbaar" AddFolder="Map toevoegen?" CanStartDuneServer="Fout" DoYouWanToInstallMpcHd="Vereiste software" DoYouWantToQuit="Huidige behandelingen." />
   <Value Id="EditChannels" Text="Kanalen" />
@@ -131,7 +124,6 @@
   <Value Id="EditCategoriesAdd" ToolTip="Categorie toevoegen" />
   <Value Id="MainAddCategory" Content="Nieuwe categorie" />
   <Value Id="MoreMediaInfosRightClick" Text="Klik met rechtermuisknop voor meer opties..." />
-  <Value Id="DatabaseUpdating" Text="Database bijwerken..." />
   <Value Id="EditGroupSortByName" Content="Sorteer op titel" />
   <Value Id="SelectPictureTabHeader" Folder="Cover" Background="Achtergrond" Picture="Droeg" />
   <Value Id="SettingsTabFolders" Header="Bestanden" />
@@ -141,7 +133,7 @@
   <Value Id="EditSize" Text="Grootte" />
   <Value Id="Loading" Text="Laden ..." />
   <Value Id="NoTitleFoundToScrap" Text="Film niet gevonden" />
-  <Value Id="Prepare_Application" Content="Configuratie laden" SettingsLoading="Configuratie laden" ScanningAllFiles="Scannen van bestanden" DataBaseLoading="Database laden" DataBaseCleanUp="Database opschonen" EnablingFeatureBrowserEmulation="Emulatiefunctie van browser inschakelen." />
+  <Value Id="Prepare_Application" Content="Configuratie laden" SettingsLoading="Configuratie laden" ScanningAllFiles="Scannen van bestanden" DataBaseLoading="Database laden" DataBaseCleanUp="Database opschonen" EnablingFeatureBrowserEmulation="Emulatiefunctie van browser inschakelen." Header="---" />
   <Value Id="WizardWelcome" Body="Hartelijk welkom.[br][br]Deze wizard helpt u bij het configureren van Zappiti.[br][br]Klik op de knop &quot;Waar zijn uw bestanden&quot; om ons te vertellen waar uw bestanden." Close="Sluiten" Header="Setup Wizard" AddFiles="Waar zijn uw bestanden &gt;&gt;" />
   <Value Id="WizardAddLocalLocation" Name="Lokale map toevoegen" Description="[br]- Interne harde schijf van deze computer [br]- Externe harde schijf (USB/eSATA) van deze computer [br]- Externe harde schijf in een docking station[br]- Dune schijf, via USB (tijdelijk) rechtstreeks verbonden[br] " Header="Lokale mappen" Tips="Om lokaal opgeslagen mediabestanden met uw Dune af te kunnen spelen, moet u ze delen in het netwerk of een externe USB/eSATA disk rechtstreeks aan de Dune aansluiten!" Folders="Lokale schijven / USB apparaten" />
   <Value Id="WizardAddNetworkLocation" Name="Netwerkmap toevoegen" Description="[br]- Dune schijf, via het netwerk verbonden[br]- Netwerkschijf of NAS server[br]- Andere computer in het netwerk[br] " Header="Netwerkmappen, NAS ..." Tips="Tips: U kunt USB, NAS, etc. aanschaffen via de site van hdland.fr" Folders="Netwerkmappen" />
@@ -214,4 +206,5 @@
   <Value Id="ResetDeviceList" Header="Vergeet uw geautoriseerde apparaten" Body="De gebruikersnaam van uw Zappiti kan worden geassocieerd met 3 computers.[BR][BR]Langs deze limiet, kunt u &quot;Vergeet uw computers&quot; koppelen nieuwe computer aan uw account.[BR][BR]U kunt &quot;vergeten uw computers&quot; tot 2 keer op 6 maanden." ForgetYourComputers="Vergeet uw computers" TooMuchReset="U hebt het maximum aantal korting bereikt tot nul voor die periode." YouHaveToWait="Je moet wachten {0} voordat u deze functie gebruikt." Days="dagen" />
   <Value Id="SyncTask" Header="Synchronisatie in uitvoering" DeleteCategoryTask="Een categorie verwijderen" DeleteItemTask="Verwijderen van een item" DeletePersonTask="Het verwijderen van een persoon" UpdatePersonTask="Een persoon bijwerken" UpdateMenuTask="Een menu bijwerken" UpdateItemTask="Een item updaten" UpdateCategoriesTask="Categorieën bijwerken" ResetTask="Starten van de synchronisatie" PutPictureTask="Het verzenden van een afbeelding" SaveSettingsTask="De configuratie op te slaan" />
   <Value Id="EditAlbum" Header="Album bewerken" DetailsAlbumGroupBox="Details van het album" TitleAlbum="Album title:" DetailsTrackGroupBox="Details van de track" Style="Genre (s):" Duration="Lengte:" DetailsArtisteGroupBox="Kunstenaar (s) op deze track" AddNewArtist="Maak een nieuwe artiest" TitleTrack="Titel:" AddOrRemove="Toevoegen / verwijderen" RemoveTrack="Verwijderen" RemoveArtist="Verwijderen" />
+  <Value Id="MainWindow" Donate="Doneer!" DatabaseUpdating="Database bijwerken..." Home="Home" Configuration="Configuratie" Scan="Zoek" DatabaseBadVersion="Deze versie van Zappiti kan de geselecteerde database niet openen. Probeer een nieuwere versie van Zappiti." SearchMedias="Zoek" Loading="Laden" About="Over" />
 </Dictionary>

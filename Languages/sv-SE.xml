@@ -75,10 +75,6 @@
   <Value Id="EditViewNotView" Text="Sedd" />
   <Value Id="EditOK" Content="OK" />
   <Value Id="EditCancel" Content="Avbryt" />
-  <Value Id="MainHome" Content="Hem" />
-  <Value Id="MainSearchMedias" Content="Sök" />
-  <Value Id="MainConfiguration" Content="Anpassa" />
-  <Value Id="MainScan" Content="Skannar" />
   <Value Id="MainExport" ExportDune="Exportera Dune" ExportITunes="Exportera iTunes" Title="Exporterar ..." ExportZappitiPlayer="Exportera Zappiti Player" />
   <Value Id="MainEdit" Content="Editera" />
   <Value Id="MainScrapDetails" Content="Spårning av detaljer" />
@@ -90,8 +86,6 @@
   <Value Id="MainIsScraping" Text="Sökning : {0}" />
   <Value Id="MainIsAnalysing" Text="Analyserar : {0}" />
   <Value Id="MainIsDownloadingPicture" Text="Hämtar bilder : {0}" />
-  <Value Id="MainDonate" Content="Donera !" />
-  <Value Id="MainAbout" Content="Om" />
   <Value Id="SelectPictureChoose" Content="Välj" />
   <Value Id="SelectPictureBrowse" Content="Välj fil" />
   <Value Id="SelectPictureClose" Content="Stäng" />
@@ -99,7 +93,6 @@
   <Value Id="CleanUpOK" Content="Rensa upp" />
   <Value Id="CleanUpClose" Content="Stäng" />
   <Value Id="Splash" Content="Stäng" />
-  <Value Id="DatabaseBadVersion" Text="Den nuvarande versionen av Zappiti kan inte öppna den valda databasen. Prova en nyare version av Zappiti." />
   <Value Id="MessageBox" ConfigureSharePath="Konfigurera sökvägen, för att fortsätta." NewReleaseAvailable="En ny version finns tillgänglig! Vill du ladda ner {0} {1} ?" DoYouWantToDeleteThisGroup="Vill du verkligen radera denna?" DoYouWantToDeleteTheseGroup="Vill du verkligen radera dessa?" DeleteCategory="Vill du verkligen radera denna kategori?" ResetCategories="Vill du återställa alla kategorier?" ResetMainMenu="Vill du återställa alla menyer?" ResetABCMenu="Vill du återställa alla knappar?" ResetFilterMenu="Vill du återställa alla filter ?" VersionExpired="Denna version av Zappiti är för gammal, men en ny version finns tillgänglig! Vill du ladda ner?" AddFolder="Lägg till mapp {0} till konfigurationen?" CanStartDuneServer="Kan inte starta servern. Vänligen försök med en annan port." DoYouWanToInstallMpcHd="Vill du installera Media Player Classic - Home Cinema?" DoYouWantToQuit="Behandlingar pågår fortfarande.[br]Är du säker på att du vill avsluta ändå?" />
   <Value Id="MessageBoxCaption" NewReleaseAvailable="Uppdatering tillgänglig" DoYouWantToDeleteThisGroup="Ta bort objekt" DoYouWantToDeleteTheseGroup="Ta bort objekten" DeleteCategory="Ta bort en kategori" ResetCategories="Återställ Kategorier" ResetMainMenu="Återställ menyer" ResetABCMenu="Återställ knappar" VersionExpired="Uppdatering tillgänglig" AddFolder="Lägga till mappen?" CanStartDuneServer="Fel" DoYouWanToInstallMpcHd="Programvarukrav" DoYouWantToQuit="Nuvarande behandlingar." />
   <Value Id="EditChannels" Text="Kanaler" />
@@ -131,7 +124,6 @@
   <Value Id="EditCategoriesAdd" ToolTip="Lägg till kategori" />
   <Value Id="MainAddCategory" Content="Ny kategori" />
   <Value Id="MoreMediaInfosRightClick" Text="Högerklicka för fler kommandon ..." />
-  <Value Id="DatabaseUpdating" Text="Uppdaterar databasen ..." />
   <Value Id="EditGroupSortByName" Content="Sortera efter titel" />
   <Value Id="SelectPictureTabHeader" Folder="Omslag framsida" Background="Omslag baksida" Picture="Bar" />
   <Value Id="SettingsTabFolders" Header="Filer" />
@@ -141,7 +133,7 @@
   <Value Id="EditSize" Text="Storlek" />
   <Value Id="Loading" Text="Laddar ..." />
   <Value Id="NoTitleFoundToScrap" Text="Hittar inte filmtitel" />
-  <Value Id="Prepare_Application" Content="Hämta inställningar" SettingsLoading="Laddar konfigurationen" ScanningAllFiles="Scannar filerna" DataBaseLoading="Laddar databasen" DataBaseCleanUp="Rensar databasen" EnablingFeatureBrowserEmulation="Aktivera funktionen webbläsare emulering." />
+  <Value Id="Prepare_Application" Content="Hämta inställningar" SettingsLoading="Laddar konfigurationen" ScanningAllFiles="Scannar filerna" DataBaseLoading="Laddar databasen" DataBaseCleanUp="Rensar databasen" EnablingFeatureBrowserEmulation="Aktivera funktionen webbläsare emulering." Header="---" />
   <Value Id="WizardWelcome" Body="Välkommen.[br][br] Den här guiden hjälper dig att konfigurera Zappiti.[br][br]Klicka på &quot;Var är mina filer&quot; för att visa Zappiti var dina mediafiler är (Filmer, TV-serier, Musik)." Close="Stäng" Header="&quot;Setup&quot; guiden" AddFiles="Var är mina filer &gt;&gt;" />
   <Value Id="WizardAddLocalLocation" Name="Lägg till en lokal mapp" Description="- Intern hårddisk på den här datorn [br] - Extern hårddisk ansluten till USB / eSATA på den här datorn [br] - Hårddisk i en dockningsstation ansluten till den här datorn via USB / eSATA [br] - Dune Drive ansluten via USB Slave till denna dator" Header="Lokala Mappar" Tips="Tips: Du kan välja att dela dessa filer i ditt lokala nätverk, eller så kan de nås direkt med en USB-enhet via Dune." Folders="Lokala enheter / USB-enheter" />
   <Value Id="WizardAddNetworkLocation" Name="Lägga till en delad nätverksmapp" Description="- Intern hårddisk i nätverksanslutna Dune [br] - Extern hårddisk på nätverksanslutna Dune [br] - NAS server [br] - Andra fjärrdatorer på nätverket [br] - delad mapp i nätverket [br] - nätverkshårddisk" Header="Delade mappar på nätverket, NAS ..." Tips="Tips: Du kan köpa USB, NAS, etc. på HD LAND´s hemsida." Folders="Nätverksplatser" />
@@ -214,4 +206,5 @@
   <Value Id="ResetDeviceList" Header="Glöm dina auktoriserade enheter" Body="Användarnamn Zappiti kan associeras med 3 datorer.[BR][BR]Förbi denna gräns, kan du &quot;glömma dina datorer&quot; associera ny dator till ditt konto.[BR][BR]Du kan &quot;glömma dina datorer&quot; upp till 2 gånger på 6 månader." ForgetYourComputers="Glöm dina datorer" TooMuchReset="Du har nått gränsen antalet rabatten till noll för den perioden." YouHaveToWait="Du måste vänta {0} innan du använder denna funktion." Days="dagar" />
   <Value Id="SyncTask" Header="Synkronisering pågår" DeleteCategoryTask="Ta bort en kategori" DeleteItemTask="Ta bort ett objekt" DeletePersonTask="Ta bort en person" UpdatePersonTask="Uppdaterar en person" UpdateMenuTask="Uppdatera en meny" UpdateItemTask="Uppdaterar ett objekt" UpdateCategoriesTask="Uppdatering kategorier" ResetTask="Starta synkronisering" PutPictureTask="Skickar en bild" SaveSettingsTask="Spara konfigurationen" />
   <Value Id="EditAlbum" Header="Redigera album" DetailsAlbumGroupBox="Detaljer för albumet" TitleAlbum="Album title:" DetailsTrackGroupBox="Detaljer för spåret" Style="Genre (s):" Duration="Längd:" DetailsArtisteGroupBox="Artist (s) på denna låt" AddNewArtist="Skapa en ny artist" TitleTrack="Titel:" AddOrRemove="Lägg till / ta bort" RemoveTrack="Ta bort" RemoveArtist="Ta bort" />
+  <Value Id="MainWindow" Donate="Donera !" DatabaseUpdating="Uppdaterar databasen ..." Home="Hem" Configuration="Anpassa" Scan="Skannar" DatabaseBadVersion="Den nuvarande versionen av Zappiti kan inte öppna den valda databasen. Prova en nyare version av Zappiti." SearchMedias="Sök" Loading="Lastning" About="Om" />
 </Dictionary>

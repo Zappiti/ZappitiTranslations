@@ -75,8 +75,6 @@
   <Value Id="EditViewNotView" Text="Просмотрен" />
   <Value Id="EditOK" Content="OK" />
   <Value Id="EditCancel" Content="Отмена" />
-  <Value Id="MainConfiguration" Content="Настройки" />
-  <Value Id="MainScan" Content="Поиск фильмов" />
   <Value Id="MainExport" ExportDune="Dune" ExportITunes="iTunes" Title="Экспорт ..." ExportZappitiPlayer="Zappiti Player" />
   <Value Id="MainEdit" Content="Описание" />
   <Value Id="MainScrapDetails" Content="Привязка данных" />
@@ -88,8 +86,6 @@
   <Value Id="MainIsScraping" Text="Описания: {0}" />
   <Value Id="MainIsAnalysing" Text="Анализ: {0}" />
   <Value Id="MainIsDownloadingPicture" Text="Загрузка изображений: {0}" />
-  <Value Id="MainDonate" Content="Добровольное пожертвование !" />
-  <Value Id="MainAbout" Content="О проекте" />
   <Value Id="SelectPictureChoose" Content="Добавить выделенное" />
   <Value Id="SelectPictureBrowse" Content="Добавить с жёсткого диска" />
   <Value Id="SelectPictureClose" Content="Закрыть" />
@@ -97,7 +93,6 @@
   <Value Id="CleanUpOK" Content="Удалить" />
   <Value Id="CleanUpClose" Content="Закрыть" />
   <Value Id="Splash" Content="Закрыть" />
-  <Value Id="DatabaseBadVersion" Text="Данная версия Zappiti не может открыть выбранную базу данных. Попробуйте установить новую версию Zappiti." />
   <Value Id="MessageBox" ConfigureSharePath="Вы не указали путь к диску или папке фильмотеки !" NewReleaseAvailable="Новая версия Zappiti доступна для скачивания ! Хотите установить новую версию {0} {1} ?" DoYouWantToDeleteThisGroup="Удалить данный раздел?" DoYouWantToDeleteTheseGroup="Вы действительно хотите удалить эти элементы?" DeleteCategory="Вы хотите удалить эту категорию?" ResetCategories="Вы хотите сбросить все категории?" ResetMainMenu="Вы хотите сбросить все меню?" ResetABCMenu="Вы хотите сбросить все кнопки?" ResetFilterMenu="Вы хотите сбросить все фильтры?" VersionExpired="Срок этой версия Zappiti истек, но есть новая версия! Хотите скачать?" AddFolder="Добавить директорию {0} в конфигурацию?" CanStartDuneServer="Не удалось запустить сервер. " DoYouWanToInstallMpcHd="Хотите установить Media Player Classic - HC ?" DoYouWantToQuit="Лечения все еще в стадии разработки.[br]Вы уверены, что хотите выйти?" />
   <Value Id="MessageBoxCaption" NewReleaseAvailable="Новая версия доступна для скачивания" DoYouWantToDeleteThisGroup="Удалить раздел" DoYouWantToDeleteTheseGroup="Удалить элементы" DeleteCategory="Удалить категории" ResetCategories="Сброс Категории" ResetMainMenu="Сброс меню" ResetABCMenu="Сброс кнопок" VersionExpired="Доступно обновление" AddFolder="Добавить местоположение?" CanStartDuneServer="ОШИБКА" DoYouWanToInstallMpcHd="Необходимое программное обеспечение" DoYouWantToQuit="Современные методы лечения." />
   <Value Id="EditChannels" Text="Каналы" />
@@ -129,7 +124,6 @@
   <Value Id="EditCategoriesAdd" ToolTip="Добавить категорию/жанр" />
   <Value Id="MainAddCategory" Content="Новая категория" />
   <Value Id="MoreMediaInfosRightClick" Text="Нажмите правую кнопку мыши для редактирования" />
-  <Value Id="DatabaseUpdating" Text="Обновление базы данных ..." />
   <Value Id="EditGroupSortByName" Content="Отсортировать по названию" />
   <Value Id="SelectPictureTabHeader" Folder="Обложка" Background="Фон" Picture="Носил" />
   <Value Id="SettingsTabFolders" Header="Папки и Файлы" />
@@ -140,9 +134,7 @@
   <Value Id="RescrapSelect" Content="Выбрать" />
   <Value Id="Loading" Text="Загрузка ..." />
   <Value Id="NoTitleFoundToScrap" Text="Нет соответствующего фильма" />
-  <Value Id="Prepare_Application" Content="Настройка приложения" SettingsLoading="Загрузка конфигурации" ScanningAllFiles="Запуск сканирования файлов" DataBaseLoading="Загрузка базы данных" DataBaseCleanUp="Очистка базы данных" EnablingFeatureBrowserEmulation="Включение эмуляции функциональности браузера." />
-  <Value Id="MainHome" Content="Главная" />
-  <Value Id="MainSearchMedias" Content="Поиск" />
+  <Value Id="Prepare_Application" Content="Настройка приложения" SettingsLoading="Загрузка конфигурации" ScanningAllFiles="Запуск сканирования файлов" DataBaseLoading="Загрузка базы данных" DataBaseCleanUp="Очистка базы данных" EnablingFeatureBrowserEmulation="Включение эмуляции функциональности браузера." Header="---" />
   <Value Id="FolderDataTemplate" Edit="Изменить" Delete="Удалить" />
   <Value Id="WizardWelcome" Body="Добро пожаловать.[br][br]Этот мастер поможет вам настроить Zappiti.[br][br]Нажмите кнопку &quot;Скажите где мои файлы&quot;, чтобы сказать нам, где ваши файлы." Close="Закрыть" Header="Мастер установки" AddFiles="Скажите где мои файлы &gt;&gt;" />
   <Value Id="WizardAddLocalLocation" Name="Добавить локальную папку" Description="Жесткий диск на этом компьютере" Header="Локальные папки" Tips="Советы: локальные папки, которые вы выбираете будут использованы в вашей локальной сети." Folders="Локальные диски" />
@@ -215,4 +207,5 @@
   <Value Id="ResetDeviceList" Header="Забудьте авторизованным устройствам" Body="Ваше имя пользователя Zappiti может быть связан с 3 компьютерами.[BR][BR]В прошлом этот предел, вы можете «забыть ваши компьютеры» связать новый компьютер на ваш счет.[BR][BR]Вы можете «забыть ваши компьютеры» до 2 раза на 6 месяцев." ForgetYourComputers="Забудьте ваши компьютеры" TooMuchReset="Вы достигли предела количества скидки до нуля за этот период." YouHaveToWait="Вы должны подождать {0} перед использованием этой функции." Days="дней" />
   <Value Id="SyncTask" Header="Выполняется синхронизация" DeleteCategoryTask="Удаление категории" DeleteItemTask="Удаление элемента" DeletePersonTask="Удаление человека" UpdatePersonTask="Обновление человек" UpdateMenuTask="Обновление меню" UpdateItemTask="Обновление пункта" UpdateCategoriesTask="Обновление категорий" ResetTask="Начало синхронизации" PutPictureTask="Передача изображения" SaveSettingsTask="Сохранение конфигурации" />
   <Value Id="EditAlbum" Header="Редактировать альбом" DetailsAlbumGroupBox="Детали альбома" TitleAlbum="Название альбома:" DetailsTrackGroupBox="Подробная информация о треке" Style="Жанр (ы):" Duration="Длина:" DetailsArtisteGroupBox="Художник (s) на этот трек" AddNewArtist="Создайте новый художник" TitleTrack="Название:" AddOrRemove="Добавить / удалить" RemoveTrack="Удалить" RemoveArtist="Удалить" />
+  <Value Id="MainWindow" Donate="Добровольное пожертвование !" DatabaseUpdating="Обновление базы данных ..." Home="Главная" Configuration="Настройки" Scan="Поиск фильмов" DatabaseBadVersion="Данная версия Zappiti не может открыть выбранную базу данных. Попробуйте установить новую версию Zappiti." SearchMedias="Поиск" Loading="Загрузка" About="О проекте" />
 </Dictionary>
