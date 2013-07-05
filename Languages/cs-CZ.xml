@@ -120,7 +120,7 @@
   <Value Id="EditSize" Text="Velikost" />
   <Value Id="Loading" Text="Nahrávám ..." />
   <Value Id="NoTitleFoundToScrap" Text="No corresponding film" />
-  <Value Id="Prepare_Application" Content="Nastavení aplikace" SettingsLoading="Nahrávání nastavení" ScanningAllFiles="Prohledávání souborů" DataBaseLoading="Nahrávání databáze" DataBaseCleanUp="Čištění databáze" EnablingFeatureBrowserEmulation="Povolení emulace funkčnost prohlížeče." Header="---" />
+  <Value Id="Prepare_Application" Content="Nastavení aplikace" SettingsLoading="Nahrávání nastavení" ScanningAllFiles="Prohledávání souborů" DataBaseLoading="Nahrávání databáze" DataBaseCleanUp="Čištění databáze" EnablingFeatureBrowserEmulation="Povolení emulace funkčnost prohlížeče" Header="---" SigningIn="Připojení" />
   <Value Id="SettingsTabValidation" Header="Validation" />
   <Value Id="Globalization_XML" homeconfig="Konfigurace" homeinfo="Informace" configlm="Spusťte Media" configipd="IP adresa" searchmovies="Film" searchactors="Herec" searchdirectors="Ředitel" abctitle="Všechny mé soubory" moviestitle="Filmy" showstitle="Série" recentstitle="Nedávný" categtitle="Kategorie" detailtitle="Podrobnosti" remoteplay="Doba na Duně ..." remotestop="No běží na čtení Duny ..." remoteback="Rewind ..." remotefwd="Rychlý posun vpřed ..." />
   <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune" />
@@ -193,7 +193,7 @@
   <Value Id="MovieControl" Runtime="DÉLKA" Actors="HRAJÍ" Directors="REŽISÉR" ReleaseDate="ROK" />
   <Value Id="TVEpisodeControl" Actors="HRAJÍ" Directors="REŽISÉR" ReleaseDate="ROK" Runtime="DÉLKA" />
   <Value Id="MarketView" Close="Zavřít" />
-  <Value Id="Shared" Browse="Hledat" />
+  <Value Id="Shared" Browse="Hledat" Remove="Odstranit" Add="Přidat" />
   <Value Id="MarketPopup" DoNotShow="Nezobrazovat při spuštění." />
   <Value Id="VideoMenu" ABC="VŠE" Movies="FILMY" TVShows="TV SHOWS" Recents="AKTUÁLNÍ" Categories="KATEGORIE" />
   <Value Id="MusicMenu" Titles="TITULY" Albums="ALBA" Artists="UMĚLCI" Recents="AKTUÁLNÍ" Genres="TYPY" Playlists="PLAYLISTS" />
@@ -205,6 +205,6 @@
   <Value Id="SignIn" HeaderSignIn="Přihlášení" HeaderRegister="Vytvořit účet" Email="E-mail" Password="Heslo" RepeatPassword="Zopakujte heslo" Firstname="Křestní jméno" Lastname="Název" AlreadyRegistered="Přihlásit mě teď" NewUser="Vytvořit účet" SignIn="Přihlášení" Register="Registrovat" BadCredential="E-mail nebo heslo je neplatné" DuplicateEmail="Existuje již účet spojeny s tímto e-mailem." RegistrationError="Nelze vytvořit účet pro tuto chvíli." NewUserText="Nemusíte Zappiti účet?" AlreadyRegisteredText="Máte již účet Zappiti?" UnableToConnect="Váš účet není přístupný?" Reset="Ano, chci vytvořit nové heslo" ResetInfo="Zadejte e-mail v následujících oblastech uvedených. " HeaderResetPassword="Obnovit heslo" ResetEmailSent="Zkontrolujte svůj e-mail a klikněte na odkaz vám zašleme změnit heslo." ResetEmailNotSent="Nelze resetovat heslo, děkuji ověřit, že e-mail je správné." BadLicence="Nelze načíst podrobnosti účtu." CheckYourConnection="Nelze se připojit k Internetu." />
   <Value Id="ResetDeviceList" Header="Zapomeňte na autorizovaný přístroj" Body="Vaše uživatelské jméno Zappiti může být spojena s 3 počítače.[BR][BR]Za toto omezení, můžete &quot;zapomenout počítače&quot; přidružit nový počítač na váš účet.[BR][BR]Můžete &quot;zapomenout počítače&quot; až 2 krát na 6 měsíců." ForgetYourComputers="Zapomeňte na počítače" TooMuchReset="Dosáhli jste limit počtu slevu na nulu pro toto období." YouHaveToWait="Musíte počkat {0} Před použitím této funkce." Days="dny" />
   <Value Id="SyncTask" Header="Probíhá synchronizace" DeleteCategoryTask="Odstranění kategorie" DeleteItemTask="Odstranění položky" DeletePersonTask="Odebrání osoby" UpdatePersonTask="Aktualizace osobu" UpdateMenuTask="Aktualizace nabídky" UpdateItemTask="Aktualizace položky" UpdateCategoriesTask="Aktualizace kategorií" ResetTask="Spuštění synchronizace" PutPictureTask="Odeslání obrázek" SaveSettingsTask="Uložení konfigurace" />
-  <Value Id="EditAlbum" Header="Upravit album" DetailsAlbumGroupBox="Podrobnosti o albu" TitleAlbum="Název alba:" DetailsTrackGroupBox="Podrobnosti o trati" Style="Žánr (y):" Duration="Délka:" DetailsArtisteGroupBox="Umělec (s) na této trati" AddNewArtist="Vytvořit nový umělec" TitleTrack="Název:" AddOrRemove="Přidat / odstranit" RemoveTrack="Odstranit" RemoveArtist="Odstranit" />
+  <Value Id="EditAlbum" Header="Upravit album" DetailsAlbumGroupBox="Podrobnosti o albu" DetailsStyleGroupBox="Druhy této trati" TitleAlbum="Název alba:" DetailsTrackGroupBox="Podrobnosti o trati" Duration="Délka:" DetailsArtisteGroupBox="Umělci na této trati" AddNewArtist="Vytvořit nový umělec" TitleTrack="Název:" />
   <Value Id="MainWindow" Donate="Přispějte!" DatabaseUpdating="Aktualizace databáze ..." Home="Domů" Configuration="Nastavení" Scan="Skener" DatabaseBadVersion="Aktuální verze Zappiti nelze otevřít vybranou databázi. " SearchMedias="Hledat" Loading="Načítání" About="O programu" />
 </Dictionary>
