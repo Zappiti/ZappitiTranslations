@@ -23,10 +23,6 @@
   <Value Id="SettingsFolderPath" Text="Ruta de la carpeta :" />
   <Value Id="SettingsZappitiDataPath" Text="Carpeta de configuración :" />
   <Value Id="SettingsRewriteAbsolutePath" Text="Sobreescribe la ruta absoluta cuando se exporta :" />
-  <Value Id="UnscrapedScrap" Content="Rastrear" />
-  <Value Id="UnscrapedScrapAll" Content="Rastrear todo" />
-  <Value Id="UnscrapedDefault" Content="Por defecto" />
-  <Value Id="UnscrapedClose" Content="Cerrar" />
   <Value Id="SelectMediaInResultsOK" Content="OK" />
   <Value Id="SelectMediaInResultsCancel" Content="Cancelar" />
   <Value Id="All" Text="Todo" />
@@ -160,7 +156,7 @@
   <Value Id="DeleteVcdSetupTask" Header="Eliminar el instalador VirtualCloneDrive" />
   <Value Id="MountTask" Header="Montando la imagen de disco" />
   <Value Id="MountCheckTask" Header="Esperando al disco virtual" />
-  <Value Id="UnscrapedView" Filename="Fichero" Directory="Directorio" State="Estado" Title="Ficheros a rastrear" />
+  <Value Id="UnscrapedView" Filename="Fichero" Directory="Directorio" State="Estado" Title="Ficheros a rastrear" Close="Cerrar" ManualScrap="De forma predeterminada" Scrap="Rastrear" ScrapAll="Rastrear todo" ScrapById="Por Id" ScrapByTitle="Por título" />
   <Value Id="FirstInitFromMovieNfoTask" Header="Inicialización de la información de una película" />
   <Value Id="UpdateMainViewModelTask" Header="Actualizando videos" />
   <Value Id="MediaToDeleteTask" Header="Buscar ficheros que no ya no existan" />

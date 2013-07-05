@@ -23,10 +23,6 @@
   <Value Id="SettingsFolderPath" Text="Percorso:" />
   <Value Id="SettingsZappitiDataPath" Text="Cartella configurazione:" />
   <Value Id="SettingsRewriteAbsolutePath" Text="Riscrivere il percorso completo per l'esportazione:" />
-  <Value Id="UnscrapedScrap" Content="Scansiona" />
-  <Value Id="UnscrapedScrapAll" Content="Scansiona tutto" />
-  <Value Id="UnscrapedDefault" Content="Default" />
-  <Value Id="UnscrapedClose" Content="Chiudi" />
   <Value Id="SelectMediaInResultsOK" Content="OK" />
   <Value Id="SelectMediaInResultsCancel" Content="Annulla" />
   <Value Id="All" Text="Tutti" />
@@ -160,7 +156,7 @@
   <Value Id="DeleteVcdSetupTask" Header="Rimuovi il programma di installazione VirtualCloneDrive" />
   <Value Id="MountTask" Header="Sto montando l'immagine del disco" />
   <Value Id="MountCheckTask" Header="In attesa del disco virtuale" />
-  <Value Id="UnscrapedView" Filename="Nome del file" Directory="Repertorio" State="Stato" Title="File da scannerizzare" />
+  <Value Id="UnscrapedView" Filename="Nome del file" Directory="Repertorio" State="Stato" Title="File da scannerizzare" Close="Chiudi" ManualScrap="Manuel" Scrap="Scansiona" ScrapAll="Scansiona tutto" ScrapById="Da Id" ScrapByTitle="Dal titolo" />
   <Value Id="FirstInitFromMovieNfoTask" Header="Inizializzazione informazioni film" />
   <Value Id="UpdateMainViewModelTask" Header="Refresh dei video pubblicati" />
   <Value Id="MediaToDeleteTask" Header="Controlla file eliminati" />

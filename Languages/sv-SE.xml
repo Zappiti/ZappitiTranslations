@@ -23,10 +23,6 @@
   <Value Id="SettingsFolderPath" Text="Sökväg :" />
   <Value Id="SettingsZappitiDataPath" Text="Konfigurationsmapp :" />
   <Value Id="SettingsRewriteAbsolutePath" Text="Skriv över sökvägen vid export:" />
-  <Value Id="UnscrapedScrap" Content="Spårning" />
-  <Value Id="UnscrapedScrapAll" Content="Spåra allt" />
-  <Value Id="UnscrapedDefault" Content="Standard" />
-  <Value Id="UnscrapedClose" Content="Stäng" />
   <Value Id="SelectMediaInResultsOK" Content="OK" />
   <Value Id="SelectMediaInResultsCancel" Content="Avbryt" />
   <Value Id="All" Text="Alla" />
@@ -160,7 +156,7 @@
   <Value Id="DeleteVcdSetupTask" Header="Ta bort installationsprogrammet VirtualCloneDrive" />
   <Value Id="MountTask" Header="Montera skivavbilden" />
   <Value Id="MountCheckTask" Header="Väntar på den virtuella disken" />
-  <Value Id="UnscrapedView" Filename="Filnamn" Directory="Register" State="Status" Title="Filer att spåra" />
+  <Value Id="UnscrapedView" Filename="Filnamn" Directory="Register" State="Status" Title="Filer att spåra" Close="Stäng" ManualScrap="Som standard" Scrap="Spårning" ScrapAll="Spåra allt" ScrapById="ID" ScrapByTitle="Titel" />
   <Value Id="FirstInitFromMovieNfoTask" Header="Initierar filminformationen" />
   <Value Id="UpdateMainViewModelTask" Header="Uppdatering av upplagda filmer" />
   <Value Id="MediaToDeleteTask" Header="Kontrollerar efter borttagna filer" />

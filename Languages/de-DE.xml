@@ -23,10 +23,6 @@
   <Value Id="SettingsFolderPath" Text="Pfad:" />
   <Value Id="SettingsZappitiDataPath" Text="Einstellungs-Ordner:" />
   <Value Id="SettingsRewriteAbsolutePath" Text="Angabe des Pfades für den Export:" />
-  <Value Id="UnscrapedScrap" Content="Zuordnen" />
-  <Value Id="UnscrapedScrapAll" Content="Alle zuordnen" />
-  <Value Id="UnscrapedDefault" Content="Unverändert übernehmen" />
-  <Value Id="UnscrapedClose" Content="Schließen" />
   <Value Id="SelectMediaInResultsOK" Content="OK" />
   <Value Id="SelectMediaInResultsCancel" Content="Abbrechen" />
   <Value Id="EditTitle" Text="Titel" />
@@ -132,7 +128,7 @@
   <Value Id="DeleteVcdSetupTask" Header="Löschen Sie die Installationdatei von Virtual-Clone-Drive" />
   <Value Id="MountTask" Header="Einbinden des Disk-Images" />
   <Value Id="MountCheckTask" Header="Warte auf das virtuelle Laufwerk" />
-  <Value Id="UnscrapedView" Filename="Dateiname" Directory="Ordner" State="Status" Title="Dateien zuordnen" />
+  <Value Id="UnscrapedView" Filename="Dateiname" Directory="Ordner" State="Status" Title="Dateien zuordnen" Close="Schließen" ManualScrap="Standardmäßig" Scrap="Zuordnen" ScrapAll="Alle zuordnen" ScrapById="Nach Id" ScrapByTitle="Nach Titel" />
   <Value Id="FirstInitFromMovieNfoTask" Header="Ininitialisiere Informationen eines Filmes" />
   <Value Id="UpdateMainViewModelTask" Header="Aktualisierung von angelegten Videos" />
   <Value Id="MediaToDeleteTask" Header="Kontrollieren auf gelöschte Dateien" />

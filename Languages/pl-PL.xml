@@ -23,10 +23,6 @@
   <Value Id="SettingsFolderPath" Text="Ścieżka katalogu :" />
   <Value Id="SettingsZappitiDataPath" Text="Scieźka konfiguracji :" />
   <Value Id="SettingsRewriteAbsolutePath" Text="Przepisać ścieżkę bezwzględną :" />
-  <Value Id="UnscrapedScrap" Content="Pobierz" />
-  <Value Id="UnscrapedScrapAll" Content="Pobierz wszystko" />
-  <Value Id="UnscrapedDefault" Content="Default" />
-  <Value Id="UnscrapedClose" Content="Zamknij" />
   <Value Id="SelectMediaInResultsOK" Content="OK" />
   <Value Id="SelectMediaInResultsCancel" Content="Anuluj" />
   <Value Id="All" Text="Wszystkie" />
@@ -160,7 +156,7 @@
   <Value Id="DeleteVcdSetupTask" Header="Usuń instalatora VirtualCloneDrive " />
   <Value Id="MountTask" Header="Montaż obraz dysku" />
   <Value Id="MountCheckTask" Header="Czekając na wirtualnym dysku" />
-  <Value Id="UnscrapedView" Filename="Nazwa" Directory="Reżyser" State="Stan" Title="Pliki do pobrania" />
+  <Value Id="UnscrapedView" Filename="Nazwa" Directory="Reżyser" State="Stan" Title="Pliki do pobrania" Close="Zamknij" ManualScrap="Domyślnie" Scrap="Pobierz" ScrapAll="Pobierz wszystko" ScrapById="Przez Id" ScrapByTitle="Tytuł" />
   <Value Id="FirstInitFromMovieNfoTask" Header="Informacje inicjalizacji filmu" />
   <Value Id="UpdateMainViewModelTask" Header="Odświeżania wideo" />
   <Value Id="MediaToDeleteTask" Header="Znajdź pliki, które już nie istnieją" />

@@ -23,10 +23,6 @@
   <Value Id="SettingsFolderPath" Text="Pad:" />
   <Value Id="SettingsZappitiDataPath" Text="Configuratiemap:" />
   <Value Id="SettingsRewriteAbsolutePath" Text="Absoluut pad vervangen bij export:" />
-  <Value Id="UnscrapedScrap" Content="Scrape" />
-  <Value Id="UnscrapedScrapAll" Content="Scrape alles" />
-  <Value Id="UnscrapedDefault" Content="Standaard" />
-  <Value Id="UnscrapedClose" Content="Sluiten" />
   <Value Id="SelectMediaInResultsOK" Content="OK" />
   <Value Id="SelectMediaInResultsCancel" Content="Annuleren" />
   <Value Id="All" Text="Alles" />
@@ -160,7 +156,7 @@
   <Value Id="DeleteVcdSetupTask" Header="Verwijder de VirtualCloneDrive installatie" />
   <Value Id="MountTask" Header="Disk image activeren" />
   <Value Id="MountCheckTask" Header="Wachten tot virtuele schijf beschikbaar is" />
-  <Value Id="UnscrapedView" Filename="Bestandsnaam" Directory="Repertoire" State="Status" Title="Te scrapen bestanden" />
+  <Value Id="UnscrapedView" Filename="Bestandsnaam" Directory="Repertoire" State="Status" Title="Te scrapen bestanden" Close="Sluiten" ManualScrap="Standaard" Scrap="Scrape" ScrapAll="Scrape alles" ScrapById="Door Id" ScrapByTitle="Door titel" />
   <Value Id="FirstInitFromMovieNfoTask" Header="Initialisatie filminformatie" />
   <Value Id="UpdateMainViewModelTask" Header="Vernieuwen van video's" />
   <Value Id="MediaToDeleteTask" Header="Controleren op verwijderde bestanden" />

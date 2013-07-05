@@ -23,10 +23,6 @@
   <Value Id="SettingsFolderPath" Text="Локальный путь :" />
   <Value Id="SettingsZappitiDataPath" Text="Папка конфигурации :" />
   <Value Id="SettingsRewriteAbsolutePath" Text="Полный путь (как он виден с Dune):" />
-  <Value Id="UnscrapedScrap" Content="Описание" />
-  <Value Id="UnscrapedScrapAll" Content="Все описания" />
-  <Value Id="UnscrapedDefault" Content="Пустой шаблон" />
-  <Value Id="UnscrapedClose" Content="Закрыть" />
   <Value Id="SelectMediaInResultsOK" Content="OK" />
   <Value Id="SelectMediaInResultsCancel" Content="Отмена" />
   <Value Id="All" Text="Все" />
@@ -162,7 +158,7 @@
   <Value Id="DeleteVcdSetupTask" Header="Удалить установки VirtualCloneDrive" />
   <Value Id="MountTask" Header="Подмонтировать диск" />
   <Value Id="MountCheckTask" Header="Ожидание виртуальных дисков" />
-  <Value Id="UnscrapedView" Filename="Имя файла" Directory="Каталог" State="Состояние" Title="Файлы для сканирования" />
+  <Value Id="UnscrapedView" Filename="Имя файла" Directory="Каталог" State="Состояние" Title="Файлы для сканирования" Close="Закрыть" ManualScrap="По умолчанию" Scrap="Описание" ScrapAll="Все описания" ScrapById="По Id" ScrapByTitle="По названию" />
   <Value Id="FirstInitFromMovieNfoTask" Header="Поиск информации о фильме" />
   <Value Id="UpdateMainViewModelTask" Header="Обновление информации" />
   <Value Id="MediaToDeleteTask" Header="Поиск удалённых файлов" />

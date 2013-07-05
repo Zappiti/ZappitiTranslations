@@ -23,10 +23,6 @@
   <Value Id="SettingsFolderPath" Text="Vir mape :" />
   <Value Id="SettingsZappitiDataPath" Text="Konfiguriraj mapo :" />
   <Value Id="SettingsRewriteAbsolutePath" Text="Spremenite pot za izvoz :" />
-  <Value Id="UnscrapedScrap" Content="Scrape" />
-  <Value Id="UnscrapedScrapAll" Content="Scrape all" />
-  <Value Id="UnscrapedDefault" Content="Privzeto" />
-  <Value Id="UnscrapedClose" Content="Zapri" />
   <Value Id="SelectMediaInResultsOK" Content="OK" />
   <Value Id="SelectMediaInResultsCancel" Content="Prekliči" />
   <Value Id="All" Text="Vse" />
@@ -160,7 +156,7 @@
   <Value Id="DeleteVcdSetupTask" Header="Odstrani nameščen VirtualCloneDrive" />
   <Value Id="MountTask" Header="Mounting the disk image" />
   <Value Id="MountCheckTask" Header="Čakanje na virtualni disk" />
-  <Value Id="UnscrapedView" Filename="Ime datoteke" Directory="Repertoar" State="Država" Title="Datoteke za scrap" />
+  <Value Id="UnscrapedView" Filename="Ime datoteke" Directory="Repertoar" State="Država" Title="Datoteke za scrap" Close="Zapri" ManualScrap="Privzeto" Scrap="Scrape" ScrapAll="Scrape all" ScrapById="Po ID-ju" ScrapByTitle="Po naslovu" />
   <Value Id="FirstInitFromMovieNfoTask" Header="Inicializacija podatkov s filma" />
   <Value Id="UpdateMainViewModelTask" Header="Osveži objavljene videoposnetke" />
   <Value Id="MediaToDeleteTask" Header="Poiščite datoteke, ki ne obstajajo več" />
