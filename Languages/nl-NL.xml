@@ -156,7 +156,7 @@
   <Value Id="DeleteVcdSetupTask" Header="Verwijder de VirtualCloneDrive installatie" />
   <Value Id="MountTask" Header="Disk image activeren" />
   <Value Id="MountCheckTask" Header="Wachten tot virtuele schijf beschikbaar is" />
-  <Value Id="UnscrapedView" Filename="Bestandsnaam" Directory="Repertoire" State="Status" Title="Te scrapen bestanden" Close="Sluiten" ManualScrap="Standaard" Scrap="Scrape" ScrapAll="Scrape alles" ScrapById="Door Id" ScrapByTitle="Door titel" />
+  <Value Id="UnscrapedView" Filename="Bestandsnaam" Directory="Repertoire" State="Status" Title="Te scrapen bestanden" Close="Sluiten" ManualScrap="Standaard" Scrap="Scrape" ScrapAll="Scrape alles" ScrapById="Door Id" ScrapByTitle="Door titel" ReleaseDate="Releasedatum" />
   <Value Id="FirstInitFromMovieNfoTask" Header="Initialisatie filminformatie" />
   <Value Id="UpdateMainViewModelTask" Header="Vernieuwen van video's" />
   <Value Id="MediaToDeleteTask" Header="Controleren op verwijderde bestanden" />

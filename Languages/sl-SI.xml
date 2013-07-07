@@ -156,7 +156,7 @@
   <Value Id="DeleteVcdSetupTask" Header="Odstrani nameščen VirtualCloneDrive" />
   <Value Id="MountTask" Header="Mounting the disk image" />
   <Value Id="MountCheckTask" Header="Čakanje na virtualni disk" />
-  <Value Id="UnscrapedView" Filename="Ime datoteke" Directory="Repertoar" State="Država" Title="Datoteke za scrap" Close="Zapri" ManualScrap="Privzeto" Scrap="Scrape" ScrapAll="Scrape all" ScrapById="Po ID-ju" ScrapByTitle="Po naslovu" />
+  <Value Id="UnscrapedView" Filename="Ime datoteke" Directory="Repertoar" State="Država" Title="Datoteke za scrap" Close="Zapri" ManualScrap="Privzeto" Scrap="Scrape" ScrapAll="Scrape all" ScrapById="Po ID-ju" ScrapByTitle="Po naslovu" ReleaseDate="Datum izdaje" />
   <Value Id="FirstInitFromMovieNfoTask" Header="Inicializacija podatkov s filma" />
   <Value Id="UpdateMainViewModelTask" Header="Osveži objavljene videoposnetke" />
   <Value Id="MediaToDeleteTask" Header="Poiščite datoteke, ki ne obstajajo več" />

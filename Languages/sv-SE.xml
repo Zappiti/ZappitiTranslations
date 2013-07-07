@@ -156,7 +156,7 @@
   <Value Id="DeleteVcdSetupTask" Header="Ta bort installationsprogrammet VirtualCloneDrive" />
   <Value Id="MountTask" Header="Montera skivavbilden" />
   <Value Id="MountCheckTask" Header="Väntar på den virtuella disken" />
-  <Value Id="UnscrapedView" Filename="Filnamn" Directory="Register" State="Status" Title="Filer att spåra" Close="Stäng" ManualScrap="Som standard" Scrap="Spårning" ScrapAll="Spåra allt" ScrapById="ID" ScrapByTitle="Titel" />
+  <Value Id="UnscrapedView" Filename="Filnamn" Directory="Register" State="Status" Title="Filer att spåra" Close="Stäng" ManualScrap="Som standard" Scrap="Spårning" ScrapAll="Spåra allt" ScrapById="ID" ScrapByTitle="Titel" ReleaseDate="Releasedatum" />
   <Value Id="FirstInitFromMovieNfoTask" Header="Initierar filminformationen" />
   <Value Id="UpdateMainViewModelTask" Header="Uppdatering av upplagda filmer" />
   <Value Id="MediaToDeleteTask" Header="Kontrollerar efter borttagna filer" />

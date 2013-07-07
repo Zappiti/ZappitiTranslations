@@ -156,7 +156,7 @@
   <Value Id="DeleteVcdSetupTask" Header="Usuń instalatora VirtualCloneDrive " />
   <Value Id="MountTask" Header="Montaż obraz dysku" />
   <Value Id="MountCheckTask" Header="Czekając na wirtualnym dysku" />
-  <Value Id="UnscrapedView" Filename="Nazwa" Directory="Reżyser" State="Stan" Title="Pliki do pobrania" Close="Zamknij" ManualScrap="Domyślnie" Scrap="Pobierz" ScrapAll="Pobierz wszystko" ScrapById="Przez Id" ScrapByTitle="Tytuł" />
+  <Value Id="UnscrapedView" Filename="Nazwa" Directory="Reżyser" State="Stan" Title="Pliki do pobrania" Close="Zamknij" ManualScrap="Domyślnie" Scrap="Pobierz" ScrapAll="Pobierz wszystko" ScrapById="Przez Id" ScrapByTitle="Tytuł" ReleaseDate="Data premiery" />
   <Value Id="FirstInitFromMovieNfoTask" Header="Informacje inicjalizacji filmu" />
   <Value Id="UpdateMainViewModelTask" Header="Odświeżania wideo" />
   <Value Id="MediaToDeleteTask" Header="Znajdź pliki, które już nie istnieją" />

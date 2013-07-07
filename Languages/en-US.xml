@@ -156,7 +156,7 @@
   <Value Id="DeleteVcdSetupTask" Header="Remove the installer VirtualCloneDrive" />
   <Value Id="MountTask" Header="Mounting the disk image" />
   <Value Id="MountCheckTask" Header="Waiting for the virtual disk" />
-  <Value Id="UnscrapedView" Filename="Filename" Directory="Directory" State="Status" Title="Files to scrape" Close="Close" ManualScrap="By default" Scrap="Scrape" ScrapAll="Scrape all" ScrapById="By Id" ScrapByTitle="By title" />
+  <Value Id="UnscrapedView" Filename="Filename" Directory="Directory" State="Status" Title="Files to scrape" Close="Close" ManualScrap="By default" Scrap="Scrape" ScrapAll="Scrape all" ScrapById="By Id" ScrapByTitle="By title" ReleaseDate="Release date" />
   <Value Id="FirstInitFromMovieNfoTask" Header="Initialization movie information" />
   <Value Id="UpdateMainViewModelTask" Header="Refresh of videos posted" />
   <Value Id="MediaToDeleteTask" Header="Check for deleted files" />

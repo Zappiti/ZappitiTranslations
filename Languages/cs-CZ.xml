@@ -157,7 +157,7 @@
   <Value Id="DeleteVcdSetupTask" Header="Vyjměte instalační VirtualCloneDrive" />
   <Value Id="MountTask" Header="Montáž obraz disku" />
   <Value Id="MountCheckTask" Header="Čekání na virtuální disk" />
-  <Value Id="UnscrapedView" Filename="Jméno souboru" Directory="Repertoár" State="Stav" Title="Soubory škrabka" Close="Zavřít" ManualScrap="Ve výchozím nastavení" Scrap="Upravit" ScrapAll="Upravit vše" ScrapById="Podle Id" ScrapByTitle="Podle názvu" />
+  <Value Id="UnscrapedView" Filename="Jméno souboru" Directory="Repertoár" State="Stav" Title="Soubory škrabka" Close="Zavřít" ManualScrap="Ve výchozím nastavení" Scrap="Upravit" ScrapAll="Upravit vše" ScrapById="Podle Id" ScrapByTitle="Podle názvu" ReleaseDate="Datum vydání" />
   <Value Id="FirstInitFromMovieNfoTask" Header="Inicializace informace o filmu" />
   <Value Id="UpdateMainViewModelTask" Header="Refreshing videos posted" />
   <Value Id="MediaToDeleteTask" Header="Najít soubory, které již neexistuje" />

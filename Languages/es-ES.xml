@@ -156,7 +156,7 @@
   <Value Id="DeleteVcdSetupTask" Header="Eliminar el instalador VirtualCloneDrive" />
   <Value Id="MountTask" Header="Montando la imagen de disco" />
   <Value Id="MountCheckTask" Header="Esperando al disco virtual" />
-  <Value Id="UnscrapedView" Filename="Fichero" Directory="Directorio" State="Estado" Title="Ficheros a rastrear" Close="Cerrar" ManualScrap="De forma predeterminada" Scrap="Rastrear" ScrapAll="Rastrear todo" ScrapById="Por Id" ScrapByTitle="Por título" />
+  <Value Id="UnscrapedView" Filename="Fichero" Directory="Directorio" State="Estado" Title="Ficheros a rastrear" Close="Cerrar" ManualScrap="De forma predeterminada" Scrap="Rastrear" ScrapAll="Rastrear todo" ScrapById="Por Id" ScrapByTitle="Por título" ReleaseDate="Fecha de lanzamiento" />
   <Value Id="FirstInitFromMovieNfoTask" Header="Inicialización de la información de una película" />
   <Value Id="UpdateMainViewModelTask" Header="Actualizando videos" />
   <Value Id="MediaToDeleteTask" Header="Buscar ficheros que no ya no existan" />

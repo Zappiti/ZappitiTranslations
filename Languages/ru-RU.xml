@@ -158,7 +158,7 @@
   <Value Id="DeleteVcdSetupTask" Header="Удалить установки VirtualCloneDrive" />
   <Value Id="MountTask" Header="Подмонтировать диск" />
   <Value Id="MountCheckTask" Header="Ожидание виртуальных дисков" />
-  <Value Id="UnscrapedView" Filename="Имя файла" Directory="Каталог" State="Состояние" Title="Файлы для сканирования" Close="Закрыть" ManualScrap="По умолчанию" Scrap="Описание" ScrapAll="Все описания" ScrapById="По Id" ScrapByTitle="По названию" />
+  <Value Id="UnscrapedView" Filename="Имя файла" Directory="Каталог" State="Состояние" Title="Файлы для сканирования" Close="Закрыть" ManualScrap="По умолчанию" Scrap="Описание" ScrapAll="Все описания" ScrapById="По Id" ScrapByTitle="По названию" ReleaseDate="Дата выпуска" />
   <Value Id="FirstInitFromMovieNfoTask" Header="Поиск информации о фильме" />
   <Value Id="UpdateMainViewModelTask" Header="Обновление информации" />
   <Value Id="MediaToDeleteTask" Header="Поиск удалённых файлов" />

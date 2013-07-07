@@ -128,7 +128,7 @@
   <Value Id="DeleteVcdSetupTask" Header="Löschen Sie die Installationdatei von Virtual-Clone-Drive" />
   <Value Id="MountTask" Header="Einbinden des Disk-Images" />
   <Value Id="MountCheckTask" Header="Warte auf das virtuelle Laufwerk" />
-  <Value Id="UnscrapedView" Filename="Dateiname" Directory="Ordner" State="Status" Title="Dateien zuordnen" Close="Schließen" ManualScrap="Standardmäßig" Scrap="Zuordnen" ScrapAll="Alle zuordnen" ScrapById="Nach Id" ScrapByTitle="Nach Titel" />
+  <Value Id="UnscrapedView" Filename="Dateiname" Directory="Ordner" State="Status" Title="Dateien zuordnen" Close="Schließen" ManualScrap="Standardmäßig" Scrap="Zuordnen" ScrapAll="Alle zuordnen" ScrapById="Nach Id" ScrapByTitle="Nach Titel" ReleaseDate="Release-Datum" />
   <Value Id="FirstInitFromMovieNfoTask" Header="Ininitialisiere Informationen eines Filmes" />
   <Value Id="UpdateMainViewModelTask" Header="Aktualisierung von angelegten Videos" />
   <Value Id="MediaToDeleteTask" Header="Kontrollieren auf gelöschte Dateien" />
