@@ -81,7 +81,7 @@
   <Value Id="MessageBoxCaption" NewReleaseAvailable="K dispozici je aktualizace" DoYouWantToDeleteThisGroup="Odstranění položky" DeleteCategory="Odstranění kategorii" ResetCategories="Obnovit kategorií" ResetMainMenu="Reset nabídek" ResetABCMenu="Obnovit tlačítka" DoYouWantToDeleteTheseGroup="Odstranění položky" VersionExpired="K dispozici je aktualizace" AddFolder="Přidejte umístění?" CanStartDuneServer="Chyba" DoYouWanToInstallMpcHd="Požadavky na software" DoYouWantToQuit="Současná léčba." />
   <Value Id="EditChannels" Text="Kanály" />
   <Value Id="TVShowSeasonList" SeasonUp="SEASON {0}" />
-  <Value Id="AddToGroupNewGroup" Content="Nová skupina" />
+  <Value Id="AddToGroupNewGroup" Content="Nová skupina" PlaylistContent="Nový seznam stop" />
   <Value Id="EditGroupCancel" Content="Zrušit" />
   <Value Id="EditGroupOK" Content="Uložit" />
   <Value Id="FrequentWords" Words="to;se;je;na;že;jsem;co;si;tak" />
@@ -175,7 +175,7 @@
   <Value Id="WizardConfigureExportDevice" Header="Máte nějaké zařízení?" Body="Vyberte zařízení, které vlastníte:" Back="&lt;&lt; Předchozí" Next="Další &gt;&gt;" Close="Zavřít" />
   <Value Id="WizardConfigureDuneExport" Header="Konfigurace Dune HD / Zappiti Player" Body="Pokud data exportovat?" Back="&lt;&lt; Předchozí" Next="Další &gt;&gt;" Close="Zavřít" />
   <Value Id="WizardConfigureITunesExport" Header="Konfigurace iTunes (iPhone / iPad)" Body="Pokud data exportovat?" Back="&lt;&lt; Předchozí" Next="Další &gt;&gt;" Close="Zavřít" />
-  <Value Id="ContextMenu" GroupTo="Grouper ..." ChangePicture="Změna ..." Delete="Odstranit" Edit="Upravit ..." Play="Lancer ..." Encode="Zakódovat" DeleteEncode="Odstranit zakódovaný soubor" Reset="Zrušit" ResetAllCategories="Zrušení kategorií" />
+  <Value Id="ContextMenu" GroupTo="Grouper ..." ChangePicture="Změna ..." Delete="Odstranit" Edit="Upravit ..." Play="Lancer ..." Encode="Zakódovat" DeleteEncode="Odstranit zakódovaný soubor" Reset="Zrušit" ResetAllCategories="Zrušení kategorií" ToPlayList="Přidat do seznamu stop" />
   <Value Id="EncodeTask" Header="Kódování" />
   <Value Id="EncodingTask" Header="Aktuální kódování" />
   <Value Id="DownloadHandbrakeTask" Header="Stáhnout ruční brzdy" />
@@ -193,7 +193,7 @@
   <Value Id="MarketPopup" DoNotShow="Nezobrazovat při spuštění." />
   <Value Id="VideoMenu" ABC="VŠE" Movies="FILMY" TVShows="TV SHOWS" Recents="AKTUÁLNÍ" Categories="KATEGORIE" />
   <Value Id="MusicMenu" Titles="TITULY" Albums="ALBA" Artists="UMĚLCI" Recents="AKTUÁLNÍ" Genres="TYPY" Playlists="PLAYLISTS" />
-  <Value Id="AlbumView" Genre="Žánr :" Count="Skladby :" ReleaseDate="Datum vydání :" Runtime="Doba trvání :" />
+  <Value Id="AlbumView" Genre="Žánr :" Count="Skladby :" ReleaseDate="Datum vydání :" Runtime="Doba trvání :" ToolTipEditPhoto="Klepnutím sem můžete změnit obrázek" />
   <Value Id="ScanMusicsFolderTask" Header="Skenování hudebních souborů" />
   <Value Id="FirstInitFromMusicNfoTask" Header="Inicializace informace z hudby" />
   <Value Id="ResetCategoriesTask" Header="Obnovit kategorií" />
@@ -201,6 +201,8 @@
   <Value Id="SignIn" HeaderSignIn="Přihlášení" HeaderRegister="Vytvořit účet" Email="E-mail" Password="Heslo" RepeatPassword="Zopakujte heslo" Firstname="Křestní jméno" Lastname="Název" AlreadyRegistered="Přihlásit mě teď" NewUser="Vytvořit účet" SignIn="Přihlášení" Register="Registrovat" BadCredential="E-mail nebo heslo je neplatné" DuplicateEmail="Existuje již účet spojeny s tímto e-mailem." RegistrationError="Nelze vytvořit účet pro tuto chvíli." NewUserText="Nemusíte Zappiti účet?" AlreadyRegisteredText="Máte již účet Zappiti?" UnableToConnect="Váš účet není přístupný?" Reset="Ano, chci vytvořit nové heslo" ResetInfo="Zadejte e-mail v následujících oblastech uvedených. " HeaderResetPassword="Obnovit heslo" ResetEmailSent="Zkontrolujte svůj e-mail a klikněte na odkaz vám zašleme změnit heslo." ResetEmailNotSent="Nelze resetovat heslo, děkuji ověřit, že e-mail je správné." BadLicence="Nelze načíst podrobnosti účtu." CheckYourConnection="Nelze se připojit k Internetu." />
   <Value Id="ResetDeviceList" Header="Zapomeňte na autorizovaný přístroj" Body="Vaše uživatelské jméno Zappiti může být spojena s 3 počítače.[BR][BR]Za toto omezení, můžete &quot;zapomenout počítače&quot; přidružit nový počítač na váš účet.[BR][BR]Můžete &quot;zapomenout počítače&quot; až 2 krát na 6 měsíců." ForgetYourComputers="Zapomeňte na počítače" TooMuchReset="Dosáhli jste limit počtu slevu na nulu pro toto období." YouHaveToWait="Musíte počkat {0} Před použitím této funkce." Days="dny" />
   <Value Id="SyncTask" Header="Probíhá synchronizace" DeleteCategoryTask="Odstranění kategorie" DeleteItemTask="Odstranění položky" DeletePersonTask="Odebrání osoby" UpdatePersonTask="Aktualizace osobu" UpdateMenuTask="Aktualizace nabídky" UpdateItemTask="Aktualizace položky" UpdateCategoriesTask="Aktualizace kategorií" ResetTask="Spuštění synchronizace" PutPictureTask="Odeslání obrázek" SaveSettingsTask="Uložení konfigurace" />
-  <Value Id="EditAlbum" Header="Upravit album" DetailsAlbumGroupBox="Podrobnosti o albu" DetailsStyleGroupBox="Druhy této trati" TitleAlbum="Název alba:" DetailsTrackGroupBox="Podrobnosti o trati" Duration="Délka:" DetailsArtisteGroupBox="Umělci na této trati" AddNewArtist="Vytvořit nový umělec" TitleTrack="Název:" />
+  <Value Id="EditAlbum" Header="Upravit album" DetailsAlbumGroupBox="Podrobnosti o albu" DetailsStyleGroupBox="Druhy této trati" TitleAlbum="Název alba:" DetailsTrackGroupBox="Podrobnosti o trati" Duration="Délka:" DetailsArtisteGroupBox="Umělci na této trati" AddNewArtist="Vytvořit nový umělec" AddNewStyle="Create a new style" TitleTrack="Název:" AlbumPisteOrpheline="Album " ToolTipEditPhoto="Klepnutím sem můžete změnit obrázek" Filename="Soubor:" />
   <Value Id="MainWindow" Donate="Přispějte!" DatabaseUpdating="Aktualizace databáze ..." Home="Domů" Configuration="Nastavení" Scan="Skener" DatabaseBadVersion="Aktuální verze Zappiti nelze otevřít vybranou databázi. " SearchMedias="Hledat" Loading="Načítání" About="O programu" />
+  <Value Id="EditPlaylist" Header="Upravit seznam stop" DetailsPlaylistGroupBox="Podrobnosti seznamu stop" TitlePlaylist="Název seznamu stop:" />
+  <Value Id="MainAddPlaylist" Content="Nový seznam stop" />
 </Dictionary>

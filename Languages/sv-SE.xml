@@ -93,7 +93,7 @@
   <Value Id="MessageBoxCaption" NewReleaseAvailable="Uppdatering tillgänglig" DoYouWantToDeleteThisGroup="Ta bort objekt" DoYouWantToDeleteTheseGroup="Ta bort objekten" DeleteCategory="Ta bort en kategori" ResetCategories="Återställ Kategorier" ResetMainMenu="Återställ menyer" ResetABCMenu="Återställ knappar" VersionExpired="Uppdatering tillgänglig" AddFolder="Lägga till mappen?" CanStartDuneServer="Fel" DoYouWanToInstallMpcHd="Programvarukrav" DoYouWantToQuit="Nuvarande behandlingar." />
   <Value Id="EditChannels" Text="Kanaler" />
   <Value Id="TVShowSeasonList" SeasonUp="SÄSONG {0}" />
-  <Value Id="AddToGroupNewGroup" Content="Ny grupp" />
+  <Value Id="AddToGroupNewGroup" Content="Ny grupp" PlaylistContent="Ny spellista" />
   <Value Id="EditGroupCancel" Content="Avbryt" />
   <Value Id="EditGroupOK" Content="Spara" />
   <Value Id="FrequentWords" Words="du;jag;till;den;en;och;att;det;av;mig" />
@@ -175,7 +175,7 @@
   <Value Id="WizardConfigureExportDevice" Header="Har du några enheter?" Body="Välj vilka enheter du äger:" Back="&lt;&lt; Föregående" Next="Nästa &gt;&gt;" Close="Stäng" />
   <Value Id="WizardConfigureDuneExport" Header="Media Player export konfiguration" Body="Var hamnar din exporterade data som genererar Zappiti åtkomst för din Dune HD / Zappiti Player? Zappiti kommer att skapa en &quot;_Zappiti&quot; mapp för tillträde till Zappiti från din Media spelare (Dune HD eller Zappiti Player)." Back="&lt;&lt; Föregående" Next="Nästa &gt;&gt;" Close="Stäng" />
   <Value Id="WizardConfigureITunesExport" Header="Konfiguration för iTunes (iPhone / iPad)" Body="Var du ska exportera data?" Back="&lt;&lt; Föregående" Next="Nästa &gt;&gt;" Close="Stäng" />
-  <Value Id="ContextMenu" GroupTo="Grupp..." ChangePicture="Ändra..." Delete="Ta bort" Edit="Ändra ..." Play="Spela ..." Encode="Koda" DeleteEncode="Radera den kodade filen" Reset="Återställ" ResetAllCategories="Återställ Kategorier" />
+  <Value Id="ContextMenu" GroupTo="Grupp..." ChangePicture="Ändra..." Delete="Ta bort" Edit="Ändra ..." Play="Spela ..." Encode="Koda" DeleteEncode="Radera den kodade filen" Reset="Återställ" ResetAllCategories="Återställ Kategorier" ToPlayList="Lägg till spellista" />
   <Value Id="EncodeTask" Header="Konvertera" />
   <Value Id="EncodingTask" Header="Aktuell kodning" />
   <Value Id="DownloadHandbrakeTask" Header="Ladda ner Handbrake" />
@@ -193,7 +193,7 @@
   <Value Id="MarketPopup" DoNotShow="Visa inte vid start." />
   <Value Id="VideoMenu" ABC="ALLA" Movies="FILMER" TVShows="TV-SERIER" Recents="SENASTE" Categories="KATEGORIER" />
   <Value Id="MusicMenu" Titles="TITEL" Albums="ALBUM" Artists="ARTIST" Recents="SENASTE" Genres="GENRE" Playlists="SPELLISTOR" />
-  <Value Id="AlbumView" Genre="Genre :" Count="Spår :" ReleaseDate="Releasedatum :" Runtime="Speltid :" />
+  <Value Id="AlbumView" Genre="Genre :" Count="Spår :" ReleaseDate="Releasedatum :" Runtime="Speltid :" ToolTipEditPhoto="Klicka för att ändra bilden" />
   <Value Id="ScanMusicsFolderTask" Header="Skannar musikfiler" />
   <Value Id="FirstInitFromMusicNfoTask" Header="Initierar information från musiken" />
   <Value Id="ResetCategoriesTask" Header="Återställ kategorier" />
@@ -201,6 +201,8 @@
   <Value Id="SignIn" HeaderSignIn="Inloggning" HeaderRegister="Skapa konto" Email="E-post" Password="Lösenord" RepeatPassword="Upprepa lösenord" Firstname="Förnamn" Lastname="Efternamn" AlreadyRegistered="Registrera mig nu" NewUser="Skapa ett konto nu" SignIn="Inloggning" Register="Registrera" BadCredential="E-post eller lösenord är ogiltig" DuplicateEmail="Det finns redan ett konto kopplat till denna e-postadress." RegistrationError="Kan inte skapa kontot för tillfället." NewUserText="Du har inget Zappiti konto?" AlreadyRegisteredText="Har du ett Zappiti konto?" UnableToConnect="Ditt konto är inte tillgängligt?" Reset="Ja, jag vill skapa ett nytt lösenord" ResetInfo="Ange din e-postadress i följande fält ovan." HeaderResetPassword="Återställ ditt lösenord" ResetEmailSent="Kontrollerar din e-post och klicka på länken som vi skickar dig, för att ändra ditt lösenord." ResetEmailNotSent="Kan inte återställa lösenordet, kontrollera att e-postmeddelandet är korrekt." BadLicence="Kunde inte hämta dina kontouppgifter." CheckYourConnection="Kan inte ansluta till Internet." />
   <Value Id="ResetDeviceList" Header="Glöm dina auktoriserade enheter" Body="Användarnamn Zappiti kan associeras med 3 datorer.[BR][BR]Förbi denna gräns, kan du &quot;glömma dina datorer&quot; associera ny dator till ditt konto.[BR][BR]Du kan &quot;glömma dina datorer&quot; upp till 2 gånger på 6 månader." ForgetYourComputers="Glöm dina datorer" TooMuchReset="Du har nått gränsen antalet rabatten till noll för den perioden." YouHaveToWait="Du måste vänta {0} innan du använder denna funktion." Days="dagar" />
   <Value Id="SyncTask" Header="Synkronisering pågår" DeleteCategoryTask="Ta bort en kategori" DeleteItemTask="Ta bort ett objekt" DeletePersonTask="Ta bort en person" UpdatePersonTask="Uppdaterar en person" UpdateMenuTask="Uppdatera en meny" UpdateItemTask="Uppdaterar ett objekt" UpdateCategoriesTask="Uppdatering kategorier" ResetTask="Starta synkronisering" PutPictureTask="Skickar en bild" SaveSettingsTask="Spara konfigurationen" />
-  <Value Id="EditAlbum" Header="Redigera album" DetailsAlbumGroupBox="Detaljer för albumet" DetailsStyleGroupBox="Typer av detta spår" TitleAlbum="Album title:" DetailsTrackGroupBox="Detaljer för spåret" Duration="Längd:" DetailsArtisteGroupBox="Konstnärer på detta spår" AddNewArtist="Skapa en ny artist" TitleTrack="Titel:" />
+  <Value Id="EditAlbum" Header="Redigera album" DetailsAlbumGroupBox="Detaljer för albumet" DetailsStyleGroupBox="Typer av detta spår" TitleAlbum="Album title:" DetailsTrackGroupBox="Detaljer för spåret" Duration="Längd:" DetailsArtisteGroupBox="Konstnärer på detta spår" AddNewArtist="Skapa en ny artist" AddNewStyle="Create a new style" TitleTrack="Titel:" AlbumPisteOrpheline="Album " ToolTipEditPhoto="Klicka för att ändra bilden" Filename="Fil:" />
   <Value Id="MainWindow" Donate="Donera !" DatabaseUpdating="Uppdaterar databasen ..." Home="Hem" Configuration="Anpassa" Scan="Skannar" DatabaseBadVersion="Den nuvarande versionen av Zappiti kan inte öppna den valda databasen. Prova en nyare version av Zappiti." SearchMedias="Sök" Loading="Lastning" About="Om" />
+  <Value Id="EditPlaylist" Header="Redigera spellista" DetailsPlaylistGroupBox="Detaljer av spellistan" TitlePlaylist="Titeln i spellistan:" />
+  <Value Id="MainAddPlaylist" Content="Ny spellista" />
 </Dictionary>

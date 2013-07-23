@@ -93,7 +93,7 @@
   <Value Id="MessageBoxCaption" NewReleaseAvailable="Новая версия доступна для скачивания" DoYouWantToDeleteThisGroup="Удалить раздел" DoYouWantToDeleteTheseGroup="Удалить элементы" DeleteCategory="Удалить категории" ResetCategories="Сброс Категории" ResetMainMenu="Сброс меню" ResetABCMenu="Сброс кнопок" VersionExpired="Доступно обновление" AddFolder="Добавить местоположение?" CanStartDuneServer="ОШИБКА" DoYouWanToInstallMpcHd="Необходимое программное обеспечение" DoYouWantToQuit="Современные методы лечения." />
   <Value Id="EditChannels" Text="Каналы" />
   <Value Id="TVShowSeasonList" SeasonUp="СЕЗОН {0}" />
-  <Value Id="AddToGroupNewGroup" Content="Добавить новую группу" />
+  <Value Id="AddToGroupNewGroup" Content="Добавить новую группу" PlaylistContent="Новый список воспроизведения" />
   <Value Id="EditGroupCancel" Content="Отменить" />
   <Value Id="EditGroupOK" Content="Сохранить" />
   <Value Id="FrequentWords" Words="и;в;не;он;на;я;что;тот;быть;с" />
@@ -176,7 +176,7 @@
   <Value Id="WizardConfigureExportDevice" Header="Есть ли у вас устройства?" Body="Выберите устройства, которые у вас есть :" Back="&lt;&lt; Назад" Next="Продолжить &gt;&gt;" Close="Закрыть" />
   <Value Id="WizardConfigureDuneExport" Header="Конфигурация Dune HD / Zappiti Player" Body="Куда делать экспорт вашей библиотеки?" Back="&lt;&lt; Назад" Next="Продолжить &gt;&gt;" Close="Закрыть" />
   <Value Id="WizardConfigureITunesExport" Header="Конфигурация для ITunes (iPhone / iPad)" Body="Куда делать экспорт вашей библиотеки?" Back="&lt;&lt; Назад" Next="Продолжить &gt;&gt;" Close="Закрыть" />
-  <Value Id="ContextMenu" GroupTo="Группировка..." ChangePicture="Обложка..." Delete="Удалить" Edit="Данные" Play="Запуск ..." Encode="Кодировать" DeleteEncode="Удалить подготовленный файл" Reset="Сброс" ResetAllCategories="Установки по умолчанию" />
+  <Value Id="ContextMenu" GroupTo="Группировка..." ChangePicture="Обложка..." Delete="Удалить" Edit="Данные" Play="Запуск ..." Encode="Кодировать" DeleteEncode="Удалить подготовленный файл" Reset="Сброс" ResetAllCategories="Установки по умолчанию" ToPlayList="Добавить в плейлист" />
   <Value Id="EncodeTask" Header="Кодирование" />
   <Value Id="EncodingTask" Header="Текущая кодировка" />
   <Value Id="DownloadHandbrakeTask" Header="Скачать Handbrake" />
@@ -194,7 +194,7 @@
   <Value Id="MarketPopup" DoNotShow="Не показывать при запуске." />
   <Value Id="VideoMenu" ABC="ВСЕ" Movies="КИНОФИЛЬМЫ" TVShows="ТВ/СЕРИАЛЫ" Recents="ПОСЛЕДНЕЕ" Categories="ЖАНРЫ" />
   <Value Id="MusicMenu" Titles="Названия" Albums="Альбомы" Artists="Исполнители" Recents="Свежие поступления" Genres="Жанры" Playlists="Плейлисты" />
-  <Value Id="AlbumView" Genre="Жанр :" Count="Треки :" ReleaseDate="Дата выпуска :" Runtime="Продолжительность :" />
+  <Value Id="AlbumView" Genre="Жанр :" Count="Треки :" ReleaseDate="Дата выпуска :" Runtime="Продолжительность :" ToolTipEditPhoto="Нажмите, чтобы изменить изображение" />
   <Value Id="ScanMusicsFolderTask" Header="Сканирование музыкальных файлов" />
   <Value Id="FirstInitFromMusicNfoTask" Header="Поиск информации о музыке" />
   <Value Id="ResetCategoriesTask" Header="Сброс категории" />
@@ -202,6 +202,8 @@
   <Value Id="SignIn" HeaderSignIn="Войти" HeaderRegister="Регистрация" Email="E-mail" Password="Пароль" RepeatPassword="Введите пароль ещё раз" Firstname="Имя" Lastname="Фамилия" AlreadyRegistered="Подпишите меня сейчас" NewUser="Создайте аккаунт прямо сейчас" SignIn="Войти" Register="Зарегистрироваться" BadCredential="E-mail или пароль неверны" DuplicateEmail="Уже существует учётная запись, связанная с данным e-mail." RegistrationError="Невозможно создать учетную запись на данный момент." NewUserText="У Вас нет учётной записи Zappiti?" AlreadyRegisteredText="Вы уже зарегистрированы в Zappiti?" UnableToConnect="Ваш аккаунт не доступен?" Reset="Да, я хочу создать новый пароль" ResetInfo="Введите адрес электронной почты в следующих областях выше." HeaderResetPassword="Сбросить пароль" ResetEmailSent="Проверьте вашу электронную почту и нажмите на ссылку посланую вам, чтобы изменить пароль." ResetEmailNotSent="Нельзя сбросить пароль, проверьте, что правильность адреса электронной почты." BadLicence="Не удалось получить данные своей учетной записи." CheckYourConnection="Не удается подключиться к Интернету." />
   <Value Id="ResetDeviceList" Header="Забудьте авторизованным устройствам" Body="Ваше имя пользователя Zappiti может быть связан с 3 компьютерами.[BR][BR]В прошлом этот предел, вы можете «забыть ваши компьютеры» связать новый компьютер на ваш счет.[BR][BR]Вы можете «забыть ваши компьютеры» до 2 раза на 6 месяцев." ForgetYourComputers="Забудьте ваши компьютеры" TooMuchReset="Вы достигли предела количества скидки до нуля за этот период." YouHaveToWait="Вы должны подождать {0} перед использованием этой функции." Days="дней" />
   <Value Id="SyncTask" Header="Выполняется синхронизация" DeleteCategoryTask="Удаление категории" DeleteItemTask="Удаление элемента" DeletePersonTask="Удаление человека" UpdatePersonTask="Обновление человек" UpdateMenuTask="Обновление меню" UpdateItemTask="Обновление пункта" UpdateCategoriesTask="Обновление категорий" ResetTask="Начало синхронизации" PutPictureTask="Передача изображения" SaveSettingsTask="Сохранение конфигурации" />
-  <Value Id="EditAlbum" Header="Редактировать альбом" DetailsAlbumGroupBox="Детали альбома" DetailsStyleGroupBox="Виды этого трека" TitleAlbum="Название альбома:" DetailsTrackGroupBox="Подробная информация о треке" Duration="Длина:" DetailsArtisteGroupBox="Артисты на этот трек" AddNewArtist="Создайте новый художник" TitleTrack="Название:" />
+  <Value Id="EditAlbum" Header="Редактировать альбом" DetailsAlbumGroupBox="Детали альбома" DetailsStyleGroupBox="Виды этого трека" TitleAlbum="Название альбома:" DetailsTrackGroupBox="Подробная информация о треке" Duration="Длина:" DetailsArtisteGroupBox="Артисты на этот трек" AddNewArtist="Создайте новый художник" AddNewStyle="Create a new style" TitleTrack="Название:" AlbumPisteOrpheline="Альбом " ToolTipEditPhoto="Нажмите, чтобы изменить изображение" Filename="Файл:" />
   <Value Id="MainWindow" Donate="Добровольное пожертвование !" DatabaseUpdating="Обновление базы данных ..." Home="Главная" Configuration="Настройки" Scan="Поиск фильмов" DatabaseBadVersion="Данная версия Zappiti не может открыть выбранную базу данных. Попробуйте установить новую версию Zappiti." SearchMedias="Поиск" Loading="Загрузка" About="О проекте" />
+  <Value Id="EditPlaylist" Header="Редактирование списка воспроизведения" DetailsPlaylistGroupBox="Подробная информация о списке воспроизведения" TitlePlaylist="Название списка воспроизведения:" />
+  <Value Id="MainAddPlaylist" Content="Новый список воспроизведения" />
 </Dictionary>

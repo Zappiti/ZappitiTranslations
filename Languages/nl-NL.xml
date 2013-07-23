@@ -93,7 +93,7 @@
   <Value Id="MessageBoxCaption" NewReleaseAvailable="Nieuwe versie beschikbaar" DoYouWantToDeleteThisGroup="Item verwijderen" DoYouWantToDeleteTheseGroup="Items verwijderen" DeleteCategory="Verwijder categorie" ResetCategories="Reset categorieën" ResetMainMenu="Reset menu's" ResetABCMenu="Reset knoppen" VersionExpired="Update beschikbaar" AddFolder="Map toevoegen?" CanStartDuneServer="Fout" DoYouWanToInstallMpcHd="Vereiste software" DoYouWantToQuit="Huidige behandelingen." />
   <Value Id="EditChannels" Text="Kanalen" />
   <Value Id="TVShowSeasonList" SeasonUp="SEIZOEN {0}" />
-  <Value Id="AddToGroupNewGroup" Content="Nieuwe groep" />
+  <Value Id="AddToGroupNewGroup" Content="Nieuwe groep" PlaylistContent="Nieuwe afspeellijst" />
   <Value Id="EditGroupCancel" Content="Annuleren" />
   <Value Id="EditGroupOK" Content="Opslaan" />
   <Value Id="FrequentWords" Words="de;een;het;van;ik;te;dat;die;in;en;hij;niet;zijn" />
@@ -175,7 +175,7 @@
   <Value Id="WizardConfigureExportDevice" Header="Welke apparaten hebt u?" Body="Selecteer de apparaten die u bezit :" Back="&lt;&lt; Vorige" Next="Volgende &gt;&gt;" Close="Sluiten" />
   <Value Id="WizardConfigureDuneExport" Header="Dune HD / Zappiti Player configuratie" Body="Gegevens exporteren naar?" Back="&lt;&lt; Vorige" Next="Volgende &gt;&gt;" Close="Sluiten" />
   <Value Id="WizardConfigureITunesExport" Header="Configuratie voor iTunes (iPhone / iPad)" Body="Gegevens exporteren naar?" Back="&lt;&lt; Vorige" Next="Volgende &gt;&gt;" Close="Sluiten" />
-  <Value Id="ContextMenu" GroupTo="Groep..." ChangePicture="Verander..." Delete="Verwijderen" Edit="Bewerken ..." Play="Afspelen ..." Encode="Encoderen" DeleteEncode="Verwijder het gecodeerde bestand" Reset="Reset" ResetAllCategories="Reset categorieën" />
+  <Value Id="ContextMenu" GroupTo="Groep..." ChangePicture="Verander..." Delete="Verwijderen" Edit="Bewerken ..." Play="Afspelen ..." Encode="Encoderen" DeleteEncode="Verwijder het gecodeerde bestand" Reset="Reset" ResetAllCategories="Reset categorieën" ToPlayList="Toevoegen aan afspeellijst" />
   <Value Id="EncodeTask" Header="Codering" />
   <Value Id="EncodingTask" Header="Huidige codering" />
   <Value Id="DownloadHandbrakeTask" Header="Handbrake downloaden" />
@@ -193,7 +193,7 @@
   <Value Id="MarketPopup" DoNotShow="Niet weergeven bij het opstarten" />
   <Value Id="VideoMenu" ABC="ALLES" Movies="FILMS" TVShows="SERIES" Recents="RECENT TOEGEVOEGD" Categories="CATEGORIEEN" />
   <Value Id="MusicMenu" Titles="TITELS" Albums="ALBUMS" Artists="ARTIESTEN" Recents="RECENT" Genres="GENRES" Playlists="AFSPEELLIJSTEN" />
-  <Value Id="AlbumView" Genre="Genre :" Count="Tracks :" ReleaseDate="Uitgebracht :" Runtime="Speelduur :" />
+  <Value Id="AlbumView" Genre="Genre :" Count="Tracks :" ReleaseDate="Uitgebracht :" Runtime="Speelduur :" ToolTipEditPhoto="Klik op de afbeelding wijzigen" />
   <Value Id="ScanMusicsFolderTask" Header="Scan muziekbestanden" />
   <Value Id="FirstInitFromMusicNfoTask" Header="Initialisatie muziekinformatie" />
   <Value Id="ResetCategoriesTask" Header="Reset categorieën" />
@@ -201,6 +201,8 @@
   <Value Id="SignIn" HeaderSignIn="Inloggen" HeaderRegister="Account aanmaken" Email="E-mail" Password="Wachtwoord" RepeatPassword="Herhaal wachtwoord" Firstname="Voornaam" Lastname="Naam" AlreadyRegistered="Meld me nu" NewUser="Maak nu een account" SignIn="Inloggen" Register="Registreren" BadCredential="Gebruikersnaam of wachtwoord is ongeldig" DuplicateEmail="Er is al een account gekoppeld aan dit e-mailbericht." RegistrationError="Niet in staat om de account aan te maken voor het moment." NewUserText="Je hoeft niet Zappiti account?" AlreadyRegisteredText="Heb je al een account Zappiti?" UnableToConnect="Uw account is niet toegankelijk?" Reset="Ja, ik wil een nieuw wachtwoord aan te maken" ResetInfo="Vul uw e-mail in de volgende velden boven. " HeaderResetPassword="Uw wachtwoord opnieuw instellen" ResetEmailSent="Controleer uw e-mail en klik op de link sturen wij u uw wachtwoord te wijzigen." ResetEmailNotSent="Kan het wachtwoord niet opnieuw in te stellen, dank u om te controleren of de e-mail juist is." BadLicence="Niet in staat om uw accountgegevens te halen." CheckYourConnection="Kan geen verbinding met het internet." />
   <Value Id="ResetDeviceList" Header="Vergeet uw geautoriseerde apparaten" Body="De gebruikersnaam van uw Zappiti kan worden geassocieerd met 3 computers.[BR][BR]Langs deze limiet, kunt u &quot;Vergeet uw computers&quot; koppelen nieuwe computer aan uw account.[BR][BR]U kunt &quot;vergeten uw computers&quot; tot 2 keer op 6 maanden." ForgetYourComputers="Vergeet uw computers" TooMuchReset="U hebt het maximum aantal korting bereikt tot nul voor die periode." YouHaveToWait="Je moet wachten {0} voordat u deze functie gebruikt." Days="dagen" />
   <Value Id="SyncTask" Header="Synchronisatie in uitvoering" DeleteCategoryTask="Een categorie verwijderen" DeleteItemTask="Verwijderen van een item" DeletePersonTask="Het verwijderen van een persoon" UpdatePersonTask="Een persoon bijwerken" UpdateMenuTask="Een menu bijwerken" UpdateItemTask="Een item updaten" UpdateCategoriesTask="Categorieën bijwerken" ResetTask="Starten van de synchronisatie" PutPictureTask="Het verzenden van een afbeelding" SaveSettingsTask="De configuratie op te slaan" />
-  <Value Id="EditAlbum" Header="Album bewerken" DetailsAlbumGroupBox="Details van het album" DetailsStyleGroupBox="Soorten van dit nummer" TitleAlbum="Album title:" DetailsTrackGroupBox="Details van de track" Duration="Lengte:" DetailsArtisteGroupBox="Kunstenaars op dit circuit" AddNewArtist="Maak een nieuwe artiest" TitleTrack="Titel:" />
+  <Value Id="EditAlbum" Header="Album bewerken" DetailsAlbumGroupBox="Details van het album" DetailsStyleGroupBox="Soorten van dit nummer" TitleAlbum="Album title:" DetailsTrackGroupBox="Details van de track" Duration="Lengte:" DetailsArtisteGroupBox="Kunstenaars op dit circuit" AddNewArtist="Maak een nieuwe artiest" AddNewStyle="Create a new style" TitleTrack="Titel:" AlbumPisteOrpheline="Album " ToolTipEditPhoto="Klik op de afbeelding wijzigen" Filename="Bestand:" />
   <Value Id="MainWindow" Donate="Doneer!" DatabaseUpdating="Database bijwerken..." Home="Home" Configuration="Configuratie" Scan="Zoek" DatabaseBadVersion="Deze versie van Zappiti kan de geselecteerde database niet openen. Probeer een nieuwere versie van Zappiti." SearchMedias="Zoek" Loading="Laden" About="Over" />
+  <Value Id="EditPlaylist" Header="Afspeellijst bewerken" DetailsPlaylistGroupBox="Details van de afspeellijst" TitlePlaylist="Titel van de afspeellijst:" />
+  <Value Id="MainAddPlaylist" Content="Nieuwe afspeellijst" />
 </Dictionary>

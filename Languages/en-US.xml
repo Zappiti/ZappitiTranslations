@@ -93,7 +93,7 @@
   <Value Id="MessageBoxCaption" NewReleaseAvailable="Update available" DoYouWantToDeleteThisGroup="Remove Item" DoYouWantToDeleteTheseGroup="Remove Items" DeleteCategory="Delete a category" ResetCategories="Reset Categories" ResetMainMenu="Reset menus" ResetABCMenu="Reset buttons" VersionExpired="Update available" AddFolder="Add the location?" CanStartDuneServer="Error" DoYouWanToInstallMpcHd="Software Requirements" DoYouWantToQuit="Current treatments." />
   <Value Id="EditChannels" Text="Channels" />
   <Value Id="TVShowSeasonList" SeasonUp="SEASON {0}" />
-  <Value Id="AddToGroupNewGroup" Content="New group" />
+  <Value Id="AddToGroupNewGroup" Content="New group" PlaylistContent="New playlist" />
   <Value Id="EditGroupCancel" Content="Cancel" />
   <Value Id="EditGroupOK" Content="Save" />
   <Value Id="FrequentWords" Words="you;i;to;the;a;and;that;it;of;me" />
@@ -175,7 +175,7 @@
   <Value Id="WizardConfigureExportDevice" Header="Which devices do you have?" Body="Select the devices you own:" Back="&lt;&lt; Previous" Next="Next &gt;&gt;" Close="Close" />
   <Value Id="WizardConfigureDuneExport" Header="Media Player export configuration" Body="Where to export your data and generate Zappiti access for your Dune HD / Zappiti Player? Zappiti will create a &quot;_Zappiti&quot; folder to access Zappiti from your Media Player (Dune HD or Zappiti Player)." Back="&lt;&lt; Previous" Next="Next &gt;&gt;" Close="Close" />
   <Value Id="WizardConfigureITunesExport" Header="Configuration for iTunes (iPhone / iPad)" Body="Where to export your data?" Back="&lt;&lt; Previous" Next="Next &gt;&gt;" Close="Close" />
-  <Value Id="ContextMenu" GroupTo="Group..." ChangePicture="Change..." Delete="Delete" Edit="Edit..." Play="Play..." Encode="Encode" DeleteEncode="Delete the encoded file" Reset="Reset" ResetAllCategories="Reset Categories" />
+  <Value Id="ContextMenu" GroupTo="Group..." ChangePicture="Change..." Delete="Delete" Edit="Edit..." Play="Play..." Encode="Encode" DeleteEncode="Delete the encoded file" Reset="Reset" ResetAllCategories="Reset Categories" ToPlayList="Add to playlist" />
   <Value Id="EncodeTask" Header="Encoding" />
   <Value Id="EncodingTask" Header="Current encoding" />
   <Value Id="DownloadHandbrakeTask" Header="Download Handbrake" />
@@ -193,7 +193,7 @@
   <Value Id="MarketPopup" DoNotShow="Do not show at startup." />
   <Value Id="VideoMenu" ABC="ALL" Movies="MOVIES" TVShows="TV SHOWS" Recents="RECENT" Categories="CATEGORIES" />
   <Value Id="MusicMenu" Titles="TITLES" Albums="ALBUMS" Artists="ARTISTS" Recents="RECENT" Genres="TYPES" Playlists="PLAYLISTS" />
-  <Value Id="AlbumView" Genre="Genre:" Count="Tracks:" ReleaseDate="Release Date:" Runtime="Duration:" />
+  <Value Id="AlbumView" Genre="Genre:" Count="Tracks:" ReleaseDate="Release Date:" Runtime="Duration:" ToolTipEditPhoto="Click to change the picture" />
   <Value Id="ScanMusicsFolderTask" Header="Scan music files" />
   <Value Id="FirstInitFromMusicNfoTask" Header="Initialization information from a music file" />
   <Value Id="ResetCategoriesTask" Header="Reset categories" />
@@ -201,6 +201,8 @@
   <Value Id="SignIn" HeaderSignIn="Login" HeaderRegister="Create Account" Email="Email" Password="Password" RepeatPassword="Repeat the password" Firstname="First name" Lastname="Last name" AlreadyRegistered="Sign me now" NewUser="Create an account now" SignIn="Login" Register="Register" BadCredential="Email or password is invalid" DuplicateEmail="There is already an account linked to this email." RegistrationError="Unable to create the account for the moment." NewUserText="You do not have a Zappiti account?" AlreadyRegisteredText="Do you have a Zappiti account?" UnableToConnect="Is your account not accessible?" Reset="Yes, I want to create a new password" ResetInfo="Enter your email in the following field. " HeaderResetPassword="Reset your password" ResetEmailSent="Check your email and click the link we sent you to change your password." ResetEmailNotSent="Cannot reset your password, please make sure your email is correct." BadLicence="Unable to retrieve your account details." CheckYourConnection="Unable to establish an Internet connection." />
   <Value Id="ResetDeviceList" Header="Forget your authorized devices" Body="Your Zappiti username can be associated with 3 computers.[BR][BR]Past this limit, you can &quot;Forget your computers&quot; to associate new computer to your account.[BR][BR]You can &quot;Forget your computers&quot; up to 2 times on 6 month." ForgetYourComputers="Forget your computers" TooMuchReset="You have reached the limit number of computer resets for this period." YouHaveToWait="You must wait {0} before using this function." Days="days" />
   <Value Id="SyncTask" Header="Synchronization in progress" DeleteCategoryTask="Deleting a Category" DeleteItemTask="Deleting an item" DeletePersonTask="Removing a person" UpdatePersonTask="Updating a person" UpdateMenuTask="Updating a Menu" UpdateItemTask="Updating an item" UpdateCategoriesTask="Updating categories" ResetTask="Start of synchronization" PutPictureTask="Sending an Image" SaveSettingsTask="Saving the configuration" />
-  <Value Id="EditAlbum" Header="Edit album" DetailsAlbumGroupBox="Details of the album" TitleAlbum="Album title:" DetailsTrackGroupBox="Details of the track" Duration="Length:" DetailsArtisteGroupBox="Artists on this track" DetailsStyleGroupBox="Kinds of this track" AddNewArtist="Create a new artist" TitleTrack="Title:" />
+  <Value Id="EditAlbum" Header="Edit album" DetailsAlbumGroupBox="Details of the album" TitleAlbum="Album title:" DetailsTrackGroupBox="Details of the track" Duration="Length:" DetailsArtisteGroupBox="Artists on this track" DetailsStyleGroupBox="Kinds of this track" AddNewArtist="Create a new artist" AddNewStyle="Create a new style" TitleTrack="Title:" AlbumPisteOrpheline="Album " ToolTipEditPhoto="Click to change the picture" Filename="File:" />
   <Value Id="MainWindow" Donate="Donate!" DatabaseUpdating="Update the database..." Home="Home" Configuration="Configure" Scan="Scan" DatabaseBadVersion="The current version of Zappiti can not open the database selected. Try a newer version of Zappiti." SearchMedias="Search" Loading="Loading" About="About" />
+  <Value Id="EditPlaylist" Header="Edit playlist" DetailsPlaylistGroupBox="Details of the playlist" TitlePlaylist="Title of the playlist:" />
+  <Value Id="MainAddPlaylist" Content="New playlist" />
 </Dictionary>

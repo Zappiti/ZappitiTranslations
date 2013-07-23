@@ -93,7 +93,7 @@
   <Value Id="MessageBoxCaption" NewReleaseAvailable="Nowa wersja dostępna do pobrania" DoYouWantToDeleteThisGroup="Chcesz usunąć tą grupę?" DoYouWantToDeleteTheseGroup="Chcesz usunąć te grupy?" DeleteCategory="Usuń kategorię" ResetCategories="Zresetuj kategorie" ResetMainMenu="Zresetuj menu" ResetABCMenu="Zresetuj przyciski" VersionExpired="Aktualizacja jest dostępna" AddFolder="Dodaj miejsce?" CanStartDuneServer="Błąd" DoYouWanToInstallMpcHd="Wymagane oprogramowanie" DoYouWantToQuit="Obecne sposoby leczenia." />
   <Value Id="EditChannels" Text="Ilość kanałów" />
   <Value Id="TVShowSeasonList" SeasonUp="SEZON {0}" />
-  <Value Id="AddToGroupNewGroup" Content="Nowa grupa" />
+  <Value Id="AddToGroupNewGroup" Content="Nowa grupa" PlaylistContent="Nowa lista odtwarzania" />
   <Value Id="EditGroupCancel" Content="Anuluj" />
   <Value Id="EditGroupOK" Content="Zapisz" />
   <Value Id="FrequentWords" Words="ty;ja;do;on;a;i;że;to;być;mnie" />
@@ -175,7 +175,7 @@
   <Value Id="WizardConfigureExportDevice" Header="Czy masz jakieś urządzenia?" Body="Wybierz urządzenia, które posiadasz :" Back="&lt;&lt; Poprzedni" Next="Następny&gt;&gt;" Close="Zamknij" />
   <Value Id="WizardConfigureDuneExport" Header="Konfiguracja Dune HD / Zappiti Player" Body="Gdzie wyeksportować dane ?" Back="&lt;&lt; Poprzedni" Next="Następny &gt;&gt;" Close="Zamknij" />
   <Value Id="WizardConfigureITunesExport" Header="Konfiguracja iTunes (iPhone / iPad)" Body="Gdzie wyeksportować dane?" Back="&lt;&lt; Poprzedni" Next="Nastepny &gt;&gt;" Close="Zamknij" />
-  <Value Id="ContextMenu" GroupTo="Grupy filmów..." ChangePicture="Zmień Okładkę..." Delete="Usuń to" Edit="Edycja ..." Play="Uruchom ..." Encode="Zakodować" DeleteEncode="Usuń zakodowany plik" Reset="Reset" ResetAllCategories="Reset kategori" />
+  <Value Id="ContextMenu" GroupTo="Grupy filmów..." ChangePicture="Zmień Okładkę..." Delete="Usuń to" Edit="Edycja ..." Play="Uruchom ..." Encode="Zakodować" DeleteEncode="Usuń zakodowany plik" Reset="Reset" ResetAllCategories="Reset kategori" ToPlayList="Dodaj do listy odtwarzania" />
   <Value Id="EncodeTask" Header="Kodowanie" />
   <Value Id="EncodingTask" Header="Aktualny kodowanie" />
   <Value Id="DownloadHandbrakeTask" Header="Pobierz Handbrake" />
@@ -193,7 +193,7 @@
   <Value Id="MarketPopup" DoNotShow="Nie pokazuj na starcie." />
   <Value Id="VideoMenu" ABC="WSZYSCY" Movies="FILMY" TVShows="SERIALE TV" Recents="POZOSTAŁE" Categories="KATEGORIE" />
   <Value Id="MusicMenu" Titles="TYTUŁY" Albums="ALBUMS" Artists="ARTYŚCI" Recents="OSTATNIE" Genres="RODZAJE" Playlists="PLAYLISTA" />
-  <Value Id="AlbumView" Genre="Gatunek :" Count="Utwory :" ReleaseDate="Data wydania :" Runtime="Czas trwania :" />
+  <Value Id="AlbumView" Genre="Gatunek :" Count="Utwory :" ReleaseDate="Data wydania :" Runtime="Czas trwania :" ToolTipEditPhoto="Kliknij, aby zmienić obraz" />
   <Value Id="ScanMusicsFolderTask" Header="Skanowanie plików muzycznych" />
   <Value Id="FirstInitFromMusicNfoTask" Header="Informacje inicjalizacji z muzyką" />
   <Value Id="ResetCategoriesTask" Header="Wyczyść kategorie" />
@@ -201,6 +201,8 @@
   <Value Id="SignIn" HeaderSignIn="Login" HeaderRegister="Utwórz konto" Email="Email" Password="Hasło" RepeatPassword="Powtórz hasło" Firstname="Imię" Lastname="Nazwisko" AlreadyRegistered="Zarejestruj mnie teraz" NewUser="Stwórz nowe konto" SignIn="Login" Register="Zarejestruj" BadCredential="E-mail lub hasło jest nieprawidłowe" DuplicateEmail="Istnieje już konto powiązane z tym e-mailem." RegistrationError="Nie można utworzyć konta w tej chwili." NewUserText="Nie masz konta Zappiti?" AlreadyRegisteredText="Masz konto Zappiti?" UnableToConnect="Twoje konto nie jest dostępna?" Reset="Tak, chcę, aby utworzyć nowe hasło" ResetInfo="Wpisz swój adres e-mail w następujących polach powyżej. " HeaderResetPassword="Zmień hasło" ResetEmailSent="Sprawdź swój e-mail i kliknij link aby zmienić hasło." ResetEmailNotSent="Nie można zresetować hasło. " BadLicence="Nie można pobrać danych konta." CheckYourConnection="Nie można połączyć się z Internetem." />
   <Value Id="ResetDeviceList" Header="Zapomnij autoryzowane urządzenia" Body="Twoja nazwa użytkownika Zappiti może być przypisana maksymalnie do 3 komputerów.[BR][BR]Jeżeli twoja lista jest pełna a chcesz przypisać nowy komputer do twojej nazwy użytkownika, najpierw musisz &quot;zapomnieć&quot; któryś z wcześniej przypisanych komputerów.[BR][BR]Można &quot;zapomnieć komputer&quot; 2 razy na 6 miesięcy." ForgetYourComputers="Zapomnij komputery" TooMuchReset="Doszła do liczby granicznej zapomnień dla tego okresu." YouHaveToWait="Musisz czekać {0} przed użyciem tej funkcji." Days="dni" />
   <Value Id="SyncTask" Header="Synchronizacja w toku" DeleteCategoryTask="Usuwanie Kategoria" DeleteItemTask="Usuwanie elementu" DeletePersonTask="Usuwanie osoby" UpdatePersonTask="Aktualizacja osobę" UpdateMenuTask="Aktualizacja Menu" UpdateItemTask="Aktualizacja pozycji" UpdateCategoriesTask="Aktualizacja kategorii" ResetTask="Początek synchronizacji" PutPictureTask="Wysyłanie obrazu" SaveSettingsTask="Zapisywanie konfiguracji" />
-  <Value Id="EditAlbum" Header="Edytuj album" DetailsAlbumGroupBox="Szczegóły dotyczące albumu" DetailsStyleGroupBox="Rodzaje tego utworu" TitleAlbum="Tytuł albumu:" DetailsTrackGroupBox="Szczegó³y utworu" Duration="Długość:" DetailsArtisteGroupBox="Artyści na tym torze" AddNewArtist="Utwórz nowy artysta" TitleTrack="Tytuł:" />
+  <Value Id="EditAlbum" Header="Edytuj album" DetailsAlbumGroupBox="Szczegóły dotyczące albumu" DetailsStyleGroupBox="Rodzaje tego utworu" TitleAlbum="Tytuł albumu:" DetailsTrackGroupBox="Szczegó³y utworu" Duration="Długość:" DetailsArtisteGroupBox="Artyści na tym torze" AddNewArtist="Utwórz nowy artysta" AddNewStyle="Create a new style" TitleTrack="Tytuł:" AlbumPisteOrpheline="Album " ToolTipEditPhoto="Kliknij, aby zmienić obraz" Filename="Plik:" />
   <Value Id="MainWindow" Donate="Darowizna !" DatabaseUpdating="Aktualizacja bazy danych ..." Home="Strona główna" Configuration="Ustawienia" Scan="Skanuj" DatabaseBadVersion="Ta wersja Zappiti nie może otworzyć istniejącą bazę danych. Spróbuj zainstalować nową wersję Zappiti." SearchMedias="Szukaj" Loading="Ładowanie" About="O Programie" />
+  <Value Id="EditPlaylist" Header="Edycji listy odtwarzania" DetailsPlaylistGroupBox="Szczegóły listy odtwarzania" TitlePlaylist="Tytuł playlisty:" />
+  <Value Id="MainAddPlaylist" Content="Nowa lista odtwarzania" />
 </Dictionary>

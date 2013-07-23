@@ -93,7 +93,7 @@
   <Value Id="MessageBoxCaption" NewReleaseAvailable="Actualización disponible" DoYouWantToDeleteThisGroup="Eliminar elemento" DoYouWantToDeleteTheseGroup="Eliminar elementos" DeleteCategory="Eliminar una categoría" ResetCategories="Resetear categorías" ResetMainMenu="Resetear menus" ResetABCMenu="Resetear botones" VersionExpired="Actualización disponible" AddFolder="¿Añadir la carpeta?" CanStartDuneServer="Error" DoYouWanToInstallMpcHd="Software requerido" DoYouWantToQuit="Los tratamientos actuales." />
   <Value Id="EditChannels" Text="Canales" />
   <Value Id="TVShowSeasonList" SeasonUp="TEMPORADA {0}" />
-  <Value Id="AddToGroupNewGroup" Content="Nuevo grupo" />
+  <Value Id="AddToGroupNewGroup" Content="Nuevo grupo" PlaylistContent="Nueva lista de reproducción" />
   <Value Id="EditGroupCancel" Content="Cancelar" />
   <Value Id="EditGroupOK" Content="Guardar" />
   <Value Id="FrequentWords" Words="tu;yo;a;el;un;y;eso;aquel;de;mi" />
@@ -175,7 +175,7 @@
   <Value Id="WizardConfigureExportDevice" Header="¿Tienes algún dispositivo?" Body="Selecciona los dispositivos que tienes :" Back="&lt;&lt; Anterior" Next="Siguiente &gt;&gt;" Close="Cerrar" />
   <Value Id="WizardConfigureDuneExport" Header="Configuración de Dune" Body="¿Donde exportar tus datos?" Back="&lt;&lt; Anterior" Next="Siguiente &gt;&gt;" Close="Cerrar" />
   <Value Id="WizardConfigureITunesExport" Header="Configuración de iTunes" Body="¿Dónde exportar tus datos?" Back="&lt;&lt; Anterior" Next="Siguiente &gt;&gt;" Close="Cerrar" />
-  <Value Id="ContextMenu" GroupTo="Agrupar..." ChangePicture="Cambiar..." Delete="Eliminar" Edit="Editar ..." Play="Reproducir ..." Encode="Codificar" DeleteEncode="Eliminar el fichero codificado" Reset="Resetear" ResetAllCategories="Resetear Categorias" />
+  <Value Id="ContextMenu" GroupTo="Agrupar..." ChangePicture="Cambiar..." Delete="Eliminar" Edit="Editar ..." Play="Reproducir ..." Encode="Codificar" DeleteEncode="Eliminar el fichero codificado" Reset="Resetear" ResetAllCategories="Resetear Categorias" ToPlayList="Añadir a lista de reproducción" />
   <Value Id="EncodeTask" Header="Codificando" />
   <Value Id="EncodingTask" Header="Codificación actual" />
   <Value Id="DownloadHandbrakeTask" Header="Descargar Handbrake" />
@@ -193,7 +193,7 @@
   <Value Id="MarketPopup" DoNotShow="No volver a mostrar en el arranque." />
   <Value Id="VideoMenu" ABC="TODOS" Movies="PELICULAS" TVShows="SERIES TV" Recents="RECIENTES" Categories="CATEGORIAS" />
   <Value Id="MusicMenu" Titles="TÍTULOS" Albums="ALBUMS" Artists="ARTISTAS" Recents="RECIENTE" Genres="TIPOS" Playlists="PLAYLISTS" />
-  <Value Id="AlbumView" Genre="Género :" Count="Pistas :" ReleaseDate="Fecha de Publicación :" Runtime="Duración :" />
+  <Value Id="AlbumView" Genre="Género :" Count="Pistas :" ReleaseDate="Fecha de Publicación :" Runtime="Duración :" ToolTipEditPhoto="Haga clic para cambiar la imagen" />
   <Value Id="ScanMusicsFolderTask" Header="Escanea los archivos de música" />
   <Value Id="FirstInitFromMusicNfoTask" Header="Inicialización de información de una música" />
   <Value Id="ResetCategoriesTask" Header="Cambiar categorías" />
@@ -201,6 +201,8 @@
   <Value Id="SignIn" HeaderSignIn="Login" HeaderRegister="Crear una cuenta" Email="Email" Password="Contraseña" RepeatPassword="Repita la contraseña" Firstname="Primer nombre" Lastname="Nombre" AlreadyRegistered="Registrarme ahora" NewUser="Crear una cuenta ahora" SignIn="Login" Register="Registro" BadCredential="Email o contraseña erróneo" DuplicateEmail="Ya existe una cuenta asociada a este correo electrónico." RegistrationError="No se puede crear la cuenta por el momento." NewUserText="Usted no tiene cuenta Zappiti?" AlreadyRegisteredText="¿Tienes una Zappiti cuenta?" UnableToConnect="Tu cuenta no es accesible?" Reset="Sí, quiero crear una nueva contraseña" ResetInfo="Introduzca su dirección de correo en los siguientes campos de arriba. " HeaderResetPassword="Restablecer su contraseña" ResetEmailSent="Revise su correo electrónico y haga clic en el enlace que le enviamos para cambiar tu contraseña." ResetEmailNotSent="No se puede restablecer la contraseña, gracias de verificar que el correo electrónico es correcta." BadLicence="No se puede recuperar datos de su cuenta." CheckYourConnection="No se puede conectar a Internet." />
   <Value Id="ResetDeviceList" Header="Olvídese de sus dispositivos autorizados" Body="Su nombre de usuario de Zappiti puede asociarse con 3 ordenadores.[BR][BR]Más allá de este límite, se pueden &quot;olvidar sus computadoras&quot; para asociar el nuevo equipo en su cuenta.[BR][BR]Usted puede &quot;olvidar sus computadoras&quot; hasta 2 veces en 6 meses." ForgetYourComputers="Olvídese de sus ordenadores" TooMuchReset="Has alcanzado el número límite de los descuentos a cero para ese período." YouHaveToWait="Debe esperar a {0} antes de usar esta función." Days="días" />
   <Value Id="SyncTask" Header="Sincronización en curso" DeleteCategoryTask="Supresión de una categoría" DeleteItemTask="Eliminación de un elemento" DeletePersonTask="Extracción de una persona" UpdatePersonTask="Actualización de una persona" UpdateMenuTask="La actualización de un menú" UpdateItemTask="Actualizar un elemento" UpdateCategoriesTask="Actualización de las categorías" ResetTask="Inicio de la sincronización" PutPictureTask="Enviar una imagen" SaveSettingsTask="Guardar la configuración" />
-  <Value Id="EditAlbum" Header="Editar álbum" DetailsAlbumGroupBox="Detalles del álbum" DetailsStyleGroupBox="Clases de esta pista" TitleAlbum="Título del álbum:" DetailsTrackGroupBox="Detalles de la pista" Duration="Longitud:" DetailsArtisteGroupBox="Artistas en esta pista" AddNewArtist="Crear un nuevo artista" TitleTrack="Título:" />
+  <Value Id="EditAlbum" Header="Editar álbum" DetailsAlbumGroupBox="Detalles del álbum" DetailsStyleGroupBox="Clases de esta pista" TitleAlbum="Título del álbum:" DetailsTrackGroupBox="Detalles de la pista" Duration="Longitud:" DetailsArtisteGroupBox="Artistas en esta pista" AddNewArtist="Crear un nuevo artista" AddNewStyle="Create a new style" TitleTrack="Título:" AlbumPisteOrpheline="Álbum " ToolTipEditPhoto="Haga clic para cambiar la imagen" Filename="Archivo:" />
   <Value Id="MainWindow" Donate="Donar !" DatabaseUpdating="Actualizar la base de datos ..." Home="Inicio" Configuration="Configurar" Scan="Escanear" DatabaseBadVersion="La versión actual de Zappiti no puede abrir la base de datos. Intentalo con una nueva versión." SearchMedias="Buscar" Loading="Carga" About="Acerca de" />
+  <Value Id="EditPlaylist" Header="Editar lista de reproducción" DetailsPlaylistGroupBox="Detalles de la lista de reproducción" TitlePlaylist="Título de la lista de reproducción:" />
+  <Value Id="MainAddPlaylist" Content="Nueva lista de reproducción" />
 </Dictionary>
