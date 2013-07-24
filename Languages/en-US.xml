@@ -119,6 +119,8 @@
   <Value Id="EditMenuBrowse" Content="Browse..." />
   <Value Id="EditCategoriesAdd" ToolTip="Add Category" />
   <Value Id="MainAddCategory" Content="New category" />
+  <Value Id="MainAddPlaylist" Content="New playlist" />
+  <Value Id="MainAddAlbum" Content="New album" />
   <Value Id="MoreMediaInfosRightClick" Text="Please right-click for more commands..." />
   <Value Id="EditGroupSortByName" Content="Sort by title" />
   <Value Id="SelectPictureTabHeader" Folder="Cover front" Background="Background" Picture="Wore" />
@@ -204,5 +206,5 @@
   <Value Id="EditAlbum" Header="Edit album" DetailsAlbumGroupBox="Details of the album" TitleAlbum="Album title:" DetailsTrackGroupBox="Details of the track" Duration="Length:" DetailsArtisteGroupBox="Artists on this track" DetailsStyleGroupBox="Kinds of this track" AddNewArtist="Create a new artist" AddNewStyle="Create a new style" TitleTrack="Title:" AlbumPisteOrpheline="Album " ToolTipEditPhoto="Click to change the picture" Filename="File:" />
   <Value Id="MainWindow" Donate="Donate!" DatabaseUpdating="Update the database..." Home="Home" Configuration="Configure" Scan="Scan" DatabaseBadVersion="The current version of Zappiti can not open the database selected. Try a newer version of Zappiti." SearchMedias="Search" Loading="Loading" About="About" />
   <Value Id="EditPlaylist" Header="Edit playlist" DetailsPlaylistGroupBox="Details of the playlist" TitlePlaylist="Title of the playlist:" />
-  <Value Id="MainAddPlaylist" Content="New playlist" />
+  <Value Id="SaveTask" Header="Saving current changes" />
 </Dictionary>

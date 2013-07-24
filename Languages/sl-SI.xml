@@ -119,6 +119,8 @@
   <Value Id="EditMenuBrowse" Content="Brskajte ..." />
   <Value Id="EditCategoriesAdd" ToolTip="Dodaj Kategorijo" />
   <Value Id="MainAddCategory" Content="Nova kategorija" />
+  <Value Id="MainAddPlaylist" Content="Nov seznam predvajanja" />
+  <Value Id="MainAddAlbum" Content="Novi album" />
   <Value Id="MoreMediaInfosRightClick" Text="Prosimo, kliknite na desni gumb za več ukazov..." />
   <Value Id="EditGroupSortByName" Content="Razvrsti po naslovu" />
   <Value Id="SelectPictureTabHeader" Folder="Sprednja Naslovnica" Background="Ozadje" Picture="Nosil" />
@@ -204,5 +206,5 @@
   <Value Id="EditAlbum" Header="Uredi album" DetailsAlbumGroupBox="Podrobnosti o albumu" DetailsStyleGroupBox="Vrste to skladbo" TitleAlbum="Naslov albuma:" DetailsTrackGroupBox="Podrobnosti o progi" Duration="Dolžina:" DetailsArtisteGroupBox="Umetnikov na tej progi" AddNewArtist="Ustvarite nov umetnik" AddNewStyle="Create a new style" TitleTrack="Naslov:" AlbumPisteOrpheline="Album " ToolTipEditPhoto="Kliknite, če želite spremeniti sliko" Filename="Datoteke:" />
   <Value Id="MainWindow" Donate="Donirajte !" DatabaseUpdating="Posodobi zbirko podatkov ..." Home="Domov" Configuration="Nastavite" Scan="Skeniranje" DatabaseBadVersion="Trenutna različica Zappiti ne more odpreti izbrano bazo podatkov. Poskusite z novejšo različico Zappiti programske opreme." SearchMedias="Išči" Loading="Nalaganje" About="Informacije" />
   <Value Id="EditPlaylist" Header="Urejanje seznama predvajanja" DetailsPlaylistGroupBox="Podrobnosti predvajanja" TitlePlaylist="Naslov seznama predvajanja:" />
-  <Value Id="MainAddPlaylist" Content="Nov seznam predvajanja" />
+  <Value Id="SaveTask" Header="Shranjevanje trenutne spremembe" />
 </Dictionary>

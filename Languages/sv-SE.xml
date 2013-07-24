@@ -119,6 +119,8 @@
   <Value Id="EditMenuBrowse" Content="Bläddra ..." />
   <Value Id="EditCategoriesAdd" ToolTip="Lägg till kategori" />
   <Value Id="MainAddCategory" Content="Ny kategori" />
+  <Value Id="MainAddPlaylist" Content="Ny spellista" />
+  <Value Id="MainAddAlbum" Content="Nytt album" />
   <Value Id="MoreMediaInfosRightClick" Text="Högerklicka för fler kommandon ..." />
   <Value Id="EditGroupSortByName" Content="Sortera efter titel" />
   <Value Id="SelectPictureTabHeader" Folder="Omslag framsida" Background="Omslag baksida" Picture="Bar" />
@@ -204,5 +206,5 @@
   <Value Id="EditAlbum" Header="Redigera album" DetailsAlbumGroupBox="Detaljer för albumet" DetailsStyleGroupBox="Typer av detta spår" TitleAlbum="Album title:" DetailsTrackGroupBox="Detaljer för spåret" Duration="Längd:" DetailsArtisteGroupBox="Konstnärer på detta spår" AddNewArtist="Skapa en ny artist" AddNewStyle="Create a new style" TitleTrack="Titel:" AlbumPisteOrpheline="Album " ToolTipEditPhoto="Klicka för att ändra bilden" Filename="Fil:" />
   <Value Id="MainWindow" Donate="Donera !" DatabaseUpdating="Uppdaterar databasen ..." Home="Hem" Configuration="Anpassa" Scan="Skannar" DatabaseBadVersion="Den nuvarande versionen av Zappiti kan inte öppna den valda databasen. Prova en nyare version av Zappiti." SearchMedias="Sök" Loading="Lastning" About="Om" />
   <Value Id="EditPlaylist" Header="Redigera spellista" DetailsPlaylistGroupBox="Detaljer av spellistan" TitlePlaylist="Titeln i spellistan:" />
-  <Value Id="MainAddPlaylist" Content="Ny spellista" />
+  <Value Id="SaveTask" Header="Spara aktuella ändringar" />
 </Dictionary>

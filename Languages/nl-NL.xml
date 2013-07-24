@@ -119,6 +119,8 @@
   <Value Id="EditMenuBrowse" Content="Bladeren ..." />
   <Value Id="EditCategoriesAdd" ToolTip="Categorie toevoegen" />
   <Value Id="MainAddCategory" Content="Nieuwe categorie" />
+  <Value Id="MainAddPlaylist" Content="Nieuwe afspeellijst" />
+  <Value Id="MainAddAlbum" Content="Nieuw album" />
   <Value Id="MoreMediaInfosRightClick" Text="Klik met rechtermuisknop voor meer opties..." />
   <Value Id="EditGroupSortByName" Content="Sorteer op titel" />
   <Value Id="SelectPictureTabHeader" Folder="Cover" Background="Achtergrond" Picture="Droeg" />
@@ -204,5 +206,5 @@
   <Value Id="EditAlbum" Header="Album bewerken" DetailsAlbumGroupBox="Details van het album" DetailsStyleGroupBox="Soorten van dit nummer" TitleAlbum="Album title:" DetailsTrackGroupBox="Details van de track" Duration="Lengte:" DetailsArtisteGroupBox="Kunstenaars op dit circuit" AddNewArtist="Maak een nieuwe artiest" AddNewStyle="Create a new style" TitleTrack="Titel:" AlbumPisteOrpheline="Album " ToolTipEditPhoto="Klik op de afbeelding wijzigen" Filename="Bestand:" />
   <Value Id="MainWindow" Donate="Doneer!" DatabaseUpdating="Database bijwerken..." Home="Home" Configuration="Configuratie" Scan="Zoek" DatabaseBadVersion="Deze versie van Zappiti kan de geselecteerde database niet openen. Probeer een nieuwere versie van Zappiti." SearchMedias="Zoek" Loading="Laden" About="Over" />
   <Value Id="EditPlaylist" Header="Afspeellijst bewerken" DetailsPlaylistGroupBox="Details van de afspeellijst" TitlePlaylist="Titel van de afspeellijst:" />
-  <Value Id="MainAddPlaylist" Content="Nieuwe afspeellijst" />
+  <Value Id="SaveTask" Header="Huidige wijzigingen opslaan" />
 </Dictionary>

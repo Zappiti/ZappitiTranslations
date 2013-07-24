@@ -119,6 +119,8 @@
   <Value Id="EditMenuBrowse" Content="Sfoglia..." />
   <Value Id="EditCategoriesAdd" ToolTip="Aggiungi Categoria" />
   <Value Id="MainAddCategory" Content="Nuova categoria" />
+  <Value Id="MainAddPlaylist" Content="Nuova playlist" />
+  <Value Id="MainAddAlbum" Content="Nuovo album" />
   <Value Id="MoreMediaInfosRightClick" Text="Clicca col tasto destro del mouse per altri comandi..." />
   <Value Id="EditGroupSortByName" Content="Ordina per titolo" />
   <Value Id="SelectPictureTabHeader" Folder="Copertina" Background="Sfondo" Picture="Indossava" />
@@ -204,5 +206,5 @@
   <Value Id="EditAlbum" Header="Modifica album" DetailsAlbumGroupBox="Dettagli dell'album" DetailsStyleGroupBox="Generi di questo brano" TitleAlbum="Titolo album:" DetailsTrackGroupBox="Dettagli della pista" Duration="Lunghezza:" DetailsArtisteGroupBox="Artisti su questa pista" AddNewArtist="Creare un nuovo artista" AddNewStyle="Create a new style" TitleTrack="Titolo:" AlbumPisteOrpheline="Album " ToolTipEditPhoto="Fare clic per modificare le foto" Filename="File:" />
   <Value Id="MainWindow" Donate="Donazione!" DatabaseUpdating="Aggiornamento del database..." Home="Home" Configuration="Configura" Scan="Scansiona" DatabaseBadVersion="La versione corrente di Zappiti non può aprire il database selezionato. Prova con una nuova versione di Zappiti." SearchMedias="Cerca" Loading="Caricamento" About="Informazioni" />
   <Value Id="EditPlaylist" Header="Edit playlist" DetailsPlaylistGroupBox="Dettagli della playlist" TitlePlaylist="Titolo della playlist:" />
-  <Value Id="MainAddPlaylist" Content="Nuova playlist" />
+  <Value Id="SaveTask" Header="Salvare le modifiche correnti" />
 </Dictionary>

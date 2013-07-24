@@ -119,6 +119,8 @@
   <Value Id="EditMenuBrowse" Content="Navegar ..." />
   <Value Id="EditCategoriesAdd" ToolTip="Añadir Categoria" />
   <Value Id="MainAddCategory" Content="Nueva categoría" />
+  <Value Id="MainAddPlaylist" Content="Nueva lista de reproducción" />
+  <Value Id="MainAddAlbum" Content="Nuevo álbum" />
   <Value Id="MoreMediaInfosRightClick" Text="Botón derecho para más opciones..." />
   <Value Id="EditGroupSortByName" Content="Ordenar por titulo" />
   <Value Id="SelectPictureTabHeader" Folder="Portada" Background="Fondo" Picture="Llevaba" />
@@ -204,5 +206,5 @@
   <Value Id="EditAlbum" Header="Editar álbum" DetailsAlbumGroupBox="Detalles del álbum" DetailsStyleGroupBox="Clases de esta pista" TitleAlbum="Título del álbum:" DetailsTrackGroupBox="Detalles de la pista" Duration="Longitud:" DetailsArtisteGroupBox="Artistas en esta pista" AddNewArtist="Crear un nuevo artista" AddNewStyle="Create a new style" TitleTrack="Título:" AlbumPisteOrpheline="Álbum " ToolTipEditPhoto="Haga clic para cambiar la imagen" Filename="Archivo:" />
   <Value Id="MainWindow" Donate="Donar !" DatabaseUpdating="Actualizar la base de datos ..." Home="Inicio" Configuration="Configurar" Scan="Escanear" DatabaseBadVersion="La versión actual de Zappiti no puede abrir la base de datos. Intentalo con una nueva versión." SearchMedias="Buscar" Loading="Carga" About="Acerca de" />
   <Value Id="EditPlaylist" Header="Editar lista de reproducción" DetailsPlaylistGroupBox="Detalles de la lista de reproducción" TitlePlaylist="Título de la lista de reproducción:" />
-  <Value Id="MainAddPlaylist" Content="Nueva lista de reproducción" />
+  <Value Id="SaveTask" Header="Guardar los cambios actuales" />
 </Dictionary>

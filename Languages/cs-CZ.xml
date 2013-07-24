@@ -107,6 +107,8 @@
   <Value Id="EditMenuBrowse" Content="Hledat ..." />
   <Value Id="EditCategoriesAdd" ToolTip="Přidat kategorii" />
   <Value Id="MainAddCategory" Content="Nová kategorie" />
+  <Value Id="MainAddPlaylist" Content="Nový seznam stop" />
+  <Value Id="MainAddAlbum" Content="Nové album" />
   <Value Id="MoreMediaInfosRightClick" Text="Prosím klikněte pravým pro další možnosti..." />
   <Value Id="EditGroupSortByName" Content="Třídit podle názvu" />
   <Value Id="SelectPictureTabHeader" Folder="Jacket" Background="Background" Picture="Nosil" />
@@ -204,5 +206,5 @@
   <Value Id="EditAlbum" Header="Upravit album" DetailsAlbumGroupBox="Podrobnosti o albu" DetailsStyleGroupBox="Druhy této trati" TitleAlbum="Název alba:" DetailsTrackGroupBox="Podrobnosti o trati" Duration="Délka:" DetailsArtisteGroupBox="Umělci na této trati" AddNewArtist="Vytvořit nový umělec" AddNewStyle="Create a new style" TitleTrack="Název:" AlbumPisteOrpheline="Album " ToolTipEditPhoto="Klepnutím sem můžete změnit obrázek" Filename="Soubor:" />
   <Value Id="MainWindow" Donate="Přispějte!" DatabaseUpdating="Aktualizace databáze ..." Home="Domů" Configuration="Nastavení" Scan="Skener" DatabaseBadVersion="Aktuální verze Zappiti nelze otevřít vybranou databázi. " SearchMedias="Hledat" Loading="Načítání" About="O programu" />
   <Value Id="EditPlaylist" Header="Upravit seznam stop" DetailsPlaylistGroupBox="Podrobnosti seznamu stop" TitlePlaylist="Název seznamu stop:" />
-  <Value Id="MainAddPlaylist" Content="Nový seznam stop" />
+  <Value Id="SaveTask" Header="Uložení aktuálních změn" />
 </Dictionary>

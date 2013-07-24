@@ -119,6 +119,8 @@
   <Value Id="EditMenuBrowse" Content="Обзор" />
   <Value Id="EditCategoriesAdd" ToolTip="Добавить категорию/жанр" />
   <Value Id="MainAddCategory" Content="Новая категория" />
+  <Value Id="MainAddPlaylist" Content="Новый список воспроизведения" />
+  <Value Id="MainAddAlbum" Content="Новый альбом" />
   <Value Id="MoreMediaInfosRightClick" Text="Нажмите правую кнопку мыши для редактирования" />
   <Value Id="EditGroupSortByName" Content="Отсортировать по названию" />
   <Value Id="SelectPictureTabHeader" Folder="Обложка" Background="Фон" Picture="Носил" />
@@ -205,5 +207,5 @@
   <Value Id="EditAlbum" Header="Редактировать альбом" DetailsAlbumGroupBox="Детали альбома" DetailsStyleGroupBox="Виды этого трека" TitleAlbum="Название альбома:" DetailsTrackGroupBox="Подробная информация о треке" Duration="Длина:" DetailsArtisteGroupBox="Артисты на этот трек" AddNewArtist="Создайте новый художник" AddNewStyle="Create a new style" TitleTrack="Название:" AlbumPisteOrpheline="Альбом " ToolTipEditPhoto="Нажмите, чтобы изменить изображение" Filename="Файл:" />
   <Value Id="MainWindow" Donate="Добровольное пожертвование !" DatabaseUpdating="Обновление базы данных ..." Home="Главная" Configuration="Настройки" Scan="Поиск фильмов" DatabaseBadVersion="Данная версия Zappiti не может открыть выбранную базу данных. Попробуйте установить новую версию Zappiti." SearchMedias="Поиск" Loading="Загрузка" About="О проекте" />
   <Value Id="EditPlaylist" Header="Редактирование списка воспроизведения" DetailsPlaylistGroupBox="Подробная информация о списке воспроизведения" TitlePlaylist="Название списка воспроизведения:" />
-  <Value Id="MainAddPlaylist" Content="Новый список воспроизведения" />
+  <Value Id="SaveTask" Header="Сохранение текущих изменений" />
 </Dictionary>
