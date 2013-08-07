@@ -82,9 +82,6 @@
   <Value Id="MainIsScraping" Text="Sökning : {0}" />
   <Value Id="MainIsAnalysing" Text="Analyserar : {0}" />
   <Value Id="MainIsDownloadingPicture" Text="Hämtar bilder : {0}" />
-  <Value Id="SelectPictureChoose" Content="Välj" />
-  <Value Id="SelectPictureBrowse" Content="Välj fil" />
-  <Value Id="SelectPictureClose" Content="Stäng" />
   <Value Id="CleanUpMessage" Text="Följande media kan ej nås. Vill du ta bort dem från databasen?" />
   <Value Id="CleanUpOK" Content="Rensa upp" />
   <Value Id="CleanUpClose" Content="Stäng" />
@@ -107,8 +104,6 @@
   <Value Id="EditGroupMoveDown" Content="Flytta ner" />
   <Value Id="EditGroupMoveRemove" Content="Dra tillbaka" />
   <Value Id="EditGroup" Group="Grupp" />
-  <Value Id="SelectPictureMedias" Text="Välj bild :" />
-  <Value Id="SelectPictureQuotaIsOver" Text="Du har nått din nedladdningskvot för denna spårning. Försök igen senare." />
   <Value Id="EditMenuIcons" ToolTip="Ändra ikon" Text="Ikoner :" />
   <Value Id="EditMenuBack" ToolTip="Ändra bakgrund" />
   <Value Id="EditMenuBackRollOver" ToolTip="Ändra bakgrunden svävande" />
@@ -123,7 +118,6 @@
   <Value Id="MainAddAlbum" Content="Nytt album" />
   <Value Id="MoreMediaInfosRightClick" Text="Högerklicka för fler kommandon ..." />
   <Value Id="EditGroupSortByName" Content="Sortera efter titel" />
-  <Value Id="SelectPictureTabHeader" Folder="Omslag framsida" Background="Omslag baksida" Picture="Bar" />
   <Value Id="SettingsTabFolders" Header="Filer" />
   <Value Id="SettingsTabOthers" Header="Övrigt" SendErrorReport="Skickar automatiskt en rapport till utvecklarna, när ett fel uppstår." Recents="Antal dagar för att ta hänsyn till den senaste:" />
   <Value Id="SettingsTabScrapers" Header="Spårningar" MovieScraper="Filmer:" MoviePictureScraper="Filmbilder:" TVShowScraper="Serier:" TVShowPictureScraper="Seriebilder:" ScrapOnStarWindows="Börja skanna filer vid programstart" SuppressAllAfterFirstExcludedWordFromTitle="Radera alla karaktärer efter att den första benämningen hittats" WordToExludeFromMovies="Ord som ska undantas från titlarna:" />
@@ -191,7 +185,7 @@
   <Value Id="MovieControl" Runtime="DRIFSTID" Actors="SKÅDESPELARE" Directors="REGISSÖRER" ReleaseDate="RELEASEDATUM" />
   <Value Id="TVEpisodeControl" Actors="SKÅDESPELARE" Directors="REGISSÖRER" ReleaseDate="RELEASEDATUM" Runtime="TID" />
   <Value Id="MarketView" Close="Stäng" />
-  <Value Id="Shared" Browse="Sök" Remove="Ta bort" Add="Lägg till" />
+  <Value Id="Shared" Browse="Sök" Remove="Ta bort" Add="Lägg till" Close="Stäng" Choose="Välj" />
   <Value Id="MarketPopup" DoNotShow="Visa inte vid start." />
   <Value Id="VideoMenu" ABC="ALLA" Movies="FILMER" TVShows="TV-SERIER" Recents="SENASTE" Categories="KATEGORIER" />
   <Value Id="MusicMenu" Titles="TITEL" Albums="ALBUM" Artists="ARTIST" Recents="SENASTE" Genres="GENRE" Playlists="SPELLISTOR" />
@@ -207,4 +201,5 @@
   <Value Id="MainWindow" Donate="Donera !" DatabaseUpdating="Uppdaterar databasen ..." Home="Hem" Configuration="Anpassa" Scan="Skannar" DatabaseBadVersion="Den nuvarande versionen av Zappiti kan inte öppna den valda databasen. Prova en nyare version av Zappiti." SearchMedias="Sök" Loading="Lastning" About="Om" />
   <Value Id="EditPlaylist" Header="Redigera spellista" DetailsPlaylistGroupBox="Detaljer av spellistan" TitlePlaylist="Titeln i spellistan:" />
   <Value Id="SaveTask" Header="Spara aktuella ändringar" />
+  <Value Id="SelectPictureView" Search="Sök" Folder="Omslag framsida" Background="Omslag baksida" Picture="Bar" YourQuotaIsOver="Du har nått din nedladdningskvot för denna spårning. Försök igen senare." ChooseMedia="Välj bild :" Browse="Välj fil" />
 </Dictionary>

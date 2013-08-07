@@ -82,9 +82,6 @@
   <Value Id="MainIsScraping" Text="Verzamelen: {0}" />
   <Value Id="MainIsAnalysing" Text="Analyseren: {0}" />
   <Value Id="MainIsDownloadingPicture" Text="Downloaden plaatjes: {0}" />
-  <Value Id="SelectPictureChoose" Content="Kies" />
-  <Value Id="SelectPictureBrowse" Content="Kies bestand" />
-  <Value Id="SelectPictureClose" Content="Sluiten" />
   <Value Id="CleanUpMessage" Text="Onderstaande bestanden zijn niet beschikbaar. Wilt u ze uit de database verwijderen?" />
   <Value Id="CleanUpOK" Content="Opschonen" />
   <Value Id="CleanUpClose" Content="Sluiten" />
@@ -107,8 +104,6 @@
   <Value Id="EditGroupMoveDown" Content="Omlaag" />
   <Value Id="EditGroupMoveRemove" Content="Verwijderen" />
   <Value Id="EditGroup" Group="Groep" />
-  <Value Id="SelectPictureMedias" Text="Selecteer een afbeelding :" />
-  <Value Id="SelectPictureQuotaIsOver" Text="Voor deze informatiedienst is uw quotum bereikt. Probeert u het later opnieuw." />
   <Value Id="EditMenuIcons" ToolTip="Icoon aanpassen" Text="Pictogrammen:" />
   <Value Id="EditMenuBack" ToolTip="Achtergrond aanpassen" />
   <Value Id="EditMenuBackRollOver" ToolTip="Verander 'rollover' achtergrond" />
@@ -123,7 +118,6 @@
   <Value Id="MainAddAlbum" Content="Nieuw album" />
   <Value Id="MoreMediaInfosRightClick" Text="Klik met rechtermuisknop voor meer opties..." />
   <Value Id="EditGroupSortByName" Content="Sorteer op titel" />
-  <Value Id="SelectPictureTabHeader" Folder="Cover" Background="Achtergrond" Picture="Droeg" />
   <Value Id="SettingsTabFolders" Header="Bestanden" />
   <Value Id="SettingsTabOthers" Header="Overig" SendErrorReport=" Stuur een bericht naar de ontwikkelaars als er een fout optreedt." Recents="Aantal dagen om rekening te houden met de recente:" />
   <Value Id="SettingsTabScrapers" Header="Scrapers" MovieScraper="Films:" MoviePictureScraper="Beelden van films:" TVShowScraper="Series:" TVShowPictureScraper="Beelden van series:" ScrapOnStarWindows="Start scannen van bestanden bij start applicatie" SuppressAllAfterFirstExcludedWordFromTitle="Verwijder alle tekens na de eerste termijn uitgesloten gevonden" WordToExludeFromMovies="Woorden om effecten te sluiten:" />
@@ -191,7 +185,7 @@
   <Value Id="MovieControl" Runtime="SPEELDUUR" Actors="CAST" Directors="REGISSEURS" ReleaseDate="UITGEBRACHT" />
   <Value Id="TVEpisodeControl" Actors="CAST" Directors="REGISSEURS" ReleaseDate="UITGEBRACHT" Runtime="SPEELDUUR" />
   <Value Id="MarketView" Close="Sluiten" />
-  <Value Id="Shared" Browse="Bladeren" Remove="Verwijderen" Add="Toevoegen" />
+  <Value Id="Shared" Browse="Bladeren" Remove="Verwijderen" Add="Toevoegen" Close="Sluiten" Choose="Kies" />
   <Value Id="MarketPopup" DoNotShow="Niet weergeven bij het opstarten" />
   <Value Id="VideoMenu" ABC="ALLES" Movies="FILMS" TVShows="SERIES" Recents="RECENT TOEGEVOEGD" Categories="CATEGORIEEN" />
   <Value Id="MusicMenu" Titles="TITELS" Albums="ALBUMS" Artists="ARTIESTEN" Recents="RECENT" Genres="GENRES" Playlists="AFSPEELLIJSTEN" />
@@ -207,4 +201,5 @@
   <Value Id="MainWindow" Donate="Doneer!" DatabaseUpdating="Database bijwerken..." Home="Home" Configuration="Configuratie" Scan="Zoek" DatabaseBadVersion="Deze versie van Zappiti kan de geselecteerde database niet openen. Probeer een nieuwere versie van Zappiti." SearchMedias="Zoek" Loading="Laden" About="Over" />
   <Value Id="EditPlaylist" Header="Afspeellijst bewerken" DetailsPlaylistGroupBox="Details van de afspeellijst" TitlePlaylist="Titel van de afspeellijst:" />
   <Value Id="SaveTask" Header="Huidige wijzigingen opslaan" />
+  <Value Id="SelectPictureView" Search="Zoek" Folder="Cover" Background="Achtergrond" Picture="Droeg" YourQuotaIsOver="Voor deze informatiedienst is uw quotum bereikt. Probeert u het later opnieuw." ChooseMedia="Selecteer een afbeelding :" Browse="Kies bestand" />
 </Dictionary>

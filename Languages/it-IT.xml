@@ -82,9 +82,6 @@
   <Value Id="MainIsScraping" Text="Scraping in corso: {0}" />
   <Value Id="MainIsAnalysing" Text="Sto analizzando: {0}" />
   <Value Id="MainIsDownloadingPicture" Text="Scaricamento immagini: {0}" />
-  <Value Id="SelectPictureChoose" Content="Scegli" />
-  <Value Id="SelectPictureBrowse" Content="Scegli da hard-disk" />
-  <Value Id="SelectPictureClose" Content="Chiudi" />
   <Value Id="CleanUpMessage" Text="I seguenti media sono inaccessibili. Vuoi rimuoverli dal database?" />
   <Value Id="CleanUpOK" Content="Rimuovi" />
   <Value Id="CleanUpClose" Content="Chiudi" />
@@ -107,8 +104,6 @@
   <Value Id="EditGroupMoveDown" Content="Sposta in basso" />
   <Value Id="EditGroupMoveRemove" Content="Rimuovi" />
   <Value Id="EditGroup" Group="Gruppo" />
-  <Value Id="SelectPictureMedias" Text="Seleziona media:" />
-  <Value Id="SelectPictureQuotaIsOver" Text="La tua quota di download è stata raggiunta per questo scraper. Riprova più tardi, grazie." />
   <Value Id="EditMenuIcons" ToolTip="Cambia icona" Text="Icone :" />
   <Value Id="EditMenuBack" ToolTip="Cambia lo sfondo" />
   <Value Id="EditMenuBackRollOver" ToolTip="Cambia lo sfondo al passaggio del mouse" />
@@ -123,7 +118,6 @@
   <Value Id="MainAddAlbum" Content="Nuovo album" />
   <Value Id="MoreMediaInfosRightClick" Text="Clicca col tasto destro del mouse per altri comandi..." />
   <Value Id="EditGroupSortByName" Content="Ordina per titolo" />
-  <Value Id="SelectPictureTabHeader" Folder="Copertina" Background="Sfondo" Picture="Indossava" />
   <Value Id="SettingsTabFolders" Header="Files" />
   <Value Id="SettingsTabOthers" Header="Altro" SendErrorReport="Invia automaticamente un rapporto agli sviluppatori in caso si verifichi un errore." Recents="Numero di giorni per essere considerato come recente:" />
   <Value Id="SettingsTabScrapers" Header="Scrapers" MovieScraper="Film:" MoviePictureScraper="Immagini dei film:" TVShowScraper="Serie TV:" TVShowPictureScraper="Immagini delle serie TV:" ScrapOnStarWindows="Avviare la scansione dei file all'avvio dell'applicazione" SuppressAllAfterFirstExcludedWordFromTitle="Eliminare tutti i caratteri dopo il primo termine escluso trovato" WordToExludeFromMovies="Termini da escludere dai titoli:" />
@@ -191,7 +185,7 @@
   <Value Id="MovieControl" Runtime="DURATA" Actors="ATTORI" Directors="REGISTA" ReleaseDate="USCITA" />
   <Value Id="TVEpisodeControl" Actors="ATTORI" Directors="REGISTI" ReleaseDate="USCITA" Runtime="DURATA" />
   <Value Id="MarketView" Close="Chiudi" />
-  <Value Id="Shared" Browse="Cerca" Remove="Rimuovere" Add="Aggiungi" />
+  <Value Id="Shared" Browse="Cerca" Remove="Rimuovere" Add="Aggiungi" Close="Chiudi" Choose="Scegli" />
   <Value Id="MarketPopup" DoNotShow="Non mostrare all'avvio." />
   <Value Id="VideoMenu" ABC="TUTTI" Movies="FILM" TVShows="SERIE TV" Recents="RECENTI" Categories="CATEGORIE" />
   <Value Id="MusicMenu" Titles="TITOLI" Albums="ALBUM" Artists="ARTISTI" Recents="RECENTI" Genres="GENERI" Playlists="PLAYLISTS" />
@@ -207,4 +201,5 @@
   <Value Id="MainWindow" Donate="Donazione!" DatabaseUpdating="Aggiornamento del database..." Home="Home" Configuration="Configura" Scan="Scansiona" DatabaseBadVersion="La versione corrente di Zappiti non può aprire il database selezionato. Prova con una nuova versione di Zappiti." SearchMedias="Cerca" Loading="Caricamento" About="Informazioni" />
   <Value Id="EditPlaylist" Header="Edit playlist" DetailsPlaylistGroupBox="Dettagli della playlist" TitlePlaylist="Titolo della playlist:" />
   <Value Id="SaveTask" Header="Salvare le modifiche correnti" />
+  <Value Id="SelectPictureView" Search="Ricerca" Folder="Copertina" Background="Sfondo" Picture="Indossava" YourQuotaIsOver="La tua quota di download è stata raggiunta per questo scraper. Riprova più tardi, grazie." ChooseMedia="Seleziona media:" Browse="Scegli da hard-disk" />
 </Dictionary>

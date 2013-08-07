@@ -82,9 +82,6 @@
   <Value Id="MainIsScraping" Text="Описания: {0}" />
   <Value Id="MainIsAnalysing" Text="Анализ: {0}" />
   <Value Id="MainIsDownloadingPicture" Text="Загрузка изображений: {0}" />
-  <Value Id="SelectPictureChoose" Content="Добавить выделенное" />
-  <Value Id="SelectPictureBrowse" Content="Добавить с жёсткого диска" />
-  <Value Id="SelectPictureClose" Content="Закрыть" />
   <Value Id="CleanUpMessage" Text="Данные медиаданные недоступны. Хотите удалить их из базы данных?" />
   <Value Id="CleanUpOK" Content="Удалить" />
   <Value Id="CleanUpClose" Content="Закрыть" />
@@ -107,8 +104,6 @@
   <Value Id="EditGroupMoveDown" Content="Опустить" />
   <Value Id="EditGroupMoveRemove" Content="Исключить" />
   <Value Id="EditGroup" Group="(Группа фильмов)" />
-  <Value Id="SelectPictureMedias" Text="Выбрать обложку для группы :" />
-  <Value Id="SelectPictureQuotaIsOver" Text="Квота на скачивание с данного ресурса превышена. попробуйте повторить попытку позже." />
   <Value Id="EditMenuIcons" ToolTip="Изображение в иконке" Text="Иконки :" />
   <Value Id="EditMenuBack" ToolTip="Фон иконки" />
   <Value Id="EditMenuBackRollOver" ToolTip="Фон иконки при наведении" />
@@ -123,7 +118,6 @@
   <Value Id="MainAddAlbum" Content="Новый альбом" />
   <Value Id="MoreMediaInfosRightClick" Text="Нажмите правую кнопку мыши для редактирования" />
   <Value Id="EditGroupSortByName" Content="Отсортировать по названию" />
-  <Value Id="SelectPictureTabHeader" Folder="Обложка" Background="Фон" Picture="Носил" />
   <Value Id="SettingsTabFolders" Header="Папки и Файлы" />
   <Value Id="SettingsTabOthers" Header="Другие Настройки" SendErrorReport="Автоматически отправлять отчет разработчикам при возникновении ошибки." Recents="Число дней показа в Последнее:" />
   <Value Id="SettingsTabScrapers" Header="Поиск файлов" MovieScraper="Фильмы:" MoviePictureScraper="Изображения фильмов:" TVShowScraper="Сериалы:" TVShowPictureScraper="Изображения сериалов:" ScrapOnStarWindows="Начало сканирования файлов при запуске приложения" SuppressAllAfterFirstExcludedWordFromTitle="Не учитывать остальные символы после обнаружения слов-исключений" WordToExludeFromMovies="Слова-исключения при поиске названия:" />
@@ -192,7 +186,7 @@
   <Value Id="MovieControl" Runtime="ВРЕМЯ" Actors="В РОЛЯХ" Directors="РЕЖИССЁР" ReleaseDate="ГОД" />
   <Value Id="TVEpisodeControl" Actors="В РОЛЯХ" Directors="РЕЖИССЁР" ReleaseDate="ГОД" Runtime="ВРЕМЯ" />
   <Value Id="MarketView" Close="Закрыть" />
-  <Value Id="Shared" Browse="Обзор" Remove="Удалить" Add="Добавить" />
+  <Value Id="Shared" Browse="Обзор" Remove="Удалить" Add="Добавить" Close="Закрыть" Choose="Добавить выделенное" />
   <Value Id="MarketPopup" DoNotShow="Не показывать при запуске." />
   <Value Id="VideoMenu" ABC="ВСЕ" Movies="КИНОФИЛЬМЫ" TVShows="ТВ/СЕРИАЛЫ" Recents="ПОСЛЕДНЕЕ" Categories="ЖАНРЫ" />
   <Value Id="MusicMenu" Titles="Названия" Albums="Альбомы" Artists="Исполнители" Recents="Свежие поступления" Genres="Жанры" Playlists="Плейлисты" />
@@ -208,4 +202,5 @@
   <Value Id="MainWindow" Donate="Добровольное пожертвование !" DatabaseUpdating="Обновление базы данных ..." Home="Главная" Configuration="Настройки" Scan="Поиск фильмов" DatabaseBadVersion="Данная версия Zappiti не может открыть выбранную базу данных. Попробуйте установить новую версию Zappiti." SearchMedias="Поиск" Loading="Загрузка" About="О проекте" />
   <Value Id="EditPlaylist" Header="Редактирование списка воспроизведения" DetailsPlaylistGroupBox="Подробная информация о списке воспроизведения" TitlePlaylist="Название списка воспроизведения:" />
   <Value Id="SaveTask" Header="Сохранение текущих изменений" />
+  <Value Id="SelectPictureView" Search="Поиск" Folder="Обложка" Background="Фон" Picture="Носил" YourQuotaIsOver="Квота на скачивание с данного ресурса превышена. попробуйте повторить попытку позже." ChooseMedia="Выбрать обложку для группы :" Browse="Добавить с жёсткого диска" />
 </Dictionary>

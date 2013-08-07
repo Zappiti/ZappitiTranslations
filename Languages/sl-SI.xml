@@ -82,9 +82,6 @@
   <Value Id="MainIsScraping" Text="Scraping : {0}" />
   <Value Id="MainIsAnalysing" Text="Analiza : {0}" />
   <Value Id="MainIsDownloadingPicture" Text="Nalaganje slik : {0}" />
-  <Value Id="SelectPictureChoose" Content="Izberite" />
-  <Value Id="SelectPictureBrowse" Content="Izberite iz trdega diska" />
-  <Value Id="SelectPictureClose" Content="Zapri" />
   <Value Id="CleanUpMessage" Text="Naslednje datoteke so nedosegljive. Jih želite odstraniti iz baze podatkov?" />
   <Value Id="CleanUpOK" Content="CleanUp" />
   <Value Id="CleanUpClose" Content="Zapri" />
@@ -107,8 +104,6 @@
   <Value Id="EditGroupMoveDown" Content="Premakni navzdol" />
   <Value Id="EditGroupMoveRemove" Content="Prevzem" />
   <Value Id="EditGroup" Group="Skupina" />
-  <Value Id="SelectPictureMedias" Text="Določi medij :" />
-  <Value Id="SelectPictureQuotaIsOver" Text="Vaša kvota za prenos je pretekla za Scraper. Hvala in poskusite ponovno kasneje." />
   <Value Id="EditMenuIcons" ToolTip="Spremenite ikono" Text="Ikone :" />
   <Value Id="EditMenuBack" ToolTip="Spremenite ozadje" />
   <Value Id="EditMenuBackRollOver" ToolTip="Spremenite prosojno ozadje" />
@@ -123,7 +118,6 @@
   <Value Id="MainAddAlbum" Content="Novi album" />
   <Value Id="MoreMediaInfosRightClick" Text="Prosimo, kliknite na desni gumb za več ukazov..." />
   <Value Id="EditGroupSortByName" Content="Razvrsti po naslovu" />
-  <Value Id="SelectPictureTabHeader" Folder="Sprednja Naslovnica" Background="Ozadje" Picture="Nosil" />
   <Value Id="SettingsTabFolders" Header="Datoteke" />
   <Value Id="SettingsTabOthers" Header="Ostalo" SendErrorReport="Samodejno pošlje poročilo razvijalci, ko pride do napake." Recents="Število dni, da se upošteva nedavni:" />
   <Value Id="SettingsTabScrapers" Header="Scrapers" MovieScraper="Filmi:" MoviePictureScraper="Slike Filmov:" TVShowScraper="Serije:" TVShowPictureScraper="Slike Serij:" ScrapOnStarWindows="Začni skeniranje datotek za zagon aplikacij" SuppressAllAfterFirstExcludedWordFromTitle="Izbrisati vse znake, po prvi mandat izključen voljo" WordToExludeFromMovies="Besede za izključitev vrednostnih papirjev:" />
@@ -190,7 +184,7 @@
   <Value Id="MovieControl" Runtime="TRAJANJE" Actors="IGRALCI" Directors="REŽISER" ReleaseDate="OBJAVLJENO" />
   <Value Id="TVEpisodeControl" Actors="IGRALCI" Directors="REŽISER" ReleaseDate="OBJAVLJENO" Runtime="TRAJANJE" />
   <Value Id="MarketView" Close="Zapri" />
-  <Value Id="Shared" Browse="Brskanje" Remove="Odstrani" Add="Dodaj" />
+  <Value Id="Shared" Browse="Brskanje" Remove="Odstrani" Add="Dodaj" Close="Zapri" Choose="Izberite" />
   <Value Id="MarketPopup" DoNotShow="Ne prikaži ob zagonu." />
   <Value Id="MediaMenu" Video="VIDEO" Music="GLASBA" Photo="FOTOGRAFIJE" />
   <Value Id="VideoMenu" ABC="VSE" Movies="FILMI" TVShows="TV ODDAJE" Recents="NEDAVNO" Categories="KATEGORIJE" />
@@ -207,4 +201,5 @@
   <Value Id="MainWindow" Donate="Donirajte !" DatabaseUpdating="Posodobi zbirko podatkov ..." Home="Domov" Configuration="Nastavite" Scan="Skeniranje" DatabaseBadVersion="Trenutna različica Zappiti ne more odpreti izbrano bazo podatkov. Poskusite z novejšo različico Zappiti programske opreme." SearchMedias="Išči" Loading="Nalaganje" About="Informacije" />
   <Value Id="EditPlaylist" Header="Urejanje seznama predvajanja" DetailsPlaylistGroupBox="Podrobnosti predvajanja" TitlePlaylist="Naslov seznama predvajanja:" />
   <Value Id="SaveTask" Header="Shranjevanje trenutne spremembe" />
+  <Value Id="SelectPictureView" Search="Išči" Folder="Sprednja Naslovnica" Background="Ozadje" Picture="Nosil" YourQuotaIsOver="Vaša kvota za prenos je pretekla za Scraper. Hvala in poskusite ponovno kasneje." ChooseMedia="Določi medij :" Browse="Izberite iz trdega diska" />
 </Dictionary>
