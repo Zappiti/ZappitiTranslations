@@ -113,7 +113,7 @@
   <Value Id="EditMenuCancel" Content="Annuleren" />
   <Value Id="EditMenuBrowse" Content="Bladeren ..." />
   <Value Id="EditCategoriesAdd" ToolTip="Categorie toevoegen" />
-  <Value Id="MainAddCategory" Content="Nieuwe categorie" />
+  <Value Id="MainAddCategory" Content="Nieuwe categorie" OrderCategory="Opnieuw ordenen" NoticeReorderCategory="Sleep / drop items om de volgorde van hen." />
   <Value Id="MainAddPlaylist" Content="Nieuwe afspeellijst" />
   <Value Id="MainAddAlbum" Content="Nieuw album" />
   <Value Id="MoreMediaInfosRightClick" Text="Klik met rechtermuisknop voor meer opties..." />
@@ -185,7 +185,7 @@
   <Value Id="MovieControl" Runtime="SPEELDUUR" Actors="CAST" Directors="REGISSEURS" ReleaseDate="UITGEBRACHT" />
   <Value Id="TVEpisodeControl" Actors="CAST" Directors="REGISSEURS" ReleaseDate="UITGEBRACHT" Runtime="SPEELDUUR" />
   <Value Id="MarketView" Close="Sluiten" />
-  <Value Id="Shared" Browse="Bladeren" Remove="Verwijderen" Add="Toevoegen" Close="Sluiten" Choose="Kies" />
+  <Value Id="Shared" Browse="Bladeren" Remove="Verwijderen" Add="Toevoegen" Close="Sluiten" Choose="Kies" Save="Opslaan" Cancel="Annuleren" />
   <Value Id="MarketPopup" DoNotShow="Niet weergeven bij het opstarten" />
   <Value Id="VideoMenu" ABC="ALLES" Movies="FILMS" TVShows="SERIES" Recents="RECENT TOEGEVOEGD" Categories="CATEGORIEEN" />
   <Value Id="MusicMenu" Titles="TITELS" Albums="ALBUMS" Artists="ARTIESTEN" Recents="RECENT" Genres="GENRES" Playlists="AFSPEELLIJSTEN" />

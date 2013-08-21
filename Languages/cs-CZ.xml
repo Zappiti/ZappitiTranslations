@@ -101,9 +101,9 @@
   <Value Id="EditMenuCancel" Content="Zrušit" />
   <Value Id="EditMenuBrowse" Content="Hledat ..." />
   <Value Id="EditCategoriesAdd" ToolTip="Přidat kategorii" />
-  <Value Id="MainAddCategory" Content="Nová kategorie" />
   <Value Id="MainAddPlaylist" Content="Nový seznam stop" />
   <Value Id="MainAddAlbum" Content="Nové album" />
+  <Value Id="MainAddCategory" Content="Nová kategorie" OrderCategory="Přiobjednání" NoticeReorderCategory="Přetažení položky změnit jejich pořadí." />
   <Value Id="MoreMediaInfosRightClick" Text="Prosím klikněte pravým pro další možnosti..." />
   <Value Id="EditGroupSortByName" Content="Třídit podle názvu" />
   <Value Id="SettingsTabFolders" Header="Soubor" />
@@ -185,7 +185,7 @@
   <Value Id="MovieControl" Runtime="DÉLKA" Actors="HRAJÍ" Directors="REŽISÉR" ReleaseDate="ROK" />
   <Value Id="TVEpisodeControl" Actors="HRAJÍ" Directors="REŽISÉR" ReleaseDate="ROK" Runtime="DÉLKA" />
   <Value Id="MarketView" Close="Zavřít" />
-  <Value Id="Shared" Browse="Hledat" Remove="Odstranit" Add="Přidat" Close="Zavřít" Choose="Vybrat" />
+  <Value Id="Shared" Browse="Hledat" Remove="Odstranit" Add="Přidat" Close="Zavřít" Choose="Vybrat" Save="Uložit" Cancel="Storno" />
   <Value Id="MarketPopup" DoNotShow="Nezobrazovat při spuštění." />
   <Value Id="VideoMenu" ABC="VŠE" Movies="FILMY" TVShows="TV SHOWS" Recents="AKTUÁLNÍ" Categories="KATEGORIE" />
   <Value Id="MusicMenu" Titles="TITULY" Albums="ALBA" Artists="UMĚLCI" Recents="AKTUÁLNÍ" Genres="TYPY" Playlists="PLAYLISTS" />

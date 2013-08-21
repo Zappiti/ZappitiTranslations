@@ -113,9 +113,9 @@
   <Value Id="EditMenuCancel" Content="Prekliči" />
   <Value Id="EditMenuBrowse" Content="Brskajte ..." />
   <Value Id="EditCategoriesAdd" ToolTip="Dodaj Kategorijo" />
-  <Value Id="MainAddCategory" Content="Nova kategorija" />
   <Value Id="MainAddPlaylist" Content="Nov seznam predvajanja" />
   <Value Id="MainAddAlbum" Content="Novi album" />
+  <Value Id="MainAddCategory" Content="Nova kategorija" OrderCategory="Naročanja" NoticeReorderCategory="Povleci / spusti elementov, da jih preuredite." />
   <Value Id="MoreMediaInfosRightClick" Text="Prosimo, kliknite na desni gumb za več ukazov..." />
   <Value Id="EditGroupSortByName" Content="Razvrsti po naslovu" />
   <Value Id="SettingsTabFolders" Header="Datoteke" />
@@ -184,7 +184,7 @@
   <Value Id="MovieControl" Runtime="TRAJANJE" Actors="IGRALCI" Directors="REŽISER" ReleaseDate="OBJAVLJENO" />
   <Value Id="TVEpisodeControl" Actors="IGRALCI" Directors="REŽISER" ReleaseDate="OBJAVLJENO" Runtime="TRAJANJE" />
   <Value Id="MarketView" Close="Zapri" />
-  <Value Id="Shared" Browse="Brskanje" Remove="Odstrani" Add="Dodaj" Close="Zapri" Choose="Izberite" />
+  <Value Id="Shared" Browse="Brskanje" Remove="Odstrani" Add="Dodaj" Close="Zapri" Choose="Izberite" Save="Shrani" Cancel="Prekliči" />
   <Value Id="MarketPopup" DoNotShow="Ne prikaži ob zagonu." />
   <Value Id="MediaMenu" Video="VIDEO" Music="GLASBA" Photo="FOTOGRAFIJE" />
   <Value Id="VideoMenu" ABC="VSE" Movies="FILMI" TVShows="TV ODDAJE" Recents="NEDAVNO" Categories="KATEGORIJE" />

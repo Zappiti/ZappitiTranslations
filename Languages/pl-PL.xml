@@ -113,9 +113,9 @@
   <Value Id="EditMenuCancel" Content="Anuluj" />
   <Value Id="EditMenuBrowse" Content="Przeglądaj ..." />
   <Value Id="EditCategoriesAdd" ToolTip="Dodaj Kategorie" />
-  <Value Id="MainAddCategory" Content="Nowa kategoria" />
   <Value Id="MainAddPlaylist" Content="Nowa lista odtwarzania" />
   <Value Id="MainAddAlbum" Content="Nowy album" />
+  <Value Id="MainAddCategory" Content="Nowa kategoria" OrderCategory="Kolejność" NoticeReorderCategory="Przeciągnij / upuść elementy, aby zmienić ich kolejność." />
   <Value Id="MoreMediaInfosRightClick" Text="Kliknij prawym przyciskiem myszy po więcej komend..." />
   <Value Id="EditGroupSortByName" Content="Sortuj według tytułu" />
   <Value Id="SettingsTabFolders" Header="Pliki" />
@@ -185,7 +185,7 @@
   <Value Id="MovieControl" Runtime="CZAS" Actors="OBSADA" Directors="REŻYSERIA" ReleaseDate="ROK" />
   <Value Id="TVEpisodeControl" Actors="OBSADA" Directors="REŻYSERIA" ReleaseDate="ROK" Runtime="CZAS" />
   <Value Id="MarketView" Close="Zamknij" />
-  <Value Id="Shared" Browse="Przeglądaj" Remove="Usuń" Add="Dodaj" Close="Zamknij" Choose="Wybierz" />
+  <Value Id="Shared" Browse="Przeglądaj" Remove="Usuń" Add="Dodaj" Close="Zamknij" Choose="Wybierz" Save="Zapisz" Cancel="Anuluj" />
   <Value Id="MarketPopup" DoNotShow="Nie pokazuj na starcie." />
   <Value Id="VideoMenu" ABC="WSZYSCY" Movies="FILMY" TVShows="SERIALE TV" Recents="POZOSTAŁE" Categories="KATEGORIE" />
   <Value Id="MusicMenu" Titles="TYTUŁY" Albums="ALBUMS" Artists="ARTYŚCI" Recents="OSTATNIE" Genres="RODZAJE" Playlists="PLAYLISTA" />

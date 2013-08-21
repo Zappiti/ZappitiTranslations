@@ -85,9 +85,9 @@
   <Value Id="EditMenuCancel" Content="Abbrechen" />
   <Value Id="EditMenuBrowse" Content="Durchsuchen" />
   <Value Id="EditCategoriesAdd" ToolTip="Kategorie hinzufügen" />
-  <Value Id="MainAddCategory" Content="Neue Kategorie" />
   <Value Id="MainAddPlaylist" Content="Neue Wiedergabeliste" />
   <Value Id="MainAddAlbum" Content="Neues album" />
+  <Value Id="MainAddCategory" Content="Neue Kategorie" OrderCategory="Neu anordnen" NoticeReorderCategory="Drag / drop Elemente, sie neu zu ordnen." />
   <Value Id="MoreMediaInfosRightClick" Text="Rechtsklick für weitere Optionen ..." />
   <Value Id="EditGroupSortByName" Content="Sortieren nach Titel" />
   <Value Id="SettingsTabFolders" Header="Dateien" />
@@ -185,7 +185,7 @@
   <Value Id="MovieControl" Runtime="LAUFZEIT" Actors="DARSTELLER" Directors="REGISSEURE" ReleaseDate="JAHR" />
   <Value Id="TVEpisodeControl" Actors="DARSTELLER" Directors="REGISSEURE" ReleaseDate="JAHR" Runtime="LAUFZEIT" />
   <Value Id="MarketView" Close="Schließen" />
-  <Value Id="Shared" Browse="Wählen" Remove="Entfernen" Add="Hinzufügen" Close="Schließen" Choose="Auswählen" />
+  <Value Id="Shared" Browse="Wählen" Remove="Entfernen" Add="Hinzufügen" Close="Schließen" Choose="Auswählen" Save="Speichern" Cancel="Abbrechen" />
   <Value Id="MarketPopup" DoNotShow="Nicht beim Start anzeigen." />
   <Value Id="VideoMenu" ABC="ALLES" Movies="FILME" TVShows="SERIEN" Recents="ZULETZT HINZUGEFÜGT" Categories="KATEGORIEN" />
   <Value Id="MusicMenu" Titles="TITEL" Albums="ALBEN" Artists="KÜNSTLER" Recents="ZULETZT HINZUGEFÜGT" Genres="Genre" Playlists="WIEDERGABELISTEN" />

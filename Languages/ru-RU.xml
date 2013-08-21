@@ -113,9 +113,9 @@
   <Value Id="EditMenuCancel" Content="Отмена" />
   <Value Id="EditMenuBrowse" Content="Обзор" />
   <Value Id="EditCategoriesAdd" ToolTip="Добавить категорию/жанр" />
-  <Value Id="MainAddCategory" Content="Новая категория" />
   <Value Id="MainAddPlaylist" Content="Новый список воспроизведения" />
   <Value Id="MainAddAlbum" Content="Новый альбом" />
+  <Value Id="MainAddCategory" Content="Новая категория" OrderCategory="Изменение порядка" NoticeReorderCategory="Перетащите / drop элементы для изменения их порядка." />
   <Value Id="MoreMediaInfosRightClick" Text="Нажмите правую кнопку мыши для редактирования" />
   <Value Id="EditGroupSortByName" Content="Отсортировать по названию" />
   <Value Id="SettingsTabFolders" Header="Папки и Файлы" />
@@ -186,7 +186,7 @@
   <Value Id="MovieControl" Runtime="ВРЕМЯ" Actors="В РОЛЯХ" Directors="РЕЖИССЁР" ReleaseDate="ГОД" />
   <Value Id="TVEpisodeControl" Actors="В РОЛЯХ" Directors="РЕЖИССЁР" ReleaseDate="ГОД" Runtime="ВРЕМЯ" />
   <Value Id="MarketView" Close="Закрыть" />
-  <Value Id="Shared" Browse="Обзор" Remove="Удалить" Add="Добавить" Close="Закрыть" Choose="Добавить выделенное" />
+  <Value Id="Shared" Browse="Обзор" Remove="Удалить" Add="Добавить" Close="Закрыть" Choose="Добавить выделенное" Save="Сохранить" Cancel="Отмена" />
   <Value Id="MarketPopup" DoNotShow="Не показывать при запуске." />
   <Value Id="VideoMenu" ABC="ВСЕ" Movies="КИНОФИЛЬМЫ" TVShows="ТВ/СЕРИАЛЫ" Recents="ПОСЛЕДНЕЕ" Categories="ЖАНРЫ" />
   <Value Id="MusicMenu" Titles="Названия" Albums="Альбомы" Artists="Исполнители" Recents="Свежие поступления" Genres="Жанры" Playlists="Плейлисты" />

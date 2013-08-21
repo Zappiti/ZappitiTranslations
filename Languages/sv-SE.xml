@@ -113,9 +113,9 @@
   <Value Id="EditMenuCancel" Content="Avbryt" />
   <Value Id="EditMenuBrowse" Content="Bläddra ..." />
   <Value Id="EditCategoriesAdd" ToolTip="Lägg till kategori" />
-  <Value Id="MainAddCategory" Content="Ny kategori" />
   <Value Id="MainAddPlaylist" Content="Ny spellista" />
   <Value Id="MainAddAlbum" Content="Nytt album" />
+  <Value Id="MainAddCategory" Content="Ny kategori" OrderCategory="Ändra ordning" NoticeReorderCategory="Dra / släppa objekt att ordna dem." />
   <Value Id="MoreMediaInfosRightClick" Text="Högerklicka för fler kommandon ..." />
   <Value Id="EditGroupSortByName" Content="Sortera efter titel" />
   <Value Id="SettingsTabFolders" Header="Filer" />
@@ -185,7 +185,7 @@
   <Value Id="MovieControl" Runtime="DRIFSTID" Actors="SKÅDESPELARE" Directors="REGISSÖRER" ReleaseDate="RELEASEDATUM" />
   <Value Id="TVEpisodeControl" Actors="SKÅDESPELARE" Directors="REGISSÖRER" ReleaseDate="RELEASEDATUM" Runtime="TID" />
   <Value Id="MarketView" Close="Stäng" />
-  <Value Id="Shared" Browse="Sök" Remove="Ta bort" Add="Lägg till" Close="Stäng" Choose="Välj" />
+  <Value Id="Shared" Browse="Sök" Remove="Ta bort" Add="Lägg till" Close="Stäng" Choose="Välj" Save="Spara" Cancel="Avbryt" />
   <Value Id="MarketPopup" DoNotShow="Visa inte vid start." />
   <Value Id="VideoMenu" ABC="ALLA" Movies="FILMER" TVShows="TV-SERIER" Recents="SENASTE" Categories="KATEGORIER" />
   <Value Id="MusicMenu" Titles="TITEL" Albums="ALBUM" Artists="ARTIST" Recents="SENASTE" Genres="GENRE" Playlists="SPELLISTOR" />
