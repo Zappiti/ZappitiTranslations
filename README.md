@@ -1,4 +1,4 @@
-Translations for Zappiti coming version (v2.8.8)
+Translations for Zappiti coming version (v2.8.9)
 ===================
 
 Hi everyone,
