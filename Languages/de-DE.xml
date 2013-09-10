@@ -202,4 +202,5 @@
   <Value Id="EditPlaylist" Header="Wiedergabeliste bearbeiten" DetailsPlaylistGroupBox="Informationen über die playlist" TitlePlaylist="Titel der Playlist:" />
   <Value Id="SaveTask" Header="Speichern der aktuelle Änderungen" />
   <Value Id="SelectPictureView" Search="Suche" Folder="Cover" Background="Hintergrund" Picture="Trug" YourQuotaIsOver="Ihr Kontingent ist überschritten. Versuchen Sie es bitte später erneut." ChooseMedia="Bild wählen:" Browse="Durchsuchen" />
+  <Value Id="CircularProgressBarPopup" DoNotShow="Nicht mehr anzeigen." WaitMessage="Bitte warten Sie während der Synchronisierung mit Zappiti Cloud.[br]Klicken Sie auf das Symbol für weitere Informationen." />
 </Dictionary>

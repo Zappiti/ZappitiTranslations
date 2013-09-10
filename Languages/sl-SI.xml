@@ -202,4 +202,5 @@
   <Value Id="EditPlaylist" Header="Urejanje seznama predvajanja" DetailsPlaylistGroupBox="Podrobnosti predvajanja" TitlePlaylist="Naslov seznama predvajanja:" />
   <Value Id="SaveTask" Header="Shranjevanje trenutne spremembe" />
   <Value Id="SelectPictureView" Search="Išči" Folder="Sprednja Naslovnica" Background="Ozadje" Picture="Nosil" YourQuotaIsOver="Vaša kvota za prenos je pretekla za Scraper. Hvala in poskusite ponovno kasneje." ChooseMedia="Določi medij :" Browse="Izberite iz trdega diska" />
+  <Value Id="CircularProgressBarPopup" DoNotShow="Ne kažejo." WaitMessage="Prosimo počakajte, da sinhronizacijo z Zappiti oblak.[br]Kliknite ikono za več informacij." />
 </Dictionary>

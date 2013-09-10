@@ -202,4 +202,5 @@
   <Value Id="EditPlaylist" Header="Redigera spellista" DetailsPlaylistGroupBox="Detaljer av spellistan" TitlePlaylist="Titeln i spellistan:" />
   <Value Id="SaveTask" Header="Spara aktuella ändringar" />
   <Value Id="SelectPictureView" Search="Sök" Folder="Omslag framsida" Background="Omslag baksida" Picture="Bar" YourQuotaIsOver="Du har nått din nedladdningskvot för denna spårning. Försök igen senare." ChooseMedia="Välj bild :" Browse="Välj fil" />
+  <Value Id="CircularProgressBarPopup" DoNotShow="Visa inte." WaitMessage="Vänta medan synkronisering med Zappiti moln.[br]Klicka på ikonen för mer information." />
 </Dictionary>

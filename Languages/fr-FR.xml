@@ -202,4 +202,5 @@
   <Value Id="EditPlaylist" Header="Editer la playlist" DetailsPlaylistGroupBox="Details de la playlist" TitlePlaylist="Titre de la playlist :" />
   <Value Id="SaveTask" Header="Enregistrement des modifications en cours" />
   <Value Id="SelectPictureView" Search="Chercher" Folder="Jaquette" Background="Arrière plan" Picture="Portait" YourQuotaIsOver="Votre quota de téléchargement est dépassé sur ce scraper. Merci de réessayer un peu plus tard." ChooseMedia="Choisir un média :" Browse="Choisir depuis le disque" />
+  <Value Id="CircularProgressBarPopup" DoNotShow="Ne plus afficher." WaitMessage="Merci de patienter pendant la synchronisation avec Zappiti Cloud.[br]Cliquez sur l'icone pour plus d'informations." />
 </Dictionary>

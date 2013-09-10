@@ -202,4 +202,5 @@
   <Value Id="EditPlaylist" Header="Upravit seznam stop" DetailsPlaylistGroupBox="Podrobnosti seznamu stop" TitlePlaylist="Název seznamu stop:" />
   <Value Id="SaveTask" Header="Uložení aktuálních změn" />
   <Value Id="SelectPictureView" Search="Hledat" Folder="Jacket" Background="Background" Picture="Nosil" YourQuotaIsOver="Your download quota is over for this scraper. Thank you to try again later." ChooseMedia="Select a media :" Browse="Vybrat z pevného disku" />
+  <Value Id="CircularProgressBarPopup" DoNotShow="Nezobrazovat." WaitMessage="Počkejte, prosím, synchronizace s Zappiti mrak.[br]Klepněte na ikonu získáte další informace." />
 </Dictionary>

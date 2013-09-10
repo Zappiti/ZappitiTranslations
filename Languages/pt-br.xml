@@ -202,4 +202,5 @@
   <Value Id="EditPlaylist" Header="Editar playlist" DetailsPlaylistGroupBox="Detalhes da lista de reprodução" TitlePlaylist="Título da lista de reprodução:" />
   <Value Id="SaveTask" Header="Salvando alterações atuais" />
   <Value Id="SelectPictureView" Search="Pesquisa" Folder="Capa" Background="Fanart" Picture="Usava" YourQuotaIsOver="Sua quota de download para este servidor acabou. Tente mais tarde. Obrigado." ChooseMedia="Selecione a mídia :" Browse="Escolher do HD" />
+  <Value Id="CircularProgressBarPopup" DoNotShow="Não mostre." WaitMessage="Por favor aguarde enquanto a sincronização com nuvem de Zappiti.[br]Clique no ícone para obter mais informações." />
 </Dictionary>

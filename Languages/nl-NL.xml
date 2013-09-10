@@ -202,4 +202,5 @@
   <Value Id="EditPlaylist" Header="Afspeellijst bewerken" DetailsPlaylistGroupBox="Details van de afspeellijst" TitlePlaylist="Titel van de afspeellijst:" />
   <Value Id="SaveTask" Header="Huidige wijzigingen opslaan" />
   <Value Id="SelectPictureView" Search="Zoek" Folder="Cover" Background="Achtergrond" Picture="Droeg" YourQuotaIsOver="Voor deze informatiedienst is uw quotum bereikt. Probeert u het later opnieuw." ChooseMedia="Selecteer een afbeelding :" Browse="Kies bestand" />
+  <Value Id="CircularProgressBarPopup" DoNotShow="Niet weergeven." WaitMessage="Gelieve te wachten terwijl synchronisatie met Zappiti Cloud.[br]Klik op het pictogram voor meer informatie." />
 </Dictionary>

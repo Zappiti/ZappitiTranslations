@@ -203,4 +203,5 @@
   <Value Id="EditPlaylist" Header="Редактирование списка воспроизведения" DetailsPlaylistGroupBox="Подробная информация о списке воспроизведения" TitlePlaylist="Название списка воспроизведения:" />
   <Value Id="SaveTask" Header="Сохранение текущих изменений" />
   <Value Id="SelectPictureView" Search="Поиск" Folder="Обложка" Background="Фон" Picture="Носил" YourQuotaIsOver="Квота на скачивание с данного ресурса превышена. попробуйте повторить попытку позже." ChooseMedia="Выбрать обложку для группы :" Browse="Добавить с жёсткого диска" />
+  <Value Id="CircularProgressBarPopup" DoNotShow="Больше не показывать." WaitMessage="Пожалуйста, подождите, пока синхронизация с Zappiti облако.[br]Щелкните значок для получения дополнительной информации." />
 </Dictionary>

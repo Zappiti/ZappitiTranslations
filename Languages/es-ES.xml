@@ -202,4 +202,5 @@
   <Value Id="EditPlaylist" Header="Editar lista de reproducción" DetailsPlaylistGroupBox="Detalles de la lista de reproducción" TitlePlaylist="Título de la lista de reproducción:" />
   <Value Id="SaveTask" Header="Guardar los cambios actuales" />
   <Value Id="SelectPictureView" Search="Búsqueda" Folder="Portada" Background="Fondo" Picture="Llevaba" YourQuotaIsOver="La cuota de descarga se ha superado para ese rastreador. Inténtalo de nuevo más tarde, gracias." ChooseMedia="Selecciona los medios :" Browse="Elige desde el disco duro" />
+  <Value Id="CircularProgressBarPopup" DoNotShow="No muestran." WaitMessage="Por favor espere mientras la sincronización con la nube Zappiti.[br]Haga clic en el icono para obtener más información." />
 </Dictionary>

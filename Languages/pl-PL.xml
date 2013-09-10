@@ -202,4 +202,5 @@
   <Value Id="EditPlaylist" Header="Edycji listy odtwarzania" DetailsPlaylistGroupBox="Szczegóły listy odtwarzania" TitlePlaylist="Tytuł playlisty:" />
   <Value Id="SaveTask" Header="Zapisywania bieżących zmian" />
   <Value Id="SelectPictureView" Search="Szukaj" Folder="Okładka" Background="Tło" Picture="Nosił" YourQuotaIsOver="Twój limit pobrań został przekroczony. Proszę spróbować ponownie później." ChooseMedia="Wybierz zdjęcie:" Browse="Dodaj plik" />
+  <Value Id="CircularProgressBarPopup" DoNotShow="Nie pokazuj." WaitMessage="Czekaj, podczas gdy synchronizacja z Zappiti chmury.[br]Kliknij ikonę, aby uzyskać więcej informacji." />
 </Dictionary>
