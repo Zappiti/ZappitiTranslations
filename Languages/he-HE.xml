@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Dictionary EnglishName="English" CultureName="en-US">
-  <Value Id="SettingsTabValidation" Header="Validation" />
-  <Value Id="Globalization_XML" homeconfig="Configuration" homeinfo="Information" configlm="Launch Media" configipd="IP address" searchmovies="Movie" searchactors="Cast" searchdirectors="Director" abctitle="All my files" moviestitle="Movies" showstitle="Tv show" recentstitle="Recents" categtitle="Categories" detailtitle="Details" remoteplay="Playing on your Dune..." remotestop="No current playback on your Dune..." remoteback="Rewind..." remotefwd="Fast forward..." />
+<Dictionary EnglishName="Hebrew" CultureName="he-HE">
+  <Value Id="אישור בלשונית הגדרות" Header="תוקף" />
+  <Value Id="גלובליזציה_XML" homeconfig="תצורה" homeinfo="מידע" configlm="הפעל מדיה" configipd="כתובת ה-IP" searchmovies="סרט" searchactors="תסריט" searchdirectors="במאי" abctitle="כל הקבצים שלי" moviestitle="סרטים" showstitle="סדרות" recentstitle="אחרונים" categtitle="קטגוריות" detailtitle="פרטים" remoteplay="Dune-נגן על" remotestop=" DUNE-השמעה הנוכחית לא על ה " remoteback=" ...חזור" remotefwd="... מהר קדימה" />
   <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune" />
   <Value Id="SettingsDefault" Header="Default" />
   <Value Id="SettingsAdvancedOptions" Header="Advanced Options" />
