@@ -1,211 +1,977 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Dictionary EnglishName="Slovenian" CultureName="sl-SI" Author="EZ">
-  <Value Id="SettingsTabValidation" Header="Potrditev" />
-  <Value Id="Globalization_XML" homeconfig="Konfiguracija" homeinfo="Informacija" configlm="Pričetek multimedie" configipd="IP naslov" searchmovies="Film" searchactors="Igralci" searchdirectors="Režiser" abctitle="Vse moje datoteke" moviestitle="Filmi" showstitle="Tv oddaje" recentstitle="Zadnje" categtitle="Kategorije" detailtitle="Detajli" remoteplay="Predvaja na tvoji Dune/Zappiti..." remotestop="Ničesar ne predvaja na tvoji Dune/Zappiti..." remoteback="Nazaj ..." remotefwd="Hitro naprej ..." />
-  <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune" />
-  <Value Id="SettingsDefault" Header="Privzeto" />
-  <Value Id="SettingsAdvancedOptions" Header="Napredne Možnosti" />
-  <Value Id="SettingsTypeExport" ExportDune="Dune izvozna datoteka:" ExportITunes="ITunes izvozna datoteka:" Body="Definiraj tvojo datoteko za izvoz." DoYouHaveADune="Uporabljam Zappiti Player  / Dune predvajalnik" DoYouHaveAniPhone="Uporabljam iPhone / iPad / iPod" DeviceType="Device :" Primary="Prednostno" Secondary="Sekundarno" Audio="Avdio :" Subtitle="Podnapisi :" Encode="Kodiraj parametre :" SubtitleRule="Uporabi podnapise :" />
-  <Value Id="SettingsIsNFS" Content="NFS Format" />
-  <Value Id="SettingsUserName" Text="Prijava :" />
-  <Value Id="SettingsUserPassword" Text="Geslo :" />
-  <Value Id="MainScrapPicturesTvShow" Content="Slika ozadja" />
-  <Value Id="Export_XML" CreateGlobalizationCustomCommand="Generiranje datoteke za internacionalizacijo" iPhoneItemExportCustomCommand="Generiraj datoteko iTunes" ConfigXmlGeneratorCommand="Izvozi Konfiguracije" MoviesXmlFileGeneratorCommand="Izvozi filme" AbcXmlFileGeneratorCommand="Izvozi bazo" TvShowsXmlFileGeneratorCommand="Izvozi Serijo" CategoriesXmlFileGeneratorCommand="Izvozi kategorije" RecentsXmlFileGeneratorCommand="Izvozi zadnje" />
-  <Value Id="SettingsIsXmlExport" Text="Xml privzeto" />
-  <Value Id="SettingsTabExport" Header="Izvozi" />
-  <Value Id="SettingsFolders" Text="Vaše mape :" />
-  <Value Id="SettingsOK" Content="OK" />
-  <Value Id="SettingsCancel" Content="Prekliči" />
-  <Value Id="SettingsAddFolder" Content="Nova mapa" />
-  <Value Id="SettingsDeleteFolder" Content="Briši" />
-  <Value Id="SettingsModifyFolder" Content="Modificiraj" />
-  <Value Id="SettingsBrowse" Content="Najdi" />
-  <Value Id="SettingsFolderPath" Text="Vir mape :" />
-  <Value Id="SettingsZappitiDataPath" Text="Konfiguriraj mapo :" />
-  <Value Id="SettingsRewriteAbsolutePath" Text="Spremenite pot za izvoz :" />
-  <Value Id="SelectMediaInResultsOK" Content="OK" />
-  <Value Id="SelectMediaInResultsCancel" Content="Prekliči" />
-  <Value Id="All" Text="Vse" />
-  <Value Id="123" Text="123" />
-  <Value Id="A" Text="A" />
-  <Value Id="B" Text="B" />
-  <Value Id="C" Text="C" />
-  <Value Id="D" Text="D" />
-  <Value Id="E" Text="E" />
-  <Value Id="F" Text="F" />
-  <Value Id="G" Text="G" />
-  <Value Id="H" Text="H" />
-  <Value Id="I" Text="I" />
-  <Value Id="J" Text="J" />
-  <Value Id="K" Text="K" />
-  <Value Id="L" Text="L" />
-  <Value Id="M" Text="M" />
-  <Value Id="N" Text="N" />
-  <Value Id="O" Text="O" />
-  <Value Id="P" Text="P" />
-  <Value Id="Q" Text="Q" />
-  <Value Id="R" Text="R" />
-  <Value Id="S" Text="S" />
-  <Value Id="T" Text="T" />
-  <Value Id="U" Text="U" />
-  <Value Id="V" Text="V" />
-  <Value Id="W" Text="W" />
-  <Value Id="X" Text="X" />
-  <Value Id="Y" Text="Y" />
-  <Value Id="Z" Text="Z" />
-  <Value Id="EditTitle" Text="Naslov" />
-  <Value Id="EditRuntime" Text="Trajanje (hh:mm)" />
-  <Value Id="EditYear" Text="Predvajano" />
-  <Value Id="EditSynopsis" Text="Povzetek" />
-  <Value Id="EditDirectors" Text="Režiser" />
-  <Value Id="EditActors" Text="Igralci" />
-  <Value Id="EditAspectRatio" Text="Razmerje" />
-  <Value Id="EditExtension" Text="Container" />
-  <Value Id="EditCodecVideo" Text="Video Kodek" />
-  <Value Id="EditFramerate" Text="Pogostost" />
-  <Value Id="EditDefinition" Text="Opredelitev" />
-  <Value Id="EditCodecAudio" Text="Audio Kodek" />
-  <Value Id="EditCategories" Text="Kategorije" />
-  <Value Id="EditSubTitles" Text="Podnapisi" />
-  <Value Id="EditLanguages" Text="Jeziki" />
-  <Value Id="EditViewNotView" Text="Pogledano" />
-  <Value Id="EditOK" Content="OK" />
-  <Value Id="EditCancel" Content="Prekliči" />
-  <Value Id="MainExport" ExportDune="Izvozi na Dune" ExportITunes="Izvozi na iTunes" Title="Izvažanje ..." ExportZappitiPlayer="Izvozi na Zappiti Player" />
-  <Value Id="MainEdit" Content="Uredi" />
-  <Value Id="MainScrapDetails" Content="Scrape podatki" />
-  <Value Id="MainScrapPictures" Content="Scrape slike" />
-  <Value Id="MainInfo" Text="{0} Film, {1} TV Oddaje, {2} Epizode" />
-  <Value Id="MainToScrap" Text="{0} to scrape" />
-  <Value Id="MainToCleanUp" Text="{0} to clean up" />
-  <Value Id="MainIsScanning" Text="Skeniranje : {0}" />
-  <Value Id="MainIsScraping" Text="Scraping : {0}" />
-  <Value Id="MainIsAnalysing" Text="Analiza : {0}" />
-  <Value Id="MainIsDownloadingPicture" Text="Nalaganje slik : {0}" />
-  <Value Id="CleanUpMessage" Text="Naslednje datoteke so nedosegljive. Jih želite odstraniti iz baze podatkov?" />
-  <Value Id="CleanUpOK" Content="CleanUp" />
-  <Value Id="CleanUpClose" Content="Zapri" />
-  <Value Id="Splash" Content="Zapri" />
-  <Value Id="MessageBox" ConfigureSharePath="Za nadaljevanje nastavite pot za deljenje." NewReleaseAvailable="Nova različica je na voljo! Jo želite prenesti {0} {1} ?" DoYouWantToDeleteThisGroup="Ste prepričani, da želite izbrisati ta predmet?" DoYouWantToDeleteTheseGroup="Ste prepričani, da želite izbrisati te elemente?" DeleteCategory="Ste prepričani, da želite izbrisati to kategorijo?" ResetCategories="Ste prepričani, da želite izbrisati te kategorije?" ResetMainMenu="Želite ponastaviti vse menije?" ResetABCMenu="Želite ponastaviti vse gumbe?" ResetFilterMenu="Želite ponastaviti vse filtre?" VersionExpired="Ta različica Zapiti-ja je potekla, vendar je na voljo novejša! Jo želite prenesti?" AddFolder="Dodaj mapo {0} k konfiguraciji?" CanStartDuneServer="Strežnika ni mogoče zagnati. Prosimo, poskusite druga vrata." DoYouWanToInstallMpcHd="Želite namestiti Media Player Classic - HC?" DoYouWantToQuit="Zdravljenja so še vedno v teku.[br]Ali ste prepričani, da želite vseeno končam?" DoYouWanToInstallStreamingModule="Napeljati tok modul?" UpnpFailed="UPnP luka odpošiljanje ni uspela. Morate ročno konfigurirati omrežju." />
-  <Value Id="MessageBoxCaption" NewReleaseAvailable="Posodobitev je na voljo" DoYouWantToDeleteThisGroup="Odstrani element" DoYouWantToDeleteTheseGroup="Odstrani elemente" DeleteCategory="Zbriši kategorijo" ResetCategories="Ponastavi kategorijo" ResetMainMenu="Ponastavi menije" ResetABCMenu="Ponastavi gumbe" VersionExpired="Posodobitev je na voljo" AddFolder="Dodaj lokacijo?" CanStartDuneServer="Napaka" DoYouWanToInstallMpcHd="Zahtevana programska oprema" DoYouWantToQuit="Trenutni zdravljenja." DoYouWanToInstallStreamingModule="Programske opreme, potrebne" UpnpFailed="Napaka pri konfiguriranju UPnP" />
-  <Value Id="EditChannels" Text="Kanali" />
-  <Value Id="TVShowSeasonList" SeasonUp="SEZONA {0}" />
-  <Value Id="AddToGroupNewGroup" Content="Nova skupina" PlaylistContent="Nov seznam predvajanja" />
-  <Value Id="EditGroupCancel" Content="Prekliči" />
-  <Value Id="EditGroupOK" Content="Shrani" />
-  <Value Id="FrequentWords" Words="you;i;to;the;a;and;that;it;of;me" />
-  <Value Id="EditBrowseFilename" Content="Brskajte" />
-  <Value Id="EditFilename" Text="Pot Medija" />
-  <Value Id="EditSubTitle" Text="Podnapisi" />
-  <Value Id="EditGroupTitle" Text="Ime skupine" />
-  <Value Id="EditGroupChilds" Text="Člani skupine" />
-  <Value Id="EditGroupSortByData" Content="Razvsti po datumu" />
-  <Value Id="EditGroupMoveUp" Content="Premakni navzgor" />
-  <Value Id="EditGroupMoveDown" Content="Premakni navzdol" />
-  <Value Id="EditGroupMoveRemove" Content="Prevzem" />
-  <Value Id="EditGroup" Group="Skupina" />
-  <Value Id="EditMenuIcons" ToolTip="Spremenite ikono" Text="Ikone :" />
-  <Value Id="EditMenuBack" ToolTip="Spremenite ozadje" />
-  <Value Id="EditMenuBackRollOver" ToolTip="Spremenite prosojno ozadje" />
-  <Value Id="EditCategoriesLabel" Text="Kategorije :" />
-  <Value Id="EditCategoriesKeywords" Text="Oznake :" />
-  <Value Id="EditMenuOK" Content="Potrditev" />
-  <Value Id="EditMenuCancel" Content="Prekliči" />
-  <Value Id="EditMenuBrowse" Content="Brskajte ..." />
-  <Value Id="EditCategoriesAdd" ToolTip="Dodaj Kategorijo" />
-  <Value Id="MainAddPlaylist" Content="Nov seznam predvajanja" />
-  <Value Id="MainAddAlbum" Content="Novi album" />
-  <Value Id="MainAddCategory" Content="Nova kategorija" OrderCategory="Naročanja" NoticeReorderCategory="Povleci / spusti elementov, da jih preuredite." />
-  <Value Id="MoreMediaInfosRightClick" Text="Prosimo, kliknite na desni gumb za več ukazov..." />
-  <Value Id="EditGroupSortByName" Content="Razvrsti po naslovu" />
-  <Value Id="SettingsTabFolders" Header="Datoteke" />
-  <Value Id="SettingsTabOthers" Header="Ostalo" SendErrorReport="Samodejno pošlje poročilo razvijalci, ko pride do napake." Recents="Število dni, da se upošteva nedavni:" />
-  <Value Id="SettingsTabScrapers" Header="Scrapers" MovieScraper="Filmi:" MoviePictureScraper="Slike Filmov:" TVShowScraper="Serije:" TVShowPictureScraper="Slike Serij:" ScrapOnStarWindows="Začni skeniranje datotek za zagon aplikacij" SuppressAllAfterFirstExcludedWordFromTitle="Izbrisati vse znake, po prvi mandat izključen voljo" WordToExludeFromMovies="Besede za izključitev vrednostnih papirjev:" />
-  <Value Id="GroupContextState" Seen="Pogledano" Ongoing="V teku" Unseen="Ne pogledano" Stateless="Stateless" />
-  <Value Id="EditSize" Text="Velikost" />
-  <Value Id="Loading" Text="Nalaga ..." />
-  <Value Id="NoTitleFoundToScrap" Text="film ne ustreza" />
-  <Value Id="Prepare_Application" Content="Konfiguracija Aplikacije" SettingsLoading="Nalaganje konfiguracije" ScanningAllFiles="Začetek skeniranja datotek" DataBaseLoading="Naloži Bazo podatkov" DataBaseCleanUp="Počisti Bazo podatkov" EnablingFeatureBrowserEmulation="Omogoča funkcijo emulacije brskalnika" Header="---" SigningIn="Povezave" />
-  <Value Id="WizardWelcome" Body="Dobrodošli.[br][br]Čarovnik vam bo pomagal nastaviti Zappiti.[br][br]Kliknite na &quot;Sporočite kje so vaši datoteke&quot; da nam povedo kje so vaši datoteke." Close="Zapri" Header="Čarovnik za namestitev" AddFiles="Sporočite kje so vaši datoteke &gt;&gt;" />
-  <Value Id="WizardAddLocalLocation" Name="Dodaj lokalno mapo" Description="- Notranji trdi disk na tem računalniku [br] - Zunanji trdi disk priključen na USB / eSata na tem računalniku [br] - Trdi disk v priklopni postaji priključen na tem računalniku preko USB / eSATA [br] - Dune Drive priključen na USB Slave na tem računalniku" Header="Lokalne mape" Tips="Nasvet: Lahko se odločite in delite te datoteke v vašem lokalnem omrežju ali dostopate neposredno do podatkov z Dune do USB naprave." Folders="Lokalni pogoni / USB naprave" />
-  <Value Id="WizardAddNetworkLocation" Name="Dodaj skupno mapo v omrežju" Description="- Notranji trdi disk v omrežju Dune/Zappiti [br] - Zunanji trdi disk v omrežju Dune/Zappiti [br] - NAS strežnik [br] - Ostali oddaljeni računalnik v omrežju [br] - Omrežna mapa v skupni rabi [br] - mrežni trdi disk" Header="Omrežne mape v skupni rabi, NAS ..." Tips="Nasvet: Lahko kupite USB, NAS, itd. na spletu HD LAND in ARCHUS.SI." Folders="Omrežna mesta" />
-  <Value Id="WizardWhereAreYourFiles" Header="Kje se nahajajo vaši datoteke?" Body="Izberite eno od spodnjih možnosti in označite kje se nahajajo vaši filmi ali TV." Back="&lt;&lt;Prejšnja" Close="Zapri" />
-  <Value Id="WizardAddLocation" Body="Povlecite in spustite datoteke, ki jih želite dodati na seznam na desni." YourFolders="Vaše datoteke" Next="Naslednja&gt;&gt;" Back="&lt;&lt;Prejšnja" Close="Zapri" />
-  <Value Id="WizardAddAnotherLocation" Header="Dodaj drugo lokacijo?" Next="Naslednja&gt;&gt;" YourFolders="Povzetek vaše datoteke" Close="Zapri" />
-  <Value Id="FolderDataTemplate" Edit="Spremeni" Delete="Odstrani" />
-  <Value Id="WizardRewriteLocationUrl" Header="Kreiraj pot" Body="Izberite lokacijo za to mapo in dostop do vašega pogona Dune HD: [br](določite kje se bo ta mapa nahajala ob zaključku)" Back="&lt;&lt; Prejšnja" Next="Sledi &gt;&gt;" ExternLabel="Na zunanji trdi disk priključen na Dune HD/Zappiti" NetworkLabel="Na NAS strežnik, omrežno mapo, notranji trdi disk / izven računalnika" UnknowLabel="Po meri" Close="Zapri" InternLabel="Na notranji trdi disk priključen na Dune HD/Zappiti" />
-  <Value Id="LocalRewriteUrlEngineView" Body="Ta mapa mora biti v skupni rabi omrežja za dostop do vašega predvajalnika Dune." IAccept="Strinjam se z delitvijo te mape." />
-  <Value Id="SettingsHost" Text="Ime gostitelja / IP :" />
-  <Value Id="SettingsPath" Text="Lokacija :" />
-  <Value Id="WizardConfigureType" Header="Vrsta videa" Body="Kaj je to?" Movie="Vsebuje Filme" TVShow="Vsebuje Oddaje" Back="&lt;&lt;Prejšnja" Close="Zapri" Music="Vsebuje glasba" />
-  <Value Id="Folder" Movie="Filmi" TVShow="TV Oddaje" Music="Glasba" />
-  <Value Id="Settings" PlayerHeader="Predvajalnik" Header="Nastavitve" AccountHeader="Račun" />
-  <Value Id="PlayerConfigView" IsServerRunning="Omogoči strežnik Zappiti" IsControlRunning="Omogoči podporo za daljinsko upravljanje" Port="Vrata :" IsStreamingRunning="Omogočiti pretakanje" />
-  <Value Id="UpnpConfigView" IsUpnpActivated="Aktiviranje čiščenjem (samodejna konfiguracija)" PublicIp="Javni IP:" RefreshIp="Interval osveževanja javnih ip: " />
-  <Value Id="WizardDownloadMpcPlayer" Header="Prenesi MPC - Home Cinema" Next="Sledi &gt;&gt;" Close="Zapri" Body="Prenaša, zahvaljujem se za vašo potrpežljivost ...." />
-  <Value Id="WizardInstallMpcPlayer" Header="Namesti MPC - Home Cinema" Body="Trenutna namestitev. " Close="Zapri" Completed="Čestitamo, namestitev MPC - Home Cinema je uspešno izvedeno." Failed="Namestitev ni uspela zaradi določenega razloga." />
-  <Value Id="MpcPlayerConfigView" Download="Prenesi in namesti MPC - Home Cinema" PlayerPath="Pot:" Browse="Razišči..." />
-  <Value Id="WizardDownloadStreamingModule" Header="Travnato gričevje tok modul" Next="Naslednji &gt;&gt;" Close="Zaprite" Body="Prenos se izvaja, počakajte..." />
-  <Value Id="WizardInstallStreamingModule" Header="Napeljati tok modul" Body="Namestitev v teku. počakaj, prosim..." Close="Zaprite" Completed="Čestitke, umestitev, pretakanje modula je potekala uspešno." Failed="Namestitev ni uspel iz neznanega razloga." />
-  <Value Id="StreamingModuleConfigView" Download="Travnato gričevje ter napeljati tok modul" PlayerPath="Pot:" Browse="Prebrskaj..." />
-  <Value Id="SettingsTabInterface" Header="Vmesnik" Language="Jezik :" Background="Ozadje po meri" GlassShow="Prikaži učinek stekla" ShowHeader="Prikaži glavo platnico" SeenUnseen="Prikaži pogledano / ne pogledano stanje" DynamicZoom="Ikone z dinamično povečavo" SelectionBox="Dinamična kontura" Theme="Tema :" />
-  <Value Id="TaskManagerView" Header="Nedokončana" Close="Zapri" />
-  <Value Id="PlayTask" Header="Odpri video" />
-  <Value Id="DownloadVcdTask" Header="Prenesi VirtualCloneDrive" />
-  <Value Id="InstallVcdTask" Header="Namesti VirtualCloneDrive" />
-  <Value Id="DeleteVcdSetupTask" Header="Odstrani nameščen VirtualCloneDrive" />
-  <Value Id="MountTask" Header="Mounting the disk image" />
-  <Value Id="MountCheckTask" Header="Čakanje na virtualni disk" />
-  <Value Id="UnscrapedView" Filename="Ime datoteke" Directory="Repertoar" State="Država" Title="Datoteke za scrap" Close="Zapri" ManualScrap="Privzeto" Scrap="Scrape" ScrapAll="Scrape all" ScrapById="Po ID-ju" ScrapByTitle="Po naslovu" ReleaseDate="Datum izdaje" />
-  <Value Id="FirstInitFromMovieNfoTask" Header="Inicializacija podatkov s filma" />
-  <Value Id="UpdateMainViewModelTask" Header="Osveži objavljene videoposnetke" />
-  <Value Id="MediaToDeleteTask" Header="Poiščite datoteke, ki ne obstajajo več" />
-  <Value Id="FirstInitTask" Header="Inicializacija" />
-  <Value Id="ScanTask" Header="V procesu skeniranja" />
-  <Value Id="ScanForTVShowEpisodeTask" Header="Inicializacija podatkov epizode" />
-  <Value Id="FirstInitFromTVShowNfoTask" Header="Inicializacija podatkov epizode serije" />
-  <Value Id="FirstInitFromTVEpisodeNfoTask" Header="Inicializacija podatkov epizode" />
-  <Value Id="ScanMoviesFolders" Header="Skeniranje datotek filmov" />
-  <Value Id="ScanTVShowFolders" Header="Skeniranje datotek serij" />
-  <Value Id="ExportTypeView" Header="Vrsta izvoza" RegisterZappitiPlayerLabel="Uporabljate predvajalnik Zappiti Player?" RegisterZappitiPlayerButton="Aktivirajte sedaj!" RegisterZappitiPlayerSmallLabel="Z aktivacijo vašega Zappiti Player predvajalnika, lahko izvozite tudi svojo glasbeno knjižnico." ExportMusic="Izvoz glasbe" Close="Zapri" />
-  <Value Id="FullExportType" Name="Zaključeno" Description="Vaša celotna zbirka je v celoti izvožena." />
-  <Value Id="IncrementalExportType" Name="Povečanje" Description="Samo zadnje spremembe od zadnjega izvoza so izvožene." />
-  <Value Id="RescrapSelect" Content="Izberi" />
-  <Value Id="WizardFinish" Header="Konfiguracija zaključena" Body="Konfiguracija Zappiti Media Center je zaključena." Close="Zapri" Back="&lt;&lt;Prejšnja" />
-  <Value Id="WizardConfigureExportDevice" Header="Imate kakšne naprave?" Body="Izberite željene naprave :" Back="&lt;&lt;Prejšnja" Next="Sledi &gt;&gt;" Close="Zapri" />
-  <Value Id="WizardConfigureDuneExport" Header="Konfiguracija Dune HD / Zappiti Player" Body="Kam naj izvozi vaše podatke?" Back="&lt;&lt;Prejšnja" Next="Sledi &gt;&gt;" Close="Zapri" />
-  <Value Id="WizardConfigureITunesExport" Header="Konfiguracija iTunes (iPhone / iPad)" Body="Kam naj izvozi vaše podatke?" Back="&lt;&lt;Prejšnja" Next="Sledi &gt;&gt;" Close="Zapri" />
-  <Value Id="ContextMenu" GroupTo="Skupina..." ChangePicture="Spremeni..." Delete="Pobriši" Edit="Uredi ..." Play="Predvajaj ..." Encode="Kodiraj" DeleteEncode="Briši kodirano datoteko" Reset="Ponastavi" ResetAllCategories="Ponastavi Kategorije" ToPlayList="Dodaj na seznam predvajanja" SyncToCloud="Sinhronizirajte to v oblaku" />
-  <Value Id="EncodeTask" Header="Kodiranje" />
-  <Value Id="EncodingTask" Header="Trenutno kodiranje" />
-  <Value Id="DownloadHandbrakeTask" Header="Prenesi Handbrake" />
-  <Value Id="InstallHandbrakeTask" Header="Namestitev Handbrake" />
-  <Value Id="SubtitleRules" Never="Nikoli" AlwaysIfPossible="Vedno, če je mogoče" IfPrimaryAudioNotFound="Samo, če želenih avdio ni bilo mogoče najti" />
-  <Value Id="CategoriesMenu" Action="Akcijski" Sci-Fi="Sci-Fi" Adventure="Avanturni" War="Vojni" Western="Western" History="Zgodovinski" Drama="Drama" Documentary="Dokumentarni" Music="Glasbeni" Romance="Romantični" Classic="Klasični" Animation="Animacijski" Crime="Kriminalke" Thriller="Thriller" Horror="Horror" Comedy="Komedija" Other="Ostali" Fantasy="Fantazijski" />
-  <Value Id="FilterMenu" All="VSE" Ongoing="V TEKU" Seen="POGLEDANO" Unseen="NE POGLEDANO" />
-  <Value Id="SetSeenStateTask" Header="Posodobitev stanja ogleda." />
-  <Value Id="HashTask" Header="Posodabljanje Hash datotek." />
-  <Value Id="MovieControl" Runtime="TRAJANJE" Actors="IGRALCI" Directors="REŽISER" ReleaseDate="OBJAVLJENO" />
-  <Value Id="TVEpisodeControl" Actors="IGRALCI" Directors="REŽISER" ReleaseDate="OBJAVLJENO" Runtime="TRAJANJE" />
-  <Value Id="MarketView" Close="Zapri" />
-  <Value Id="Shared" Browse="Brskanje" Remove="Odstrani" Add="Dodaj" Close="Zapri" Choose="Izberite" Save="Shrani" Cancel="Prekliči" Edit="Urejanje" Back="Vrnitev" />
-  <Value Id="MarketPopup" DoNotShow="Ne prikaži ob zagonu." />
-  <Value Id="MediaMenu" Video="VIDEO" Music="GLASBA" Photo="FOTOGRAFIJE" />
-  <Value Id="VideoMenu" ABC="VSE" Movies="FILMI" TVShows="TV ODDAJE" Recents="NEDAVNO" Categories="KATEGORIJE" />
-  <Value Id="MusicMenu" Titles="NASLOVI" Albums="ALBUMI" Artists="IZVAJALCI" Recents="NEDAVNO" Genres="VRSTE" Playlists="SEZNAM PREDVAJANJA" />
-  <Value Id="AlbumView" Genre="Žanr :" Count="Sled :" ReleaseDate="Datum izzdaje :" Runtime="Trajanje :" ToolTipEditPhoto="Kliknite, če želite spremeniti sliko" />
-  <Value Id="ScanMusicsFolderTask" Header="Skeniranje glasbenih datotek" />
-  <Value Id="FirstInitFromMusicNfoTask" Header="Inicializacija podatkov iz glasbe" />
-  <Value Id="ResetCategoriesTask" Header="Reset kategorije" />
-  <Value Id="AccountConfigView" Email="Vaš račun:" Connect="Prijavite" Disconnect="Odklopite" SendToCloud="Usposobiti samodejen prislon v oblaku." Refresh="Osveži" RefreshText="Uporabite le, če nekaj je slabo preživel prej.[br]Ta ukrep omogoča sinhronizacijo vaše celotno bazo podatkov.[br]To je lahko precej dolgo, odvisno od velikosti zbirke podatkov." Sync="Sinhronizacija v oblaku:" SyncText="Nadzor nad vašo glasbo in videoposnetke s tabličnega ali pametni telefon." ZMC-ZappitiPlayer="Zappiti Media Control za Zappiti Player" ZMC-DuneHD="Zappiti Media Control za Dune HD" SyncError="Ti elementi niso bili sinhronizirani pravilno:" EventDateTime="Datum" EventCaption="ime" EventMessage="Sporočilo o napaki" SyncOK="Zadnje sinhronizacije ({0}) je šlo dobro." ShowError="Podrobnosti" HideError="Vrnitev" Edit="Urejanje" />
-  <Value Id="SignIn" HeaderSignIn="Prijavite" HeaderRegister="Ustvari račun" Email="Email" Password="Geslo" RepeatPassword="Ponovite geslo" Firstname="Ime" Lastname="Ime" AlreadyRegistered="Vpiši me zdaj" NewUser="Ustvarite račun zdaj" SignIn="Prijavite" Register="Registrirajte se" BadCredential="Email ali geslo je neveljavno" DuplicateEmail="Tukaj je že račun, povezana s tem e-pošti." RegistrationError="Ne morem ustvariti račun za trenutek." NewUserText="Nimate Zappiti računa?" AlreadyRegisteredText="Imajo Zappiti računa?" UnableToConnect="Vaš račun ni dostopen?" Reset="Da, želim ustvariti novo geslo" ResetInfo="Vpišite svoj e na naslednjih področjih zgoraj. " HeaderResetPassword="Resetirajte vaše geslo" ResetEmailSent="Preverite e-pošto in kliknete na povezavo, ki smo vam poslali, da spremenite svoje geslo." ResetEmailNotSent="Ne morete ponastaviti gesla, hvala, da se preveri, da je e-pošta pravilna." BadLicence="Ni moč pridobiti podatkov računa." CheckYourConnection="Ne more povezati z internetom." />
-  <Value Id="ResetDeviceList" Header="Pozabite na pooblaščene naprave" Body="Uporabniško ime Zappiti je lahko povezano s 3 računalnike.[BR][BR]Čez to mejo, pa lahko &quot;Zapomni vaš računalo&quot; povezati nov računalnik, na vaš račun.[BR][BR]Pa lahko &quot;zapomni vaše računalnike&quot; do 2-krat na mesec 6." ForgetYourComputers="Pozabite na računalnike" TooMuchReset="Dosegli ste omejitev števila popusta na nič za to obdobje." YouHaveToWait="Morate počakati {0} Pred uporabo te funkcije." Days="dni" />
-  <Value Id="SyncTask" Header="Sinhronizacija v teku" DeleteCategoryTask="Brisanje kategorije" DeleteItemTask="Brisanje elementa" DeletePersonTask="Odstranitev osebe" UpdatePersonTask="Posodabljanje osebo" UpdateMenuTask="Posodabljanje Meni" UpdateItemTask="Posodabljanje element" UpdateCategoriesTask="Posodabljanje kategorije" ResetTask="Začetek sinhronizacije" PutPictureTask="Pošljete sliko" SaveSettingsTask="Shranjevanje konfiguracije" />
-  <Value Id="EditAlbum" Header="Uredi album" DetailsAlbumGroupBox="Podrobnosti o albumu" DetailsStyleGroupBox="Vrste to skladbo" TitleAlbum="Naslov albuma:" DetailsTrackGroupBox="Podrobnosti o progi" Duration="Dolžina:" DetailsArtisteGroupBox="Umetnikov na tej progi" AddNewArtist="Ustvarite nov umetnik" AddNewStyle="Create a new style" TitleTrack="Naslov:" AlbumPisteOrpheline="Album " ToolTipEditPhoto="Kliknite, če želite spremeniti sliko" Filename="Datoteke:" ArtistPopup="Vnesite ime umetnika, ki ga želite ustvariti." StylePopup="Vnesite ime glasbeni slog, ki ga želite ustvariti." />
-  <Value Id="MainWindow" Donate="Donirajte !" DatabaseUpdating="Posodobi zbirko podatkov ..." Home="Domov" Configuration="Nastavite" Scan="Skeniranje" DatabaseBadVersion="Trenutna različica Zappiti ne more odpreti izbrano bazo podatkov. Poskusite z novejšo različico Zappiti programske opreme." SearchMedias="Išči" Loading="Nalaganje" About="Informacije" />
-  <Value Id="EditPlaylist" Header="Urejanje seznama predvajanja" DetailsPlaylistGroupBox="Podrobnosti predvajanja" TitlePlaylist="Naslov seznama predvajanja:" />
-  <Value Id="SaveTask" Header="Shranjevanje trenutne spremembe" />
-  <Value Id="SelectPictureView" Search="Išči" Folder="Sprednja Naslovnica" Background="Ozadje" Picture="Nosil" YourQuotaIsOver="Vaša kvota za prenos je pretekla za Scraper. Hvala in poskusite ponovno kasneje." ChooseMedia="Določi medij :" Browse="Izberite iz trdega diska" />
-  <Value Id="CircularProgressBarPopup" DoNotShow="Ne kažejo." WaitMessage="Prosimo počakajte, da sinhronizacijo z Zappiti oblak.[br]Kliknite ikono za več informacij." />
-  <Value Id="RefreshIpInterval" OneHour="1 uro" TwoHour="2 uri" ThreeHour="3 ure" FourHour="4 ure" FiveHour="5 ur" TwelveHour="12 ur" OneDay="vsak dan" />
+﻿<?xml version="1.0"
+		encoding="utf-8"?>
+<Dictionary EnglishName="Slovenian"
+		CultureName="sl-SI"
+		Author="EZ">
+  <Value Id="SettingsTabValidation"
+		Header="Potrditev"
+		/>
+  <Value Id="Globalization_XML"
+		homeconfig="Konfiguracija"
+		homeinfo="Informacija"
+		configlm="Pričetek multimedie"
+		configipd="IP naslov"
+		searchmovies="Film"
+		searchactors="Igralci"
+		searchdirectors="Režiser"
+		abctitle="Vse moje datoteke"
+		moviestitle="Filmi"
+		showstitle="Tv oddaje"
+		recentstitle="Zadnje"
+		categtitle="Kategorije"
+		detailtitle="Detajli"
+		remoteplay="Predvaja na tvoji Dune/Zappiti..."
+		remotestop="Ničesar ne predvaja na tvoji Dune/Zappiti..."
+		remoteback="Nazaj ..."
+		remotefwd="Hitro naprej ..."
+		/>
+  <Value Id="ExportTypes"
+		iPhone="iPhone"
+		Dune="Dune"
+		/>
+  <Value Id="SettingsDefault"
+		Header="Privzeto"
+		/>
+  <Value Id="SettingsAdvancedOptions"
+		Header="Napredne Možnosti"
+		/>
+  <Value Id="SettingsTypeExport"
+		ExportDune="Dune izvozna datoteka:"
+		ExportITunes="ITunes izvozna datoteka:"
+		Body="Definiraj tvojo datoteko za izvoz."
+		DoYouHaveADune="Uporabljam Zappiti Player  / Dune predvajalnik"
+		DoYouHaveAniPhone="Uporabljam iPhone / iPad / iPod"
+		DeviceType="Device :"
+		Primary="Prednostno"
+		Secondary="Sekundarno"
+		Audio="Avdio :"
+		Subtitle="Podnapisi :"
+		Encode="Kodiraj parametre :"
+		SubtitleRule="Uporabi podnapise :"
+		/>
+  <Value Id="SettingsIsNFS"
+		Content="NFS Format"
+		/>
+  <Value Id="SettingsUserName"
+		Text="Prijava :"
+		/>
+  <Value Id="SettingsUserPassword"
+		Text="Geslo :"
+		/>
+  <Value Id="MainScrapPicturesTvShow"
+		Content="Slika ozadja"
+		/>
+  <Value Id="Export_XML"
+		CreateGlobalizationCustomCommand="Generiranje datoteke za internacionalizacijo"
+		iPhoneItemExportCustomCommand="Generiraj datoteko iTunes"
+		ConfigXmlGeneratorCommand="Izvozi Konfiguracije"
+		MoviesXmlFileGeneratorCommand="Izvozi filme"
+		AbcXmlFileGeneratorCommand="Izvozi bazo"
+		TvShowsXmlFileGeneratorCommand="Izvozi Serijo"
+		CategoriesXmlFileGeneratorCommand="Izvozi kategorije"
+		RecentsXmlFileGeneratorCommand="Izvozi zadnje"
+		/>
+  <Value Id="SettingsIsXmlExport"
+		Text="Xml privzeto"
+		/>
+  <Value Id="SettingsTabExport"
+		Header="Izvozi"
+		/>
+  <Value Id="SettingsFolders"
+		Text="Vaše mape :"
+		/>
+  <Value Id="SettingsOK"
+		Content="OK"
+		/>
+  <Value Id="SettingsCancel"
+		Content="Prekliči"
+		/>
+  <Value Id="SettingsAddFolder"
+		Content="Nova mapa"
+		/>
+  <Value Id="SettingsDeleteFolder"
+		Content="Briši"
+		/>
+  <Value Id="SettingsModifyFolder"
+		Content="Modificiraj"
+		/>
+  <Value Id="SettingsBrowse"
+		Content="Najdi"
+		/>
+  <Value Id="SettingsFolderPath"
+		Text="Vir mape :"
+		/>
+  <Value Id="SettingsZappitiDataPath"
+		Text="Konfiguriraj mapo :"
+		/>
+  <Value Id="SettingsRewriteAbsolutePath"
+		Text="Spremenite pot za izvoz :"
+		/>
+  <Value Id="SelectMediaInResultsOK"
+		Content="OK"
+		/>
+  <Value Id="SelectMediaInResultsCancel"
+		Content="Prekliči"
+		/>
+  <Value Id="All"
+		Text="Vse"
+		/>
+  <Value Id="123"
+		Text="123"
+		/>
+  <Value Id="A"
+		Text="A"
+		/>
+  <Value Id="B"
+		Text="B"
+		/>
+  <Value Id="C"
+		Text="C"
+		/>
+  <Value Id="D"
+		Text="D"
+		/>
+  <Value Id="E"
+		Text="E"
+		/>
+  <Value Id="F"
+		Text="F"
+		/>
+  <Value Id="G"
+		Text="G"
+		/>
+  <Value Id="H"
+		Text="H"
+		/>
+  <Value Id="I"
+		Text="I"
+		/>
+  <Value Id="J"
+		Text="J"
+		/>
+  <Value Id="K"
+		Text="K"
+		/>
+  <Value Id="L"
+		Text="L"
+		/>
+  <Value Id="M"
+		Text="M"
+		/>
+  <Value Id="N"
+		Text="N"
+		/>
+  <Value Id="O"
+		Text="O"
+		/>
+  <Value Id="P"
+		Text="P"
+		/>
+  <Value Id="Q"
+		Text="Q"
+		/>
+  <Value Id="R"
+		Text="R"
+		/>
+  <Value Id="S"
+		Text="S"
+		/>
+  <Value Id="T"
+		Text="T"
+		/>
+  <Value Id="U"
+		Text="U"
+		/>
+  <Value Id="V"
+		Text="V"
+		/>
+  <Value Id="W"
+		Text="W"
+		/>
+  <Value Id="X"
+		Text="X"
+		/>
+  <Value Id="Y"
+		Text="Y"
+		/>
+  <Value Id="Z"
+		Text="Z"
+		/>
+  <Value Id="EditTitle"
+		Text="Naslov"
+		/>
+  <Value Id="EditRuntime"
+		Text="Trajanje (hh:mm)"
+		/>
+  <Value Id="EditYear"
+		Text="Predvajano"
+		/>
+  <Value Id="EditSynopsis"
+		Text="Povzetek"
+		/>
+  <Value Id="EditDirectors"
+		Text="Režiser"
+		/>
+  <Value Id="EditActors"
+		Text="Igralci"
+		/>
+  <Value Id="EditAspectRatio"
+		Text="Razmerje"
+		/>
+  <Value Id="EditExtension"
+		Text="Container"
+		/>
+  <Value Id="EditCodecVideo"
+		Text="Video Kodek"
+		/>
+  <Value Id="EditFramerate"
+		Text="Pogostost"
+		/>
+  <Value Id="EditDefinition"
+		Text="Opredelitev"
+		/>
+  <Value Id="EditCodecAudio"
+		Text="Audio Kodek"
+		/>
+  <Value Id="EditCategories"
+		Text="Kategorije"
+		/>
+  <Value Id="EditSubTitles"
+		Text="Podnapisi"
+		/>
+  <Value Id="EditLanguages"
+		Text="Jeziki"
+		/>
+  <Value Id="EditViewNotView"
+		Text="Pogledano"
+		/>
+  <Value Id="EditOK"
+		Content="OK"
+		/>
+  <Value Id="EditCancel"
+		Content="Prekliči"
+		/>
+  <Value Id="MainExport"
+		ExportDune="Izvozi na Dune"
+		ExportITunes="Izvozi na iTunes"
+		Title="Izvažanje ..."
+		ExportZappitiPlayer="Izvozi na Zappiti Player"
+		/>
+  <Value Id="MainEdit"
+		Content="Uredi"
+		/>
+  <Value Id="MainScrapDetails"
+		Content="Scrape podatki"
+		/>
+  <Value Id="MainScrapPictures"
+		Content="Scrape slike"
+		/>
+  <Value Id="MainInfo"
+		Text="{0} Film, {1} TV Oddaje, {2} Epizode"
+		/>
+  <Value Id="MainToScrap"
+		Text="{0} to scrape"
+		/>
+  <Value Id="MainToCleanUp"
+		Text="{0} to clean up"
+		/>
+  <Value Id="MainIsScanning"
+		Text="Skeniranje : {0}"
+		/>
+  <Value Id="MainIsScraping"
+		Text="Scraping : {0}"
+		/>
+  <Value Id="MainIsAnalysing"
+		Text="Analiza : {0}"
+		/>
+  <Value Id="MainIsDownloadingPicture"
+		Text="Nalaganje slik : {0}"
+		/>
+  <Value Id="CleanUpMessage"
+		Text="Naslednje datoteke so nedosegljive. Jih želite odstraniti iz baze podatkov?"
+		/>
+  <Value Id="CleanUpOK"
+		Content="CleanUp"
+		/>
+  <Value Id="CleanUpClose"
+		Content="Zapri"
+		/>
+  <Value Id="Splash"
+		Content="Zapri"
+		/>
+  <Value Id="MessageBox"
+		ConfigureSharePath="Za nadaljevanje nastavite pot za deljenje."
+		NewReleaseAvailable="Nova različica je na voljo! Jo želite prenesti {0} {1} ?"
+		DoYouWantToDeleteThisGroup="Ste prepričani, da želite izbrisati ta predmet?"
+		DoYouWantToDeleteTheseGroup="Ste prepričani, da želite izbrisati te elemente?"
+		DeleteCategory="Ste prepričani, da želite izbrisati to kategorijo?"
+		ResetCategories="Ste prepričani, da želite izbrisati te kategorije?"
+		ResetMainMenu="Želite ponastaviti vse menije?"
+		ResetABCMenu="Želite ponastaviti vse gumbe?"
+		ResetFilterMenu="Želite ponastaviti vse filtre?"
+		VersionExpired="Ta različica Zapiti-ja je potekla, vendar je na voljo novejša! Jo želite prenesti?"
+		AddFolder="Dodaj mapo {0} k konfiguraciji?"
+		CanStartDuneServer="Strežnika ni mogoče zagnati. Prosimo, poskusite druga vrata."
+		DoYouWanToInstallMpcHd="Želite namestiti Media Player Classic - HC?"
+		DoYouWantToQuit="Zdravljenja so še vedno v teku.[br]Ali ste prepričani, da želite vseeno končam?"
+		DoYouWanToInstallStreamingModule="Napeljati tok modul?"
+		UpnpFailed="UPnP luka odpošiljanje ni uspela. Morate ročno konfigurirati omrežju."
+		/>
+  <Value Id="MessageBoxCaption"
+		NewReleaseAvailable="Posodobitev je na voljo"
+		DoYouWantToDeleteThisGroup="Odstrani element"
+		DoYouWantToDeleteTheseGroup="Odstrani elemente"
+		DeleteCategory="Zbriši kategorijo"
+		ResetCategories="Ponastavi kategorijo"
+		ResetMainMenu="Ponastavi menije"
+		ResetABCMenu="Ponastavi gumbe"
+		VersionExpired="Posodobitev je na voljo"
+		AddFolder="Dodaj lokacijo?"
+		CanStartDuneServer="Napaka"
+		DoYouWanToInstallMpcHd="Zahtevana programska oprema"
+		DoYouWantToQuit="Trenutni zdravljenja."
+		DoYouWanToInstallStreamingModule="Programske opreme, potrebne"
+		UpnpFailed="Napaka pri konfiguriranju UPnP"
+		/>
+  <Value Id="EditChannels"
+		Text="Kanali"
+		/>
+  <Value Id="TVShowSeasonList"
+		SeasonUp="SEZONA {0}"
+		/>
+  <Value Id="AddToGroupNewGroup"
+		Content="Nova skupina"
+		PlaylistContent="Nov seznam predvajanja"
+		/>
+  <Value Id="EditGroupCancel"
+		Content="Prekliči"
+		/>
+  <Value Id="EditGroupOK"
+		Content="Shrani"
+		/>
+  <Value Id="FrequentWords"
+		Words="you;i;to;the;a;and;that;it;of;me"
+		/>
+  <Value Id="EditBrowseFilename"
+		Content="Brskajte"
+		/>
+  <Value Id="EditFilename"
+		Text="Pot Medija"
+		/>
+  <Value Id="EditSubTitle"
+		Text="Podnapisi"
+		/>
+  <Value Id="EditGroupTitle"
+		Text="Ime skupine"
+		/>
+  <Value Id="EditGroupChilds"
+		Text="Člani skupine"
+		/>
+  <Value Id="EditGroupSortByData"
+		Content="Razvsti po datumu"
+		/>
+  <Value Id="EditGroupMoveUp"
+		Content="Premakni navzgor"
+		/>
+  <Value Id="EditGroupMoveDown"
+		Content="Premakni navzdol"
+		/>
+  <Value Id="EditGroupMoveRemove"
+		Content="Prevzem"
+		/>
+  <Value Id="EditGroup"
+		Group="Skupina"
+		/>
+  <Value Id="EditMenuIcons"
+		ToolTip="Spremenite ikono"
+		Text="Ikone :"
+		/>
+  <Value Id="EditMenuBack"
+		ToolTip="Spremenite ozadje"
+		/>
+  <Value Id="EditMenuBackRollOver"
+		ToolTip="Spremenite prosojno ozadje"
+		/>
+  <Value Id="EditCategoriesLabel"
+		Text="Kategorije :"
+		/>
+  <Value Id="EditCategoriesKeywords"
+		Text="Oznake :"
+		/>
+  <Value Id="EditMenuOK"
+		Content="Potrditev"
+		/>
+  <Value Id="EditMenuCancel"
+		Content="Prekliči"
+		/>
+  <Value Id="EditMenuBrowse"
+		Content="Brskajte ..."
+		/>
+  <Value Id="EditCategoriesAdd"
+		ToolTip="Dodaj Kategorijo"
+		/>
+  <Value Id="MainAddPlaylist"
+		Content="Nov seznam predvajanja"
+		/>
+  <Value Id="MainAddAlbum"
+		Content="Novi album"
+		/>
+  <Value Id="MainAddCategory"
+		Content="Nova kategorija"
+		OrderCategory="Naročanja"
+		NoticeReorderCategory="Povleci / spusti elementov, da jih preuredite."
+		/>
+  <Value Id="MoreMediaInfosRightClick"
+		Text="Prosimo, kliknite na desni gumb za več ukazov..."
+		/>
+  <Value Id="EditGroupSortByName"
+		Content="Razvrsti po naslovu"
+		/>
+  <Value Id="SettingsTabFolders"
+		Header="Datoteke"
+		/>
+  <Value Id="SettingsTabOthers"
+		Header="Ostalo"
+		SendErrorReport="Samodejno pošlje poročilo razvijalci, ko pride do napake."
+		Recents="Število dni, da se upošteva nedavni:"
+		/>
+  <Value Id="SettingsTabScrapers"
+		Header="Scrapers"
+		MovieScraper="Filmi:"
+		MoviePictureScraper="Slike Filmov:"
+		TVShowScraper="Serije:"
+		TVShowPictureScraper="Slike Serij:"
+		ScrapOnStarWindows="Začni skeniranje datotek za zagon aplikacij"
+		SuppressAllAfterFirstExcludedWordFromTitle="Izbrisati vse znake, po prvi mandat izključen voljo"
+		WordToExludeFromMovies="Besede za izključitev vrednostnih papirjev:"
+		/>
+  <Value Id="GroupContextState"
+		Seen="Pogledano"
+		Ongoing="V teku"
+		Unseen="Ne pogledano"
+		Stateless="Stateless"
+		/>
+  <Value Id="EditSize"
+		Text="Velikost"
+		/>
+  <Value Id="Loading"
+		Text="Nalaga ..."
+		/>
+  <Value Id="NoTitleFoundToScrap"
+		Text="film ne ustreza"
+		/>
+  <Value Id="Prepare_Application"
+		Content="Konfiguracija Aplikacije"
+		SettingsLoading="Nalaganje konfiguracije"
+		ScanningAllFiles="Začetek skeniranja datotek"
+		DataBaseLoading="Naloži Bazo podatkov"
+		DataBaseCleanUp="Počisti Bazo podatkov"
+		EnablingFeatureBrowserEmulation="Omogoča funkcijo emulacije brskalnika"
+		Header="---"
+		SigningIn="Povezave"
+		/>
+  <Value Id="WizardWelcome"
+		Body="Dobrodošli.[br][br]Čarovnik vam bo pomagal nastaviti Zappiti.[br][br]Kliknite na &quot;Sporočite kje so vaši datoteke&quot; da nam povedo kje so vaši datoteke."
+		Close="Zapri"
+		Header="Čarovnik za namestitev"
+		AddFiles="Sporočite kje so vaši datoteke &gt;&gt;"
+		/>
+  <Value Id="WizardAddLocalLocation"
+		Name="Dodaj lokalno mapo"
+		Description="- Notranji trdi disk na tem računalniku [br] - Zunanji trdi disk priključen na USB / eSata na tem računalniku [br] - Trdi disk v priklopni postaji priključen na tem računalniku preko USB / eSATA [br] - Dune Drive priključen na USB Slave na tem računalniku"
+		Header="Lokalne mape"
+		Tips="Nasvet: Lahko se odločite in delite te datoteke v vašem lokalnem omrežju ali dostopate neposredno do podatkov z Dune do USB naprave."
+		Folders="Lokalni pogoni / USB naprave"
+		/>
+  <Value Id="WizardAddNetworkLocation"
+		Name="Dodaj skupno mapo v omrežju"
+		Description="- Notranji trdi disk v omrežju Dune/Zappiti [br] - Zunanji trdi disk v omrežju Dune/Zappiti [br] - NAS strežnik [br] - Ostali oddaljeni računalnik v omrežju [br] - Omrežna mapa v skupni rabi [br] - mrežni trdi disk"
+		Header="Omrežne mape v skupni rabi, NAS ..."
+		Tips="Nasvet: Lahko kupite USB, NAS, itd. na spletu HD LAND in ARCHUS.SI."
+		Folders="Omrežna mesta"
+		/>
+  <Value Id="WizardWhereAreYourFiles"
+		Header="Kje se nahajajo vaši datoteke?"
+		Body="Izberite eno od spodnjih možnosti in označite kje se nahajajo vaši filmi ali TV."
+		Back="&lt;&lt;Prejšnja"
+		Close="Zapri"
+		/>
+  <Value Id="WizardAddLocation"
+		Body="Povlecite in spustite datoteke, ki jih želite dodati na seznam na desni."
+		YourFolders="Vaše datoteke"
+		Next="Naslednja&gt;&gt;"
+		Back="&lt;&lt;Prejšnja"
+		Close="Zapri"
+		/>
+  <Value Id="WizardAddAnotherLocation"
+		Header="Dodaj drugo lokacijo?"
+		Next="Naslednja&gt;&gt;"
+		YourFolders="Povzetek vaše datoteke"
+		Close="Zapri"
+		/>
+  <Value Id="FolderDataTemplate"
+		Edit="Spremeni"
+		Delete="Odstrani"
+		/>
+  <Value Id="WizardRewriteLocationUrl"
+		Header="Kreiraj pot"
+		Body="Izberite lokacijo za to mapo in dostop do vašega pogona Dune HD: [br](določite kje se bo ta mapa nahajala ob zaključku)"
+		Back="&lt;&lt; Prejšnja"
+		Next="Sledi &gt;&gt;"
+		ExternLabel="Na zunanji trdi disk priključen na Dune HD/Zappiti"
+		NetworkLabel="Na NAS strežnik, omrežno mapo, notranji trdi disk / izven računalnika"
+		UnknowLabel="Po meri"
+		Close="Zapri"
+		InternLabel="Na notranji trdi disk priključen na Dune HD/Zappiti"
+		/>
+  <Value Id="LocalRewriteUrlEngineView"
+		Body="Ta mapa mora biti v skupni rabi omrežja za dostop do vašega predvajalnika Dune."
+		IAccept="Strinjam se z delitvijo te mape."
+		/>
+  <Value Id="SettingsHost"
+		Text="Ime gostitelja / IP :"
+		/>
+  <Value Id="SettingsPath"
+		Text="Lokacija :"
+		/>
+  <Value Id="WizardConfigureType"
+		Header="Vrsta videa"
+		Body="Kaj je to?"
+		Movie="Vsebuje Filme"
+		TVShow="Vsebuje Oddaje"
+		Back="&lt;&lt;Prejšnja"
+		Close="Zapri"
+		Music="Vsebuje glasba"
+		/>
+  <Value Id="Folder"
+		Movie="Filmi"
+		TVShow="TV Oddaje"
+		Music="Glasba"
+		/>
+  <Value Id="Settings"
+		PlayerHeader="Predvajalnik"
+		Header="Nastavitve"
+		AccountHeader="Račun"
+		/>
+  <Value Id="PlayerConfigView"
+		IsServerRunning="Omogoči strežnik Zappiti"
+		IsControlRunning="Omogoči podporo za daljinsko upravljanje"
+		Port="Vrata :"
+		IsStreamingRunning="Omogočiti pretakanje"
+		/>
+  <Value Id="UpnpConfigView"
+		IsUpnpActivated="Aktiviranje čiščenjem (samodejna konfiguracija)"
+		PublicIp="Javni IP:"
+		RefreshIp="Interval osveževanja javnih ip: "
+		/>
+  <Value Id="WizardDownloadMpcPlayer"
+		Header="Prenesi MPC - Home Cinema"
+		Next="Sledi &gt;&gt;"
+		Close="Zapri"
+		Body="Prenaša, zahvaljujem se za vašo potrpežljivost ...."
+		/>
+  <Value Id="WizardInstallMpcPlayer"
+		Header="Namesti MPC - Home Cinema"
+		Body="Trenutna namestitev. "
+		Close="Zapri"
+		Completed="Čestitamo, namestitev MPC - Home Cinema je uspešno izvedeno."
+		Failed="Namestitev ni uspela zaradi določenega razloga."
+		/>
+  <Value Id="MpcPlayerConfigView"
+		Download="Prenesi in namesti MPC - Home Cinema"
+		PlayerPath="Pot:"
+		Browse="Razišči..."
+		/>
+  <Value Id="WizardDownloadStreamingModule"
+		Header="Travnato gričevje tok modul"
+		Next="Naslednji &gt;&gt;"
+		Close="Zaprite"
+		Body="Prenos se izvaja, počakajte..."
+		/>
+  <Value Id="WizardInstallStreamingModule"
+		Header="Napeljati tok modul"
+		Body="Namestitev v teku. počakaj, prosim..."
+		Close="Zaprite"
+		Completed="Čestitke, umestitev, pretakanje modula je potekala uspešno."
+		Failed="Namestitev ni uspel iz neznanega razloga."
+		/>
+  <Value Id="StreamingModuleConfigView"
+		Download="Travnato gričevje ter napeljati tok modul"
+		PlayerPath="Pot:"
+		Browse="Prebrskaj..."
+		/>
+  <Value Id="SettingsTabInterface"
+		Header="Vmesnik"
+		Language="Jezik :"
+		Background="Ozadje po meri"
+		GlassShow="Prikaži učinek stekla"
+		ShowHeader="Prikaži glavo platnico"
+		SeenUnseen="Prikaži pogledano / ne pogledano stanje"
+		DynamicZoom="Ikone z dinamično povečavo"
+		SelectionBox="Dinamična kontura"
+		Theme="Tema :"
+		/>
+  <Value Id="TaskManagerView"
+		Header="Nedokončana"
+		Close="Zapri"
+		/>
+  <Value Id="PlayTask"
+		Header="Odpri video"
+		/>
+  <Value Id="DownloadVcdTask"
+		Header="Prenesi VirtualCloneDrive"
+		/>
+  <Value Id="InstallVcdTask"
+		Header="Namesti VirtualCloneDrive"
+		/>
+  <Value Id="DeleteVcdSetupTask"
+		Header="Odstrani nameščen VirtualCloneDrive"
+		/>
+  <Value Id="MountTask"
+		Header="Mounting the disk image"
+		/>
+  <Value Id="MountCheckTask"
+		Header="Čakanje na virtualni disk"
+		/>
+  <Value Id="UnscrapedView"
+		Filename="Ime datoteke"
+		Directory="Repertoar"
+		State="Država"
+		Title="Datoteke za scrap"
+		Close="Zapri"
+		ManualScrap="Privzeto"
+		Scrap="Scrape"
+		ScrapAll="Scrape all"
+		ScrapById="Po ID-ju"
+		ScrapByTitle="Po naslovu"
+		ReleaseDate="Datum izdaje"
+		/>
+  <Value Id="FirstInitFromMovieNfoTask"
+		Header="Inicializacija podatkov s filma"
+		/>
+  <Value Id="UpdateMainViewModelTask"
+		Header="Osveži objavljene videoposnetke"
+		/>
+  <Value Id="MediaToDeleteTask"
+		Header="Poiščite datoteke, ki ne obstajajo več"
+		/>
+  <Value Id="FirstInitTask"
+		Header="Inicializacija"
+		/>
+  <Value Id="ScanTask"
+		Header="V procesu skeniranja"
+		/>
+  <Value Id="ScanForTVShowEpisodeTask"
+		Header="Inicializacija podatkov epizode"
+		/>
+  <Value Id="FirstInitFromTVShowNfoTask"
+		Header="Inicializacija podatkov epizode serije"
+		/>
+  <Value Id="FirstInitFromTVEpisodeNfoTask"
+		Header="Inicializacija podatkov epizode"
+		/>
+  <Value Id="ScanMoviesFolders"
+		Header="Skeniranje datotek filmov"
+		/>
+  <Value Id="ScanTVShowFolders"
+		Header="Skeniranje datotek serij"
+		/>
+  <Value Id="ExportTypeView"
+		Header="Vrsta izvoza"
+		RegisterZappitiPlayerLabel="Uporabljate predvajalnik Zappiti Player?"
+		RegisterZappitiPlayerButton="Aktivirajte sedaj!"
+		RegisterZappitiPlayerSmallLabel="Z aktivacijo vašega Zappiti Player predvajalnika, lahko izvozite tudi svojo glasbeno knjižnico."
+		ExportMusic="Izvoz glasbe"
+		Close="Zapri"
+		/>
+  <Value Id="FullExportType"
+		Name="Zaključeno"
+		Description="Vaša celotna zbirka je v celoti izvožena."
+		/>
+  <Value Id="IncrementalExportType"
+		Name="Povečanje"
+		Description="Samo zadnje spremembe od zadnjega izvoza so izvožene."
+		/>
+  <Value Id="RescrapSelect"
+		Content="Izberi"
+		/>
+  <Value Id="WizardFinish"
+		Header="Konfiguracija zaključena"
+		Body="Konfiguracija Zappiti Media Center je zaključena."
+		Close="Zapri"
+		Back="&lt;&lt;Prejšnja"
+		/>
+  <Value Id="WizardConfigureExportDevice"
+		Header="Imate kakšne naprave?"
+		Body="Izberite željene naprave :"
+		Back="&lt;&lt;Prejšnja"
+		Next="Sledi &gt;&gt;"
+		Close="Zapri"
+		/>
+  <Value Id="WizardConfigureDuneExport"
+		Header="Konfiguracija Dune HD / Zappiti Player"
+		Body="Kam naj izvozi vaše podatke?"
+		Back="&lt;&lt;Prejšnja"
+		Next="Sledi &gt;&gt;"
+		Close="Zapri"
+		/>
+  <Value Id="WizardConfigureITunesExport"
+		Header="Konfiguracija iTunes (iPhone / iPad)"
+		Body="Kam naj izvozi vaše podatke?"
+		Back="&lt;&lt;Prejšnja"
+		Next="Sledi &gt;&gt;"
+		Close="Zapri"
+		/>
+  <Value Id="ContextMenu"
+		GroupTo="Skupina..."
+		ChangePicture="Spremeni..."
+		Delete="Pobriši"
+		Edit="Uredi ..."
+		Play="Predvajaj ..."
+		Encode="Kodiraj"
+		DeleteEncode="Briši kodirano datoteko"
+		Reset="Ponastavi"
+		ResetAllCategories="Ponastavi Kategorije"
+		ToPlayList="Dodaj na seznam predvajanja"
+		SyncToCloud="Sinhronizirajte to v oblaku"
+		/>
+  <Value Id="EncodeTask"
+		Header="Kodiranje"
+		/>
+  <Value Id="EncodingTask"
+		Header="Trenutno kodiranje"
+		/>
+  <Value Id="DownloadHandbrakeTask"
+		Header="Prenesi Handbrake"
+		/>
+  <Value Id="InstallHandbrakeTask"
+		Header="Namestitev Handbrake"
+		/>
+  <Value Id="SubtitleRules"
+		Never="Nikoli"
+		AlwaysIfPossible="Vedno, če je mogoče"
+		IfPrimaryAudioNotFound="Samo, če želenih avdio ni bilo mogoče najti"
+		/>
+  <Value Id="CategoriesMenu"
+		Action="Akcijski"
+		Sci-Fi="Sci-Fi"
+		Adventure="Avanturni"
+		War="Vojni"
+		Western="Western"
+		History="Zgodovinski"
+		Drama="Drama"
+		Documentary="Dokumentarni"
+		Music="Glasbeni"
+		Romance="Romantični"
+		Classic="Klasični"
+		Animation="Animacijski"
+		Crime="Kriminalke"
+		Thriller="Thriller"
+		Horror="Horror"
+		Comedy="Komedija"
+		Other="Ostali"
+		Fantasy="Fantazijski"
+		/>
+  <Value Id="FilterMenu"
+		All="VSE"
+		Ongoing="V TEKU"
+		Seen="POGLEDANO"
+		Unseen="NE POGLEDANO"
+		/>
+  <Value Id="SetSeenStateTask"
+		Header="Posodobitev stanja ogleda."
+		/>
+  <Value Id="HashTask"
+		Header="Posodabljanje Hash datotek."
+		/>
+  <Value Id="MovieControl"
+		Runtime="TRAJANJE"
+		Actors="IGRALCI"
+		Directors="REŽISER"
+		ReleaseDate="OBJAVLJENO"
+		/>
+  <Value Id="TVEpisodeControl"
+		Actors="IGRALCI"
+		Directors="REŽISER"
+		ReleaseDate="OBJAVLJENO"
+		Runtime="TRAJANJE"
+		/>
+  <Value Id="MarketView"
+		Close="Zapri"
+		/>
+  <Value Id="Shared"
+		Browse="Brskanje"
+		Remove="Odstrani"
+		Add="Dodaj"
+		Close="Zapri"
+		Choose="Izberite"
+		Save="Shrani"
+		Cancel="Prekliči"
+		Edit="Urejanje"
+		Back="Vrnitev"
+		/>
+  <Value Id="MarketPopup"
+		DoNotShow="Ne prikaži ob zagonu."
+		/>
+  <Value Id="MediaMenu"
+		Video="VIDEO"
+		Music="GLASBA"
+		Photo="FOTOGRAFIJE"
+		/>
+  <Value Id="VideoMenu"
+		ABC="VSE"
+		Movies="FILMI"
+		TVShows="TV ODDAJE"
+		Recents="NEDAVNO"
+		Categories="KATEGORIJE"
+		/>
+  <Value Id="MusicMenu"
+		Titles="NASLOVI"
+		Albums="ALBUMI"
+		Artists="IZVAJALCI"
+		Recents="NEDAVNO"
+		Genres="VRSTE"
+		Playlists="SEZNAM PREDVAJANJA"
+		/>
+  <Value Id="AlbumView"
+		Genre="Žanr :"
+		Count="Sled :"
+		ReleaseDate="Datum izzdaje :"
+		Runtime="Trajanje :"
+		ToolTipEditPhoto="Kliknite, če želite spremeniti sliko"
+		/>
+  <Value Id="ScanMusicsFolderTask"
+		Header="Skeniranje glasbenih datotek"
+		/>
+  <Value Id="FirstInitFromMusicNfoTask"
+		Header="Inicializacija podatkov iz glasbe"
+		/>
+  <Value Id="ResetCategoriesTask"
+		Header="Reset kategorije"
+		/>
+  <Value Id="AccountConfigView"
+		Email="Vaš račun:"
+		Connect="Prijavite"
+		Disconnect="Odklopite"
+		SendToCloud="Usposobiti samodejen prislon v oblaku."
+		Refresh="Osveži"
+		RefreshText="Uporabite le, če nekaj je slabo preživel prej.[br]Ta ukrep omogoča sinhronizacijo vaše celotno bazo podatkov.[br]To je lahko precej dolgo, odvisno od velikosti zbirke podatkov."
+		Sync="Sinhronizacija v oblaku:"
+		SyncText="Nadzor nad vašo glasbo in videoposnetke s tabličnega ali pametni telefon."
+		ZMC-ZappitiPlayer="Zappiti Media Control za Zappiti Player"
+		ZMC-DuneHD="Zappiti Media Control za Dune HD"
+		SyncError="Ti elementi niso bili sinhronizirani pravilno:"
+		EventDateTime="Datum"
+		EventCaption="ime"
+		EventMessage="Sporočilo o napaki"
+		SyncOK="Zadnje sinhronizacije ({0}) je šlo dobro."
+		ShowError="Podrobnosti"
+		HideError="Vrnitev"
+		Edit="Urejanje"
+		/>
+  <Value Id="SignIn"
+		HeaderSignIn="Prijavite"
+		HeaderRegister="Ustvari račun"
+		Email="Email"
+		Password="Geslo"
+		RepeatPassword="Ponovite geslo"
+		Firstname="Ime"
+		Lastname="Ime"
+		AlreadyRegistered="Vpiši me zdaj"
+		NewUser="Ustvarite račun zdaj"
+		SignIn="Prijavite"
+		Register="Registrirajte se"
+		BadCredential="Email ali geslo je neveljavno"
+		DuplicateEmail="Tukaj je že račun, povezana s tem e-pošti."
+		RegistrationError="Ne morem ustvariti račun za trenutek."
+		NewUserText="Nimate Zappiti računa?"
+		AlreadyRegisteredText="Imajo Zappiti računa?"
+		UnableToConnect="Vaš račun ni dostopen?"
+		Reset="Da, želim ustvariti novo geslo"
+		ResetInfo="Vpišite svoj e na naslednjih področjih zgoraj. "
+		HeaderResetPassword="Resetirajte vaše geslo"
+		ResetEmailSent="Preverite e-pošto in kliknete na povezavo, ki smo vam poslali, da spremenite svoje geslo."
+		ResetEmailNotSent="Ne morete ponastaviti gesla, hvala, da se preveri, da je e-pošta pravilna."
+		BadLicence="Ni moč pridobiti podatkov računa."
+		CheckYourConnection="Ne more povezati z internetom."
+		/>
+  <Value Id="ResetDeviceList"
+		Header="Pozabite na pooblaščene naprave"
+		Body="Uporabniško ime Zappiti je lahko povezano s 3 računalnike.[BR][BR]Čez to mejo, pa lahko &quot;Zapomni vaš računalo&quot; povezati nov računalnik, na vaš račun.[BR][BR]Pa lahko &quot;zapomni vaše računalnike&quot; do 2-krat na mesec 6."
+		ForgetYourComputers="Pozabite na računalnike"
+		TooMuchReset="Dosegli ste omejitev števila popusta na nič za to obdobje."
+		YouHaveToWait="Morate počakati {0} Pred uporabo te funkcije."
+		Days="dni"
+		/>
+  <Value Id="SyncTask"
+		Header="Sinhronizacija v teku"
+		DeleteCategoryTask="Brisanje kategorije"
+		DeleteItemTask="Brisanje elementa"
+		DeletePersonTask="Odstranitev osebe"
+		UpdatePersonTask="Posodabljanje osebo"
+		UpdateMenuTask="Posodabljanje Meni"
+		UpdateItemTask="Posodabljanje element"
+		UpdateCategoriesTask="Posodabljanje kategorije"
+		ResetTask="Začetek sinhronizacije"
+		PutPictureTask="Pošljete sliko"
+		SaveSettingsTask="Shranjevanje konfiguracije"
+		/>
+  <Value Id="EditAlbum"
+		Header="Uredi album"
+		DetailsAlbumGroupBox="Podrobnosti o albumu"
+		DetailsStyleGroupBox="Vrste to skladbo"
+		TitleAlbum="Naslov albuma:"
+		DetailsTrackGroupBox="Podrobnosti o progi"
+		Duration="Dolžina:"
+		DetailsArtisteGroupBox="Umetnikov na tej progi"
+		AddNewArtist="Ustvarite nov umetnik"
+		AddNewStyle="Create a new style"
+		TitleTrack="Naslov:"
+		AlbumPisteOrpheline="Album "
+		ToolTipEditPhoto="Kliknite, če želite spremeniti sliko"
+		Filename="Datoteke:"
+		ArtistPopup="Vnesite ime umetnika, ki ga želite ustvariti."
+		StylePopup="Vnesite ime glasbeni slog, ki ga želite ustvariti."
+		/>
+  <Value Id="MainWindow"
+		Donate="Donirajte !"
+		DatabaseUpdating="Posodobi zbirko podatkov ..."
+		Home="Domov"
+		Configuration="Nastavite"
+		Scan="Skeniranje"
+		DatabaseBadVersion="Trenutna različica Zappiti ne more odpreti izbrano bazo podatkov. Poskusite z novejšo različico Zappiti programske opreme."
+		SearchMedias="Išči"
+		Loading="Nalaganje"
+		About="Informacije"
+		/>
+  <Value Id="EditPlaylist"
+		Header="Urejanje seznama predvajanja"
+		DetailsPlaylistGroupBox="Podrobnosti predvajanja"
+		TitlePlaylist="Naslov seznama predvajanja:"
+		/>
+  <Value Id="SaveTask"
+		Header="Shranjevanje trenutne spremembe"
+		/>
+  <Value Id="SelectPictureView"
+		Search="Išči"
+		Folder="Sprednja Naslovnica"
+		Background="Ozadje"
+		Picture="Nosil"
+		YourQuotaIsOver="Vaša kvota za prenos je pretekla za Scraper. Hvala in poskusite ponovno kasneje."
+		ChooseMedia="Določi medij :"
+		Browse="Izberite iz trdega diska"
+		/>
+  <Value Id="CircularProgressBarPopup"
+		DoNotShow="Ne kažejo."
+		WaitMessage="Prosimo počakajte, da sinhronizacijo z Zappiti oblak.[br]Kliknite ikono za več informacij."
+		/>
+  <Value Id="RefreshIpInterval"
+		OneHour="1 uro"
+		TwoHour="2 uri"
+		ThreeHour="3 ure"
+		FourHour="4 ure"
+		FiveHour="5 ur"
+		TwelveHour="12 ur"
+		OneDay="vsak dan"
+		/>
 </Dictionary>
