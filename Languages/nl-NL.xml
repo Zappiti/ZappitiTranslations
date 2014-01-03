@@ -432,8 +432,7 @@
 		/>
   <Value Id="SettingsTabOthers"
 		Header="Overig"
-		SendErrorReport="
-		Stuur een bericht naar de ontwikkelaars als er een fout optreedt."
+		SendErrorReport="Stuur een bericht naar de ontwikkelaars als er een fout optreedt."
 		Recents="Aantal dagen om rekening te houden met de recente:"
 		/>
   <Value Id="SettingsTabScrapers"
