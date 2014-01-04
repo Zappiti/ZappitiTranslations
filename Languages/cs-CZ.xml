@@ -556,10 +556,14 @@
 		AccountHeader="Účet"
 		/>
   <Value Id="PlayerConfigView"
-		IsServerRunning="Povolit serveru Zappiti"
 		IsControlRunning="Povolení vzdáleného převzetí."
-		Port="Port:"
+		Port="použití místní port"
 		IsStreamingRunning="Povolit datové proudy"
+		Body="Povolení místního serveru pro: [br] - spuštění videa na vašem PC pomocí Zappiti Media Control.[br] - stream videa z vašeho PC do zappiti Media Control bez ohledu na umístění, kde jej používáte."
+		ServerIsRunning="Na serveru je spuštěna na portu {0}"
+		ServerIsNotRunning="Server není aktivní."
+		Start="Spuštění"
+		Stop="Stop"
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Aktivovat Unp (Automatická konfigurace)"

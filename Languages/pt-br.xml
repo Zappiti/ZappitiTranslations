@@ -554,10 +554,14 @@
 		AccountHeader="Conta"
 		/>
   <Value Id="PlayerConfigView"
-		IsServerRunning="Habilitar o servidor Zappiti"
 		IsControlRunning="Ativar suporte para controle remoto."
-		Port="Porta :"
+		Port="usando a porta local"
 		IsStreamingRunning="Permitir streaming"
+		Body="Habilitar o servidor local para: [br] - lançamento de vídeos no seu PC por controle de mídia Zappiti.[br] - transmitir seus vídeos do seu PC para zappiti controle de mídia, independentemente da localização onde você usá-lo."
+		ServerIsRunning="O servidor está executando na porta {0}"
+		ServerIsNotRunning="O servidor não está ativo."
+		Start="Lançamento"
+		Stop="Parar"
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Ativar Unp (configuração automática)"

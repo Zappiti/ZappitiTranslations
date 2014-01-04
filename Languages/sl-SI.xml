@@ -554,10 +554,14 @@
 		AccountHeader="Račun"
 		/>
   <Value Id="PlayerConfigView"
-		IsServerRunning="Omogoči strežnik Zappiti"
 		IsControlRunning="Omogoči podporo za daljinsko upravljanje"
-		Port="Vrata :"
+		Port="z uporabo lokalnih vrat"
 		IsStreamingRunning="Omogočiti pretakanje"
+		Body="Omogočajo lokalni strežnik za: [br] - začetek televizija naprej vaš PC s Zappiti Media Control.[br] - tok vaš televizija s vaš PC za zappiti nadzor medijev, ne glede na lokacijo, kjer ga uporabite."
+		ServerIsRunning="Strežnik teče na vrata {0}"
+		ServerIsNotRunning="Strežnik ni aktivna."
+		Start="Začetek"
+		Stop="ustavi se"
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Aktiviranje čiščenjem (samodejna konfiguracija)"

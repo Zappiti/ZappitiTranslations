@@ -553,10 +553,14 @@
 		AccountHeader="Räkning"
 		/>
   <Value Id="PlayerConfigView"
-		IsServerRunning="Aktivera servern Zappiti"
 		IsControlRunning="Aktivera stöd för fjärrstyrning."
-		Port="Port :"
+		Port="med den lokala porten"
 		IsStreamingRunning="Aktivera strömning"
+		Body="Aktivera den lokala servern för: [br] - lansera videor på din dator av Zappiti Media Control.[br] - strömma dina videor från datorn till zappiti Media Control oberoende av den plats där du använda den."
+		ServerIsRunning="Servern körs på port {0}"
+		ServerIsNotRunning="Servern är inte aktiv."
+		Start="Lanseringen"
+		Stop="Stanna"
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Aktivera Unp (automatisk konfiguration)"

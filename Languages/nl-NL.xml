@@ -554,10 +554,14 @@
 		AccountHeader="Rekening"
 		/>
   <Value Id="PlayerConfigView"
-		IsServerRunning="Server Zappiti inschakelen"
 		IsControlRunning="Ondersteuning voor afstandsbediening inschakelen."
-		Port="Poort:"
+		Port="met behulp van de lokale poort"
 		IsStreamingRunning="Streaming inschakelen"
+		Body="De lokale server voor in staat stellen: [br] - starten van video's op uw PC door Zappiti Media Control.[br] - streamen van uw video's van uw PC naar zappiti mediabeheer ongeacht de locatie waar u het gebruiken."
+		ServerIsRunning="De server draait op poort {0}"
+		ServerIsNotRunning="De server is niet actief."
+		Start="Lancering"
+		Stop="Stop"
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Activeren Unp (automatische configuratie)"

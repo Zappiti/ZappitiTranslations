@@ -470,10 +470,14 @@
 		AccountHeader="Benutzer-Account"
 		/>
   <Value Id="PlayerConfigView"
-		IsServerRunning="Zappiti-Server aktivieren"
 		IsControlRunning="Unterstützung für Fernbedienung aktivieren"
-		Port="Port:"
+		Port="mithilfe der lokalen Ports"
 		IsStreamingRunning="Streaming aktivieren"
+		Body="Den lokalen Server für: [Br] - Videos auf Ihrem PC durch Zappiti Media Control zu starten.[Br] - Streamen Sie Ihre Videos von Ihrem PC auf Zappiti Media Control unabhängig von der Position, wo Sie es verwenden."
+		ServerIsRunning="Der Server läuft auf Port {0}"
+		ServerIsNotRunning="Der Server ist nicht aktiv."
+		Start="Start"
+		Stop="Stop"
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Aktivieren der Unp (automatische Konfiguration)"

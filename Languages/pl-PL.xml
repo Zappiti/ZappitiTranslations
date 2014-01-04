@@ -554,10 +554,14 @@
 		AccountHeader="Konto"
 		/>
   <Value Id="PlayerConfigView"
-		IsServerRunning="Włącz serwer Zappiti"
 		IsControlRunning="Włącz obsługę zdalnego pilota."
-		Port="Port :"
+		Port="za pomocą portu lokalnego"
 		IsStreamingRunning="Włącz przesyłanie strumieniowe"
+		Body="Lokalny serwer dla: [br] - uruchamianie filmów na komputerze przez Zappiti Media Control.[br] - strumienia wideo z komputera do zappiti kontrola nośników bez względu na miejsce, gdzie możesz go używać."
+		ServerIsRunning="Serwer jest uruchomiony na porcie {0}"
+		ServerIsNotRunning="Serwer nie jest aktywny."
+		Start="Uruchomienie"
+		Stop="Przystanek"
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Aktywować czyszczeniem (automatyczna konfiguracja)"
