@@ -561,6 +561,7 @@
 		ServerIsNotRunning="O servidor não está ativo."
 		Start="Inicie o servidor"
 		Stop="Parar o servidor"
+		IsServerRunning="Habilitar o servidor Zappiti"
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Ativar Unp (configuração automática)"

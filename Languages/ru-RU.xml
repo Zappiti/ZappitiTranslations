@@ -568,6 +568,7 @@
 		ServerIsNotRunning="Сервер не является активным."
 		Start="Запуск сервера"
 		Stop="Остановка сервера"
+		IsServerRunning="Включение сервера Zappiti"
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Активировать УНП (автоматическая настройка)"

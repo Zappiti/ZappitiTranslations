@@ -560,6 +560,7 @@
 		ServerIsNotRunning="Servern är inte aktiv."
 		Start="Starta servern"
 		Stop="Stoppa servern"
+		IsServerRunning="Aktivera servern Zappiti"
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Aktivera Unp (automatisk konfiguration)"

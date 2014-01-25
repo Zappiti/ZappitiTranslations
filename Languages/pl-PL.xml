@@ -561,6 +561,7 @@
 		ServerIsNotRunning="Serwer nie jest aktywny."
 		Start="Start serwera"
 		Stop="Zatrzymaj serwer"
+		IsServerRunning="Włącz serwer Zappiti"
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Aktywować czyszczeniem (automatyczna konfiguracja)"

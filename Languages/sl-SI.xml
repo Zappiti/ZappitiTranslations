@@ -561,6 +561,7 @@
 		ServerIsNotRunning="Strežnik ni aktivna."
 		Start="Zagon strežnika"
 		Stop="Stop strežnik"
+		IsServerRunning="Omogoči strežnik Zappiti"
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Aktiviranje čiščenjem (samodejna konfiguracija)"

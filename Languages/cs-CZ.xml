@@ -563,6 +563,7 @@
 		ServerIsNotRunning="Server není aktivní."
 		Start="Spusťte server"
 		Stop="Zastavte server"
+		IsServerRunning="Povolit serveru Zappiti"
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Aktivovat Unp (Automatická konfigurace)"
