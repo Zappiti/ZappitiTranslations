@@ -449,7 +449,6 @@
 		Seen="Gezien"
 		Ongoing="Huidige"
 		Unseen="Nog niet gezien"
-		Stateless="Onbekend"
 		/>
   <Value Id="EditSize"
 		Text="Grootte"
@@ -560,13 +559,12 @@
 		Body="De lokale server voor in staat stellen: [br] - starten van video's op uw PC door Zappiti Media Control.[br] - streamen van uw video's van uw PC naar zappiti mediabeheer ongeacht de locatie waar u het gebruiken."
 		ServerIsRunning="De server draait op poort {0}"
 		ServerIsNotRunning="De server is niet actief."
-		Start="Lancering"
-		Stop="Stop"
+		Start="De server starten"
+		Stop="De server stoppen"
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Activeren Unp (automatische configuratie)"
 		PublicIp="Publieke IP:"
-		RefreshIp="Als u het publieke ip vernieuwingsinterval: "
 		/>
   <Value Id="WizardDownloadMpcPlayer"
 		Header="Download MPC - Home Cinema"
@@ -610,7 +608,7 @@
 		Background="Aangepaste achtergrond"
 		GlassShow="Toon met glas-effect"
 		ShowHeader="Toon mediatype als cover"
-		SeenUnseen="Toon markering gezien/niet-gezien"
+		SeenUnseen="De filter menu's gezien / niet gezien weergeven"
 		DynamicZoom="Toon inzoomende covers"
 		SelectionBox="Toon oranje selectiekader"
 		Theme="Thema :"
@@ -737,7 +735,7 @@
 		Reset="Reset"
 		ResetAllCategories="Reset categorieën"
 		ToPlayList="Toevoegen aan afspeellijst"
-		SyncToCloud="Dit synchroniseren in de Cloud"
+		SyncToCloud="Dit synchroniseren met Zappiti Cloud"
 		/>
   <Value Id="EncodeTask"
 		Header="Codering"
@@ -857,8 +855,8 @@
 		Email="Uw account:"
 		Connect="Inloggen"
 		Disconnect="Loskoppelen"
-		SendToCloud="Inschakelen automatische back-up in de wolk."
-		Refresh="Verversen"
+		SendToCloud="Inschakelen automatische synchronisatie via Zappiti Cloud."
+		Refresh="Synchroniseren alle"
 		RefreshText="Gebruik alleen als er iets is slecht eerder uitgegeven.[br]Deze actie kunt u uw gehele database te synchroniseren.[br]Dit kan vrij lang, afhankelijk van de grootte van de database."
 		Sync="Synchronisatie in de cloud:"
 		SyncText="Regel je muziek en video's met uw Tablet PC of smartphone."
@@ -968,14 +966,5 @@
   <Value Id="CircularProgressBarPopup"
 		DoNotShow="Niet weergeven."
 		WaitMessage="Gelieve te wachten terwijl synchronisatie met Zappiti Cloud.[br]Klik op het pictogram voor meer informatie."
-		/>
-  <Value Id="RefreshIpInterval"
-		OneHour="1 uur"
-		TwoHour="2 uur"
-		ThreeHour="3 uur"
-		FourHour="4 uur"
-		FiveHour="5 hours"
-		TwelveHour="12 uur"
-		OneDay="Elke dag"
 		/>
 </Dictionary>

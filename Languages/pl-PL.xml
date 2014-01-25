@@ -449,7 +449,6 @@
 		Seen="Obejrzane"
 		Ongoing="W toku"
 		Unseen="Niewidziane"
-		Stateless="Bez stanu"
 		/>
   <Value Id="EditSize"
 		Text="Rozmiar"
@@ -560,13 +559,12 @@
 		Body="Lokalny serwer dla: [br] - uruchamianie filmów na komputerze przez Zappiti Media Control.[br] - strumienia wideo z komputera do zappiti kontrola nośników bez względu na miejsce, gdzie możesz go używać."
 		ServerIsRunning="Serwer jest uruchomiony na porcie {0}"
 		ServerIsNotRunning="Serwer nie jest aktywny."
-		Start="Uruchomienie"
-		Stop="Przystanek"
+		Start="Start serwera"
+		Stop="Zatrzymaj serwer"
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Aktywować czyszczeniem (automatyczna konfiguracja)"
 		PublicIp="Publiczne IP:"
-		RefreshIp="Interwał odświeżania publiczne ip: "
 		/>
   <Value Id="WizardDownloadMpcPlayer"
 		Header="Pobierz MPC - Home Cinema"
@@ -610,7 +608,7 @@
 		Background="Tapeta"
 		GlassShow="Pokaż efekt lodu"
 		ShowHeader="Pokaż główną okładkę"
-		SeenUnseen="Pokaż Oglądane / Nie Oglądane"
+		SeenUnseen="Wyświetlić menu filtr widać / nie widział"
 		DynamicZoom="Ikony z dynamicznym zoomem"
 		SelectionBox="Dynamiczny kontur"
 		Theme="Motyw :"
@@ -737,7 +735,7 @@
 		Reset="Reset"
 		ResetAllCategories="Reset kategori"
 		ToPlayList="Dodaj do listy odtwarzania"
-		SyncToCloud="Wykonać synchronizację w chmurze"
+		SyncToCloud="Synchronizowanie to do Zappiti Cloud"
 		/>
   <Value Id="EncodeTask"
 		Header="Kodowanie"
@@ -857,8 +855,8 @@
 		Email="Twoje konto:"
 		Connect="Zaloguj się"
 		Disconnect="Odłączyć"
-		SendToCloud="Włącz automatyczne tworzenie kopii zapasowych w chmurze."
-		Refresh="Odświeżać"
+		SendToCloud="Włącz automatyczną synchronizację przez Zappiti Cloud."
+		Refresh="Ponownie zsynchronizować wszystkie"
 		RefreshText="Użyj tylko wtedy, gdy coś jest źle wydane wcześniej.[br]Działanie to pozwala na synchronizację całej bazy danych.[br]To może być dość długi zależnie od rozmiaru danych."
 		Sync="Synchronizacja w chmurze:"
 		SyncText="Kontroli, muzyki i filmów z swoim tablecie lub smartfonie."
@@ -968,14 +966,5 @@
   <Value Id="CircularProgressBarPopup"
 		DoNotShow="Nie pokazuj."
 		WaitMessage="Czekaj, podczas gdy synchronizacja z Zappiti chmury.[br]Kliknij ikonę, aby uzyskać więcej informacji."
-		/>
-  <Value Id="RefreshIpInterval"
-		OneHour="1 godzina"
-		TwoHour="2 godziny"
-		ThreeHour="3 godziny"
-		FourHour="4 godziny"
-		FiveHour="5 godzin"
-		TwelveHour="12 godzin"
-		OneDay="Codziennie"
 		/>
 </Dictionary>

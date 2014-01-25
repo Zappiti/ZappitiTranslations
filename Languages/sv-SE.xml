@@ -448,7 +448,6 @@
 		Seen="Sedd"
 		Ongoing="Pågående"
 		Unseen="Osedd"
-		Stateless="Utan"
 		/>
   <Value Id="EditSize"
 		Text="Storlek"
@@ -559,13 +558,12 @@
 		Body="Aktivera den lokala servern för: [br] - lansera videor på din dator av Zappiti Media Control.[br] - strömma dina videor från datorn till zappiti Media Control oberoende av den plats där du använda den."
 		ServerIsRunning="Servern körs på port {0}"
 		ServerIsNotRunning="Servern är inte aktiv."
-		Start="Lanseringen"
-		Stop="Stanna"
+		Start="Starta servern"
+		Stop="Stoppa servern"
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Aktivera Unp (automatisk konfiguration)"
 		PublicIp="Offentliga IP:"
-		RefreshIp="Uppdateringsintervallet offentliga ip: "
 		/>
   <Value Id="WizardDownloadMpcPlayer"
 		Header="Ladda ner MPC - Home Cinema"
@@ -609,7 +607,7 @@
 		Background="Anpassad bakgrund"
 		GlassShow="Visa glaseffekt"
 		ShowHeader="Visa omslaget upptill fram"
-		SeenUnseen="Visa sedda"
+		SeenUnseen="Visa menyerna filter sett / inte sett"
 		DynamicZoom="Ikoner med dynamisk zoom"
 		SelectionBox="Dynamisk kontur"
 		Theme="Tema :"
@@ -736,7 +734,7 @@
 		Reset="Återställ"
 		ResetAllCategories="Återställ Kategorier"
 		ToPlayList="Lägg till spellista"
-		SyncToCloud="Synkronisera detta i molnet"
+		SyncToCloud="Synkronisera detta till Zappiti Cloud"
 		/>
   <Value Id="EncodeTask"
 		Header="Konvertera"
@@ -856,8 +854,8 @@
 		Email="Ditt Konto:"
 		Connect="Logga in"
 		Disconnect="Koppla bort"
-		SendToCloud="Aktivera automatisk backup i molnet."
-		Refresh="Refresh"
+		SendToCloud="Aktivera automatisk synkronisering via Zappiti Cloud."
+		Refresh="Synkronisera om alla"
 		RefreshText="Använd bara om något går dåligt åt tidigare.[br]Denna åtgärd gör att du kan synkronisera din hela databasen.[br]Detta kan ta flera minuter beroende på storleken på din databas.Detta kan vara ganska lång tid beroende på storleken på din databas."
 		Sync="Synkronisering i molnet:"
 		SyncText="Styra din musik och video med din surfplatta eller smartphone."
@@ -967,14 +965,5 @@
   <Value Id="CircularProgressBarPopup"
 		DoNotShow="Visa inte."
 		WaitMessage="Vänta medan synkronisering med Zappiti moln.[br]Klicka på ikonen för mer information."
-		/>
-  <Value Id="RefreshIpInterval"
-		OneHour="1 timme"
-		TwoHour="2 timmar"
-		ThreeHour="3 timmar"
-		FourHour="4 timmar"
-		FiveHour="5 timmar"
-		TwelveHour="12 timmar"
-		OneDay="Varje dag"
 		/>
 </Dictionary>

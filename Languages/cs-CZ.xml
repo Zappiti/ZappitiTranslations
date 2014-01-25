@@ -467,7 +467,6 @@
 		Seen="Viditelný"
 		Ongoing="Pokračující"
 		Unseen="Není vidět"
-		Stateless="Stateless"
 		/>
   <Value Id="RescrapSelect"
 		Content="Vybrat"
@@ -562,13 +561,12 @@
 		Body="Povolení místního serveru pro: [br] - spuštění videa na vašem PC pomocí Zappiti Media Control.[br] - stream videa z vašeho PC do zappiti Media Control bez ohledu na umístění, kde jej používáte."
 		ServerIsRunning="Na serveru je spuštěna na portu {0}"
 		ServerIsNotRunning="Server není aktivní."
-		Start="Spuštění"
-		Stop="Stop"
+		Start="Spusťte server"
+		Stop="Zastavte server"
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Aktivovat Unp (Automatická konfigurace)"
 		PublicIp="Veřejná IP:"
-		RefreshIp="Interval aktualizace veřejnou ip: "
 		/>
   <Value Id="WizardDownloadMpcPlayer"
 		Header="Download MPC - Home Cinema"
@@ -612,7 +610,7 @@
 		Background="Pozadí"
 		GlassShow="Použít glass effect"
 		ShowHeader="Zobrazit u obrázku popisku druh videa"
-		SeenUnseen="Display seen / unseen state"
+		SeenUnseen="Zobrazit filtr nabídky viděl / není vidět"
 		DynamicZoom="Ikony s dynamickým zoomem"
 		SelectionBox="Dynamic obrysu"
 		Theme="Téma :"
@@ -736,7 +734,7 @@
 		Reset="Zrušit"
 		ResetAllCategories="Zrušení kategorií"
 		ToPlayList="Přidat do seznamu stop"
-		SyncToCloud="Synchronizovat tuto složku v cloudu"
+		SyncToCloud="Synchronizovat toto Zappiti Cloud"
 		/>
   <Value Id="EncodeTask"
 		Header="Kódování"
@@ -856,8 +854,8 @@
 		Email="Váš účet:"
 		Connect="Přihlaste se"
 		Disconnect="Odpojit"
-		SendToCloud="Povolte automatické zálohování cloudu."
-		Refresh="Osvěžit"
+		SendToCloud="Povolte automatickou synchronizaci přes Zappiti Cloud."
+		Refresh="Synchronizovat vše"
 		RefreshText="Používejte pouze v případě, že něco je špatně strávený dříve.[br]Tato akce umožňuje synchronizovat celou databázi.[br]To může být docela dlouho v závislosti na velikosti databáze."
 		Sync="Synchronizace v cloudu:"
 		SyncText="Ovládání hudby a videa s tablet nebo smartphone."
@@ -967,14 +965,5 @@
   <Value Id="CircularProgressBarPopup"
 		DoNotShow="Nezobrazovat."
 		WaitMessage="Počkejte, prosím, synchronizace s Zappiti mrak.[br]Klepněte na ikonu získáte další informace."
-		/>
-  <Value Id="RefreshIpInterval"
-		OneHour="1 hodina"
-		TwoHour="2 hodiny"
-		ThreeHour="3 hodiny"
-		FourHour="4 hodiny"
-		FiveHour="5 hodin"
-		TwelveHour="12 hodin"
-		OneDay="Každý den"
 		/>
 </Dictionary>

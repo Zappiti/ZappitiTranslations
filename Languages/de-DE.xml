@@ -365,7 +365,6 @@
 		Seen="Gesehen"
 		Ongoing="Läuft"
 		Unseen="Ungesehen"
-		Stateless="Ohne"
 		/>
   <Value Id="EditSize"
 		Text="Größe"
@@ -476,13 +475,12 @@
 		Body="Den lokalen Server für: [Br] - Videos auf Ihrem PC durch Zappiti Media Control zu starten.[Br] - Streamen Sie Ihre Videos von Ihrem PC auf Zappiti Media Control unabhängig von der Position, wo Sie es verwenden."
 		ServerIsRunning="Der Server läuft auf Port {0}"
 		ServerIsNotRunning="Der Server ist nicht aktiv."
-		Start="Start"
-		Stop="Stop"
+		Start="Starten Sie den server"
+		Stop="Beenden Sie den server"
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Aktivieren der Unp (automatische Konfiguration)"
 		PublicIp="Öffentliche IP-Adresse:"
-		RefreshIp="Das Aktualisierungsintervall für die öffentliche IP-Adresse: "
 		/>
   <Value Id="WizardDownloadMpcPlayer"
 		Header="Herunterladen MPC - Home Cinema"
@@ -526,7 +524,7 @@
 		Background="Hintergrund"
 		GlassShow="Glaseffekt"
 		ShowHeader="Medientyp auf Cover anzeigen"
-		SeenUnseen="Gesehen Markierung"
+		SeenUnseen="Zeigt die Filtermenüs gesehen / nicht gesehen"
 		DynamicZoom="Icons mit dynamischem Zoom"
 		SelectionBox="Dynamische Kontur"
 		Theme="Thema:"
@@ -737,7 +735,7 @@
 		Reset="Zurücksetzen"
 		ResetAllCategories="Kategorien zurücksetzen"
 		ToPlayList="Zur Playlist hinzufügen"
-		SyncToCloud="Dies in der Cloud zu synchronisieren"
+		SyncToCloud="Dies an Zappiti Cloud synchronisieren"
 		/>
   <Value Id="EncodeTask"
 		Header="Umwandeln"
@@ -857,8 +855,8 @@
 		Email="Ihr Account:"
 		Connect="Melden Sie sich an"
 		Disconnect="Abmelden"
-		SendToCloud="Aktivieren Sie automatische Backups in der Cloud."
-		Refresh="Aktualisieren"
+		SendToCloud="Aktivieren Sie die automatische Synchronisierung über Zappiti Cloud."
+		Refresh="Synchronisieren Sie alle"
 		RefreshText="Verwenden Sie nur, wenn etwas schlecht vorher ausgegeben wird.[Br]Dies kann durchaus länger dauern, abhängig von der Größe der Datenbank."
 		Sync="Synchronisierung in der Cloud:"
 		SyncText="Steuern Sie Ihre Musik und Videos mit Ihrem Tablet oder Smartphone."
@@ -968,14 +966,5 @@
   <Value Id="CircularProgressBarPopup"
 		DoNotShow="Nicht mehr anzeigen."
 		WaitMessage="Bitte warten Sie während der Synchronisierung mit Zappiti Cloud.[br]Klicken Sie auf das Symbol für weitere Informationen."
-		/>
-  <Value Id="RefreshIpInterval"
-		OneHour="1 Stunde"
-		TwoHour="2 Stunden"
-		ThreeHour="3 Stunden"
-		FourHour="4 Stunden"
-		FiveHour="5 Stunden"
-		TwelveHour="12 Stunden"
-		OneDay="Täglich"
 		/>
 </Dictionary>

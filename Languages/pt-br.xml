@@ -449,7 +449,6 @@
 		Seen="Visto"
 		Ongoing="Assistindo"
 		Unseen="Não visto"
-		Stateless="Aguardando"
 		/>
   <Value Id="EditSize"
 		Text="Tamanho"
@@ -560,13 +559,12 @@
 		Body="Habilitar o servidor local para: [br] - lançamento de vídeos no seu PC por controle de mídia Zappiti.[br] - transmitir seus vídeos do seu PC para zappiti controle de mídia, independentemente da localização onde você usá-lo."
 		ServerIsRunning="O servidor está executando na porta {0}"
 		ServerIsNotRunning="O servidor não está ativo."
-		Start="Lançamento"
-		Stop="Parar"
+		Start="Inicie o servidor"
+		Stop="Parar o servidor"
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Ativar Unp (configuração automática)"
 		PublicIp="IP público:"
-		RefreshIp="O intervalo de atualização de ip público: "
 		/>
   <Value Id="WizardDownloadMpcPlayer"
 		Header="Baixar MPC - Home Cinema"
@@ -610,7 +608,7 @@
 		Background="Fundo"
 		GlassShow="Aplicar efeito visual"
 		ShowHeader="Mostrar a capa"
-		SeenUnseen="Exibir visto / não visto"
+		SeenUnseen="Exibir os menus de filtro visto / visto não"
 		DynamicZoom="Ícones com zoom dinâmico"
 		SelectionBox="Contorno dinâmico"
 		Theme="Tema:"
@@ -737,7 +735,7 @@
 		Reset="Reiniciar"
 		ResetAllCategories="Reiniciar Categorias"
 		ToPlayList="Adicionar à lista de reprodução"
-		SyncToCloud="Sincronizar isto na nuvem"
+		SyncToCloud="Sincronizar isto para Zappiti Cloud"
 		/>
   <Value Id="EncodeTask"
 		Header="Convertendo"
@@ -857,8 +855,8 @@
 		Email="Sua Conta:"
 		Connect="Entrar em"
 		Disconnect="Desligar"
-		SendToCloud="Ativar o backup automático na nuvem."
-		Refresh="Refrescar"
+		SendToCloud="Habilita a sincronização automática via Zappiti Cloud."
+		Refresh="Sincronizar tudo"
 		RefreshText="Use somente se algo é mal gasto anteriormente.[br]Essa ação permite que você sincronize todo o seu banco de dados.[br]Isso pode ser bastante longo, dependendo do tamanho do seu banco de dados."
 		Sync="Sincronização na nuvem:"
 		SyncText="Controle suas músicas e vídeos com seu tablet ou smartphone."
@@ -968,14 +966,5 @@
   <Value Id="CircularProgressBarPopup"
 		DoNotShow="Não mostre."
 		WaitMessage="Por favor aguarde enquanto a sincronização com nuvem de Zappiti.[br]Clique no ícone para obter mais informações."
-		/>
-  <Value Id="RefreshIpInterval"
-		OneHour="1 hora"
-		TwoHour="2 horas"
-		ThreeHour="3 horas"
-		FourHour="4 horas"
-		FiveHour="5 horas"
-		TwelveHour="12 horas"
-		OneDay="Todos os dias"
 		/>
 </Dictionary>
