@@ -6,29 +6,6 @@
   <Value Id="SettingsTabValidation"
 		Header="Potwierdz"
 		/>
-  <Value Id="Globalization_XML"
-		homeconfig="Konfiguracja"
-		homeinfo="Informacja"
-		configlm="Uruchom multimedia"
-		configipd="Adres IP"
-		searchmovies="Filmy"
-		searchactors="Aktorzy"
-		searchdirectors="Reżyser"
-		abctitle="Wszystkie moje pliki"
-		moviestitle="Filmy"
-		showstitle="Seria"
-		recentstitle="Ostatnie"
-		categtitle="Kategorie"
-		detailtitle="Szczegóły"
-		remoteplay="Odtwarzane na Dune ..."
-		remotestop="Brak odtwarzania na Dune ..."
-		remoteback="Przewiń do tyłu ..."
-		remotefwd="Przewiń do przodu ..."
-		/>
-  <Value Id="ExportTypes"
-		iPhone="iPhone"
-		Dune="Dune"
-		/>
   <Value Id="SettingsDefault"
 		Header="Standardowe"
 		/>
@@ -245,29 +222,20 @@
   <Value Id="EditCancel"
 		Content="Anuluj"
 		/>
-  <Value Id="MainExport"
-		ExportDune="Dune Export"
-		ExportITunes="ITunes Export"
-		Title="Eksportuj ..."
-		ExportZappitiPlayer="Zappiti Player Export"
-		/>
   <Value Id="MainEdit"
 		Content="Edytuj"
 		/>
   <Value Id="MainScrapDetails"
-		Content="Pobierz Szczegóły"
+		Content="Zidentyfikować nowe"
 		/>
   <Value Id="MainScrapPictures"
-		Content="Pobierz okładki"
+		Content="Zmiana zdjęć"
 		/>
   <Value Id="MainInfo"
 		Text="{0} Filmów, {1} Seriali, {2} Epizodów"
 		/>
   <Value Id="MainToScrap"
-		Text="Pobierz: {0} "
-		/>
-  <Value Id="MainToCleanUp"
-		Text="Wyczyść: {0}"
+		Text="{0} do identyfikacji"
 		/>
   <Value Id="DownloadingPictureTask"
 		Header="Pobieranie zdjęć"
@@ -411,11 +379,11 @@
 		/>
   <Value Id="SettingsTabFolders"
 		Header="Pliki"
-		AutoScanScrap="Monitor foldery i automatycznie analizuje nowe pliki"
-		ScrapOnStarWindows="Uruchom analizy plików do uruchomienia aplikacji"
+		AutoScanScrap="Monitor foldery i automatycznie identyfikować nowe pliki"
+		ScrapOnStarWindows="Uruchomienie identyfikacji plików do uruchomienia aplikacji"
 		Folders="Twoje Foldery:"
 		AddFolder="Nowy folder"
-		AnalyseTimer="Rozpocząć skanowanie w regularnych odstępach czasu"
+		AnalyseTimer="Rozpocząć identyfikacji w regularnych odstępach czasu"
 		Minutes="{0} min"
 		Hours="godziny {0}"
 		/>
@@ -425,7 +393,7 @@
 		Recents="Liczba dni, w celu uwzględnienia ostatnich:"
 		/>
   <Value Id="SettingsTabScrapers"
-		Header="Analiza"
+		Header="Identyfikacja"
 		MovieScraper="Filmy:"
 		MoviePictureScraper="Obrazy z filmów:"
 		TVShowScraper="Seria:"
@@ -465,14 +433,14 @@
 		/>
   <Value Id="WizardAddLocalLocation"
 		Name="Dodaj folder lokalny"
-		Description="- Wewnętrzny dysk twardy tego komputera [br] - Zewnętrzny dysk twardy podłączony do USB / eSATA tego komputera [br] - Dysk twardy w stacji dokującej podłączony do tego komputera przez port USB / eSATA [br] - Drive Dune podłączony slave USB do tego komputera"
+		Description="-Wewnętrzny dysk twardy komputera [br] - zewnętrzny twardy dysk podłączony przez USB / eSata do tego komputera [br] - HDD w dokowanie stacji podłączonych do komputera USB / eSata [br] - podłączone media player w Slave USB do tego komputera"
 		Header="Foldery lokalne"
-		Tips="Porady: Możesz podzielić się tymi plikami w sieci lokalnej lub mogą być dostępne bezpośrednio z Dune w przypadku podłaczenie urządzenia USB."
+		Tips=""
 		Folders="Dyski lokalne / urządzeń USB"
 		/>
   <Value Id="WizardAddNetworkLocation"
 		Name="Dodaj udostępniony folder sieciowy"
-		Description="- Wewnętrzny dysk twardy sieci Dune [br] - Zewnętrzny dysk z Diuny sieciowej [br] - serwer NAS [br] - Inne zdalny komputer w sieci [br] - udostępniony folder sieciowy [br] - Twardy dysk"
+		Description="-Wewnętrznego odtwarzacza multimedialnego HDD podłączony [br] - zewnętrzny dysk twardy podłączony sieci [br] - serwer NAS [br] - innego komputera zdalnego połączony z siecią sieci [br] - folderu współdzielonego [br] - dysk twardy"
 		Header="Udostępnione foldery sieciowe, NAS ..."
 		Tips="Porady: Możesz kupić USB, NAS, itp. na stronie HD LAND."
 		Folders="Miejsca w sieci"
@@ -502,17 +470,17 @@
 		/>
   <Value Id="WizardRewriteLocationUrl"
 		Header="Tworzenie ścieżki"
-		Body="Wybierz lokalizację tego folderu tak aby był do niego dostęp z dysku Dune HD: [br](podaj gdzie ten folder zostanie umieszczony na końcu)"
+		Body="Wybierz lokalizację folderu do niej dostęp z odtwarzacza: [br] (indiquez piosenkę où ce dokumentacji surowice miejsce àle końcowy) "
 		Back="&lt;&lt; Poprzedni"
 		Next="Następny &gt;&gt;"
-		ExternLabel="Na zewnętrznym dysku twardym podłączonym do Dune HD"
+		ExternLabel="Na zewnętrzny dysk twardy podłączony do odtwarzacza"
 		NetworkLabel="Na serwerze NAS, folderze sieciowym, udostępnionym dysku twardy wewnątrz / zewnątrz tego komputera"
 		UnknowLabel="Własne"
 		Close="Zamknij"
-		InternLabel="Na wewnętrznym dysku Dune HD"
+		InternLabel="Na odtwarzacz multimedialny dysk twardy"
 		/>
   <Value Id="LocalRewriteUrlEngineView"
-		Body="Ten folder muszi być udostępniany w sieci aby Dune miał do niego dostęp."
+		Body="Ten folder musi być udostępniana w sieci, tak, że można uzyskać dostęp do odtwarzacza."
 		IAccept="Zgadzam się na udostępnianie tego folderu."
 		/>
   <Value Id="SettingsHost"
@@ -650,8 +618,8 @@
 		Header="Inicjalizacja"
 		/>
   <Value Id="ScanTask"
-		Header="Analizy"
-		Analyse="Plik: {0}"
+		Header="Obecnie identyfikacji"
+		Analyse="Identyfikuje plik: {0}"
 		Scrap="Pobiera informacje: {0}"
 		Scan="Znaleźć nowe pliki"
 		/>
@@ -702,13 +670,6 @@
 		Next="Następny&gt;&gt;"
 		Close="Zamknij"
 		/>
-  <Value Id="WizardConfigureDuneExport"
-		Header="Konfiguracja Dune HD / Zappiti Player"
-		Body="Gdzie wyeksportować dane ?"
-		Back="&lt;&lt; Poprzedni"
-		Next="Następny &gt;&gt;"
-		Close="Zamknij"
-		/>
   <Value Id="WizardConfigureITunesExport"
 		Header="Konfiguracja iTunes (iPhone / iPad)"
 		Body="Gdzie wyeksportować dane?"
@@ -718,28 +679,15 @@
 		/>
   <Value Id="ContextMenu"
 		GroupTo="Grupy filmów..."
-		ChangePicture="Zmień Okładkę..."
+		ChangePicture="Zmiana obrazu..."
 		Delete="Usuń to"
 		Edit="Edycja ..."
 		Play="Uruchom ..."
-		Encode="Zakodować"
-		DeleteEncode="Usuń zakodowany plik"
 		Reset="Reset"
 		ResetAllCategories="Reset kategori"
-		ToPlayList="Dodaj do listy odtwarzania"
+		ToPlayList="Dodaj do listy odtwarzania..."
 		SyncToCloud="Synchronizowanie to do Zappiti Cloud"
-		/>
-  <Value Id="EncodeTask"
-		Header="Kodowanie"
-		/>
-  <Value Id="EncodingTask"
-		Header="Aktualny kodowanie"
-		/>
-  <Value Id="DownloadHandbrakeTask"
-		Header="Pobierz Handbrake"
-		/>
-  <Value Id="InstallHandbrakeTask"
-		Header="Instalacja Handbrake"
+		Scrap="Zidentyfikować nowe..."
 		/>
   <Value Id="SubtitleRules"
 		Never="Nigdy"
@@ -935,7 +883,7 @@
 		SearchMedias="Szukaj"
 		Loading="Ładowanie"
 		About="O Programie"
-		Analyse="Analizować"
+		Analyse="Identyfikacji"
 		/>
   <Value Id="EditPlaylist"
 		Header="Edycji listy odtwarzania"

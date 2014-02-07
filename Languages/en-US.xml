@@ -5,29 +5,6 @@
   <Value Id="SettingsTabValidation"
 		Header="Validation"
 		/>
-  <Value Id="Globalization_XML"
-		homeconfig="Configuration"
-		homeinfo="Information"
-		configlm="Launch Media"
-		configipd="IP address"
-		searchmovies="Movie"
-		searchactors="Cast"
-		searchdirectors="Director"
-		abctitle="All my files"
-		moviestitle="Movies"
-		showstitle="Tv show"
-		recentstitle="Recents"
-		categtitle="Categories"
-		detailtitle="Details"
-		remoteplay="Playing on your Dune..."
-		remotestop="No current playback on your Dune..."
-		remoteback="Rewind..."
-		remotefwd="Fast forward..."
-		/>
-  <Value Id="ExportTypes"
-		iPhone="iPhone"
-		Dune="Dune"
-		/>
   <Value Id="SettingsDefault"
 		Header="Default"
 		/>
@@ -244,29 +221,20 @@
   <Value Id="EditCancel"
 		Content="Cancel"
 		/>
-  <Value Id="MainExport"
-		ExportDune="Export Dune"
-		ExportITunes="Export iTunes"
-		Title="Exporting..."
-		ExportZappitiPlayer="Zappiti Player Export"
-		/>
   <Value Id="MainEdit"
 		Content="Edit"
 		/>
   <Value Id="MainScrapDetails"
-		Content="Scrape details"
+		Content="Identify new"
 		/>
   <Value Id="MainScrapPictures"
-		Content="Scrape pictures"
+		Content="Change images"
 		/>
   <Value Id="MainInfo"
 		Text="{0} Movies, {1} TV Shows, {2} Episodes"
 		/>
   <Value Id="MainToScrap"
-		Text="{0} to scrape"
-		/>
-  <Value Id="MainToCleanUp"
-		Text="{0} to clean up"
+		Text="{0} to identify"
 		/>
   <Value Id="DownloadingPictureTask"
 		Header="Downloading pictures"
@@ -410,11 +378,11 @@
 		/>
   <Value Id="SettingsTabFolders"
 		Header="Files"
-		AutoScanScrap="Monitor folders and automatically analyse new files"
-		ScrapOnStarWindows="Run analysis files to launch the application"
+		AutoScanScrap="Monitor folders and automatically identify the new files"
+		ScrapOnStarWindows="Launch the identification of files to launch the application"
 		Folders="Your folders:"
 		AddFolder="New folder"
-		AnalyseTimer="Start scanning at regular intervals"
+		AnalyseTimer="Start identification at regular intervals"
 		Minutes="{0} minutes"
 		Hours="{0} hours"
 		/>
@@ -424,7 +392,7 @@
 		Recents="Number of days to be considered recent:"
 		/>
   <Value Id="SettingsTabScrapers"
-		Header="Analysis"
+		Header="Identification"
 		MovieScraper="Movies:"
 		MoviePictureScraper="Images of movies:"
 		TVShowScraper="Series:"
@@ -464,14 +432,14 @@
 		/>
   <Value Id="WizardAddLocalLocation"
 		Name="Add a local folder"
-		Description="- Internal hard drive of this computer [br]- External hard drive connected to USB / eSata port of this computer [br]- Hard drive in a docking station connected to this computer via USB / eSata [br]- Dune Drive connected via USB Slave to this computer"
+		Description="-Internal hard drive of this computer [br] - external hard drive connected via USB / eSata to this computer [br] - HDD in a docking station connected to the computer in USB / eSata [br] - connected media player in USB Slave to this computer"
 		Header="Local Folders"
-		Tips="Tips: You can choose to share these files on your local network or you can access directly with Dune/Zappiti in the case of an USB device."
+		Tips=""
 		Folders="Local drives / USB Devices"
 		/>
   <Value Id="WizardAddNetworkLocation"
 		Name="Add a shared network folder"
-		Description="- Internal hard disk of a networked Dune/Zappiti [br]- External hard disk of a networked Dune/Zappiti [br]- NAS server [br]- Other remote computer on the network [br]- Network Shared Folder [br]- Network hard drives"
+		Description="-Internal of your multimedia player HDD connected [br]-external hard drive connected networked [br] - Server NAS [br] - another remote computer connected to the network [br] - shared network [br] folder - disk network hard"
 		Header="Shared network folders, NAS, ..."
 		Tips="Tips: You can buy USB hard drives, NAS, etc. on HD LAND website."
 		Folders="Network locations"
@@ -501,14 +469,14 @@
 		/>
   <Value Id="WizardRewriteLocationUrl"
 		Header="Path selection"
-		Body="Choose the location of this folder so that Dune/Zappiti Player can access it: [br](Please specify the full path)"
+		Body="Choose the location of this folder to access it from your Media Player: [br](indiquez où ce dossier sera placé àle final) "
 		Back="&lt;&lt; Previous"
 		Next="Next &gt;&gt;"
-		ExternLabel="On an external hard drive connected to the Dune / Zappiti"
+		ExternLabel="On an external hard drive connected to the media player"
 		NetworkLabel="On a NAS server, network folder or a shared hard drive of this PC"
 		UnknowLabel="Custom"
 		Close="Close"
-		InternLabel="On an internal hard disk of the Dune HD / Zappiti Player"
+		InternLabel="On an internal hard drive media player"
 		/>
   <Value Id="LocalRewriteUrlEngineView"
 		Body="This folder must be shared on your network to allow access for your Dune."
@@ -649,8 +617,8 @@
 		Header="Initialization"
 		/>
   <Value Id="ScanTask"
-		Header="Analysing"
-		Analyse="Parses the file: {0}"
+		Header="Currently identifying"
+		Analyse="Identifies the file: {0}"
 		Scrap="Retrieves information: {0}"
 		Scan="Find the new files"
 		/>
@@ -701,13 +669,6 @@
 		Next="Next &gt;&gt;"
 		Close="Close"
 		/>
-  <Value Id="WizardConfigureDuneExport"
-		Header="Media Player export configuration"
-		Body="Where to export your data and generate Zappiti access for your Dune HD / Zappiti Player? Zappiti will create a &quot;_Zappiti&quot; folder to access Zappiti from your Media Player (Dune HD or Zappiti Player)."
-		Back="&lt;&lt; Previous"
-		Next="Next &gt;&gt;"
-		Close="Close"
-		/>
   <Value Id="WizardConfigureITunesExport"
 		Header="Configuration for iTunes (iPhone / iPad)"
 		Body="Where to export your data?"
@@ -717,28 +678,15 @@
 		/>
   <Value Id="ContextMenu"
 		GroupTo="Group..."
-		ChangePicture="Change..."
+		ChangePicture="Change the image..."
 		Delete="Delete"
 		Edit="Edit..."
 		Play="Play..."
-		Encode="Encode"
-		DeleteEncode="Delete the encoded file"
 		Reset="Reset"
 		ResetAllCategories="Reset Categories"
-		ToPlayList="Add to playlist"
+		ToPlayList="Add to playlist..."
 		SyncToCloud="Synchronize this to Zappiti Cloud"
-		/>
-  <Value Id="EncodeTask"
-		Header="Encoding"
-		/>
-  <Value Id="EncodingTask"
-		Header="Current encoding"
-		/>
-  <Value Id="DownloadHandbrakeTask"
-		Header="Download Handbrake"
-		/>
-  <Value Id="InstallHandbrakeTask"
-		Header="Installing Handbrake"
+		Scrap="Identify new..."
 		/>
   <Value Id="SubtitleRules"
 		Never="Never"
@@ -934,7 +882,7 @@
 		SearchMedias="Search"
 		Loading="Loading"
 		About="About"
-		Analyse="Analyze"
+		Analyse="Identify"
 		/>
   <Value Id="EditPlaylist"
 		Header="Edit playlist"

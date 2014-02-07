@@ -5,29 +5,6 @@
   <Value Id="SettingsTabValidation"
 		Header="Bekräfta"
 		/>
-  <Value Id="Globalization_XML"
-		homeconfig="Konfiguration"
-		homeinfo="Information"
-		configlm="Starta Media"
-		configipd="IP-adress"
-		searchmovies="Film"
-		searchactors="Skådespelare"
-		searchdirectors="Regissör"
-		abctitle="Alla mina filer"
-		moviestitle="Filmer"
-		showstitle="Tv-serier"
-		recentstitle="Nyligen"
-		categtitle="Kategorier"
-		detailtitle="Detaljer"
-		remoteplay="Spelar på din Dune ..."
-		remotestop="Ingen aktuell uppspelning på din Dune ..."
-		remoteback="Bakåtspolning ..."
-		remotefwd="Snabbspolning framåt ..."
-		/>
-  <Value Id="ExportTypes"
-		iPhone="iPhone"
-		Dune="Dune"
-		/>
   <Value Id="SettingsDefault"
 		Header="Standard"
 		/>
@@ -244,29 +221,20 @@
   <Value Id="EditCancel"
 		Content="Avbryt"
 		/>
-  <Value Id="MainExport"
-		ExportDune="Exportera Dune"
-		ExportITunes="Exportera iTunes"
-		Title="Exporterar ..."
-		ExportZappitiPlayer="Exportera Zappiti Player"
-		/>
   <Value Id="MainEdit"
 		Content="Editera"
 		/>
   <Value Id="MainScrapDetails"
-		Content="Spårning av detaljer"
+		Content="Identifiera nya"
 		/>
   <Value Id="MainScrapPictures"
-		Content="Spårning av bilder"
+		Content="Ändra bilder"
 		/>
   <Value Id="MainInfo"
 		Text="{0} Film, {1} TV-Serier, {2} Episoder"
 		/>
   <Value Id="MainToScrap"
-		Text="{0} söker"
-		/>
-  <Value Id="MainToCleanUp"
-		Text="{0} att rensa upp"
+		Text="{0} för att identifiera"
 		/>
   <Value Id="DownloadingPictureTask"
 		Header="Hämtar bilder"
@@ -410,11 +378,11 @@
 		/>
   <Value Id="SettingsTabFolders"
 		Header="Filer"
-		AutoScanScrap="Övervaka mappar och automatiskt analysera nya filer"
-		ScrapOnStarWindows="Köra analysfiler för att starta programmet"
+		AutoScanScrap="Övervaka mappar och automatiskt identifiera nya filer"
+		ScrapOnStarWindows="Starta identifiering av filer för att starta programmet"
 		Folders="Din mapp :"
 		AddFolder="Ny mapp"
-		AnalyseTimer="Börja skanna med jämna mellanrum"
+		AnalyseTimer="Starta identifiering med jämna mellanrum"
 		Minutes="{0} minuter"
 		Hours="{0} timmar"
 		/>
@@ -424,7 +392,7 @@
 		Recents="Antal dagar för att ta hänsyn till den senaste:"
 		/>
   <Value Id="SettingsTabScrapers"
-		Header="Analys"
+		Header="Identifiering"
 		MovieScraper="Filmer:"
 		MoviePictureScraper="Filmbilder:"
 		TVShowScraper="Serier:"
@@ -464,14 +432,14 @@
 		/>
   <Value Id="WizardAddLocalLocation"
 		Name="Lägg till en lokal mapp"
-		Description="- Intern hårddisk på den här datorn [br] - Extern hårddisk ansluten till USB / eSATA på den här datorn [br] - Hårddisk i en dockningsstation ansluten till den här datorn via USB / eSATA [br] - Dune Drive ansluten via USB Slave till denna dator"
+		Description="-Intern hårddisk i datorn [br] - extern hårddisk ansluten via USB / eSata till den här datorn [br] - HDD i en dockningsstation station ansluten till datorn i USB / eSata [br] - ansluten mediaspelare i USB-Slave till den här datorn"
 		Header="Lokala Mappar"
-		Tips="Tips: Du kan välja att dela dessa filer i ditt lokala nätverk, eller så kan de nås direkt med en USB-enhet via Dune."
+		Tips=""
 		Folders="Lokala enheter / USB-enheter"
 		/>
   <Value Id="WizardAddNetworkLocation"
 		Name="Lägga till en delad nätverksmapp"
-		Description="- Intern hårddisk i nätverksanslutna Dune [br] - Extern hårddisk på nätverksanslutna Dune [br] - NAS server [br] - Andra fjärrdatorer på nätverket [br] - delad mapp i nätverket [br] - nätverkshårddisk"
+		Description="-Inre av din multimediaspelare hårddisk ansluten [br] - extern hårddisk ansluten nätverk [br] - Server NAS [br] - en annan fjärrdator ansluten till nätverket [br] - mappen delade nätverk [br] - disk nätverket hårt"
 		Header="Delade mappar på nätverket, NAS ..."
 		Tips="Tips: Du kan köpa USB, NAS, etc. på HD LAND´s hemsida."
 		Folders="Nätverksplatser"
@@ -501,17 +469,17 @@
 		/>
   <Value Id="WizardRewriteLocationUrl"
 		Header="Val av sökväg"
-		Body="Välj en plats för denna mapp, som Dune har tillgång till: [br](Specificera var mappen ska placeras.)"
+		Body="Välj plats för mappen åtkomst till den från din mediaspelare: [br] (indiquez où ce-dokumentation sera placé àle slutlig) "
 		Back="&lt;&lt; Föregående"
 		Next="Nästa &gt;&gt;"
-		ExternLabel="På en extern hårddisk ansluten till Dune HD"
+		ExternLabel="På en extern hårddisk ansluten till mediaspelaren"
 		NetworkLabel="På en NAS-server, nätverksmapp eller en delad hårddisk på denna dator"
 		UnknowLabel="Anpassad"
 		Close="Stäng"
-		InternLabel="På en intern hårddisk i Dune HD"
+		InternLabel="På en intern hårddisk media player"
 		/>
   <Value Id="LocalRewriteUrlEngineView"
-		Body="Denna mapp måste delas på nätverket för att tillåta åtkomst till din Dune."
+		Body="Den här mappen måste delas i nätverket så att din mediaspelare kan komma åt."
 		IAccept="Jag samtycker till att dela ut mappen."
 		/>
   <Value Id="SettingsHost"
@@ -649,8 +617,8 @@
 		Header="Initierar"
 		/>
   <Value Id="ScanTask"
-		Header="Analysera"
-		Analyse="Tolkar filen: {0}"
+		Header="För närvarande identifierar"
+		Analyse="Identifierar filen: {0}"
 		Scrap="Hämtar information: {0}"
 		Scan="Hitta nya filer"
 		/>
@@ -701,13 +669,6 @@
 		Next="Nästa &gt;&gt;"
 		Close="Stäng"
 		/>
-  <Value Id="WizardConfigureDuneExport"
-		Header="Media Player export konfiguration"
-		Body="Var hamnar din exporterade data som genererar Zappiti åtkomst för din Dune HD / Zappiti Player? Zappiti kommer att skapa en &quot;_Zappiti&quot; mapp för tillträde till Zappiti från din Media spelare (Dune HD eller Zappiti Player)."
-		Back="&lt;&lt; Föregående"
-		Next="Nästa &gt;&gt;"
-		Close="Stäng"
-		/>
   <Value Id="WizardConfigureITunesExport"
 		Header="Konfiguration för iTunes (iPhone / iPad)"
 		Body="Var du ska exportera data?"
@@ -717,28 +678,15 @@
 		/>
   <Value Id="ContextMenu"
 		GroupTo="Grupp..."
-		ChangePicture="Ändra..."
+		ChangePicture="Ändra bilden..."
 		Delete="Ta bort"
 		Edit="Ändra ..."
 		Play="Spela ..."
-		Encode="Koda"
-		DeleteEncode="Radera den kodade filen"
 		Reset="Återställ"
 		ResetAllCategories="Återställ Kategorier"
-		ToPlayList="Lägg till spellista"
+		ToPlayList="Lägg till spellista..."
 		SyncToCloud="Synkronisera detta till Zappiti Cloud"
-		/>
-  <Value Id="EncodeTask"
-		Header="Konvertera"
-		/>
-  <Value Id="EncodingTask"
-		Header="Aktuell kodning"
-		/>
-  <Value Id="DownloadHandbrakeTask"
-		Header="Ladda ner Handbrake"
-		/>
-  <Value Id="InstallHandbrakeTask"
-		Header="Installerar Handbrake"
+		Scrap="Identifiera nya..."
 		/>
   <Value Id="SubtitleRules"
 		Never="Aldrig"
@@ -934,7 +882,7 @@
 		SearchMedias="Sök"
 		Loading="Lastning"
 		About="Om"
-		Analyse="Analysera"
+		Analyse="Identifiera"
 		/>
   <Value Id="EditPlaylist"
 		Header="Redigera spellista"

@@ -6,29 +6,6 @@
   <Value Id="SettingsTabValidation"
 		Header="Potrditev"
 		/>
-  <Value Id="Globalization_XML"
-		homeconfig="Konfiguracija"
-		homeinfo="Informacija"
-		configlm="Pričetek multimedie"
-		configipd="IP naslov"
-		searchmovies="Film"
-		searchactors="Igralci"
-		searchdirectors="Režiser"
-		abctitle="Vse moje datoteke"
-		moviestitle="Filmi"
-		showstitle="Tv oddaje"
-		recentstitle="Zadnje"
-		categtitle="Kategorije"
-		detailtitle="Detajli"
-		remoteplay="Predvaja na tvoji Dune/Zappiti..."
-		remotestop="Ničesar ne predvaja na tvoji Dune/Zappiti..."
-		remoteback="Nazaj ..."
-		remotefwd="Hitro naprej ..."
-		/>
-  <Value Id="ExportTypes"
-		iPhone="iPhone"
-		Dune="Dune"
-		/>
   <Value Id="SettingsDefault"
 		Header="Privzeto"
 		/>
@@ -245,29 +222,20 @@
   <Value Id="EditCancel"
 		Content="Prekliči"
 		/>
-  <Value Id="MainExport"
-		ExportDune="Izvozi na Dune"
-		ExportITunes="Izvozi na iTunes"
-		Title="Izvažanje ..."
-		ExportZappitiPlayer="Izvozi na Zappiti Player"
-		/>
   <Value Id="MainEdit"
 		Content="Uredi"
 		/>
   <Value Id="MainScrapDetails"
-		Content="Scrape podatki"
+		Content="Opredeliti nove"
 		/>
   <Value Id="MainScrapPictures"
-		Content="Scrape slike"
+		Content="Spreminjanje slike"
 		/>
   <Value Id="MainInfo"
 		Text="{0} Film, {1} TV Oddaje, {2} Epizode"
 		/>
   <Value Id="MainToScrap"
-		Text="{0} to scrape"
-		/>
-  <Value Id="MainToCleanUp"
-		Text="{0} to clean up"
+		Text="{0} za identifikacijo"
 		/>
   <Value Id="DownloadingPictureTask"
 		Header="Nalaganje slik"
@@ -411,11 +379,11 @@
 		/>
   <Value Id="SettingsTabFolders"
 		Header="Datoteke"
-		AutoScanScrap="Spremljanje map in samodejno analizirati nove datoteke"
-		ScrapOnStarWindows="Teči analitične datoteke splavitev uporaba"
+		AutoScanScrap="Spremljanje map in samodejno prepoznavanje novih datotek"
+		ScrapOnStarWindows="Začetek identifikacija datotek splavitev uporaba"
 		Folders="Vaše mape :"
 		AddFolder="Nova mapa"
-		AnalyseTimer="Začetek ki se more skandirati v rednih časovnih presledkih"
+		AnalyseTimer="Začetka identifikacije v rednih časovnih presledkih"
 		Minutes="{0} minut"
 		Hours="{0} ur"
 		/>
@@ -425,7 +393,7 @@
 		Recents="Število dni, da se upošteva nedavni:"
 		/>
   <Value Id="SettingsTabScrapers"
-		Header="Analiza"
+		Header="Identifikacija"
 		MovieScraper="Filmi:"
 		MoviePictureScraper="Slike Filmov:"
 		TVShowScraper="Serije:"
@@ -465,14 +433,14 @@
 		/>
   <Value Id="WizardAddLocalLocation"
 		Name="Dodaj lokalno mapo"
-		Description="- Notranji trdi disk na tem računalniku [br] - Zunanji trdi disk priključen na USB / eSata na tem računalniku [br] - Trdi disk v priklopni postaji priključen na tem računalniku preko USB / eSATA [br] - Dune Drive priključen na USB Slave na tem računalniku"
+		Description="-Notranji trdi disk tega računalnika [br] - zunanji trdi disk priključen preko USB / eSata računalnik [br] - HDD v a nabrežje postaja, priključena na računalnik v USB / eSata [br] - povezan množična sredstva obveščanja igralka v USB suženj v ta računalnik"
 		Header="Lokalne mape"
-		Tips="Nasvet: Lahko se odločite in delite te datoteke v vašem lokalnem omrežju ali dostopate neposredno do podatkov z Dune do USB naprave."
+		Tips=""
 		Folders="Lokalni pogoni / USB naprave"
 		/>
   <Value Id="WizardAddNetworkLocation"
 		Name="Dodaj skupno mapo v omrežju"
-		Description="- Notranji trdi disk v omrežju Dune/Zappiti [br] - Zunanji trdi disk v omrežju Dune/Zappiti [br] - NAS strežnik [br] - Ostali oddaljeni računalnik v omrežju [br] - Omrežna mapa v skupni rabi [br] - mrežni trdi disk"
+		Description="-Notranji multimedijski predvajalnik, HDD povezan [br] - zunanji trdi disk priključen mrežno [br] - strežnik NAS [br] - še eden zakoten računalo povezan v omrežje [br] - [br] omrežni mapi - disk omrežje težko"
 		Header="Omrežne mape v skupni rabi, NAS ..."
 		Tips="Nasvet: Lahko kupite USB, NAS, itd. na spletu HD LAND in ARCHUS.SI."
 		Folders="Omrežna mesta"
@@ -502,17 +470,17 @@
 		/>
   <Value Id="WizardRewriteLocationUrl"
 		Header="Kreiraj pot"
-		Body="Izberite lokacijo za to mapo in dostop do vašega pogona Dune HD: [br](določite kje se bo ta mapa nahajala ob zaključku)"
+		Body="Izberite mesto mape v postranski s predvajalnikom predstavnosti: [br] (indiquez où ce dokumentacije sera placé àle konč.) "
 		Back="&lt;&lt; Prejšnja"
 		Next="Sledi &gt;&gt;"
-		ExternLabel="Na zunanji trdi disk priključen na Dune HD/Zappiti"
+		ExternLabel="Na zunanji trdi disk priključen množična sredstva obveščanja igralka"
 		NetworkLabel="Na NAS strežnik, omrežno mapo, notranji trdi disk / izven računalnika"
 		UnknowLabel="Po meri"
 		Close="Zapri"
-		InternLabel="Na notranji trdi disk priključen na Dune HD/Zappiti"
+		InternLabel="Na notranjem trdem disku množična sredstva obveščanja igralka"
 		/>
   <Value Id="LocalRewriteUrlEngineView"
-		Body="Ta mapa mora biti v skupni rabi omrežja za dostop do vašega predvajalnika Dune."
+		Body="To mapo morate skupno rabo v omrežju, tako da lahko do vaš množična sredstva obveščanja igralka."
 		IAccept="Strinjam se z delitvijo te mape."
 		/>
   <Value Id="SettingsHost"
@@ -650,8 +618,8 @@
 		Header="Inicializacija"
 		/>
   <Value Id="ScanTask"
-		Header="Analiziranje"
-		Analyse="Razčleni datoteko: {0}"
+		Header="Trenutno opredeljuje"
+		Analyse="Identificira datoteko: {0}"
 		Scrap="Pridobiva informacije: {0}"
 		Scan="Odkriti nov pila"
 		/>
@@ -702,13 +670,6 @@
 		Next="Sledi &gt;&gt;"
 		Close="Zapri"
 		/>
-  <Value Id="WizardConfigureDuneExport"
-		Header="Konfiguracija Dune HD / Zappiti Player"
-		Body="Kam naj izvozi vaše podatke?"
-		Back="&lt;&lt;Prejšnja"
-		Next="Sledi &gt;&gt;"
-		Close="Zapri"
-		/>
   <Value Id="WizardConfigureITunesExport"
 		Header="Konfiguracija iTunes (iPhone / iPad)"
 		Body="Kam naj izvozi vaše podatke?"
@@ -718,28 +679,15 @@
 		/>
   <Value Id="ContextMenu"
 		GroupTo="Skupina..."
-		ChangePicture="Spremeni..."
+		ChangePicture="Spremeniti sliko..."
 		Delete="Pobriši"
 		Edit="Uredi ..."
 		Play="Predvajaj ..."
-		Encode="Kodiraj"
-		DeleteEncode="Briši kodirano datoteko"
 		Reset="Ponastavi"
 		ResetAllCategories="Ponastavi Kategorije"
-		ToPlayList="Dodaj na seznam predvajanja"
+		ToPlayList="Dodaj na seznam predvajanja..."
 		SyncToCloud="Sinhronizirajte to za Zappiti Cloud"
-		/>
-  <Value Id="EncodeTask"
-		Header="Kodiranje"
-		/>
-  <Value Id="EncodingTask"
-		Header="Trenutno kodiranje"
-		/>
-  <Value Id="DownloadHandbrakeTask"
-		Header="Prenesi Handbrake"
-		/>
-  <Value Id="InstallHandbrakeTask"
-		Header="Namestitev Handbrake"
+		Scrap="Opredeliti nove..."
 		/>
   <Value Id="SubtitleRules"
 		Never="Nikoli"
@@ -935,7 +883,7 @@
 		SearchMedias="Išči"
 		Loading="Nalaganje"
 		About="Informacije"
-		Analyse="Analizirati"
+		Analyse="Prepoznavanje"
 		/>
   <Value Id="EditPlaylist"
 		Header="Urejanje seznama predvajanja"

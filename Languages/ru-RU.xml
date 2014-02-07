@@ -6,29 +6,6 @@
   <Value Id="SettingsTabValidation"
 		Header="Проверка"
 		/>
-  <Value Id="Globalization_XML"
-		homeconfig="Конфигурация"
-		homeinfo="Информация"
-		configlm="Запуск фильма"
-		configipd="IP-адрес"
-		searchmovies="Фильмы"
-		searchactors="Актёры"
-		searchdirectors="Режисёры"
-		abctitle="Все мои файлы"
-		moviestitle="Фильмы"
-		showstitle="Сериалы"
-		recentstitle="Недавние"
-		categtitle="Категории"
-		detailtitle="Подробно"
-		remoteplay="Воспроизвести на Dune ..."
-		remotestop="Dune сейчас ничего не воспроизводит ..."
-		remoteback="Перемотка назад..."
-		remotefwd="Быстрая перемотка вперед ..."
-		/>
-  <Value Id="ExportTypes"
-		iPhone="iPhone"
-		Dune="Dune"
-		/>
   <Value Id="SettingsDefault"
 		Header="Основные настройки"
 		/>
@@ -245,29 +222,20 @@
   <Value Id="EditCancel"
 		Content="Отмена"
 		/>
-  <Value Id="MainExport"
-		ExportDune="Dune"
-		ExportITunes="iTunes"
-		Title="Экспорт ..."
-		ExportZappitiPlayer="Zappiti Player"
-		/>
   <Value Id="MainEdit"
 		Content="Описание"
 		/>
   <Value Id="MainScrapDetails"
-		Content="Привязка данных"
+		Content="Выявлять новые"
 		/>
   <Value Id="MainScrapPictures"
-		Content="Картинки"
+		Content="Изменение изображений"
 		/>
   <Value Id="MainInfo"
 		Text="Фильмов: {0}, Сериалов: {1}, Эпизодов: {2}"
 		/>
   <Value Id="MainToScrap"
-		Text="Найдено: {0} "
-		/>
-  <Value Id="MainToCleanUp"
-		Text="Удалить: {0}"
+		Text="{0} для идентификации"
 		/>
   <Value Id="DownloadingPictureTask"
 		Header="Загрузка изображений"
@@ -411,11 +379,11 @@
 		/>
   <Value Id="SettingsTabFolders"
 		Header="Папки и Файлы"
-		AutoScanScrap="Контролировать папки и автоматически анализировать новые файлы"
-		ScrapOnStarWindows="Запуск анализа файлов для запуска приложения"
+		AutoScanScrap="Мониторинг папок и автоматически определить новые файлы"
+		ScrapOnStarWindows="Запуск идентификации файлов для запуска приложения"
 		Folders="Каталоги с фильмами и сериалами:"
 		AddFolder="Добавить папку"
-		AnalyseTimer="Начать сканирование через регулярные интервалы"
+		AnalyseTimer="Начало идентификации на регулярной основе"
 		Minutes="{0} минут"
 		Hours="{0} часов"
 		/>
@@ -425,7 +393,7 @@
 		Recents="Число дней показа в Последнее:"
 		/>
   <Value Id="SettingsTabScrapers"
-		Header="Анализ"
+		Header="Идентификация"
 		MovieScraper="Фильмы:"
 		MoviePictureScraper="Изображения фильмов:"
 		TVShowScraper="Сериалы:"
@@ -472,14 +440,14 @@
 		/>
   <Value Id="WizardAddLocalLocation"
 		Name="Добавить локальную папку"
-		Description="Жесткий диск на этом компьютере"
+		Description="-Внутренний жесткий диск этого компьютера [br] - внешний жесткий диск подключен через USB / eSata к компьютеру [br] - HDD в док-станции подключен к компьютеру в USB / eSata [br] - подключен проигрыватель USB Slave на этот компьютер"
 		Header="Локальные папки"
-		Tips="Советы: локальные папки, которые вы выбираете будут использованы в вашей локальной сети."
+		Tips=""
 		Folders="Локальные диски"
 		/>
   <Value Id="WizardAddNetworkLocation"
 		Name="Добавить сетевое расположение"
-		Description="Удаленные устройства, NAS ..."
+		Description="-Внутренняя проигрывателя мультимедиа HDD подключен [br] - внешний жесткий диск подключен сетевой [br] - NAS сервера [br] - другой удаленный компьютер подключен к сети [br] - общий сетевой [br] папка - диск сети жесткий"
 		Header="Общие сетевые папки, NAS ..."
 		Tips="Советы: Вы можете приобрести USB, NAS, и т.д. на сайте HD LAND."
 		Folders="Сетевые диски"
@@ -509,17 +477,17 @@
 		/>
   <Value Id="WizardRewriteLocationUrl"
 		Header="Изменение URL"
-		Body="Расскажите, как получить доступ к этой папке с вашего Dune:"
+		Body="Выберите расположение этой папки для доступа к нему от медиа-проигрывателя: [br] (indiquez où досье ce sera хамства àle финал) "
 		Back="&lt;&lt; Назад"
 		Next="Вперёд &gt;&gt;"
-		ExternLabel="Внешнее устройство"
+		ExternLabel="На внешний жесткий диск подключен к медиа-проигрыватель"
 		NetworkLabel="Сетевой диск"
 		UnknowLabel="Персонализированный"
 		Close="Закрыть"
-		InternLabel="Внутренний жесткий диск Dune"
+		InternLabel="На внутренний жесткий диск-медиаплеер"
 		/>
   <Value Id="LocalRewriteUrlEngineView"
-		Body="Эта папка должна быть доступна в сети, чтобы к ней могла получить доступ Dune."
+		Body="Эта папка должна разделяться на сети так, что можно получить доступ к ваш медиа-плеер."
 		IAccept="Я согласен с тем, чтобы открыть доступ к этой папке."
 		/>
   <Value Id="SettingsHost"
@@ -651,8 +619,8 @@
 		Header="Инициализация"
 		/>
   <Value Id="ScanTask"
-		Header="Анализ"
-		Analyse="Анализирует файл: {0}"
+		Header="В настоящее время определение"
+		Analyse="Идентифицирует файл: {0}"
 		Scrap="Извлекает сведения: {0}"
 		Scan="Найти новых файлов"
 		/>
@@ -700,13 +668,6 @@
 		Next="Продолжить &gt;&gt;"
 		Close="Закрыть"
 		/>
-  <Value Id="WizardConfigureDuneExport"
-		Header="Конфигурация Dune HD / Zappiti Player"
-		Body="Куда делать экспорт вашей библиотеки?"
-		Back="&lt;&lt; Назад"
-		Next="Продолжить &gt;&gt;"
-		Close="Закрыть"
-		/>
   <Value Id="WizardConfigureITunesExport"
 		Header="Конфигурация для ITunes (iPhone / iPad)"
 		Body="Куда делать экспорт вашей библиотеки?"
@@ -716,28 +677,15 @@
 		/>
   <Value Id="ContextMenu"
 		GroupTo="Группировка..."
-		ChangePicture="Обложка..."
+		ChangePicture="Измените изображение..."
 		Delete="Удалить"
 		Edit="Данные"
 		Play="Запуск ..."
-		Encode="Кодировать"
-		DeleteEncode="Удалить подготовленный файл"
 		Reset="Сброс"
 		ResetAllCategories="Установки по умолчанию"
-		ToPlayList="Добавить в плейлист"
+		ToPlayList="Добавить в плейлист..."
 		SyncToCloud="Синхронизировать это Zappiti Cloud"
-		/>
-  <Value Id="EncodeTask"
-		Header="Кодирование"
-		/>
-  <Value Id="EncodingTask"
-		Header="Текущая кодировка"
-		/>
-  <Value Id="DownloadHandbrakeTask"
-		Header="Скачать Handbrake"
-		/>
-  <Value Id="InstallHandbrakeTask"
-		Header="Установка Handbrake"
+		Scrap="Определить новые..."
 		/>
   <Value Id="SubtitleRules"
 		Never="Никогда"
@@ -933,7 +881,7 @@
 		SearchMedias="Поиск"
 		Loading="Загрузка"
 		About="О проекте"
-		Analyse="Анализировать"
+		Analyse="Определить"
 		/>
   <Value Id="EditPlaylist"
 		Header="Редактирование списка воспроизведения"

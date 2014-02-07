@@ -6,29 +6,6 @@
   <Value Id="SettingsTabValidation"
 		Header="Convalida"
 		/>
-  <Value Id="Globalization_XML"
-		homeconfig="Configurazione"
-		homeinfo="Informazioni"
-		configlm="Lancia media"
-		configipd="Indirizzo IP"
-		searchmovies="Film"
-		searchactors="Attori"
-		searchdirectors="Regista"
-		abctitle="Tutti i miei file"
-		moviestitle="Film"
-		showstitle="Serie TV"
-		recentstitle="Recenti"
-		categtitle="Categorie"
-		detailtitle="Dettagli"
-		remoteplay="In esecuzione sul tuo Dune/Zappiti..."
-		remotestop="Nessuna riproduzione in corso sul tuo Dune/Zappiti..."
-		remoteback="Rewind..."
-		remotefwd="Avanti veloce..."
-		/>
-  <Value Id="ExportTypes"
-		iPhone="iPhone"
-		Dune="Dune"
-		/>
   <Value Id="SettingsDefault"
 		Header="Default"
 		/>
@@ -245,29 +222,20 @@
   <Value Id="EditCancel"
 		Content="Annulla"
 		/>
-  <Value Id="MainExport"
-		ExportDune="Esportazione Dune"
-		ExportITunes="Esportazione iTunes"
-		Title="Esportazione in corso..."
-		ExportZappitiPlayer="Esportazione Zappiti Player"
-		/>
   <Value Id="MainEdit"
 		Content="Modifica"
 		/>
   <Value Id="MainScrapDetails"
-		Content="Scansiona dettagli"
+		Content="Identificare nuovi"
 		/>
   <Value Id="MainScrapPictures"
-		Content="Visualizza immagini"
+		Content="Modificare immagini"
 		/>
   <Value Id="MainInfo"
 		Text="{0} Film, {1} Serie TV, {2} Episodi"
 		/>
   <Value Id="MainToScrap"
-		Text="{0} da scansionare"
-		/>
-  <Value Id="MainToCleanUp"
-		Text="{0} da eliminare"
+		Text="{0} per identificare"
 		/>
   <Value Id="DownloadingPictureTask"
 		Header="Scaricamento immagini"
@@ -411,11 +379,11 @@
 		/>
   <Value Id="SettingsTabFolders"
 		Header="Files"
-		AutoScanScrap="Cartelle di monitorare e analizzare automaticamente i nuovi file"
-		ScrapOnStarWindows="Eseguire analisi file per avviare l'applicazione"
+		AutoScanScrap="Monitorare cartelle e identificare automaticamente i nuovi file"
+		ScrapOnStarWindows="Lanciare l'identificazione dei file per avviare l'applicazione"
 		Folders="Cartelle:"
 		AddFolder="Nuova Cartella"
-		AnalyseTimer="Avviare la scansione ad intervalli regolari"
+		AnalyseTimer="Identificazione di inizio ad intervalli regolari"
 		Minutes="{0} minuti"
 		Hours="ore {0}"
 		/>
@@ -425,7 +393,7 @@
 		Recents="Numero di giorni per essere considerato come recente:"
 		/>
   <Value Id="SettingsTabScrapers"
-		Header="Analisi"
+		Header="Identificazione"
 		MovieScraper="Film:"
 		MoviePictureScraper="Immagini dei film:"
 		TVShowScraper="Serie TV:"
@@ -465,14 +433,14 @@
 		/>
   <Value Id="WizardAddLocalLocation"
 		Name="Aggiungi una cartella locale"
-		Description="- Disco rigido interno di questo computer [br]- Disco rigido esterno collegato alla porta USB / eSata di questo computer [br]- Hard disk in una docking station collegata al computer via USB / eSata [br]- Drive Dune collegato tramite Slave USB a questo computer"
+		Description="-Disco rigido di questo computer [br] - esterno hard disk collegato via USB / eSata a questo computer [br] - HDD in una docking station collegata al computer in USB / eSata [br] - collegato lettore multimediale in Slave USB al computer"
 		Header="Cartelle locali"
-		Tips="Suggerimento: È possibile scegliere di condividere i file sulla rete locale oppure accedere direttamente con Dune/Zappiti se si tratta di un dispositivo USB."
+		Tips=""
 		Folders="Unità locali / Dispositivi USB"
 		/>
   <Value Id="WizardAddNetworkLocation"
 		Name="Aggiungi una cartella di rete condivisa"
-		Description="- Hard disk interno di un dispositivo Dune/Zappiti in rete [br]- Hard disk esterno di un dispositivo Dune/Zappiti in rete [br]- NAS server [br]- Altri computer remoti sulla rete [br]- Cartella di rete condivisa [br]- Hard Drive di rete"
+		Description="-Interno del lettore multimedia HDD collegato [br] - disco rigido esterno collegato in rete [br] - Server NAS [br] - un altro computer remoto collegato alla rete [br] - cartella di rete condivisa [br] - disco rete rigido"
 		Header="Cartelle di rete condivise, NAS, ..."
 		Tips="Suggerimenti: puoi acquistare hard disk USB, NAS e altro sul sito di HD LAND."
 		Folders="Percorsi di rete"
@@ -502,17 +470,17 @@
 		/>
   <Value Id="WizardRewriteLocationUrl"
 		Header="Creazione del percorso"
-		Body="Scrivere il percorso completo della cartella per accedervi tramite il tuo Dune/Zappiti: [br](ad es. nfs://192.168.1.2:/volume1/movies)"
+		Body="Scegliere il percorso di questa cartella per accedervi da lettore multimediale: [br] (indiquez où ce dossier sieri placé àle finale) "
 		Back="&lt;&lt; Indietro"
 		Next="Avanti &gt;&gt;"
-		ExternLabel="Su un disco rigido esterno collegato al Dune / Zappiti"
+		ExternLabel="Su un hard disk esterno collegato al media player"
 		NetworkLabel="Su un server NAS, una cartella di rete o un disco rigido interno / esterno condiviso di questo computer"
 		UnknowLabel="Altro / Personalizzato"
 		Close="Chiudi"
-		InternLabel="Su un disco rigido interno all'unità Dune HD / Zappiti Player"
+		InternLabel="Un media player hard drive interno"
 		/>
   <Value Id="LocalRewriteUrlEngineView"
-		Body="Questa cartella deve essere condivisa in rete per accedervi tramite dispositivo Dune."
+		Body="Questa cartella deve essere condivisa in rete che lettore multimediale può accedere."
 		IAccept="Sono d'accordo nel condividere questa cartella."
 		/>
   <Value Id="SettingsHost"
@@ -650,8 +618,8 @@
 		Header="Inizializzazione"
 		/>
   <Value Id="ScanTask"
-		Header="Analizzando"
-		Analyse="Analizza il file: {0}"
+		Header="Attualmente identificare"
+		Analyse="Identifica il file: {0}"
 		Scrap="Recupera informazioni: {0}"
 		Scan="Trovare i nuovi file"
 		/>
@@ -702,13 +670,6 @@
 		Next="Avanti &gt;&gt;"
 		Close="Chiudi"
 		/>
-  <Value Id="WizardConfigureDuneExport"
-		Header="Configurazione dell'esportazione al lettore multimediale Dune / Zappiti"
-		Body="Dove esportare i tuoi dati e generare l'accesso a Zappiti per il tuo lettore Dune/Zappiti? Verrà creata una cartella &quot;_Zappiti&quot; per accedere a Zappiti dal tuo lettore."
-		Back="&lt;&lt; Indietro"
-		Next="Avanti &gt;&gt;"
-		Close="Chiudi"
-		/>
   <Value Id="WizardConfigureITunesExport"
 		Header="Configurazione per iTunes (iPhone / iPad)"
 		Body="Dove posso esportare i tuoi dati?"
@@ -718,28 +679,15 @@
 		/>
   <Value Id="ContextMenu"
 		GroupTo="Gruppo..."
-		ChangePicture="Cambia..."
+		ChangePicture="Cambiare l'immagine..."
 		Delete="Elimina"
 		Edit="Modifica..."
 		Play="Avvia..."
-		Encode="Codifica"
-		DeleteEncode="Elimina il file codificato"
 		Reset="Reset"
 		ResetAllCategories="Reset Categorie"
-		ToPlayList="Aggiungi alla playlist"
+		ToPlayList="Aggiungi alla playlist..."
 		SyncToCloud="Sincronizzare questo cloud Zappiti Cloud"
-		/>
-  <Value Id="EncodeTask"
-		Header="Codifica in corso"
-		/>
-  <Value Id="EncodingTask"
-		Header="Codifica corrente"
-		/>
-  <Value Id="DownloadHandbrakeTask"
-		Header="Scarica Handbrake"
-		/>
-  <Value Id="InstallHandbrakeTask"
-		Header="Installazione Handbrake"
+		Scrap="Identificare nuovi..."
 		/>
   <Value Id="SubtitleRules"
 		Never="Mai"
@@ -935,7 +883,7 @@
 		SearchMedias="Cerca"
 		Loading="Caricamento"
 		About="Informazioni"
-		Analyse="Analizzare"
+		Analyse="Identificare"
 		/>
   <Value Id="EditPlaylist"
 		Header="Edit playlist"

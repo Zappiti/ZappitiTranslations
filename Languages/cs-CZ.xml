@@ -176,29 +176,20 @@
   <Value Id="EditCancel"
 		Content="Zrušit"
 		/>
-  <Value Id="MainExport"
-		ExportDune="Export Dune"
-		ExportITunes="Export iTunes"
-		Title="Export probíhá ..."
-		ExportZappitiPlayer="Export Zappiti Player"
-		/>
   <Value Id="MainEdit"
 		Content="Upravit"
 		/>
   <Value Id="MainScrapDetails"
-		Content="Upravit popis"
+		Content="Identifikovat nové"
 		/>
   <Value Id="MainScrapPictures"
-		Content="Upravit obrázek"
+		Content="Změnit obrázky"
 		/>
   <Value Id="MainInfo"
 		Text="{0} Filmy, {1} Série,  {2} Epizody"
 		/>
   <Value Id="MainToScrap"
-		Text="{0} k úpravě"
-		/>
-  <Value Id="MainToCleanUp"
-		Text="{0} k vymazání"
+		Text="{0} k identifikaci"
 		/>
   <Value Id="DownloadingPictureTask"
 		Header="Stahuji obrázek"
@@ -342,11 +333,11 @@
 		/>
   <Value Id="SettingsTabFolders"
 		Header="Soubor"
-		AutoScanScrap="Sledovat složky a automaticky analyzovat nové soubory"
-		ScrapOnStarWindows="Spustit analýzu souborů spusťte aplikaci"
+		AutoScanScrap="Sledování složek a automaticky identifikovat nové soubory"
+		ScrapOnStarWindows="Identifikace souborů spusťte aplikaci spustit"
 		Folders="Vaše mediální soubory:"
 		AddFolder="Nová složka"
-		AnalyseTimer="Zahájit prohledávání v pravidelných intervalech"
+		AnalyseTimer="Začít identifikovat v pravidelných intervalech"
 		Minutes="{0} minut"
 		Hours="{0} hodin"
 		/>
@@ -356,7 +347,7 @@
 		Recents="Počet dnů vzít v úvahu nedávné:"
 		/>
   <Value Id="SettingsTabScrapers"
-		Header="Analýza"
+		Header="Identifikace"
 		MovieScraper="Filmy:"
 		MoviePictureScraper="Film obrázky:"
 		TVShowScraper="Série:"
@@ -385,29 +376,6 @@
 		/>
   <Value Id="SettingsTabValidation"
 		Header="Validation"
-		/>
-  <Value Id="Globalization_XML"
-		homeconfig="Konfigurace"
-		homeinfo="Informace"
-		configlm="Spusťte Media"
-		configipd="IP adresa"
-		searchmovies="Film"
-		searchactors="Herec"
-		searchdirectors="Ředitel"
-		abctitle="Všechny mé soubory"
-		moviestitle="Filmy"
-		showstitle="Série"
-		recentstitle="Nedávný"
-		categtitle="Kategorie"
-		detailtitle="Podrobnosti"
-		remoteplay="Doba na Duně ..."
-		remotestop="No běží na čtení Duny ..."
-		remoteback="Rewind ..."
-		remotefwd="Rychlý posun vpřed ..."
-		/>
-  <Value Id="ExportTypes"
-		iPhone="iPhone"
-		Dune="Dune"
 		/>
   <Value Id="SettingsDefault"
 		Header="Vada"
@@ -467,14 +435,14 @@
 		/>
   <Value Id="WizardAddLocalLocation"
 		Name="Přidat lokální složky"
-		Description="- Vnitřní pevný disk tohoto počítače [br] - Externí pevný disk připojený přes USB / eSATA tento počítač [br] - Pevný disk v dokovací stanici připojen k počítači přes USB / eSATA [br] - Dune přehrávač připojen "
+		Description="-Interní pevný disk tohoto počítače [br] - externí pevný disk připojený přes USB / eSata do tohoto počítače [br] - HDD v dokovací stanici připojen k počítači do USB / eSata [br] - připojený přehrávač v USB Slave k tomuto počítači"
 		Header="Místní složky, USB"
-		Tips="Tipy: Můžete si vybrat ke sdílení těchto složek ve vaší místní síti, nebo k nim přistupovat přímo Dune, pokud je zařízení USB."
+		Tips=""
 		Folders="Místní disky / USB Devices"
 		/>
   <Value Id="WizardAddNetworkLocation"
 		Name="Přidat sdílenou síťovou složku"
-		Description="- Vnitřní pevný disk na síti Duny [br] - Externí pevný disk Dune síti [br] - NAS [br] - Ostatní vzdáleného počítače v síti [br] - sdílené složky sítě [br] "
+		Description="-Vnitřní přehrávače multimediální pevný disk připojen [br] - externí pevný disk připojený síťový [br] - Server NAS [br] - jiný vzdálený počítač připojený k síti [br] - složky sdílené sítě [br] - disku síti tvrdé"
 		Header="Sdílené síťové složky, NAS ..."
 		Tips="Tipy: Můžete si koupit usb zařízení, NAS, atd. na místě HD LAND."
 		Folders="Umístění v síti"
@@ -504,17 +472,17 @@
 		/>
   <Value Id="WizardRewriteLocationUrl"
 		Header="Tvorba cesta"
-		Body="Vyberte umístění této složky přístup z DUNE HD přehrávače: [br] (určit, kde bude tento soubor umístěn v konečném znění)"
+		Body="Zvolte umístění této složky pro přístup z přehrávače médií: [br] (indiquez où ce dokumentace sera placé àle final) "
 		Back="&lt;&lt; Předchozí"
 		Next="Další &gt;&gt;"
-		ExternLabel="Na externí pevný disk připojený k Dune HD"
+		ExternLabel="Na externí pevný disk připojený k programu media player"
 		NetworkLabel="Na NAS serveru, síťové složky, pevný disk interní / externí PC, které"
 		UnknowLabel="Zvyk"
 		Close="Zavřít"
-		InternLabel="Na interní pevný disk Dune HD"
+		InternLabel="Na interní pevný disk media player"
 		/>
   <Value Id="LocalRewriteUrlEngineView"
-		Body="Tato složka musí být sdílena v síti, které mohou přistupovat k vaší Dunu."
+		Body="Tato složka musí být sdílena v síti, aby přístup přehrávače médií."
 		IAccept="Souhlasím sdílet tuto složku."
 		/>
   <Value Id="SettingsHost"
@@ -652,8 +620,8 @@
 		Header="Inicializace"
 		/>
   <Value Id="ScanTask"
-		Header="Analýzy"
-		Analyse="Analyzuje soubor: {0}"
+		Header="V současné době zjišťují"
+		Analyse="Identifikuje soubor: {0}"
 		Scrap="Načte informace: {0}"
 		Scan="Nové soubory"
 		/>
@@ -701,13 +669,6 @@
 		Next="Další &gt;&gt;"
 		Close="Zavřít"
 		/>
-  <Value Id="WizardConfigureDuneExport"
-		Header="Konfigurace Dune HD / Zappiti Player"
-		Body="Pokud data exportovat?"
-		Back="&lt;&lt; Předchozí"
-		Next="Další &gt;&gt;"
-		Close="Zavřít"
-		/>
   <Value Id="WizardConfigureITunesExport"
 		Header="Konfigurace iTunes (iPhone / iPad)"
 		Body="Pokud data exportovat?"
@@ -717,28 +678,15 @@
 		/>
   <Value Id="ContextMenu"
 		GroupTo="Grouper ..."
-		ChangePicture="Změna ..."
+		ChangePicture="Změňte obrázek..."
 		Delete="Odstranit"
 		Edit="Upravit ..."
 		Play="Lancer ..."
-		Encode="Zakódovat"
-		DeleteEncode="Odstranit zakódovaný soubor"
 		Reset="Zrušit"
 		ResetAllCategories="Zrušení kategorií"
-		ToPlayList="Přidat do seznamu stop"
+		ToPlayList="Přidat do seznamu stop..."
 		SyncToCloud="Synchronizovat toto Zappiti Cloud"
-		/>
-  <Value Id="EncodeTask"
-		Header="Kódování"
-		/>
-  <Value Id="EncodingTask"
-		Header="Aktuální kódování"
-		/>
-  <Value Id="DownloadHandbrakeTask"
-		Header="Stáhnout ruční brzdy"
-		/>
-  <Value Id="InstallHandbrakeTask"
-		Header="Instalace ruční brzdy"
+		Scrap="Identifikovat nové..."
 		/>
   <Value Id="SubtitleRules"
 		Never="Nikdy"
@@ -934,7 +882,7 @@
 		SearchMedias="Hledat"
 		Loading="Načítání"
 		About="O programu"
-		Analyse="Analyzovat"
+		Analyse="Identifikovat"
 		/>
   <Value Id="EditPlaylist"
 		Header="Upravit seznam stop"

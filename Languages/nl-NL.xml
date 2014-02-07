@@ -6,29 +6,6 @@
   <Value Id="SettingsTabValidation"
 		Header="Bevestigen"
 		/>
-  <Value Id="Globalization_XML"
-		homeconfig="Configuratie"
-		homeinfo="Informatie"
-		configlm="Afspelen"
-		configipd="IP adres"
-		searchmovies="Film"
-		searchactors="Cast"
-		searchdirectors="Regisseur"
-		abctitle="Alle bestanden"
-		moviestitle="films"
-		showstitle="Series"
-		recentstitle="Recente toevoegingen"
-		categtitle="Categorieën"
-		detailtitle="Details"
-		remoteplay="Afspelen op de Dune ..."
-		remotestop="Weergave op uw Dune stoppen ..."
-		remoteback="Terugspoelen ..."
-		remotefwd="Vooruitspoelen ..."
-		/>
-  <Value Id="ExportTypes"
-		iPhone="iPhone"
-		Dune="Dune"
-		/>
   <Value Id="SettingsDefault"
 		Header="Standaard"
 		/>
@@ -245,29 +222,20 @@
   <Value Id="EditCancel"
 		Content="Annuleren"
 		/>
-  <Value Id="MainExport"
-		ExportDune="Export Dune"
-		ExportITunes="Export iTunes"
-		Title="Export huidige ..."
-		ExportZappitiPlayer="Export Zappiti Player"
-		/>
   <Value Id="MainEdit"
 		Content="Bewerken"
 		/>
   <Value Id="MainScrapDetails"
-		Content="Info verzamelen"
+		Content="Nieuwe identificeren"
 		/>
   <Value Id="MainScrapPictures"
-		Content="Afbeeldingen verzamelen"
+		Content="Afbeeldingen wijzigen"
 		/>
   <Value Id="MainInfo"
 		Text="{0} Films, {1} Series, {2} Afleveringen"
 		/>
   <Value Id="MainToScrap"
-		Text="{0} nog opzoeken"
-		/>
-  <Value Id="MainToCleanUp"
-		Text="{0} nog opruimen"
+		Text="{0} te identificeren"
 		/>
   <Value Id="DownloadingPictureTask"
 		Header="Downloaden plaatjes"
@@ -411,11 +379,11 @@
 		/>
   <Value Id="SettingsTabFolders"
 		Header="Bestanden"
-		AutoScanScrap="Mappen wordt gecontroleerd en automatisch nieuwe bestanden analyseren"
-		ScrapOnStarWindows="Uitvoeren van analysebestanden om de toepassing te starten"
+		AutoScanScrap="Mappen wordt gecontroleerd en automatisch de nieuwe bestanden identificeren"
+		ScrapOnStarWindows="Start van de identificatie van bestanden om de toepassing te lanceren"
 		Folders="Uw mappen :"
 		AddFolder="Nieuwe map"
-		AnalyseTimer="Start het scannen met regelmatige tussenpozen"
+		AnalyseTimer="Start identificatie met regelmatige tussenpozen"
 		Minutes="{0} minuten"
 		Hours="{0} uur"
 		/>
@@ -425,7 +393,7 @@
 		Recents="Aantal dagen om rekening te houden met de recente:"
 		/>
   <Value Id="SettingsTabScrapers"
-		Header="Analyse"
+		Header="Identificatie"
 		MovieScraper="Films:"
 		MoviePictureScraper="Beelden van films:"
 		TVShowScraper="Series:"
@@ -465,14 +433,14 @@
 		/>
   <Value Id="WizardAddLocalLocation"
 		Name="Lokale map toevoegen"
-		Description="[br]- Interne harde schijf van deze computer [br]- Externe harde schijf (USB/eSATA) van deze computer [br]- Externe harde schijf in een docking station[br]- Dune schijf, via USB (tijdelijk) rechtstreeks verbonden[br] "
+		Description="-Interne harde schijf van deze computer [br] - externe harde schijf aangesloten via USB / eSata naar deze computer [br] - HDD in een docking station aangesloten op de computer in USB / eSata [br] - aangesloten mediaspeler in USB-slaaf van deze computer"
 		Header="Lokale mappen"
-		Tips="Om lokaal opgeslagen mediabestanden met uw Dune af te kunnen spelen, moet u ze delen in het netwerk of een externe USB/eSATA disk rechtstreeks aan de Dune aansluiten!"
+		Tips=""
 		Folders="Lokale schijven / USB apparaten"
 		/>
   <Value Id="WizardAddNetworkLocation"
 		Name="Netwerkmap toevoegen"
-		Description="[br]- Dune schijf, via het netwerk verbonden[br]- Netwerkschijf of NAS server[br]- Andere computer in het netwerk[br] "
+		Description="-Interne van uw multimedia speler HDD verbonden [br] - externe harde schijf aangesloten netwerk [br] - Server NAS [br] - een andere externe computer aangesloten op het netwerk [br] - map gedeelde netwerk [br] - schijf netwerk harde"
 		Header="Netwerkmappen, NAS ..."
 		Tips="Tips: U kunt USB, NAS, etc. aanschaffen via de site van hdland.fr"
 		Folders="Netwerkmappen"
@@ -502,17 +470,17 @@
 		/>
   <Value Id="WizardRewriteLocationUrl"
 		Header="Pad aanpassen"
-		Body="Kies de locatie van deze map zoals die door uw Zappiti zal worden gebruikt: [br](Aangeven waar deze map uiteindelijk zal worden geplaatst.)"
+		Body="Kies de locatie van deze map te openen vanuit uw mediaspeler: [br] (indiquez où CE-dossier sera placé àle final) "
 		Back="&lt;&lt; Vorige"
 		Next="Volgende &gt;&gt;"
-		ExternLabel="Op een externe harde schijf, rechtstreeks aangesloten op de Zappiti"
+		ExternLabel="Op een externe harde schijf aangesloten op de mediaplayer"
 		NetworkLabel="Op een NAS-server, netwerkmap of een gedeelde harde schijf van deze PC"
 		UnknowLabel="Aangepast"
 		Close="Sluiten"
-		InternLabel="Op een interne harde schijf van de Zappiti"
+		InternLabel="Op een interne harde schijf mediaplayer"
 		/>
   <Value Id="LocalRewriteUrlEngineView"
-		Body="Deze map moet in het netwerk worden gedeeld zodat de Zappiti toegang heeft."
+		Body="Deze map moet worden gedeeld op uw netwerk, zodat uw Media Player kan toegang hebben tot."
 		IAccept="Ok, deze map delen in het netwerk."
 		/>
   <Value Id="SettingsHost"
@@ -650,8 +618,8 @@
 		Header="Opstarten"
 		/>
   <Value Id="ScanTask"
-		Header="Analyse"
-		Analyse="Parseert het bestand: {0}"
+		Header="Op dit moment identificeren"
+		Analyse="Het bestand identificeert: {0}"
 		Scrap="Haalt informatie: {0}"
 		Scan="De nieuwe bestanden vinden"
 		/>
@@ -702,13 +670,6 @@
 		Next="Volgende &gt;&gt;"
 		Close="Sluiten"
 		/>
-  <Value Id="WizardConfigureDuneExport"
-		Header="Dune HD / Zappiti Player configuratie"
-		Body="Gegevens exporteren naar?"
-		Back="&lt;&lt; Vorige"
-		Next="Volgende &gt;&gt;"
-		Close="Sluiten"
-		/>
   <Value Id="WizardConfigureITunesExport"
 		Header="Configuratie voor iTunes (iPhone / iPad)"
 		Body="Gegevens exporteren naar?"
@@ -718,28 +679,15 @@
 		/>
   <Value Id="ContextMenu"
 		GroupTo="Groep..."
-		ChangePicture="Verander..."
+		ChangePicture="Verander de afbeelding..."
 		Delete="Verwijderen"
 		Edit="Bewerken ..."
 		Play="Afspelen ..."
-		Encode="Encoderen"
-		DeleteEncode="Verwijder het gecodeerde bestand"
 		Reset="Reset"
 		ResetAllCategories="Reset categorieën"
-		ToPlayList="Toevoegen aan afspeellijst"
+		ToPlayList="Toevoegen aan afspeellijst..."
 		SyncToCloud="Dit synchroniseren met Zappiti Cloud"
-		/>
-  <Value Id="EncodeTask"
-		Header="Codering"
-		/>
-  <Value Id="EncodingTask"
-		Header="Huidige codering"
-		/>
-  <Value Id="DownloadHandbrakeTask"
-		Header="Handbrake downloaden"
-		/>
-  <Value Id="InstallHandbrakeTask"
-		Header="Handbrake installeren"
+		Scrap="Identificeren nieuw..."
 		/>
   <Value Id="SubtitleRules"
 		Never="Nooit"
@@ -935,7 +883,7 @@
 		SearchMedias="Zoek"
 		Loading="Laden"
 		About="Over"
-		Analyse="Analyseren"
+		Analyse="Identificeren"
 		/>
   <Value Id="EditPlaylist"
 		Header="Afspeellijst bewerken"
