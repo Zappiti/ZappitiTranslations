@@ -38,7 +38,7 @@
   <Value Id="SettingsTypeExport"
 		ExportDune="Dune izvozna datoteka:"
 		ExportITunes="ITunes izvozna datoteka:"
-		Body="Definiraj tvojo datoteko za izvoz."
+		Body="Določajo izvoz datoteke."
 		DoYouHaveADune="Uporabljam Zappiti Player  / Dune predvajalnik"
 		DoYouHaveAniPhone="Uporabljam iPhone / iPad / iPod"
 		DeviceType="Device :"
@@ -77,17 +77,11 @@
   <Value Id="SettingsTabExport"
 		Header="Izvozi"
 		/>
-  <Value Id="SettingsFolders"
-		Text="Vaše mape :"
-		/>
   <Value Id="SettingsOK"
 		Content="OK"
 		/>
   <Value Id="SettingsCancel"
 		Content="Prekliči"
-		/>
-  <Value Id="SettingsAddFolder"
-		Content="Nova mapa"
 		/>
   <Value Id="SettingsDeleteFolder"
 		Content="Briši"
@@ -275,17 +269,8 @@
   <Value Id="MainToCleanUp"
 		Text="{0} to clean up"
 		/>
-  <Value Id="MainIsScanning"
-		Text="Skeniranje : {0}"
-		/>
-  <Value Id="MainIsScraping"
-		Text="Scraping : {0}"
-		/>
-  <Value Id="MainIsAnalysing"
-		Text="Analiza : {0}"
-		/>
-  <Value Id="MainIsDownloadingPicture"
-		Text="Nalaganje slik : {0}"
+  <Value Id="DownloadingPictureTask"
+		Header="Nalaganje slik"
 		/>
   <Value Id="CleanUpMessage"
 		Text="Naslednje datoteke so nedosegljive. Jih želite odstraniti iz baze podatkov?"
@@ -294,9 +279,6 @@
 		Content="CleanUp"
 		/>
   <Value Id="CleanUpClose"
-		Content="Zapri"
-		/>
-  <Value Id="Splash"
 		Content="Zapri"
 		/>
   <Value Id="MessageBox"
@@ -429,6 +411,13 @@
 		/>
   <Value Id="SettingsTabFolders"
 		Header="Datoteke"
+		AutoScanScrap="Spremljanje map in samodejno analizirati nove datoteke"
+		ScrapOnStarWindows="Teči analitične datoteke splavitev uporaba"
+		Folders="Vaše mape :"
+		AddFolder="Nova mapa"
+		AnalyseTimer="Začetek ki se more skandirati v rednih časovnih presledkih"
+		Minutes="{0} minut"
+		Hours="{0} ur"
 		/>
   <Value Id="SettingsTabOthers"
 		Header="Ostalo"
@@ -436,12 +425,11 @@
 		Recents="Število dni, da se upošteva nedavni:"
 		/>
   <Value Id="SettingsTabScrapers"
-		Header="Scrapers"
+		Header="Analiza"
 		MovieScraper="Filmi:"
 		MoviePictureScraper="Slike Filmov:"
 		TVShowScraper="Serije:"
 		TVShowPictureScraper="Slike Serij:"
-		ScrapOnStarWindows="Začni skeniranje datotek za zagon aplikacij"
 		SuppressAllAfterFirstExcludedWordFromTitle="Izbrisati vse znake, po prvi mandat izključen voljo"
 		WordToExludeFromMovies="Besede za izključitev vrednostnih papirjev:"
 		/>
@@ -656,13 +644,16 @@
 		Header="Osveži objavljene videoposnetke"
 		/>
   <Value Id="MediaToDeleteTask"
-		Header="Poiščite datoteke, ki ne obstajajo več"
+		Header="Najde datoteke, ki ne obstajajo več"
 		/>
   <Value Id="FirstInitTask"
 		Header="Inicializacija"
 		/>
   <Value Id="ScanTask"
-		Header="V procesu skeniranja"
+		Header="Analiziranje"
+		Analyse="Razčleni datoteko: {0}"
+		Scrap="Pridobiva informacije: {0}"
+		Scan="Odkriti nov pila"
 		/>
   <Value Id="ScanForTVShowEpisodeTask"
 		Header="Inicializacija podatkov epizode"
@@ -937,15 +928,14 @@
 		StylePopup="Vnesite ime glasbeni slog, ki ga želite ustvariti."
 		/>
   <Value Id="MainWindow"
-		Donate="Donirajte !"
 		DatabaseUpdating="Posodobi zbirko podatkov ..."
 		Home="Domov"
 		Configuration="Nastavite"
-		Scan="Skeniranje"
 		DatabaseBadVersion="Trenutna različica Zappiti ne more odpreti izbrano bazo podatkov. Poskusite z novejšo različico Zappiti programske opreme."
 		SearchMedias="Išči"
 		Loading="Nalaganje"
 		About="Informacije"
+		Analyse="Analizirati"
 		/>
   <Value Id="EditPlaylist"
 		Header="Urejanje seznama predvajanja"
@@ -967,5 +957,15 @@
   <Value Id="CircularProgressBarPopup"
 		DoNotShow="Ne kažejo."
 		WaitMessage="Prosimo počakajte, da sinhronizacijo z Zappiti oblak.[br]Kliknite ikono za več informacij."
+		/>
+  <Value Id="TaskBarIcon"
+		RunningInBackground="Zappiti Media Center vršiti v ozadju.[br]Kliknite tukaj, da ga znova prikažete."
+		Quit="Zaprite Zappiti Media Center"
+		/>
+  <Value Id="AboutView"
+		Donate="Donirajte !"
+		Scraper="Scrapers :"
+		Other="Druge:"
+		Links="Koristne povezave:"
 		/>
 </Dictionary>

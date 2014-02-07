@@ -38,7 +38,7 @@
   <Value Id="SettingsTypeExport"
 		ExportDune="Exportar para o Dune:"
 		ExportITunes="Exportar para o ITunes:"
-		Body="Especifique o arquivo."
+		Body="Defina seus arquivos de exportação."
 		DoYouHaveADune="Eu tenho um Zappiti Player / um Dune"
 		DoYouHaveAniPhone="Eu tenho um iPhone / iPad / iPod"
 		DeviceType="Dispositivo :"
@@ -77,17 +77,11 @@
   <Value Id="SettingsTabExport"
 		Header="Exportar"
 		/>
-  <Value Id="SettingsFolders"
-		Text="Seus Diretórios :"
-		/>
   <Value Id="SettingsOK"
 		Content="OK"
 		/>
   <Value Id="SettingsCancel"
 		Content="Cancelar"
-		/>
-  <Value Id="SettingsAddFolder"
-		Content="Adicionar Diretório"
 		/>
   <Value Id="SettingsDeleteFolder"
 		Content="Apagar"
@@ -275,17 +269,8 @@
   <Value Id="MainToCleanUp"
 		Text="Eliminar {0} itens ausentes"
 		/>
-  <Value Id="MainIsScanning"
-		Text="Procurando : {0}"
-		/>
-  <Value Id="MainIsScraping"
-		Text="Trazendo informações : {0}"
-		/>
-  <Value Id="MainIsAnalysing"
-		Text="Analisando : {0}"
-		/>
-  <Value Id="MainIsDownloadingPicture"
-		Text="Baixando imagens : {0}"
+  <Value Id="DownloadingPictureTask"
+		Header="Baixando imagens"
 		/>
   <Value Id="CleanUpMessage"
 		Text="Os itens a seguir estão inacessíveis. Você deseja removê-los do acervo?"
@@ -294,9 +279,6 @@
 		Content="Limpar"
 		/>
   <Value Id="CleanUpClose"
-		Content="Fechar"
-		/>
-  <Value Id="Splash"
 		Content="Fechar"
 		/>
   <Value Id="MessageBox"
@@ -429,6 +411,13 @@
 		/>
   <Value Id="SettingsTabFolders"
 		Header="Arquivos"
+		AutoScanScrap="Monitorar pastas e analisar automaticamente novos arquivos"
+		ScrapOnStarWindows="Executar arquivos de análise para iniciar o aplicativo"
+		Folders="Seus Diretórios :"
+		AddFolder="Adicionar Diretório"
+		AnalyseTimer="Iniciar a digitalização em intervalos regulares"
+		Minutes="{0} minutos"
+		Hours="horas de {0}"
 		/>
   <Value Id="SettingsTabOthers"
 		Header="Outros"
@@ -436,12 +425,11 @@
 		Recents="Número de dias para ter em conta recente:"
 		/>
   <Value Id="SettingsTabScrapers"
-		Header="Fontes de Informação"
+		Header="Análise"
 		MovieScraper="Filmes:"
 		MoviePictureScraper="Imagens de filmes:"
 		TVShowScraper="Séries:"
 		TVShowPictureScraper="Imagens de séries:"
-		ScrapOnStarWindows="Inicie pesquisa por informação ao iniciar o programa"
 		SuppressAllAfterFirstExcludedWordFromTitle="Excluir todos os caracteres após o primeiro mandato excluídos encontrado"
 		WordToExludeFromMovies="Palavras para excluir títulos:"
 		/>
@@ -656,13 +644,16 @@
 		Header="Atualizar vídeos"
 		/>
   <Value Id="MediaToDeleteTask"
-		Header="Encontre arquivos não mais disponíveis"
+		Header="Localiza arquivos que não existem mais"
 		/>
   <Value Id="FirstInitTask"
 		Header="Inicialização"
 		/>
   <Value Id="ScanTask"
-		Header="procurando"
+		Header="Analisando"
+		Analyse="Analisa o arquivo: {0}"
+		Scrap="Recupera informações: {0}"
+		Scan="Encontre os novos arquivos"
 		/>
   <Value Id="ScanForTVShowEpisodeTask"
 		Header="Inicializando informação de um episódio"
@@ -937,15 +928,14 @@
 		StylePopup="Digite o nome do estilo musical que você deseja criar."
 		/>
   <Value Id="MainWindow"
-		Donate="Doar !"
 		DatabaseUpdating="Atualizar o banco de dados ..."
 		Home="Início"
 		Configuration="Configurar"
-		Scan="Procurar por novos arquivos"
 		DatabaseBadVersion="A versão atual do Zappiti não pode abrir o banco de dados selecionado. Tente uma versão mais nova."
 		SearchMedias="Pesquisar"
 		Loading="A carregar"
 		About="Sobre"
+		Analyse="Analisar"
 		/>
   <Value Id="EditPlaylist"
 		Header="Editar playlist"
@@ -967,5 +957,15 @@
   <Value Id="CircularProgressBarPopup"
 		DoNotShow="Não mostre."
 		WaitMessage="Por favor aguarde enquanto a sincronização com nuvem de Zappiti.[br]Clique no ícone para obter mais informações."
+		/>
+  <Value Id="TaskBarIcon"
+		RunningInBackground="Zappiti Media Center para executar em segundo plano.[br]Clique aqui para exibi-la novamente."
+		Quit="Fechar Zappiti Media Center"
+		/>
+  <Value Id="AboutView"
+		Donate="Doar !"
+		Scraper="Scrapers :"
+		Other="Outros:"
+		Links="Links úteis:"
 		/>
 </Dictionary>

@@ -37,7 +37,7 @@
   <Value Id="SettingsTypeExport"
 		ExportDune="Fichero Dune:"
 		ExportITunes="Fichero iTunes:"
-		Body="Define tu fichero de exportación."
+		Body="Definir los archivos de exportación."
 		DoYouHaveADune="Tengo un Zappiti Player / un Dune HD"
 		DoYouHaveAniPhone="Tengo un iPhone / iPad / iPod"
 		DeviceType="Dispositivo :"
@@ -76,17 +76,11 @@
   <Value Id="SettingsTabExport"
 		Header="Exportar"
 		/>
-  <Value Id="SettingsFolders"
-		Text="Tus carpetas :"
-		/>
   <Value Id="SettingsOK"
 		Content="OK"
 		/>
   <Value Id="SettingsCancel"
 		Content="Cancelar"
-		/>
-  <Value Id="SettingsAddFolder"
-		Content="Nueva carpeta"
 		/>
   <Value Id="SettingsDeleteFolder"
 		Content="Eliminar"
@@ -274,17 +268,8 @@
   <Value Id="MainToCleanUp"
 		Text="{0} para limpiar"
 		/>
-  <Value Id="MainIsScanning"
-		Text="Escaneando : {0}"
-		/>
-  <Value Id="MainIsScraping"
-		Text="Rastreando : {0}"
-		/>
-  <Value Id="MainIsAnalysing"
-		Text="Analizando : {0}"
-		/>
-  <Value Id="MainIsDownloadingPicture"
-		Text="Descargando imagenes : {0}"
+  <Value Id="DownloadingPictureTask"
+		Header="Descargando imagenes"
 		/>
   <Value Id="CleanUpMessage"
 		Text="Los medios siguientes no se encuentran. ¿Quieres eliminarlos de la base de datos?"
@@ -293,9 +278,6 @@
 		Content="Limpiar"
 		/>
   <Value Id="CleanUpClose"
-		Content="Cerrar"
-		/>
-  <Value Id="Splash"
 		Content="Cerrar"
 		/>
   <Value Id="MessageBox"
@@ -428,6 +410,13 @@
 		/>
   <Value Id="SettingsTabFolders"
 		Header="Ficheros"
+		AutoScanScrap="Carpetas de monitorear y analizar automáticamente los archivos nuevos"
+		ScrapOnStarWindows="Ejecutar archivos de análisis para el lanzamiento de la aplicación"
+		Folders="Tus carpetas :"
+		AddFolder="Nueva carpeta"
+		AnalyseTimer="Iniciar la exploración a intervalos regulares"
+		Minutes="{0} minutos"
+		Hours="horas {0}"
 		/>
   <Value Id="SettingsTabOthers"
 		Header="Otros"
@@ -435,12 +424,11 @@
 		Recents="Número de días de tener en cuenta más reciente:"
 		/>
   <Value Id="SettingsTabScrapers"
-		Header="Rastreadores"
+		Header="Análisis"
 		MovieScraper="Películas:"
 		MoviePictureScraper="Imágenes de las películas:"
 		TVShowScraper="Series:"
 		TVShowPictureScraper="Imágenes de las series:"
-		ScrapOnStarWindows="Comenzar escaneado de ficheros al iniciar la aplicación"
 		SuppressAllAfterFirstExcludedWordFromTitle="Borrar todos los caracteres después del primer término excluido encontró"
 		WordToExludeFromMovies="Términos a excluir valores:"
 		/>
@@ -650,13 +638,16 @@
 		Header="Actualizando videos"
 		/>
   <Value Id="MediaToDeleteTask"
-		Header="Buscar ficheros que no ya no existan"
+		Header="Encuentre los archivos que ya no existen"
 		/>
   <Value Id="FirstInitTask"
 		Header="Inicialización"
 		/>
   <Value Id="ScanTask"
-		Header="En proceso de escaneado"
+		Header="Análisis"
+		Analyse="Analiza el archivo: {0}"
+		Scrap="Recupera la información: {0}"
+		Scan="Encontrar los nuevos archivos"
 		/>
   <Value Id="ScanForTVShowEpisodeTask"
 		Header="Inicialización de la información de un episodio"
@@ -931,15 +922,14 @@
 		StylePopup="Escriba el nombre del estilo musical que desea crear."
 		/>
   <Value Id="MainWindow"
-		Donate="Donar !"
 		DatabaseUpdating="Actualizar la base de datos ..."
 		Home="Inicio"
 		Configuration="Configurar"
-		Scan="Escanear"
 		DatabaseBadVersion="La versión actual de Zappiti no puede abrir la base de datos. Intentalo con una nueva versión."
 		SearchMedias="Buscar"
 		Loading="Carga"
 		About="Acerca de"
+		Analyse="Analizar"
 		/>
   <Value Id="EditPlaylist"
 		Header="Editar lista de reproducción"
@@ -966,5 +956,15 @@
 		Download="Descargar e instalar el módulo de transmisión"
 		PlayerPath="Ruta de acceso:"
 		Browse="Browse..."
+		/>
+  <Value Id="TaskBarIcon"
+		RunningInBackground="Zappiti Media Center para ejecutar en segundo plano.[br]Haga clic aquí para mostrar otra vez."
+		Quit="Cerrar Zappiti Media Center"
+		/>
+  <Value Id="AboutView"
+		Donate="Donar !"
+		Scraper="Scrapers :"
+		Other="Otros:"
+		Links="Enlaces útiles:"
 		/>
 </Dictionary>

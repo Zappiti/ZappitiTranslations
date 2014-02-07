@@ -37,7 +37,7 @@
   <Value Id="SettingsTypeExport"
 		ExportDune="Dune export file:"
 		ExportITunes="iTunes export file:"
-		Body="Define your export file."
+		Body="Define your export files."
 		DoYouHaveADune="I have a Zappiti Player / a Dune HD"
 		DoYouHaveAniPhone="I have an iPhone / iPad / iPod"
 		DeviceType="Device:"
@@ -76,17 +76,11 @@
   <Value Id="SettingsTabExport"
 		Header="Export"
 		/>
-  <Value Id="SettingsFolders"
-		Text="Your folders:"
-		/>
   <Value Id="SettingsOK"
 		Content="OK"
 		/>
   <Value Id="SettingsCancel"
 		Content="Cancel"
-		/>
-  <Value Id="SettingsAddFolder"
-		Content="New folder"
 		/>
   <Value Id="SettingsDeleteFolder"
 		Content="Delete"
@@ -274,17 +268,8 @@
   <Value Id="MainToCleanUp"
 		Text="{0} to clean up"
 		/>
-  <Value Id="MainIsScanning"
-		Text="Scanning: {0}"
-		/>
-  <Value Id="MainIsScraping"
-		Text="Scraping: {0}"
-		/>
-  <Value Id="MainIsAnalysing"
-		Text="Analysing: {0}"
-		/>
-  <Value Id="MainIsDownloadingPicture"
-		Text="Downloading pictures: {0}"
+  <Value Id="DownloadingPictureTask"
+		Header="Downloading pictures"
 		/>
   <Value Id="CleanUpMessage"
 		Text="The following media are unreachables. Do you want to remove them from the database?"
@@ -293,9 +278,6 @@
 		Content="CleanUp"
 		/>
   <Value Id="CleanUpClose"
-		Content="Close"
-		/>
-  <Value Id="Splash"
 		Content="Close"
 		/>
   <Value Id="MessageBox"
@@ -428,6 +410,13 @@
 		/>
   <Value Id="SettingsTabFolders"
 		Header="Files"
+		AutoScanScrap="Monitor folders and automatically analyse new files"
+		ScrapOnStarWindows="Run analysis files to launch the application"
+		Folders="Your folders:"
+		AddFolder="New folder"
+		AnalyseTimer="Start scanning at regular intervals"
+		Minutes="{0} minutes"
+		Hours="{0} hours"
 		/>
   <Value Id="SettingsTabOthers"
 		Header="Other"
@@ -435,12 +424,11 @@
 		Recents="Number of days to be considered recent:"
 		/>
   <Value Id="SettingsTabScrapers"
-		Header="Scrapers"
+		Header="Analysis"
 		MovieScraper="Movies:"
 		MoviePictureScraper="Images of movies:"
 		TVShowScraper="Series:"
 		TVShowPictureScraper="Images of TV series:"
-		ScrapOnStarWindows="Start scanning files at application launch"
 		SuppressAllAfterFirstExcludedWordFromTitle="Delete all characters after the first term excluded found"
 		WordToExludeFromMovies="Words to exclude from titles:"
 		/>
@@ -655,13 +643,16 @@
 		Header="Refresh of videos posted"
 		/>
   <Value Id="MediaToDeleteTask"
-		Header="Check for deleted files"
+		Header="Finds files that no longer exist"
 		/>
   <Value Id="FirstInitTask"
 		Header="Initialization"
 		/>
   <Value Id="ScanTask"
-		Header="Busy scanning"
+		Header="Analysing"
+		Analyse="Parses the file: {0}"
+		Scrap="Retrieves information: {0}"
+		Scan="Find the new files"
 		/>
   <Value Id="ScanForTVShowEpisodeTask"
 		Header="Finding episode information"
@@ -936,15 +927,14 @@
 		StylePopup="Type the name of the musical style you want to create."
 		/>
   <Value Id="MainWindow"
-		Donate="Donate!"
 		DatabaseUpdating="Update the database..."
 		Home="Home"
 		Configuration="Configure"
-		Scan="Scan"
 		DatabaseBadVersion="The current version of Zappiti can not open the database selected. Try a newer version of Zappiti."
 		SearchMedias="Search"
 		Loading="Loading"
 		About="About"
+		Analyse="Analyze"
 		/>
   <Value Id="EditPlaylist"
 		Header="Edit playlist"
@@ -966,5 +956,15 @@
   <Value Id="CircularProgressBarPopup"
 		DoNotShow="Do not show."
 		WaitMessage="Please wait while synchronization with Zappiti Cloud.[br]Click the icon for more information."
+		/>
+  <Value Id="TaskBarIcon"
+		RunningInBackground="Zappiti Media Center to execute in the background.[br]Click here to display it again."
+		Quit="Close Zappiti Media Center"
+		/>
+  <Value Id="AboutView"
+		Donate="Donate!"
+		Scraper="Scrapers :"
+		Other="Other:"
+		Links="Useful links:"
 		/>
 </Dictionary>

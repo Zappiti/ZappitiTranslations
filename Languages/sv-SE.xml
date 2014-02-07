@@ -37,7 +37,7 @@
   <Value Id="SettingsTypeExport"
 		ExportDune="Exportera fil-Dune:"
 		ExportITunes="Exportera fil-iTunes:"
-		Body="Definiera din exporterade fil."
+		Body="Definiera din exportfiler."
 		DoYouHaveADune="Jag har en Zappiti Player / en Dune HD"
 		DoYouHaveAniPhone="Jag har en iPhone / iPad / iPod"
 		DeviceType="Enhet :"
@@ -76,17 +76,11 @@
   <Value Id="SettingsTabExport"
 		Header="Export"
 		/>
-  <Value Id="SettingsFolders"
-		Text="Din mapp :"
-		/>
   <Value Id="SettingsOK"
 		Content="OK"
 		/>
   <Value Id="SettingsCancel"
 		Content="Avbryt"
-		/>
-  <Value Id="SettingsAddFolder"
-		Content="Ny mapp"
 		/>
   <Value Id="SettingsDeleteFolder"
 		Content="Radera"
@@ -274,17 +268,8 @@
   <Value Id="MainToCleanUp"
 		Text="{0} att rensa upp"
 		/>
-  <Value Id="MainIsScanning"
-		Text="Skannar : {0}"
-		/>
-  <Value Id="MainIsScraping"
-		Text="Sökning : {0}"
-		/>
-  <Value Id="MainIsAnalysing"
-		Text="Analyserar : {0}"
-		/>
-  <Value Id="MainIsDownloadingPicture"
-		Text="Hämtar bilder : {0}"
+  <Value Id="DownloadingPictureTask"
+		Header="Hämtar bilder"
 		/>
   <Value Id="CleanUpMessage"
 		Text="Följande media kan ej nås. Vill du ta bort dem från databasen?"
@@ -293,9 +278,6 @@
 		Content="Rensa upp"
 		/>
   <Value Id="CleanUpClose"
-		Content="Stäng"
-		/>
-  <Value Id="Splash"
 		Content="Stäng"
 		/>
   <Value Id="MessageBox"
@@ -428,6 +410,13 @@
 		/>
   <Value Id="SettingsTabFolders"
 		Header="Filer"
+		AutoScanScrap="Övervaka mappar och automatiskt analysera nya filer"
+		ScrapOnStarWindows="Köra analysfiler för att starta programmet"
+		Folders="Din mapp :"
+		AddFolder="Ny mapp"
+		AnalyseTimer="Börja skanna med jämna mellanrum"
+		Minutes="{0} minuter"
+		Hours="{0} timmar"
 		/>
   <Value Id="SettingsTabOthers"
 		Header="Övrigt"
@@ -435,12 +424,11 @@
 		Recents="Antal dagar för att ta hänsyn till den senaste:"
 		/>
   <Value Id="SettingsTabScrapers"
-		Header="Spårningar"
+		Header="Analys"
 		MovieScraper="Filmer:"
 		MoviePictureScraper="Filmbilder:"
 		TVShowScraper="Serier:"
 		TVShowPictureScraper="Seriebilder:"
-		ScrapOnStarWindows="Börja skanna filer vid programstart"
 		SuppressAllAfterFirstExcludedWordFromTitle="Radera alla karaktärer efter att den första benämningen hittats"
 		WordToExludeFromMovies="Ord som ska undantas från titlarna:"
 		/>
@@ -655,13 +643,16 @@
 		Header="Uppdatering av upplagda filmer"
 		/>
   <Value Id="MediaToDeleteTask"
-		Header="Kontrollerar efter borttagna filer"
+		Header="Hittar filer som inte längre finns"
 		/>
   <Value Id="FirstInitTask"
 		Header="Initierar"
 		/>
   <Value Id="ScanTask"
-		Header="Skanning pågår"
+		Header="Analysera"
+		Analyse="Tolkar filen: {0}"
+		Scrap="Hämtar information: {0}"
+		Scan="Hitta nya filer"
 		/>
   <Value Id="ScanForTVShowEpisodeTask"
 		Header="Söker episoder"
@@ -936,15 +927,14 @@
 		StylePopup="Skriv namnet på den musikaliska stil som du vill skapa."
 		/>
   <Value Id="MainWindow"
-		Donate="Donera !"
 		DatabaseUpdating="Uppdaterar databasen ..."
 		Home="Hem"
 		Configuration="Anpassa"
-		Scan="Skannar"
 		DatabaseBadVersion="Den nuvarande versionen av Zappiti kan inte öppna den valda databasen. Prova en nyare version av Zappiti."
 		SearchMedias="Sök"
 		Loading="Lastning"
 		About="Om"
+		Analyse="Analysera"
 		/>
   <Value Id="EditPlaylist"
 		Header="Redigera spellista"
@@ -966,5 +956,15 @@
   <Value Id="CircularProgressBarPopup"
 		DoNotShow="Visa inte."
 		WaitMessage="Vänta medan synkronisering med Zappiti moln.[br]Klicka på ikonen för mer information."
+		/>
+  <Value Id="TaskBarIcon"
+		RunningInBackground="Zappiti Media Center ska köras i bakgrunden.[br]Klicka här för att visa den igen."
+		Quit="Stäng Zappiti Media Center"
+		/>
+  <Value Id="AboutView"
+		Donate="Donera !"
+		Scraper="Scrapers :"
+		Other="Andra:"
+		Links="Användbara länkar:"
 		/>
 </Dictionary>

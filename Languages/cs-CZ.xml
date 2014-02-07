@@ -8,9 +8,6 @@
   <Value Id="SettingsTabExport"
 		Header="Export"
 		/>
-  <Value Id="SettingsFolders"
-		Text="Vaše mediální soubory:"
-		/>
   <Value Id="SettingsOK"
 		Content="OK"
 		/>
@@ -203,17 +200,8 @@
   <Value Id="MainToCleanUp"
 		Text="{0} k vymazání"
 		/>
-  <Value Id="MainIsScanning"
-		Text="Prohledávání : {0}"
-		/>
-  <Value Id="MainIsScraping"
-		Text="Upravování : {0}"
-		/>
-  <Value Id="MainIsAnalysing"
-		Text="Zjišťování : {0}"
-		/>
-  <Value Id="MainIsDownloadingPicture"
-		Text="Stahuji obrázek : {0}"
+  <Value Id="DownloadingPictureTask"
+		Header="Stahuji obrázek"
 		/>
   <Value Id="CleanUpMessage"
 		Text="Následující média jsou nedostupná. "
@@ -222,9 +210,6 @@
 		Content="Vyčistit"
 		/>
   <Value Id="CleanUpClose"
-		Content="Zavřít"
-		/>
-  <Value Id="Splash"
 		Content="Zavřít"
 		/>
   <Value Id="MessageBox"
@@ -357,6 +342,13 @@
 		/>
   <Value Id="SettingsTabFolders"
 		Header="Soubor"
+		AutoScanScrap="Sledovat složky a automaticky analyzovat nové soubory"
+		ScrapOnStarWindows="Spustit analýzu souborů spusťte aplikaci"
+		Folders="Vaše mediální soubory:"
+		AddFolder="Nová složka"
+		AnalyseTimer="Zahájit prohledávání v pravidelných intervalech"
+		Minutes="{0} minut"
+		Hours="{0} hodin"
 		/>
   <Value Id="SettingsTabOthers"
 		Header="Ostatní"
@@ -364,12 +356,11 @@
 		Recents="Počet dnů vzít v úvahu nedávné:"
 		/>
   <Value Id="SettingsTabScrapers"
-		Header="Po startu"
+		Header="Analýza"
 		MovieScraper="Filmy:"
 		MoviePictureScraper="Film obrázky:"
 		TVShowScraper="Série:"
 		TVShowPictureScraper="Obrázky série:"
-		ScrapOnStarWindows="Spusťte skenování soubor pro spuštění aplikace"
 		SuppressAllAfterFirstExcludedWordFromTitle="Odstranit všechny znaky, po prvním vyloučit termín nalezeno"
 		WordToExludeFromMovies="Slova k vyloučení cenných papírů:"
 		/>
@@ -427,7 +418,7 @@
   <Value Id="SettingsTypeExport"
 		ExportDune="Dune export souboru:"
 		ExportITunes="ITunes export souboru:"
-		Body="Definujte svůj soubor s exportem."
+		Body="Definice exportu souborů."
 		DoYouHaveADune="Mám ZappitiPlayer / Dune"
 		DoYouHaveAniPhone="Mám iPhone / iPad / iPod"
 		DeviceType="Device:"
@@ -459,9 +450,6 @@
 		TvShowsXmlFileGeneratorCommand="Export série"
 		CategoriesXmlFileGeneratorCommand="Export kategorie"
 		RecentsXmlFileGeneratorCommand="Export poslední"
-		/>
-  <Value Id="SettingsAddFolder"
-		Content="Nová složka"
 		/>
   <Value Id="GroupContextState"
 		Seen="Viditelný"
@@ -658,13 +646,16 @@
 		Header="Refreshing videos posted"
 		/>
   <Value Id="MediaToDeleteTask"
-		Header="Najít soubory, které již neexistuje"
+		Header="Nalezne soubory, které již neexistují"
 		/>
   <Value Id="FirstInitTask"
 		Header="Inicializace"
 		/>
   <Value Id="ScanTask"
-		Header="V současné době skener"
+		Header="Analýzy"
+		Analyse="Analyzuje soubor: {0}"
+		Scrap="Načte informace: {0}"
+		Scan="Nové soubory"
 		/>
   <Value Id="ScanForTVShowEpisodeTask"
 		Header="Inicializace informace z epizody"
@@ -936,15 +927,14 @@
 		StylePopup="Zadejte název hudební styl, který chcete vytvořit."
 		/>
   <Value Id="MainWindow"
-		Donate="Přispějte!"
 		DatabaseUpdating="Aktualizace databáze ..."
 		Home="Domů"
 		Configuration="Nastavení"
-		Scan="Skener"
 		DatabaseBadVersion="Aktuální verze Zappiti nelze otevřít vybranou databázi. "
 		SearchMedias="Hledat"
 		Loading="Načítání"
 		About="O programu"
+		Analyse="Analyzovat"
 		/>
   <Value Id="EditPlaylist"
 		Header="Upravit seznam stop"
@@ -966,5 +956,15 @@
   <Value Id="CircularProgressBarPopup"
 		DoNotShow="Nezobrazovat."
 		WaitMessage="Počkejte, prosím, synchronizace s Zappiti mrak.[br]Klepněte na ikonu získáte další informace."
+		/>
+  <Value Id="TaskBarIcon"
+		RunningInBackground="Zappiti Media Center můžete spustit na pozadí.[br]Klepnutím sem zobrazíte jej znovu."
+		Quit="Zavřít Zappiti Media Center"
+		/>
+  <Value Id="AboutView"
+		Donate="Přispějte!"
+		Scraper="Scrapers :"
+		Other="Ostatní:"
+		Links="Užitečné odkazy:"
 		/>
 </Dictionary>

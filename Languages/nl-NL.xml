@@ -38,7 +38,7 @@
   <Value Id="SettingsTypeExport"
 		ExportDune="Dune exportbestand:"
 		ExportITunes="iTunes exportbestand:"
-		Body="Selecteer exportbestand."
+		Body="Definieer uw exportbestanden."
 		DoYouHaveADune="Exporteren voor Zappiti Player / voor Dune"
 		DoYouHaveAniPhone="Exporteren voor Apple iOS apparaat (via iTunes)"
 		DeviceType="Apparaat:"
@@ -77,17 +77,11 @@
   <Value Id="SettingsTabExport"
 		Header="Export"
 		/>
-  <Value Id="SettingsFolders"
-		Text="Uw mappen :"
-		/>
   <Value Id="SettingsOK"
 		Content="OK"
 		/>
   <Value Id="SettingsCancel"
 		Content="Annuleren"
-		/>
-  <Value Id="SettingsAddFolder"
-		Content="Nieuwe map"
 		/>
   <Value Id="SettingsDeleteFolder"
 		Content="Wissen"
@@ -275,17 +269,8 @@
   <Value Id="MainToCleanUp"
 		Text="{0} nog opruimen"
 		/>
-  <Value Id="MainIsScanning"
-		Text="Zoeken: {0}"
-		/>
-  <Value Id="MainIsScraping"
-		Text="Verzamelen: {0}"
-		/>
-  <Value Id="MainIsAnalysing"
-		Text="Analyseren: {0}"
-		/>
-  <Value Id="MainIsDownloadingPicture"
-		Text="Downloaden plaatjes: {0}"
+  <Value Id="DownloadingPictureTask"
+		Header="Downloaden plaatjes"
 		/>
   <Value Id="CleanUpMessage"
 		Text="Onderstaande bestanden zijn niet beschikbaar. Wilt u ze uit de database verwijderen?"
@@ -294,9 +279,6 @@
 		Content="Opschonen"
 		/>
   <Value Id="CleanUpClose"
-		Content="Sluiten"
-		/>
-  <Value Id="Splash"
 		Content="Sluiten"
 		/>
   <Value Id="MessageBox"
@@ -429,6 +411,13 @@
 		/>
   <Value Id="SettingsTabFolders"
 		Header="Bestanden"
+		AutoScanScrap="Mappen wordt gecontroleerd en automatisch nieuwe bestanden analyseren"
+		ScrapOnStarWindows="Uitvoeren van analysebestanden om de toepassing te starten"
+		Folders="Uw mappen :"
+		AddFolder="Nieuwe map"
+		AnalyseTimer="Start het scannen met regelmatige tussenpozen"
+		Minutes="{0} minuten"
+		Hours="{0} uur"
 		/>
   <Value Id="SettingsTabOthers"
 		Header="Overig"
@@ -436,12 +425,11 @@
 		Recents="Aantal dagen om rekening te houden met de recente:"
 		/>
   <Value Id="SettingsTabScrapers"
-		Header="Scrapers"
+		Header="Analyse"
 		MovieScraper="Films:"
 		MoviePictureScraper="Beelden van films:"
 		TVShowScraper="Series:"
 		TVShowPictureScraper="Beelden van series:"
-		ScrapOnStarWindows="Start scannen van bestanden bij start applicatie"
 		SuppressAllAfterFirstExcludedWordFromTitle="Verwijder alle tekens na de eerste termijn uitgesloten gevonden"
 		WordToExludeFromMovies="Woorden om effecten te sluiten:"
 		/>
@@ -656,13 +644,16 @@
 		Header="Vernieuwen van video's"
 		/>
   <Value Id="MediaToDeleteTask"
-		Header="Controleren op verwijderde bestanden"
+		Header="Bestanden die niet meer bestaan gevonden"
 		/>
   <Value Id="FirstInitTask"
 		Header="Opstarten"
 		/>
   <Value Id="ScanTask"
-		Header="Bezig met scannen"
+		Header="Analyse"
+		Analyse="Parseert het bestand: {0}"
+		Scrap="Haalt informatie: {0}"
+		Scan="De nieuwe bestanden vinden"
 		/>
   <Value Id="ScanForTVShowEpisodeTask"
 		Header="Informatie over aflevering zoeken"
@@ -937,15 +928,14 @@
 		StylePopup="Typ de naam van de muzikale stijl die u wilt maken."
 		/>
   <Value Id="MainWindow"
-		Donate="Doneer!"
 		DatabaseUpdating="Database bijwerken..."
 		Home="Home"
 		Configuration="Configuratie"
-		Scan="Zoek"
 		DatabaseBadVersion="Deze versie van Zappiti kan de geselecteerde database niet openen. Probeer een nieuwere versie van Zappiti."
 		SearchMedias="Zoek"
 		Loading="Laden"
 		About="Over"
+		Analyse="Analyseren"
 		/>
   <Value Id="EditPlaylist"
 		Header="Afspeellijst bewerken"
@@ -967,5 +957,15 @@
   <Value Id="CircularProgressBarPopup"
 		DoNotShow="Niet weergeven."
 		WaitMessage="Gelieve te wachten terwijl synchronisatie met Zappiti Cloud.[br]Klik op het pictogram voor meer informatie."
+		/>
+  <Value Id="TaskBarIcon"
+		RunningInBackground="Zappiti Media Center uit te voeren op de achtergrond.[br]Klik hier om het opnieuw weer te geven."
+		Quit="Sluiten Zappiti Media Center"
+		/>
+  <Value Id="AboutView"
+		Donate="Doneer!"
+		Scraper="Scrapers :"
+		Other="Andere:"
+		Links="Nuttige links:"
 		/>
 </Dictionary>

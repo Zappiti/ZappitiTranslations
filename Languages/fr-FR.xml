@@ -37,7 +37,7 @@
   <Value Id="SettingsTypeExport"
 		ExportDune="Dossier d'export Dune :"
 		ExportITunes="Dossier d'export iTunes :"
-		Body="Définissez vos dossier d'export."
+		Body="Définissez vos dossiers d'export."
 		DoYouHaveADune="J'ai un Zappiti Player / une Dune HD"
 		DoYouHaveAniPhone="J'ai un iPhone / iPad / iPod"
 		DeviceType="Périphérique :"
@@ -73,17 +73,11 @@
   <Value Id="SettingsIsXmlExport"
 		Text="Xml par défaut"
 		/>
-  <Value Id="SettingsFolders"
-		Text="Dossiers de vos médias :"
-		/>
   <Value Id="SettingsOK"
 		Content="OK"
 		/>
   <Value Id="SettingsCancel"
 		Content="Annuler"
-		/>
-  <Value Id="SettingsAddFolder"
-		Content="Nouveau dossier"
 		/>
   <Value Id="SettingsDeleteFolder"
 		Content="Supprimer"
@@ -271,17 +265,8 @@
   <Value Id="MainToCleanUp"
 		Text="{0} à supprimer"
 		/>
-  <Value Id="MainIsScanning"
-		Text="Scan en cours : {0}"
-		/>
-  <Value Id="MainIsScraping"
-		Text="Scrap en cours : {0}"
-		/>
-  <Value Id="MainIsAnalysing"
-		Text="Analyse : {0}"
-		/>
-  <Value Id="MainIsDownloadingPicture"
-		Text="Téléchargement d'images en cours : {0}"
+  <Value Id="DownloadingPictureTask"
+		Header="Téléchargement d'images en cours"
 		/>
   <Value Id="CleanUpMessage"
 		Text="Les médias suivants sont inaccessible. Voulez vous les retirer de la base de données ?"
@@ -290,9 +275,6 @@
 		Content="Supprimer"
 		/>
   <Value Id="CleanUpClose"
-		Content="Fermer"
-		/>
-  <Value Id="Splash"
 		Content="Fermer"
 		/>
   <Value Id="MessageBox"
@@ -425,6 +407,13 @@
 		/>
   <Value Id="SettingsTabFolders"
 		Header="Dossiers"
+		AutoScanScrap="Surveiller les dossiers et analyser automatiquement les nouveaux fichiers"
+		ScrapOnStarWindows="Lancer l'analyse des fichiers au lancement de l'application"
+		Folders="Dossiers de vos médias :"
+		AddFolder="Nouveau dossier"
+		AnalyseTimer="Lancer l'analyse à intervalle régulier"
+		Minutes="{0} minutes"
+		Hours="{0} heures"
 		/>
   <Value Id="SettingsTabOthers"
 		Header="Autres"
@@ -432,12 +421,11 @@
 		Recents="Nombre de jours à prendre en compte dans les récents :"
 		/>
   <Value Id="SettingsTabScrapers"
-		Header="Scrapeurs"
+		Header="Analyse"
 		MovieScraper="Films :"
 		MoviePictureScraper="Images de films :"
 		TVShowScraper="Séries :"
 		TVShowPictureScraper="Images de séries :"
-		ScrapOnStarWindows="Lancer le scan des fichiers au lancement de l'application"
 		SuppressAllAfterFirstExcludedWordFromTitle="Supprimer tous les caractères après le premier terme exclu trouvé"
 		WordToExludeFromMovies="Termes à exclure des titres :"
 		/>
@@ -658,13 +646,16 @@
 		Header="Rafraichissement des vidéos affichées"
 		/>
   <Value Id="MediaToDeleteTask"
-		Header="Trouve les fichiers qui n'existe plus"
+		Header="Trouve les fichiers qui n'existent plus"
 		/>
   <Value Id="FirstInitTask"
 		Header="Initialisation"
 		/>
   <Value Id="ScanTask"
-		Header="En train de scanner"
+		Header="En train d'analyser"
+		Analyse="Analyse le fichier : {0}"
+		Scrap="Récupère les informations : {0}"
+		Scan="Trouve les nouveaux fichiers"
 		/>
   <Value Id="ScanForTVShowEpisodeTask"
 		Header="Initialisation des informations d'un épisode"
@@ -936,15 +927,14 @@
 		StylePopup="Tapez le nom du style musical que vous voulez créer."
 		/>
   <Value Id="MainWindow"
-		Donate="Faire un don !"
 		DatabaseUpdating="Mise à jour de la base de données..."
 		Home="Accueil"
 		Configuration="Configurer"
-		Scan="Scanner"
 		DatabaseBadVersion="La version actuelle de Zappiti ne peut pas ouvrir la base de données selectionnée. Essayez avec une version plus récente de Zappiti."
 		SearchMedias="Rechercher"
 		Loading="Chargement"
 		About="A propos"
+		Analyse="Analyser"
 		/>
   <Value Id="EditPlaylist"
 		Header="Editer la playlist"
@@ -966,5 +956,15 @@
   <Value Id="CircularProgressBarPopup"
 		DoNotShow="Ne plus afficher."
 		WaitMessage="Merci de patienter pendant la synchronisation avec Zappiti Cloud.[br]Cliquez sur l'icone pour plus d'informations."
+		/>
+  <Value Id="TaskBarIcon"
+		RunningInBackground="Zappiti Media Center s'execute en arrière plan.[br]Cliquez ici pour l'afficher de nouveau."
+		Quit="Fermer Zappiti Media Center"
+		/>
+  <Value Id="AboutView"
+		Donate="Faire un don !"
+		Scraper="Scrapers :"
+		Other="Autres :"
+		Links="Liens utiles :"
 		/>
 </Dictionary>

@@ -38,7 +38,7 @@
   <Value Id="SettingsTypeExport"
 		ExportDune="Dune-Export-Datei:"
 		ExportITunes="iOS-Export-Datei:"
-		Body="Definieren Sie Ihre Export-Datei."
+		Body="Definieren Sie Ihre Exportdateien."
 		DoYouHaveADune="Ich habe einen Zappiti Player / einen Dune HD"
 		DoYouHaveAniPhone="Ich habe ein iPhone / iPad / iPod"
 		DeviceType="Gerät:"
@@ -77,17 +77,11 @@
   <Value Id="SettingsTabExport"
 		Header="Export"
 		/>
-  <Value Id="SettingsFolders"
-		Text="Ordner:"
-		/>
   <Value Id="SettingsOK"
 		Content="OK"
 		/>
   <Value Id="SettingsCancel"
 		Content="Abbrechen"
-		/>
-  <Value Id="SettingsAddFolder"
-		Content="Neuer Ordner"
 		/>
   <Value Id="SettingsDeleteFolder"
 		Content="Löschen"
@@ -191,17 +185,8 @@
   <Value Id="MainToCleanUp"
 		Text="{0} zu löschen"
 		/>
-  <Value Id="MainIsScanning"
-		Text="Scanne: {0}"
-		/>
-  <Value Id="MainIsScraping"
-		Text="Zuordnen: {0}"
-		/>
-  <Value Id="MainIsAnalysing"
-		Text="Analysiere: {0}"
-		/>
-  <Value Id="MainIsDownloadingPicture"
-		Text="Bilder herunterladen: {0}"
+  <Value Id="DownloadingPictureTask"
+		Header="Bilder herunterladen"
 		/>
   <Value Id="CleanUpMessage"
 		Text="Folgende Medien sind nicht vorhanden. Möchten Sie diese aus der Datenbank entfernen?"
@@ -210,9 +195,6 @@
 		Content="Entfernen"
 		/>
   <Value Id="CleanUpClose"
-		Content="Schließen"
-		/>
-  <Value Id="Splash"
 		Content="Schließen"
 		/>
   <Value Id="MessageBox"
@@ -345,6 +327,13 @@
 		/>
   <Value Id="SettingsTabFolders"
 		Header="Dateien"
+		AutoScanScrap="Ordner zu überwachen und automatisch neue Dateien analysieren"
+		ScrapOnStarWindows="Führen Sie Analysedateien zum Starten der Anwendung aus"
+		Folders="Ordner:"
+		AddFolder="Neuer Ordner"
+		AnalyseTimer="Starten Sie den Scanvorgang in regelmäßigen Abständen"
+		Minutes="{0} Minuten"
+		Hours="{0} Stunden"
 		/>
   <Value Id="SettingsTabOthers"
 		Header="Sonstiges"
@@ -352,12 +341,11 @@
 		Recents="Anzahl der Tage, unter Berücksichtigung des Aktuellsten nehmen:"
 		/>
   <Value Id="SettingsTabScrapers"
-		Header="Zuordnungsquellen"
+		Header="Analyse"
 		MovieScraper="Filme:"
 		MoviePictureScraper="Filmbilder:"
 		TVShowScraper="Serien:"
 		TVShowPictureScraper="Serienbilder:"
-		ScrapOnStarWindows="Bei Programmstart automatisch scannen"
 		SuppressAllAfterFirstExcludedWordFromTitle="Alles nach einem dieser Begriffe ignorieren"
 		WordToExludeFromMovies="Folgende Begriffe in Dateinamen für die Zuordnung ausschließen:"
 		/>
@@ -572,13 +560,16 @@
 		Header="Aktualisierung von angelegten Videos"
 		/>
   <Value Id="MediaToDeleteTask"
-		Header="Kontrollieren auf gelöschte Dateien"
+		Header="Findet Dateien, die nicht mehr vorhanden"
 		/>
   <Value Id="FirstInitTask"
 		Header="Initialisierung"
 		/>
   <Value Id="ScanTask"
-		Header="Scan-Vorgang läuft"
+		Header="Analyse"
+		Analyse="Analysiert die Datei: {0}"
+		Scrap="Ruft Informationen: {0}"
+		Scan="Die neuen Dateien zu finden"
 		/>
   <Value Id="ScanForTVShowEpisodeTask"
 		Header="Informationen einer Episode suchen"
@@ -937,15 +928,14 @@
 		StylePopup="Geben Sie den Namen des musikalischen Stils, die Sie erstellen möchten."
 		/>
   <Value Id="MainWindow"
-		Donate="Spenden!"
 		DatabaseUpdating="Update der Datenbank ..."
 		Home="Startseite"
 		Configuration="Einstellungen"
-		Scan="Scannen"
 		DatabaseBadVersion="Die aktuelle Version von Zappiti kann die ausgewählte Datenbank nicht öffnen. Versuchen Sie eine neuere Version von Zappiti."
 		SearchMedias="Suchen"
 		Loading="Laden"
 		About="Über das Programm"
+		Analyse="Analysieren"
 		/>
   <Value Id="EditPlaylist"
 		Header="Wiedergabeliste bearbeiten"
@@ -967,5 +957,15 @@
   <Value Id="CircularProgressBarPopup"
 		DoNotShow="Nicht mehr anzeigen."
 		WaitMessage="Bitte warten Sie während der Synchronisierung mit Zappiti Cloud.[br]Klicken Sie auf das Symbol für weitere Informationen."
+		/>
+  <Value Id="TaskBarIcon"
+		RunningInBackground="Zappiti Media Center im Hintergrund ausgeführt.[Br]Klicken Sie hier, um es wieder anzuzeigen."
+		Quit="Schließen Zappiti Media Center"
+		/>
+  <Value Id="AboutView"
+		Donate="Spenden!"
+		Scraper="Scrapers :"
+		Other="Andere:"
+		Links="Nützliche Links:"
 		/>
 </Dictionary>
