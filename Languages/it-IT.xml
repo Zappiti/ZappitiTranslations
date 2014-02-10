@@ -654,9 +654,6 @@
 		Name="Incrementale"
 		Description="Verranno esportate solo le modifiche intervenute dopo l'ultima esportazione."
 		/>
-  <Value Id="RescrapSelect"
-		Content="Seleziona"
-		/>
   <Value Id="WizardFinish"
 		Header="Configurazione completata"
 		Body="La configurazione di Zappiti Media Center è completata."
@@ -915,5 +912,11 @@
 		Scraper="Scrapers :"
 		Other="Altri:"
 		Links="Link utili:"
+		/>
+  <Value Id="RescrapView"
+		SearchByTitle="Identificare dal titolo"
+		SearchById="Identificare ID"
+		Search="Ricerca"
+		Title="Identificare"
 		/>
 </Dictionary>

@@ -654,9 +654,6 @@
 		Name="Incrementeel"
 		Description="Alleen de wijzigingen sinds de laatste export worden geëxporteerd."
 		/>
-  <Value Id="RescrapSelect"
-		Content="Kiezen"
-		/>
   <Value Id="WizardFinish"
 		Header="Configuratie voltooid"
 		Body="De configuratie van Zappiti Media Center is voltooid.[br][br]Laat Zappiti nu uw mediabestanden doorzoeken (klik op het vizier linksboven) zodat informatie over uw collectie volautomatisch van het internet kan worden gehaald.[br][br]Veel plezier met Zappiti!"
@@ -915,5 +912,11 @@
 		Scraper="Scrapers :"
 		Other="Andere:"
 		Links="Nuttige links:"
+		/>
+  <Value Id="RescrapView"
+		SearchByTitle="Identificeren door titel"
+		SearchById="Identificeren door Id"
+		Search="Zoeken"
+		Title="Identificeren"
 		/>
 </Dictionary>

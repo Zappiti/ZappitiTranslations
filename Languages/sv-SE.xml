@@ -653,9 +653,6 @@
 		Name="Senaste"
 		Description="Bara de senaste ändringarna sedan senaste export, exporteras."
 		/>
-  <Value Id="RescrapSelect"
-		Content="Välj"
-		/>
   <Value Id="WizardFinish"
 		Header="Konfigurering komplett"
 		Body="Konfigurationen av Zappiti Media Center är klar."
@@ -914,5 +911,11 @@
 		Scraper="Scrapers :"
 		Other="Andra:"
 		Links="Användbara länkar:"
+		/>
+  <Value Id="RescrapView"
+		SearchByTitle="Identifiera titel"
+		SearchById="Identifiera av Id"
+		Search="Sök"
+		Title="Identifiera"
 		/>
 </Dictionary>

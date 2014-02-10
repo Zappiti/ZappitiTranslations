@@ -654,9 +654,6 @@
 		Name="Povečanje"
 		Description="Samo zadnje spremembe od zadnjega izvoza so izvožene."
 		/>
-  <Value Id="RescrapSelect"
-		Content="Izberi"
-		/>
   <Value Id="WizardFinish"
 		Header="Konfiguracija zaključena"
 		Body="Konfiguracija Zappiti Media Center je zaključena."
@@ -915,5 +912,11 @@
 		Scraper="Scrapers :"
 		Other="Druge:"
 		Links="Koristne povezave:"
+		/>
+  <Value Id="RescrapView"
+		SearchByTitle="Prepoznati po naslovu"
+		SearchById="Identificirati z Id"
+		Search="Išči"
+		Title="Prepoznavanje"
 		/>
 </Dictionary>

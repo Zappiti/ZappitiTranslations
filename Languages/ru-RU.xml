@@ -409,9 +409,6 @@
   <Value Id="EditSize"
 		Text="Размер"
 		/>
-  <Value Id="RescrapSelect"
-		Content="Выбрать"
-		/>
   <Value Id="Loading"
 		Text="Загрузка ..."
 		/>
@@ -919,5 +916,11 @@
 		Scraper="Scrapers :"
 		Other="Другие:"
 		Links="Полезные ссылки:"
+		/>
+  <Value Id="RescrapView"
+		SearchByTitle="Определить по названию"
+		SearchById="Определить по Id"
+		Search="Поиск"
+		Title="Определить"
 		/>
 </Dictionary>

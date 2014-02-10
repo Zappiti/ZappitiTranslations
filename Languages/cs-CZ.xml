@@ -424,9 +424,6 @@
 		Ongoing="Pokračující"
 		Unseen="Není vidět"
 		/>
-  <Value Id="RescrapSelect"
-		Content="Vybrat"
-		/>
   <Value Id="WizardWelcome"
 		Body="Vítejte. [br] [br] Tento průvodce vám pomůže nastavit Zappiti. [br] [br] Klikněte na &quot;Řekni, kde vaše souborů&quot;, aby nám řekl, kde se vaše souborů."
 		Close="Zavřít"
@@ -914,5 +911,11 @@
 		Scraper="Scrapers :"
 		Other="Ostatní:"
 		Links="Užitečné odkazy:"
+		/>
+  <Value Id="RescrapView"
+		SearchByTitle="Identifikovat podle názvu"
+		SearchById="Identifikovat podle Id"
+		Search="Hledat"
+		Title="Identifikovat"
 		/>
 </Dictionary>

@@ -648,9 +648,6 @@
 		Name="Incremental"
 		Description="Solo los últimos cambios desde la última exportación serán exportados."
 		/>
-  <Value Id="RescrapSelect"
-		Content="Seleccionar"
-		/>
   <Value Id="WizardFinish"
 		Header="Configuración completa"
 		Body="La configuración de Zappiti se ha completado."
@@ -914,5 +911,11 @@
 		Scraper="Scrapers :"
 		Other="Otros:"
 		Links="Enlaces útiles:"
+		/>
+  <Value Id="RescrapView"
+		SearchByTitle="Identificar por el título"
+		SearchById="Identificar por Id"
+		Search="Búsqueda de"
+		Title="Identificar"
 		/>
 </Dictionary>

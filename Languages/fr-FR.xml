@@ -408,9 +408,6 @@
   <Value Id="EditSize"
 		Text="Taille"
 		/>
-  <Value Id="RescrapSelect"
-		Content="Sélectionner"
-		/>
   <Value Id="Loading"
 		Text="Chargement ..."
 		/>
@@ -914,5 +911,11 @@
 		Scraper="Scrapers :"
 		Other="Autres :"
 		Links="Liens utiles :"
+		/>
+  <Value Id="RescrapView"
+		SearchByTitle="Identifier par titre"
+		SearchById="Identifier par Id"
+		Search="Chercher"
+		Title="Identifier"
 		/>
 </Dictionary>

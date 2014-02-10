@@ -654,9 +654,6 @@
 		Name="Przyrostowe"
 		Description="Tylko nowe zmiany od ostatniego eksportu są eksportowane."
 		/>
-  <Value Id="RescrapSelect"
-		Content="Wybierz"
-		/>
   <Value Id="WizardFinish"
 		Header="Konfiguracja ukończona"
 		Body="Konfiguracja Zappiti Media Center jest ukończona."
@@ -915,5 +912,11 @@
 		Scraper="Scrapers :"
 		Other="Inne:"
 		Links="Przydatne linki:"
+		/>
+  <Value Id="RescrapView"
+		SearchByTitle="Określenie przez tytuł"
+		SearchById="Określenie przez Id"
+		Search="Szukaj"
+		Title="Identyfikacji"
 		/>
 </Dictionary>

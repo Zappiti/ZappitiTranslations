@@ -654,9 +654,6 @@
   <Value Id="Z"
 		Text="Z"
 		/>
-  <Value Id="RescrapSelect"
-		Content="Wählen"
-		/>
   <Value Id="WizardFinish"
 		Header="Konfiguration fertig"
 		Body="Die Konfiguration Ihres Zappiti Media Centers ist abgeschlossen."
@@ -915,5 +912,11 @@
 		Scraper="Scrapers :"
 		Other="Andere:"
 		Links="Nützliche Links:"
+		/>
+  <Value Id="RescrapView"
+		SearchByTitle="Identifizieren, indem Sie Titel"
+		SearchById="Identifizieren von Id"
+		Search="Suche"
+		Title="Identifizieren"
 		/>
 </Dictionary>
