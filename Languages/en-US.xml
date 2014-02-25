@@ -265,6 +265,10 @@
 		DoYouWantToQuit="Treatments are still in progress.[br]Are you sure you want to exit anyway?"
 		DoYouWanToInstallStreamingModule="Install you the streaming module?"
 		UpnpFailed="UPnP port forwarding failed. You must manually configure your network."
+		DoYouWantToDeleteThisFolder="You are about to delete a folder from your configuration.[br]Click Yes to also remove {0} from Zappiti.[br]Click No to keep the {0} in Zappiti.[br]Click Cancel to cancel the operation."
+		FolderMusic="corresponding music"
+		FolderMovie="corresponding films"
+		FolderTVShow="corresponding series"
 		/>
   <Value Id="MessageBoxCaption"
 		NewReleaseAvailable="Update available"
@@ -281,6 +285,7 @@
 		DoYouWantToQuit="Current treatments."
 		DoYouWanToInstallStreamingModule="Software required"
 		UpnpFailed="UPnP configuration error"
+		DoYouWantToDeleteThisFolder="For the removal of a configuration file."
 		/>
   <Value Id="EditChannels"
 		Text="Channels"
@@ -466,6 +471,7 @@
   <Value Id="FolderDataTemplate"
 		Edit="Change"
 		Delete="Remove"
+		Error="This folder is not accessible."
 		/>
   <Value Id="WizardRewriteLocationUrl"
 		Header="Path selection"
@@ -503,9 +509,9 @@
 		Music="Music"
 		/>
   <Value Id="Settings"
-		PlayerHeader="Player"
 		Header="Settings"
 		AccountHeader="Account"
+		LocalServerHeader="Remote control"
 		/>
   <Value Id="PlayerConfigView"
 		IsControlRunning="Enable support for remote control."
@@ -905,6 +911,7 @@
   <Value Id="TaskBarIcon"
 		RunningInBackground="Zappiti Media Center to execute in the background.[br]Click here to display it again."
 		Quit="Close Zappiti Media Center"
+		FoldersError="Some files are not accessible. Click here to view the details."
 		/>
   <Value Id="AboutView"
 		Donate="Donate!"
@@ -917,5 +924,26 @@
 		SearchById="Identify by Id"
 		Search="Search"
 		Title="Identify"
+		/>
+  <Value Id="WizardActivateToken"
+		Header="Have you a Zappiti Player ?"
+		Back="&lt;&lt; Previous"
+		Next="Next &gt;&gt;"
+		Tips="This code is generally present on your invoice or packaging of your Zappiti Player. If you can't find it, contact your dealer to get it."
+		Activate="Activate"
+		ActivateBody="Enter your activation code (Zappiti Player Token) ci below to activate your Zappiti Player. "
+		TooMuchTry="You do too much testing infructieux. Please try again by 24 hours."
+		TokenAlreadyInUse="This activation code is already used by another account. He must be released from this another account before reuse."
+		NotFound="This activation code does not exist."
+		BadLicence="An error occurred while retrieving your user license."
+		/>
+  <Value Id="ZappitiPlayerConfigView"
+		Release="Free"
+		YourTokens="Here is the list of activation codes associated with your account. You can release them for reuse with another account. You will receive a confirmation email."
+		Activate="Activate"
+		Body="Enter your activation code (Zappiti Player Token) ci below to activate your Zappiti Player. "
+		/>
+  <Value Id="DeleteTask"
+		Header="Current deletion..."
 		/>
 </Dictionary>

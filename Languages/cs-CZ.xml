@@ -220,6 +220,10 @@
 		DoYouWantToQuit="Procedury jsou stále ve vývoji.[br]Jste si jisti, že chcete ukončit vlastně je?"
 		DoYouWanToInstallStreamingModule="Instalace jste modulu datových proudů?"
 		UpnpFailed="Předávání portů UPnP selhal. Je třeba ručně nakonfigurovat síť."
+		DoYouWantToDeleteThisFolder="Se chystáte odstranit složku z vaší konfigurace.[br]Klepněte na tlačítko Ano také odstranit {0} z Zappiti.[br]Klepněte na tlačítko Ne aby {0} v Zappiti.[br]Klepněte na tlačítko Storno operaci zrušíte."
+		FolderMusic="odpovídající hudba"
+		FolderMovie="odpovídající filmy"
+		FolderTVShow="příslušné série"
 		/>
   <Value Id="MessageBoxCaption"
 		NewReleaseAvailable="K dispozici je aktualizace"
@@ -236,6 +240,7 @@
 		DoYouWantToQuit="Současná léčba."
 		DoYouWanToInstallStreamingModule="Požadován software"
 		UpnpFailed="Chyba konfigurace UPnP"
+		DoYouWantToDeleteThisFolder="Pro odstranění konfiguračního souboru."
 		/>
   <Value Id="EditChannels"
 		Text="Kanály"
@@ -466,6 +471,7 @@
   <Value Id="FolderDataTemplate"
 		Edit="Změna"
 		Delete="Odstranit"
+		Error="Tato složka není dostupná."
 		/>
   <Value Id="WizardRewriteLocationUrl"
 		Header="Tvorba cesta"
@@ -503,9 +509,9 @@
 		Music="Hudba"
 		/>
   <Value Id="Settings"
-		PlayerHeader="Hráč"
 		Header="Konfigurace"
 		AccountHeader="Účet"
+		LocalServerHeader="Dálkové ovládání"
 		/>
   <Value Id="PlayerConfigView"
 		IsControlRunning="Povolení vzdáleného převzetí."
@@ -905,6 +911,7 @@
   <Value Id="TaskBarIcon"
 		RunningInBackground="Zappiti Media Center můžete spustit na pozadí.[br]Klepnutím sem zobrazíte jej znovu."
 		Quit="Zavřít Zappiti Media Center"
+		FoldersError="Některé soubory nejsou přístupné. Klepnutím sem zobrazíte podrobnosti."
 		/>
   <Value Id="AboutView"
 		Donate="Přispějte!"
@@ -917,5 +924,26 @@
 		SearchById="Identifikovat podle Id"
 		Search="Hledat"
 		Title="Identifikovat"
+		/>
+  <Value Id="WizardActivateToken"
+		Header="Už jste Zappiti Player ?"
+		Back="&lt;&lt; Předchozí"
+		Next="Další &gt;&gt;"
+		Tips="Tento kód je obvykle přítomen na vaší faktuře nebo balení vašeho Zappiti Player. Pokud nemůžete najít, obraťte se na svého prodejce, aby si to."
+		Activate="Aktivovat"
+		ActivateBody="Zadejte váš aktivační kód (Zappiti Player Token) ci níže a aktivovat váš Zappiti Player. "
+		TooMuchTry="Děláte příliš mnoho testování infructieux. Prosím zkuste znovu do 24 hodin."
+		TokenAlreadyInUse="Tento aktivační kód je již používán jiným účtem. On musí být uvolněny z tohoto jiného účtu před opětovným použitím."
+		NotFound="Tento aktivační kód neexistuje."
+		BadLicence="Došlo k chybě při načítání uživatelskou licenci."
+		/>
+  <Value Id="ZappitiPlayerConfigView"
+		Release="Zdarma"
+		YourTokens="Zde je seznam kódů aktivace spojený s vaším účtem. Můžete jim uvolnit pro použití s jiným účtem. Zobrazí se potvrzovací e-mail."
+		Activate="Aktivovat"
+		Body="Zadejte váš aktivační kód (Zappiti hráč Token) ci níže k aktivaci přehrávače Zappiti. "
+		/>
+  <Value Id="DeleteTask"
+		Header="Současné odstranění..."
 		/>
 </Dictionary>

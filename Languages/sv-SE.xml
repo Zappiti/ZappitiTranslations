@@ -265,6 +265,10 @@
 		DoYouWantToQuit="Behandlingar pågår fortfarande.[br]Är du säker på att du vill avsluta ändå?"
 		DoYouWanToInstallStreamingModule="Installera du modulen streaming?"
 		UpnpFailed="Det gick inte att UPnP portforwarding. Du måste manuellt konfigurera ditt nätverk."
+		DoYouWantToDeleteThisFolder="Du tar bort en mapp från din konfiguration.[br]Klicka på Ja för att även ta bort {0} från Zappiti.[br]Klicka på Nej för att hålla {0} i Zappiti.[br]Klicka på Avbryt för att avbryta åtgärden."
+		FolderMusic="motsvarande musik"
+		FolderMovie="motsvarande filmer"
+		FolderTVShow="motsvarande serie"
 		/>
   <Value Id="MessageBoxCaption"
 		NewReleaseAvailable="Uppdatering tillgänglig"
@@ -281,6 +285,7 @@
 		DoYouWantToQuit="Nuvarande behandlingar."
 		DoYouWanToInstallStreamingModule="Programvara som krävs"
 		UpnpFailed="UPnP-konfigurationsfel"
+		DoYouWantToDeleteThisFolder="För avlägsnande av en konfigurationsfil."
 		/>
   <Value Id="EditChannels"
 		Text="Kanaler"
@@ -466,6 +471,7 @@
   <Value Id="FolderDataTemplate"
 		Edit="Ändra"
 		Delete="Tabort"
+		Error="Mappen är inte tillgänglig."
 		/>
   <Value Id="WizardRewriteLocationUrl"
 		Header="Val av sökväg"
@@ -503,9 +509,9 @@
 		Music="Musik"
 		/>
   <Value Id="Settings"
-		PlayerHeader="Spelare"
 		Header="Inställningar"
 		AccountHeader="Räkning"
+		LocalServerHeader="Fjärrkontroll"
 		/>
   <Value Id="PlayerConfigView"
 		IsControlRunning="Aktivera stöd för fjärrstyrning."
@@ -905,6 +911,7 @@
   <Value Id="TaskBarIcon"
 		RunningInBackground="Zappiti Media Center ska köras i bakgrunden.[br]Klicka här för att visa den igen."
 		Quit="Stäng Zappiti Media Center"
+		FoldersError="Vissa filer är inte tillgängliga. Klicka här för att visa detaljer."
 		/>
   <Value Id="AboutView"
 		Donate="Donera !"
@@ -917,5 +924,26 @@
 		SearchById="Identifiera av Id"
 		Search="Sök"
 		Title="Identifiera"
+		/>
+  <Value Id="WizardActivateToken"
+		Header="Har du en Zappiti Player ?"
+		Back="&lt;&lt; Föregående"
+		Next="Nästa &gt;&gt;"
+		Tips="Denna kod är generellt finns på din faktura eller förpackning av din Zappiti Player. Om du inte hittar det, kontakta din återförsäljare för att få den."
+		Activate="Aktivera"
+		ActivateBody="Ange din aktiveringen koden (Zappiti Player Token) ci nedan för att aktivera din Zappiti Player. "
+		TooMuchTry="Du gör alltför mycket testning infructieux. Försök igen med 24 timmar."
+		TokenAlreadyInUse="Här aktiveringskoden används redan av ett annat konto. Han måste befrias från detta ett annat konto före återanvändning."
+		NotFound="Här aktiveringskoden finns inte."
+		BadLicence="Ett fel inträffade vid hämtning av din användarlicens."
+		/>
+  <Value Id="ZappitiPlayerConfigView"
+		Release="Gratis"
+		YourTokens="Här är listan över aktiveringskoder kopplade till ditt konto. Du kan släppa dem på nytt med ett annat konto. Här får du ett bekräftelsemail."
+		Activate="Aktivera"
+		Body="Ange din aktiveringen koden (Zappiti-spelare Token) ci nedan för att aktivera din Zappiti Player. "
+		/>
+  <Value Id="DeleteTask"
+		Header="Nuvarande borttagning..."
 		/>
 </Dictionary>

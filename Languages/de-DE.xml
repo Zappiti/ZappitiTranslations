@@ -182,6 +182,10 @@
 		DoYouWantToQuit="Die Behandlungen sind noch im Gange.[br]Sind Sie sicher, dass Sie trotzdem beenden?"
 		DoYouWanToInstallStreamingModule="Installieren Sie das streaming-Modul?"
 		UpnpFailed="UPnP-Port-Forwarding ist fehlgeschlagen. Sie müssen Ihr Netzwerk manuell konfigurieren."
+		DoYouWantToDeleteThisFolder="Sie sollen einen Ordner aus Ihrer Konfiguration zu löschen.[Br]Klicken Sie auf Ja, um auch {0} aus Zappiti entfernen.[Br]Klicken Sie auf Nein, um die {0} in Zappiti zu halten.[Br]Klicken Sie auf &quot;Abbrechen&quot;, um den Vorgang abzubrechen."
+		FolderMusic="entsprechende Musik"
+		FolderMovie="entsprechenden Filme"
+		FolderTVShow="entsprechenden Reihe"
 		/>
   <Value Id="MessageBoxCaption"
 		NewReleaseAvailable="Neue Version verfügbar"
@@ -198,6 +202,7 @@
 		DoYouWantToQuit="Aktuelle Behandlungen."
 		DoYouWanToInstallStreamingModule="Erforderliche Software"
 		UpnpFailed="UPnP-Konfigurationsfehler"
+		DoYouWantToDeleteThisFolder="Sie sollen einen Ordner aus Ihrer Konfiguration zu löschen.[Br]Klicken Sie auf Ja, um auch {0} aus Zappiti entfernen.[Br]Klicken Sie auf Nein, um die {0} in Zappiti zu halten.[Br]Klicken Sie auf &quot;Abbrechen&quot;, um den Vorgang abzubrechen."
 		/>
   <Value Id="EditChannels"
 		Text="Kanäle"
@@ -383,6 +388,7 @@
   <Value Id="FolderDataTemplate"
 		Edit="Ändern"
 		Delete="Entfernen"
+		Error="Dieser Ordner ist nicht verfügbar."
 		/>
   <Value Id="WizardRewriteLocationUrl"
 		Header="Speicherort wählen"
@@ -420,9 +426,9 @@
 		Music="Musik"
 		/>
   <Value Id="Settings"
-		PlayerHeader="Player"
 		Header="Einstellungen"
 		AccountHeader="Benutzer-Account"
+		LocalServerHeader="Fernbedienung"
 		/>
   <Value Id="PlayerConfigView"
 		IsControlRunning="Unterstützung für Fernbedienung aktivieren"
@@ -906,6 +912,7 @@
   <Value Id="TaskBarIcon"
 		RunningInBackground="Zappiti Media Center im Hintergrund ausgeführt.[Br]Klicken Sie hier, um es wieder anzuzeigen."
 		Quit="Schließen Zappiti Media Center"
+		FoldersError="Einige Dateien werden nicht zugegriffen. Klicken Sie hier, um die Details anzuzeigen."
 		/>
   <Value Id="AboutView"
 		Donate="Spenden!"
@@ -918,5 +925,26 @@
 		SearchById="Identifizieren von Id"
 		Search="Suche"
 		Title="Identifizieren"
+		/>
+  <Value Id="WizardActivateToken"
+		Header="Haben Sie eine Zappiti Player ?"
+		Back="&lt;&lt; Zurück"
+		Next="Nächste &gt;&gt;"
+		Tips="Dieser Code ist im Allgemeinen auf Ihre Rechnung oder Verpackung von Ihrem Zappiti Player vorhanden. Wenn Sie es nicht finden, kontaktieren Sie Ihren Händler um es zu bekommen."
+		Activate="Aktivieren"
+		ActivateBody="Geben Sie Ihre Aktivierungs Code (Zappiti Player Token) Ci unten, um Ihre Zappiti Player zu aktivieren. "
+		TooMuchTry="Sie tun zuviel testen Infructieux. Bitte versuchen Sie es erneut um 24 Stunden."
+		TokenAlreadyInUse="Dieser Aktivierungscode wird bereits durch ein anderes Konto verwendet. Er muss von diesem ein anderes Konto vor Wiederverwendung freigegeben werden."
+		NotFound="Diese Aktivierungs-Code ist nicht vorhanden."
+		BadLicence="Fehler beim Abrufen Ihrer Benutzerlizenz."
+		/>
+  <Value Id="ZappitiPlayerConfigView"
+		Release="Kostenlose"
+		YourTokens="Hier ist die Liste der Aktivierungs-Codes, die Ihrem Konto zugeordnet. Sie können sie zur Wiederverwendung mit einem anderen Konto freigeben. Sie erhalten eine Bestätigung per e-Mail."
+		Activate="Aktivieren"
+		Body="Geben Sie Ihre Aktivierungs Code (Zappiti Spieler Token) Ci unten, um Ihre Zappiti Player zu aktivieren. "
+		/>
+  <Value Id="DeleteTask"
+		Header="Aktuelle löschen..."
 		/>
 </Dictionary>

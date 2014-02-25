@@ -266,6 +266,10 @@
 		DoYouWantToQuit="Zdravljenja so še vedno v teku.[br]Ali ste prepričani, da želite vseeno končam?"
 		DoYouWanToInstallStreamingModule="Napeljati tok modul?"
 		UpnpFailed="UPnP luka odpošiljanje ni uspela. Morate ročno konfigurirati omrežju."
+		DoYouWantToDeleteThisFolder="Ste izbrisali mapo iz vaše konfiguracije.[br]Kliknite Yes umakniti tudi {0} iz Zappiti.[br]Kliknite ne da {0} v Zappiti.[br]Kliknite Prekliči, če želite preklicati operacijo."
+		FolderMusic="ustrezne glasba"
+		FolderMovie="ustrezne filmov"
+		FolderTVShow="ustrezna serija"
 		/>
   <Value Id="MessageBoxCaption"
 		NewReleaseAvailable="Posodobitev je na voljo"
@@ -282,6 +286,7 @@
 		DoYouWantToQuit="Trenutni zdravljenja."
 		DoYouWanToInstallStreamingModule="Programske opreme, potrebne"
 		UpnpFailed="Napaka pri konfiguriranju UPnP"
+		DoYouWantToDeleteThisFolder="Za odstranitev konfiguracijske datoteke."
 		/>
   <Value Id="EditChannels"
 		Text="Kanali"
@@ -467,6 +472,7 @@
   <Value Id="FolderDataTemplate"
 		Edit="Spremeni"
 		Delete="Odstrani"
+		Error="Ta mapa ni dostopen."
 		/>
   <Value Id="WizardRewriteLocationUrl"
 		Header="Kreiraj pot"
@@ -504,9 +510,9 @@
 		Music="Glasba"
 		/>
   <Value Id="Settings"
-		PlayerHeader="Predvajalnik"
 		Header="Nastavitve"
 		AccountHeader="Račun"
+		LocalServerHeader="Daljinski upravljalnik"
 		/>
   <Value Id="PlayerConfigView"
 		IsControlRunning="Omogoči podporo za daljinsko upravljanje"
@@ -906,6 +912,7 @@
   <Value Id="TaskBarIcon"
 		RunningInBackground="Zappiti Media Center vršiti v ozadju.[br]Kliknite tukaj, da ga znova prikažete."
 		Quit="Zaprite Zappiti Media Center"
+		FoldersError="Nekatere datoteke niso dostopne. Kliknite tukaj za ogled podrobnosti."
 		/>
   <Value Id="AboutView"
 		Donate="Donirajte !"
@@ -918,5 +925,26 @@
 		SearchById="Identificirati z Id"
 		Search="Išči"
 		Title="Prepoznavanje"
+		/>
+  <Value Id="WizardActivateToken"
+		Header="So a Zappiti Player ?"
+		Back="&lt;&lt;Prejšnja"
+		Next="Naslednji &gt;&gt;"
+		Tips="Ta številka je na splošno na vaš račun ali pakiranje vaše Zappiti Player. Če ne najdete, se obrnite na prodajalca zadobiti to."
+		Activate="Aktiviranje"
+		ActivateBody="Nastopiti activation zbornik (Zappiti Player Token) ci spodaj v activate vaš Zappiti Player. "
+		TooMuchTry="Narediš preveč testiranje infructieux. Poskusite znova z 24 ur."
+		TokenAlreadyInUse="To activation zbornik je že uporablja drug račun. On mora sprostiti od tega drugega računa pred ponovno uporabo."
+		NotFound="To activation zbornik ne obstaja."
+		BadLicence="Pridobivanje uporabnik dati dovoljenje je prišlo do napake."
+		/>
+  <Value Id="ZappitiPlayerConfigView"
+		Release="Prosta"
+		YourTokens="Tukaj je seznam activation oznake, povezane z računom. Lahko jih javnost za ponovno uporabo z drugim računom. Boste prejeli potrditveno e-pošto."
+		Activate="Aktiviranje"
+		Body="Nastopiti activation zbornik (Zappiti igralec Token) ci spodaj v activate vaš Zappiti igralec. "
+		/>
+  <Value Id="DeleteTask"
+		Header="Trenutni izbris..."
 		/>
 </Dictionary>

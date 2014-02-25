@@ -266,6 +266,10 @@
 		DoYouWantToQuit="Behandelingen zijn nog in volle gang.[br]Weet u zeker dat u wilt toch afsluiten?"
 		DoYouWanToInstallStreamingModule="Installeert u de streaming module?"
 		UpnpFailed="UPnP-poort forwarding is mislukt. Uw netwerk moet u handmatig configureren."
+		DoYouWantToDeleteThisFolder="U bent bezig met een map verwijderen uit uw configuratie.[br]Klik op Ja als u wilt ook verwijderen {0} van Zappiti.[br]Klik op Nee als u wilt houden de {0} in Zappiti.[br]Klik op Annuleren om de bewerking te annuleren."
+		FolderMusic="overeenkomstige muziek"
+		FolderMovie="overeenkomstige films"
+		FolderTVShow="overeenkomstige serie"
 		/>
   <Value Id="MessageBoxCaption"
 		NewReleaseAvailable="Nieuwe versie beschikbaar"
@@ -282,6 +286,7 @@
 		DoYouWantToQuit="Huidige behandelingen."
 		DoYouWanToInstallStreamingModule="Software vereist"
 		UpnpFailed="UPnP-configuratiefout"
+		DoYouWantToDeleteThisFolder="Voor het verwijderen van een configuratiebestand."
 		/>
   <Value Id="EditChannels"
 		Text="Kanalen"
@@ -467,6 +472,7 @@
   <Value Id="FolderDataTemplate"
 		Edit="Wijzigen"
 		Delete="Verwijderen"
+		Error="Deze map is niet toegankelijk."
 		/>
   <Value Id="WizardRewriteLocationUrl"
 		Header="Pad aanpassen"
@@ -504,9 +510,9 @@
 		Music="Muziek"
 		/>
   <Value Id="Settings"
-		PlayerHeader="Speler"
 		Header="Configuratie"
 		AccountHeader="Rekening"
+		LocalServerHeader="Afstandsbediening"
 		/>
   <Value Id="PlayerConfigView"
 		IsControlRunning="Ondersteuning voor afstandsbediening inschakelen."
@@ -906,6 +912,7 @@
   <Value Id="TaskBarIcon"
 		RunningInBackground="Zappiti Media Center uit te voeren op de achtergrond.[br]Klik hier om het opnieuw weer te geven."
 		Quit="Sluiten Zappiti Media Center"
+		FoldersError="Sommige bestanden zijn niet toegankelijk. Klik hier om de details te bekijken."
 		/>
   <Value Id="AboutView"
 		Donate="Doneer!"
@@ -918,5 +925,26 @@
 		SearchById="Identificeren door Id"
 		Search="Zoeken"
 		Title="Identificeren"
+		/>
+  <Value Id="WizardActivateToken"
+		Header="Heb je een Zappiti Player ?"
+		Back="&lt;&lt; Vorige"
+		Next="Volgende &gt;&gt;"
+		Tips="Deze code is over het algemeen aanwezig op uw factuur of verpakking van uw Zappiti Player. Als u het niet kunt vinden, neem dan contact op met uw dealer om het te krijgen."
+		Activate="Activeren"
+		ActivateBody="Voer uw activatie code (Zappiti Player Token) ci hieronder om uw Zappiti Player te activeren. "
+		TooMuchTry="Je teveel testen infructieux. Probeer het opnieuw door 24 uur."
+		TokenAlreadyInUse="Deze activeringscode is reeds gebruikt door een andere account. Hij moet worden vrijgelaten uit deze een andere account voor hergebruik."
+		NotFound="Deze activeringscode bestaat niet."
+		BadLicence="Er is een fout opgetreden bij het ophalen van uw gebruikerslicentie."
+		/>
+  <Value Id="ZappitiPlayerConfigView"
+		Release="Gratis"
+		YourTokens="Hier is de lijst van activatiecodes die zijn gekoppeld aan uw account. U kunt hen vrijgeven voor hergebruik met een andere account. U ontvangt een bevestiging per e-mail."
+		Activate="Activeren"
+		Body="Voer uw activatie code (Zappiti-speler Token) ci hieronder om te activeren uw Zappiti Player. "
+		/>
+  <Value Id="DeleteTask"
+		Header="Huidige verwijderen..."
 		/>
 </Dictionary>

@@ -266,6 +266,10 @@
 		DoYouWantToQuit="Tratamentos ainda estão em andamento.[br]Tem certeza de que quer sair de qualquer jeito?"
 		DoYouWanToInstallStreamingModule="Você instalar o módulo de transmissão?"
 		UpnpFailed="Encaminhamento de porta UPnP falhou. Você deve configurar manualmente sua rede."
+		DoYouWantToDeleteThisFolder="Você está prestes a excluir uma pasta de sua configuração.[br]Clique em Sim para remover também {0} de Zappiti.[br]Clique em não para manter o {0} em Zappiti.[br]Clique em Cancelar para cancelar a operação."
+		FolderMusic="música correspondente"
+		FolderMovie="filmes correspondentes"
+		FolderTVShow="série correspondente"
 		/>
   <Value Id="MessageBoxCaption"
 		NewReleaseAvailable="Atualização disponível"
@@ -282,6 +286,7 @@
 		DoYouWantToQuit="Os tratamentos atuais."
 		DoYouWanToInstallStreamingModule="Software necessário"
 		UpnpFailed="Erro de configuração UPnP"
+		DoYouWantToDeleteThisFolder="Para a remoção de um arquivo de configuração."
 		/>
   <Value Id="EditChannels"
 		Text="Canais"
@@ -467,6 +472,7 @@
   <Value Id="FolderDataTemplate"
 		Edit="Alterar"
 		Delete="Remover"
+		Error="Esta pasta não está acessível."
 		/>
   <Value Id="WizardRewriteLocationUrl"
 		Header="Configuração da localização"
@@ -504,9 +510,9 @@
 		Music="Música"
 		/>
   <Value Id="Settings"
-		PlayerHeader="Player"
 		Header="Configurações"
 		AccountHeader="Conta"
+		LocalServerHeader="Controle remoto"
 		/>
   <Value Id="PlayerConfigView"
 		IsControlRunning="Ativar suporte para controle remoto."
@@ -906,6 +912,7 @@
   <Value Id="TaskBarIcon"
 		RunningInBackground="Zappiti Media Center para executar em segundo plano.[br]Clique aqui para exibi-la novamente."
 		Quit="Fechar Zappiti Media Center"
+		FoldersError="Alguns arquivos não são acessíveis. Clique aqui para ver os detalhes."
 		/>
   <Value Id="AboutView"
 		Donate="Doar !"
@@ -918,5 +925,26 @@
 		SearchById="Identificar por Id"
 		Search="Pesquisa"
 		Title="Identificar"
+		/>
+  <Value Id="WizardActivateToken"
+		Header="Você tem um Zappiti Player ?"
+		Back="&lt;&lt;Anterior"
+		Next="Próximo &gt;&gt;"
+		Tips="Esse código é geralmente presente na sua factura ou empacotamento de seu Zappiti Player. Se você não pode encontrá-lo, contacte o seu revendedor para obtê-lo."
+		Activate="Ativar"
+		ActivateBody="Digite seu código (Zappiti Player Token) de ativação ci abaixo para ativar seu Zappiti Player. "
+		TooMuchTry="Você faz muito infructieux teste. Por favor, tente novamente por 24 horas."
+		TokenAlreadyInUse="Este código de ativação já é usado por outra conta. Ele deve ser libertado esta outra conta antes reusar."
+		NotFound="Este código de ativação não existe."
+		BadLicence="Ocorreu um erro ao recuperar sua licença de usuário."
+		/>
+  <Value Id="ZappitiPlayerConfigView"
+		Release="Grátis"
+		YourTokens="Aqui está a lista de códigos de ativação, associado à sua conta. Você pode liberá-los para reutilização com outra conta. Você receberá um e-mail de confirmação."
+		Activate="Ativar"
+		Body="Insira sua ativação (Zappiti jogador Token) código ci abaixo para ativar seu Zappiti Player. "
+		/>
+  <Value Id="DeleteTask"
+		Header="Exclusão atual..."
 		/>
 </Dictionary>

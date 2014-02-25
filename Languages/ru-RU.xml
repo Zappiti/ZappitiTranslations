@@ -266,6 +266,10 @@
 		DoYouWantToQuit="Лечения все еще в стадии разработки.[br]Вы уверены, что хотите выйти?"
 		DoYouWanToInstallStreamingModule="Установка модуля потокового?"
 		UpnpFailed="Не удалось выполнить переадресацию портов UPnP. Необходимо вручную настроить сеть."
+		DoYouWantToDeleteThisFolder="Вы собираетесь удалить папки из вашей конфигурации.[br]Нажмите кнопку Да, чтобы удалить {0} из Zappiti.[br]Нажмите кнопку Нет, чтобы сохранить {0} в Zappiti.[br]Нажмите кнопку Отмена, чтобы отменить операцию."
+		FolderMusic="соответствующие музыка"
+		FolderMovie="соответствующие фильмы"
+		FolderTVShow="соответствующей серии"
 		/>
   <Value Id="MessageBoxCaption"
 		NewReleaseAvailable="Новая версия доступна для скачивания"
@@ -282,6 +286,7 @@
 		DoYouWantToQuit="Современные методы лечения."
 		DoYouWanToInstallStreamingModule="Программное обеспечение, необходимое"
 		UpnpFailed="Ошибка настройки UPnP"
+		DoYouWantToDeleteThisFolder="Для удаления файла конфигурации."
 		/>
   <Value Id="EditChannels"
 		Text="Каналы"
@@ -428,6 +433,7 @@
   <Value Id="FolderDataTemplate"
 		Edit="Изменить"
 		Delete="Удалить"
+		Error="Эта папка не является доступным."
 		/>
   <Value Id="WizardWelcome"
 		Body="Добро пожаловать.[br][br]Этот мастер поможет вам настроить Zappiti.[br][br]Нажмите кнопку &quot;Скажите где мои файлы&quot;, чтобы сказать нам, где ваши файлы."
@@ -508,9 +514,9 @@
 		Music="Музыка"
 		/>
   <Value Id="Settings"
-		PlayerHeader="Плеер"
 		Header="Настройки"
 		AccountHeader="Счет"
+		LocalServerHeader="Пульт дистанционного управления"
 		/>
   <Value Id="PlayerConfigView"
 		IsControlRunning="Включение поддержки пульта дистанционного управления."
@@ -910,6 +916,7 @@
   <Value Id="TaskBarIcon"
 		RunningInBackground="Zappiti Media Center для выполнения в фоновом режиме.[br]Нажмите здесь, чтобы открыть его снова."
 		Quit="Закрыть Zappiti Media Center"
+		FoldersError="Некоторые файлы не доступны. Нажмите здесь, чтобы просмотреть подробности."
 		/>
   <Value Id="AboutView"
 		Donate="Добровольное пожертвование !"
@@ -922,5 +929,26 @@
 		SearchById="Определить по Id"
 		Search="Поиск"
 		Title="Определить"
+		/>
+  <Value Id="WizardActivateToken"
+		Header="У вас Zappiti Player ?"
+		Back="&lt;&lt; Назад"
+		Next="Следующая &gt;&gt;"
+		Tips="Этот код обычно присутствует на вашем счете или упаковка вашего Zappiti Player. Если вы не можете найти его, обратитесь к дилеру, чтобы получить его."
+		Activate="Активировать"
+		ActivateBody="Введите ваш активации кода (Zappiti Player Token) ci ниже, чтобы активировать ваш Zappiti Player. "
+		TooMuchTry="Вы слишком много испытаний infructieux. Пожалуйста, попробуйте снова на 24 часа."
+		TokenAlreadyInUse="Этот код активации уже используется другой учетной записью. Он должен быть освобожден от этой другой учетной записи перед повторным использованием."
+		NotFound="Этот код активации не существует."
+		BadLicence="Произошла ошибка при получении лицензии пользователя."
+		/>
+  <Value Id="ZappitiPlayerConfigView"
+		Release="Бесплатно"
+		YourTokens="Вот список кодов активации, связанный с вашей учетной записью. Вы можете освободить их для повторного использования с другой учетной записью. Вы получите подтверждение по электронной почте."
+		Activate="Активировать"
+		Body="Введите ваш активации кода (Zappiti игрок маркеров) ci ниже, чтобы активировать ваш игрок Zappiti. "
+		/>
+  <Value Id="DeleteTask"
+		Header="Текущее исключение..."
 		/>
 </Dictionary>
