@@ -31,13 +31,18 @@ cultureEn.Yes = "Yes";
 cultureEn.No = "No";
 cultureEn.OK = "OK";
 cultureEn.QuitZappitiMessage = "Do you want to quit Zappiti and display the native interface ?";
-cultureEn.ChangelogTitle = "Version 0.3";
-cultureEn.ChangelogMessage = "<div style='text-align:left'>Improvements :" +
+cultureEn.ChangelogTitle = "Version 0.4";
+cultureEn.ChangelogMessage = "<div style='text-align:left; font-size:30px'>Improvements :" +
     "<ul>" +
-        "<li>Possibility of changing the seen/unseen state with POP UP MENU button of the remote.</li>" +
-        "<li>NB : This requiere Zappiti v3.0 installed on your computer :" +
-        "<li>http://bit.ly/zmc-3-0-preview-en</li>" +
-    "</ul></div>";
+        "<li>Improving overall performance.</li>" +
+        "<li>Fixed navigation issues between synopsis and the with search function after launching a video.</li>" +
+        "<li>Saving your preferences for displaying the image wall.</li>" +
+        "<li>Support the launch of videos/music with Zappiti Media Control (new version currently in validation is required).</li>" +
+        "<li>The interface now uses the language set in Zappiti Media Center (if available).</li>" +
+        "<li>Various fixes and enhancements.</li>" +
+    "</ul>" +
+    "<div>NB :<br/>Requiere Zappiti v3.0 installed on your computer : :<br/>http://bit.ly/zmc-3-0-preview-en</div>"
+    + "</div>";
 cultureEn.SetSeenstateTitle = "Visualisation state";
 cultureEn.Unseen = "Unseen";
 cultureEn.Seen = "Seen";

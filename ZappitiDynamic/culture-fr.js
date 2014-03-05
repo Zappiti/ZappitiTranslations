@@ -31,13 +31,18 @@ cultureFr.Yes = "Oui";
 cultureFr.No = "Non";
 cultureFr.OK = "OK";
 cultureFr.QuitZappitiMessage = "Voulez vous quitter Zappiti et revenir &agrave; l'interface native ?";
-cultureFr.ChangelogTitle = "Version 0.3";
-cultureFr.ChangelogMessage = "<div style='text-align:left'>Am&eacuteliorations :" +
+cultureFr.ChangelogTitle = "Version 0.4";
+cultureFr.ChangelogMessage = "<div style='text-align:left; font-size:30px'>Am&eacute;liorations :" +
     "<ul>" +
-        "<li>Possibilit&eacute; de changer l'&eacute;tat vu/non vu avec la touche POP UP MENU de la t&eacute;l&eacute;commande.</li>" +
-        "<li>Nb : Necessite Zappiti v3.0 sur votre ordinateur :" +
-        "<li>http://bit.ly/zmc-3-0-preview-fr</li>" +
-    "</ul></div>";
+        "<li>Am&eacute;lioration des performances g&eacute;n&eacute;rales.</li>" +
+        "<li>Correction de la navigation entre les synopsis et de la fonction de recherche apr&egrave;s avoir lanc&eacute; une vid&eacute;o.</li>" +
+        "<li>Sauvegarde vos pr&eacute;f&eacute;rences pour l'affichage du Mur d'image.</li>" +
+        "<li>Prise en charge du lancement des vid&eacute;os/musiques avec Zappiti Media Control (nouvelle version requise actuellement en cours validation).</li>" +
+        "<li>L'interface utilise maintenant la langue param&eacute;tr&eacute;e dans Zappiti Media Center (si traduction disponible).</li>" +
+        "<li>Diverses corrections et am&eacute;liorations.</li>" +   
+    "</ul>" +
+    "<div>NB :<br/>N&eacute;cessite Zappiti v3.0 sur votre ordinateur :<br/>http://bit.ly/zmc-3-0-preview-fr</div>"
+    +"</div>";
 cultureFr.SetSeenstateTitle = "Etat de la visualisation";
 cultureFr.Unseen = "Non vu";
 cultureFr.Seen = "Vu";

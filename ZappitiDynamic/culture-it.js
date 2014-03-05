@@ -31,13 +31,18 @@ cultureIt.Yes = "Si";
 cultureIt.No = "No";
 cultureIt.OK = "OK";
 cultureIt.QuitZappitiMessage = "Vuoi chiudere Zappiti e tornare all'interfaccia principale ?";
-cultureIt.ChangelogTitle = "Version 0.3";
-cultureIt.ChangelogMessage = "<div style='text-align:left'>Miglioramenti :" +
+cultureIt.ChangelogTitle = "Version 0.4";
+cultureIt.ChangelogMessage = "<div style='text-align:left;font-size:30px'>Miglioramenti :" +
     "<ul>" +
-        "<li>Possibility of changing the seen/unseen state with POP UP MENU button of the remote.</li>" +
-        "<li>NB : This requiere Zappiti v3.0 installed on your computer :" +
-        "<li>http://bit.ly/zmc-3-0-preview-en</li>" +
-    "</ul></div>";
+        "<li>Am&eacute;lioration des performances g&eacute;n&eacute;rales.</li>" +
+        "<li>Correction de la navigation entre les synopsis et de la fonction de recherche apr&egrave;s avoir lanc&eacute; une vid&eacute;o.</li>" +
+        "<li>Sauvegarde vos pr&eacute;f&eacute;rences pour l'affichage du Mur d'image.</li>" +
+        "<li>Prise en charge du lancement des vid&eacute;os/musiques avec Zappiti Media Control (nouvelle version requise actuellement en cours validation).</li>" +
+        "<li>L'interface utilise maintenant la langue param&eacute;tr&eacute;e dans Zappiti Media Center (si traduction disponible).</li>" +
+        "<li>Diverses corrections et am&eacute;liorations.</li>" +
+    "</ul>" +
+    "<div>NB :<br/>N&eacute;cessite Zappiti v3.0 sur votre ordinateur :<br/>http://bit.ly/zmc-3-0-preview-fr</div>"
+    + "</div>";
 cultureIt.SetSeenstateTitle = "Stato di visualizzazione";
 cultureIt.Unseen = "Non visto";
 cultureIt.Seen = "Visto";
