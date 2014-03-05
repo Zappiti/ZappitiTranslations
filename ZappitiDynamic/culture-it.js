@@ -34,12 +34,12 @@ cultureIt.QuitZappitiMessage = "Vuoi chiudere Zappiti e tornare all'interfaccia 
 cultureIt.ChangelogTitle = "Version 0.4";
 cultureIt.ChangelogMessage = "<div style='text-align:left;font-size:30px'>Miglioramenti :" +
     "<ul>" +
-        "<li>Am&eacute;lioration des performances g&eacute;n&eacute;rales.</li>" +
-        "<li>Correction de la navigation entre les synopsis et de la fonction de recherche apr&egrave;s avoir lanc&eacute; une vid&eacute;o.</li>" +
-        "<li>Sauvegarde vos pr&eacute;f&eacute;rences pour l'affichage du Mur d'image.</li>" +
-        "<li>Prise en charge du lancement des vid&eacute;os/musiques avec Zappiti Media Control (nouvelle version requise actuellement en cours validation).</li>" +
-        "<li>L'interface utilise maintenant la langue param&eacute;tr&eacute;e dans Zappiti Media Center (si traduction disponible).</li>" +
-        "<li>Diverses corrections et am&eacute;liorations.</li>" +
+        "<li>Sono state migliorate le performance generali.</li>" +
+        "<li>È stata corretta la navigazione tra le sinossi ed è stata corretta la funzione di ricerca dopo aver lanciato un video.</li>" +
+        "<li>Ora è possibile salvare le vostre preferenze per l'uso del Muro d'immagini.</li>" +
+        "<li>Ora è possibile pilotare e lanciare i vostri file multimediali con l'ultima versione dell'applicazione Zappiti Media Control (versione 2.3 su iOS; versione 1.6 su Android).</li>" +
+        "<li>L'interfaccia utilizzerà la lingua specificata su Zappiti Media Center (se la traduzione è disponibile).</li>" +
+        "<li>Diverse correzioni e miglioramenti.</li>" +
     "</ul>" +
     "<div>NB :<br/>N&eacute;cessite Zappiti v3.0 sur votre ordinateur :<br/>http://bit.ly/zmc-3-0-preview-fr</div>"
     + "</div>";
