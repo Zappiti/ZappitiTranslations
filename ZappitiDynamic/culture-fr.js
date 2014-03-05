@@ -37,7 +37,7 @@ cultureFr.ChangelogMessage = "<div style='text-align:left; font-size:30px'>Am&ea
         "<li>Am&eacute;lioration des performances g&eacute;n&eacute;rales.</li>" +
         "<li>Correction de la navigation entre les synopsis et de la fonction de recherche apr&egrave;s avoir lanc&eacute; une vid&eacute;o.</li>" +
         "<li>Sauvegarde vos pr&eacute;f&eacute;rences pour l'affichage du Mur d'image.</li>" +
-        "<li>Prise en charge du lancement des vid&eacute;os/musiques avec Zappiti Media Control (nouvelle version requise actuellement en cours validation).</li>" +
+        "<li>Prise en charge du lancement des vid&eacute;os/musiques avec Zappiti Media Control (version 2.3 sur iOS; version 1.6 sur Android).</li>" +
         "<li>L'interface utilise maintenant la langue param&eacute;tr&eacute;e dans Zappiti Media Center (si traduction disponible).</li>" +
         "<li>Diverses corrections et am&eacute;liorations.</li>" +   
     "</ul>" +
