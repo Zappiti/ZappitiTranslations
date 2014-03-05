@@ -37,7 +37,7 @@ cultureEn.ChangelogMessage = "<div style='text-align:left; font-size:30px'>Impro
         "<li>Improving overall performance.</li>" +
         "<li>Fixed navigation issues between synopsis and the with search function after launching a video.</li>" +
         "<li>Saving your preferences for displaying the image wall.</li>" +
-        "<li>Support the launch of videos/music with Zappiti Media Control (new version currently in validation is required).</li>" +
+        "<li>Support the launch of videos/music with Zappiti Media Control (version 2.3 on iOS; version 1.6 on Android).</li>" +
         "<li>The interface now uses the language set in Zappiti Media Center (if available).</li>" +
         "<li>Various fixes and enhancements.</li>" +
     "</ul>" +
