@@ -1,4 +1,4 @@
-<?xml version="1.0"
+﻿<?xml version="1.0"
 		encoding="utf-8"?>
 <Dictionary EnglishName="Italian"
 		CultureName="it-IT"
@@ -440,7 +440,7 @@
 		Name="Aggiungi una cartella locale"
 		Description="-Disco rigido di questo computer [br] - hard disk esterno collegato via USB / eSata a questo computer [br] - HDD in una docking station collegata al computer in USB / eSata [br] - lettore multimediale collegato in Slave USB al computer"
 		Header="Cartelle locali"
-		Tips=""
+		Tips="&#xD;&#xA;		"
 		Folders="Unità locali / Dispositivi USB"
 		/>
   <Value Id="WizardAddNetworkLocation"
@@ -553,13 +553,6 @@
 		Close="Chiudere"
 		Body="Download in corso, attendere prego..."
 		/>
-  <Value Id="WizardInstallStreamingModule"
-		Header="Installazione del modulo streaming"
-		Body="Installazione in corso. Attendere prego..."
-		Close="Chiudere"
-		Completed="Congratulazioni, l'installazione del modulo streaming si è svolta con successo."
-		Failed="Installazione fallita per un motivo sconosciuto."
-		/>
   <Value Id="StreamingModuleConfigView"
 		Download="Scarica e installa il modulo streaming"
 		PlayerPath="Percorso:"
@@ -602,14 +595,11 @@
 		Filename="Nome del file"
 		Directory="Repertorio"
 		State="Stato"
-		Title="File da scannerizzare"
+		Title="File per identificare"
 		Close="Chiudi"
-		ManualScrap="Manuale"
-		Scrap="Scansiona"
-		ScrapAll="Scansiona tutto"
-		ScrapById="Da Id"
-		ScrapByTitle="Dal titolo"
-		ReleaseDate="Data di rilascio"
+		ManualScrap="Creare senza identificare"
+		Scrap="Identificare..."
+		MovieTitle="Inserisci qui il titolo di un video per creare e personalizzare è anche"
 		/>
   <Value Id="FirstInitFromMovieNfoTask"
 		Header="Inizializzazione informazioni film"
@@ -685,7 +675,7 @@
 		ChangePicture="Cambia l'immagine..."
 		Delete="Elimina"
 		Edit="Modifica..."
-		Play="Avvia..."
+		Play="Lettura"
 		Reset="Reset"
 		ResetAllCategories="Reset Categorie"
 		ToPlayList="Aggiungi alla playlist..."
@@ -927,10 +917,10 @@
 		Title="Identificare"
 		/>
   <Value Id="WizardActivateToken"
-		Header="Hai un Zappiti Player ?"
+		Header="Hai una Zappiti Player?"
 		Back="&lt;&lt; Indietro"
 		Next="Prossima &gt;&gt;"
-		Tips="Questo codice è generalmente presente sulla fattura o sull'imballaggio del vostro Zappiti Player. Se non riesci a trovarlo, contatta il rivenditore."
+		Tips="Questo codice è generalmente presente sulla vostra fattura o l'imballaggio del vostro Zappiti Player. Se non riesci a trovarlo, contattare il rivenditore per ottenerlo."
 		Activate="Attivare"
 		ActivateBody="Inserisci il tuo codice di attivazione (Zappiti Player Token) qui sotto per attivare il tuo Zappiti Player. "
 		TooMuchTry="Sono stati fatti troppi tentativi. Prova ancora tra 24 ore."
@@ -943,8 +933,17 @@
 		YourTokens="Ecco l'elenco dei codici di attivazione associati al tuo account. Li puoi rilasciare per il riutilizzarli con un altro account. Riceverai una e-mail di conferma per completare l'operazione."
 		Activate="Attiva"
 		Body="Inserisci il tuo codice di attivazione (Zappiti Player Token) qui sotto per attivare la tua licenza."
+		Congratulation="Felication, il codice di attivazione è stato registrato."
 		/>
   <Value Id="DeleteTask"
 		Header="Eliminazione..."
+		/>
+  <Value Id="MediaToScrapState"
+		None="&#xD;&#xA;		"
+		Identification="Identificazione attuale..."
+		Identified="Identificato"
+		Scraping="Download di informazioni..."
+		Scraped="Successo"
+		Fail="Non identificato"
 		/>
 </Dictionary>
