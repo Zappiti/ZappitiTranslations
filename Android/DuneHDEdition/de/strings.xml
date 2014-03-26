@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <resources>
     <string name="app_name">Zappiti Media Control Dune Edition</string>
     <string name="title_activity_option">Einstellungen</string>
@@ -14,7 +15,7 @@
     <string name="name_text">Gerätename</string>
     <string name="add_text">Neues Gerät hinzufügen</string>
     <string name="undo_text">Abbrechen</string>
-    <string name="system_list_text">Zappiti Player / PC Liste</string>
+    <string name="system_list_text">Dune HD</string>
     <string name="add_button_text">Hinzufügen</string>
     <string name="alert_select_device_text">Wählen Sie ein Standard-Gerät!</string>
     <string name="content_desc_command">Befehl</string>
@@ -23,23 +24,18 @@
     <string name="edit_text">Ihr Gerät bearbeiten</string>
     <string name="controlling_text">Sie steuern folgendes Gerät:</string>
     <string name="invalid_port_text">Ungültiger Port!</string>
-    <string name="select_system_text">Wählen Sie einen Dune/ZappitiPlayer!</string>
+    <string name="select_system_text">Wählen Sie einen Dune HD!</string>
     <string name="coming_soon_text">Kommt bald!</string>
     <string name="double_ip_text">Diese IP existiert bereits!</string>
     <string name="device_added_text">wurde hinzugefügt!</string>
-    <string name="set_default_text">Gerät wurde als Standard festgelegt:</string>
-    <string name="confirm_delete_text">Löschen bestätigen</string>
-    <string name="delete_text">Löschen</string>
-    <string name="from_list_text">von Liste?</string>
     <string name="title_activity_info">Informationen</string>
     <string name="copyright_text">Copyright 2012 - ARCHISOFT Group. alle Rechte vorbehalten.</string>
-    <string name="version_text">Android version</string>
+    <string name="version_text">Version</string>
     <string name="link_text">zappiti.com</string>
     <string name="mail_text">Benutzer E-Mail</string>
     <string name="password_text">Passwort</string>
     <string name="login_text">Login</string>
-    <string name="new_player_text">Einen neuen Player hinzufügen</string>
-    <string name="logout_text">Logout</string>
+    <string name="new_player_text">Einen neuen Dune HD</string>
     <string name="confirm_logout_text">Logout bestätigen</string>
     <string name="logout_message_text">Wollen Sie sich wirklich ausloggen und Zappiti beenden?</string>
     <string name="show_more_text">Mehr zeigen</string>
@@ -59,7 +55,7 @@
     <string name="no">Nein</string>
     <string name="yes">Ja</string>
     <string name="search_tips">Der Text muss mindestens dreistellig sein!</string>
-    <string name="device_not_found">Ihr Zappiti Player/Dune Player wurde nicht gefunden.</string>
+    <string name="device_not_found">Ihr Dune HD Player wurde nicht gefunden.</string>
     <string name="search_error">Während der Suche ist ein Fehler aufgetreten.</string>
     <string name="search_not_found">Ihre Suche ergab keine Treffer!</string>
     <string name="splash_text_interrupt">Der Download wird unterbrochen: Die letzten verarbeiteten Daten werden gespeichert.</string>
@@ -74,15 +70,15 @@
     <string name="splash_finish">Alle Dateien wurden gespeichert!</string>
     <string name="splash_no_connection">Internet-Verbindung ist nicht verfügbar.</string>
     <string name="splash_missing_images">Vorbereiten von Bildern</string>
+    <string name="splash_text_database">Erstellen von Datenbanken, bitte warten.</string>
     <string name="synopsis_file_corrupted">Dateipfad ist unvollständig oder ungültig.</string>
-    <string name="synopsis_select_device">Wählen Sie einen Zappiti Player/Dune Player in den Einstellungen.</string>
+    <string name="synopsis_select_device">Wählen Sie einen Dune HD in den Einstellungen.</string>
     <string name="synopsis_launch">Starten</string>
-    <string name="menu_not_found">Kein Menü gefunden!</string>
     <string name="confirm_dialog_title">Der Download wird einige Minuten dauern.</string>
     <string name="confirm_without_images">Einige Bilder sind noch nicht auf dem Server verfügbar. Möchten Sie trotzdem fortfahren?</string>
-    <string name="launch_all_tracks">Alle Lieder abspielen!</string>
+    <string name="launch_all_tracks">Alle Lieder!</string>
     <string name="cache_limit">Cache-Limit</string>
-    <string name="cache_hint">Cache-Limit in MB (1 = 100MB, Default: 1).</string>
+    <string name="cache_hint">Cache-Limit in MB (1 = 100MB, Default: 1 Cache-Grenze: 10).</string>
     <string name="cache_settings">CACHE EINSTELLUNGEN</string>
     <string name="delete_cache">Cache löschen</string>
     <string name="delete_cache_hint">Cache löschen. Wird nur benötigt, wenn die Bilder nicht mehr synchron mit dem Cache sind.</string>
@@ -96,7 +92,7 @@
     <string name="info_translators">Christoph Restel</string>
     <string name="menu_search">Suche</string>
     <string name="dialog_sign_up">Anmelden</string>
- 	<string name="dialog_forgot_password">Ich habe mein Passwort vergessen</string>
+ 	<string name="dialog_forgot_password">Passwort vergessen</string>
  	<string name="dialog_reset_password">Kennwort zurücksetzen</string>
  	<string name="dialog_reset_text">Geben Sie bitte Ihre E-Mail-Adresse ein.</string>
  	<string name="dialog_back">Zurück</string>
@@ -109,10 +105,31 @@
     <string name="invalid_email">Ihre e-Mail ist nicht gültig.</string>
     <string name="invalid_password">Ihr Passwort ist nicht gültig.</string>
     <string name="splash_signup_duplicate">Es ist bereits ein Konto mit dieser E-Mail-Adresse verknüpft.</string>
-    <string name="dialog_no_cloud_1">Zappiti Media Control ist nur für Zappiti Player/Zappiti Player Mini verfügbar.</string>
+    <string name="dialog_no_cloud_1">Zappiti Media Control ist kostenlos für Zappiti Player/Zappiti Player Mini verfügbar.</string>
  	<string name="dialog_no_cloud_2">Wenn Sie bereits ein Zappiti Player, registrieren Sie sich bitte Tokennummer auf Zappiti Market über Zappiti Media Center software (PC).</string>
  	<string name="dialog_no_cloud_3">Für Dune HD Benutzer, nutzen Sie bitte Zappiti Media Control Dune Edition.</string>
  	<string name="dialog_buy_zappiti_player">Kaufen Sie ein Zappiti Player</string>
  	<string name="dialog_buy_zmc_dune">Kaufen Zappiti Media Control Dune Edition</string>
+ 	<string name="dialog_rate_text">Danke für die Wahl Zappiti! Bitte nehmen Sie sich eine Minute, um unsere Anwendung auf Google Play Store zu bewerten.</string>
+ 	<string name="dialog_rate_no">Nein, danke.</string>
+ 	<string name="dialog_rate_later">Später&#8230;</string>
+ 	<string name="dialog_rate_yes">Bewerten Sie uns auf Google Play!</string>
+ 	<string name="dialog_list_title">Wählen Sie ein Gerät aus der Liste</string>
+ 	<string name="dialog_list_add_manually">Manuelles Hinzufügen eines Geräts</string>
+ 	<string name="dialog_list_scan">Scan lokales Netzwerk</string>
+ 	<string name="dialog_list_choose_action">Wählen Sie eine Aktion</string>
+ 	<string name="dialog_list_device_title">Dune HD</string>
+ 	<string name="account_settings">KONTOEINSTELLUNGEN</string>
+ 	<string name="account_text">Klicken Sie links das Symbol für Abmeldung.</string>
+ 	<string name="activate_streaming">Aktiv streaming</string>
+ 	<string name="quality_streaming">Qualität :</string>
+ 	<string name="quality_auto">AUTO</string>
+ 	<string name="quality_normal">Normal</string>
+ 	<string name="quality_high">High</string>
+ 	<string name="quality_hd">HD</string>
+ 	<string name="choose_play">Bitte wählen Sie, wie um diesen Inhalt zu spielen!</string>
+ 	<string name="choose_streaming">Streaming</string>
+ 	<string name="choose_player">Dune HD</string>
+ 	<string name="menu_empty">Dieses Menü ist leer.</string>
     
 </resources>
