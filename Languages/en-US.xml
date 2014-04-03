@@ -552,6 +552,13 @@
 		Close="Close"
 		Body="Download in progress, please wait..."
 		/>
+  <Value Id="WizardInstallStreamingModule"
+		Header="Installing the streaming module"
+		Body="Installation in progress. Please wait..."
+		Close="Close"
+		Completed="Congratulations, the installation of the streaming module was held successfully."
+		Failed="Installation to failed for an unknown reason."
+		/>  
   <Value Id="StreamingModuleConfigView"
 		Download="Download and install the streaming module"
 		PlayerPath="Path:"
@@ -944,5 +951,9 @@
 		Scraping="Downloading information..."
 		Scraped="Success"
 		Fail="Unidentified"
+		/>
+  <Value Id="StreamInfo"
+		Audio="Audio track"
+		Subtitles="Subtitles"
 		/>
 </Dictionary>

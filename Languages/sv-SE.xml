@@ -552,6 +552,13 @@
 		Close="Stäng"
 		Body="Hämta pågår, vänta..."
 		/>
+  <Value Id="WizardInstallStreamingModule"
+		Header="Installera modulen streaming"
+		Body="Installationen pågår. Snälla vänta..."
+		Close="Stäng"
+		Completed="Grattis, hölls installation av modulen streaming framgångsrikt."
+		Failed="Installationen misslyckades av okänd anledning."
+		/>
   <Value Id="StreamingModuleConfigView"
 		Download="Hämta och installera streaming modul"
 		PlayerPath="Sökväg:"
@@ -944,5 +951,9 @@
 		Scraping="Ladda ner information..."
 		Scraped="Framgång"
 		Fail="Oidentifierade"
+		/>
+  <Value Id="StreamInfo"
+		Audio="Ljudspår"
+		Subtitles="Undertexter"
 		/>
 </Dictionary>

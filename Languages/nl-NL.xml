@@ -553,6 +553,13 @@
 		Close="Sluiten"
 		Body="Download in vooruitgang, een moment geduld a.u.b...."
 		/>
+  <Value Id="WizardInstallStreamingModule"
+		Header="De streaming-module installeren"
+		Body="Installatie in voortgang. Een ogenblik geduld..."
+		Close="Sluiten"
+		Completed="Gefeliciteerd, werd de installatie van de streaming module gehouden met succes."
+		Failed="Installatie is mislukt wegens een onbekende reden."
+		/>
   <Value Id="StreamingModuleConfigView"
 		Download="Downloaden en installeren van de streaming module"
 		PlayerPath="Path:"
@@ -945,5 +952,9 @@
 		Scraping="Informatie te downloaden..."
 		Scraped="Succes"
 		Fail="Niet-geïdentificeerde"
+		/>
+  <Value Id="StreamInfo"
+		Audio="Audiotrack"
+		Subtitles="Ondertitels"
 		/>
 </Dictionary>

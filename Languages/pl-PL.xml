@@ -553,6 +553,13 @@
 		Close="Zamknij"
 		Body="Pobierz w toku, proszę czekać..."
 		/>
+  <Value Id="WizardInstallStreamingModule"
+		Header="Instalacja modułu strumieniowe"
+		Body="Instalacja w toku. Czekaj..."
+		Close="Zamknij"
+		Completed="Gratulacje Instalacja modułu płynący odbyła pomyślnie."
+		Failed="Instalacja nie powiodła się z nieznanego powodu."
+		/>
   <Value Id="StreamingModuleConfigView"
 		Download="Pobierz i zainstaluj moduł transmisji strumieniowej"
 		PlayerPath="Ścieżka:"
@@ -945,5 +952,9 @@
 		Scraping="Pobieranie informacji..."
 		Scraped="Sukces"
 		Fail="Niezidentyfikowane"
+		/>
+  <Value Id="StreamInfo"
+		Audio="Ścieżki dźwiękowej"
+		Subtitles="Napisy"
 		/>
 </Dictionary>

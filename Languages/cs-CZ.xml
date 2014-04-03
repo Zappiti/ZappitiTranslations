@@ -552,6 +552,13 @@
 		Close="Zavřít"
 		Body="Probíhá stahování, počkejte prosím..."
 		/>
+  <Value Id="WizardInstallStreamingModule"
+		Header="Instalace modulu datových proudů"
+		Body="Probíhá instalace. Počkejte prosím..."
+		Close="Zavřít"
+		Completed="Gratulujeme instalace modulu datových proudů proběhl úspěšně."
+		Failed="Instalace se nezdařila z neznámého důvodu."
+		/>  
   <Value Id="StreamingModuleConfigView"
 		Download="Stáhněte a nainstalujte modul datových proudů"
 		PlayerPath="Cesta:"
@@ -944,5 +951,9 @@
 		Scraping="Stahování informací..."
 		Scraped="Úspěch"
 		Fail="Neidentifikovaný"
+		/>
+  <Value Id="StreamInfo"
+		Audio="Zvuková stopa"
+		Subtitles="Titulky"
 		/>
 </Dictionary>

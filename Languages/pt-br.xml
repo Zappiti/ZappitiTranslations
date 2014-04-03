@@ -553,6 +553,13 @@
 		Close="Fechar"
 		Body="Download em andamento, por favor aguarde..."
 		/>
+  <Value Id="WizardInstallStreamingModule"
+		Header="Instalação do módulo de transmissão"
+		Body="Instalação em andamento. Aguarde..."
+		Close="Fechar"
+		Completed="Parabéns, a instalação do módulo de transmissão foi realizada com sucesso."
+		Failed="Instalação com falha por um motivo desconhecido."
+		/>
   <Value Id="StreamingModuleConfigView"
 		Download="Baixe e instale o módulo de transmissão"
 		PlayerPath="Caminho:"
@@ -945,5 +952,9 @@
 		Scraping="Transferindo informações..."
 		Scraped="Sucesso"
 		Fail="Não identificado"
+		/>
+  <Value Id="StreamInfo"
+		Audio="Faixa de áudio"
+		Subtitles="Legendas"
 		/>
 </Dictionary>

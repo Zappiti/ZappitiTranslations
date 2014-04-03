@@ -551,6 +551,13 @@
 		PlayerPath="Путь:"
 		Browse="Выбрать..."
 		/>
+  <Value Id="WizardInstallStreamingModule"
+		Header="Установка модуля потокового"
+		Body="Установка продолжается. Подождите..."
+		Close="Закрыть"
+		Completed="Поздравляем установка потокового модуля был проведен успешно."
+		Failed="Установки по неизвестной причине не удалось."
+		/>
   <Value Id="StreamingModuleConfigView"
 		Download="Скачать и установить модуль потокового"
 		PlayerPath="Путь:"
@@ -949,5 +956,9 @@
 		Scraping="Загрузка информации..."
 		Scraped="Успех"
 		Fail="Неизвестные"
+		/>
+  <Value Id="StreamInfo"
+		Audio="Звуковой дорожки"
+		Subtitles="Субтитры"
 		/>
 </Dictionary>

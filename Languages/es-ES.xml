@@ -552,6 +552,13 @@
 		Close="Cerrar"
 		Body="Descarga en progreso, por favor espere..."
 		/>
+  <Value Id="WizardInstallStreamingModule"
+		Header="Instalar el módulo de transmisión"
+		Body="Instalación en curso. Espera..."
+		Close="Cerrar"
+		Completed="Felicidades, la instalación del módulo de transmisión se llevó a cabo con éxito."
+		Failed="Instalación falló por una razón desconocida."
+		/>
   <Value Id="SettingsTabInterface"
 		Header="Interfaz"
 		Language="Idioma :"
@@ -944,5 +951,9 @@
 		Scraping="Descarga de información..."
 		Scraped="Éxito"
 		Fail="No identificado"
+		/>
+  <Value Id="StreamInfo"
+		Audio="Pista de audio"
+		Subtitles="Subtítulos"
 		/>
 </Dictionary>

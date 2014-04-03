@@ -945,4 +945,8 @@
 		Scraped="Sucesso"
 		Fail="Não identificado"
 		/>
+  <Value Id="StreamInfo"
+		Audio="Faixa de áudio"
+		Subtitles="Legendas"
+		/>
 </Dictionary>
