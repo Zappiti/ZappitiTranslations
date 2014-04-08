@@ -12,4 +12,4 @@ This would be greatly appreciated.
 <a href="https://github.com/Zappiti/ZappitiTranslations/wiki">Click here to start !</a>
 </h1>
 
-I also add translation for Android app, in the Andoid folder.
+I also add 3 folder for Android, iOS, and Zappiti Dynamic.
