@@ -558,7 +558,7 @@
 		Close="Close"
 		Completed="Congratulations, the installation of the streaming module was held successfully."
 		Failed="Installation to failed for an unknown reason."
-		/>  
+		/>
   <Value Id="StreamingModuleConfigView"
 		Download="Download and install the streaming module"
 		PlayerPath="Path:"

@@ -12,17 +12,17 @@
 		Header="Opções Avançadas"
 		/>
   <Value Id="SettingsTypeExport"
-		ExportDune="Pasta de exportação para o Dune:"
-		ExportITunes="Pasta de exportação para o iTunes:"
-		Body="Definição dos ficheiros de exportação."
-		DoYouHaveADune="Possuo um Zappiti Player / um Dune"
+		ExportDune="Pasta de exportação do Dune:"
+		ExportITunes="Pasta de exportação do iTunes:"
+		Body="Definição das pastas de exportação."
+		DoYouHaveADune="Possuo um Zappiti Player / Dune HD"
 		DoYouHaveAniPhone="Possuo um iPhone / iPad / iPod"
 		DeviceType="Dispositivo:"
 		Primary="Primário"
 		Secondary="Secundário"
 		Audio="Audio:"
 		Subtitle="Legendas:"
-		Encode="Parâmetros de codificação:"
+		Encode="Parâmetros de conversão:"
 		SubtitleRule="Aplicar legendas:"
 		/>
   <Value Id="SettingsIsNFS"
@@ -40,18 +40,18 @@
   <Value Id="Export_XML"
 		CreateGlobalizationCustomCommand="A gerar ficheiro XML"
 		iPhoneItemExportCustomCommand="A gerar ficheiro para o iTunes"
-		ConfigXmlGeneratorCommand="Configuração de exportação"
-		MoviesXmlFileGeneratorCommand="A exportar filmes"
-		AbcXmlFileGeneratorCommand="A exportar a base de dados"
-		TvShowsXmlFileGeneratorCommand="A exportar séries"
-		CategoriesXmlFileGeneratorCommand="A exportar categorias"
-		RecentsXmlFileGeneratorCommand="A exportar novidades"
+		ConfigXmlGeneratorCommand="Exportar configuração"
+		MoviesXmlFileGeneratorCommand="Exportação dos filmes"
+		AbcXmlFileGeneratorCommand="Exportação da base de dados"
+		TvShowsXmlFileGeneratorCommand="Exportação das séries"
+		CategoriesXmlFileGeneratorCommand="Exportação das categorias"
+		RecentsXmlFileGeneratorCommand="Exportação das novidades"
 		/>
   <Value Id="SettingsIsXmlExport"
 		Text="XML pré-definido"
 		/>
   <Value Id="SettingsTabExport"
-		Header="Exportar"
+		Header="Exportação"
 		/>
   <Value Id="SettingsOK"
 		Content="OK"
@@ -174,7 +174,7 @@
 		Text="Duração (hh:mm)"
 		/>
   <Value Id="EditYear"
-		Text="Ano"
+		Text="Estreia"
 		/>
   <Value Id="EditSynopsis"
 		Text="Sinopse"
@@ -186,7 +186,7 @@
 		Text="Elenco"
 		/>
   <Value Id="EditAspectRatio"
-		Text="Proporção do écran"
+		Text="Proporção de écran"
 		/>
   <Value Id="EditExtension"
 		Text="Extensão"
@@ -225,7 +225,7 @@
 		Content="Editar"
 		/>
   <Value Id="MainScrapDetails"
-		Content="Identificar novos"
+		Content="Voltar a identificar"
 		/>
   <Value Id="MainScrapPictures"
 		Content="Modificar imagens"
@@ -234,7 +234,7 @@
 		Text="{0} Filmes, {1} Séries, {2} Episódios"
 		/>
   <Value Id="MainToScrap"
-		Text="{0} para identificar"
+		Text="{0} por identificar"
 		/>
   <Value Id="DownloadingPictureTask"
 		Header="A receber imagens"
@@ -243,13 +243,13 @@
 		Text="Os seguinte items estão inacessíveis. Deseja removê-los da base de dados?"
 		/>
   <Value Id="CleanUpOK"
-		Content="Apagar"
+		Content="Remover"
 		/>
   <Value Id="CleanUpClose"
 		Content="Fechar"
 		/>
   <Value Id="MessageBox"
-		ConfigureSharePath="Configure a pasta partilhada de exportação para continuar."
+		ConfigureSharePath="Configure a pasta partilhada de exportação antes de continuar."
 		NewReleaseAvailable="Está disponível uma nova versão! Deseja transferi-la {0} {1} ?"
 		DoYouWantToDeleteThisGroup="Tem a certeza que deseja apagar este item?"
 		DoYouWantToDeleteTheseGroup="Tem a certeza que deseja apagar estes items?"
@@ -257,12 +257,12 @@
 		ResetCategories="Tem a certeza que deseja reiniciar todas as categorias?"
 		ResetMainMenu="Tem a certeza que deseja reiniciar todos os menus?"
 		ResetABCMenu="Tem a certeza que deseja reiniciar todos os botões?"
-		ResetFilterMenu="Tem a certeza que deseja reiniciar todos os filtros ?"
+		ResetFilterMenu="Tem a certeza que deseja reiniciar todos os filtros?"
 		VersionExpired="Esta versão do Zappiti expirou, mas uma nova está disponível! Deseja transferi-la?"
 		AddFolder="A pasta {0} ainda não foi adicionada à sua configuração. Deseja adicioná-la agora?"
 		CanStartDuneServer="Impossível iniciar o servidor. Por favor tente noutra porta."
 		DoYouWanToInstallMpcHd="Deseja instalar o Media Player Classic - Home Cinema?"
-		DoYouWantToQuit="Existem processos em curso.[br]Tem a certeza que deseja sair mesmo assim?"
+		DoYouWantToQuit="Existem tarefas em curso.[br]Tem a certeza que deseja sair mesmo assim?"
 		DoYouWanToInstallStreamingModule="Deseja instalar o módulo de streaming?"
 		UpnpFailed="O encaminhamento da porta UPnP falhou. Deverá configurar manualmente a sua rede."
 		DoYouWantToDeleteThisFolder="Vai apagar uma pasta da sua configuração.[br]Seleccione Sim para remover também {0} do Zappiti.[br]Seleccione não para manter {0} no Zappiti.[br]Seleccione Cancelar para cancelar a operação."
@@ -275,14 +275,14 @@
 		DoYouWantToDeleteThisGroup="Remover Item"
 		DoYouWantToDeleteTheseGroup="Remover Items"
 		DeleteCategory="Eliminar uma categoria"
-		ResetCategories="Reiniciar Categorias"
-		ResetMainMenu="Reiniciar menus"
-		ResetABCMenu="Reiniciar botões"
+		ResetCategories="Reinicializar Categorias"
+		ResetMainMenu="Reinicializar menus"
+		ResetABCMenu="Reinicializar botões"
 		VersionExpired="Actualização disponível"
 		AddFolder="Adicionar a pasta?"
 		CanStartDuneServer="Erro"
-		DoYouWanToInstallMpcHd="Suporte lógico necessário"
-		DoYouWantToQuit="Processos actuais."
+		DoYouWanToInstallMpcHd="Aplicação externa necessária"
+		DoYouWantToQuit="Tarefas em curso."
 		DoYouWanToInstallStreamingModule="Suporte lógico necessário"
 		UpnpFailed="Erro na configuração UPnP"
 		DoYouWantToDeleteThisFolder="Para apagar um ficheiro de configuração."
@@ -291,7 +291,7 @@
 		Text="Canais"
 		/>
   <Value Id="TVShowSeasonList"
-		SeasonUp="Temporada {0}"
+		SeasonUp="TEMPORADA {0}"
 		/>
   <Value Id="AddToGroupNewGroup"
 		Content="Novo grupo"
@@ -325,10 +325,10 @@
 		Content="Ordenar por data"
 		/>
   <Value Id="EditGroupMoveUp"
-		Content="Mover para Cima"
+		Content="Mover para cima"
 		/>
   <Value Id="EditGroupMoveDown"
-		Content="Mover para Baixo"
+		Content="Mover para baixo"
 		/>
   <Value Id="EditGroupMoveRemove"
 		Content="Excluir do grupo"
@@ -337,7 +337,7 @@
 		Group="Grupo"
 		/>
   <Value Id="EditMenuIcons"
-		ToolTip="Mudar ícone"
+		ToolTip="Mudar o ícone"
 		Text="Ícones:"
 		/>
   <Value Id="EditMenuBack"
@@ -365,18 +365,18 @@
 		ToolTip="Adicionar Categoria"
 		/>
   <Value Id="MainAddPlaylist"
-		Content="Nova lista de reprodução"
+		Content="Adicionar lista de reprodução"
 		/>
   <Value Id="MainAddAlbum"
-		Content="Novo álbum"
+		Content="Adicionar álbum"
 		/>
   <Value Id="MainAddCategory"
 		Content="Nova categoria"
-		OrderCategory="Re-ordenar"
-		NoticeReorderCategory="Arrastar / largar itens para os re-ordenar."
+		OrderCategory="Reordenar"
+		NoticeReorderCategory="Arrastar / largar itens para os reordenar."
 		/>
   <Value Id="MoreMediaInfosRightClick"
-		Text="Utilize o botão direito do rato para mais comandos..."
+		Text="Utilize o botão direito do rato para mais opções..."
 		/>
   <Value Id="EditGroupSortByName"
 		Content="Ordenar por título"
@@ -393,7 +393,7 @@
 		/>
   <Value Id="SettingsTabOthers"
 		Header="Outros"
-		SendErrorReport="Em caso de erro enviar relatório automaticamente para a equipa de desenvolvimento."
+		SendErrorReport="Em caso de erro, enviar relatório automaticamente para a equipa de desenvolvimento."
 		Recents="Considerar recente se o número de dias for até:"
 		/>
   <Value Id="SettingsTabScrapers"
@@ -407,7 +407,7 @@
 		/>
   <Value Id="GroupContextState"
 		Seen="Visto"
-		Ongoing="Assistindo"
+		Ongoing="Em reprodução"
 		Unseen="Não visto"
 		/>
   <Value Id="EditSize"
@@ -425,33 +425,33 @@
 		ScanningAllFiles="A pesquisar ficheiros"
 		DataBaseLoading="A carregar a base de dados"
 		DataBaseCleanUp="A limpar a base de dados"
-		EnablingFeatureBrowserEmulation="A activar a funcão de emulação do navegador"
+		EnablingFeatureBrowserEmulation="A activar a função de emulação do navegador"
 		Header="---"
-		SigningIn="Conexão"
+		SigningIn="A ligar"
 		/>
   <Value Id="WizardWelcome"
-		Body="Benvindo(a).[br][br]Este assistente irá ajudá-lo(a) a configurar o Zappiti.[br][br]Seleccione &quot;Localização dos ficheiros&quot; para indicar a sua localização"
+		Body="Benvindo.[br][br]Este assistente irá ajudá-lo a configurar o Zappiti.[br][br]Seleccione &quot;Localização dos ficheiros&quot; para indicar a sua localização dos seus ficheiros de conteúdos: &quot;Filmes&quot;, &quot;Séries&quot; ou &quot;Música&quot;."
 		Close="Fechar"
 		Header="Assistente de Configuração"
 		AddFiles="Localização dos ficheiros &gt;&gt;"
 		/>
   <Value Id="WizardAddLocalLocation"
-		Name="Adicionar um pasta local"
-		Description="-Disco rígido interno neste computador [br] - disco rígido externo USB / eSata ligado a este computador [br] - disco rígido numa doca ligada a este computador por USB / eSata [br] - Leitor de Conteúdos ligado por USB Slave a este computador"
+		Name="Adicionar uma pasta local"
+		Description="-Disco rígido interno neste computador [br] - Disco rígido externo USB / eSata ligado a este computador [br] - Disco rígido numa doca ligada a este computador por USB / eSata [br] - Leitor de Conteúdos ligado por USB Slave a este computador"
 		Header="Pastas locais, dispositivos USB"
 		Tips="&#xD;&#xA;		"
 		Folders="Discos Locais / Dispositivos USB"
 		/>
   <Value Id="WizardAddNetworkLocation"
 		Name="Adicionar uma partilha de rede"
-		Description="-Disco rígido interno do seu Leitor ligado na rede local [br] - disco rígido externo do seu Leitor na rede local [br] - servidor NAS [br] - outro computador remoto ligado à rede [br] - pasta de rede partilhada [br] - disco rígido"
+		Description="- Disco rígido interno do seu Leitor ligado na rede local [br] - Disco rígido externo do seu Leitor na rede local [br] - Servidor NAS [br] - outro computador remoto ligado à rede [br] - Pasta de rede partilhada [br] - Disco rígido de rede"
 		Header="Pasta partilhada na rede local, NAS, ..."
-		Tips="Nota: Pode adquirir vários dispositivos USB/e-sata/rede na página da empresa HD LAND."
+		Tips="Nota: Pode adquirir dispositivos USB, e-sata, rede, etc na página da HD LAND."
 		Folders="Locais de Rede"
 		/>
   <Value Id="WizardWhereAreYourFiles"
 		Header="Localização dos ficheiros?"
-		Body="Seleccione uma das opções abaixo para indicar a localização dos seus Filmes e Séries."
+		Body="Seleccione uma das opções abaixo, para indicar a localização dos seus Filmes e Séries."
 		Back="&lt;&lt; Anterior"
 		Close="Fechar"
 		/>
@@ -463,7 +463,7 @@
 		Close="Fechar"
 		/>
   <Value Id="WizardAddAnotherLocation"
-		Header="Quer adicionar outro local?"
+		Header="Deseja adicionar outra localização?"
 		Next="Seguinte &gt;&gt;"
 		YourFolders="As suas pastas"
 		Close="Fechar"
@@ -479,8 +479,8 @@
 		Back="&lt;&lt; Anterior"
 		Next="Seguinte &gt;&gt;"
 		ExternLabel="Num disco rígido externo ligado ao Leitor"
-		NetworkLabel="Servidor NAS, compartilhamento de rede, HD interno/externo do PC"
-		UnknowLabel="Personalizado"
+		NetworkLabel="Num servidor NAS, partilha de rede, disco rígido interno/externo deste PC"
+		UnknowLabel="Personalizar"
 		Close="Fechar"
 		InternLabel="Num disco rígido interno do Leitor"
 		/>
@@ -515,7 +515,7 @@
 		/>
   <Value Id="PlayerConfigView"
 		IsControlRunning="Activar suporte para controlo remoto."
-		Port="a utilizar a porta local"
+		Port="Porta local"
 		IsStreamingRunning="Permitir streaming"
 		Body="Activar o servidor local para: [br] - visualização de conteúdos no seu PC através do Zappiti Media Control.[br] - permitir a visualização de conteúdos no seu através do Zappiti Media Control, independentemente do local de utilização."
 		ServerIsRunning="O servidor está activo na porta {0}"
@@ -532,7 +532,7 @@
 		Header="Transferir MPC - Home Cinema"
 		Next="Seguinte &gt;&gt;"
 		Close="Fechar"
-		Body="A receber, por favor aguarde...."
+		Body="A transferir, por favor aguarde..."
 		/>
   <Value Id="WizardInstallMpcPlayer"
 		Header="A instalar o MPC - Home Cinema"
@@ -543,7 +543,7 @@
 		/>
   <Value Id="MpcPlayerConfigView"
 		Download="Transferir e instalar o MPC - Home Cinema"
-		PlayerPath="Local:"
+		PlayerPath="MPC - HC:"
 		Browse="Navegar..."
 		/>
   <Value Id="WizardDownloadStreamingModule"
@@ -563,7 +563,7 @@
 		Background="Imagem de Fundo"
 		GlassShow="Aplicar efeito cristalino"
 		ShowHeader="Mostrar informações na capa"
-		SeenUnseen="Mostrar menus de filtro visto / não visto"
+		SeenUnseen="Mostrar indicação de visto / não visto"
 		DynamicZoom="Ícones com zoom dinâmico"
 		SelectionBox="Contorno dinâmico"
 		Theme="Tema:"
@@ -576,7 +576,7 @@
 		Header="A abrir o video"
 		/>
   <Value Id="DownloadVcdTask"
-		Header="A receber o VirtualCloneDrive"
+		Header="Transferir o VirtualCloneDrive"
 		/>
   <Value Id="InstallVcdTask"
 		Header="A instalar o VirtualCloneDrive"
@@ -594,7 +594,7 @@
 		Filename="Ficheiro"
 		Directory="Pasta"
 		State="Estado"
-		Title="Ficheiros para identificar"
+		Title="Títulos por identificar"
 		Close="Fechar"
 		ManualScrap="Criar sem identificação"
 		Scrap="Identificar..."
@@ -614,7 +614,7 @@
 		/>
   <Value Id="ScanTask"
 		Header="A identificar"
-		Analyse="Identifica o ficheiro: {0}"
+		Analyse="Identificar o ficheiro: {0}"
 		Scrap="Recebe informações: {0}"
 		Scan="Encontrar ficheiros novos"
 		/>
@@ -642,7 +642,7 @@
 		Close="Fechar"
 		/>
   <Value Id="FullExportType"
-		Name="Completo"
+		Name="Completa"
 		Description="A sua colecção será inteiramente exportada."
 		/>
   <Value Id="IncrementalExportType"
@@ -679,7 +679,7 @@
 		ResetAllCategories="Reiniciar Categorias"
 		ToPlayList="Adicionar à lista de reprodução..."
 		SyncToCloud="Sincronizar com a Zappiti Cloud"
-		Scrap="Identificar novos..."
+		Scrap="Voltar a identificar..."
 		/>
   <Value Id="SubtitleRules"
 		Never="Nunca"
@@ -687,10 +687,10 @@
 		IfPrimaryAudioNotFound="Apenas se o audio pré-definido não estiver presente"
 		/>
   <Value Id="SetSeenStateTask"
-		Header="Actualizar visto/não visto."
+		Header="Actualizar vistos / não vistos."
 		/>
   <Value Id="HashTask"
-		Header="A actualizar ficheiros de Controle."
+		Header="A actualizar ficheiros de controle."
 		/>
   <Value Id="CategoriesMenu"
 		Action="Acção"
@@ -719,7 +719,7 @@
 		/>
   <Value Id="FilterMenu"
 		All="TODOS"
-		Ongoing="A ASSISTIR"
+		Ongoing="EM REPRODUÇÃO"
 		Seen="VISTOS"
 		Unseen="NÃO VISTOS"
 		/>
@@ -834,18 +834,18 @@
 		Body="O seu nome de utilizador Zappiti pode ser associado a 3 computadores.[BR][BR]Após este limite, poderá &quot;Esquecer os Computadores Associados&quot; de forma a associar um novo computador à sua conta.[BR][BR]Pode utilizar este procedimento até 2 vezes em cada 6 meses."
 		ForgetYourComputers="Esquecer Computadores Associados"
 		TooMuchReset="Atingiu o limite para esta operação no currente período de tempo."
-		YouHaveToWait="Derevá esperar {0} antes de utilizar esta operação."
+		YouHaveToWait="Deverá esperar {0} antes de utilizar esta operação."
 		Days="dias"
 		/>
   <Value Id="SyncTask"
 		Header="A sincronizar"
-		DeleteCategoryTask="A apagar uma categoria"
-		DeleteItemTask="A apagar um item"
-		DeletePersonTask="A apagar uma pessoa"
-		UpdatePersonTask="A actualizar uma pessoa"
-		UpdateMenuTask="A actualizar um menu"
-		UpdateItemTask="A actuallizar um item"
-		UpdateCategoriesTask="A actualizar as categorias"
+		DeleteCategoryTask="Apagar uma categoria"
+		DeleteItemTask="Apagar um item"
+		DeletePersonTask="Apagar uma pessoa"
+		UpdatePersonTask="Actualizar uma pessoa"
+		UpdateMenuTask="Actualizar um menu"
+		UpdateItemTask="Actuallizar um item"
+		UpdateCategoriesTask="Actualizar as categorias"
 		ResetTask="Início da sincronização"
 		PutPictureTask="Enviar uma imagem"
 		SaveSettingsTask="Guardar a configuração"
@@ -859,19 +859,19 @@
 		Duration="Duração:"
 		DetailsArtisteGroupBox="Artistas nesta faixa"
 		AddNewArtist="Criar um novo artista"
-		AddNewStyle="Criar um novo estilo"
+		AddNewStyle="Criar um novo género"
 		TitleTrack="Título:"
 		AlbumPisteOrpheline="Álbum "
 		ToolTipEditPhoto="Seleccione para alterar a imagem"
 		Filename="Ficheiro:"
 		ArtistPopup="Digite o nome do artista que deseja criar."
-		StylePopup="Digite o nome do estilo musical que deseja criar."
+		StylePopup="Digite o nome do género musical que deseja criar."
 		/>
   <Value Id="MainWindow"
-		DatabaseUpdating="Atualizar a base de dados..."
+		DatabaseUpdating="Actualizar a base de dados..."
 		Home="Início"
 		Configuration="Configurar"
-		DatabaseBadVersion="A versão actual do Zappiti não pode abrir a base de dados selecionada. Tente com uma versão mais recente."
+		DatabaseBadVersion="A versão actual do Zappiti não pode abrir a base de dados seleccionada. Tente com uma versão mais recente."
 		SearchMedias="Pesquisar"
 		Loading="A carregar"
 		About="Acerca de"
@@ -888,14 +888,14 @@
   <Value Id="SelectPictureView"
 		Search="Pesquisa"
 		Folder="Capa"
-		Background="Fanart"
-		Picture="Usava"
-		YourQuotaIsOver="Sua quota de download para este servidor acabou. Tente mais tarde. Obrigado."
-		ChooseMedia="Selecione a mídia :"
-		Browse="Escolher do HD"
+		Background="Imagem de fundo"
+		Picture="Imagem"
+		YourQuotaIsOver="A sua quota de transferências neste scraper foi ultrapassada. Por favor tente mais tarde."
+		ChooseMedia="Seleccione uma imagem:"
+		Browse="Escolher do disco rígido"
 		/>
   <Value Id="CircularProgressBarPopup"
-		DoNotShow="Não mostrar."
+		DoNotShow="Não voltar a mostrar."
 		WaitMessage="Por favor aguarde enquanto é efectuada a sincronização com a Zappiti Cloud.[br]Seleccione o ícone para mais informações."
 		/>
   <Value Id="TaskBarIcon"
@@ -929,7 +929,7 @@
 		/>
   <Value Id="ZappitiPlayerConfigView"
 		Release="Gratuito"
-		YourTokens="Lista de códigos de activação, associados à sua conta. Pode libertá-los para utilização com outra conta. Será enviado um e-mail de confirmação."
+		YourTokens="Lista de códigos de activação, associados à sua conta. Pode libertá-los para utilização com outra conta. Nesse caso, será enviado um e-mail de confirmação."
 		Activate="Activar"
 		Body="Introduza o seu código de activação (Zappiti Player Token) de forma a activar o seu Zappiti Player. "
 		Congratulation="Parabéns, o seu código de activação foi registado."
@@ -944,5 +944,16 @@
 		Scraping="A transferir informações..."
 		Scraped="Identificado com sucesso"
 		Fail="Não identificado"
+		/>
+  <Value Id="WizardInstallStreamingModule"
+		Header="Instalação do módulo de transmissão"
+		Body="Instalação em andamento. Aguarde..."
+		Close="Fechar"
+		Completed="Parabéns, a instalação do módulo de transmissão foi realizada com sucesso."
+		Failed="Instalação com falha por um motivo desconhecido."
+		/>
+  <Value Id="StreamInfo"
+		Audio="Faixa de áudio"
+		Subtitles="Legendas"
 		/>
 </Dictionary>

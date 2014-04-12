@@ -554,11 +554,11 @@
 		Body="Download in corso, attendere prego..."
 		/>
   <Value Id="WizardInstallStreamingModule"
-    Header="Installazione del modulo streaming"
-    Body="Installazione in corso. Attendere prego..."
-    Close="Chiudere"
-    Completed="Congratulazioni, l'installazione del modulo streaming si è svolta con successo."
-    Failed="Installazione fallita per un motivo sconosciuto."
+		Header="Installazione del modulo streaming"
+		Body="Installazione in corso. Attendere prego..."
+		Close="Chiudere"
+		Completed="Congratulazioni, l'installazione del modulo streaming si è svolta con successo."
+		Failed="Installazione fallita per un motivo sconosciuto."
 		/>
   <Value Id="StreamingModuleConfigView"
 		Download="Scarica e installa il modulo streaming"

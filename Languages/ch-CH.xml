@@ -1,0 +1,959 @@
+﻿<?xml version="1.0"
+		encoding="utf-8"?>
+<Dictionary EnglishName="Chinese"
+		CultureName="ch-CH">
+  <Value Id="SettingsTabValidation"
+		Header="驗證"
+		/>
+  <Value Id="SettingsDefault"
+		Header="預設"
+		/>
+  <Value Id="SettingsAdvancedOptions"
+		Header="進階選項"
+		/>
+  <Value Id="SettingsTypeExport"
+		ExportDune="DUNE 匯出檔案:"
+		ExportITunes="iTunes 匯出檔案:"
+		Body="定義匯出檔案"
+		DoYouHaveADune="我有 Zappiti Player / Dune HD"
+		DoYouHaveAniPhone="我有 iPhone / iPad / iPod"
+		DeviceType="設備:"
+		Primary="優先"
+		Secondary="第二優先"
+		Audio="Audio:"
+		Subtitle="字幕:"
+		Encode="編碼:"
+		SubtitleRule="顯示字幕:"
+		/>
+  <Value Id="SettingsIsNFS"
+		Content="NFS 協定"
+		/>
+  <Value Id="SettingsUserName"
+		Text="登入名稱:"
+		/>
+  <Value Id="SettingsUserPassword"
+		Text="密碼:"
+		/>
+  <Value Id="MainScrapPicturesTvShow"
+		Content="背景圖片"
+		/>
+  <Value Id="Export_XML"
+		CreateGlobalizationCustomCommand="國際化文件的生成"
+		iPhoneItemExportCustomCommand="產生iTunes文件"
+		ConfigXmlGeneratorCommand="匯出配置"
+		MoviesXmlFileGeneratorCommand="匯出電影"
+		AbcXmlFileGeneratorCommand="基本匯出"
+		TvShowsXmlFileGeneratorCommand="匯出影集"
+		CategoriesXmlFileGeneratorCommand="匯出類型"
+		RecentsXmlFileGeneratorCommand="匯出最近"
+		/>
+  <Value Id="SettingsIsXmlExport"
+		Text="Xml 預設"
+		/>
+  <Value Id="SettingsTabExport"
+		Header="匯出"
+		/>
+  <Value Id="SettingsOK"
+		Content="OK"
+		/>
+  <Value Id="SettingsCancel"
+		Content="取消"
+		/>
+  <Value Id="SettingsDeleteFolder"
+		Content="刪除"
+		/>
+  <Value Id="SettingsModifyFolder"
+		Content="修改"
+		/>
+  <Value Id="SettingsBrowse"
+		Content="瀏覽"
+		/>
+  <Value Id="SettingsFolderPath"
+		Text="資料夾路徑:"
+		/>
+  <Value Id="SettingsZappitiDataPath"
+		Text="設置文件:"
+		/>
+  <Value Id="SettingsRewriteAbsolutePath"
+		Text="重設匯出絕對路徑:"
+		/>
+  <Value Id="SelectMediaInResultsOK"
+		Content="OK"
+		/>
+  <Value Id="SelectMediaInResultsCancel"
+		Content="取消"
+		/>
+  <Value Id="All"
+		Text="全部"
+		/>
+  <Value Id="123"
+		Text="123"
+		/>
+  <Value Id="A"
+		Text="A"
+		/>
+  <Value Id="B"
+		Text="B"
+		/>
+  <Value Id="C"
+		Text="C"
+		/>
+  <Value Id="D"
+		Text="D"
+		/>
+  <Value Id="E"
+		Text="E"
+		/>
+  <Value Id="F"
+		Text="F"
+		/>
+  <Value Id="G"
+		Text="G"
+		/>
+  <Value Id="H"
+		Text="H"
+		/>
+  <Value Id="I"
+		Text="I"
+		/>
+  <Value Id="J"
+		Text="J"
+		/>
+  <Value Id="K"
+		Text="K"
+		/>
+  <Value Id="L"
+		Text="L"
+		/>
+  <Value Id="M"
+		Text="M"
+		/>
+  <Value Id="N"
+		Text="N"
+		/>
+  <Value Id="O"
+		Text="O"
+		/>
+  <Value Id="P"
+		Text="P"
+		/>
+  <Value Id="Q"
+		Text="Q"
+		/>
+  <Value Id="R"
+		Text="R"
+		/>
+  <Value Id="S"
+		Text="S"
+		/>
+  <Value Id="T"
+		Text="T"
+		/>
+  <Value Id="U"
+		Text="U"
+		/>
+  <Value Id="V"
+		Text="V"
+		/>
+  <Value Id="W"
+		Text="W"
+		/>
+  <Value Id="X"
+		Text="X"
+		/>
+  <Value Id="Y"
+		Text="Y"
+		/>
+  <Value Id="Z"
+		Text="Z"
+		/>
+  <Value Id="EditTitle"
+		Text="片名"
+		/>
+  <Value Id="EditRuntime"
+		Text="片長 (hh:mm)"
+		/>
+  <Value Id="EditYear"
+		Text="年份"
+		/>
+  <Value Id="EditSynopsis"
+		Text="簡介"
+		/>
+  <Value Id="EditDirectors"
+		Text="導演"
+		/>
+  <Value Id="EditActors"
+		Text="演員"
+		/>
+  <Value Id="EditAspectRatio"
+		Text="畫面比例"
+		/>
+  <Value Id="EditExtension"
+		Text="檔案封裝"
+		/>
+  <Value Id="EditCodecVideo"
+		Text="視頻編碼"
+		/>
+  <Value Id="EditFramerate"
+		Text="FPS"
+		/>
+  <Value Id="EditDefinition"
+		Text="解析度"
+		/>
+  <Value Id="EditCodecAudio"
+		Text="音效輸出"
+		/>
+  <Value Id="EditCategories"
+		Text="類別"
+		/>
+  <Value Id="EditSubTitles"
+		Text="字幕"
+		/>
+  <Value Id="EditLanguages"
+		Text="語言"
+		/>
+  <Value Id="EditViewNotView"
+		Text="已看過"
+		/>
+  <Value Id="EditOK"
+		Content="OK"
+		/>
+  <Value Id="EditCancel"
+		Content="取消"
+		/>
+  <Value Id="MainEdit"
+		Content="編輯"
+		/>
+  <Value Id="MainScrapDetails"
+		Content="辨識新增項目"
+		/>
+  <Value Id="MainScrapPictures"
+		Content="更改圖片"
+		/>
+  <Value Id="MainInfo"
+		Text="{0} 電影, {1} 電視劇, {2} 影集"
+		/>
+  <Value Id="MainToScrap"
+		Text="{0} 辨識"
+		/>
+  <Value Id="DownloadingPictureTask"
+		Header="圖片下載中"
+		/>
+  <Value Id="CleanUpMessage"
+		Text="以下媒體檔案無法取得, 是否從資料庫中移除?"
+		/>
+  <Value Id="CleanUpOK"
+		Content="清除"
+		/>
+  <Value Id="CleanUpClose"
+		Content="關閉"
+		/>
+  <Value Id="MessageBox"
+		ConfigureSharePath="設定分享路徑"
+		NewReleaseAvailable="新版本已發佈! 是否下載{0} {1}?"
+		DoYouWantToDeleteThisGroup="是否刪除此項目?"
+		DoYouWantToDeleteTheseGroup="是否刪除此項目?"
+		DeleteCategory="是否刪除此類型?"
+		ResetCategories="是否重設類型?"
+		ResetMainMenu="是否重設所有選項?"
+		ResetABCMenu="是否重設所有按鍵?"
+		ResetFilterMenu="是否重設所有過濾器 ?"
+		VersionExpired="此版本 Zappiti已過期. 新版本已發佈!是否下載?"
+		AddFolder="新增文件{0} 到配置?"
+		CanStartDuneServer="無法啟動. 請更換連接埠."
+		DoYouWanToInstallMpcHd="是否安裝 Media Player Classic - Home Cinema?"
+		DoYouWantToQuit="處理進行中[br]是否退出?"
+		DoYouWanToInstallStreamingModule="安裝 streaming module?"
+		UpnpFailed="UPnP 埠失敗. 請手動配置網路"
+		DoYouWantToDeleteThisFolder="你將從配置中刪除文件夾.[br]點擊是 {0} 一併從Zappiti中刪除.[br]點擊No{0} 保留在Zappiti中.[br]點擊取消,取消刪除."
+		FolderMusic="相對應的音樂"
+		FolderMovie="相對應的電影"
+		FolderTVShow="相對應的電視影集"
+		/>
+  <Value Id="MessageBoxCaption"
+		NewReleaseAvailable="新版本已可取得"
+		DoYouWantToDeleteThisGroup="刪除此項目"
+		DoYouWantToDeleteTheseGroup="刪除此項目"
+		DeleteCategory="刪除類型"
+		ResetCategories="重設類型"
+		ResetMainMenu="重設選單"
+		ResetABCMenu="重設按鍵"
+		VersionExpired="新版本已可取得"
+		AddFolder="新增資料夾"
+		CanStartDuneServer="錯誤"
+		DoYouWanToInstallMpcHd="軟體需求"
+		DoYouWantToQuit="目前動作"
+		DoYouWanToInstallStreamingModule="軟體需求"
+		UpnpFailed="UPnP 設置錯誤"
+		DoYouWantToDeleteThisFolder="配置檔案移除"
+		/>
+  <Value Id="EditChannels"
+		Text="聲道"
+		/>
+  <Value Id="TVShowSeasonList"
+		SeasonUp="第 {0} 季"
+		/>
+  <Value Id="AddToGroupNewGroup"
+		Content="新群組"
+		PlaylistContent="新撥放清單"
+		/>
+  <Value Id="EditGroupCancel"
+		Content="取消"
+		/>
+  <Value Id="EditGroupOK"
+		Content="儲存"
+		/>
+  <Value Id="FrequentWords"
+		Words="you;i;to;the;a;and;that;it;of;me"
+		/>
+  <Value Id="EditBrowseFilename"
+		Content="瀏覽"
+		/>
+  <Value Id="EditFilename"
+		Text="檔案路徑"
+		/>
+  <Value Id="EditSubTitle"
+		Text="字幕"
+		/>
+  <Value Id="EditGroupTitle"
+		Text="組名"
+		/>
+  <Value Id="EditGroupChilds"
+		Text="成員"
+		/>
+  <Value Id="EditGroupSortByData"
+		Content="按日期排序"
+		/>
+  <Value Id="EditGroupMoveUp"
+		Content="往上"
+		/>
+  <Value Id="EditGroupMoveDown"
+		Content="往下"
+		/>
+  <Value Id="EditGroupMoveRemove"
+		Content="移除"
+		/>
+  <Value Id="EditGroup"
+		Group="Group"
+		/>
+  <Value Id="EditMenuIcons"
+		ToolTip="更改圖示"
+		Text="圖示 :"
+		/>
+  <Value Id="EditMenuBack"
+		ToolTip="更改背景"
+		/>
+  <Value Id="EditMenuBackRollOver"
+		ToolTip="更改背景側翻"
+		/>
+  <Value Id="EditCategoriesLabel"
+		Text="類別:"
+		/>
+  <Value Id="EditCategoriesKeywords"
+		Text="Tags:"
+		/>
+  <Value Id="EditMenuOK"
+		Content="確認"
+		/>
+  <Value Id="EditMenuCancel"
+		Content="取消"
+		/>
+  <Value Id="EditMenuBrowse"
+		Content="瀏覽..."
+		/>
+  <Value Id="EditCategoriesAdd"
+		ToolTip="新增類別"
+		/>
+  <Value Id="MainAddPlaylist"
+		Content="新播放清單"
+		/>
+  <Value Id="MainAddAlbum"
+		Content="新專輯"
+		/>
+  <Value Id="MainAddCategory"
+		Content="新類別"
+		OrderCategory="重新排序"
+		NoticeReorderCategory="拖曳進行重新排序"
+		/>
+  <Value Id="MoreMediaInfosRightClick"
+		Text="點擊右鍵獲得更多資訊..."
+		/>
+  <Value Id="EditGroupSortByName"
+		Content="按名稱排序"
+		/>
+  <Value Id="SettingsTabFolders"
+		Header="檔案"
+		AutoScanScrap="自動辨識新檔案"
+		ScrapOnStarWindows="啟動程式時,自動辨識檔案"
+		Folders="文件夾:"
+		AddFolder="新文件夾"
+		AnalyseTimer="每隔一段時間自動辨識"
+		Minutes="{0} 分鐘"
+		Hours="{0} 小時"
+		/>
+  <Value Id="SettingsTabOthers"
+		Header="其他"
+		SendErrorReport="自動發送錯誤訊息給開發者"
+		Recents="&quot;最近&quot;的天數定義:"
+		/>
+  <Value Id="SettingsTabScrapers"
+		Header="辨識"
+		MovieScraper="電影:"
+		MoviePictureScraper="電影海報:"
+		TVShowScraper="影集:"
+		TVShowPictureScraper="影集海報:"
+		SuppressAllAfterFirstExcludedWordFromTitle="排除第一項發現後刪除所有字符"
+		WordToExludeFromMovies="從標題排除以下文字:"
+		/>
+  <Value Id="GroupContextState"
+		Seen="已看過"
+		Ongoing="正在進行"
+		Unseen="未看過"
+		/>
+  <Value Id="EditSize"
+		Text="大小"
+		/>
+  <Value Id="Loading"
+		Text="讀取中..."
+		/>
+  <Value Id="NoTitleFoundToScrap"
+		Text="沒有相對應電影"
+		/>
+  <Value Id="Prepare_Application"
+		Content="應用程式設置"
+		SettingsLoading="讀取設置"
+		ScanningAllFiles="掃描檔案"
+		DataBaseLoading="資料庫讀取中"
+		DataBaseCleanUp="清除資料庫"
+		EnablingFeatureBrowserEmulation="啟用 browser emulation 功能"
+		Header="---"
+		SigningIn="連接中"
+		/>
+  <Value Id="WizardWelcome"
+		Body="歡迎.[br][br]精靈將幫助您配置Zappiti[br][br]點擊&quot;檔案所在&quot; 按鈕, 讓 Zappiti 找到您的檔案所在(電影, 電視影集, 音樂)."
+		Close="關閉"
+		Header="安裝精靈"
+		AddFiles="檔案所在 &gt;&gt;"
+		/>
+  <Value Id="WizardAddLocalLocation"
+		Name="新增本地文件"
+		Description="-此電腦中的硬碟 [br] - 透過USB/eSata連接的外接硬碟 [br] - 透過USB/eSata連接到電腦的工作站 [br] - 使用USB連接到此電腦的多媒體"
+		Header="本地文件"
+		Tips="&#xD;&#xA;		"
+		Folders="本地硬碟 / USB 裝置"
+		/>
+  <Value Id="WizardAddNetworkLocation"
+		Name="新增網路共享文件"
+		Description="-多媒體撥放器內部硬碟 [br]-網路硬碟 [br] - NAS 伺服器[br] - 連接到網路的另一部電腦 [br] -區域網路 [br] 文件 - 網路硬碟"
+		Header="網路硬碟, NAS, ..."
+		Tips="小秘訣: 可以在HD LAND 網頁購買 USB, NAS....."
+		Folders="網路位置"
+		/>
+  <Value Id="WizardWhereAreYourFiles"
+		Header="你的檔案位置"
+		Body="選擇檔案所在"
+		Back="&lt;&lt; 上一頁"
+		Close="關閉"
+		/>
+  <Value Id="WizardAddLocation"
+		Body="拖拉你想要的文件至右方新增清單."
+		YourFolders="你的文件"
+		Next="下一步 &gt;&gt;"
+		Back="&lt;&lt; 上一步"
+		Close="關閉"
+		/>
+  <Value Id="WizardAddAnotherLocation"
+		Header="是否新增另外一個地點?"
+		Next="下一頁 &gt;&gt;"
+		YourFolders="您的文件夾匯總"
+		Close="關閉"
+		/>
+  <Value Id="FolderDataTemplate"
+		Edit="更改"
+		Delete="刪除"
+		Error="無法連接資料夾"
+		/>
+  <Value Id="WizardRewriteLocationUrl"
+		Header="路徑選擇"
+		Body="選取多媒體播放機存取的文件位置 : [br](indiquez o? ce dossier sera plac? ?le final) "
+		Back="&lt;&lt; 上一步"
+		Next="下一步 &gt;&gt;"
+		ExternLabel="連接到多媒體播放機的外接硬碟"
+		NetworkLabel="在NAS伺服器, 區域網路.."
+		UnknowLabel="自行配置"
+		Close="關閉"
+		InternLabel="在多媒體播放機的內置硬碟"
+		/>
+  <Value Id="LocalRewriteUrlEngineView"
+		Body="資料夾路徑必須能夠被DUNE存取"
+		IAccept="我同意分享此資料夾"
+		/>
+  <Value Id="SettingsHost"
+		Text="伺服器名稱 / IP:"
+		/>
+  <Value Id="SettingsPath"
+		Text="位置:"
+		/>
+  <Value Id="WizardConfigureType"
+		Header="檔案類型"
+		Body="何種多媒體檔案在此文件?"
+		Movie="電影"
+		TVShow="電視影集"
+		Back="&lt;&lt; 上一步"
+		Close="關閉"
+		Music="音樂"
+		/>
+  <Value Id="Folder"
+		Movie="電影"
+		TVShow="電視影集"
+		Music="音樂"
+		/>
+  <Value Id="Settings"
+		Header="設定"
+		AccountHeader="帳戶"
+		LocalServerHeader="遠端遙控"
+		/>
+  <Value Id="PlayerConfigView"
+		IsControlRunning="啟用遙控控制l."
+		Port="使用本地連接埠"
+		IsStreamingRunning="啟用串流"
+		Body="啟用本地伺服器: [br] - 使用Zappiti Media Control 開啟在電腦上的影片.[br] - 從電腦串流影片到 Zappiti Media Control"
+		ServerIsRunning="伺服器運行連接埠 {0}"
+		ServerIsNotRunning="伺服器未啟用"
+		Start="啟動伺服器"
+		Stop="停止伺服器"
+		IsServerRunning="啟用 Zappiti 伺服器"
+		/>
+  <Value Id="UpnpConfigView"
+		IsUpnpActivated="啟用 Unp (自動配置)"
+		PublicIp="Public IP:"
+		/>
+  <Value Id="WizardDownloadMpcPlayer"
+		Header="下載 MPC - Home Cinema"
+		Next="下一步 &gt;&gt;"
+		Close="關閉"
+		Body="下載中,請耐心等候 ..."
+		/>
+  <Value Id="WizardInstallMpcPlayer"
+		Header="正在安裝 MPC - Home Cinema"
+		Body="安裝中, 請稍後..."
+		Close="關閉"
+		Completed="恭喜, MPC - Home Cinema 已經成功安裝"
+		Failed="對不起, 安裝失敗."
+		/>
+  <Value Id="MpcPlayerConfigView"
+		Download="下載安裝 MPC - Home Cinema"
+		PlayerPath="路徑:"
+		Browse="瀏覽..."
+		/>
+  <Value Id="WizardDownloadStreamingModule"
+		Header="下載 streaming module"
+		Next="下一步 &gt;&gt;"
+		Close="關閉"
+		Body="下載中,請耐心等候..."
+		/>
+  <Value Id="WizardInstallStreamingModule"
+		Header="正在安裝 streaming module"
+		Body="安裝中, 請稍後..."
+		Close="關閉"
+		Completed="恭喜, streaming module 已經成功完成安裝"
+		Failed="安裝失敗."
+		/>
+  <Value Id="StreamingModuleConfigView"
+		Download="下載並安裝 streaming module"
+		PlayerPath="路徑:"
+		Browse="瀏覽..."
+		/>
+  <Value Id="SettingsTabInterface"
+		Header="介面"
+		Language="語言:"
+		Background="客製化背景"
+		GlassShow="玻璃特效"
+		ShowHeader="顯示封面於前端"
+		SeenUnseen="顯示看過 / 未看過選單"
+		DynamicZoom="圖標動態縮放"
+		SelectionBox="動態輪廓"
+		Theme="主題:"
+		/>
+  <Value Id="TaskManagerView"
+		Header="目前工作"
+		Close="關閉"
+		/>
+  <Value Id="PlayTask"
+		Header="播放影片"
+		/>
+  <Value Id="DownloadVcdTask"
+		Header="下載 VirtualCloneDrive"
+		/>
+  <Value Id="InstallVcdTask"
+		Header="正在安裝 VirtualCloneDrive"
+		/>
+  <Value Id="DeleteVcdSetupTask"
+		Header="移除VirtualCloneDrive"
+		/>
+  <Value Id="MountTask"
+		Header="掛載磁碟映像"
+		/>
+  <Value Id="MountCheckTask"
+		Header="等待虛擬磁碟"
+		/>
+  <Value Id="UnscrapedView"
+		Filename="檔案名稱"
+		Directory="目錄"
+		State="狀態"
+		Title="需要辨識檔案"
+		Close="關閉"
+		ManualScrap="建立項目(不辨識)"
+		Scrap="辨識..."
+		MovieTitle="輸入影片名稱"
+		/>
+  <Value Id="FirstInitFromMovieNfoTask"
+		Header="初始化電影資訊"
+		/>
+  <Value Id="UpdateMainViewModelTask"
+		Header="視頻刷新發布"
+		/>
+  <Value Id="MediaToDeleteTask"
+		Header="尋找不存在的檔案"
+		/>
+  <Value Id="FirstInitTask"
+		Header="啟動"
+		/>
+  <Value Id="ScanTask"
+		Header="辨識中"
+		Analyse="已辨識檔案: {0}"
+		Scrap="訊息檢索: {0}"
+		Scan="找到新的檔案"
+		/>
+  <Value Id="ScanForTVShowEpisodeTask"
+		Header="搜尋影集資訊"
+		/>
+  <Value Id="FirstInitFromTVShowNfoTask"
+		Header="初始化影集資訊"
+		/>
+  <Value Id="FirstInitFromTVEpisodeNfoTask"
+		Header="初始化影集資訊"
+		/>
+  <Value Id="ScanMoviesFolders"
+		Header="掃描電影"
+		/>
+  <Value Id="ScanTVShowFolders"
+		Header="掃描影集"
+		/>
+  <Value Id="ExportTypeView"
+		Header="匯出種類"
+		RegisterZappitiPlayerLabel="是否擁有Zappiti Player?"
+		RegisterZappitiPlayerButton="立刻啟用!"
+		RegisterZappitiPlayerSmallLabel="啟用你的 Zappiti Player, 你將可以輸出音樂資料庫."
+		ExportMusic="匯出音樂"
+		Close="關閉"
+		/>
+  <Value Id="FullExportType"
+		Name="完整"
+		Description="匯出完成"
+		/>
+  <Value Id="IncrementalExportType"
+		Name="新增"
+		Description="上次匯出之後,新的更動."
+		/>
+  <Value Id="WizardFinish"
+		Header="設置完成"
+		Body="Zappiti Media Center 設置完成"
+		Close="關閉"
+		Back="&lt;&lt; 上一步"
+		/>
+  <Value Id="WizardConfigureExportDevice"
+		Header="你有何種裝置?"
+		Body="選擇你的裝置:"
+		Back="&lt;&lt; 上一步"
+		Next="Next &gt;&gt;"
+		Close="關閉"
+		/>
+  <Value Id="WizardConfigureITunesExport"
+		Header="配置iTunes (iPhone / iPad)"
+		Body="匯出所在?"
+		Back="&lt;&lt; 上一步"
+		Next="下一步 &gt;&gt;"
+		Close="關閉"
+		/>
+  <Value Id="ContextMenu"
+		GroupTo="群組..."
+		ChangePicture="更改圖片..."
+		Delete="刪除"
+		Edit="編輯..."
+		Play="讀取中"
+		Reset="重置"
+		ResetAllCategories="重置分類"
+		ToPlayList="新增至撥放清單..."
+		SyncToCloud="同步到Zappiti Cloud"
+		Scrap="辨識中..."
+		/>
+  <Value Id="SubtitleRules"
+		Never="從不"
+		AlwaysIfPossible="總是, 如果可能"
+		IfPrimaryAudioNotFound="只在偏好音軌無法取得"
+		/>
+  <Value Id="CategoriesMenu"
+		Action="動作"
+		Sci-Fi="科幻"
+		Adventure="冒險"
+		War="戰爭"
+		Western="西部"
+		History="歷史"
+		Drama="劇情"
+		Documentary="紀錄"
+		Music="歌舞"
+		Romance="愛情文藝"
+		Classic="經典"
+		Animation="動畫"
+		Crime="犯罪"
+		Thriller="驚悚"
+		Horror="恐怖"
+		Comedy="喜劇"
+		Other="其他"
+		Fantasy="奇幻"
+		/>
+  <Value Id="MediaMenu"
+		Video="影片"
+		Music="音樂"
+		Photo="照片"
+		/>
+  <Value Id="FilterMenu"
+		All="全部"
+		Ongoing="正在進行"
+		Seen="已看過"
+		Unseen="未看過"
+		/>
+  <Value Id="SetSeenStateTask"
+		Header="更新已看過狀態"
+		/>
+  <Value Id="HashTask"
+		Header="更新Hash檔案"
+		/>
+  <Value Id="MovieControl"
+		Runtime="片長"
+		Actors="演員"
+		Directors="導演"
+		ReleaseDate="發行"
+		/>
+  <Value Id="TVEpisodeControl"
+		Actors="演員"
+		Directors="導演"
+		ReleaseDate="發行日期"
+		Runtime="片長"
+		/>
+  <Value Id="MarketView"
+		Close="關閉"
+		/>
+  <Value Id="Shared"
+		Browse="瀏覽"
+		Remove="移除"
+		Add="新增"
+		Close="關閉"
+		Choose="選擇"
+		Save="儲存"
+		Cancel="取消"
+		Edit="編輯"
+		Back="返回"
+		/>
+  <Value Id="MarketPopup"
+		DoNotShow="啟動時,不顯示"
+		/>
+  <Value Id="VideoMenu"
+		ABC="全部"
+		Movies="電影"
+		TVShows="電視影集"
+		Recents="最近"
+		Categories="類型"
+		/>
+  <Value Id="MusicMenu"
+		Titles="名稱"
+		Albums="專輯"
+		Artists="演唱者"
+		Recents="最近"
+		Genres="類型"
+		Playlists="播放清單"
+		/>
+  <Value Id="AlbumView"
+		Genre="類型:"
+		Count="音軌:"
+		ReleaseDate="發行日期:"
+		Runtime="時間:"
+		ToolTipEditPhoto="更改圖片"
+		/>
+  <Value Id="ScanMusicsFolderTask"
+		Header="掃描音樂檔案"
+		/>
+  <Value Id="FirstInitFromMusicNfoTask"
+		Header="初始化音樂資訊"
+		/>
+  <Value Id="ResetCategoriesTask"
+		Header="重置類型"
+		/>
+  <Value Id="AccountConfigView"
+		Email="帳戶:"
+		Connect="登出"
+		Disconnect="斷線"
+		SendToCloud="啟用Zappiti 雲端自動同步"
+		Refresh="重新同步"
+		RefreshText="僅使用於[br]此項為同步所有資料[br]時間長短根據資料庫而定"
+		Sync="雲端同步:"
+		SyncText="使用手機/平板控制音樂和影片"
+		ZMC-ZappitiPlayer="Zappiti Media Control for Zappiti Player"
+		ZMC-DuneHD="Zappiti Media Control for Dune HD"
+		SyncError="以下項目無法完成同步:"
+		EventDateTime="日期"
+		EventCaption="名稱"
+		EventMessage="錯誤訊息"
+		SyncOK="最後同步({0})成功"
+		ShowError="詳細"
+		HideError="返回"
+		Edit="編輯"
+		/>
+  <Value Id="SignIn"
+		HeaderSignIn="登入"
+		HeaderRegister="建立新帳戶"
+		Email="Email"
+		Password="密碼"
+		RepeatPassword="確認密碼"
+		Firstname="名"
+		Lastname="姓"
+		AlreadyRegistered="立即登入"
+		NewUser="建立新帳戶"
+		SignIn="登入"
+		Register="註冊"
+		BadCredential="Email 或 密碼錯誤"
+		DuplicateEmail="此Email 已被使用"
+		RegistrationError="現在無法建立新帳戶"
+		NewUserText="你沒有 Zappiti 帳戶?"
+		AlreadyRegisteredText="你有 Zappiti 帳戶?"
+		UnableToConnect="帳戶無法登入?"
+		Reset="是, 我要建立新的密碼"
+		ResetInfo="請輸入你的Email"
+		HeaderResetPassword="重設密碼"
+		ResetEmailSent="請確認郵箱, 並且點擊郵件中的鏈結更改密碼"
+		ResetEmailNotSent="無法重設密碼? 請確認Email."
+		BadLicence="無法取得帳戶資訊"
+		CheckYourConnection="無法建立連結"
+		/>
+  <Value Id="ResetDeviceList"
+		Header="忘記你的授權設備"
+		Body="你的Zappiti 可以在三台電腦上使用.[BR][BR]你可以使用&quot;忘記你的電腦&quot; 然後新增電腦到你的帳戶.[BR][BR]六個月內你可以使用&quot;忘記你的電腦&quot;高達兩次."
+		ForgetYourComputers="忘記你的電腦"
+		TooMuchReset="授權裝備已達到上限,請移除不需要裝備"
+		YouHaveToWait="使用此功能前, 你必須等待 {0} "
+		Days="天數"
+		/>
+  <Value Id="SyncTask"
+		Header="同步進行中"
+		DeleteCategoryTask="正在刪除類型"
+		DeleteItemTask="正在刪除項目"
+		DeletePersonTask="移除個人"
+		UpdatePersonTask="個人更新"
+		UpdateMenuTask="更新選單"
+		UpdateItemTask="更新項目"
+		UpdateCategoriesTask="更新類別"
+		ResetTask="開始同步"
+		PutPictureTask="傳送圖片"
+		SaveSettingsTask="儲存配置中"
+		/>
+  <Value Id="EditAlbum"
+		Header="編輯專輯"
+		DetailsAlbumGroupBox="專輯資訊"
+		TitleAlbum="專輯名稱:"
+		DetailsTrackGroupBox="歌曲資訊"
+		Duration="時間長度:"
+		DetailsArtisteGroupBox="演唱者"
+		DetailsStyleGroupBox="歌曲種類"
+		AddNewArtist="新增歌手"
+		AddNewStyle="新增類型"
+		TitleTrack="名稱:"
+		AlbumPisteOrpheline="專輯"
+		ToolTipEditPhoto="更改圖片"
+		Filename="檔案:"
+		ArtistPopup="輸入歌手名稱."
+		StylePopup="輸入音樂類型."
+		/>
+  <Value Id="MainWindow"
+		DatabaseUpdating="更新資料庫..."
+		Home="首頁"
+		Configuration="設置"
+		DatabaseBadVersion="目前版本無法打開所選資料庫. 請嘗試更新"
+		SearchMedias="搜尋"
+		Loading="讀取中"
+		About="關於"
+		Analyse="辨識"
+		/>
+  <Value Id="EditPlaylist"
+		Header="編輯播放清單"
+		DetailsPlaylistGroupBox="播放清單資訊"
+		TitlePlaylist="播放清單名稱:"
+		/>
+  <Value Id="SaveTask"
+		Header="儲存目前設定"
+		/>
+  <Value Id="SelectPictureView"
+		Search="搜尋"
+		Folder="封面"
+		Background="背景"
+		Picture="穿"
+		YourQuotaIsOver="已達到下載額度. 請稍後重試"
+		ChooseMedia="選擇圖片:"
+		Browse="選擇檔案"
+		/>
+  <Value Id="CircularProgressBarPopup"
+		DoNotShow="隱藏."
+		WaitMessage="同步期間請耐心等候.[br]點擊圖示獲得更多資訊"
+		/>
+  <Value Id="TaskBarIcon"
+		RunningInBackground="Zappiti Media Center 背景執行.[br]點擊顯示."
+		Quit="關閉 Zappiti Media Center"
+		FoldersError="檔案無法讀取. 點擊獲得更多資訊."
+		/>
+  <Value Id="AboutView"
+		Donate="捐贈"
+		Scraper="Scrapers :"
+		Other="其他:"
+		Links="連結:"
+		/>
+  <Value Id="RescrapView"
+		SearchByTitle="名稱辨識"
+		SearchById="ID辨識"
+		Search="搜尋"
+		Title="辨識"
+		/>
+  <Value Id="WizardActivateToken"
+		Header="是否有 Zappiti Player?"
+		Back="&lt;&lt; 上一頁"
+		Next="下一頁 &gt;&gt;"
+		Tips="這種代碼通常出現在您的發票或你的Zappiti播放器。如果你不能找到它，請與經銷商聯繫，以得到它。"
+		Activate="啟用"
+		ActivateBody="在下面輸入您的激活碼來激活您的Zappiti播放器。"
+		TooMuchTry="你做太多的測試. 在24小時，請重試"
+		TokenAlreadyInUse="此激活碼已被其他帳戶. 他必須從這個另一帳戶被釋放後方可重新使用"
+		NotFound="此激活碼不存在"
+		BadLicence="擷取您的用戶許可證時發生錯誤"
+		/>
+  <Value Id="ZappitiPlayerConfigView"
+		Release="免費"
+		YourTokens="下面是與您的帳戶相關聯的激活代碼的列表。你可以用另一個帳戶釋放他們的重用。您會收到一封確認電子郵件"
+		Activate="啟用"
+		Body="Enter your activation code (Zappiti Player Token) ci below to activate your Zappiti Player. "
+		Congratulation="記錄你的啟用碼"
+		/>
+  <Value Id="DeleteTask"
+		Header="刪除中..."
+		/>
+  <Value Id="MediaToScrapState"
+		None="&#xD;&#xA;		"
+		Identification="目前辨識..."
+		Identified="已辨識"
+		Scraping="下載資訊中..."
+		Scraped="成功"
+		Fail="未辨識"
+		/>
+  <Value Id="StreamInfo"
+		Audio="音軌"
+		Subtitles="字幕"
+		/>
+</Dictionary>

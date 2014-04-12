@@ -558,7 +558,7 @@
 		Close="Zavřít"
 		Completed="Gratulujeme instalace modulu datových proudů proběhl úspěšně."
 		Failed="Instalace se nezdařila z neznámého důvodu."
-		/>  
+		/>
   <Value Id="StreamingModuleConfigView"
 		Download="Stáhněte a nainstalujte modul datových proudů"
 		PlayerPath="Cesta:"
