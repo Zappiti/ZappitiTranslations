@@ -518,7 +518,7 @@
 		AccountHeader="Счет"
 		LocalServerHeader="Пульт дистанционного управления"
 		/>
-  <Value Id="PlayerConfigView"
+  <Value Id="LocalServerConfigView"
 		IsControlRunning="Включение поддержки пульта дистанционного управления."
 		Port="используя локальный порт"
 		IsStreamingRunning="Включение потоковой передачи"
@@ -528,6 +528,9 @@
 		Start="Запуск сервера"
 		Stop="Остановка сервера"
 		IsServerRunning="Включение сервера Zappiti"
+		Advanced="Расширенная конфигурация:"
+		LocalIP="Локальный IP (оставьте пустым для автоматической настройки):"
+		BonjourNotFound="Не удается инициализировать Привет."
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Активировать УНП (автоматическая настройка)"

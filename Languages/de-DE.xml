@@ -430,7 +430,7 @@
 		AccountHeader="Benutzer-Account"
 		LocalServerHeader="Fernbedienung"
 		/>
-  <Value Id="PlayerConfigView"
+  <Value Id="LocalServerConfigView"
 		IsControlRunning="Unterstützung für Fernbedienung aktivieren"
 		Port="mithilfe der lokalen Ports"
 		IsStreamingRunning="Streaming aktivieren"
@@ -440,6 +440,9 @@
 		Start="Starten Sie den server"
 		Stop="Beenden Sie den server"
 		IsServerRunning="Zappiti-Server aktivieren"
+		Advanced="Erweiterte Konfiguration:"
+		LocalIP="Lokale IP (leer lassen, um automatisch zu konfigurieren):"
+		BonjourNotFound="Hallo Initialisierung nicht möglich."
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Aktivieren der Unp (automatische Konfiguration)"

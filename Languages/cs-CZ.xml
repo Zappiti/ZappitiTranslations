@@ -513,7 +513,7 @@
 		AccountHeader="Účet"
 		LocalServerHeader="Dálkové ovládání"
 		/>
-  <Value Id="PlayerConfigView"
+  <Value Id="LocalServerConfigView"
 		IsControlRunning="Povolení vzdáleného převzetí."
 		Port="použití místní port"
 		IsStreamingRunning="Povolit datové proudy"
@@ -523,6 +523,9 @@
 		Start="Spusťte server"
 		Stop="Zastavte server"
 		IsServerRunning="Povolit serveru Zappiti"
+		Advanced="Upřesněná konfigurace:"
+		LocalIP="Lokální IP (nechte prázdné pro automatickou konfiguraci):"
+		BonjourNotFound="Nelze inicializovat Hello."
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Aktivovat Unp (Automatická konfigurace)"

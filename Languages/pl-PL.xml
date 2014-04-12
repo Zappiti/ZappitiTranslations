@@ -514,7 +514,7 @@
 		AccountHeader="Konto"
 		LocalServerHeader="Pilot zdalnego sterowania"
 		/>
-  <Value Id="PlayerConfigView"
+  <Value Id="LocalServerConfigView"
 		IsControlRunning="Włącz obsługę zdalnego pilota."
 		Port="za pomocą portu lokalnego"
 		IsStreamingRunning="Włącz przesyłanie strumieniowe"
@@ -524,6 +524,9 @@
 		Start="Start serwera"
 		Stop="Zatrzymaj serwer"
 		IsServerRunning="Włącz serwer Zappiti"
+		Advanced="Zaawansowana konfiguracja:"
+		LocalIP="Lokalne IP (pozostaw puste aby automatycznie skonfigurować):"
+		BonjourNotFound="Nie można zainicjować Witam."
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Aktywować czyszczeniem (automatyczna konfiguracja)"

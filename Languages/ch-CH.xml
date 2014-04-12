@@ -513,7 +513,7 @@
 		AccountHeader="帳戶"
 		LocalServerHeader="遠端遙控"
 		/>
-  <Value Id="PlayerConfigView"
+  <Value Id="LocalServerConfigView"
 		IsControlRunning="啟用遙控控制l."
 		Port="使用本地連接埠"
 		IsStreamingRunning="啟用串流"
@@ -523,6 +523,9 @@
 		Start="啟動伺服器"
 		Stop="停止伺服器"
 		IsServerRunning="啟用 Zappiti 伺服器"
+		Advanced="高级配置 :"
+		LocalIP="本地IP（留空自动配置）:"
+		BonjourNotFound="无法初始化Bonjour。"
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="啟用 Unp (自動配置)"

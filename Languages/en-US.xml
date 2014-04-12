@@ -513,7 +513,7 @@
 		AccountHeader="Account"
 		LocalServerHeader="Remote control"
 		/>
-  <Value Id="PlayerConfigView"
+  <Value Id="LocalServerConfigView"
 		IsControlRunning="Enable support for remote control."
 		Port="using the local port"
 		IsStreamingRunning="Enable streaming"
@@ -523,6 +523,9 @@
 		Start="Start the server"
 		Stop="Stop the server"
 		IsServerRunning="Enable server Zappiti"
+		Advanced="Advanced configuration:"
+		LocalIP="Local IP (leave empty to automatically configure):"
+		BonjourNotFound="Unable to initialize Hello."
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Activate Unp (automatic configuration)"

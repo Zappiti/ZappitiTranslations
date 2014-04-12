@@ -514,7 +514,7 @@
 		AccountHeader="Rekening"
 		LocalServerHeader="Afstandsbediening"
 		/>
-  <Value Id="PlayerConfigView"
+  <Value Id="LocalServerConfigView"
 		IsControlRunning="Ondersteuning voor afstandsbediening inschakelen."
 		Port="met behulp van de lokale poort"
 		IsStreamingRunning="Streaming inschakelen"
@@ -524,6 +524,9 @@
 		Start="De server starten"
 		Stop="De server stoppen"
 		IsServerRunning="Server Zappiti inschakelen"
+		Advanced="Geavanceerde configuratie:"
+		LocalIP="Lokale IP (laat leeg om automatisch te configureren):"
+		BonjourNotFound="Niet in staat om te initialiseren Hello."
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Activeren Unp (automatische configuratie)"

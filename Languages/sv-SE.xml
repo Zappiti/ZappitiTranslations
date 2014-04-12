@@ -513,7 +513,7 @@
 		AccountHeader="Räkning"
 		LocalServerHeader="Fjärrkontroll"
 		/>
-  <Value Id="PlayerConfigView"
+  <Value Id="LocalServerConfigView"
 		IsControlRunning="Aktivera stöd för fjärrstyrning."
 		Port="med den lokala porten"
 		IsStreamingRunning="Aktivera strömning"
@@ -523,6 +523,9 @@
 		Start="Starta servern"
 		Stop="Stoppa servern"
 		IsServerRunning="Aktivera servern Zappiti"
+		Advanced="Avancerad konfiguration:"
+		LocalIP="Lokala IP (lämna tom för att automatiskt konfigurera):"
+		BonjourNotFound="Det gick inte att initiera Hej."
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Aktivera Unp (automatisk konfiguration)"

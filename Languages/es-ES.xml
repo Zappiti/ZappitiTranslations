@@ -513,7 +513,7 @@
 		AccountHeader="Cuenta"
 		LocalServerHeader="Control remoto"
 		/>
-  <Value Id="PlayerConfigView"
+  <Value Id="LocalServerConfigView"
 		IsControlRunning="Activar soporte para control remoto."
 		Port="usando el puerto local"
 		IsStreamingRunning="Permiten streaming"
@@ -523,6 +523,9 @@
 		Start="Inicie el servidor"
 		Stop="Detener el servidor"
 		IsServerRunning="Activar a servidor Zappiti"
+		Advanced="Configuración avanzada:"
+		LocalIP="IP local (Deje vacío para configurar automáticamente):"
+		BonjourNotFound="No se puede inicializar Hola."
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Activar Unp (configuración automática)"

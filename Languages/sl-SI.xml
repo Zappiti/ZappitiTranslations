@@ -514,7 +514,7 @@
 		AccountHeader="Račun"
 		LocalServerHeader="Daljinski upravljalnik"
 		/>
-  <Value Id="PlayerConfigView"
+  <Value Id="LocalServerConfigView"
 		IsControlRunning="Omogoči podporo za daljinsko upravljanje"
 		Port="z uporabo lokalnih vrat"
 		IsStreamingRunning="Omogočiti pretakanje"
@@ -524,6 +524,9 @@
 		Start="Zagon strežnika"
 		Stop="Stop strežnik"
 		IsServerRunning="Omogoči strežnik Zappiti"
+		Advanced="Napreden zunanja podoba:"
+		LocalIP="Lokalni IP (pustite prazno za samodejno konfiguracijo):"
+		BonjourNotFound="Ni mogoče inicializirati Hello."
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Aktiviranje čiščenjem (samodejna konfiguracija)"

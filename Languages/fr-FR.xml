@@ -513,7 +513,7 @@
 		AccountHeader="Compte"
 		LocalServerHeader="Contrôle à distance"
 		/>
-  <Value Id="PlayerConfigView"
+  <Value Id="LocalServerConfigView"
 		IsControlRunning="Activer la prise de contrôle à distance."
 		Port="en utilisant le port local"
 		IsStreamingRunning="Activer le streaming"
@@ -523,6 +523,9 @@
 		Start="Démarrer le serveur"
 		Stop="Arreter le serveur"
 		IsServerRunning="Activer le server Zappiti"
+		Advanced="Configuration avancée :"
+		LocalIP="IP locale (laisser vide pour configurer automatiquement) :"
+		BonjourNotFound="Impossible d'initialiser Bonjour."
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Activer Unp (configuration automatique)"
