@@ -531,6 +531,11 @@
 		ExtractFFMPEG="Préparation du module de streaming."
 		DownloadBonjour="Téléchargement de Bonjour."
 		InstallBonjour="Installation de Bonjour."
+		StartServer="Démarrage du serveur local."
+		ConfigureUPNP="Configuration UPnP."
+		RegisterBonjour="Configuration de Bonjour."
+		CheckServerFromCloud="Vérification de la communication avec l'extérieur."
+		CheckFFMPEG="Vérification du module de streaming."
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Activer Unp (configuration automatique)"
