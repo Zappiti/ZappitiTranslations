@@ -536,6 +536,9 @@
 		RegisterBonjour="Configuração de Bonjour."
 		CheckServerFromCloud="Verifica a comunicação com o mundo exterior."
 		CheckFFMPEG="Verificação do módulo de transmissão."
+		LocalIpResult="IP local:"
+		ExternalIpResult="IP externo:"
+		Warning="Você pode transmitir vários vídeos simultaneamente, mas o poder do seu computador e a velocidade da sua banda podem afetar a qualidade do streaming."
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Activar Unp (configuração automática)"

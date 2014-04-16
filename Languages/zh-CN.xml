@@ -536,6 +536,9 @@
 		RegisterBonjour="Bonjour 的配置。"
 		CheckServerFromCloud="检查与外部世界的通信。"
 		CheckFFMPEG="流媒体模块的核查。"
+		LocalIpResult="本地 IP："
+		ExternalIpResult="外部 ip 地址："
+		Warning="你可以同时传输多个视频，但您的计算机的电源和您的带宽的速度可能会影响流式的质量。"
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="啟用 Unp (自動配置)"

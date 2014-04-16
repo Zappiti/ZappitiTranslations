@@ -536,6 +536,9 @@
 		RegisterBonjour="Konfiguration av Bonjour."
 		CheckServerFromCloud="Kontrollera kommunikationen med omvärlden."
 		CheckFFMPEG="Verifiering av modulen streaming."
+		LocalIpResult="Lokala IP:"
+		ExternalIpResult="Externa IP:"
+		Warning="Du kan direktuppspela flera videor samtidigt, men kraften i datorn och hastigheten på din bandbredd kan påverka kvaliteten på strömma."
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Aktivera Unp (automatisk konfiguration)"

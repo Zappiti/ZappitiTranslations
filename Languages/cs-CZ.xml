@@ -536,6 +536,9 @@
 		RegisterBonjour="Konfigurace Bonjour."
 		CheckServerFromCloud="Zkontrolujte komunikaci s okolním světem."
 		CheckFFMPEG="Ověření modulu datových proudů."
+		LocalIpResult="Lokální IP:"
+		ExternalIpResult="Externí IP:"
+		Warning="Můžete vysílat více videí najednou, ale výkon vašeho počítače a rychlost vašeho připojení může ovlivnit kvalitu vysílání."
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Aktivovat Unp (Automatická konfigurace)"

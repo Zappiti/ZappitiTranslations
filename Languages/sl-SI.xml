@@ -537,6 +537,9 @@
 		RegisterBonjour="Konfiguracija Bonjour."
 		CheckServerFromCloud="Preveri komunikacijo z zunanjim svetom."
 		CheckFFMPEG="Preverjanje tok modula."
+		LocalIpResult="Lokalni IP:"
+		ExternalIpResult="Zunanji IP:"
+		Warning="Vi moči tok več videov hkrati, ampak moč vašega računalnika in svoje pasovne širine hitrost lahko vpliva na kakovost pretakanje."
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Aktiviranje čiščenjem (samodejna konfiguracija)"

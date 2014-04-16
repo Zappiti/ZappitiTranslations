@@ -537,6 +537,9 @@
 		RegisterBonjour="Konfiguracja Bonjour."
 		CheckServerFromCloud="Sprawdzamy komunikację ze światem zewnętrznym."
 		CheckFFMPEG="Weryfikacja moduł transmisji strumieniowej."
+		LocalIpResult="Lokalne IP:"
+		ExternalIpResult="Zewnętrzne IP:"
+		Warning="Można przesyłać strumieniowo filmy wielu jednocześnie, ale moc komputera i prędkość swojego łącza mogą wpływać na jakość transmisji strumieniowej."
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Aktywować czyszczeniem (automatyczna konfiguracja)"
