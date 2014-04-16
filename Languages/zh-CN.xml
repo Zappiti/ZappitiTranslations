@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"
 		encoding="utf-8"?>
 <Dictionary EnglishName="Chinese"
-		CultureName="ch-CH">
+		CultureName="zh-CN">
   <Value Id="SettingsTabValidation"
 		Header="驗證"
 		/>
@@ -521,11 +521,16 @@
 		ServerIsRunning="伺服器運行連接埠 {0}"
 		ServerIsNotRunning="伺服器未啟用"
 		Start="啟動伺服器"
-		Stop="停止伺服器"
-		IsServerRunning="啟用 Zappiti 伺服器"
 		Advanced="高级配置 :"
 		LocalIP="本地IP（留空自动配置）:"
 		BonjourNotFound="无法初始化Bonjour。"
+		StopServer="停止伺服器"
+		CurrentStreams="视频流中"
+		StopStream="停止"
+		DownloadFFMPEG="下载流媒体模块。"
+		ExtractFFMPEG="流媒体模块的编制。"
+		DownloadBonjour="下载打个招呼。"
+		InstallBonjour="安装的打个招呼。"
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="啟用 Unp (自動配置)"
