@@ -539,6 +539,8 @@
 		StartServerFailed="Začetek lokalnega strežnika ni mogoče. Poskusite z drugo pristanišče."
 		Diagnostic="Diagnozo"
 		ConfigureNatUPnP="Konfiguriranje NAT / UPnP."
+		HelpLink="http://zappiti-blog.azurewebsites.net/?p=981"
+		HelpLabel="Kliknite na spodnjo povezavo, da dobite pomoč:"
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Aktiviranje čiščenjem (samodejna konfiguracija)"
@@ -975,5 +977,15 @@
 		Header="Konfiguracija MPC - Home Cinema"
 		Download="Prenesi MPC - Home Cinema"
 		Install="Namesti MPC - Home Cinema"
+		/>
+  <Value Id="ShareConfigView"
+		Share="Delite svoje pobiranje s prijatelji in družino."
+		Info="Vaši prijatelji lahko brskajte po zbirki filmov z Zappiti dinamično in celo njihov ogled, če ste izbrali tok!"
+		ShareEmail="Email od stika."
+		ShareButton="Ta stik v skupno rabo"
+		RemoveShareButton="Ni več delež s tem stikom"
+		EmailColumn="Stiki"
+		SharedWithMe="V skupni rabi z mano"
+		SharedWithHim="Delijo s tem stikom"
 		/>
 </Dictionary>

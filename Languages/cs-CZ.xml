@@ -538,6 +538,8 @@
 		StartServerFailed="Nelze spustit na místním serveru. Zkuste to s jiným portem."
 		Diagnostic="Diagnóza"
 		ConfigureNatUPnP="Konfigurace NAT / UPnP."
+		HelpLink="http://zappiti-blog.azurewebsites.net/?p=981"
+		HelpLabel="Klepněte na odkaz získat pomoc:"
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Aktivovat Unp (Automatická konfigurace)"
@@ -948,7 +950,7 @@
 		Header="Současné odstranění..."
 		/>
   <Value Id="MediaToScrapState"
-		None="&#xD;&#xA;		"
+    None="&#xD;&#xA;		"
 		Identification="Současné identifikace..."
 		Identified="Identifikován"
 		Scraping="Stahování informací..."
@@ -974,5 +976,15 @@
 		Header="Konfigurace MPC - Home Cinema"
 		Download="Download MPC - Home Cinema"
 		Install="Instalace MPC - Home Cinema"
+		/>
+  <Value Id="ShareConfigView"
+		Share="Sdílejte své sbírky se svými přáteli a rodinou."
+		Info="Vaši přátelé mohou procházet svou sbírku filmů s Zappiti dynamickým a dokonce zobrazit v případě, že jste vybrali Streaming!"
+		ShareEmail="E-mail od kontaktu."
+		ShareButton="Sdílet s tímto kontaktem"
+		RemoveShareButton="Již podíl s tímto kontaktem"
+		EmailColumn="Kontakty"
+		SharedWithMe="Sdílená se mnou"
+		SharedWithHim="S tímto kontaktem"
 		/>
 </Dictionary>

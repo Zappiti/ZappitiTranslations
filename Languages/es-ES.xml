@@ -538,6 +538,8 @@
 		StartServerFailed="No se puede iniciar el servidor local. Probar con otro puerto."
 		Diagnostic="Diagnóstico"
 		ConfigureNatUPnP="Configuración de NAT / UPnP."
+		HelpLink="http://zappiti-blog.azurewebsites.net/?p=981"
+		HelpLabel="Haga clic en el enlace de más abajo para obtener ayuda:"
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Activar Unp (configuración automática)"
@@ -974,5 +976,15 @@
 		Header="Configuración de MPC - Home Cinema"
 		Download="Descargar MPC - Home Cinema"
 		Install="Instalando MPC - Home Cinema"
+		/>
+  <Value Id="ShareConfigView"
+		Share="Compartir tu colección con sus amigos y su familia."
+		Info="Tus amigos pueden navegar por tu colección de películas con Zappiti dinámica y verlas incluso si se ha seleccionado Streaming!"
+		ShareEmail="Correo electrónico de un contacto."
+		ShareButton="Compartir con este contacto"
+		RemoveShareButton="Ya no compartimos con este"
+		EmailColumn="Contactos"
+		SharedWithMe="Compartió conmigo"
+		SharedWithHim="Compartido con este contacto"
 		/>
 </Dictionary>

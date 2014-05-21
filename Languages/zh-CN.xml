@@ -538,6 +538,8 @@
 		StartServerFailed="无法启动本地服务器。尝试与另一个端口。"
 		Diagnostic="诊断"
 		ConfigureNatUPnP="配置 NAT / UPnP。"
+		HelpLink="http://zappiti-blog.azurewebsites.net/?p=981"
+		HelpLabel="请单击下面的链接来获取帮助："
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="啟用 Unp (自動配置)"
@@ -974,5 +976,15 @@
 		Header="MPC - Home Cinema 的配置"
 		Download="下載 MPC - Home Cinema"
 		Install="正在安裝 MPC - Home Cinema"
+		/>
+  <Value Id="ShareConfigView"
+		Share="与你的朋友和家人分享您的收藏。"
+		Info="你的朋友可以浏览您的电影收藏 Zappiti 动态和甚至查看它们，如果你选择了流出 ！"
+		ShareEmail="从联系人的电子邮件。"
+		ShareButton="与此联系人共享"
+		RemoveShareButton="不再与此联系人的共享"
+		EmailColumn="联系人"
+		SharedWithMe="与我共享"
+		SharedWithHim="与此联系人共享"
 		/>
 </Dictionary>
