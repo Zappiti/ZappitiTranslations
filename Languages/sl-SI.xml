@@ -541,6 +541,7 @@
 		ConfigureNatUPnP="Konfiguriranje NAT / UPnP."
 		HelpLink="http://zappiti-blog.azurewebsites.net/?p=981"
 		HelpLabel="Kliknite na spodnjo povezavo, da dobite pomoč:"
+		CheckFirewall="Preverjanje požarni zid okno"
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Aktiviranje čiščenjem (samodejna konfiguracija)"
@@ -979,13 +980,16 @@
 		Install="Namesti MPC - Home Cinema"
 		/>
   <Value Id="ShareConfigView"
-		Share="Delite svoje pobiranje s prijatelji in družino."
-		Info="Vaši prijatelji lahko brskajte po zbirki filmov z Zappiti dinamično in celo njihov ogled, če ste izbrali tok!"
+		Info="Delite svoje pobiranje s prijatelji in družino. Vaši prijatelji lahko brskajte po zbirki filmov z Zappiti dinamično in celo njihov ogled, če ste izbrali tok!"
 		ShareEmail="Email od stika."
 		ShareButton="Ta stik v skupno rabo"
 		RemoveShareButton="Ni več delež s tem stikom"
 		EmailColumn="Stiki"
-		SharedWithMe="V skupni rabi z mano"
-		SharedWithHim="Delijo s tem stikom"
+		ShareState="Delitev"
+		InvitationSent="Vabilo je bilo poslano"
+		ShareAccepted="V skupni rabi"
+		/>
+  <Value Id="SettingsTabShare"
+		Header="Delitev"
 		/>
 </Dictionary>

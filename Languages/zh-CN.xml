@@ -540,6 +540,7 @@
 		ConfigureNatUPnP="配置 NAT / UPnP。"
 		HelpLink="http://zappiti-blog.azurewebsites.net/?p=981"
 		HelpLabel="请单击下面的链接来获取帮助："
+		CheckFirewall="核查的防火墙窗口"
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="啟用 Unp (自動配置)"
@@ -978,13 +979,16 @@
 		Install="正在安裝 MPC - Home Cinema"
 		/>
   <Value Id="ShareConfigView"
-		Share="与你的朋友和家人分享您的收藏。"
-		Info="你的朋友可以浏览您的电影收藏 Zappiti 动态和甚至查看它们，如果你选择了流出 ！"
+		Info="与你的朋友和家人分享您的收藏。你的朋友可以浏览您的电影收藏 Zappiti 动态和甚至查看它们，如果你选择了流出 ！"
 		ShareEmail="从联系人的电子邮件。"
 		ShareButton="与此联系人共享"
 		RemoveShareButton="不再与此联系人的共享"
 		EmailColumn="联系人"
-		SharedWithMe="与我共享"
-		SharedWithHim="与此联系人共享"
+		ShareState="分享"
+		InvitationSent="发送邀请"
+		ShareAccepted="共享"
+		/>
+  <Value Id="SettingsTabShare"
+		Header="分享"
 		/>
 </Dictionary>

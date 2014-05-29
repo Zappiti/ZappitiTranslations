@@ -457,6 +457,7 @@
 		ConfigureNatUPnP="Konfigurieren von NAT / UPnP."
 		HelpLink="http://zappiti-blog.azurewebsites.net/?p=981"
 		HelpLabel="Klicken Sie auf den untenstehenden Link um Hilfe zu erhalten:"
+		CheckFirewall="Überprüfung der Firewall Fenster"
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Aktivieren der Unp (automatische Konfiguration)"
@@ -951,7 +952,7 @@
 		Header="Aktuelle löschen..."
 		/>
   <Value Id="MediaToScrapState"
-    None="&#xD;&#xA;		"
+		None="&#xD;&#xA;		"
 		Identification="Aktuelle Identifikation..."
 		Identified="Identifiziert"
 		Scraping="Herunterladen von Informationen..."
@@ -979,13 +980,16 @@
 		Install="Installation von MPC - Home Cinema"
 		/>
   <Value Id="ShareConfigView"
-		Share="Teilen Sie Ihre Sammlung mit deinen Freunden und deiner Familie."
-		Info="Deine Freunde können Durchsuchen Ihrer Sammlung von Filmen mit Zappiti Dynamik und auch anzusehen, wenn Sie Streaming ausgewählt!"
+		Info="Teilen Sie Ihre Sammlung mit deinen Freunden und deiner Familie. Deine Freunde können Durchsuchen Ihrer Sammlung von Filmen mit Zappiti Dynamik und auch anzusehen, wenn Sie Streaming ausgewählt!"
 		ShareEmail="Aus einem Kontakt eine e-Mail."
 		ShareButton="Teilen Sie mit diesem Kontakt"
 		RemoveShareButton="Mit diesen Kontakt nicht mehr Teilen"
 		EmailColumn="Kontakte"
-		SharedWithMe="Gemeinsam mit mir"
-		SharedWithHim="Gemeinsam mit diesen Kontakt"
+		ShareState="Austausch"
+		InvitationSent="Einladung gesendet"
+		ShareAccepted="Geteilt"
+		/>
+  <Value Id="SettingsTabShare"
+		Header="Austausch"
 		/>
 </Dictionary>

@@ -771,6 +771,7 @@
 		ConfigureNatUPnP="A NAT konfigurálásáról / UPnP."
 		HelpLink="http://zappiti-blog.azurewebsites.net/?p=981"
 		HelpLabel="Kattintson az alábbi linkre, hogy kap segítséget:"
+		CheckFirewall="A tűzfal ablak vizsgálata"
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Aktiválja a Unp (automatikus konfiguráció)"
@@ -978,13 +979,16 @@
 		Install="MPC - házimozi rendszer telepítés"
 		/>
   <Value Id="ShareConfigView"
-		Share="Ossza meg a gyűjtemény, a barátok és a család."
-		Info="A barátok Tallózás a gyűjtemény-ból mozi-val dinamikus Zappiti, és egyenletes Kilátás őket, ha bejelölte a Streaming!"
+		Info="Ossza meg a gyűjtemény, a barátok és a család. A barátok Tallózás a gyűjtemény-ból mozi-val dinamikus Zappiti, és egyenletes Kilátás őket, ha bejelölte a Streaming!"
 		ShareEmail="E-mailben egy kapcsolat."
 		ShareButton="Ossza meg ezt a partnert"
 		RemoveShareButton="Már nem osztozik-val a kapcsolatot"
 		EmailColumn="Kapcsolatok"
-		SharedWithMe="Megosztott velem"
-		SharedWithHim="Az adott partnerrel közös"
+		ShareState="Megosztása"
+		InvitationSent="Meghívás küldött"
+		ShareAccepted="Megosztott"
+		/>
+  <Value Id="SettingsTabShare"
+		Header="Megosztása"
 		/>
 </Dictionary>
