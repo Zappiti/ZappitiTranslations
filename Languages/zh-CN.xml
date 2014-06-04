@@ -541,6 +541,7 @@
 		HelpLink="http://zappiti-blog.azurewebsites.net/?p=981"
 		HelpLabel="请单击下面的链接来获取帮助："
 		CheckFirewall="核查的防火墙窗口"
+		RestartAsAdmin="若要重新启动 Zappiti 作为管理员，请尝试更改防火墙设置，请单击此处。"
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="啟用 Unp (自動配置)"
@@ -915,6 +916,7 @@
 		RunningInBackground="Zappiti Media Center 背景執行.[br]點擊顯示."
 		Quit="關閉 Zappiti Media Center"
 		FoldersError="檔案無法讀取. 點擊獲得更多資訊."
+		StreamStarted="{0} 看 {1}"
 		/>
   <Value Id="AboutView"
 		Donate="捐贈"

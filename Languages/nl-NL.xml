@@ -542,6 +542,7 @@
 		HelpLink="http://zappiti-blog.azurewebsites.net/?p=981"
 		HelpLabel="Klik op de link hieronder om hulp te krijgen:"
 		CheckFirewall="Verificatie van de firewall venster"
+		RestartAsAdmin="Klik hier om opnieuw Zappiti als beheerder en probeer te veranderen de firewallinstellingen."
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Activeren Unp (automatische configuratie)"
@@ -916,6 +917,7 @@
 		RunningInBackground="Zappiti Media Center uit te voeren op de achtergrond.[br]Klik hier om het opnieuw weer te geven."
 		Quit="Sluiten Zappiti Media Center"
 		FoldersError="Sommige bestanden zijn niet toegankelijk. Klik hier om de details te bekijken."
+		StreamStarted="{0} is kijken {1}"
 		/>
   <Value Id="AboutView"
 		Donate="Doneer!"

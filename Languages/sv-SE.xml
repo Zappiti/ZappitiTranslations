@@ -541,6 +541,7 @@
 		HelpLink="http://zappiti-blog.azurewebsites.net/?p=981"
 		HelpLabel="Klicka på länken nedan för att få hjälp:"
 		CheckFirewall="Kontroll av brandväggen fönster"
+		RestartAsAdmin="Klicka här för att starta om Zappiti som administratör och prova att ändra brandväggsinställningarna."
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Aktivera Unp (automatisk konfiguration)"
@@ -915,6 +916,7 @@
 		RunningInBackground="Zappiti Media Center ska köras i bakgrunden.[br]Klicka här för att visa den igen."
 		Quit="Stäng Zappiti Media Center"
 		FoldersError="Vissa filer är inte tillgängliga. Klicka här för att visa detaljer."
+		StreamStarted="{0} är att titta på {1}"
 		/>
   <Value Id="AboutView"
 		Donate="Donera !"

@@ -541,6 +541,7 @@
 		HelpLink="http://zappiti-blog.azurewebsites.net/?p=981"
 		HelpLabel="Klepněte na odkaz získat pomoc:"
 		CheckFirewall="Ověření firewall okna"
+		RestartAsAdmin="Chcete-li restartovat Zappiti jako správce a zkuste změnit nastavení brány firewall."
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Aktivovat Unp (Automatická konfigurace)"
@@ -915,6 +916,7 @@
 		RunningInBackground="Zappiti Media Center můžete spustit na pozadí.[br]Klepnutím sem zobrazíte jej znovu."
 		Quit="Zavřít Zappiti Media Center"
 		FoldersError="Některé soubory nejsou přístupné. Klepnutím sem zobrazíte podrobnosti."
+		StreamStarted="sleduje {0} {1}"
 		/>
   <Value Id="AboutView"
 		Donate="Přispějte!"

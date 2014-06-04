@@ -541,6 +541,7 @@
 		HelpLink="http://zappiti-blog.azurewebsites.net/?p=981"
 		HelpLabel="Click on the link below to get help:"
 		CheckFirewall="Verification of the Window Firewall "
+		RestartAsAdmin="Click here to restart Zappiti as an administrator and try changing the firewall settings."
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Activate Unp (automatic configuration)"
@@ -915,6 +916,7 @@
 		RunningInBackground="Zappiti Media Center to execute in the background.[br]Click here to display it again."
 		Quit="Close Zappiti Media Center"
 		FoldersError="Some files are not accessible. Click here to view the details."
+		StreamStarted="{0} is watching {1}"
 		/>
   <Value Id="AboutView"
 		Donate="Donate!"

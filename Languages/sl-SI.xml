@@ -542,6 +542,7 @@
 		HelpLink="http://zappiti-blog.azurewebsites.net/?p=981"
 		HelpLabel="Kliknite na spodnjo povezavo, da dobite pomoč:"
 		CheckFirewall="Preverjanje požarni zid okno"
+		RestartAsAdmin="Kliknite tukaj, če želite znova zagnati Zappiti kot skrbnik in poskusite spremeniti nastavitve požarnega zidu."
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Aktiviranje čiščenjem (samodejna konfiguracija)"
@@ -916,6 +917,7 @@
 		RunningInBackground="Zappiti Media Center vršiti v ozadju.[br]Kliknite tukaj, da ga znova prikažete."
 		Quit="Zaprite Zappiti Media Center"
 		FoldersError="Nekatere datoteke niso dostopne. Kliknite tukaj za ogled podrobnosti."
+		StreamStarted="gleda {0} {1}"
 		/>
   <Value Id="AboutView"
 		Donate="Donirajte !"

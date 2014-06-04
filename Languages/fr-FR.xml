@@ -541,6 +541,7 @@
 		HelpLink="http://zappiti-blog.azurewebsites.net/?p=961"
 		HelpLabel="Cliquez sur le lien ci-dessous pour obtenir de l'aide :"
 		CheckFirewall="Vérification du pare-feu de Window"
+		RestartAsAdmin="Cliquez ici pour redémarrer Zappiti en tant qu'administrateur et tenter de mofidier les paramètres du pare-feu."
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Activer Unp (configuration automatique)"
@@ -915,6 +916,7 @@
 		RunningInBackground="Zappiti Media Center s'execute en arrière plan.[br]Cliquez ici pour l'afficher de nouveau."
 		Quit="Fermer Zappiti Media Center"
 		FoldersError="Certains dossiers ne sont pas accessibles. Cliquez ici pour afficher le détail."
+		StreamStarted="{0} est en train de regarder {1}"
 		/>
   <Value Id="AboutView"
 		Donate="Faire un don !"

@@ -546,6 +546,7 @@
 		HelpLink="http://zappiti-blog.azurewebsites.net/?p=981"
 		HelpLabel="Нажмите на ссылку ниже, чтобы получить помощь:"
 		CheckFirewall="Проверка межсетевого экрана окно"
+		RestartAsAdmin="Нажмите здесь, чтобы перезагрузить Zappiti с правами администратора и попробуйте изменить параметры брандмауэра."
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Активировать УНП (автоматическая настройка)"
@@ -920,6 +921,7 @@
 		RunningInBackground="Zappiti Media Center для выполнения в фоновом режиме.[br]Нажмите здесь, чтобы открыть его снова."
 		Quit="Закрыть Zappiti Media Center"
 		FoldersError="Некоторые файлы не доступны. Нажмите здесь, чтобы просмотреть подробности."
+		StreamStarted="смотрит {0} {1}"
 		/>
   <Value Id="AboutView"
 		Donate="Добровольное пожертвование !"

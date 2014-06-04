@@ -542,6 +542,7 @@
 		HelpLink="http://zappiti-blog.azurewebsites.net/?p=981"
 		HelpLabel="Kliknij na poniższy link, aby uzyskać pomoc:"
 		CheckFirewall="Weryfikacja firewall okno"
+		RestartAsAdmin="Kliknij tutaj, aby ponownie uruchomić Zappiti jako administrator i spróbuj zmienić ustawienia zapory."
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Aktywować czyszczeniem (automatyczna konfiguracja)"
@@ -916,6 +917,7 @@
 		RunningInBackground="Zappiti Media Center do wykonać w tle.[br]Kliknij tutaj, aby wyświetlić go ponownie."
 		Quit="Zamknij Zappiti Media Center"
 		FoldersError="Niektóre pliki nie są dostępne. Kliknij tutaj, aby wyświetlić szczegóły."
+		StreamStarted="{0} jest oglądanie {1}"
 		/>
   <Value Id="AboutView"
 		Donate="Darowizna !"

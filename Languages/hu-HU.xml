@@ -772,6 +772,7 @@
 		HelpLink="http://zappiti-blog.azurewebsites.net/?p=981"
 		HelpLabel="Kattintson az alábbi linkre, hogy kap segítséget:"
 		CheckFirewall="A tűzfal ablak vizsgálata"
+		RestartAsAdmin="Kattintson ide, hogy indítsa újra a Zappiti a rendszergazda, és próbálja meg módosítani a tűzfalbeállításokat."
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Aktiválja a Unp (automatikus konfiguráció)"
@@ -915,6 +916,7 @@
 		RunningInBackground="Zappiti Media Center-hoz kivégez a háttérben.[br]Kattintson ide, hogy újra megjelenítse."
 		Quit="Közel Zappiti Media Center"
 		FoldersError="Egyes fájlok nem érhetők el. Ide kattintva megtekintheti a részleteket."
+		StreamStarted="a(z) {0} {1} figyel"
 		/>
   <Value Id="AboutView"
 		Donate="Készíts egy adomány!"

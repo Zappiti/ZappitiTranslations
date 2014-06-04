@@ -541,6 +541,7 @@
 		HelpLink="http://zappiti-blog.azurewebsites.net/?p=981"
 		HelpLabel="Clique no link abaixo para obter ajuda:"
 		CheckFirewall="Verificação do firewall janela"
+		RestartAsAdmin="Clique aqui para reiniciar o Zappiti como administrador e tente alterar as configurações de firewall."
 		/>
   <Value Id="UpnpConfigView"
 		IsUpnpActivated="Activar Unp (configuração automática)"
@@ -908,6 +909,7 @@
 		RunningInBackground="Zappiti Media Center está a ser executado em segundo plano.[br]Seleccione para o colocar de novo em primeiro plano."
 		Quit="Sair do Zappiti Media Center"
 		FoldersError="Algumas pastas não se encontram acessíveis. Ver detalhes."
+		StreamStarted="{0} é assistindo {1}"
 		/>
   <Value Id="AboutView"
 		Donate="Fazer um donativo!"
