@@ -6,23 +6,46 @@ cultureIt.ConnectionTitle = "In connessione";
 cultureIt.ErrorBadCredentialTitle = "Autenticazione fallita:";
 cultureIt.ErrorBadCredentialMessage = "Per favore inserisci un account Zappiti valido.";
 cultureIt.ErrorCloudNotActivatedTitle = "Zappiti Cloud non è attivo:";
-cultureIt.ErrorCloudNotActivatedMessage = "Abilita la sincronizzazione su Zappiti Media Center, Impostazioni/Account, per continuare.";
+cultureIt.ErrorCloudNotActivatedMessage = "<p align='left'>Abilita la sincronizzazione su Zappiti Media Center, Impostazioni/Account, per continuare.in </p><p align='left'>Press ENTER or RETURN to display the settings, where you can select another library if you have received a share invitation from a friend.</p>";
 cultureIt.ErrorZappitiPlayerNotActivatedTitle = "Zappiti Player non registrato:";
-cultureIt.ErrorZappitiPlayerNotActivatedMessage = "Per continuare, assicurati di aver registrato il Token fornito con il tuo Zappiti Player su Zappiti Media Center. Infine, abilita la sincronizzazione su Impostazioni/Account.";
+cultureIt.ErrorZappitiPlayerNotActivatedMessage = "<p align='left'>Per continuare, assicurati di aver registrato il Token fornito con il tuo Zappiti Player su Zappiti Media Center. Infine, abilita la sincronizzazione su Impostazioni/Account.</p><p align='left'>Press ENTER or RETURN to display the settings, where you can select another library if you have received a share invitation from a friend.</p>";
+cultureIt.ErrorStreamingTitle = "Unable to stream the video";
+cultureIt.ErrorStreamingMessage = "<p align='left'>The remote server did not respond in due time. The service may not be available. Please contact the owner of this library to check if Zappiti Media Center is running with the server option activated.</p>";
+cultureIt.SetupLibrary = "Libraries";
+cultureIt.SetupLibraryBody = "Select the library you want to display :";
+cultureIt.SetupLibraryMain = "Your library:";
+cultureIt.SetupLibraryOther = "Libraries shared with you:";
+cultureIt.SetupSettings = "Settings";
+cultureIt.SettingsPlayMode = "Playback model:";
+cultureIt.SettingsStreamQuality = "Streaming quality:";
+cultureIt.SettingsStreamVariable = "Variable quality:";
+cultureIt.SettingsStreamSubtitlesSize = "Streaming subtitles size:";
+cultureIt.SettingsPlayModeCaptions = ['Local', 'Streaming'];
+cultureIt.SettingsStreamQualityCaptions = ['Low', 'Normal', 'High;', 'HD'];
+cultureIt.SettingsStreamVariableCaptions = ['Enabled;', 'Disabled'];
+cultureIt.SettingsStreamSubtitlesSizeCaptions = ['Very small', 'Small', 'Normal', 'High', 'Very high'];
+cultureIt.SetupDisconnect = "Disconnect";
+cultureIt.SetupQuit = "Quit Zappiti";
 cultureIt.SignInTitle = "Connessione";
 cultureIt.SignInEmail = "E-mail";
 cultureIt.SignInPassword = "Password";
 cultureIt.SignInEnter = "Entra";
 cultureIt.SignInShowKeyboard = "&nbsp;Mostra la tastiera virtuale";
+cultureIt.SignInSetup = "Setup";
+cultureIt.SignInShowSetup = "&nbsp;Display the control panel";
 cultureIt.SignInDemoLabel = "&nbsp;Mostra l'account di prova";
 cultureIt.SearchTitle = "Che cosa stai cercando?";
 cultureIt.SearchMovie = "Film, Serie TV";
-cultureIt.SearchAlbumPlaylist = "Album, Playlist";
+cultureIt.SearchAlbumPlaylist = "Album";
 cultureIt.SearchTrack = "Tracce musicali";
 cultureIt.SearchActor = "Attori";
 cultureIt.SearchDirector = "Registi";
 cultureIt.SearchPerformer = "Artisti, Cantanti";
 cultureIt.FileNotFound = "File non trovato:";
+cultureIt.StreamSelectAudio = "Select an audio stream :";
+cultureIt.StreamSelectSubtitles = "Select a subtitles stream :";
+cultureIt.NoSubtitles = "None";
+cultureIt.WaitforStream = "Starting playback...";
 cultureIt.HelpSilver = "help-silver-en.jpg";
 cultureIt.HelpDefault = "help-default-en.jpg";
 cultureIt.AudioHelpSilver = "audio-help-silver-en.jpg";
@@ -31,18 +54,15 @@ cultureIt.Yes = "Si";
 cultureIt.No = "No";
 cultureIt.OK = "OK";
 cultureIt.QuitZappitiMessage = "Vuoi chiudere Zappiti e tornare all'interfaccia principale ?";
-cultureIt.ChangelogTitle = "Version 0.4";
+cultureIt.ChangelogTitle = "Version 1.1";
 cultureIt.ChangelogMessage = "<div style='text-align:left;font-size:30px'>Miglioramenti :" +
     "<ul>" +
-        "<li>Sono state migliorate le performance generali.</li>" +
-        "<li>È stata corretta la navigazione tra le sinossi ed è stata corretta la funzione di ricerca dopo aver lanciato un video.</li>" +
-        "<li>Ora è possibile salvare le vostre preferenze per l'uso del Muro d'immagini.</li>" +
-        "<li>Ora è possibile pilotare e lanciare i vostri file multimediali con l'ultima versione dell'applicazione Zappiti Media Control (versione 2.3 su iOS; versione 1.6 su Android).</li>" +
-        "<li>L'interfaccia utilizzerà la lingua specificata su Zappiti Media Center (se la traduzione è disponibile).</li>" +
-        "<li>Diverse correzioni e miglioramenti.</li>" +
+        "<li>Added a settings view to the SETUP key of the remote.</li>" +
+        "<li>You can browse libraries that your friends shared with you.</li>" +
+        "<li>You can start the playback of videos using the stream feature of Zappiti Media Center (also work for shared libraries).</li>" +
+        "<li>General enhancement of the stability and user interface.</li>" +
     "</ul>" +
-    "<div>NB :<br/>N&eacute;cessite Zappiti v3.0 sur votre ordinateur :<br/>http://bit.ly/zmc-3-0-preview-fr</div>"
-    + "</div>";
+    "</div>";
 cultureIt.SetSeenstateTitle = "Stato di visualizzazione";
 cultureIt.Unseen = "Non visto";
 cultureIt.Seen = "Visto";
@@ -243,9 +263,9 @@ cultureIt.Keyboard = {
             { "key": "9" }
         ],
         [
-            { "caption": "&lArr;", 'class': 'dark' },
+            { "key": "@", 'class': 'dark' },
             { "key": "0" },
-            { "caption": "&rArr;", 'class': 'dark' }
+            { "key": ".com", 'class': 'dark' }
         ]
     ],
 
@@ -267,9 +287,9 @@ cultureIt.Keyboard = {
             { "key": "'" }
         ],
         [
-            { "caption": "&lArr;", 'class': 'dark' },
+            { "key": "@", 'class': 'dark' },
             { "key": "%" },
-            { "caption": "&rArr;", 'class': 'dark' }
+            { "key": ".com", 'class': 'dark' }
         ]
     ],
 

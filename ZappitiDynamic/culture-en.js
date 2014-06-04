@@ -6,23 +6,46 @@ cultureEn.ConnectionTitle = "Connecting";
 cultureEn.ErrorBadCredentialTitle = "Authentication failed:";
 cultureEn.ErrorBadCredentialMessage = "Thank you to enter a valide Zappiti username and password.";
 cultureEn.ErrorCloudNotActivatedTitle = "Zappiti Cloud is not activated:";
-cultureEn.ErrorCloudNotActivatedMessage = "Enable synchronization in Zappiti Media Center, Settings/Account, to continue.";
+cultureEn.ErrorCloudNotActivatedMessage = "<p align='left'>Enable synchronization in Zappiti Media Center, Settings/Account, to continue.</p><p align='left'>Press ENTER or RETURN to display the settings, where you can select another library if you have received a share invitation from a friend.</p>";
 cultureEn.ErrorZappitiPlayerNotActivatedTitle = "Zappiti Player is not registered:";
-cultureEn.ErrorZappitiPlayerNotActivatedMessage = "With Zappiti Media Center, make sure that you register the Token of your Zappiti Player to continue. Then, enable the synchronization in Settings/Account.";
+cultureEn.ErrorZappitiPlayerNotActivatedMessage = "<p align='left'>With Zappiti Media Center, make sure that you register the Token of your Zappiti Player to continue. Then, enable the synchronization in Settings/Account.</p><p align='left'>Press ENTER or RETURN to display the settings, where you can select another library if you have received a share invitation from a friend.</p>";
+cultureEn.ErrorStreamingTitle = "Unable to stream the video";
+cultureEn.ErrorStreamingMessage = "<p align='left'>The remote server did not respond in due time. The service may not be available. Please contact the owner of this library to check if Zappiti Media Center is running with the server option activated.</p>";
+cultureEn.SetupLibrary = "Libraries";
+cultureEn.SetupLibraryBody = "Select the library you want to display :";
+cultureEn.SetupLibraryMain = "Your library:";
+cultureEn.SetupLibraryOther = "Libraries shared with you:";
+cultureEn.SetupSettings = "Settings";
+cultureEn.SettingsPlayMode = "Playback model:";
+cultureEn.SettingsStreamQuality = "Streaming quality:";
+cultureEn.SettingsStreamVariable = "Variable quality:";
+cultureEn.SettingsStreamSubtitlesSize = "Streaming subtitles size:";
+cultureEn.SettingsPlayModeCaptions = ['Local', 'Streaming'];
+cultureEn.SettingsStreamQualityCaptions = ['Low', 'Normal', 'High;', 'HD'];
+cultureEn.SettingsStreamVariableCaptions = ['Enabled;', 'Disabled'];
+cultureEn.SettingsStreamSubtitlesSizeCaptions = ['Very small', 'Small', 'Normal', 'High', 'Very high'];
+cultureEn.SetupDisconnect = "Disconnect";
+cultureEn.SetupQuit = "Quit Zappiti";
 cultureEn.SignInTitle = "Connection";
 cultureEn.SignInEmail = "Email";
 cultureEn.SignInPassword = "Password";
 cultureEn.SignInEnter = "Enter";
 cultureEn.SignInShowKeyboard = "&nbsp;Display the virtual keyboard";
+cultureEn.SignInSetup = "Setup";
+cultureEn.SignInShowSetup = "&nbsp;Display the control panel";
 cultureEn.SignInDemoLabel = "&nbsp;Show the demo account";
 cultureEn.SearchTitle = "What are you searching for?";
-cultureEn.SearchMovie = "Movies, TV Show";
-cultureEn.SearchAlbumPlaylist = "Album, Playlist";
+cultureEn.SearchMovie = "Movie, TV Show";
+cultureEn.SearchAlbumPlaylist = "Album";
 cultureEn.SearchTrack = "Audio title";
 cultureEn.SearchActor = "Actor";
 cultureEn.SearchDirector = "Director";
 cultureEn.SearchPerformer = "Artist, Singer";
 cultureEn.FileNotFound = "File not found:";
+cultureEn.StreamSelectAudio = "Select an audio stream :";
+cultureEn.StreamSelectSubtitles = "Select a subtitles stream :";
+cultureEn.NoSubtitles = "None";
+cultureEn.WaitforStream = "Starting playback...";
 cultureEn.HelpSilver = "help-silver-en.jpg";
 cultureEn.HelpDefault = "help-default-en.jpg";
 cultureEn.AudioHelpSilver = "audio-help-silver-en.jpg";
@@ -31,18 +54,15 @@ cultureEn.Yes = "Yes";
 cultureEn.No = "No";
 cultureEn.OK = "OK";
 cultureEn.QuitZappitiMessage = "Do you want to quit Zappiti and display the native interface ?";
-cultureEn.ChangelogTitle = "Version 0.4";
+cultureEn.ChangelogTitle = "Version 1.1";
 cultureEn.ChangelogMessage = "<div style='text-align:left; font-size:30px'>Improvements :" +
     "<ul>" +
-        "<li>Improving overall performance.</li>" +
-        "<li>Fixed navigation issues between synopsis and the with search function after launching a video.</li>" +
-        "<li>Saving your preferences for displaying the image wall.</li>" +
-        "<li>Support the launch of videos/music with Zappiti Media Control (version 2.3 on iOS; version 1.6 on Android).</li>" +
-        "<li>The interface now uses the language set in Zappiti Media Center (if available).</li>" +
-        "<li>Various fixes and enhancements.</li>" +
+        "<li>Added a settings view to the SETUP key of the remote.</li>" +
+        "<li>You can browse libraries that your friends shared with you.</li>" +
+        "<li>You can start the playback of videos using the stream feature of Zappiti Media Center (also work for shared libraries).</li>" +
+        "<li>General enhancement of the stability and user interface.</li>" +
     "</ul>" +
-    "<div>NB :<br/>Requiere Zappiti v3.0 installed on your computer : :<br/>http://bit.ly/zmc-3-0-preview-en</div>"
-    + "</div>";
+    "</div>";
 cultureEn.SetSeenstateTitle = "Visualisation state";
 cultureEn.Unseen = "Unseen";
 cultureEn.Seen = "Seen";
@@ -243,9 +263,9 @@ cultureEn.Keyboard = {
             { "key": "9" }
         ],
         [
-            { "caption": "&lArr;", 'class': 'dark' },
+            { "key": "@", 'class': 'dark' },
             { "key": "0" },
-            { "caption": "&rArr;", 'class': 'dark' }
+            { "key": ".com", 'class': 'dark' }
         ]
     ],
 
@@ -267,9 +287,9 @@ cultureEn.Keyboard = {
             { "key": "'" }
         ],
         [
-            { "caption": "&lArr;", 'class': 'dark' },
+            { "key": "@", 'class': 'dark' },
             { "key": "%" },
-            { "caption": "&rArr;", 'class': 'dark' }
+            { "key": ".com", 'class': 'dark' }
         ]
     ],
 

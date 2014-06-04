@@ -6,23 +6,46 @@ cultureFr.ConnectionTitle = "Connexion en cours";
 cultureFr.ErrorBadCredentialTitle = "L'authentification a &eacute;chou&eacute;e :";
 cultureFr.ErrorBadCredentialMessage = "Merci de saisir un identifiant Zappiti et un mot de passe valide.";
 cultureFr.ErrorCloudNotActivatedTitle = "Zappiti Cloud n'est pas activ&eacute; :";
-cultureFr.ErrorCloudNotActivatedMessage = "Activez la synchronisation dans Zappiti Media Center, Param&egrave;tres/Compte pour continuer.";
+cultureFr.ErrorCloudNotActivatedMessage = "<p align='left'>Activez la synchronisation dans Zappiti Media Center, Param&egrave;tres/Compte pour continuer.</p><p align='left'>Appuyez sut ENTER ou RETURN pour afficher la configuration, o&ugrave; vous pouvez s&eacute;lectionner une autre biblioth&egrave;que &agrave; afficher si vous avez re&ccedil;u une invitation au partage de la part d'un ami.</p>";
 cultureFr.ErrorZappitiPlayerNotActivatedTitle = "Zappiti Player n'est pas activ&eacute; :";
-cultureFr.ErrorZappitiPlayerNotActivatedMessage = "Avec Zappiti Media Center, assurez vous d'avoir enregistr&eacute; le Token de votre Zappiti Player pour continuer. Puis, activez la synchronisation dans Param&egrave;tres/Compte.";
+cultureFr.ErrorZappitiPlayerNotActivatedMessage = "<p align='left'>Avec Zappiti Media Center, assurez vous d'avoir enregistr&eacute; le Token de votre Zappiti Player pour continuer. Puis, activez la synchronisation dans Param&egrave;tres/Compte.</p><p align='left'>Appuyez sut ENTER ou RETURN pour afficher la configuration, o&ugrave; vous pouvez s&eacute;lectionner une autre biblioth&egrave;que &agrave; afficher si vous avez re&ccedil;u une invitation au partage de la part d'un ami.</p>";
+cultureFr.ErrorStreamingTitle = "Impossible de démarrer la vidéo en streaming";
+cultureFr.ErrorStreamingMessage = "<p align='left'>Le serveur distant n'a pas r&eacute;pondu dans le temps imparti. Le service n'est peut-&ecirc;tre pas disponible pour le moment. Merci de contacter le propri&eacute;taire de la biblioth&egrave;que pour v&eacute;rifier si Zappiti Media Center est bien lanc&eacute; avec l'option de serveur activ&eacute;.</p>";
+cultureFr.SetupLibrary = "Biblioth&egrave;ques";
+cultureFr.SetupLibraryBody = "Choisissez la biblioth&egrave;que que vous souhaitez afficher :";
+cultureFr.SetupLibraryMain = "Votre biblioth&egrave;que :";
+cultureFr.SetupLibraryOther = "Les biblioth&egrave;ques partag&eacute;s avec vous :";
+cultureFr.SetupSettings = "Pr&eacute;f&eacute;rences";
+cultureFr.SettingsPlayMode = "Mode de lecture :";
+cultureFr.SettingsStreamQuality = "Qualit&eacute; du streaming :";
+cultureFr.SettingsStreamVariable = "Qualit&eacute; variable :";
+cultureFr.SettingsStreamSubtitlesSize = "Taille des sous-titres du streaming :";
+cultureFr.SettingsPlayModeCaptions = ['Local', 'Streaming'];
+cultureFr.SettingsStreamQualityCaptions = ['Basse', 'Normale', 'Elev&eacute;e', 'HD'];
+cultureFr.SettingsStreamVariableCaptions = ['Activ&eacute;', 'D&eacute;sactiv&eacute;'];
+cultureFr.SettingsStreamSubtitlesSizeCaptions = ['Tr&egrave;s petit', 'Petit', 'Normal', 'Grand', 'Tr&egrave;s grand'];
+cultureFr.SetupDisconnect = "Se d&eacute;connecter";
+cultureFr.SetupQuit = "Quitter Zappiti";
 cultureFr.SignInTitle = "Connexion";
 cultureFr.SignInEmail = "Email";
 cultureFr.SignInPassword = "Mot de passe";
 cultureFr.SignInEnter = "Enter";
 cultureFr.SignInShowKeyboard = "&nbsp;Afficher le clavier virtuel";
+cultureFr.SignInSetup = "Setup";
+cultureFr.SignInShowSetup = "&nbsp;Afficher le panneau de configuration";
 cultureFr.SignInDemoLabel = "&nbsp;Voir le compte de d&eacute;monstration";
 cultureFr.SearchTitle = "Que cherchez vous ?";
 cultureFr.SearchMovie = "Film, S&eacute;rie";
-cultureFr.SearchAlbumPlaylist = "Album, Playlist";
+cultureFr.SearchAlbumPlaylist = "Album";
 cultureFr.SearchTrack = "Titre audio";
 cultureFr.SearchActor = "Acteur";
 cultureFr.SearchDirector = "R&eacute;alisateur";
-cultureFr.SearchPerformer = "Artiste, Intertr&egravete";
+cultureFr.SearchPerformer = "Artiste, Interpr&egrave;te";
 cultureFr.FileNotFound = "Fichier non trouv&eacute; :";
+cultureFr.StreamSelectAudio = "Selectionnez une piste audio :";
+cultureFr.StreamSelectSubtitles = "Selectionnez vos sous-titres :";
+cultureFr.NoSubtitles = "Aucun";
+cultureFr.WaitforStream = "Lancement de la vid&eacute;o en cours...";
 cultureFr.HelpSilver = "help-silver-fr.jpg";
 cultureFr.HelpDefault = "help-default-fr.jpg";
 cultureFr.AudioHelpSilver = "audio-help-silver-fr.jpg";
@@ -31,18 +54,15 @@ cultureFr.Yes = "Oui";
 cultureFr.No = "Non";
 cultureFr.OK = "OK";
 cultureFr.QuitZappitiMessage = "Voulez vous quitter Zappiti et revenir &agrave; l'interface native ?";
-cultureFr.ChangelogTitle = "Version 0.4";
+cultureFr.ChangelogTitle = "Version 1.1";
 cultureFr.ChangelogMessage = "<div style='text-align:left; font-size:30px'>Am&eacute;liorations :" +
     "<ul>" +
-        "<li>Am&eacute;lioration des performances g&eacute;n&eacute;rales.</li>" +
-        "<li>Correction de la navigation entre les synopsis et de la fonction de recherche apr&egrave;s avoir lanc&eacute; une vid&eacute;o.</li>" +
-        "<li>Sauvegarde vos pr&eacute;f&eacute;rences pour l'affichage du Mur d'image.</li>" +
-        "<li>Prise en charge du lancement des vid&eacute;os/musiques avec Zappiti Media Control (version 2.3 sur iOS; version 1.6 sur Android).</li>" +
-        "<li>L'interface utilise maintenant la langue param&eacute;tr&eacute;e dans Zappiti Media Center (si traduction disponible).</li>" +
-        "<li>Diverses corrections et am&eacute;liorations.</li>" +   
+        "<li>Ajout d'une fenêtre de configuration liée à la touche SETUP.</li>" +
+        "<li>Vous pouvez parcourir les bibliothèques de vos amis partagées avec vous.</li>" +
+        "<li>Vous pouvez lancer la lecture des vidéos en streaming.</li>" +
+        "<li>Amélioration générale de la stabilité et de l'interface.</li>" +
     "</ul>" +
-    "<div>NB :<br/>N&eacute;cessite Zappiti v3.0 sur votre ordinateur :<br/>http://bit.ly/zmc-3-0-preview-fr</div>"
-    +"</div>";
+    "</div>";
 cultureFr.SetSeenstateTitle = "Etat de la visualisation";
 cultureFr.Unseen = "Non vu";
 cultureFr.Seen = "Vu";
@@ -243,9 +263,9 @@ cultureFr.Keyboard = {
                     { "key": "9" }
                 ],
                 [
-                    { "caption": "&lArr;", 'class': 'dark' },
+                    { "key": "@", 'class': 'dark' },
                     { "key": "0" },
-                    { "caption": "&rArr;", 'class': 'dark' }
+                    { "key": ".com", 'class': 'dark' }
                 ]
             ],
 
@@ -267,9 +287,9 @@ cultureFr.Keyboard = {
                     { "key": "'" }
                 ],
                 [
-                    { "caption": "&lArr;", 'class': 'dark' },
+                    { "key": "@", 'class': 'dark' },
                     { "key": "%" },
-                    { "caption": "&rArr;", 'class': 'dark' }
+                    { "key": ".com", 'class': 'dark' }
                 ]
             ],
 
