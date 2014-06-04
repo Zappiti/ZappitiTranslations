@@ -5,34 +5,34 @@ cultureIt.NoSearchResult = "Nessun risultato.";
 cultureIt.ConnectionTitle = "In connessione";
 cultureIt.ErrorBadCredentialTitle = "Autenticazione fallita:";
 cultureIt.ErrorBadCredentialMessage = "Per favore inserisci un account Zappiti valido.";
-cultureIt.ErrorCloudNotActivatedTitle = "Zappiti Cloud non è attivo:";
-cultureIt.ErrorCloudNotActivatedMessage = "<p align='left'>Abilita la sincronizzazione su Zappiti Media Center, Impostazioni/Account, per continuare.in </p><p align='left'>Press ENTER or RETURN to display the settings, where you can select another library if you have received a share invitation from a friend.</p>";
+cultureIt.ErrorCloudNotActivatedTitle = "Zappiti Cloud non è attivo :";
+cultureIt.ErrorCloudNotActivatedMessage = "<p align='left'>Abilita la sincronizzazione su Zappiti Media Center, Impostazioni/Account, per continuare. </p><p align='left'>Clicca su ENTER o RETURN per visualizzare le impostazioni, dove potrai selezionare un'altra libreria se hai ricevuto l'invito da un amico.</p>";
 cultureIt.ErrorZappitiPlayerNotActivatedTitle = "Zappiti Player non registrato:";
-cultureIt.ErrorZappitiPlayerNotActivatedMessage = "<p align='left'>Per continuare, assicurati di aver registrato il Token fornito con il tuo Zappiti Player su Zappiti Media Center. Infine, abilita la sincronizzazione su Impostazioni/Account.</p><p align='left'>Press ENTER or RETURN to display the settings, where you can select another library if you have received a share invitation from a friend.</p>";
-cultureIt.ErrorStreamingTitle = "Unable to stream the video";
-cultureIt.ErrorStreamingMessage = "<p align='left'>The remote server did not respond in due time. The service may not be available. Please contact the owner of this library to check if Zappiti Media Center is running with the server option activated.</p>";
-cultureIt.SetupLibrary = "Libraries";
-cultureIt.SetupLibraryBody = "Select the library you want to display :";
-cultureIt.SetupLibraryMain = "Your library:";
-cultureIt.SetupLibraryOther = "Libraries shared with you:";
-cultureIt.SetupSettings = "Settings";
-cultureIt.SettingsPlayMode = "Playback model:";
-cultureIt.SettingsStreamQuality = "Streaming quality:";
-cultureIt.SettingsStreamVariable = "Variable quality:";
-cultureIt.SettingsStreamSubtitlesSize = "Streaming subtitles size:";
-cultureIt.SettingsPlayModeCaptions = ['Local', 'Streaming'];
-cultureIt.SettingsStreamQualityCaptions = ['Low', 'Normal', 'High;', 'HD'];
-cultureIt.SettingsStreamVariableCaptions = ['Enabled;', 'Disabled'];
-cultureIt.SettingsStreamSubtitlesSizeCaptions = ['Very small', 'Small', 'Normal', 'High', 'Very high'];
-cultureIt.SetupDisconnect = "Disconnect";
-cultureIt.SetupQuit = "Quit Zappiti";
+cultureIt.ErrorZappitiPlayerNotActivatedMessage = "<p align='left'>Per continuare, assicurati di aver registrato il Token fornito con il tuo Zappiti Player su Zappiti Media Center. Infine, abilita la sincronizzazione su Impostazioni/Account.</p><p align='left'>Clicca su ENTER o RETURN per visualizzare le impostazioni, dove potrai selezionare un'altra libreria se hai ricevuto l'invito da un amico.</p>";
+cultureIt.ErrorStreamingTitle = "Impossibile avviare lo stream di questo video";
+cultureIt.ErrorStreamingMessage = "<p align='left'>Il server remoto non ha dato alcuna risposta. Il servizio potrebbe non essere disponibile. Per favore contatta il proprietario della libreria condivisa per controllare se Zappiti Media Center è stato avviato con l'opzione server attivata.</p>";
+cultureIt.SetupLibrary = "Librerie";
+cultureIt.SetupLibraryBody = "Seleziona la libreria che vuoi visualizzare :";
+cultureIt.SetupLibraryMain = "La tua libreria :";
+cultureIt.SetupLibraryOther = "Librerie condivise con te :";
+cultureIt.SetupSettings = "Impostazioni";
+cultureIt.SettingsPlayMode = "Modalità playback :";
+cultureIt.SettingsStreamQuality = "Qualità streaming :";
+cultureIt.SettingsStreamVariable = "Straming variabile :";
+cultureIt.SettingsStreamSubtitlesSize = "Dimensione dei sottotitoli :";
+cultureIt.SettingsPlayModeCaptions = ['Locale', 'Streaming'];
+cultureIt.SettingsStreamQualityCaptions = ['Bassa', 'Normale', 'Alta;', 'HD'];
+cultureIt.SettingsStreamVariableCaptions = ['Abilitato;', 'Disabilitato'];
+cultureIt.SettingsStreamSubtitlesSizeCaptions = ['Molto piccola', 'Piccola', 'Normale', 'Alta', 'Molto alta'];
+cultureIt.SetupDisconnect = "Logout";
+cultureIt.SetupQuit = "Chiudi Zappiti";
 cultureIt.SignInTitle = "Connessione";
 cultureIt.SignInEmail = "E-mail";
 cultureIt.SignInPassword = "Password";
 cultureIt.SignInEnter = "Entra";
 cultureIt.SignInShowKeyboard = "&nbsp;Mostra la tastiera virtuale";
 cultureIt.SignInSetup = "Setup";
-cultureIt.SignInShowSetup = "&nbsp;Display the control panel";
+cultureIt.SignInShowSetup = "&nbsp;Mostra il pannello delle impostazioni";
 cultureIt.SignInDemoLabel = "&nbsp;Mostra l'account di prova";
 cultureIt.SearchTitle = "Che cosa stai cercando?";
 cultureIt.SearchMovie = "Film, Serie TV";
@@ -40,12 +40,12 @@ cultureIt.SearchAlbumPlaylist = "Album";
 cultureIt.SearchTrack = "Tracce musicali";
 cultureIt.SearchActor = "Attori";
 cultureIt.SearchDirector = "Registi";
-cultureIt.SearchPerformer = "Artisti, Cantanti";
+cultureIt.SearchPerformer = "Artisti, Band";
 cultureIt.FileNotFound = "File non trovato:";
-cultureIt.StreamSelectAudio = "Select an audio stream :";
-cultureIt.StreamSelectSubtitles = "Select a subtitles stream :";
-cultureIt.NoSubtitles = "None";
-cultureIt.WaitforStream = "Starting playback...";
+cultureIt.StreamSelectAudio = "Seleziona l'audio :";
+cultureIt.StreamSelectSubtitles = "Seleziona un sottotitolo :";
+cultureIt.NoSubtitles = "Nessuno";
+cultureIt.WaitforStream = "Avvio del playback...";
 cultureIt.HelpSilver = "help-silver-en.jpg";
 cultureIt.HelpDefault = "help-default-en.jpg";
 cultureIt.AudioHelpSilver = "audio-help-silver-en.jpg";
@@ -57,10 +57,10 @@ cultureIt.QuitZappitiMessage = "Vuoi chiudere Zappiti e tornare all'interfaccia 
 cultureIt.ChangelogTitle = "Version 1.1";
 cultureIt.ChangelogMessage = "<div style='text-align:left;font-size:30px'>Miglioramenti :" +
     "<ul>" +
-        "<li>Added a settings view to the SETUP key of the remote.</li>" +
-        "<li>You can browse libraries that your friends shared with you.</li>" +
-        "<li>You can start the playback of videos using the stream feature of Zappiti Media Center (also work for shared libraries).</li>" +
-        "<li>General enhancement of the stability and user interface.</li>" +
+        "<li>E' stato aggiunto il menu impostazioni sul comando SETUP.</li>" +
+        "<li>Puoi esplorare le librerie che i tuoi amici hanno condiviso con te.</li>" +
+        "<li>Puoi avviare un video usando la funzione streaming da Zappiti Media Center (funziona anche con le librerie condivise).</li>" +
+        "<li>Miglioramento generale della stabilità e interfaccia utente.</li>" +
     "</ul>" +
     "</div>";
 cultureIt.SetSeenstateTitle = "Stato di visualizzazione";
