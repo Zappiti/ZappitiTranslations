@@ -1,392 +1,185 @@
-﻿<?xml version="1.0"
-		encoding="utf-8"?>
-<Dictionary EnglishName="Magyar"
-		CultureName="hu-HU">
-  <Value Id="SettingsTabValidation"
-		Header="Megerősítés"
-		/>
-  <Value Id="SettingsDefault"
-		Header="Default"
-		/>
-  <Value Id="SettingsAdvancedOptions"
-		Header="Haladó Beállítások"
-		/>
+<?xml version="1.0" encoding="utf-8"?>
+<Dictionary EnglishName="Magyar" CultureName="hu-HU">
+  <Value Id="SettingsTabValidation" Header="Megerősítés"/>
+  <Value Id="SettingsDefault" Header="Alapértelmezett"/>
+  <Value Id="SettingsAdvancedOptions" Header="Haladó Beállítások"/>
   <Value Id="SettingsTypeExport"
-		ExportDune="Dune export file:"
-		ExportITunes="iTunes export file:"
-		Body="Define your export file."
-		DoYouHaveADune="I have a Zappiti Player / a Dune HD"
-		DoYouHaveAniPhone="I have an iPhone / iPad / iPod"
-		DeviceType="Device :"
-		Primary="Priority"
-		Secondary="Secondary"
-		Audio="Audio :"
-		Subtitle="Subtitle :"
-		Encode="Encoding parameter :"
-		SubtitleRule="Show subtitles :"
+		ExportDune="Dune export fájl:"
+		ExportITunes="iTunes export fájlt:"
+		Body="Határozza meg export fájlt."
+		DoYouHaveADune="Nekem van egy Zappiti Player / a Dune HD"
+		DoYouHaveAniPhone="Nekem van egy iPhone / iPad / iPod"
+		DeviceType="Eszköz :"
+		Primary="Kiemelt"
+		Secondary="Másodlagos"
+		Audio="Hang :"
+		Subtitle="Felirat :"
+		Encode="Kódolás paraméter :"
+		SubtitleRule="Mutasd feliratok :"
 		/>
-  <Value Id="SettingsIsNFS"
-		Content="NFS protocol"
-		/>
-  <Value Id="SettingsUserName"
-		Text="Login :"
-		/>
-  <Value Id="SettingsUserPassword"
-		Text="Jelszó :"
-		/>
-  <Value Id="MainScrapPicturesTvShow"
-		Content="Háttérkép"
-		/>
+  <Value Id="SettingsIsNFS" Content="NFS protocol"/>
+  <Value Id="SettingsUserName" Text="Bejelentkezés :"/>
+  <Value Id="SettingsUserPassword" Text="Jelszó :"/>
+  <Value Id="MainScrapPicturesTvShow" Content="Háttérkép"/>
   <Value Id="Export_XML"
-		CreateGlobalizationCustomCommand="File generation internationalization"
-		iPhoneItemExportCustomCommand="File generation iTunes"
-		ConfigXmlGeneratorCommand="Export configuration"
-		MoviesXmlFileGeneratorCommand="Export movies"
-		AbcXmlFileGeneratorCommand="Export base"
-		TvShowsXmlFileGeneratorCommand="Export series"
-		CategoriesXmlFileGeneratorCommand="Export categories"
-		RecentsXmlFileGeneratorCommand="Export recent"
-		/>
-  <Value Id="SettingsIsXmlExport"
-		Text="Xml default"
-		/>
-  <Value Id="SettingsTabExport"
-		Header="Export"
-		/>
-  <Value Id="SettingsOK"
-		Content="OK"
-		/>
-  <Value Id="SettingsCancel"
-		Content="Mégsem"
-		/>
-  <Value Id="SettingsDeleteFolder"
-		Content="Törlés"
-		/>
-  <Value Id="SettingsModifyFolder"
-		Content="Módosítás"
-		/>
-  <Value Id="SettingsBrowse"
-		Content="Tallózó"
-		/>
-  <Value Id="SettingsFolderPath"
-		Text="Könyvtár útvonal :"
-		/>
-  <Value Id="SettingsZappitiDataPath"
-		Text="Konfigurációs mappa :"
-		/>
-  <Value Id="SettingsRewriteAbsolutePath"
-		Text="Útvonal felülírása exportáláskor :"
-		/>
-  <Value Id="SelectMediaInResultsOK"
-		Content="OK"
-		/>
-  <Value Id="SelectMediaInResultsCancel"
-		Content="Mégsem"
-		/>
-  <Value Id="All"
-		Text="Mind"
-		/>
-  <Value Id="123"
-		Text="123"
-		/>
-  <Value Id="A"
-		Text="A"
-		/>
-  <Value Id="B"
-		Text="B"
-		/>
-  <Value Id="C"
-		Text="C"
-		/>
-  <Value Id="D"
-		Text="D"
-		/>
-  <Value Id="E"
-		Text="E"
-		/>
-  <Value Id="F"
-		Text="F"
-		/>
-  <Value Id="G"
-		Text="G"
-		/>
-  <Value Id="H"
-		Text="H"
-		/>
-  <Value Id="I"
-		Text="I"
-		/>
-  <Value Id="J"
-		Text="J"
-		/>
-  <Value Id="K"
-		Text="K"
-		/>
-  <Value Id="L"
-		Text="L"
-		/>
-  <Value Id="M"
-		Text="M"
-		/>
-  <Value Id="N"
-		Text="N"
-		/>
-  <Value Id="O"
-		Text="O"
-		/>
-  <Value Id="P"
-		Text="P"
-		/>
-  <Value Id="Q"
-		Text="Q"
-		/>
-  <Value Id="R"
-		Text="R"
-		/>
-  <Value Id="S"
-		Text="S"
-		/>
-  <Value Id="T"
-		Text="T"
-		/>
-  <Value Id="U"
-		Text="U"
-		/>
-  <Value Id="V"
-		Text="V"
-		/>
-  <Value Id="W"
-		Text="W"
-		/>
-  <Value Id="X"
-		Text="X"
-		/>
-  <Value Id="Y"
-		Text="Y"
-		/>
-  <Value Id="Z"
-		Text="Z"
-		/>
-  <Value Id="EditTitle"
-		Text="Cím"
-		/>
-  <Value Id="EditRuntime"
-		Text="Játékidő"
-		/>
-  <Value Id="EditYear"
-		Text="Megjelenés"
-		/>
-  <Value Id="EditSynopsis"
-		Text="Leírás"
-		/>
-  <Value Id="EditDirectors"
-		Text="Rendező"
-		/>
-  <Value Id="EditActors"
-		Text="Szereplők"
-		/>
-  <Value Id="EditAspectRatio"
-		Text="Képarány"
-		/>
-  <Value Id="EditExtension"
-		Text="Kiterjesztés"
-		/>
-  <Value Id="EditCodecVideo"
-		Text="Videó kodek"
-		/>
-  <Value Id="EditFramerate"
-		Text="FPS"
-		/>
-  <Value Id="EditDefinition"
-		Text="Formátum"
-		/>
-  <Value Id="EditCodecAudio"
-		Text="Audió kodek"
-		/>
-  <Value Id="EditCategories"
-		Text="Kategóriák"
-		/>
-  <Value Id="EditSubTitles"
-		Text="Feliratok"
-		/>
-  <Value Id="EditLanguages"
-		Text="Nyelvek"
-		/>
-  <Value Id="EditViewNotView"
-		Text="Seen"
-		/>
-  <Value Id="EditOK"
-		Content="OK"
-		/>
-  <Value Id="EditCancel"
-		Content="Mégsem"
-		/>
-  <Value Id="MainEdit"
-		Content="Szerkeszt"
-		/>
-  <Value Id="MainScrapDetails"
-		Content="Újra azonosítás"
-		/>
-  <Value Id="MainScrapPictures"
-		Content="Képcsere"
-		/>
-  <Value Id="MainInfo"
-		Text="{0} Filmek, {1} Sorozatok, {2} Epizódok"
-		/>
-  <Value Id="MainToScrap"
-		Text="{0} Azonosítatlan"
-		/>
-  <Value Id="CleanUpMessage"
-		Text="Az alábbi média tartalmakat nem tudom beazonosítani. Töröljem az adatbázisból?"
-		/>
-  <Value Id="CleanUpOK"
-		Content="Törlés"
-		/>
-  <Value Id="CleanUpClose"
-		Content="Bezár"
-		/>
+		CreateGlobalizationCustomCommand="Egységes fájl létrehozása"
+		iPhoneItemExportCustomCommand="Fájl létrehozása iTunes"
+		ConfigXmlGeneratorCommand="Konfiguráció exportálása"
+		MoviesXmlFileGeneratorCommand="Filmek exportálása"
+		AbcXmlFileGeneratorCommand="Gombok exportálása"
+		TvShowsXmlFileGeneratorCommand="Sorozat exportálása"
+		CategoriesXmlFileGeneratorCommand="Kategóriák exportálása"
+		RecentsXmlFileGeneratorCommand="Export új"
+		/>
+  <Value Id="SettingsIsXmlExport" Text="Alapértelmezett XML"/>
+  <Value Id="SettingsTabExport" Header="Export"/>
+  <Value Id="SettingsOK" Content="OK"/>
+  <Value Id="SettingsCancel" Content="Mégsem"/>
+  <Value Id="SettingsDeleteFolder" Content="Törlés"/>
+  <Value Id="SettingsModifyFolder" Content="Módosítás"/>
+  <Value Id="SettingsBrowse" Content="Tallózó"/>
+  <Value Id="SettingsFolderPath" Text="Könyvtár útvonal :"/>
+  <Value Id="SettingsZappitiDataPath" Text="Konfigurációs mappa :"/>
+  <Value Id="SettingsRewriteAbsolutePath" Text="Útvonal felülírása exportáláskor :"/>
+  <Value Id="SelectMediaInResultsOK" Content="OK"/>
+  <Value Id="SelectMediaInResultsCancel" Content="Mégsem"/>
+  <Value Id="All" Text="Mind"/>
+  <Value Id="123" Text="123"/>
+  <Value Id="A" Text="A"/>
+  <Value Id="B" Text="B"/>
+  <Value Id="C" Text="C"/>
+  <Value Id="D" Text="D"/>
+  <Value Id="E" Text="E"/>
+  <Value Id="F" Text="F"/>
+  <Value Id="G" Text="G"/>
+  <Value Id="H" Text="H"/>
+  <Value Id="I" Text="I"/>
+  <Value Id="J" Text="J"/>
+  <Value Id="K" Text="K"/>
+  <Value Id="L" Text="L"/>
+  <Value Id="M" Text="M"/>
+  <Value Id="N" Text="N"/>
+  <Value Id="O" Text="O"/>
+  <Value Id="P" Text="P"/>
+  <Value Id="Q" Text="Q"/>
+  <Value Id="R" Text="R"/>
+  <Value Id="S" Text="S"/>
+  <Value Id="T" Text="T"/>
+  <Value Id="U" Text="U"/>
+  <Value Id="V" Text="V"/>
+  <Value Id="W" Text="W"/>
+  <Value Id="X" Text="X"/>
+  <Value Id="Y" Text="Y"/>
+  <Value Id="Z" Text="Z"/>
+  <Value Id="EditTitle" Text="Cím"/>
+  <Value Id="EditRuntime" Text="Játékidő"/>
+  <Value Id="EditYear" Text="Megjelenés éve"/>
+  <Value Id="EditSynopsis" Text="Leírás"/>
+  <Value Id="EditDirectors" Text="Rendező"/>
+  <Value Id="EditActors" Text="Szereplők"/>
+  <Value Id="EditAspectRatio" Text="Képarány"/>
+  <Value Id="EditExtension" Text="Kiterjesztés"/>
+  <Value Id="EditCodecVideo" Text="Videó kodek"/>
+  <Value Id="EditFramerate" Text="Képfrissítés"/>
+  <Value Id="EditDefinition" Text="Formátum"/>
+  <Value Id="EditCodecAudio" Text="Audió kodek"/>
+  <Value Id="EditCategories" Text="Kategóriák"/>
+  <Value Id="EditSubTitles" Text="Feliratok"/>
+  <Value Id="EditLanguages" Text="Nyelvek"/>
+  <Value Id="EditViewNotView" Text="Megnézett"/>
+  <Value Id="EditOK" Content="OK"/>
+  <Value Id="EditCancel" Content="Mégsem"/>
+  <Value Id="MainEdit" Content="Szerkeszt"/>
+  <Value Id="MainScrapDetails" Content="Újra azonosítás"/>
+  <Value Id="MainScrapPictures" Content="Képcsere"/>
+  <Value Id="MainInfo" Text="{0} Filmek, {1} Sorozatok, {2} Epizódok"/>
+  <Value Id="MainToScrap" Text="{0} Azonosítatlan média"/>
+  <Value Id="CleanUpMessage" Text="Az alábbi média tartalmakat nem tudom beazonosítani. Töröljem az adatbázisból?"/>
+  <Value Id="CleanUpOK" Content="Törlés"/>
+  <Value Id="CleanUpClose" Content="Bezár"/>
   <Value Id="MessageBox"
 		ConfigureSharePath="Konfiguráld az elérési utat a folytatáshoz."
 		NewReleaseAvailable="Új verzó elérhető! Szeretnéd letölteni {0} {1} ?"
 		DoYouWantToDeleteThisGroup="Tényleg törölni akarod?"
 		DoYouWantToDeleteTheseGroup="Tényleg törölni akarod?"
 		DeleteCategory="Törölni akarod ezt a kategóriát?"
-		ResetCategories="Do you want to reset all the categories?"
-		ResetMainMenu="Do you want to reset all the menus?"
-		ResetABCMenu="Do you want to reset all buttons?"
-		ResetFilterMenu="Do you want to reset all filters ?"
-		VersionExpired="This version of Zappiti has expired, but a new version is available! Would you like to download?"
-		AddFolder="Add folder {0} to the configuration?"
-		CanStartDuneServer="Unable to start the server. Please try another port."
-		DoYouWanToInstallMpcHd="Do you want to install Media Player Classic - Home Cinema?"
+		ResetCategories="Szeretnéd az összes kategóriát visszaállítani"
+		ResetMainMenu="Szeretnéd az összes menüt visszaállítani?"
+		ResetABCMenu="Szeretnéd az összes gombot visszaállítani?"
+		ResetFilterMenu="Szeretnéd az összes szűrőt visszaállítani?"
+		VersionExpired="Ez a verzió a Zappiti lejárt, de van új verzió! Szeretné letölteni?"
+		AddFolder="Új mappa {0} konfigurálása?"
+		CanStartDuneServer="Nem lehet elindítani a szervert. Kérjük, próbálkozzon egy másik portal."
+		DoYouWanToInstallMpcHd="Szeretné telepíteni Media Player Classic - Home Cinema?"
 		DoYouWantToQuit="Kezelés még mindig folyamatban vannak.[br]Szeretné, hogy kilép az alkalmazás?"
 		DoYouWanToInstallStreamingModule="Telepíteni, akkor a folyamatos vételt lehetővé tévő modul?"
 		UpnpFailed="UPnP port forwarding nem sikerült. Manuálisan kell konfigurálnia a hálózatot."
 		DoYouWantToDeleteThisFolder="Arról, hogy egy mappa törlése a konfiguráció.[br]Kattintson az Igen gombra is távolítsa el a(z) {0} Zappiti.[br]Kattintson a nem gombra a(z) {0} Zappiti tartani.[br]Kattintson a Mégse gombra a művelet megszakításához."
-		FolderMusic="megfelelő zene"
-		FolderMovie="megfelelő filmek"
-		FolderTVShow="megfelelő sorozat"
+		FolderMusic="Megfelelő zene"
+		FolderMovie="Megfelelő filmek"
+		FolderTVShow="Megfelelő sorozat"
 		/>
   <Value Id="MessageBoxCaption"
 		NewReleaseAvailable="Frissítés elérhető"
-		DoYouWantToDeleteThisGroup="Remove Item"
-		DoYouWantToDeleteTheseGroup="Remove Items"
+		DoYouWantToDeleteThisGroup="Elem eltávolítása"
+		DoYouWantToDeleteTheseGroup="Elemek eltávolítás"
 		DeleteCategory="Kategória törlése"
-		ResetCategories="Reset Categories"
-		ResetMainMenu="Reset menus"
-		ResetABCMenu="Reset buttons"
-		VersionExpired="Update available"
-		AddFolder="Add the location?"
-		CanStartDuneServer="Error"
-		DoYouWanToInstallMpcHd="Software Requirements"
+		ResetCategories="Kategóriák visszaállítása "
+		ResetMainMenu="Menü visszaállítása"
+		ResetABCMenu="Gombok visszaállítása"
+		VersionExpired="Frissítés elérhető"
+		AddFolder="Hely hozzáadása?"
+		CanStartDuneServer="Hiba"
+		DoYouWanToInstallMpcHd="Szoftver követelmények"
 		DoYouWantToQuit="A jelenlegi kezelések."
 		DoYouWanToInstallStreamingModule="Szükséges szoftverek"
 		UpnpFailed="UPnP konfigurációs hiba"
 		DoYouWantToDeleteThisFolder="A konfigurációs fájl eltávolítására."
 		/>
-  <Value Id="EditChannels"
-		Text="Csatorna"
-		/>
-  <Value Id="TVShowSeasonList"
-		SeasonUp="ÉVAD {0}"
-		/>
-  <Value Id="AddToGroupNewGroup"
-		Content="Új csoport"
-		PlaylistContent="Új lejátszási lista"
-		/>
-  <Value Id="EditGroupCancel"
-		Content="Mégsem"
-		/>
-  <Value Id="EditGroupOK"
-		Content="Mentés"
-		/>
-  <Value Id="FrequentWords"
-		Words="you;i;to;the;a;and;that;it;of;me"
-		/>
-  <Value Id="EditBrowseFilename"
-		Content="Tallózó"
-		/>
-  <Value Id="EditFilename"
-		Text="Útvonal"
-		/>
-  <Value Id="EditSubTitle"
-		Text="Feliratok"
-		/>
-  <Value Id="EditGroupTitle"
-		Text="Csoport neve"
-		/>
-  <Value Id="EditGroupChilds"
-		Text="Csoport tagjai"
-		/>
-  <Value Id="EditGroupSortByData"
-		Content="Rendezés dátum szerint"
-		/>
-  <Value Id="EditGroupMoveUp"
-		Content="Fel"
-		/>
-  <Value Id="EditGroupMoveDown"
-		Content="Le"
-		/>
-  <Value Id="EditGroupMoveRemove"
-		Content="Withdraw"
-		/>
-  <Value Id="EditGroup"
-		Group="Csoport"
-		/>
-  <Value Id="EditMenuIcons"
-		ToolTip="Ikon változtatása"
-		Text="Ikonok :"
-		/>
-  <Value Id="EditMenuBack"
-		ToolTip="Háttér változtatása"
-		/>
-  <Value Id="EditMenuBackRollOver"
-		ToolTip="Change the background hover"
-		/>
-  <Value Id="EditCategoriesLabel"
-		Text="Kategória :"
-		/>
-  <Value Id="EditCategoriesKeywords"
-		Text="Címkék :"
-		/>
-  <Value Id="EditMenuOK"
-		Content="Alkalmaz"
-		/>
-  <Value Id="EditMenuCancel"
-		Content="Mégsem"
-		/>
-  <Value Id="EditMenuBrowse"
-		Content="Tallózó ..."
-		/>
-  <Value Id="EditCategoriesAdd"
-		ToolTip="Kategória hozzáadása"
-		/>
+  <Value Id="EditChannels" Text="Csatorna"/>
+  <Value Id="TVShowSeasonList" SeasonUp="ÉVAD {0}"/>
+  <Value Id="AddToGroupNewGroup" Content="Új csoport" PlaylistContent="Új lejátszási lista"/>
+  <Value Id="EditGroupCancel" Content="Mégsem"/>
+  <Value Id="EditGroupOK" Content="Mentés"/>
+  <Value Id="FrequentWords" Words="you;i;to;the;a;and;that;it;of;me"/>
+  <Value Id="EditBrowseFilename" Content="Tallózás"/>
+  <Value Id="EditFilename" Text="Útvonal"/>
+  <Value Id="EditSubTitle" Text="Feliratok"/>
+  <Value Id="EditGroupTitle" Text="Csoport neve"/>
+  <Value Id="EditGroupChilds" Text="Csoport tagjai"/>
+  <Value Id="EditGroupSortByData" Content="Rendezés dátum szerint"/>
+  <Value Id="EditGroupMoveUp" Content="Fel"/>
+  <Value Id="EditGroupMoveDown" Content="Le"/>
+  <Value Id="EditGroupMoveRemove" Content="Visszavon"/>
+  <Value Id="EditGroup" Group="Csoport"/>
+  <Value Id="EditMenuIcons" ToolTip="Ikon változtatása" Text="Ikonok :"/>
+  <Value Id="EditMenuBack" ToolTip="Háttér változtatása"/>
+  <Value Id="EditMenuBackRollOver" ToolTip="Change the background hover"/>
+  <Value Id="EditCategoriesLabel" Text="Kategória :"/>
+  <Value Id="EditCategoriesKeywords" Text="Címkék :"/>
+  <Value Id="EditMenuOK" Content="Alkalmaz"/>
+  <Value Id="EditMenuCancel" Content="Mégsem"/>
+  <Value Id="EditMenuBrowse" Content="Tallózás ..."/>
+  <Value Id="EditCategoriesAdd" ToolTip="Kategória hozzáadása"/>
   <Value Id="MainAddCategory"
 		Content="Új kategória"
-		OrderCategory="Újrarendelési"
-		NoticeReorderCategory="Húz / csepp elemeket átrendezni őket."
-		/>
-  <Value Id="MoreMediaInfosRightClick"
-		Text="Több lehetőség, a jobb egér gombbal..."
-		/>
-  <Value Id="EditGroupSortByName"
-		Content="Rendezés cím szerint"
-		/>
+		OrderCategory="Újrarendezés"
+		NoticeReorderCategory="Fogd és vidd át a tételeket."/>
+  <Value Id="MoreMediaInfosRightClick" Text="Több lehetőség, a jobb egér gombbal..."/>
+  <Value Id="EditGroupSortByName" Content="Rendezés cím szerint"/>
   <Value Id="SettingsTabFolders"
 		Header="Mappák"
-		AutoScanScrap="Idegen rádióadást figyel tartók, és automatikusan azonosítja az új fájlok"
-		ScrapOnStarWindows="Indítsa el a fájlokat-hoz dob a alkalmazás azonosítása"
-		Folders="A média fájlokat:"
+		AutoScanScrap="Monitor mappák és automatikusan azonosítja az új fájlokat"
+		ScrapOnStarWindows="Indítsa el az azonosítás a fájlok az alkalmazás elindításához"
+		Folders="A média fájlok:"
 		AddFolder="Új mappa"
-		AnalyseTimer="Indítsa el a rendszeres időközönként azonosítása"
+		AnalyseTimer="Kezdje azonosítást rendszeres időközönként"
 		Minutes="a(z) {0} perc"
-		Hours="a(z) {0} óra"
-		/>
+		Hours="a(z) {0} óra"/>
   <Value Id="SettingsTabOthers"
 		Header="Egyéb"
-		SendErrorReport="Automatically send a report in the developers when an error occurs."
-		Recents="Number of days to take into account recent:"
-		/>
+		SendErrorReport="Automatikusan küld egy jelentést a fejlesztőknek, ha hiba lép fel."
+		Recents="Napok száma figyelembe veszi a legújabb:"/>
   <Value Id="SettingsTabScrapers"
 		Header="Scrapers"
 		MovieScraper="Filmek:"
@@ -394,69 +187,60 @@
 		TVShowScraper="Sorozatok:"
 		TVShowPictureScraper="Sorozat képek:"
 		SuppressAllAfterFirstExcludedWordFromTitle="Törölje az összes karakter után az első talált kizárt ciklus"
-		WordToExludeFromMovies="Feltételek kizárandó címeket:"
-		/>
+		WordToExludeFromMovies="Feltételek kizárandó címeket:"/>
   <Value Id="GroupContextState"
-		Seen="Seen"
-		Ongoing="Ongoing"
-		Unseen="Unseen"
-		/>
-  <Value Id="EditSize"
-		Text="Méret"
-		/>
-  <Value Id="Loading"
-		Text="Töltés ..."
-		/>
-  <Value Id="NoTitleFoundToScrap"
-		Text="No corresponding film"
-		/>
+		Seen="Láttam"
+		Ongoing="Folyamatban"
+		Unseen="Nem láttam"/>
+  <Value Id="EditSize" Text="Méret"/>
+  <Value Id="Loading" Text="Töltés ..."/>
+  <Value Id="NoTitleFoundToScrap" Text="Nem megfelelő film"/>
   <Value Id="Prepare_Application"
-		Content="Application Configuration"
+		Content="Alkalmazás konfigurációja"
 		SettingsLoading="Konfiguráció betöltése"
 		ScanningAllFiles="Fájlok szkennelése"
 		DataBaseLoading="Adatbázis betöltése"
-		DataBaseCleanUp="Database cleanup"
-		EnablingFeatureBrowserEmulation="Enabling browser emulation feature."
+		DataBaseCleanUp="Adatbázis rendben"
+		EnablingFeatureBrowserEmulation="Engedélyezése a böngésző emuláció funkció."
 		Header="---"
-		SigningIn="Kapcsolat"
-		/>
+		SigningIn="Kapcsolat"/>
   <Value Id="WizardWelcome"
-		Body="Üdvözlet.[br][br]Ez a varázsló segít konfigurálni a Zappiti-t.[br][br]Click the &quot;Where are your files&quot; button to tell Zappiti where your media files are (Movies, TV Shows, Musics)."
+		Body="Üdvözlöm.[br][br] Ez a varázsló segít az Zappiti konfigurációban[br][br]Kattintson a &quot;Hol vannak a fájlok&quot; gombot, hogy elmondja Zappiti, ahol a média fájlok (filmek, TV műsorok, zene)."
 		Close="Bezár"
 		Header="Beállítás varázsló"
-		AddFiles="Where are your files &gt;&gt;"
+		AddFiles="Hol vannak a fájlok &gt;&gt;"
 		/>
   <Value Id="WizardAddLocalLocation"
 		Name="Helyi mappa hozzáadása"
-		Description="- Internal hard drive of this computer [br] - External hard drive connected to USB / eSata this computer [br] - Hard drive in a docking station connected to this computer via USB / eSata [br] - Dune Drive connected USB Slave to this computer"
+		Description="- Belső merevlemez ezen a számítógépen [br] - Külső merevlemez csatlakoztatott USB / eSata ezen a számítógépen [br] - Merevlemez a dokkoló állomás csatlakozik a számítógéphez USB / eSata [br] - Dune meghajtó csatlakozik USB Slave ehhez a számítógéphez"
 		Header="Helyi mappák"
-		Tips="Tips: You can choose to share these files on your local network, or accessed directly with Dune in the case of USB device."
-		Folders="Local drives / USB Devices"
+		Tips="Tippek: Ön dönt, hogy megosztja ezeket a fájlokat a helyi hálózaton, vagy elérhető közvetlenül Dune esetén USB-eszköz."
+		Folders="Helyi meghajtó / USB-eszközök"
 		/>
   <Value Id="WizardAddNetworkLocation"
 		Name="Hálózati hely hozzáadása"
-		Description="- Internal hard drive of the networked Dune [br] - External Hard of Dune networked [br] - NAS server [br] - Other remote computer on the network [br] - Hálózati megosztott mappa [br] - hálózati meghajtók"
+		Description="- Belső merevlemez a hálózati Dune [br] - Külső hdd of Dune hálózati [br] - NAS server [br] - Egyéb távoli számítógép a hálózaton [br] - Hálózati megosztott mappa [br] - Hálózati meghajtók"
 		Header="Megosztott hálózati mappák, NAS ..."
-		Tips="Tips: You can buy USB, NAS, etc. on the site of HD LAND."
+		Tips="Tippek: Lehet vásárolni USB, NAS, stb az oldalon a HD LAND."
 		Folders="Hálózati helyek"
 		/>
   <Value Id="WizardWhereAreYourFiles"
-		Header="Where are your files?"
-		Body="Select one of the options below to indicate where your media files are."
-		Back="&lt;&lt; Previous"
+		Header="Hol vannak a fájlok?"
+		Body="Válasszon az alábbi lehetőségek közül, hogy jelezze, hol a média fájlok."
+		Back="&lt;&lt; Előző"
 		Close="Bezár"
 		/>
   <Value Id="WizardAddLocation"
-		Body="Drag and drop the folders you want to add to the list on the right."
-		YourFolders="Your files"
-		Next="Next &gt;&gt;"
-		Back="&lt;&lt; Previous"
+		Body="Megfog és áthúz a kijelölt mappákból szeretne hozzáadni a jobb oldali listából."
+		YourFolders="A fájlok"
+		Next="Következő &gt;&gt;"
+		Back="&lt;&lt; Előző"
 		Close="Bezár"
 		/>
   <Value Id="WizardAddAnotherLocation"
 		Header="Másik hely hozzáadása?"
 		Next="Következő &gt;&gt;"
-		YourFolders="Summary of your folders"
+		YourFolders="Összes mappa"
 		Close="Bezár"
 		/>
   <Value Id="FolderDataTemplate"
@@ -465,34 +249,34 @@
 		Error="Ez a mappa nem érhető el."
 		/>
   <Value Id="WizardRewriteLocationUrl"
-		Header="Path selection"
-		Body="Choose the location of this folder where the Dune will have access to it: [br](Please specify where this folder will be placed in the end.)"
-		Back="&lt;&lt; Previous"
-		Next="Next &gt;&gt;"
-		ExternLabel="On an external hard drive connected to the Dune HD"
-		NetworkLabel="On a NAS server, network folder or a shared hard drive of this PC"
-		UnknowLabel="Custom"
+		Header="Elérési út kiválasztása"
+		Body="Válassza ki a helyét ez a mappát, ahol a Dune férhet hozzá: [br](Kérjük, adja meg, ahol ez a mappa kerül a végén.)"
+		Back="&lt;&lt; Előző"
+		Next="Következő &gt;&gt;"
+		ExternLabel="Egy külső merevlemez csatlakozik a Dune HD"
+		NetworkLabel="Egy NAS szerverre, hálózati mappába vagy megosztott merevlemez ennek PC"
+		UnknowLabel="Egyedi"
 		Close="Bezár"
-		InternLabel="On an internal hard disk of the Dune HD"
+		InternLabel="A belső merevlemez a Dune HD"
 		/>
   <Value Id="LocalRewriteUrlEngineView"
-		Body="This folder must be shared on your network to allow access for your Dune."
-		IAccept="I agree to share this folder."
+		Body="Ezt a mappát meg kell osztani a hálózaton, hogy hozzáférjen a Dune."
+		IAccept="Egyetértek, hogy megosszák ezt a mappát."
 		/>
   <Value Id="SettingsHost"
-		Text="Host name / IP :"
+		Text="Host név / IP :"
 		/>
   <Value Id="SettingsPath"
 		Text="Hely :"
 		/>
   <Value Id="WizardConfigureType"
-		Header="Filetypes"
-		Body="What's in this folder?"
-		Movie="Contains films"
-		TVShow="Contains TV shows"
-		Back="&lt;&lt; Previous"
+		Header="Fájltípusok"
+		Body="Mi van ebben a mappában?"
+		Movie="Filmek tartalma"
+		TVShow="TV műsorok tartalma"
+		Back="&lt;&lt; Előző"
 		Close="Bezár"
-		Music="Contains music"
+		Music="Zene tartalma"
 		/>
   <Value Id="Folder"
 		Movie="Filmek"
@@ -501,83 +285,87 @@
 		/>
   <Value Id="Settings"
 		Header="Beállítások"
-		AccountHeader="Számla"
-		LocalServerHeader="Távirányító"
+		AccountHeader="Fiók"
+		LocalServerHeader="Távirányítás"
 		/>
   <Value Id="MpcPlayerConfigView"
-		Download="Download and install MPC - Home Cinema"
-		PlayerPath="Path:"
-		Browse="Browse..."
+		Download="Töltse le és telepítse MPC - Házimozi"
+		PlayerPath="Útvonal:"
+		Browse="Tallózás..."
 		/>
   <Value Id="SettingsTabInterface"
-		Header="Interface"
+		Header="Felület"
 		Language="Nyelv :"
-		Background="egyedi háttér"
-		GlassShow="Show glass effect"
+		Background="Egyedi háttér"
+		GlassShow=" Üveg hatás megjelenítése"
 		ShowHeader="Show cover top front"
 		SeenUnseen="Display watched state"
-		DynamicZoom="Icons with dynamic zoom"
-		SelectionBox="Dynamic contour"
-		Theme="Theme :"
+		DynamicZoom="Ikonok dinamikus zoom"
+		SelectionBox="Dinamikus kontúr"
+		Theme="Téma :"
 		/>
   <Value Id="TaskManagerView"
-		Header="Current jobs"
-		Close="Close"
+		Header="Aktuális munka"
+		Close="Bezár"
 		/>
   <Value Id="PlayTask"
-		Header="Opening a video"
+		Header="Videó megnyitása"
 		/>
   <Value Id="DownloadVcdTask"
-		Header="Download VirtualCloneDrive"
+		Header="Letöltés virtualclonedrive"
 		/>
   <Value Id="InstallVcdTask"
-		Header="Installing VirtualCloneDrive"
+		Header="Telepítése VirtualCloneDrive"
 		/>
   <Value Id="DeleteVcdSetupTask"
-		Header="Remove the installer VirtualCloneDrive"
+		Header="Távolítsa el a telepítő VirtualCloneDrive"
 		/>
   <Value Id="MountTask"
-		Header="Mounting the disk image"
+		Header="A lemez képe"
 		/>
   <Value Id="MountCheckTask"
-		Header="Waiting for the virtual disk"
+		Header="Várakozás a virtuális lemezre"
 		/>
   <Value Id="UnscrapedView"
-		Filename="Filename"
-		Directory="Directory"
-		State="Status"
-		Title="Files to scrape"
-		Close="Zár"
-		ManualScrap="Azonosítása nélkül létrehozása"
+		Filename="Fájl név"
+		Directory="Címtár"
+		State="Állapot"
+		Title="Fájl azonosítása"
+		Close="Bezár"
+		ManualScrap="Azonosítás nélküli létrehozás"
 		Scrap="Azonosítani..."
-		MovieTitle="Adja meg itt a címe a videó létrehozása és testreszabása, még"
+		ScrapAll="Összes azonosítása" 
+        ScrapById="Egyedi azonosító" 
+        ScrapByTitle="Cím azonosítása" 
+        ReleaseDate="Megjelenés dátuma" 
+		MovieTitle="Adja meg a videó címét, létrehozása és testreszabása"
 		/>
   <Value Id="FirstInitFromMovieNfoTask"
-		Header="Initialization movie information"
+		Header="Film információk"
 		/>
   <Value Id="UpdateMainViewModelTask"
-		Header="Refresh of videos posted"
+		Header="Megnyílt a videók frissítése"
 		/>
   <Value Id="MediaToDeleteTask"
-		Header="Check for deleted files"
+		Header="Ellenőrizze a törölt fájlokat"
 		/>
   <Value Id="FirstInitTask"
-		Header="Initialization"
+		Header="Alaphelyzetbe állítás"
 		/>
   <Value Id="ScanTask"
-		Header="Busy scanning"
+		Header="Alapos letapogatás"
 		Analyse="Azonosítja a fájlt: {0}"
 		Scrap="Információkeresés: {0}"
 		Scan="Az új fájlok keresése"
 		/>
   <Value Id="ScanForTVShowEpisodeTask"
-		Header="Finding episode information"
+		Header="Epizód információ keresése"
 		/>
   <Value Id="FirstInitFromTVShowNfoTask"
-		Header="Initialization information in a series"
+		Header="Indítási információkat a sorozatban"
 		/>
   <Value Id="FirstInitFromTVEpisodeNfoTask"
-		Header="Initialization information of an episode"
+		Header="Indítási információkat egy epizódra"
 		/>
   <Value Id="ScanMoviesFolders"
 		Header="Filmek keresése"
@@ -586,12 +374,12 @@
 		Header="Sorozatok keresése"
 		/>
   <Value Id="ExportTypeView"
-		Header="Type of export"
-		RegisterZappitiPlayerLabel="Do you have a Zappiti Player?"
-		RegisterZappitiPlayerButton="Activate now!"
-		RegisterZappitiPlayerSmallLabel="By activating your Zappiti Player, you can also export your music library."
+		Header="Az export típusa"
+		RegisterZappitiPlayerLabel="Neked van egy Zappiti Player?"
+		RegisterZappitiPlayerButton="Aktiválás most!"
+		RegisterZappitiPlayerSmallLabel="Aktiválásával a Zappiti Player, akkor is exportálja a zenei könyvtár."
 		ExportMusic="Export music"
-		Close="Close"
+		Close="Bezár"
 		/>
   <Value Id="FullExportType"
 		Name="Teljes"
@@ -602,62 +390,43 @@
 		Description="Csak a legutóbbi változtatások exportálása."
 		/>
   <Value Id="WizardFinish"
-		Header="Configuration complete"
-		Body="Configuration of Zappiti Media Center is complete."
+		Header="Konfiguráció teljes"
+		Body="Konfigurálása Zappiti Media Center teljes."
 		Close="Bezár"
 		Back="&lt;&lt; Vissza"
 		/>
   <Value Id="WizardConfigureExportDevice"
-		Header="Do you have any devices?"
-		Body="Select the devices you own :"
-		Back="&lt;&lt; Previous"
-		Next="Next &gt;&gt;"
+		Header="Van olyan eszköze?"
+		Body="Válassza ki a saját eszközöket :"
+		Back="&lt;&lt; Előző"
+		Next="Következő &gt;&gt;"
 		Close="Bezár"
 		/>
   <Value Id="WizardConfigureITunesExport"
-		Header="Configuration for iTunes (iPhone / iPad)"
-		Body="Where to export your data?"
-		Back="&lt;&lt; Previous"
-		Next="Next &gt;&gt;"
-		Close="Close"
+		Header="Konfiguráció az iTunes (iPhone / iPad)"
+		Body="Hova lehet exportálni az adatokat?"
+		Back="&lt;&lt; Előző"
+		Next="Következő &gt;&gt;"
+		Close="Bezár"
 		/>
   <Value Id="ContextMenu"
 		GroupTo="Csoport..."
 		ChangePicture="Képcsere..."
 		Delete="Törli"
 		Edit="Szerkeszt ..."
-		Play="Play ..."
-		Reset="Reset"
-		ResetAllCategories="Reset Categories"
+		Play="Lejátszás ..."
+		Reset="Visszaállítás"
+		ResetAllCategories="Kategóriák visszaállítása"
 		ToPlayList="Adja hozzá a listához..."
-		SyncToCloud="Szinkronizál ez-hoz felhő Zappiti"
+		SyncToCloud="Zappiti felhő szinkronizálása"
 		Scrap="Meghatározása az új..."
 		/>
   <Value Id="SubtitleRules"
 		Never="Soha"
 		AlwaysIfPossible="Mindig, ha lehetséges"
-		IfPrimaryAudioNotFound="Only if the preferred audiotrack is unavailable"
+		IfPrimaryAudioNotFound="Csak akkor, ha az elsődleges audiotrack nem érhető el"
 		/>
-  <Value Id="CategoriesMenu"
-		Action="Akció"
-		Sci-Fi="Sci-Fi"
-		Adventure="Kaland"
-		War="Háborús"
-		Western="Western"
-		History="Történelmi"
-		Drama="Dráma"
-		Documentary="Dokumentum"
-		Music="Zene"
-		Romance="Romantikus"
-		Classic="Klasszikus"
-		Animation="Rajzfilm"
-		Crime="Krimi"
-		Thriller="Thriller"
-		Horror="Horror"
-		Comedy="Komédia"
-		Other="Egyéb"
-		Fantasy="Fantasy"
-		/>
+  <Value Id="CategoriesMenu" Action="Akció" Sci-Fi="Sci-Fi" Adventure="Kaland" War="Háborús" Western="Western" History="Történelmi" Drama="Dráma" Documentary="Dokumentum" Music="Zene" Romance="Romantikus" Classic="Klasszikus" Animation="Rajzfilm" Crime="Krimi" Thriller="Thriller" Horror="Horror" Comedy="Komédia" Other="Egyéb" Fantasy="Fantasy" />	
   <Value Id="MediaMenu"
 		Video="VIDEÓ"
 		Music="ZENE"
@@ -665,15 +434,15 @@
 		/>
   <Value Id="FilterMenu"
 		All="ÖSSZES"
-		Ongoing="ONGOING"
-		Seen="SEEN"
-		Unseen="UNSEEN"
+		Ongoing="FOLYAMATBAN"
+		Seen="LÁTTAM"
+		Unseen="NEM LÁTTAM"
 		/>
   <Value Id="SetSeenStateTask"
-		Header="Update watched status."
+		Header="Frissítés figyelése."
 		/>
   <Value Id="HashTask"
-		Header="Updating Hash files."
+		Header="Fájl frissítése."
 		/>
   <Value Id="MovieControl"
 		Runtime="JÁTÉKIDŐ"
@@ -692,13 +461,13 @@
 		/>
   <Value Id="Shared"
 		Browse="Böngészés"
-		Remove="Eltávolítása"
+		Remove="Eltávolítás"
 		Add="Add hozzá"
-		Close="Zár"
-		Choose="Válassza a"
+		Close="Bezár"
+		Choose="Választ"
 		Save="Mentés"
 		Cancel="Mégse"
-		Edit="Szerkesztése"
+		Edit="Szerkesztés"
 		Back="Vissza"
 		/>
   <Value Id="MarketPopup"
@@ -724,16 +493,16 @@
 		Count="Számok :"
 		ReleaseDate="Kiadás :"
 		Runtime="Játékidő :"
-		ToolTipEditPhoto="Ide kattintva módosíthatja a kép"
+		ToolTipEditPhoto="Ide kattintva módosíthatja a képet"
 		/>
   <Value Id="ScanMusicsFolderTask"
 		Header="Zene fájlok keresése"
 		/>
   <Value Id="FirstInitFromMusicNfoTask"
-		Header="Initialization information from a music"
+		Header="Indítási információkat beolvasni a zenei"
 		/>
   <Value Id="ResetCategoriesTask"
-		Header="Reset categories"
+		Header="Kategóriák visszaállítása "
 		/>
   <Value Id="DownloadingPictureTask"
 		Header="Aktuális képek letöltése"
@@ -745,17 +514,17 @@
 		Content="Új album"
 		/>
   <Value Id="LocalServerConfigView"
-		IsControlRunning="Aktiválja a távirányító aljzat."
-		Port="a helyi port használatával"
+		IsControlRunning="A távvezérlés engedélyezése."
+		Port="A helyi port használatával"
 		IsStreamingRunning="Engedélyezi a streaming"
-		Body="Engedélyezi a helyi szerver: [br] - dob video-ra-a PC mellett Zappiti média irányít.[br] - patak a videókat a számítógépről Zappiti média Controlquel anyag, ahol Ön használ ez."
+		Body="Engedélyezze a helyi szerver: [br] - indítsa videókat a számítógépen Zappiti Media Control.[br] - a videókat a számítógéprő Zappiti média Controlquel anyag, ahol Ön használ ez."
 		ServerIsRunning="A szerver fut a port {0}"
 		ServerIsNotRunning="A szerver jelenleg nem aktív."
 		Start="Indítsa el a kiszolgáló"
 		BonjourNotFound="Nem lehet inicializálni a Hello."
 		StopServer="Állítsa le a kiszolgálót"
 		CurrentStreams="Video-adatfolyam"
-		StopStream="állj"
+		StopStream="Állj"
 		DownloadFFMPEG="Töltse le a folyamatos vételt lehetővé tévő modul."
 		ExtractFFMPEG="A folyamatos vételt lehetővé tévő modul elkészítése."
 		DownloadBonjour="Letöltés Hello."
@@ -765,9 +534,9 @@
 		CheckServerFromCloud="Ellenőrzi a kommunikációt a külvilággal."
 		CheckFFMPEG="A folyamatos vételt lehetővé tévő modul ellenőrzése."
 		ExternalIpResult="Külső IP:"
-		Warning="Tud patak sokszoros video egyidejűleg, de a hatalom a számítógép és a sebesség a sávszélesség az adatfolyam minőségét befolyásoló."
-		StartServerFailed="Képtelen-hoz dob a helyi kiszolgálón. Próbálja egy másik kikötőbe."
-		Diagnostic="Diagnózis"
+		Warning="Lehet egyszerre több videó, De a számítógép és a sávszélesség is befolyásolja a streaming."
+		StartServerFailed="Nem lehet elindítani a helyi szerver. Próbálkozzon egy másik porttal."
+		Diagnostic="Diagnosztika"
 		ConfigureNatUPnP="A NAT konfigurálásáról / UPnP."
 		HelpLink="http://zappiti-blog.azurewebsites.net/?p=981"
 		HelpLabel="Kattintson az alábbi linkre, hogy kap segítséget:"
@@ -781,18 +550,18 @@
   <Value Id="WizardDownloadStreamingModule"
 		Header="Letölt a folyamatos vételt lehetővé tévő modul"
 		Next="Következő &amp;gt;"
-		Close="Zár"
+		Close="Bezár"
 		Body="Letöltése folyamatban, kis türelmet..."
 		/>
   <Value Id="WizardInstallStreamingModule"
-		Header="A folyamatos vételt lehetővé tévő modul telepítése"
+		Header="Telepítése a streaming modult"
 		Body="Telepítés folyamatban. várj, kérlek..."
-		Close="Zár"
-		Completed="Gratulálunk a folyamatos vételt lehetővé tévő modul telepítése tartottak sikeresen."
-		Failed="Bevezetés-hoz ismeretlen okból nem sikerült."
+		Close="Bezár"
+		Completed="Gratulálunk a streaming modulmodul a telepítése sikeres volt."
+		Failed="A telepítés nem sikerült ok ismeretlen"
 		/>
   <Value Id="StreamingModuleConfigView"
-		Download="Töltse le és telepítse a folyamatos vételt lehetővé tévő modul"
+		Download="Töltse le, majd telepítse a streaming modut"
 		PlayerPath="Elérési út:"
 		Browse="Tallózás..."
 		/>
@@ -800,7 +569,7 @@
 		Email="A fiók:"
 		Connect="Csatlakozás"
 		Disconnect="Kapcsolat bontása"
-		SendToCloud="Via Zappiti felhő automatikus szinkronizálás engedélyezése."
+		SendToCloud="A Zappiti felhő automatikus szinkronizálás engedélyezése."
 		Refresh="Minden újraszinkronizálása"
 		RefreshText="Használata csak akkor, ha valamit rosszul töltött korábban.[br]Ez a művelet lehetővé teszi, hogy szinkronizálja az adatbázis összes.[br]Ez lehet elég hosszú, attól függően, hogy az adatbázis méretét."
 		Sync="A felhő-szinkronizálás:"
@@ -809,12 +578,12 @@
 		ZMC-DuneHD="Zappiti Media Control for Dune HD"
 		SyncError="A következő elemeket nem sikerült szinkronizálni helyesen:"
 		EventDateTime="Dátum"
-		EventCaption="név"
+		EventCaption="Név"
 		EventMessage="Hibaüzenet jelenik meg"
 		SyncOK="Az utolsó szinkronizálás ({0}) jól ment."
 		ShowError="Részletek"
 		HideError="Vissza"
-		Edit="Szerkesztése"
+		Edit="Szerkesztés"
 		/>
   <Value Id="SignIn"
 		HeaderSignIn="Kapcsolat"
@@ -843,52 +612,52 @@
 		CheckYourConnection="Képtelen-hoz összeköt-hoz Internet."
 		/>
   <Value Id="ResetDeviceList"
-		Header="Felejtsd el az engedélyezett eszközök"
-		Body="A username Zappiti 3 számítógépek társulhat.[BR][BR]Régebben ez a határ, akkor is &quot;felejtsd el a számítógépek&quot; rendelni az új számítógépek-hoz-a számla.[BR][BR]&quot;Elfelejtheti a számítógépek' legfeljebb 2-szer a 6 hónap."
+		Header="Felejtsd el az engedélyezett eszközött"
+		Body="A Zappiti felhasználói név társítható 3 számítógépel.[BR][BR]Régebben ez a határ, akkor is &quot;Felejtsd el a számítógép&quot; Társítani új számítógépet fiókjába.[BR][BR]&quot;Elfelejtheti a számítógépet' legfeljebb 2-szer a 6 hónap."
 		ForgetYourComputers="Felejtsd el a számítógépek"
 		TooMuchReset="Elérte a korlátozott számú reset nullára erre az időszakra."
 		YouHaveToWait="A(z) {0} kell várnia, mielőtt használhatná ezt a funkciót."
-		Days="nap"
+		Days="Nap"
 		/>
   <Value Id="SyncTask"
 		Header="A szinkronizálás folyamatban"
 		DeleteCategoryTask="A Kategória törlése"
 		DeleteItemTask="Elem törlése"
-		DeletePersonTask="Egy személy törlése"
-		UpdatePersonTask="A frissítés egy személy"
-		UpdateMenuTask="Frissítése egy menü"
-		UpdateItemTask="Egy elem frissítése"
-		UpdateCategoriesTask="Kategóriák módosítása"
-		ResetTask="A szinkronizálás kezdete"
+		DeletePersonTask="A személy eltávolítása"
+		UpdatePersonTask="Egy személy frissítése"
+		UpdateMenuTask="A menü frissítése"
+		UpdateItemTask="Az elem frissítése"
+		UpdateCategoriesTask="Kategóriák frissítése"
+		ResetTask="Szinkronizálás indítása"
 		PutPictureTask="Kép küldése"
-		SaveSettingsTask="A konfiguráció biztonsági másolata"
+		SaveSettingsTask="A konfiguráció mentése"
 		/>
   <Value Id="EditAlbum"
-		Header="Szerkesztés album"
-		DetailsAlbumGroupBox="Részletek az album"
+		Header="Album szerkesztése"
+		DetailsAlbumGroupBox="Album részletei"
 		TitleAlbum="Album címe:"
-		DetailsTrackGroupBox="Részletek a pálya"
+		DetailsTrackGroupBox="Szám részletei"
 		Duration="Hossza:"
-		DetailsArtisteGroupBox="Művészek ezen a pályán"
-		DetailsStyleGroupBox="Ez a szám típusú"
-		AddNewArtist="Hozzon létre egy új művész"
-		AddNewStyle="Hozzon létre egy új nemzetség"
+		DetailsArtisteGroupBox="Előadók"
+		DetailsStyleGroupBox="Zenei stílus"
+		AddNewArtist="Új előadó létrehozása"
+		AddNewStyle="Új zenei stílus létrehozása"
 		TitleTrack="Cím:"
 		AlbumPisteOrpheline="Album "
-		ToolTipEditPhoto="Ide kattintva módosíthatja a kép"
+		ToolTipEditPhoto="Ide kattintva módosíthatja a képet"
 		Filename="Fájl:"
-		ArtistPopup="Írja be a nevét a művész szeretne létrehozni."
-		StylePopup="Írja be a nevét a zenei stílust szeretne létrehozni."
+		ArtistPopup="Írja be a nevét ha új elöadó szeretne létrehozni."
+		StylePopup="Írja be a nevét ha új zenei stílust szeretne létrehozni."
 		/>
   <Value Id="MainWindow"
 		DatabaseUpdating="Az adatbázis frissítése..."
-		Home="Haza"
-		Configuration="Konfigurálása"
-		DatabaseBadVersion="A időszerű változat-ból Zappiti nem tudja megnyitni a kijelölt adatbázis. Megpróbál-val egy újabb változat-ból Zappiti."
-		SearchMedias="Szálláshelyek keresése"
-		Loading="Betöltése"
-		About="Körülbelül"
-		Analyse="Azonosítása"
+		Home="Főképernyő"
+		Configuration="Beállítások"
+		DatabaseBadVersion="A jelenlegi Zappiti verzió nem tudja megnyitni a kiválasztott adatbázis. Próbálj meg egy újabb Zappiti verziót.."
+		SearchMedias="Keresés"
+		Loading="Betöltés"
+		About="Rólunk"
+		Analyse="Analizálás"
 		News="Hírek"
 		/>
   <Value Id="EditPlaylist"
@@ -900,13 +669,13 @@
 		Header="Jelenlegi módosítások mentése"
 		/>
   <Value Id="SelectPictureView"
-		Search="Szálláshelyek keresése"
-		Folder="Kabát"
+		Search="Keresés"
+		Folder="Mappa"
 		Background="Háttér"
-		Picture="Viselt"
-		YourQuotaIsOver="A letölthető kvóta túllépése a a lehúzó. Legyen szíves megpróbál újra egy kicsit később."
-		ChooseMedia="Válassza ki a média:"
-		Browse="Válassza ki a lemezről"
+		Picture="Képek"
+		YourQuotaIsOver="A letölthető kvóta túllépése. Legyen szíves megpróbálja újra egy kicsit később."
+		ChooseMedia="Választ:"
+		Browse="Saját kép"
 		/>
   <Value Id="CircularProgressBarPopup"
 		DoNotShow="Ne jelenjen meg."
@@ -914,28 +683,28 @@
 		/>
   <Value Id="TaskBarIcon"
 		RunningInBackground="Zappiti Media Center-hoz kivégez a háttérben.[br]Kattintson ide, hogy újra megjelenítse."
-		Quit="Közel Zappiti Media Center"
+		Quit="Kilépés"
 		FoldersError="Egyes fájlok nem érhetők el. Ide kattintva megtekintheti a részleteket."
 		StreamStarted="a(z) {0} {1} figyel"
 		/>
   <Value Id="AboutView"
-		Donate="Készíts egy adomány!"
+		Donate="Adományozás!"
 		Scraper="Scrapers:"
 		Other="Egyéb:"
 		Links="Hasznos linkek:"
 		/>
   <Value Id="RescrapView"
-		SearchByTitle="Cím azonosítja"
+		SearchByTitle="Cím azonosítása"
 		SearchById="Azonosító meghatározása"
-		Search="Szálláshelyek keresése"
-		Title="Azonosítása"
+		Search="Keresés"
+		Title="Azonosít"
 		/>
   <Value Id="WizardActivateToken"
-		Header="Van egy Zappiti-játékosnak?"
-		Back="&lt;&lt; Korábbi"
+		Header="Van Zappiti lejátszód?"
+		Back="&lt;&lt; Előző"
 		Next="Következő &gt;&gt;"
-		Tips="Ez a kód szerepel általában a számla vagy a csomagjegyzék a Zappiti Media Player. Ha nem találja meg, forduljon a forgalmazóhoz, hogy kap ez."
-		Activate="Aktiválása"
+		Tips="Ez a kód általában jelen van a számlán vagy csomagolására a Zappiti Player. Ha nem találja meg, forduljon a forgalmazóhoz, hogy kap ez."
+		Activate="Aktiválás"
 		ActivateBody="Belép a aktiválás kód (Zappiti lejátszó Token) alul-hoz hatékonnyá tesz a Zappiti-játékosnak. "
 		TooMuchTry="Te túl sokat vizsgálati infructieux. Kérjük, próbálja meg újra a 24 óra."
 		TokenAlreadyInUse="Ezzel a kóddal már használja egy másik fiókba. Kiadta a újrafelhasználása előtt egy másik fiókból."
@@ -945,9 +714,9 @@
   <Value Id="ZappitiPlayerConfigView"
 		Release="Ingyenes"
 		YourTokens="Itt van a lista a fiókjához társított aktiválás kód. Akkor engedje őket újra egy másik fiókkal. Kapni fog egy visszaigazoló e-mailben."
-		Activate="Aktiválása"
-		Body="Belép a aktiválás kód (Zappiti lejátszó Token) ci alul-hoz hatékonnyá tesz a Zappiti-játékosnak. "
-		Congratulation="Felication, a aktiválás kód vették fel."
+		Activate="Aktiválás"
+		Body="Írd ba az aktiválási kódodat így aktiválod a Zappiti Playeredet. "
+		Congratulation="Az aktiválási kódot rögzítették."
 		/>
   <Value Id="DeleteTask"
 		Header="Jelenlegi törlés..."
@@ -957,7 +726,7 @@
 		Identification="Jelenlegi azonosítási..."
 		Identified="Azonosított"
 		Scraping="Információk letöltése..."
-		Scraped="Siker"
+		Scraped="Sikerült"
 		Fail="Azonosítatlan"
 		/>
   <Value Id="StreamInfo"
@@ -966,7 +735,7 @@
 		File="A(z) {0} fájl"
 		/>
   <Value Id="NewsView"
-		Close="Zár"
+		Close="Bezár"
 		Minute="m."
 		Hour="h."
 		Day="d."
@@ -986,11 +755,11 @@
 		ShareButton="Ossza meg ezt a partnert"
 		RemoveShareButton="Már nem osztozik-val a kapcsolatot"
 		EmailColumn="Kapcsolatok"
-		ShareState="Megosztása"
+		ShareState="Megosztás"
 		InvitationSent="Meghívás küldött"
 		ShareAccepted="Megosztott"
 		/>
   <Value Id="SettingsTabShare"
-		Header="Megosztása"
+		Header="Megosztás"
 		/>
 </Dictionary>
