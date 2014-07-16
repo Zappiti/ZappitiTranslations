@@ -993,4 +993,7 @@
   <Value Id="SettingsTabShare"
 		Header="Dela"
 		/>
+  <Value Id="Language"
+		ISO639="swe"
+		/>
 </Dictionary>

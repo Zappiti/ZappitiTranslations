@@ -994,4 +994,7 @@
   <Value Id="SettingsTabShare"
 		Header="Udostępnianie"
 		/>
+  <Value Id="Language"
+		ISO639="pol"
+		/>
 </Dictionary>

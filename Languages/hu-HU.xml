@@ -993,4 +993,7 @@
   <Value Id="SettingsTabShare"
 		Header="Megosztása"
 		/>
+  <Value Id="Language"
+		ISO639="hun"
+		/>
 </Dictionary>

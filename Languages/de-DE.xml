@@ -994,4 +994,7 @@
   <Value Id="SettingsTabShare"
 		Header="Austausch"
 		/>
+  <Value Id="Language"
+		ISO639="ger"
+		/>
 </Dictionary>

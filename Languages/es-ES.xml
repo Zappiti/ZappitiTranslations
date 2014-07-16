@@ -993,4 +993,7 @@
   <Value Id="SettingsTabShare"
 		Header="Compartir"
 		/>
+  <Value Id="Language"
+		ISO639="spa"
+		/>
 </Dictionary>

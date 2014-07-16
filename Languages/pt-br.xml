@@ -994,4 +994,7 @@
   <Value Id="SettingsTabShare"
 		Header="Partilha"
 		/>
+  <Value Id="Language"
+		ISO639="pob"
+		/>
 </Dictionary>

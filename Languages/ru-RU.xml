@@ -998,4 +998,7 @@
   <Value Id="SettingsTabShare"
 		Header="Совместное использование"
 		/>
+  <Value Id="Language"
+		ISO639="rus"
+		/>
 </Dictionary>

@@ -994,4 +994,7 @@
   <Value Id="SettingsTabShare"
 		Header="Delen"
 		/>
+  <Value Id="Language"
+		ISO639="dut"
+		/>
 </Dictionary>

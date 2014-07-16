@@ -994,4 +994,7 @@
   <Value Id="SettingsTabShare"
 		Header="Delitev"
 		/>
+  <Value Id="Language"
+		ISO639="slv"
+		/>
 </Dictionary>
