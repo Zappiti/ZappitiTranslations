@@ -15,6 +15,7 @@
 	  <Keyword lang="pt-BR">Ação</Keyword>
     <Keyword lang="sv">Action</Keyword>
     <Keyword lang="sl">Akcijski</Keyword>
+    <Keyword lang="zh">動作</Keyword>	
   </Category>
   <Category Name="CategorySci-Fi" Icon="SpaceShip">
     <Keyword lang="en">Sci-Fi</Keyword>
@@ -36,6 +37,7 @@
     <Keyword lang="pt-BR">Ficção Científica</Keyword>
     <Keyword lang="sv">Sci-Fi</Keyword>
     <Keyword lang="sl">Sci-Fi</Keyword>
+    <Keyword lang="zh">科幻</Keyword>	
   </Category>
   <Category Name="CategoryFantastique" Icon="Unicorn">
     <Keyword lang="en">Fantasy</Keyword>
@@ -51,6 +53,7 @@
     <Keyword lang="pt-BR">Fantasia</Keyword>
     <Keyword lang="sv">Fantasi</Keyword>
     <Keyword lang="sl">Fantazijski</Keyword>
+    <Keyword lang="zh">奇幻</Keyword>	
   </Category>
   <Category Name="CategoryAdventure" Icon="Indiana">
     <Keyword lang="de">Abenteuer</Keyword>
@@ -67,6 +70,7 @@
     <Keyword lang="pt-BR">Aventura</Keyword>
     <Keyword lang="sv">Äventyr</Keyword>
     <Keyword lang="sl">Avanturni</Keyword>
+    <Keyword lang="zh">冒險</Keyword>	
   </Category>
   <Category Name="CategoryWar" Icon="Tank">
     <Keyword lang="de">Kriegsfilm</Keyword>
@@ -82,6 +86,7 @@
     <Keyword lang="pt-BR">Guerra</Keyword>
     <Keyword lang="sv">Krig</Keyword>
     <Keyword lang="sl">Vojni</Keyword>
+    <Keyword lang="zh">戰爭</Keyword>	
   </Category>
   <Category Name="CategoryWestern" Icon="Sherif">
     <Keyword lang="fr">Western</Keyword>
@@ -97,6 +102,7 @@
 	  <Keyword lang="pt-BR">Faroeste</Keyword>
     <Keyword lang="sv">Western</Keyword>
     <Keyword lang="sl">Western</Keyword>
+    <Keyword lang="zh">西部</Keyword>	
   </Category>
   <Category Name="CategoryHistory" Icon="Tower">
     <Keyword lang="de">Geschichte</Keyword>
@@ -114,6 +120,7 @@
 	  <Keyword lang="pt-BR">História</Keyword>
     <Keyword lang="sv">Historia</Keyword>
     <Keyword lang="sl">Zgodovinski</Keyword>
+    <Keyword lang="zh">歷史</Keyword>	
   </Category>
   <Category Name="CategoryDrama" Icon="Masks">
     <Keyword lang="de">Drama</Keyword>
@@ -130,6 +137,7 @@
     <Keyword lang="pt-BR">Drama</Keyword>
     <Keyword lang="sv">Drama</Keyword>
     <Keyword lang="sl">Drama</Keyword>
+    <Keyword lang="zh">劇情</Keyword>	
   </Category>
   <Category Name="CategoryDocumentary" Icon="Coconut">
     <Keyword lang="de">Dokumentar</Keyword>
@@ -145,6 +153,7 @@
     <Keyword lang="pt-BR">Documentário</Keyword>
     <Keyword lang="sv">Dokumentär</Keyword>
     <Keyword lang="sl">Dokumentarni</Keyword>
+    <Keyword lang="zh">紀錄</Keyword>	
   </Category>
   <Category Name="CategoryMusic" Icon="Music">
     <Keyword lang="de">Musik</Keyword>
@@ -160,6 +169,7 @@
 	  <Keyword lang="pt-BR">Música</Keyword>
     <Keyword lang="sv">Musik</Keyword>
     <Keyword lang="sl">Glasbeni</Keyword>
+    <Keyword lang="zh">歌舞</Keyword>	
   </Category>
   <Category Name="CategoryRomance" Icon="BrokenHeart">
     <Keyword lang="de">Romantik</Keyword>
@@ -175,6 +185,7 @@
     <Keyword lang="pt-BR">Romance</Keyword>
     <Keyword lang="sv">Romantik</Keyword>
     <Keyword lang="sl">Romantični</Keyword>
+    <Keyword lang="zh">愛情文藝</Keyword>	
   </Category>
   <Category Name="CategoryClassic" Icon="Chaplin">
     <Keyword lang="de">Klassiker</Keyword>
@@ -190,6 +201,7 @@
 	  <Keyword lang="pt-BR">Classic</Keyword>
     <Keyword lang="sv">Klassiker</Keyword>
     <Keyword lang="sl">Klasični</Keyword>
+    <Keyword lang="zh">經典</Keyword>	
   </Category>
   <Category Name="CategoryAnimation" Icon="MickeyMouse">
     <Keyword lang="de">Animation</Keyword>
@@ -205,6 +217,7 @@
     <Keyword lang="pt-BR">Animação</Keyword>
     <Keyword lang="sv">Tecknat</Keyword>
     <Keyword lang="sl">Animacijski</Keyword>
+    <Keyword lang="zh">動畫</Keyword>	
   </Category>
   <Category Name="CategoryCrime" Icon="Gun">
     <Keyword lang="de">Krimi</Keyword>
@@ -222,6 +235,7 @@
     <Keyword lang="pt-BR">Crime</Keyword>
     <Keyword lang="sv">Kriminalare</Keyword>
     <Keyword lang="sl">Kriminalke</Keyword>
+    <Keyword lang="zh">犯罪</Keyword>	
   </Category>
   <Category Name="CategoryThriller" Icon="Scream">
     <Keyword lang="de">Thriller</Keyword>
@@ -237,6 +251,7 @@
 	  <Keyword lang="pt-BR">Thriller</Keyword>
     <Keyword lang="sv">Thriller</Keyword>
     <Keyword lang="sl">Thriller</Keyword>
+    <Keyword lang="zh">驚悚</Keyword>	
   </Category>
   <Category Name="CategoryHorror" Icon="Murderer">
     <Keyword lang="de">Horror</Keyword>
@@ -255,6 +270,7 @@
     <Keyword lang="pt-BR">Terror</Keyword>
     <Keyword lang="sv">Skräck</Keyword>
     <Keyword lang="sl">Horror</Keyword>
+    <Keyword lang="zh">恐怖</Keyword>	
   </Category>
   <Category Name="CategoryComedy" Icon="Smiley">
     <Keyword lang="de">Komödie</Keyword>
@@ -271,6 +287,7 @@
     <Keyword lang="pt-BR">Comédia</Keyword>
     <Keyword lang="sv">Komedi</Keyword>
     <Keyword lang="sl">Komedija</Keyword>
+    <Keyword lang="zh">喜劇</Keyword>	
   </Category>
   <Category Name="CategoryOther" Icon="Others">
     <Keyword lang="de">Andere</Keyword>
@@ -286,6 +303,7 @@
 	  <Keyword lang="pt-BR">Outros</Keyword>
     <Keyword lang="sv">Övrigt</Keyword>
     <Keyword lang="sl">Ostali</Keyword>
+    <Keyword lang="zh">其它</Keyword>	
     <Keyword lang="--">[Others]</Keyword>
   </Category>
 </Catgories>
