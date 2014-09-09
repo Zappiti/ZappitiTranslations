@@ -538,7 +538,7 @@
 		StartServerFailed="Nelze spustit na místním serveru. Zkuste to s jiným portem."
 		Diagnostic="Diagnóza"
 		ConfigureNatUPnP="Konfigurace NAT / UPnP."
-		HelpLink="http://zappiti-blog.azurewebsites.net/?p=981"
+		HelpLink="http://news.zappiti.com/?p=981"
 		HelpLabel="Klepněte na odkaz získat pomoc:"
 		CheckFirewall="Ověření firewall okna"
 		RestartAsAdmin="Chcete-li restartovat Zappiti jako správce a zkuste změnit nastavení brány firewall."

@@ -538,7 +538,7 @@
 		StartServerFailed="Det gick inte att starta den lokala servern. Försök med en annan port."
 		Diagnostic="Diagnos"
 		ConfigureNatUPnP="Konfigurera NAT / UPnP."
-		HelpLink="http://zappiti-blog.azurewebsites.net/?p=981"
+		HelpLink="http://news.zappiti.com/?p=981"
 		HelpLabel="Klicka på länken nedan för att få hjälp:"
 		CheckFirewall="Kontroll av brandväggen fönster"
 		RestartAsAdmin="Klicka här för att starta om Zappiti som administratör och prova att ändra brandväggsinställningarna."

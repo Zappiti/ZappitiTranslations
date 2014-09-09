@@ -539,7 +539,7 @@
 		StartServerFailed="Začetek lokalnega strežnika ni mogoče. Poskusite z drugo pristanišče."
 		Diagnostic="Diagnozo"
 		ConfigureNatUPnP="Konfiguriranje NAT / UPnP."
-		HelpLink="http://zappiti-blog.azurewebsites.net/?p=981"
+		HelpLink="http://news.zappiti.com/?p=981"
 		HelpLabel="Kliknite na spodnjo povezavo, da dobite pomoč:"
 		CheckFirewall="Preverjanje požarni zid okno"
 		RestartAsAdmin="Kliknite tukaj, če želite znova zagnati Zappiti kot skrbnik in poskusite spremeniti nastavitve požarnega zidu."

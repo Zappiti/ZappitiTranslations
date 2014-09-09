@@ -769,7 +769,7 @@
 		StartServerFailed="Képtelen-hoz dob a helyi kiszolgálón. Próbálja egy másik kikötőbe."
 		Diagnostic="Diagnózis"
 		ConfigureNatUPnP="A NAT konfigurálásáról / UPnP."
-		HelpLink="http://zappiti-blog.azurewebsites.net/?p=981"
+		HelpLink="http://news.zappiti.com/?p=981"
 		HelpLabel="Kattintson az alábbi linkre, hogy kap segítséget:"
 		CheckFirewall="A tűzfal ablak vizsgálata"
 		RestartAsAdmin="Kattintson ide, hogy indítsa újra a Zappiti a rendszergazda, és próbálja meg módosítani a tűzfalbeállításokat."

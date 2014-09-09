@@ -538,7 +538,7 @@
 		StartServerFailed="Não é possível iniciar o servidor local. Tente com outra porta."
 		Diagnostic="Diagnóstico"
 		ConfigureNatUPnP="Configurando o NAT / UPnP."
-		HelpLink="http://zappiti-blog.azurewebsites.net/?p=981"
+		HelpLink="http://news.zappiti.com/?p=981"
 		HelpLabel="Clique no link abaixo para obter ajuda:"
 		CheckFirewall="Verificação do firewall janela"
 		RestartAsAdmin="Clique aqui para reiniciar o Zappiti como administrador e tente alterar as configurações de firewall."

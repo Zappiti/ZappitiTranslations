@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"
 		encoding="utf-8"?>
 <Dictionary EnglishName="Chinese"
-		CultureName="zh-CN">
+		CultureName="zh-Hant">
   <Value Id="SettingsTabValidation"
 		Header="驗證"
 		/>
@@ -538,7 +538,7 @@
 		StartServerFailed="無法啟動本地服務器。嘗試另一個端口。"
 		Diagnostic="診斷"
 		ConfigureNatUPnP="配置 NAT / UPnP。"
-		HelpLink="http://zappiti-blog.azurewebsites.net/?p=981"
+		HelpLink="http://news.zappiti.com/?p=981"
 		HelpLabel="請點擊下面連結以尋求幫助："
 		CheckFirewall="檢查防火牆"
 		RestartAsAdmin="若要重新啟動 Zappiti 作為管理員，請嘗試更改防火墙設置，請點擊此處。"

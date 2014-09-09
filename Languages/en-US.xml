@@ -538,7 +538,7 @@
 		StartServerFailed="Unable to launch the local server. Try with another port."
 		Diagnostic="Diagnosis"
 		ConfigureNatUPnP="Configuring NAT / UPnP."
-		HelpLink="http://zappiti-blog.azurewebsites.net/?p=981"
+		HelpLink="http://news.zappiti.com/?p=981"
 		HelpLabel="Click on the link below to get help:"
 		CheckFirewall="Verification of the Window Firewall "
 		RestartAsAdmin="Click here to restart Zappiti as an administrator and try changing the firewall settings."

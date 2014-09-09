@@ -543,7 +543,7 @@
 		StartServerFailed="Не удается запустить локальный сервер. Попробуйте с другой порт."
 		Diagnostic="Диагностика"
 		ConfigureNatUPnP="Настройка UNAT / PnP."
-		HelpLink="http://zappiti-blog.azurewebsites.net/?p=981"
+		HelpLink="http://news.zappiti.com/?p=981"
 		HelpLabel="Нажмите на ссылку ниже, чтобы получить помощь:"
 		CheckFirewall="Проверка межсетевого экрана окно"
 		RestartAsAdmin="Нажмите здесь, чтобы перезагрузить Zappiti с правами администратора и попробуйте изменить параметры брандмауэра."

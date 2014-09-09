@@ -539,7 +539,7 @@
 		StartServerFailed="Impossibile avviare il server locale. Provare con un'altra porta."
 		Diagnostic="Diagnosi"
 		ConfigureNatUPnP="Configurazione NAT / UPnP."
-		HelpLink="http://zappiti-blog.azurewebsites.net/?p=1001"
+		HelpLink="http://news.zappiti.com/?p=1001"
 		HelpLabel="Clicca sul link qui sotto per ottenere aiuto:"
 		CheckFirewall="Verifica del firewall finestra"
 		RestartAsAdmin="Clicca qui per riavviare Zappiti come amministratore e provare a cambiare le impostazioni del firewall."
