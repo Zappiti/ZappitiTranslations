@@ -1,6 +1,8 @@
 Translations for Zappiti coming version (v3.1)
 ===================
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d1e3f71a6d704333815cefb8901be27f)](https://www.codacy.com/app/Filimindji/ZappitiTranslations?utm_source=github.com&utm_medium=referral&utm_content=Zappiti/ZappitiTranslations&utm_campaign=badger)
+
 Hi everyone,
 
 Many people asked me how they can help to translate Zappiti. So I just created a git repository for them.
